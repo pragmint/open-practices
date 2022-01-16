@@ -10,7 +10,6 @@ We chose to make this a git repository so that the community could challenge our
 
 ### Create systems that are inexpensive to change
   - [Separate concerns](https://github.com/pragmint/best-practices/blob/main/inexpensive-change/separate-concerns.md)
-  - [Favor reusable/configurable abstractions](https://github.com/pragmint/best-practices/blob/main/inexpensive-change/resusable-abstractions.md)
   - [Track changes in version control](https://github.com/pragmint/best-practices/blob/main/inexpensive-change/version-control.md)
   - [Make frequent and small improvements](https://github.com/pragmint/best-practices/blob/main/inexpensive-change/incremental-change.md)
   - [State should be observable and easy to reproduce](https://github.com/pragmint/best-practices/blob/main/inexpensive-change/observability.md)
