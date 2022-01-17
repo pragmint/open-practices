@@ -16,7 +16,7 @@ We chose to make this a git repository so that the community could challenge our
 - [State should be observable and easy to reproduce](https://github.com/pragmint/best-practices/blob/main/inexpensive-change/observability.md)
 - [Systems should be resilient to failure](https://github.com/pragmint/best-practices/blob/main/inexpensive-change/resiliency.md)
 - [Automate tedious, yet important tasks](https://github.com/pragmint/best-practices/blob/main/inexpensive-change/automation.md)
-- [Favor being explicit over being implicit](https://github.com/pragmint/best-practices/blob/main/inexpensive-change/explicit-over-implicit.md)
+- [Make your code easy to follow](https://github.com/pragmint/best-practices/blob/main/inexpensive-change/easy-to-follow.md)
 
 ### Create alignment amongst the team and stakeholders
 
