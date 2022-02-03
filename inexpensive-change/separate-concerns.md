@@ -6,7 +6,7 @@ This strategy applies the same at the code level as it does the architectural le
 
 ### Encapsulation
 
-- [Code exmamples on how to manage complexity with encapsulation](https://8thlight.com/blog/kevin-buchanan/2014/11/04/mistaking-encapsulation-for-abstraction.html)
+- [Code examples on how to manage complexity with encapsulation](https://8thlight.com/blog/kevin-buchanan/2014/11/04/mistaking-encapsulation-for-abstraction.html)
 - [Encapsulating behavior](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_32)
 
 #### Law of Demeter
