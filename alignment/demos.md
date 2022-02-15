@@ -1,3 +1,7 @@
-# Under Construction
+# Don't Just Talk About Progress, Show it in Action
 
-We aim to fill out every section with background and supporting resources. The scope of this resource is large. As such, it will take some time to fill out each section. In the meantime, feel free to make a [contribution](https://github.com/pragmint/best-practices#contributing) of your own.
+Even if a chunk of work isn't user facing, there should be an attempt to demo the new changes. This invites feedback and makes it crystal clear to the whole team what specific decisions have been made. This creates a clear shared context, which will benefit the entire team going forward.
+
+## Resources
+
+- [Quick tips on hosting a good demo](https://agileforall.com/how-to-give-a-great-sprint-demo/)

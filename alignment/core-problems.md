@@ -1,3 +1,9 @@
-# Under Construction
+# Understand the Core Problems and Systems
 
-We aim to fill out every section with background and supporting resources. The scope of this resource is large. As such, it will take some time to fill out each section. In the meantime, feel free to make a [contribution](https://github.com/pragmint/best-practices#contributing) of your own.
+Good decision making is rooted in a deep understanding of the surrounding context. When making architectural decisions, it's helpful to understand what requirements are likely to remain constant and which ones are likely to evolve. This is just as true at the system level as it is at the code level. Every member of the development team should be armed with a strong understanding of the core set of problems that the software is attempting to solve for.
+
+## Resources
+
+- [Hammock Driven Development](https://www.youtube.com/watch?v=f84n5oFoZBc)
+- [You need to dig deep with customers](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_97)
+- [Creating lasting interfaces](https://www.youtube.com/watch?v=oyLBGkS5ICk)

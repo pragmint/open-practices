@@ -24,6 +24,7 @@ We chose to make this a git repository so that the community could challenge our
 - [Make time to help others](https://github.com/pragmint/best-practices/blob/main/relationships/help-others.md)
 - [Understand how to work effectively with people who have different values or personality traits](https://github.com/pragmint/best-practices/blob/main/relationships/working-with-others.md)
 - [Don't shy away from difficult conversations](https://github.com/pragmint/best-practices/blob/main/relationships/difficult-conversations.md)
+- [Work as a team to solve problems](https://github.com/pragmint/best-practices/blob/main/relationships/teamwork.md)
 
 ### Always ask yourself what you could be doing better
 
@@ -35,8 +36,6 @@ We chose to make this a git repository so that the community could challenge our
 ### Create alignment amongst the team and stakeholders
 
 - [Understand the core problems and systems](https://github.com/pragmint/best-practices/blob/main/alignment/core-problems.md)
-- [Work as a team to solve problems](https://github.com/pragmint/best-practices/blob/main/alignment/teamwork.md)
-- [Document norm-ed values and behaviors](https://github.com/pragmint/best-practices/blob/main/alignment/norming.md)
-- [Make honest and clear estimations](https://github.com/pragmint/best-practices/blob/main/alignment/estimations.md)
-- [Have a clear definition of done](https://github.com/pragmint/best-practices/blob/main/alignment/definition-of-done.md)
+- [Create an honest and clear understanding of progress amongst stakeholders](https://github.com/pragmint/best-practices/blob/main/alignment/estimations.md)
+- [Make the implicit explicit where practical](https://github.com/pragmint/best-practices/blob/main/alignment/make-implicit-explicit.md)
 - [Don't just talk about progress, show it in action](https://github.com/pragmint/best-practices/blob/main/alignment/demos.md)
