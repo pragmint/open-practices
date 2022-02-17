@@ -16,6 +16,7 @@ When writing code, it's important to make it easy for future readers of that cod
 
 ### Simplicity
 
+- [Four rules of simple design book by Corey Haines](https://leanpub.com/4rulesofsimpledesign)
 - [Simple Made Easy talk by Rich Hickey](https://www.youtube.com/watch?v=SxdOUGdseq4)
 - [How functional programming patterns can simplify code](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_02)
 - [Make side effects explicit](https://8thlight.com/blog/dave-moore/2014/07/25/abstraction.html)

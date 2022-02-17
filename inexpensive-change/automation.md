@@ -1,4 +1,4 @@
-# Automate tedious, yet important tasks
+# Automate Tedious, Yet Important Tasks
 
 It should be a goal to focus on creative problem solving as much as is possible. With the help of automation, important yet routine tasks can be completed without any team members having to think about it. Computers are faster and more accurate at simple tasks. Leveraging automation can increase the effectiveness of software teams when done correctly.
 
