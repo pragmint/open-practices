@@ -30,6 +30,7 @@ This strategy applies the same at the code level as it does the architectural le
 - Drawbacks of reuse [perspective 1](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_07) and [perspective 2](http://www.bennorthrop.com/Essays/2018/the-reality-of-reuse.php)
 - [DRY](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_30)
 - [DRY can uncover performance bottlenecks](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_91)
+- [CUPID - How properties can be more useful than principles](https://dannorth.net/2022/02/10/cupid-for-joyful-coding/)
 
 #### Open / Closed Principle
 

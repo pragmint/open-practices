@@ -13,6 +13,7 @@ When writing code, it's important to make it easy for future readers of that cod
 - [Enforce and automate coding standards](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_04)
 - [Formatting code](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_13)
 - [Easy to use interfaces](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_55)
+- [Writing skills should be intentionally developed](https://newsletter.pragmaticengineer.com/p/becoming-a-better-writer)
 
 ### Simplicity
 

@@ -7,3 +7,4 @@ Good decision making is rooted in a deep understanding of the surrounding contex
 - [Hammock Driven Development](https://www.youtube.com/watch?v=f84n5oFoZBc)
 - [You need to dig deep with customers](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_97)
 - [Creating lasting interfaces](https://www.youtube.com/watch?v=oyLBGkS5ICk)
+- [Dogfood your solutions](https://medium.com/agileinsider/dogfooding-a-simple-practice-to-help-you-build-better-products-b5954af4d5f7)
