@@ -18,5 +18,7 @@ User stories help developers understand what work they need to complete. All too
 
 What is the "right" thing to do? This is a question that people ask themselves every day. Part of that decision making is informed by each individual's experiences and world-view. However a significant part of that decision making is also informed by what the expectations are of the organization or team that individual is apart of. Unless of course those expectations aren't made clear.
 
+A company's culture is made up of the behaviors that each team member exhibits. So if you want to influence the culture of a team or organization, it is beneficial to inspect the behaviors and attempt to influence them by documenting expectations.
+
 - [How documenting behaviors helps further understanding of underlying values](https://culturewise.com/blog/who-cares-what-you-believe/)
 - [The Drucker Exercise](https://agilewarrior.wordpress.com/2009/11/27/the-drucker-exercise/)

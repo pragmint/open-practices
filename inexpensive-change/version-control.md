@@ -11,3 +11,4 @@ Version control tools allow developers to create checkpoints that serve many imp
 - [Staying disciplined with your git history](https://8thlight.com/blog/makis-otman/2015/07/08/git-disciplined.html)
 - [Intro to Trunk Based Development](https://www.youtube.com/watch?v=lqRQYEHAtpk)
 - [Codify your infrastructure so it can also be version controlled](https://dzone.com/articles/secure-terraform-delivery-pipeline-best-practices)
+- [Don't store sensitive information in widely accessible version control](https://12factor.net/config)
