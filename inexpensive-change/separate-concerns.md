@@ -1,4 +1,4 @@
-# Separation of Concerns
+# Separate Concerns
 
 This strategy applies the same at the code level as it does the architectural level. By organizing systems into simple and well encapsulated abstractions, the overall complexity of those systems can be reduced.
 

@@ -1,6 +1,6 @@
 # Best Practices
 
-This repo is a curated collection of concepts and resources that outlines what Pragmint's view of best practices are when building software. Because best practices are often referenced as a nebulous concept, we wanted to break it down more specifically, so that (1) people know how we approach building software and (2) as a community we can learn from each other about what it means to build world class software. We've organized our thoughts into high level [strategies](https://github.com/pragmint/best-practices#strategies). Each strategy links to a page that further details the strategy and lists related low level tactics that are in support of the strategy.
+This repo is a curated collection of concepts and resources that outlines what Pragmint's view of best practices are when building software. Because best practices are often referenced as a nebulous concept, we wanted to break it down more specifically, so that (1) people know how we approach building software and (2) as a community we can learn from each other about what it means to build world class software. We've organized our thoughts into high level [strategies](https://github.com/pragmint/best-practices#strategies). Each strategy links to a page that further details the strategy and lists related low level tactics and resources that are in support of the strategy.
 
 ## Contributing
 
@@ -30,7 +30,6 @@ We chose to make this a git repository so that the community could challenge our
 
 - [Always ask what you could do differently](https://github.com/pragmint/best-practices/blob/main/ownership/introspection.md)
 - [Commit to always learning](https://github.com/pragmint/best-practices/blob/main/ownership/learning.md)
-- [Seek to understand before being understood](https://github.com/pragmint/best-practices/blob/main/ownership/seek-perspective.md)
 - [Identify and challenge your biases and self-limiting beliefs](https://github.com/pragmint/best-practices/blob/main/ownership/biases-and-self-limiting-beliefs.md)
 
 ### Create alignment amongst the team and stakeholders

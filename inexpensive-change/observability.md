@@ -1,4 +1,4 @@
-# State should be observable and easy to reproduce
+# State Should Be Observable and Easy to Reproduce
 
 Any meaningfully complex system will eventually suffer from defects. While it is good to attempt to minimize the frequency of issues ([Change Failure Rate](https://cloud.google.com/blog/products/devops-sre/using-the-four-keys-to-measure-your-devops-performance)), it is more important to minimize the duration of issues. This measurement is called [Mean Time To Restore](https://cloud.google.com/blog/products/devops-sre/using-the-four-keys-to-measure-your-devops-performance) (MTTR for short).
 
