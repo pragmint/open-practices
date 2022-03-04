@@ -21,8 +21,6 @@ We chose to make this a git repository so that the community could challenge our
 ### Purposefully build strong relationships to foster effective communication
 
 - [Make it fun](https://github.com/pragmint/best-practices/blob/main/relationships/make-it-fun.md)
-- [Make time to help others](https://github.com/pragmint/best-practices/blob/main/relationships/help-others.md)
-- [Understand how to work effectively with people who have different values or personality traits](https://github.com/pragmint/best-practices/blob/main/relationships/working-with-others.md)
 - [Don't shy away from difficult conversations](https://github.com/pragmint/best-practices/blob/main/relationships/difficult-conversations.md)
 - [Work as a team to solve problems](https://github.com/pragmint/best-practices/blob/main/relationships/teamwork.md)
 
