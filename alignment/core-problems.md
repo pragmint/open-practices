@@ -9,4 +9,6 @@ Good decision making is rooted in a deep understanding of the surrounding contex
 - [Creating lasting interfaces](https://www.youtube.com/watch?v=oyLBGkS5ICk)
 - [Dogfood your solutions](https://medium.com/agileinsider/dogfooding-a-simple-practice-to-help-you-build-better-products-b5954af4d5f7)
 - [Understand how a development task supports the creation of customer value](https://cloud.google.com/architecture/devops/devops-process-work-visibility-in-value-stream)
+- [Creating value and flow in product development](https://www.youtube.com/watch?v=NGdx-f-aGXs)
 - [Gather customer feedback](https://cloud.google.com/architecture/devops/devops-process-customer-feedback)
+- [Signs you're working in a feature factory](https://cutle.fish/blog/12-signs-youre-working-in-a-feature-factory)
