@@ -4,6 +4,9 @@ As you make changes to any software system, it is valuable to have a lot of chec
 
 ## Resources
 
+- [Limit Work In Process (WIP)](https://cloud.google.com/architecture/devops/devops-measurement-wip-limits)
+- [Work in small batches](https://cloud.google.com/architecture/devops/devops-process-working-in-small-batches)
+
 ### Refactoring
 
 As it relates to refactoring, it is important to challenge yourself to make changes in small increments. If you break something without realizing it, then continue to pile on changes, it becomes difficult to figure out what exact change broke the system.
@@ -21,4 +24,5 @@ When you break a problem into small steps, you create a lot of seams for feedbac
 - [Introduction to the concept of fast feedback loops and its benefits](https://medium.com/@lucamezzalira/the-power-of-feedback-loops-f8e27e8ac25f)
 - [Break down the problem into steps](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_47)
 - [An argument against PRs](https://www.youtube.com/watch?v=ZlLZEQQBcFg)
+- [Steamline change approval](https://cloud.google.com/architecture/devops/devops-process-streamlining-change-approval)
 - [Keep build noise down](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_42)

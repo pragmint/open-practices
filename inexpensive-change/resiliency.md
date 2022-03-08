@@ -18,3 +18,4 @@ Failures can create hard to detect security vulnerabilities. It's important to u
 
 - Understand the [OWASP Top 10](https://owasp.org/www-project-top-ten/) and get some [hands-on experience with those exploits](https://github.com/digininja/DVWA) in a safe environment
 - [Defense in depth](https://medium.datadriveninvestor.com/defense-in-depth-d6c070eac12d)
+- [Shift left on security](https://cloud.google.com/architecture/devops/devops-tech-shifting-left-on-security)

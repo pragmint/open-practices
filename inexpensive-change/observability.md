@@ -10,3 +10,5 @@ In order to manage MTTR effectively, development teams need to know when their s
 - [Basic logging best practices](https://dev.to/raysaltrelli/logging-best-practices-obo)
 - [Overview of how to build observable distributed systems](https://www.youtube.com/watch?v=ACL_YVPD3gw)
 - [Make it easy to spin up ephemeral environments](https://webapp.io/blog/what-is-an-ephemeral-environment/)
+- [Test data should be readily available](https://cloud.google.com/architecture/devops/devops-tech-test-data-management)
+- [Measure](https://cloud.google.com/architecture/devops/devops-measurement-monitoring-and-observability) and [proactively alert](https://cloud.google.com/architecture/devops/devops-measurement-proactive-failure-notification) on failures

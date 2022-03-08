@@ -9,3 +9,5 @@ Opportunities to learn are all around you. If you keep an open mind, you'll find
 - [Avenues of continuous learning](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_18)
 - [Invest in durable knowledge](http://www.bennorthrop.com/Essays/2016/reflections-of-an-old-programmer.php)
 - [Empathetic listening](https://www.youtube.com/watch?v=h4G0a6FrygA)
+- [Create a learning culture](https://cloud.google.com/architecture/devops/devops-culture-learning-culture)
+- [Foster a generative culture](https://cloud.google.com/architecture/devops/devops-culture-westrum-organizational-culture)

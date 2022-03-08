@@ -4,7 +4,7 @@ Version control tools allow developers to create checkpoints that serve many imp
 
 ## Resources
 
-- [Intro](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_68)
+- [Intro](https://cloud.google.com/architecture/devops/devops-tech-version-control)
 - [Don't make new versions of code for production](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_61)
 - [Perceived Barriers to Trunk Based Development](https://www.davefarley.net/?p=269)
 - [Keep a clean git history](https://simplabs.com/blog/2021/05/26/keeping-a-clean-git-history/)

@@ -1,6 +1,6 @@
 # Easy to Follow
 
-When writing code, it's important to make it easy for future readers of that code to follow along. It takes X amount of time to write a line of code. Yet a greater than X amount of time will be spent (likely by many) in the future reading that line of code. Likely the code you write will have to change in the future. If that code is easy to understand, it will be easier to change and thus be more maintainable.
+When writing code, it's important to make it easy for future readers of that code to follow along. It takes X amount of time to write a line of code. Yet a greater than X amount of time will be spent (likely by many) in the future reading that line of code. Likely the code you write will have to change (or at least be understood by others) in the future. If that code is easy to understand, it will be easier to change and thus be more maintainable. DORA did a great job outlining the [benefits of having code that's easy to follow](https://cloud.google.com/architecture/devops/devops-tech-code-maintainability).
 
 ## Resources
 

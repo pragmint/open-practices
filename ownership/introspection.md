@@ -7,3 +7,4 @@ A popular tech mantra is, "fail fast." However, failure is only useful if you le
 - [Take ownership](https://vimeo.com/84676528)
 - [Difference between doing more and doing extra](http://www.bennorthrop.com/Essays/2021/always-do-extra.php)
 - [Incident Review and Postmortem Best Practices](https://newsletter.pragmaticengineer.com/p/incident-review-best-practices)
+- [Experiment as a team](https://cloud.google.com/architecture/devops/devops-process-team-experimentation)

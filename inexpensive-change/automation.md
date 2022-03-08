@@ -11,3 +11,5 @@ The act of automating a task has the side benefit of bringing complexity to the 
 - [Basic set of automated testing principles](https://medium.com/@kentbeck_7670/programmer-test-principles-d01c064d7934)
 - [How to stop hating your automated test suite](https://www.youtube.com/watch?v=VD51AkG8EZw)
 - [Characterization testing](https://michaelfeathers.silvrback.com/characterization-testing)
+- Put an automated [Continuous Integration (CI) pipeline](https://cloud.google.com/architecture/devops/devops-tech-continuous-integration) in place and have it [automatically deploy](https://cloud.google.com/architecture/devops/devops-tech-deployment-automation)
+- [Make it easy to deploy and rollback so you can do it often](https://cloud.google.com/architecture/devops/devops-tech-continuous-delivery)

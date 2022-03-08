@@ -17,6 +17,7 @@ Teams should be incentivized to solve problems together. That way, meaningful co
 
 - [Share the work as a team](https://jessitron.com/2022/02/01/to-share-the-work-share/)
 - [Scaling the Practice of Architecture, Conversationally](https://martinfowler.com/articles/scaling-architecture-conversationally.html)
+- [Teams should be empowered to help decide what tools get used](https://cloud.google.com/architecture/devops/devops-tech-teams-empowered-to-choose-tools)
 
 ### Mentoring
 
