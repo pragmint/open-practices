@@ -6,6 +6,7 @@ Opportunities to learn are all around you. If you keep an open mind, you'll find
 
 ## Resources
 
+- [Quick story about the value of investing in yourself](https://www.youtube.com/shorts/7pzOlxkHc8c)
 - [Avenues of continuous learning](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_18)
 - [Invest in durable knowledge](http://www.bennorthrop.com/Essays/2016/reflections-of-an-old-programmer.php)
 - [Empathetic listening](https://www.youtube.com/watch?v=h4G0a6FrygA)
