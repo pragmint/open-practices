@@ -13,7 +13,7 @@ Teams should be incentivized to solve problems together. That way, meaningful co
 - [Be mindful of team members preferred ways of working](https://vimeo.com/241742427)
 - [Mob programming](https://vimeo.com/241193517)
 
-## Making Decisions As a Team
+### Making Decisions As a Team
 
 - [Share the work as a team](https://jessitron.com/2022/02/01/to-share-the-work-share/)
 - [Scaling the Practice of Architecture, Conversationally](https://martinfowler.com/articles/scaling-architecture-conversationally.html)
@@ -21,6 +21,12 @@ Teams should be incentivized to solve problems together. That way, meaningful co
 
 ### Mentoring
 
+Being a mentor can be as simple as giving time to someone who is in need of some guidance. It is also possible to put formalized Mentorship Programs together for your organization or community. Providing mentorship can strengthen relationships, create unique opportunities for introspection, build confidence, feel rewarding, and so much more.
+
+Building a formalized Apprenticeship / Mentorship Program is a reliable way to create consistency amongst teams within an organization. Great programs give apprentices the space to fail and subsequently learn from those failures. They also push apprentices just past the edges of their comfort zones such that meaningful experimentation can take place. Great apprentices approach apprenticeship programs with an open mind and an eagerness to learn as much as possible.
+
+- [How to build a modern apprenticeship program](https://www.youtube.com/watch?v=ZKRghzP9H7M)
+- [How to be a great mentor](https://railsconf.org/watch/workshops/the-secrets-of-successful-mentors?t=5201)
 - [Apprenticeship Patterns](https://www.barnesandnoble.com/w/apprenticeship-patterns-dave-hoover/1110832729)
 
 ### Understand How to Work Well With Other People
