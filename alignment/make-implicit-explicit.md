@@ -8,8 +8,9 @@ Every team member comes in with a different set of expectations and norms. This 
 
 ### User Stories
 
-User stories help developers understand what work they need to complete. All too often, little effort goes into creating user stories or tickets. Sometimes the requirements are documented with a single sentence fragment. This is lazy and creates a lot of room for costly misinterpretation.
+User stories help software development teams understand what work they need to complete, in a way that is optimized for getting small changes deployed to production as quickly as possible. This concept was introduced as a counter pressure to organizations that waste a lot of time building large, detailed sets of requirements upfront. However the practice of User Stories can also be useful for organizations that don't put much effort into creating a shared understanding amongst the entire team.
 
+- [Overview of User Stories](https://www.industriallogic.com/blog/making-user-stories-work-for-you)
 - Ron Jeffries' take on User Stories part [1](https://ronjeffries.com/xprog/blog/how-should-user-stories-be-written/), [2](https://ronjeffries.com/xprog/articles/expcardconversationconfirmation/), and [3](https://ronjeffries.com/articles/019-01ff/3cs-revisited/)
 - [Definition of Ready](https://www.leadingagile.com/2015/07/definition-of-ready/)
 - [Definition of Done](https://www.leadingagile.com/2017/02/definition-of-done/)
