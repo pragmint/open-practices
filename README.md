@@ -79,9 +79,9 @@ There is no "perfect" way to build a system. Building quality software is all ab
 
 Teams enable individuals to use their different abilities, values, and beliefs to accomplish things they likely aren't able to do by themselves. Given the broad set of differences between individuals, there is a LOT that goes into working effectively as a team. However, making improvements to teamwork can have a profound impact on an organization's ability to deliver quality software quickly. Below are some aspects of teamwork that can be intentionally improved to yield better results:
 
-- Clarity
-- Respectful disagreement
-- Support
+- [Clarity](https://github.com/pragmint/best-practices/blob/main/teamwork/clarity.md)
+- [Respectful disagreement](https://github.com/pragmint/best-practices/blob/main/teamwork/respectful-disagreement.md)
+- [Support](https://github.com/pragmint/best-practices/blob/main/support.md)
 
 ### Fun
 
