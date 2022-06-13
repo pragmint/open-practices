@@ -1,4 +1,4 @@
-# Work As a Team to Solve Problems
+# Support Each Other
 
 Organizations are obsessed with metrics, and for good reason. However that mentality can create situations where an individual's performance is measured by easily gamified metrics like velocity or lines of code written. This also creates incentives against collaboration.
 
@@ -11,7 +11,6 @@ Teams should be incentivized to solve problems together. That way, meaningful co
 - [Pairing](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_64)
 - [Ping Pong Pairing](https://openpracticelibrary.com/practice/ping-pong-programming/)
 - [Strong-style Pairing](http://llewellynfalco.blogspot.com/2014/06/llewellyns-strong-style-pairing.html)
-- [Be mindful of team members preferred ways of working](https://vimeo.com/241742427)
 - [Mob programming](https://vimeo.com/241193517)
 
 ### Making Decisions As a Team
