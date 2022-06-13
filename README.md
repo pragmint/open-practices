@@ -72,8 +72,8 @@ Many small details need to be done correctly in concert in order to have the res
 
 There is no "perfect" way to build a system. Building quality software is all about making judgment calls without a full understanding of the consequences. As software systems evolve, so too does the team's understanding of the trade-offs they made along the way. In order for teams of developers to deliver high quality software, those teams must commit to continuous improvement. Doing the following is what is required to continuously improve:
 
-- Meaningfully introspect
-- Take action
+- [Meaningfully introspect](https://github.com/pragmint/best-practices/blob/main/continuous-improvement/introspect.md)
+- [Take action](https://github.com/pragmint/best-practices/blob/main/continuous-improvement/take-action.md)
 
 ### Teamwork
 
