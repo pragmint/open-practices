@@ -8,7 +8,6 @@ Great teams strive to have their members share their ideas free from inhibition.
 - [Relationship centered meetings](https://www.intergroupresources.com/rc/Suchman%20&%20Williamson.pdf) - whitepaper - covers principles that can lead to more effective meetings
 - [The Five Dysfunctions of a Team Book](https://www.goodreads.com/book/show/21343.The_Five_Dysfunctions_of_a_Team) - book - fictional story that showcases how healthy conflict can create stronger accountability and better results
 - [Influence: The Psychology of Persuasion](https://www.goodreads.com/book/show/28815.Influence) - book - outlines 7 pillars of influence that help explain how humans decide what ideas to accept and when
-- [The Trusted Advisor](https://www.goodreads.com/book/show/873993.The_Trusted_Advisor) - book - tactics on building trust
 - [Dare to Lead](https://www.goodreads.com/book/show/40109367-dare-to-lead) - book - giving / receiving feedback and building trust
 
 ### Crucial Conversations

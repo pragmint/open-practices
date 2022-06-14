@@ -17,7 +17,6 @@ A company's culture is made up of the behaviors that each team member exhibits. 
 
 Good decision making is rooted in a deep understanding of the surrounding context. When making architectural decisions, it's helpful to understand what requirements are likely to remain constant and which ones are likely to evolve. This is just as true at the system level as it is at the code level. Every member of the development team should be armed with a strong understanding of the core set of problems that the software is attempting to solve for.
 
-- [Start with "Why"](https://www.youtube.com/watch?v=2Ss78LfY3nE)
 - [Hammock Driven Development](https://www.youtube.com/watch?v=f84n5oFoZBc)
 - [You need to dig deep with customers](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_97)
 - [Creating lasting interfaces](https://www.youtube.com/watch?v=oyLBGkS5ICk)
@@ -45,3 +44,19 @@ User stories help software development teams understand what work they need to c
 - [Definition of Ready](https://www.leadingagile.com/2015/07/definition-of-ready/)
 - [Definition of Done](https://www.leadingagile.com/2017/02/definition-of-done/)
 - [What sort of assumptions need explicit explanation](https://seilevel.com/requirements/are-there-functional-requirements-in-assumptions-of-use-cases)
+
+### Don't Just Talk About Progress, Show it in Action
+
+Even if a chunk of work isn't user facing, there should be an attempt to demo the new changes. This invites feedback and makes it crystal clear to the whole team what specific decisions have been made. This creates a clear shared context, which will benefit the entire team going forward.
+
+- [Quick tips on hosting a good demo](https://agileforall.com/how-to-give-a-great-sprint-demo/)
+
+### Create an Honest and Clear Understanding of Progress Amongst Stakeholders
+
+This strategy is potentially misleading because the traditional act of estimating isn't something we necessarily advocate for. Rather we advocate for the outcome of having stakeholders that understand where the team is at in the process of accomplishing a goal. This can sometimes mean estimating remaining work. However (especially in more R&D type of environments) it isn't always clear what work remains to be done, which makes this especially difficult. Some advocate for a complexity based estimates, some time based estimates, others advocate for not estimating at all. It is helpful to understand the various perspectives as we don't believe there to be a one-size fits all answer for this problem. We instead advocate for a solid understanding of the various approaches, such that the right tool can be brought out for a given team or organization.
+
+- [Why is estimating hard](https://blog.cleancoder.com/uncle-bob/2012/04/20/Why-Is-Estimating-So-Hard.html)
+- [The argument against traditional estimations](https://vimeo.com/79128724)
+- [From Estimate to Commitment](https://8thlight.com/blog/assets/FromEstimateToCommitment-3616004208b867532a7b968743df02b8.pdf)
+- [A series of articles focused on the nuances of the estimation process](https://practisingxp.com/tag/estimation/)
+- [Accelerate metrics](https://openpracticelibrary.com/blog/accelerate-metrics-software-delivery-performance-measurement/)

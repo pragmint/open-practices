@@ -1,6 +1,6 @@
-# Separate Concerns
+# Optimize for Reuse
 
-This strategy applies the same at the code level as it does the architectural level. By organizing systems into simple and well encapsulated abstractions, the overall complexity of those systems can be reduced.
+Typically, the more an organization can leverage someone's previous efforts, the faster they'll be able to be able to reach their goals. As such, an organization's adaptability can be greatly influenced by their ability to optimize their current efforts for future reuse. On the flip-side, the [simplicity section](https://github.com/pragmint/best-practices/blob/main/adaptability/simplicity.md) of this repo details an acronym called YAGNI (You Ain't Gonna Need It). That's what happens when an organization gets carried away with this concept. When optimizing for reuse, it's important to balance short-term constraints without losing sight of long-term goals.
 
 ## Resources
 

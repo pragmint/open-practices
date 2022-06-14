@@ -37,3 +37,11 @@ Building a formalized Apprenticeship / Mentorship Program is a reliable way to c
 ### The Mindset of a Good Teammate
 
 - [The ideal team player](https://leaders.com/articles/leadership/ideal-team-player/)
+
+### Mixed Teams
+
+Mixed teams are best b/c you get the experience and the excitement. Having fun is paramount. If your team is mentoring an inexperienced developer, that can be fun. Also, whenever someone is learning, they get excited. Excitement is infectious.
+
+Conventional wisdom says that we should only hire coding "rockstars", "ninjas", or "10x developers." This way, fewer mistakes get made and stuff gets done faster. So what redeeming qualities do more junior team members bring to the table? Juniors bring excitement, curiosity, willingness, and so much more. Having someone on the team with that attitude is infectious. Your more senior developers are likely to take on those attitudes as well. So you can find yourself in a 1+1=3 sort of situation by creating mixed teams.
+
+- [Mixed teams](https://selleo.com/blog/why-mixed-skill-level-teams-are-for-you)

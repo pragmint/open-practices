@@ -44,10 +44,10 @@ While it will likely be a while until computers can understand human intention, 
 
 The act of automating a task has the additional benefit of bringing complexity to the forefront. If you pay attention to those cues, it will make spotting software design flaws much easier. Some of the areas that computers can be leveraged to great effect are listed below:
 
-- Automated testing
-- Observability
-- Linting
-- Vulnerability scanning
+- [Automated testing](https://github.com/pragmint/best-practices/blob/main/inexpensive-correctness-verification/automated-testing.md)
+- [Observability](https://github.com/pragmint/best-practices/blob/main/inexpensive-correctness-verification/observability.md)
+- [Linting](https://github.com/pragmint/best-practices/blob/main/inexpensive-correctness-verification/linting.md)
+- [Vulnerability scanning](https://github.com/pragmint/best-practices/blob/main/inexpensive-correctness-verification/vulnerability-scanning.md)
 
 ### Resilience to failure
 
@@ -55,8 +55,8 @@ No matter how much you attempt to avoid failure of your software systems, if it'
 
 There are tools and approaches that can help you do the following:
 
-- Decrease the cost of failure
-- Catch failure early in the process
+- [Decrease the cost of failure](https://github.com/pragmint/best-practices/blob/main/resilience-to-failure/decrease-cost.md)
+- [Catch failure early in the process](https://github.com/pragmint/best-practices/blob/main/resilience-to-failure/catch-early.md)
 
 ### Adaptability
 
@@ -64,9 +64,9 @@ The needs of an organization changes over time as it learns more about how to re
 
 Many small details need to be done correctly in concert in order to have the resulting software be adaptable. Below are some principles that can guide you towards creating adaptable software:
 
-- Optimize for reuse
-- Favor simple over easy
-- Create fast feedback loops
+- [Optimize for reuse](https://github.com/pragmint/best-practices/blob/main/adaptability/reuse.md)
+- [Favor simple over easy](https://github.com/pragmint/best-practices/blob/main/adaptability/simplicity.md)
+- [Create fast feedback loops](https://github.com/pragmint/best-practices/blob/main/adaptability/fast-feedback-loops.md)
 
 ### Continuous Improvement
 
@@ -89,8 +89,8 @@ Often overlooked, fun is a reliable indicator of the health of an organization. 
 
 Fun is a state of mind that individuals consciously or unconsciously enter based on a unique set of factors. However, there are some underlying shared principles that can be applied to increase the chance of an individual having fun:
 
-- Be curious
-- Optimize for flow
-- Invest in your tools
-- Invest in your relationships
-- Focus on meaningful work
+- [Be curious](https://github.com/pragmint/best-practices/blob/main/fun/curiosity.md)
+- [Optimize for flow](https://github.com/pragmint/best-practices/blob/main/fun/flow.md)
+- [Invest in your tools](https://github.com/pragmint/best-practices/blob/main/fun/tools.md)
+- [Invest in your relationships](https://github.com/pragmint/best-practices/blob/main/fun/relationships.md)
+- [Focus on meaningful work](https://github.com/pragmint/best-practices/blob/main/fun/meaning.md)

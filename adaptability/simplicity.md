@@ -1,8 +1,16 @@
-# Easy to Follow
+# Simplicity
 
 When writing code, it's important to make it easy for future readers of that code to follow along. It takes X amount of time to write a line of code. Yet a greater than X amount of time will be spent (likely by many) in the future reading that line of code. Likely the code you write will have to change (or at least be understood by others) in the future. If that code is easy to understand, it will be easier to change and thus be more maintainable. DORA did a great job outlining the [benefits of having code that's easy to follow](https://cloud.google.com/architecture/devops/devops-tech-code-maintainability).
 
 ## Resources
+
+- [Four rules of simple design book by Corey Haines](https://leanpub.com/4rulesofsimpledesign)
+- [Simple Made Easy talk by Rich Hickey](https://www.youtube.com/watch?v=SxdOUGdseq4)
+- [How functional programming patterns can simplify code](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_02)
+- [Make side effects explicit](https://8thlight.com/blog/dave-moore/2014/07/25/abstraction.html)
+- [Don't alter your method's arguments](https://spin.atomicobject.com/2011/04/10/javascript-don-t-reassign-your-function-arguments/)
+- [The drawbacks of Object Oriented Design](https://www.youtube.com/watch?v=ScEPu1cs4l0)
+- [YAGNI](https://www.martinfowler.com/bliki/Yagni.html)
 
 ### Readability
 
@@ -15,24 +23,14 @@ When writing code, it's important to make it easy for future readers of that cod
 - [Easy to use interfaces](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_55)
 - [Writing skills should be intentionally developed](https://newsletter.pragmaticengineer.com/p/becoming-a-better-writer)
 
-### Simplicity
-
-- [Four rules of simple design book by Corey Haines](https://leanpub.com/4rulesofsimpledesign)
-- [Simple Made Easy talk by Rich Hickey](https://www.youtube.com/watch?v=SxdOUGdseq4)
-- [How functional programming patterns can simplify code](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_02)
-- [Make side effects explicit](https://8thlight.com/blog/dave-moore/2014/07/25/abstraction.html)
-- [Don't alter your method's arguments](https://spin.atomicobject.com/2011/04/10/javascript-don-t-reassign-your-function-arguments/)
-- [The drawbacks of Object Oriented Design](https://www.youtube.com/watch?v=ScEPu1cs4l0)
-- [YAGNI](https://www.martinfowler.com/bliki/Yagni.html)
-
 ### Naming
 
 - [Using metaphors](https://8thlight.com/blog/javier-garc%C3%ADa/2019/06/11/refactoring-levels-of-abstraction.html)
 - [An abstraction's contents should match the detail of its name](https://8thlight.com/blog/dave-moore/2014/07/25/abstraction.html)
 
-#### Domain Driven Design
+### Refactoring
 
-- [Learning Domain-Driven Design book](https://www.amazon.com/Learning-Domain-Driven-Design-Aligning-Architecture/dp/1098100131)
-- [Domain modelling talk by Eric Evans](https://www.infoq.com/presentations/model-to-work-evans/)
-- [Strategic Design with DDD](https://www.infoq.com/presentations/strategic-design-evans/)
-- [Make domain concepts explicit](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_11)
+- [Boy Scout Rule](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_08)
+- Refactoring Legacy Code Step with Dave Farley by Step Part [1](https://www.youtube.com/watch?v=p-oWHEfXEVs), [2](https://www.youtube.com/watch?v=NCjwUptCaLU), and [3](https://www.youtube.com/watch?v=3iirETgRaRc)
+- [Refactoring book](https://www.amazon.com/Refactoring-Improving-Existing-Addison-Wesley-Signature/dp/0134757599)
+- [List of common refactoring opportunities](https://refactoring.guru/refactoring/smells)
