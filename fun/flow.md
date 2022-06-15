@@ -19,3 +19,5 @@ There is a lot of value in getting things done quickly. By optimizing for flow o
 - [Accelerate](https://www.goodreads.com/book/show/35747076-accelerate) - Book - Outlines findings from a study that dissects high performing teams
 - [Set a sustainable pace](http://www.extremeprogramming.org/rules/overtime.html) - Blog - eXtreme Programming's take on how sustainable pace can improve flow
 - [Async code reviews are chocking your company's throughput](https://www.youtube.com/watch?v=ZlLZEQQBcFg) - Talk - covers how PRs often lead to bigger batch sizes
+- [Intro to Trunk Based Development](https://www.youtube.com/watch?v=lqRQYEHAtpk)
+- [Perceived Barriers to Trunk Based Development](https://www.davefarley.net/?p=269)

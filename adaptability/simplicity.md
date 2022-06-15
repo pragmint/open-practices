@@ -9,8 +9,13 @@ When writing code, it's important to make it easy for future readers of that cod
 - [How functional programming patterns can simplify code](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_02)
 - [Make side effects explicit](https://8thlight.com/blog/dave-moore/2014/07/25/abstraction.html)
 - [Don't alter your method's arguments](https://spin.atomicobject.com/2011/04/10/javascript-don-t-reassign-your-function-arguments/)
-- [The drawbacks of Object Oriented Design](https://www.youtube.com/watch?v=ScEPu1cs4l0)
 - [YAGNI](https://www.martinfowler.com/bliki/Yagni.html)
+
+### Complexity
+
+- [Two wrongs can make a right (and are difficult to fix)](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_86)
+- [Finding "hard to track down" concurrency issues](https://www.youtube.com/watch?v=eSaFVX4izsQ)
+- [Complexity brought on by OO](https://www.youtube.com/watch?v=ScEPu1cs4l0)
 
 ### Readability
 
