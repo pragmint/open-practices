@@ -4,6 +4,8 @@ Typically, the more an organization can leverage someone's previous efforts, the
 
 ## Resources
 
+- [Boundaries](https://www.destroyallsoftware.com/talks/boundaries) - Talk - builds the case for following the imperative shell / functional core pattern
+
 ### Encapsulation
 
 - [Code examples on how to manage complexity with encapsulation](https://8thlight.com/blog/kevin-buchanan/2014/11/04/mistaking-encapsulation-for-abstraction.html)
