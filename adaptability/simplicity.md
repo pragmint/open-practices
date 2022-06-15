@@ -18,7 +18,6 @@ When writing code, it's important to make it easy for future readers of that cod
 - [Common code smells](https://8thlight.com/blog/georgina-mcfadyen/2017/01/19/common-code-smells.html)
 - [Clean Code book](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
 - [How to avoid complicated if/else chains](https://medium.com/swlh/5-ways-to-replace-if-else-statements-857c0ff19357)
-- [Enforce and automate coding standards](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_04)
 - [Formatting code](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_13)
 - [Easy to use interfaces](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_55)
 - [Writing skills should be intentionally developed](https://newsletter.pragmaticengineer.com/p/becoming-a-better-writer)

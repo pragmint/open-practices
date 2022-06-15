@@ -47,7 +47,6 @@ The act of automating a task has the additional benefit of bringing complexity t
 - [Automated testing](/blob/main/inexpensive-correctness-verification/automated-testing.md)
 - [Observability](/blob/main/inexpensive-correctness-verification/observability.md)
 - [Linting](/blob/main/inexpensive-correctness-verification/linting.md)
-- [Vulnerability scanning](/blob/main/inexpensive-correctness-verification/vulnerability-scanning.md)
 
 ### Resilience to failure
 
