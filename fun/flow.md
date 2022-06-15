@@ -18,3 +18,4 @@ There is a lot of value in getting things done quickly. By optimizing for flow o
 - [The Phoenix Project](https://www.goodreads.com/book/show/17255186-the-phoenix-project) - Book - Fictional story that outlines how to apply systems thinking, feedback, and continuous improvement to an IT department (thus increasing flow)
 - [Accelerate](https://www.goodreads.com/book/show/35747076-accelerate) - Book - Outlines findings from a study that dissects high performing teams
 - [Set a sustainable pace](http://www.extremeprogramming.org/rules/overtime.html) - Blog - eXtreme Programming's take on how sustainable pace can improve flow
+- [Async code reviews are chocking your company's throughput](https://www.youtube.com/watch?v=ZlLZEQQBcFg) - Talk - covers how PRs often lead to bigger batch sizes
