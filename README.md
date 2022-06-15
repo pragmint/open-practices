@@ -4,7 +4,7 @@ A best practice (for the purpose of this repository) is a skill, technique, or b
 
 ## Contributing
 
-This repository was also open sourced with the [Creative Commons License](/blob/main/LICENSE.txt) such that anyone can suggest improvements and broaden Pragmint's horizons. If you have new ideas or want to challenge our thinking, we would appreciate you creating a new [issue](https://github.com/pragmint/best-practices/issues) or [pull request](https://github.com/pragmint/best-practices/pulls).
+This repository was also open sourced with the [Creative Commons License](/LICENSE.txt) such that anyone can suggest improvements and broaden Pragmint's horizons. If you have new ideas or want to challenge our thinking, we would appreciate you creating a new [issue](https://github.com/pragmint/best-practices/issues) or [pull request](https://github.com/pragmint/best-practices/pulls).
 
 ## What does it take to create a culture that fosters fast and reliable software delivery?
 
@@ -44,9 +44,9 @@ While it will likely be a while until computers can understand human intention, 
 
 The act of automating a task has the additional benefit of bringing complexity to the forefront. If you pay attention to those cues, it will make spotting software design flaws much easier. Some of the areas that computers can be leveraged to great effect are listed below:
 
-- [Automated testing](/blob/main/inexpensive-correctness-verification/automated-testing.md)
-- [Observability](/blob/main/inexpensive-correctness-verification/observability.md)
-- [Linting](/blob/main/inexpensive-correctness-verification/linting.md)
+- [Automated testing](/inexpensive-correctness-verification/automated-testing.md)
+- [Observability](/inexpensive-correctness-verification/observability.md)
+- [Linting](/inexpensive-correctness-verification/linting.md)
 
 ### Resilience to failure
 
@@ -54,8 +54,8 @@ No matter how much you attempt to avoid failure of your software systems, if it'
 
 There are tools and approaches that can help you do the following:
 
-- [Decrease the cost of failure](/blob/main/resilience-to-failure/decrease-cost.md)
-- [Catch failure early in the process](/blob/main/resilience-to-failure/catch-early.md)
+- [Decrease the cost of failure](/resilience-to-failure/decrease-cost.md)
+- [Catch failure early in the process](/resilience-to-failure/catch-early.md)
 
 ### Adaptability
 
@@ -63,24 +63,24 @@ The needs of an organization changes over time as it learns more about how to re
 
 Many small details need to be done correctly in concert in order to have the resulting software be adaptable. Below are some principles that can guide you towards creating adaptable software:
 
-- [Optimize for reuse](/blob/main/adaptability/reuse.md)
-- [Favor simple over easy](/blob/main/adaptability/simplicity.md)
-- [Create fast feedback loops](/blob/main/adaptability/fast-feedback-loops.md)
+- [Optimize for reuse](/adaptability/reuse.md)
+- [Favor simple over easy](/adaptability/simplicity.md)
+- [Create fast feedback loops](/adaptability/fast-feedback-loops.md)
 
 ### Continuous Improvement
 
 There is no "perfect" way to build a system. Building quality software is all about making judgment calls without a full understanding of the consequences. As software systems evolve, so too does the team's understanding of the trade-offs they made along the way. In order for teams of developers to deliver high quality software, those teams must commit to continuous improvement. Doing the following is what is required to continuously improve:
 
-- [Meaningfully introspect](/blob/main/continuous-improvement/introspect.md)
-- [Take action](/blob/main/continuous-improvement/take-action.md)
+- [Meaningfully introspect](/continuous-improvement/introspect.md)
+- [Take action](/continuous-improvement/take-action.md)
 
 ### Teamwork
 
 Teams enable individuals to use their different abilities, values, and beliefs to accomplish things they likely aren't able to do by themselves. Given the broad set of differences between individuals, there is a LOT that goes into working effectively as a team. However, making improvements to teamwork can have a profound impact on an organization's ability to deliver quality software quickly. Below are some aspects of teamwork that can be intentionally improved to yield better results:
 
-- [Clarity](/blob/main/teamwork/clarity.md)
-- [Respectful disagreement](/blob/main/teamwork/respectful-disagreement.md)
-- [Support](/blob/main/teamwork/support.md)
+- [Clarity](/teamwork/clarity.md)
+- [Respectful disagreement](/teamwork/respectful-disagreement.md)
+- [Support](/teamwork/support.md)
 
 ### Fun
 
@@ -88,8 +88,8 @@ Often overlooked, fun is a reliable indicator of the health of an organization. 
 
 Fun is a state of mind that individuals consciously or unconsciously enter based on a unique set of factors. However, there are some underlying shared principles that can be applied to increase the chance of an individual having fun:
 
-- [Be curious](/blob/main/fun/curiosity.md)
-- [Optimize for flow](/blob/main/fun/flow.md)
-- [Invest in your tools](/blob/main/fun/tools.md)
-- [Invest in your relationships](/blob/main/fun/relationships.md)
-- [Focus on meaningful work](/blob/main/fun/meaning.md)
+- [Be curious](/fun/curiosity.md)
+- [Optimize for flow](/fun/flow.md)
+- [Invest in your tools](/fun/tools.md)
+- [Invest in your relationships](/fun/relationships.md)
+- [Focus on meaningful work](/fun/meaning.md)
