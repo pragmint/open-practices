@@ -14,7 +14,6 @@ Large-scale change is achieved iteratively and incrementally. When you break a p
 
 ### Refactoring
 
-As it relates to refactoring, it is important to challenge yourself to make changes in small increments. If you break something without realizing it, then continue to pile on changes, it becomes difficult to figure out what exact change broke the system. See the [simplicity page](https://github.com/pragmint/best-practices/blob/main/adaptability/simplicity.md) for more foundational resources on refactoring.
+As it relates to refactoring, it is important to challenge yourself to make changes in small increments. If you break something without realizing it, then continue to pile on changes, it becomes difficult to figure out what exact change broke the system. See the [simplicity page](https://github.com/pragmint/best-practices/blob/main/adaptability/simplicity.md#Refactoring) for more foundational resources on refactoring.
 
 - [Incremental refactoring](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_06)
-- [Transformation Priority Premise](http://blog.cleancoder.com/uncle-bob/2013/05/27/TheTransformationPriorityPremise.html)

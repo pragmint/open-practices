@@ -34,3 +34,4 @@ When writing code, it's important to make it easy for future readers of that cod
 - Refactoring Legacy Code Step with Dave Farley by Step Part [1](https://www.youtube.com/watch?v=p-oWHEfXEVs), [2](https://www.youtube.com/watch?v=NCjwUptCaLU), and [3](https://www.youtube.com/watch?v=3iirETgRaRc)
 - [Refactoring book](https://www.amazon.com/Refactoring-Improving-Existing-Addison-Wesley-Signature/dp/0134757599)
 - [List of common refactoring opportunities](https://refactoring.guru/refactoring/smells)
+- [Transformation Priority Premise](http://blog.cleancoder.com/uncle-bob/2013/05/27/TheTransformationPriorityPremise.html)
