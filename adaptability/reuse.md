@@ -49,3 +49,9 @@ Typically, the more an organization can leverage someone's previous efforts, the
 #### Interface Segregation Principle
 
 - [Introductory Blog](https://reflectoring.io/interface-segregation-principle/)
+
+### Microservices
+
+- [When to use microservices, and when not to](https://www.youtube.com/watch?v=GBTdnfD6s5Q)
+- [Entity service anti-pattern](https://www.michaelnygard.com/blog/2017/12/the-entity-service-antipattern/)
+- [Services by lifecycle](https://www.michaelnygard.com/blog/2018/01/services-by-lifecycle/)
