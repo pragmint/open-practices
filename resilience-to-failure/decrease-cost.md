@@ -1,6 +1,6 @@
 # Decrease the Cost of Failure
 
-Through [observability automation](https://github.com/pragmint/best-practices/blob/main/inexpensive-correctness-verification/observability.md) and a [fast flow of work](https://github.com/pragmint/best-practices/blob/main/fun/flow.md#Flow-of-Work) organizations are able to fix issues that are detected quickly. That goes a long way towards decreasing the cost of a failure. This section attempts to dive a little bit deeper into the technologies and patterns that help to decrease the cost of failure, but don't fit into either of those two buckets neatly.
+Through [observability automation](https://github.com/pragmint/best-practices/blob/main/inexpensive-correctness-verification/observability.md) and a [fast flow of work](https://github.com/pragmint/best-practices/blob/main/fun/flow.md#Flow-of-Work), organizations are able to fix issues that are detected quickly. That goes a long way towards decreasing the cost of a failure. This section attempts to dive a little bit deeper into the technologies and patterns that help to decrease the cost of failure, but don't fit into either of those two buckets neatly.
 
 ## Resources
 

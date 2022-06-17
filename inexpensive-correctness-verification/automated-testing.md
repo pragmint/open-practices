@@ -1,6 +1,6 @@
 # Automated Testing
 
-Automated tests are simply scripts that execute code and verify their results against the scripted expectations. This enables developers to (if done correctly) inexpensively determine if the software being tested is working as expected.
+Automated tests are scripts that execute code and verify their results against the scripted expectations. This enables developers to (if done correctly) inexpensively determine if the software being tested is working as expected.
 
 This is perhaps the most important concept as it relates to building quality software. Yet, it's strangely controversial. Part of the controversy is due to the fact that poorly written software doesn't have proper entry seams for tests to hook into. To the untrained eye, those tests are complicated therefore not worth writing/maintaining. To the trained eye, that's a valuable signal to the reader pointing in the direction of necessary refactoring opportunities.
 

@@ -6,7 +6,7 @@ Every team member comes in with a different set of expectations and norms. This 
 
 ### Document "Norm-ed" Values and Behaviors
 
-What is the "right" thing to do? This is a question that people ask themselves every day. Part of that decision making is informed by each individual's experiences and world-view. However a significant part of that decision making is also informed by what the expectations are of the organization or team that individual is apart of. Unless of course those expectations aren't made clear.
+What is the "right" thing to do? This is a question that people ask themselves every day. Part of that decision making is informed by each individual's experiences and world-view. However, a significant part of that decision making is also informed by what the expectations are of the organization or team that individual is apart of. Unless of course those expectations aren't made clear.
 
 A company's culture is made up of the behaviors that each team member exhibits. So if you want to influence the culture of a team or organization, it is beneficial to inspect the behaviors and attempt to influence them by documenting expectations.
 
@@ -37,7 +37,7 @@ Part of solving for the core problems involves using a consistent vocabulary tha
 
 ### User Stories
 
-User stories help software development teams understand what work they need to complete, in a way that is optimized for getting small changes deployed to production as quickly as possible. This concept was introduced as a counter pressure to organizations that waste a lot of time building large, detailed sets of requirements upfront. However the practice of User Stories can also be useful for organizations that don't put much effort into creating a shared understanding amongst the entire team.
+User stories help software development teams understand what work they need to complete, in a way that is optimized for getting small changes deployed to production as quickly as possible. This concept was introduced as a counter pressure to organizations that waste a lot of time building large, detailed sets of requirements upfront. However, the practice of User Stories can also be useful for organizations that don't put much effort into creating a shared understanding amongst the entire team.
 
 - [Overview of User Stories](https://www.industriallogic.com/blog/making-user-stories-work-for-you)
 - Ron Jeffries' take on User Stories part [1](https://ronjeffries.com/xprog/blog/how-should-user-stories-be-written/), [2](https://ronjeffries.com/xprog/articles/expcardconversationconfirmation/), and [3](https://ronjeffries.com/articles/019-01ff/3cs-revisited/)
@@ -53,7 +53,7 @@ Even if a chunk of work isn't user facing, there should be an attempt to demo th
 
 ### Create an Honest and Clear Understanding of Progress Amongst Stakeholders
 
-This strategy is potentially misleading because the traditional act of estimating isn't something we necessarily advocate for. Rather we advocate for the outcome of having stakeholders that understand where the team is at in the process of accomplishing a goal. This can sometimes mean estimating remaining work. However (especially in more R&D type of environments) it isn't always clear what work remains to be done, which makes this especially difficult. Some advocate for a complexity based estimates, some time based estimates, others advocate for not estimating at all. It is helpful to understand the various perspectives as we don't believe there to be a one-size fits all answer for this problem. We instead advocate for a solid understanding of the various approaches, such that the right tool can be brought out for a given team or organization.
+The traditional act of estimating isn't something we necessarily advocate for. Rather we advocate for the outcome of having stakeholders that understand where the team is at in the process of accomplishing a goal. This can sometimes mean estimating remaining work. However (especially in more R&D type of environments) it isn't always clear what work remains to be done, which makes this especially difficult. Some people advocate for a complexity based estimates, some time-based estimates, others advocate for not estimating at all. It is helpful to understand the various perspectives as we don't believe there to be a one-size fits all answer for this problem. We instead advocate for a solid understanding of the various approaches, such that the right tool can be brought out for a given team or organization.
 
 - [Why is estimating hard](https://blog.cleancoder.com/uncle-bob/2012/04/20/Why-Is-Estimating-So-Hard.html)
 - [The argument against traditional estimations](https://vimeo.com/79128724)

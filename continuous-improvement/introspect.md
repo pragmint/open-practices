@@ -1,6 +1,6 @@
 # Meaningfully Introspect
 
-A popular tech mantra is, "fail fast." However, failure is only useful if you learn from it and apply that learning. Introspection is a crucial aspect of this process, as you'll miss 100% of the lessons failure provides if you aren't looking for them. Ego gets in the way of introspection. If you attribute something external to a failure, a handful of valuable lessons will pass you by. There is ALWAYS something you could've done differently. It's useful to consider how your decision making contributed to an outcome, even if it isn't a root cause. Experience is a great teacher. However it gives the test first, and the lesson second.
+A popular tech mantra is, "fail fast." However, failure is only useful if you learn from it and apply that learning. If you're not meaningfully introspecting, you'll miss all of the lessons that failure is trying to provide you with. Ego gets in the way of introspection. If you attribute something external to a failure, a handful of valuable lessons will pass you by. There is ALWAYS something you could've done differently. It's useful to consider how your decision making contributed to an outcome, even if it isn't a root cause. Experience is a great teacher. However, it gives the test first and the lesson second.
 
 ## Resources
 
@@ -11,7 +11,7 @@ A popular tech mantra is, "fail fast." However, failure is only useful if you le
 
 Thanks to evolution, humans are wired to unconsciously short-cut critical thinking in a variety of ways. It is important to be aware of those short-cuts as they affect decision making, sometimes negatively.
 
-A practical example of this for developers would be the anchoring bias. When estimating, if someone reveals their estimate before others have formulated and revealed theirs, it is likely the subsequent estimates will be near the initial estimate. This doesn't happen because any individuals are lazy. It's because the anchoring bias is wired into our brains. Armed with an awareness of this bias can create systems that avoid these sort of situations (like planning poker).
+A practical example of this for developers would be the anchoring bias. When estimating, if someone reveals their estimate before others have formulated and revealed theirs, it is likely the subsequent estimates will be near the initial estimate. This doesn't happen because any individuals are lazy, it's because the anchoring bias is wired into our brains. Armed with an awareness of this bias can create systems that avoid these sort of situations (like planning poker).
 
 - [Summary of how specific biases lead to specific behaviors](https://betterhumans.pub/cognitive-bias-cheat-sheet-55a472476b18)
 - [Thinking, Fast and Slow](https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow)

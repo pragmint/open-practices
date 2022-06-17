@@ -2,7 +2,7 @@
 
 While it is good to attempt to minimize the frequency of issues ([Change Failure Rate](https://cloud.google.com/blog/products/devops-sre/using-the-four-keys-to-measure-your-devops-performance)), it is more important to minimize the duration of issues (for non safety critical projects). This measurement is called [Mean Time To Restore](https://cloud.google.com/blog/products/devops-sre/using-the-four-keys-to-measure-your-devops-performance) (MTTR for short).
 
-Any meaningfully complex system will eventually suffer from defects. In order to solve defects effectively, development teams need to know when their systems are not functioning properly. Not only that, but it's important to be able to understand how to reproduce and fix any issues that arise quickly.
+Any meaningfully complex system will eventually suffer from defects. In order to solve defects effectively, development teams need to know when their systems are not functioning properly. It is important to be able to understand how to reproduce and fix any issues that arise quickly.
 
 ## Resources
 
