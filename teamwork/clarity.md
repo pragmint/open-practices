@@ -60,3 +60,4 @@ The traditional act of estimating isn't something we necessarily advocate for. R
 - [From Estimate to Commitment](https://8thlight.com/blog/assets/FromEstimateToCommitment-3616004208b867532a7b968743df02b8.pdf)
 - [A series of articles focused on the nuances of the estimation process](https://practisingxp.com/tag/estimation/)
 - [Accelerate metrics](https://openpracticelibrary.com/blog/accelerate-metrics-software-delivery-performance-measurement/)
+- [How to plan with predictably, accountability, and alignment](https://stu.penrose.us/planning)
