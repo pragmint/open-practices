@@ -57,6 +57,7 @@ The traditional act of estimating isn't something we necessarily advocate for. R
 
 - [Why is estimating hard](https://blog.cleancoder.com/uncle-bob/2012/04/20/Why-Is-Estimating-So-Hard.html)
 - [The argument against traditional estimations](https://vimeo.com/79128724)
+- [Quantitative metrics are easy to game](https://www.nngroup.com/articles/campbells-law/)
 - [From Estimate to Commitment](https://8thlight.com/blog/assets/FromEstimateToCommitment-3616004208b867532a7b968743df02b8.pdf)
 - [A series of articles focused on the nuances of the estimation process](https://practisingxp.com/tag/estimation/)
 - [Accelerate metrics](https://openpracticelibrary.com/blog/accelerate-metrics-software-delivery-performance-measurement/)
