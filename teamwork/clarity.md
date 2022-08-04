@@ -50,6 +50,7 @@ User stories help software development teams understand what work they need to c
 Even if a chunk of work isn't user facing, there should be an attempt to demo the new changes. This invites feedback and makes it crystal clear to the whole team what specific decisions have been made. This creates a clear shared context, which will benefit the entire team going forward.
 
 - [Quick tips on hosting a good demo](https://agileforall.com/how-to-give-a-great-sprint-demo/)
+- [Treat your demo like a performance](https://blog.squirrelington.ninja/blog/a-demo-is-a-performance/)
 
 ### Create an Honest and Clear Understanding of Progress Amongst Stakeholders
 
