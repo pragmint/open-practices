@@ -1,4 +1,4 @@
-# [Capability](https://dora.dev/devops-capabilities/)
+# [Database Change Management](https://dora.dev/devops-capabilities/technical/database-change-management/)
 
 Summary
 

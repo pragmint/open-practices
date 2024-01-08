@@ -1,4 +1,4 @@
-# [Capability](https://dora.dev/devops-capabilities/)
+# [Visibility of Work in the Value Stream](https://dora.dev/devops-capabilities/process/work-visibility-in-value-stream/)
 
 Summary
 

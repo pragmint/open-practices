@@ -1,4 +1,4 @@
-# [Capability](https://dora.dev/devops-capabilities/)
+# [Continuous Delivery](https://dora.dev/devops-capabilities/technical/continuous-delivery/)
 
 Summary
 

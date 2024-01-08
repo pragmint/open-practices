@@ -1,4 +1,4 @@
-# [Capability](https://dora.dev/devops-capabilities/)
+# [Deployment Automation](https://dora.dev/devops-capabilities/technical/deployment-automation/)
 
 Summary
 

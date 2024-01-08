@@ -1,4 +1,4 @@
-# [Capability](https://dora.dev/devops-capabilities/)
+# [Work in Process Limits](https://dora.dev/devops-capabilities/process/wip-limits/)
 
 Summary
 

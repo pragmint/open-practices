@@ -1,4 +1,4 @@
-# [Capability](https://dora.dev/devops-capabilities/)
+# [Proactive Failure Notification](https://dora.dev/devops-capabilities/process/proactive-failure-notification/)
 
 Summary
 

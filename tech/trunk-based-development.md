@@ -1,4 +1,4 @@
-# [Capability](https://dora.dev/devops-capabilities/)
+# [Trunk-Based Development](https://dora.dev/devops-capabilities/technical/trunk-based-development/)
 
 Summary
 

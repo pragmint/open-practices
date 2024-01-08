@@ -1,4 +1,4 @@
-# [Capability](https://dora.dev/devops-capabilities/)
+# [Test Data Management](https://dora.dev/devops-capabilities/technical/test-data-management/)
 
 Summary
 

@@ -1,4 +1,4 @@
-# [Capability](https://dora.dev/devops-capabilities/)
+# [Visual Management](https://dora.dev/devops-capabilities/process/visual-management/)
 
 Summary
 

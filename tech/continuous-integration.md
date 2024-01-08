@@ -1,4 +1,4 @@
-# [Capability](https://dora.dev/devops-capabilities/)
+# [Continuous Integration](https://dora.dev/devops-capabilities/technical/continuous-integration/)
 
 Summary
 

@@ -1,4 +1,4 @@
-# [Capability](https://dora.dev/devops-capabilities/)
+# [How to Transform](https://dora.dev/devops-capabilities/cultural/devops-culture-transform/)
 
 Summary
 

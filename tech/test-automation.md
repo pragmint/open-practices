@@ -1,4 +1,4 @@
-# [Capability](https://dora.dev/devops-capabilities/)
+# [Test Automation](https://dora.dev/devops-capabilities/technical/test-automation/)
 
 Summary
 

@@ -1,4 +1,4 @@
-# [Capability](https://dora.dev/devops-capabilities/)
+# [Well-Being](https://dora.dev/devops-capabilities/cultural/well-being/)
 
 Summary
 

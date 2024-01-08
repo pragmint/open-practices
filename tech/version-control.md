@@ -1,4 +1,4 @@
-# [Capability](https://dora.dev/devops-capabilities/)
+# [Version Control](https://dora.dev/devops-capabilities/technical/version-control/)
 
 Summary
 

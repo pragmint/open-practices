@@ -1,4 +1,4 @@
-# [Capability](https://dora.dev/devops-capabilities/)
+# [Team Experimentation](https://dora.dev/devops-capabilities/process/team-experimentation/)
 
 Summary
 

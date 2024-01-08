@@ -1,4 +1,4 @@
-# [Capability](https://dora.dev/devops-capabilities/)
+# [Code Maintainability](https://dora.dev/devops-capabilities/technical/code-maintainability/)
 
 Summary
 

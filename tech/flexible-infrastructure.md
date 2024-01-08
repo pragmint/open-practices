@@ -1,4 +1,4 @@
-# [Capability](https://dora.dev/devops-capabilities/)
+# [Flexible Infrastructure](https://dora.dev/devops-capabilities/technical/flexible-infrastructure/)
 
 Summary
 

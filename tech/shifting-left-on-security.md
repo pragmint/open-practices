@@ -1,4 +1,4 @@
-# [Capability](https://dora.dev/devops-capabilities/)
+# [Shifting Left on Security](https://dora.dev/devops-capabilities/technical/shifting-left-on-security/)
 
 Summary
 

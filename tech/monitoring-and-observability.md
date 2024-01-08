@@ -1,4 +1,4 @@
-# [Capability](https://dora.dev/devops-capabilities/)
+# [Monitoring and Observability](https://dora.dev/devops-capabilities/technical/monitoring-and-observability/)
 
 Summary
 

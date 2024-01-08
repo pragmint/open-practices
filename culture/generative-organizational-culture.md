@@ -1,4 +1,4 @@
-# [Capability](https://dora.dev/devops-capabilities/)
+# [Generative Organizational Culture](https://dora.dev/devops-capabilities/cultural/generative-organizational-culture/)
 
 Summary
 

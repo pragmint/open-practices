@@ -1,4 +1,4 @@
-# [Capability](https://dora.dev/devops-capabilities/)
+# [Learning Culture](https://dora.dev/devops-capabilities/cultural/learning-culture/)
 
 Summary
 

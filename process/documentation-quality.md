@@ -1,4 +1,4 @@
-# [Capability](https://dora.dev/devops-capabilities/)
+# [Documentation Quality](https://dora.dev/devops-capabilities/process/documentation-quality/)
 
 Summary
 
