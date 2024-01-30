@@ -1,6 +1,10 @@
 # Best Practices
 
-This repository is an opinionated list of best practices that high-performing software development teams can follow. We've organized these practices based on [DORA Capabilities](https://dora.dev/devops-capabilities/) to piggyback off of their exhaustive research over the past decade. By focusing on the practices, we aim to give readers many actionable opportunities to grow their skills and fine-tune their processes. At [Pragmint](https://pragmint.com/), we rely on this resource to onboard new team members and focus our [Co-Dev Coaching](https://www.pragmint.com/insight/what-is-co-dev-coaching) efforts.
+This repository is an opinionated list of best practices that high-performing software development teams can follow. We've organized these practices based on [DORA Capabilities](https://dora.dev/devops-capabilities/) to piggyback off of their exhaustive research over the past decade. By focusing on the practices, we aim to give readers many actionable opportunities to grow their skills and fine-tune their processes.
+
+Not every practice we include will be beneficial in every situation. Every situation is rife with nuance. Our curated list is designed to include practices that typically support a given capability. It's designed to be a great place to find inspiration on new practices to experiment with.
+
+At [Pragmint](https://pragmint.com/), we rely on this resource to onboard new team members and focus our [Co-Dev Coaching](https://www.pragmint.com/insight/what-is-co-dev-coaching) efforts.
 
 ## Contributing
 
