@@ -1,6 +1,6 @@
 # Best Practices
 
-This repository is an opinionated list of best practices that high-performing software development teams can follow. We've organized these practices based on [DORA Capabilities](https://dora.dev/devops-capabilities/) to piggyback off of their exhaustive research over the past decade. By focusing on the practices, we aim to give readers many actionable opportunities to grow their skills and fine-tune their processes.
+This repository is an opinionated list of best practices that high-performing software development teams can follow. We've organized these [practices](/practices/) based on [DORA Capabilities](https://dora.dev/devops-capabilities/) to piggyback off of their exhaustive research over the past decade. By focusing on the practices, we aim to give readers many actionable opportunities to grow their skills and fine-tune their processes.
 
 For the purposes of this repository **we're defining a practice to mean an actionable pattern, technique, or process.** Our goal is to give teams specific practices that they can experiment with to improve. Not every practice we include will be beneficial in every situation. Every situation is rife with nuance. Our curated list is designed to include practices that typically work and are in support a given DORA Capability. Our goal is to provide specific options for teams to take action on to improve.
 
@@ -12,7 +12,7 @@ Our repository is always evolving. You can add to it by [raising issues](https:/
 
 ## Table Of Contents
 
-Click on a link below to learn which best practices support each DORA Capability:
+Click on a link below to learn which [best practices](/practices/) support each DORA Capability:
 
 ### Technical
 
