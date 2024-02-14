@@ -31,7 +31,35 @@ In industries subject to regulatory compliance, migrations must be executed with
 
 ## Introspective Questions
 
-<!-- TODO: insert thought provoking questions to get reader to deeply consider if they could be better applying this practice to their organization -->
+### Alignment with Development Workflow
+How well do our automatic database migration processes integrate with our current development, testing, and deployment workflows? Are there points of friction, and how can we address them?
+
+### Version Control Harmony
+Are our migration scripts and database schema changes properly version-controlled alongside our application code? How can we improve traceability and coordination between code and database changes?
+
+### Environment Adaptation
+Do our migration strategies effectively address the unique needs of different environments (development, staging, production)? How can we ensure consistency while accommodating environment-specific requirements?
+
+### Dependency Handling
+How effectively do we manage dependencies within our migration scripts? Are there tools or practices we could adopt to better handle complex migrations and dependency chains?
+
+### Data Integrity Safeguards
+What measures do we have in place to ensure data integrity during migrations? How do we test and validate data before and after migrations to prevent loss or corruption?
+
+### Rollback Readiness
+How confident are we in our ability to rollback a migration in case of failure? Do we have a tested and reliable process for reverting changes without affecting data integrity?
+
+### Performance Impact Assessment
+Have we experienced performance impacts during migrations? How can we minimize downtime and performance degradation, especially in production environments?
+
+### Compliance and Security Considerations
+Are our migration processes compliant with relevant data protection and privacy regulations (e.g., GDPR, HIPAA)? How do we ensure that migrations do not compromise data security or compliance?
+
+### Monitoring and Alerting
+Do we have adequate monitoring and alerting in place to detect and respond to issues during the migration process? How can we improve real-time visibility into migrations?
+
+### Continuous Improvement
+What lessons have we learned from past migrations, and how are we applying these insights to improve future processes? Are there emerging tools or practices that could enhance our migration strategy?
 
 ## Exercises
 
