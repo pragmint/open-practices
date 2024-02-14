@@ -63,7 +63,35 @@ What lessons have we learned from past migrations, and how are we applying these
 
 ## Exercises
 
-<!-- TODO: insert a list of exercises / experiments the reader can try to see if this practice will help their team / organization improve -->
+## Exercise 1: Create a Simple Migration Script
+* **Objective**: Learn the basics of writing a migration script by creating a simple script that adds a new table to your database.
+* **Tasks**:
+  1. Choose a database migration tool compatible with your database system (e.g., Flyway, Liquibase).
+  2. Write a migration script to create a new table with at least three columns: an ID, a name, and a timestamp.
+  3. Run the migration script against your local development database.
+  4. Verify the table was created successfully by querying the database.
+
+## Exercise 2: Implementing Rollbacks
+* **Objective**: Understand the rollback process by writing a script that undoes a migration.
+* **Tasks**:
+  1. Using the migration script from Exercise 1, write a rollback script that removes the table.
+  2. Apply the rollback script to your development database.
+  3. Confirm that the table has been successfully removed.
+
+## Exercise 3: Handling Complex Migrations
+* **Objective**: Gain experience with complex migrations involving data transformations.
+* **Tasks**:
+  1. Write a migration script that alters an existing table by adding a new column.
+  2. Populate the new column with data transformed from existing columns (e.g., concatenating two columns into a new one).
+  3. Apply the migration and verify the data transformation was successful.
+
+## Exercise 4: Environment-Specific Migrations
+* **Objective**: Learn to manage migrations across different environments.
+* **Tasks**:
+  1. Create two separate migration scripts: one for development and another for production environments. The production script should include additional safety checks or logging.
+  2. Apply the development script to your development database and the production script to a simulated production environment.
+  3. Review the outcomes to ensure each script performed as expected in its respective environment.
+
 
 ## Resources
 
