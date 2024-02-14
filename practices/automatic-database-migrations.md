@@ -95,11 +95,34 @@ What lessons have we learned from past migrations, and how are we applying these
 
 ## Resources
 
-<!-- TODO: insert a list of resources that explore this practice. For each item, give a brief summary of the resource. -->
+### [Evolutionary Database Design](https://martinfowler.com/articles/evodb.html)
+This foundational article by Martin Fowler discusses the principles and practices behind evolutionary database design, which is central to the concept of automatic database migrations. It provides a thorough exploration of how to manage database schema changes in a way that supports agile development practices.
 
-## Related Practices
+## Related DORA Capabilities
 
-<!-- TODO: insert a list of [linked practices](/practices) that relate to this practice. For each item, give a brief explanation of how the linked practice supports / relates to this practice. Also categorize each linked practices as one of the following: Enables, Requires, Improves -->
+### [Version Control](/capabilities/version-control)
+**Relationship Type**: Enables
+Automatic Database Migrations, when integrated with version control systems, directly support the DORA capability of version controlling all production artifacts. This practice ensures that every database schema change is tracked, versioned, and synchronized with application code changes, enhancing collaboration and traceability.
+
+### [Continuous Integration](/capabilities/continuous-integration)
+**Relationship Type**: Improves
+The practice of automatic database migrations facilitates continuous integration by allowing teams to integrate database changes into their development process seamlessly. This ensures that database schemas evolve in lockstep with the application, reducing integration issues and supporting a more agile deployment process.
+
+### [Deployment Automation](/capabilities/deployment-automation)
+**Relationship Type**: Requires
+Automatic database migrations are a key component of deployment automation, enabling teams to automate the deployment of database changes alongside application code. This reduces the manual effort involved in deploying changes, decreases the potential for errors, and supports more frequent and reliable deployments.
+
+### [Continuous Feedback](/capabilities/continuous-feedback)
+**Relationship Type**: Enables
+By automating database migrations, teams can quickly receive feedback on the impact of changes, both through automated tests and through real-world application performance. This aligns with the DORA capability of establishing a culture of continuous feedback, where insights from deployments inform future development efforts.
+
+### [Monitoring and Observability](/capabilities/monitoring-and-observability)
+**Relationship Type**: Improves
+Integrating monitoring tools with the process of automatic database migrations helps in achieving the DORA capability related to monitoring and observability. Teams can monitor the impact of database changes on application performance and user experience in real-time, allowing for quick adjustments and informed decision-making.
+
+### [Learning Culture](/capabilities/learning-culture)
+**Relationship Type**: Enables
+The practice of automatic database migrations, particularly through the implementation of rollback capabilities and the analysis of migration impacts, supports the establishment of a learning culture. Teams learn from each migration, whether successful or not, and apply these lessons to improve future practices, aligning with the DORA principle of fostering a culture that values learning from failures and successes alike.
 
 ## Supporting Capabilities
 
