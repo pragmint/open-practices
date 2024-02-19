@@ -131,7 +131,7 @@ By ensuring that documentation accurately reflects the system's architecture and
 Consistent and up-to-date documentation supports test automation by clearly defining expected behaviors and system configurations, facilitating the creation and maintenance of automated tests that align with the current state of the software.
 
 ### [Documentation Quality](https://dora.dev/devops-capabilities/process/documentation-quality/)
-**Relationship: Is a Core Component of**  
+**Relationship: Improves**  
 Documentation Consistency Check directly supports the enhancement of documentation quality by ensuring that the information is current, accurate, and aligned with the software and its development practices, thereby contributing to overall process improvement.
 
 ### [Streamlining Change Approval](https://dora.dev/devops-capabilities/process/streamlining-change-approval/)
