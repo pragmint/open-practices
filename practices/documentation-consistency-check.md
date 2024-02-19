@@ -36,7 +36,35 @@ Avoiding knowledge silos where only certain team members know how to update docu
 
 ## Introspective Questions
 
-<!-- TODO: insert thought provoking questions to get reader to deeply consider if they could be better applying this practice to their organization -->
+### Alignment with Development Processes
+How well is our documentation process integrated with our development lifecycle? Are we updating documentation as part of our routine development tasks?
+
+### Resource Commitment
+Are we allocating sufficient resources and time to maintain documentation consistency? How can we better balance documentation efforts with development priorities?
+
+### Automation Strategies
+To what extent have we explored and implemented automation in our documentation processes? Are there areas where automation could significantly improve consistency and efficiency?
+
+### Audience Awareness
+Do we clearly understand the different audiences for our documentation? How are we tailoring documentation to meet the diverse needs of developers, end-users, and stakeholders?
+
+### Cultural Adoption
+Is the importance of documentation consistency recognized and valued across our team? What steps can we take to foster a culture that prioritizes documentation alongside development?
+
+### Tool Utilization
+Are we using the most effective tools and platforms for managing and updating our documentation? Could changes or upgrades to our toolset enhance our documentation consistency?
+
+### Feedback Mechanisms
+How effective are our feedback mechanisms for documentation? Are we regularly collecting and incorporating feedback from users to improve documentation quality and relevance?
+
+### Addressing Documentation Decay
+How do we monitor and address documentation decay? What processes do we have in place to ensure documentation remains accurate over time?
+
+### Preventing Knowledge Silos
+What measures are we taking to prevent knowledge silos related to documentation practices? How can we ensure that all team members are equipped to contribute to and update documentation?
+
+### Measuring Impact
+How do we measure the impact of documentation consistency on our project's success? What metrics or indicators help us understand the value of keeping our documentation aligned with our technical artifacts?
 
 ## Exercises
 
