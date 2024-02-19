@@ -110,4 +110,30 @@ Underscores the complexity of software development where two mistakes might canc
 
 ## Supporting Capabilities
 
-<!-- TODO: insert a list of [linked capabilities](/capabilities) that this practice supports. For each item, give a brief explanation of how the linked capability is supported by / relates to this practice. Also categorize each linked capability as one of the following: Enables, Requires, Improves -->
+### [Version Control](https://dora.dev/devops-capabilities/technical/version-control/)
+**Relationship: Improves**  
+Documentation Consistency Check enhances the use of version control by ensuring that documentation revisions are tracked alongside code changes. This alignment facilitates clear understanding of changes over time, supporting collaborative development and historical review.
+
+### [Continuous Integration](https://dora.dev/devops-capabilities/technical/continuous-integration/)
+**Relationship: Enables**  
+Documentation Consistency Check enables more effective continuous integration by ensuring that as code is integrated and tested, the documentation accurately reflects the latest features and functionalities, supporting developers in understanding the current state of the project.
+
+### [Continuous Delivery](https://dora.dev/devops-capabilities/technical/continuous-delivery/)
+**Relationship: Improves**  
+This practice improves continuous delivery by ensuring that documentation is always up to date, which is crucial for the smooth deployment and operation of software. Accurate documentation supports stakeholders in understanding the current deployment and its features.
+
+### [Monitoring and Observability](https://dora.dev/devops-capabilities/technical/monitoring-and-observability/)
+**Relationship: Enables**  
+By ensuring that documentation accurately reflects the system's architecture and behavior, Documentation Consistency Check enables more effective monitoring and observability. Accurate documentation provides a critical reference for understanding observed behaviors and diagnosing issues.
+
+### [Test Automation](https://dora.dev/devops-capabilities/technical/test-automation/)
+**Relationship: Enables**  
+Consistent and up-to-date documentation supports test automation by clearly defining expected behaviors and system configurations, facilitating the creation and maintenance of automated tests that align with the current state of the software.
+
+### [Documentation Quality](https://dora.dev/devops-capabilities/process/documentation-quality/)
+**Relationship: Is a Core Component of**  
+Documentation Consistency Check directly supports the enhancement of documentation quality by ensuring that the information is current, accurate, and aligned with the software and its development practices, thereby contributing to overall process improvement.
+
+### [Streamlining Change Approval](https://dora.dev/devops-capabilities/process/streamlining-change-approval/)
+**Relationship: Improves**  
+This practice improves the process of streamlining change approval by providing accurate and up-to-date documentation, which facilitates faster and more informed decision-making regarding changes, reducing bottlenecks in the development pipeline.
