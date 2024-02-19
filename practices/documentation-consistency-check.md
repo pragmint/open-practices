@@ -101,7 +101,8 @@ How do we measure the impact of documentation consistency on our project's succe
 
 ## Resources
 
-<!-- TODO: insert a list of resources that explore this practice. For each item, give a brief summary of the resource. -->
+### [Two wrongs can make a right (and are difficult to fix)](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_86)
+Underscores the complexity of software development where two mistakes might cancel each other out, making them harder to identify and fix. It highlights the importance of thorough testing and documentation to prevent and resolve such issues effectively.
 
 ## Related Practices
 
