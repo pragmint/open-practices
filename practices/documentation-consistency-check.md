@@ -4,7 +4,35 @@ The Documentation Consistency Check practice ensures that documentation remains 
 
 ## Nuance
 
-<!-- TODO: insert nuance of practice (common misconceptions, important considerations, situations where overdoing it on practice can hinder progress, etc) -->
+### Balancing Detail and Clarity
+Striking the right balance between providing enough detail to be useful and keeping the documentation clear and concise is crucial. Overly detailed documentation can be as confusing as documentation that's too vague.
+
+### Version Control Challenges
+Managing documentation alongside different versions of code can introduce complexities. Ensuring that documentation reflects the correct version of the software it describes requires careful attention.
+
+### Resource Allocation
+Documentation consistency checks require time and resources. Teams must balance the effort between writing code and updating documentation, which can be challenging in fast-paced development environments.
+
+### Automated vs. Manual Updates
+While some aspects of documentation can be automated, such as API documentation generation, other parts require manual intervention. Deciding what to automate and what to manually update is a nuanced decision that impacts consistency and efficiency.
+
+### Audience Consideration
+The intended audience for the documentation (developers, end-users, stakeholders) affects how consistency is maintained. Technical details necessary for developers might not be relevant for end-users, requiring different versions or layers of documentation.
+
+### Cultural Shifts
+Emphasizing documentation consistency often requires a cultural shift within the organization. Teams accustomed to prioritizing development over documentation may need to adjust their approach and values.
+
+### Tooling and Infrastructure
+The choice of tools and infrastructure for managing documentation (e.g., wikis, documentation generators) can significantly impact the ease and effectiveness of maintaining consistency.
+
+### Feedback Loops
+Establishing feedback loops with documentation users can help identify inconsistencies and areas for improvement, but managing this feedback effectively without overwhelming the team is a nuanced challenge.
+
+### Documentation Decay
+Over time, even well-maintained documentation can become outdated if not regularly reviewed and updated, especially in rapidly evolving projects. Recognizing and addressing documentation decay is a continuous effort.
+
+### Knowledge Silos
+Avoiding knowledge silos where only certain team members know how to update documentation is crucial for consistency. Ensuring that knowledge and responsibility are shared across the team prevents bottlenecks.
 
 ## Introspective Questions
 
