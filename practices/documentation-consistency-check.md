@@ -68,7 +68,36 @@ How do we measure the impact of documentation consistency on our project's succe
 
 ## Exercises
 
-<!-- TODO: insert a list of exercises / experiments the reader can try to see if this practice will help their team / organization improve -->
+### Documentation Review Sprint
+- **Exercise**: Organize a dedicated sprint focused solely on reviewing and updating documentation. This includes aligning the documentation with the current state of the codebase, updating any outdated information, and ensuring that all technical artifacts are consistently described across all documents.
+
+### Automated Documentation Generation
+- **Exercise**: Implement a tool for automated documentation generation, such as Doxygen for code documentation or Swagger for API documentation. Integrate this tool into your development process and observe how it impacts the consistency and efficiency of documentation updates.
+
+### Documentation Audience Analysis
+- **Exercise**: Conduct an analysis of your documentation's audience. Identify the different groups that use your documentation (e.g., developers, end-users, stakeholders) and assess whether the current documentation meets their needs. Adjust your documentation strategy based on the findings.
+
+### Documentation Usability Testing
+- **Exercise**: Organize a usability testing session for your documentation with participants from your intended audience groups. Collect feedback on clarity, usefulness, and accessibility, and use this feedback to make targeted improvements.
+
+### Version Control for Documentation
+- **Exercise**: If not already in place, implement version control for your documentation using a platform like GitHub or Bitbucket. This will involve organizing your documentation into repositories, setting up branch management strategies, and integrating documentation updates into your development workflow.
+
+### Cross-Functional Documentation Workshops
+- **Exercise**: Host a workshop with members from different teams (development, QA, support, etc.) to collaboratively review and update sections of the documentation. This will help identify inconsistencies and gaps from diverse perspectives and foster a shared responsibility for documentation.
+
+### Documentation Decay Audit
+- **Exercise**: Perform an audit to identify signs of documentation decay, such as sections that are no longer accurate, missing documentation for recent features, or documentation that hasn't been updated in a significant amount of time. Create a prioritized action plan for addressing these issues.
+
+### Knowledge Sharing Sessions
+- **Exercise**: Organize regular knowledge-sharing sessions where team members can present on areas of the codebase or technical artifacts they are experts in. Use these sessions to fill gaps in the documentation and ensure knowledge is not siloed.
+
+### Documentation Impact Survey
+- **Exercise**: Conduct a survey among the users of your documentation to assess its impact. Ask about the ease of finding information, the clarity of the content, and any areas where improvements are needed. Use the survey results to guide documentation updates.
+
+### Documentation Tool Evaluation
+- **Exercise**: Evaluate your current documentation tools and processes. Consider factors such as ease of use, integration with your development environment, support for collaboration, and scalability. Explore alternative tools if current ones are not meeting your needs, and document the rationale for any changes.
+
 
 ## Resources
 
