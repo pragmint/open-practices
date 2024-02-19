@@ -30,7 +30,17 @@ The interplay between maintaining a clean history and managing pull requests req
 
 ## Introspective Questions
 
-<!-- TODO: insert thought provoking questions to get reader to deeply consider if they could be better applying this practice to their organization -->
+* **Am I consistently writing descriptive, yet concise commit messages that provide context and the rationale behind changes?**
+* **Do my commits represent logical, self-contained changes that can be easily understood and reviewed by others?**
+* **Am I squashing commits judiciously to maintain clarity in the project’s history, without losing important details about the development process?**
+* **How do I balance the need for a clean history with the potential disruption caused by rewriting history or force pushing, especially in a collaborative environment?**
+* **Am I aware of the impact my Git practices have on my team’s workflow and how they contribute to or detract from the project’s overall health?**
+* **How comfortable am I with Git's more advanced features, like interactive rebase, and am I using them appropriately to manage the project history?**
+* **Do I regularly review the project’s commit history to learn from it, identify patterns, or spot potential issues early?**
+* **How does my approach to maintaining a clean Git history align with my team’s policies and the broader goals of the project?**
+* **Am I effectively communicating with my team about changes to the Git history, especially when actions might affect their work?**
+* **What steps can I take to improve my Git practices and contribute more effectively to maintaining a clean and useful project history?**
+
 
 ## Exercises
 
