@@ -4,7 +4,29 @@ Clean Git History is a practice that emphasizes maintaining a clear and organize
 
 ## Nuance
 
-<!-- TODO: insert nuance of practice (common misconceptions, important considerations, situations where overdoing it on practice can hinder progress, etc) -->
+### Balancing Detail with Brevity
+Commit messages should be descriptive enough to convey the purpose behind changes while being concise enough not to overwhelm. Striking the right balance enhances readability and understanding without bogging down the history with too much information.
+
+### Frequency of Commits
+The timing and size of commits are critical; too few can obscure the project's evolution by combining unrelated changes, while too many can over-complicate the history. Finding a rhythm that maintains clarity without sacrificing detail is key.
+
+### Squashing Commits
+Squashing can streamline history but may also conceal important development steps and rationales if overused. It's vital to use this technique judiciously to maintain a balance between a clean history and preserving the context of changes.
+
+### Force Pushing
+Using force push, especially after rebasing, can keep the history neat but risks disrupting others' work on shared branches. It's a powerful tool that requires careful consideration and communication when used.
+
+### Rewriting History
+Altering history on public or shared branches can create chaos for collaborative efforts. This potent capability should be reserved for necessary circumstances and executed with utmost caution to avoid negatively impacting the team's workflow.
+
+### Learning Curve
+Adhering to a clean git history practice can be daunting for newcomers. Providing them with support and gradually introducing them to the conventions can foster a smoother integration into the team's processes.
+
+### Tooling and Automation
+Dependence on tools for automating squashing or enforcing commit message standards can make processes more efficient but might also strip away some context from the history. It's important to leverage automation wisely to support, not supplant, meaningful history curation.
+
+### Collaboration and Pull Requests
+The interplay between maintaining a clean history and managing pull requests requires careful strategy. Decisions on whether to clean up history before merging pull requests and how to address feedback can significantly impact the effectiveness of the team's workflow and the project's historical clarity.
 
 ## Introspective Questions
 
