@@ -105,7 +105,7 @@ Maintaining a logical and clear commit history improves continuous delivery prac
 *Relationship:* Requires   
 Deployment automation relies on a consistent and well-documented change history to automate the deployment process efficiently, minimizing manual errors and intervention.
 
-### [Version Control](/practices/version-control.md)
+### [Version Control](/capabilities/tech/version-control.md)
 *Relationship:* Enables   
 A clean Git history is fundamental to effective version control, enabling precise tracking, easier code reviews, and better management of project codebases.
 
