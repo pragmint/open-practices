@@ -44,11 +44,48 @@ The interplay between maintaining a clean history and managing pull requests req
 
 ## Exercises
 
-<!-- TODO: insert a list of exercises / experiments the reader can try to see if this practice will help their team / organization improve -->
+### Commit Message Workshop
+- *Exercise*: Gather a few recent commit messages from your project. Rewrite them to be more descriptive, yet concise, focusing on the "why" behind the changes.
+
+### Logical Commit Grouping
+- *Exercise*: Take a complex feature or bug fix you recently worked on, and break down the work into logical, self-contained commits. Try to organize your work retrospectively into a series of commits that each make sense on their own.
+
+### Squash and Rebase Challenge
+- *Exercise*: Find a branch with multiple small commits. Use interactive rebase (`git rebase -i`) to squash related commits and reorder them if necessary to tell a coherent story of your changes.
+
+### Force Push Simulation
+- *Exercise*: On a personal or test repository, practice using `git push --force-with-lease` after rebasing or altering history. Note the safeguards `--force-with-lease` provides compared to a straight `git push --force`.
+
+### History Review Session
+- *Exercise*: Regularly (e.g., once a month), review the commit history of your main branch. Identify any patterns, good practices, or areas for improvement. Share your findings with your team.
+
+### Advanced Git Features Exploration
+- *Exercise*: Pick an advanced Git feature you're not familiar with, such as interactive rebase, cherry-picking, or bisect. Use a test repository to explore this feature, focusing on how it might help you maintain a cleaner history.
+
+### Team Git Practices Review
+- *Exercise*: Organize a meeting with your team to discuss your current Git practices. Identify what's working well and what could be improved. Make a plan to address any identified issues.
+
+### Communicating History Changes
+- *Exercise*: Next time you need to rewrite history in a way that affects others (e.g., before a force push), draft a communication to your team explaining what you're doing, why, and how it impacts them. Review the clarity and completeness of your communication.
+
+### Git Tools and Extensions Trial
+- *Exercise*: Research and try out a new Git tool or extension designed to help maintain a clean history, such as a commit linter or a graphical history viewer. Evaluate its effectiveness for your workflow.
+
+### Reflective Git Practice Diary
+- *Exercise*: Keep a diary for one month where you note down your Git practices, particularly focusing on how you maintain your project's history. Reflect weekly on what you've learned and how you can improve.
+
 
 ## Resources
 
-<!-- TODO: insert a list of resources that explore this practice. For each item, give a brief summary of the resource. -->
+### [Keep a Clean Git History](https://simplabs.com/blog/2021/05/26/keeping-a-clean-git-history/)
+Offers guidance on maintaining a streamlined Git commit history, emphasizing practices like squashing similar commits, crafting clear commit messages, and organizing changes logically to make the project's history navigable and understandable, crucial for effective code reviews and project oversight.
+
+### [Staying Disciplined with Your Git History](https://8thlight.com/blog/makis-otman/2015/07/08/git-disciplined.html)
+Advocates for the disciplined management of Git history through methods like feature branching, minimizing the size of commits, and keeping branches updated via regular rebasing. Highlights the benefits of these practices for enhancing collaboration, facilitating project tracking, and simplifying code reversions.
+
+### [Two Wrongs Can Make a Right (And Are Difficult to Fix)](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_86)
+Details strategies for properly amending Git history issues, such as errant commits or merge mistakes, without exacerbating problems. Includes practical advice and Git command examples for correcting history efficiently and effectively, focusing on common Git missteps and the complexities of rectifying them.
+
 
 ## Related Practices
 
