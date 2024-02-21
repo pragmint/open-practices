@@ -68,4 +68,38 @@ This article explores the importance of including dependencies within version co
 
 ## Supporting Capabilities
 
-<!-- TODO: insert a list of [linked capabilities](/capabilities) that this practice supports. For each item, give a brief explanation of how the linked capability is supported by / relates to this practice. Also categorize each linked capability as one of the following: Enables, Requires, Improves -->
+### [Continuous Integration](https://dora.dev/devops-capabilities/technical/continuous-integration/)
+**Relationship:** Enables  
+Version Controlled Dependencies ensure that all team members work with the same versions of dependencies, reducing integration conflicts and enabling more efficient continuous integration processes.
+
+### [Database Change Management](https://dora.dev/devops-capabilities/technical/database-change-management/)
+**Relationship:** Enables  
+By versioning database schema changes alongside code dependencies, teams can apply version control practices to database changes as well, facilitating smoother migrations and deployments.
+
+### [Deployment Automation](https://dora.dev/devops-capabilities/technical/deployment-automation/)
+**Relationship:** Enables  
+Having dependencies version-controlled allows for more predictable deployments, as the exact versions used in development are carried through to production environments, supporting automated deployment pipelines.
+
+### [Test Automation](https://dora.dev/devops-capabilities/technical/test-automation/)
+**Relationship:** Enables  
+Automated tests can rely on specific versions of dependencies being available, ensuring that tests are consistent and reliable across different environments and stages of development.
+
+### [Trunk-Based Development](https://dora.dev/devops-capabilities/technical/trunk-based-development/)
+**Relationship:** Enables  
+Version Controlled Dependencies complement trunk-based development by ensuring that changes to dependencies are centrally managed and integrated, supporting the rapid integration and testing of changes.
+
+### [Version Control](/capabilities/tech/version-control.md)
+**Relationship:** Requires  
+The practice of Version Controlled Dependencies inherently requires a robust version control system to manage the dependencies' versions alongside the application's source code.
+
+### [Code Maintainability](https://dora.dev/devops-capabilities/technical/code-maintainability/)
+**Relationship:** Improves  
+By locking down dependency versions, teams can reduce the variability that leads to technical debt and improve the maintainability of their codebase over time.
+
+### [Documentation Quality](https://dora.dev/devops-capabilities/process/documentation-quality/)
+**Relationship:** Improves  
+Proper versioning of dependencies can improve documentation quality by providing clear references to the specific versions of external libraries or frameworks used, making the documentation more accurate and useful.
+
+### [Working in Small Batches](https://dora.dev/devops-capabilities/process/working-in-small-batches/)
+**Relationship:** Improves  
+Version Controlled Dependencies support working in small batches by making it easier to manage and integrate small, incremental changes to dependencies, aligning with best practices for agile and DevOps methodologies.
