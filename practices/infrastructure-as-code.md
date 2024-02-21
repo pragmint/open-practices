@@ -50,7 +50,30 @@ Think about the level of collaboration between your development, operations, and
 
 ## Exercises
 
-<!-- TODO: insert a list of exercises / experiments the reader can try to see if this practice will help their team / organization improve -->
+### Exercise 1: IaC Tool Comparison
+* **Objective:** Compare at least two IaC tools (e.g., Terraform vs. Ansible) by setting up a simple infrastructure (such as a web server) using both.
+* **Outcome:** Understand the strengths and weaknesses of each tool in terms of syntax, ecosystem, and community support.
+
+### Exercise 2: Infrastructure Version Control
+* **Objective:** Implement version control for your IaC configurations using a platform like GitHub or GitLab.
+* **Outcome:** Experience how version control facilitates collaboration among team members, improves transparency, and enables rollback to previous states.
+
+### Exercise 3: CI/CD Integration
+* **Objective:** Integrate your IaC setup with a CI/CD pipeline (using Jenkins, GitLab CI, or GitHub Actions) to automate the deployment of infrastructure changes.
+* **Outcome:** Learn how automation in deployment processes reduces manual errors and speeds up delivery times.
+
+### Exercise 4: Immutable Infrastructure Deployment
+* **Objective:** Deploy a set of infrastructure components, then simulate a "disaster" by destroying them. Re-deploy using only your IaC scripts.
+* **Outcome:** Gain confidence in the immutability and recoverability of your infrastructure through IaC practices.
+
+### Exercise 5: Security and Compliance as Code
+* **Objective:** Implement security scanning and compliance checks into your IaC workflow using tools like Checkov or Terrascan.
+* **Outcome:** Understand how to proactively identify and remediate security and compliance issues within your infrastructure code.
+
+### Exercise 6: Collaboration and Knowledge Sharing
+* **Objective:** Conduct a knowledge-sharing session within your team to discuss best practices, challenges, and tips for using IaC effectively.
+* **Outcome:** Foster a culture of collaboration and continuous improvement, identifying gaps in knowledge and areas for further training.
+
 
 ## Resources
 
