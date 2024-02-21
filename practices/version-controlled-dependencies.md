@@ -16,7 +16,23 @@ Adopting semantic versioning can help manage the balance between stability and f
 
 ## Introspective Questions
 
-<!-- TODO: insert thought provoking questions to get reader to deeply consider if they could be better applying this practice to their organization -->
+### How Effective Is Your Dependency Management?
+How effectively is your team currently managing dependency versions, and could a more systematic approach to version control improve project consistency and reliability?
+
+### Are You Balancing Updates with Stability Effectively?
+Are you finding the right balance between the stability provided by version-controlled dependencies and the need to update dependencies for security, performance, and new features?
+
+### How Are You Addressing Dependency Hell?
+Have you encountered issues with "dependency hell," and what strategies could you implement to mitigate these challenges while maintaining strict version control?
+
+### Is Semantic Versioning Right for Your Project?
+How could adopting semantic versioning impact your project? Would it provide a practical path to embrace necessary updates without sacrificing the predictability and stability of your application?
+
+### How Often Do You Review Your Update Policies?
+Is your current policy for updating dependencies proactive or reactive? How often do you review dependency versions for potential updates, and could this process be optimized?
+
+### Could Over-strict Version Control Be Hindering Your Progress?
+Could an overly strict approach to version controlling dependencies be hindering your project’s ability to integrate beneficial technological advances or critical security patches?
 
 ## Exercises
 
