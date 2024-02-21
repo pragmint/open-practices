@@ -36,7 +36,26 @@ Could an overly strict approach to version controlling dependencies be hindering
 
 ## Exercises
 
-<!-- TODO: insert a list of exercises / experiments the reader can try to see if this practice will help their team / organization improve -->
+### Experiment 1: Audit Your Current Dependency Management
+- **Objective:** To assess the current state of dependency management within your team or organization.
+- **Outcome:** A comprehensive report detailing which dependencies are managed effectively and which are not, identifying potential areas for improvement.
+
+### Experiment 2: Implement Semantic Versioning on a Small Scale
+- **Objective:** To experiment with semantic versioning by applying it to a small, manageable portion of your project.
+- **Outcome:** Insights into how semantic versioning affects project stability and the process of updating dependencies, helping you decide if a broader implementation is beneficial.
+
+### Experiment 3: Dependency Update Policy Review
+- **Objective:** To review and potentially revise your current policies on updating dependencies.
+- **Outcome:** A refined update policy that balances the need for updates with the desire for stability, possibly leading to more efficient and secure project development.
+
+### Experiment 4: Simulate a Dependency Hell Scenario
+- **Objective:** To simulate a "dependency hell" scenario to understand its impact and identify strategies for mitigation.
+- **Outcome:** Practical experience in managing complex dependency chains, leading to improved strategies for avoiding or dealing with dependency hell in real projects.
+
+### Experiment 5: Version Locking Experiment
+- **Objective:** To lock versions of all major dependencies in a project to assess the impact on stability, security, and development speed.
+- **Outcome:** An evaluation of the trade-offs involved in version locking, including insights into when it is beneficial and when it might hinder project progress.
+
 
 ## Resources
 
