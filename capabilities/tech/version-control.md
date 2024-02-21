@@ -80,7 +80,7 @@ Envision your development process as a road trip. Does your version control serv
 ## Supporting Practices
 
 ### [Automatic Database Migrations](/practices/automatic-database-migrations.md)
-**Relationship: Improves**  
+**Relationship:** Improves  
 Implementing Automatic Database Migrations enhances the effectiveness of the Version Control capability by ensuring database schema changes are consistently versioned and managed alongside application code. This practice fosters an environment where code and database changes are integrated, tested, and deployed in a unified manner, leading to more reliable and streamlined development workflows. It directly contributes to the core objectives of version control by adding a layer of automation and traceability to database evolution.
 
 ### [Avoid Storing Config in Version Control](/practices/avoid-storing-config-in-version-control.md)
@@ -99,3 +99,7 @@ Implementing Documentation Consistency Checks enables the Version Control capabi
 
 **Relationship:** Improves   
 Infrastructure as Code enhances the Version Control capability by applying its principles to infrastructure management. This practice ensures that infrastructure provisioning and configuration are as reproducible and transparent as application code changes, fostering better collaboration and consistency across development and operations teams.
+
+### [Version-Controlled Dependencies](/practices/version-controlled-dependencies.md)
+**Relationship:** Improves  
+Version-Controlled Dependencies complement the Version Control capability by ensuring dependencies are managed with the same diligence as source code. This practice enhances reproducibility, traceability, and consistency in software builds, aligning with the core principles of effective version control for comprehensive software development management.
