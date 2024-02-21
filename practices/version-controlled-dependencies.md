@@ -59,7 +59,8 @@ Could an overly strict approach to version controlling dependencies be hindering
 
 ## Resources
 
-<!-- TODO: insert a list of resources that explore this practice. For each item, give a brief summary of the resource. -->
+### [Dependencies Belong in Version Control](https://www.forrestthewoods.com/blog/dependencies-belong-in-version-control/)
+This article explores the importance of including dependencies within version control systems to ensure consistency, reliability, and traceability in software development projects. It discusses the benefits and methodologies of version controlling dependencies, offering insights into best practices for managing software dependencies effectively.
 
 ## Related Practices
 
