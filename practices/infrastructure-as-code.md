@@ -77,7 +77,9 @@ Think about the level of collaboration between your development, operations, and
 
 ## Resources
 
-<!-- TODO: insert a list of resources that explore this practice. For each item, give a brief summary of the resource. -->
+### [Codify your infrastructure so it can also be version controlled](https://dzone.com/articles/secure-terraform-delivery-pipeline-best-practices)
+
+This resource provides a comprehensive guide on implementing a secure Terraform delivery pipeline, emphasizing the importance of codifying infrastructure to leverage version control. It outlines best practices for managing infrastructure as code (IaC) securely, including how to automate the deployment process, enforce policy as code, and integrate security checks. The article is valuable for understanding how to efficiently and securely manage infrastructure changes within a version-controlled environment.
 
 ## Related Practices
 
