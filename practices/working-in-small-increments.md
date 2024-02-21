@@ -4,7 +4,23 @@ The practice of working in small increments involves making frequent, manageable
 
 ## Nuance
 
-<!-- TODO: insert nuance of practice (common misconceptions, important considerations, situations where overdoing it on practice can hinder progress, etc) -->
+### Misconception: More Commits Equals More Productivity
+The belief that a higher frequency of commits directly correlates with increased productivity can be misleading. While working in small increments encourages regular updates, the focus should be on meaningful, self-contained changes that contribute to the project's progression. Simply pushing a high volume of minor changes without clear intent can lead to clutter in the version history and complicate project tracking.
+
+### Overemphasis on Size Over Substance
+Prioritizing the size of increments over the quality and relevance of the contribution can detract from the project's overall goals. It's crucial to ensure that each increment adds value and aligns with the project's objectives. Small, trivial changes that don't drive the project forward or improve its quality can waste valuable time and resources.
+
+### Integration Challenges
+While small increments facilitate easier integration and testing, they also require a robust continuous integration (CI) system to manage the frequent updates. Without efficient CI practices and tools in place, the benefits of working in small increments can be negated by integration delays and bottlenecks.
+
+### Underestimating the Importance of Clear Commit Messages
+Each small increment should be accompanied by a clear, descriptive commit message. This becomes even more critical when working in small increments, as the project history will contain a higher volume of updates. Neglecting this can lead to confusion and difficulties in understanding the purpose and impact of changes.
+
+### Risk of Fragmentation
+Working in excessively small increments can lead to fragmentation, where the codebase is peppered with incomplete features or changes that don't function well independently. This can make it difficult to maintain a clear direction for the project and may hinder the team's ability to deliver cohesive updates.
+
+### Neglecting Long-Term Planning
+Focusing too narrowly on small, immediate tasks can sometimes distract from the bigger picture and long-term objectives of the project. It's important to balance the benefits of incremental work with strategic planning to ensure that all efforts contribute meaningfully towards the project's overarching goals.
 
 ## Introspective Questions
 
