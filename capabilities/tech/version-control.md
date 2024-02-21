@@ -91,11 +91,11 @@ This practice improves Version Control by segregating application code from oper
 **Relationship:** Improves  
 Maintaining a Clean Git History enhances the Version Control capability by ensuring a clear, navigable, and meaningful project history. This practice facilitates better understanding, collaboration, and troubleshooting by making the revision history easier to follow. It directly supports the objectives of effective version control, contributing to more efficient and reliable software development processes.
 
-### [Documentation Consistency Checks](https://github.com/pragmint/best-practices/blob/dora/practices/documentation-consistency-check.md)
+### [Documentation Consistency Checks](/practices/documentation-consistency-check.md)
 **Relationship:** Enables  
 Implementing Documentation Consistency Checks enables the Version Control capability by ensuring that all documentation is kept up-to-date and consistent with the codebase it describes. This practice facilitates better alignment between documentation and software development, ensuring that changes in code are accurately reflected in the documentation, thereby enhancing the overall quality and reliability of both the codebase and the supporting documents.
 
-### [Infrastructure as Code](https://github.com/pragmint/best-practices/blob/f7ec5087a671147e0339f89baed80926771d2b18/practices/infrastructure-as-code.md)
+### [Infrastructure as Code](/practices/infrastructure-as-code.md)
 
 **Relationship:** Improves   
 Infrastructure as Code enhances the Version Control capability by applying its principles to infrastructure management. This practice ensures that infrastructure provisioning and configuration are as reproducible and transparent as application code changes, fostering better collaboration and consistency across development and operations teams.
