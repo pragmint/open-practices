@@ -44,7 +44,29 @@ How do you maintain a balance between focusing on small, immediate tasks and ens
 
 ## Exercises
 
-<!-- TODO: insert a list of exercises / experiments the reader can try to see if this practice will help their team / organization improve -->
+### Implement a Daily Commit Challenge
+* **Objective:** Encourage developers to commit at least once a day with meaningful changes to foster the habit of working in small increments.
+* **Outcome:** Increased familiarity with the practice, leading to a more consistent and manageable development process.
+
+### Track and Analyze Commit Sizes
+* **Objective:** Review the size and scope of commits over a period to assess whether the team is effectively balancing between too small and too large increments.
+* **Outcome:** Insights into the optimal size for commits that balance manageability with meaningful contribution to the project.
+
+### Continuous Integration (CI) Workflow Optimization
+* **Objective:** Evaluate and improve the CI process to handle frequent updates more efficiently, including automating tests and deployment where possible.
+* **Outcome:** A smoother, faster CI process that supports the practice without becoming a bottleneck.
+
+### Commit Message Workshop
+* **Objective:** Host a session to discuss and practice writing clear, descriptive commit messages that effectively communicate the intent and scope of changes.
+* **Outcome:** Improved commit messages that facilitate better project tracking, understanding, and collaboration.
+
+### Fragmentation Review
+* **Objective:** Conduct a review of recent features or changes to identify instances of fragmentation due to excessively small increments.
+* **Outcome:** Recommendations for combining or restructuring work to maintain project cohesion without sacrificing the benefits of small increments.
+
+### Strategic Increment Planning Session
+* **Objective:** Organize a planning session to align small increment work with long-term project goals, ensuring that each small task contributes to the bigger picture.
+* **Outcome:** A clearer understanding of how daily work fits into long-term objectives, potentially leading to more strategic task allocation and prioritization.
 
 ## Resources
 
