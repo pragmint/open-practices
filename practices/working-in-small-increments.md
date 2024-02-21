@@ -24,7 +24,23 @@ Focusing too narrowly on small, immediate tasks can sometimes distract from the 
 
 ## Introspective Questions
 
-<!-- TODO: insert thought provoking questions to get reader to deeply consider if they could be better applying this practice to their organization -->
+### How Often Do You Commit?
+How often do you commit changes to your codebase, and do you believe your current frequency optimally supports your project's goals and workflow?
+
+### Are Your Increments Meaningful?
+Are the increments you work on truly meaningful and contributing to the project, or are they simply small for the sake of being manageable?
+
+### How Effective Is Your CI System?
+How effectively does your current continuous integration (CI) system handle the frequency of updates from working in small increments, and where can improvements be made?
+
+### How Clear Are Your Commit Messages?
+Do your commit messages accurately and clearly convey the purpose and impact of each change, facilitating easier tracking and understanding of the project's evolution?
+
+### Do You Maintain Project Cohesion?
+Have you experienced any fragmentation in your project due to working in very small increments, and how do you ensure that each piece contributes to a coherent whole?
+
+### Is Your Work Aligned With Long-Term Goals?
+How do you maintain a balance between focusing on small, immediate tasks and ensuring that every effort aligns with and contributes to the long-term objectives of your project?
 
 ## Exercises
 
