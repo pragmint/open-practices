@@ -70,7 +70,15 @@ How do you maintain a balance between focusing on small, immediate tasks and ens
 
 ## Resources
 
-<!-- TODO: insert a list of resources that explore this practice. For each item, give a brief summary of the resource. -->
+### [Know Your Next Commit](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_47#know-your-next-commit)
+A guideline advocating for clarity and foresight in planning commits, emphasizing the practice of keeping changes small and manageable for streamlined development and easier troubleshooting.
+
+### [An Argument Against PRs](https://www.youtube.com/watch?v=ZlLZEQQBcFg)
+A video discussion that critiques the standard use of pull requests, arguing for a workflow that favors smaller, frequent updates to foster better collaboration and efficiency in software development.
+
+### [Boy Scout Rule](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_08)
+An approach to coding that urges developers to continually improve and clean up the codebase, making small, incremental enhancements with each commit, in line with the adage of leaving the code better than you found it.
+
 
 ## Related Practices
 
