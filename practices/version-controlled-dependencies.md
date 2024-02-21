@@ -4,7 +4,15 @@ The practice of Version Controlled Dependencies involves managing application de
 
 ## Nuance
 
-<!-- TODO: insert nuance of practice (common misconceptions, important considerations, situations where overdoing it on practice can hinder progress, etc) -->
+### Regular Updates Required:
+ Even with strict version control, dependencies must be regularly updated to address security vulnerabilities, bugs, and performance issues. This requires a balance between maintaining stability and incorporating necessary changes.
+### Avoiding Dependency Hell:
+Managing a complex web of dependencies can lead to "dependency hell," where updating one dependency necessitates cascading updates, potentially causing compatibility issues across the project.
+### Risks of Over-strict Version Control:
+Locking dependencies too rigidly can prevent the adoption of minor but important updates that improve security or performance, potentially halting innovation and progress.
+### Semantic Versioning as a Solution:
+Adopting semantic versioning can help manage the balance between stability and flexibility. It allows for minor and patch updates that do not introduce breaking changes, while major updates can be evaluated and implemented as needed.
+
 
 ## Introspective Questions
 
