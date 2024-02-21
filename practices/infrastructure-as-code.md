@@ -33,7 +33,20 @@ While IaC inherently documents infrastructure setups, additional documentation o
 
 ## Introspective Questions
 
-<!-- TODO: insert thought provoking questions to get reader to deeply consider if they could be better applying this practice to their organization -->
+### How Current Is Your Automation?
+Are you leveraging the latest tools and practices in IaC to ensure your infrastructure management is as efficient and secure as possible? Consider whether your current approach to automation fully meets the needs of your organization's evolving infrastructure.
+
+### Is Your Infrastructure Truly Immutable?
+Reflect on the degree to which your infrastructure can be recreated from scratch with minimal manual intervention. How does this impact your disaster recovery and scaling strategies?
+
+### How Integrated Is IaC in Your CI/CD Pipeline?
+Evaluate how seamlessly IaC is integrated into your continuous integration and continuous deployment (CI/CD) processes. Are there areas where further automation or integration could reduce bottlenecks and improve deployment times?
+
+### Are You Balancing Speed and Security Effectively?
+Consider the balance between the speed of deployment and security within your IaC practices. Are security checks and compliance measures embedded throughout your IaC pipelines, or are they an afterthought?
+
+### How Collaborative Is Your IaC Approach?
+Think about the level of collaboration between your development, operations, and security teams in managing and evolving your IaC strategy. Is there a culture of shared responsibility and knowledge sharing, or are silos hindering your progress?
 
 ## Exercises
 
