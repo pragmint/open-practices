@@ -1,6 +1,6 @@
 # [Code Maintainability](https://dora.dev/devops-capabilities/technical/code-maintainability/)
 
-<!-- TODO: insert summary of capability -->
+Code maintainability is critical for efficient software development, enabling teams to easily find, reuse, and modify code across an organization's codebase. Effective dependency management reduces the risk of code breaking and facilitates the addition of new dependencies and version upgrades. Tools and practices that help with finding and changing code and managing dependencies can significantly improve software quality and development speed. This capability necessitates organization-wide coordination and the implementation of tooling to mitigate dependency issues and enhance codebase navigability.
 
 ## Nuance
 
