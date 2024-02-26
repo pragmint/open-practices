@@ -45,4 +45,18 @@ Consider the role of code reviews in your development process and whether they a
 
 ## Related Capabilities
 
-<!-- TODO: insert a list of [linked capabilities](/capabilities) that support this capability. For each item, give a brief explanation of how the linked capability supports / relates to this capability. Also categorize each linked capability as one of the following: Enables, Requires, Improves -->
+### [Continuous Delivery](https://dora.dev/devops-capabilities/technical/continuous-delivery/)
+**Relationship:** Enables  
+Continuous Delivery relies on effective Code Maintainability practices to streamline the deployment process. By ensuring that code is easy for developers to understand, modify, and extend, Continuous Delivery can achieve more reliable, low-risk releases. Practices like version control, comprehensive monitoring, and database change management are essential components that support Continuous Delivery by making the codebase more manageable and deployments more predictable&#8203;``【oaicite:3】``&#8203;.
+
+### [Documentation Quality](https://dora.dev/devops-capabilities/process/documentation-quality/)
+**Relationship:** Improves  
+High-quality documentation is crucial for maintaining code effectively. It amplifies the impact of technical capabilities on organizational performance by making it easier for developers to understand complex systems, use and contribute to the codebase, and manage dependencies. Including documentation as part of the development process ensures that code is not only maintainable but also accessible to new developers and stakeholders, thus improving the overall maintainability of the code.
+
+### [Trunk-based Development](https://dora.dev/devops-capabilities/technical/trunk-based-development/)
+**Relationship:** Improves  
+Trunk-based Development supports Code Maintainability by minimizing the complexity associated with managing multiple branches in version control. This practice encourages frequent integrations and small, manageable updates, which can significantly reduce merge conflicts and make the codebase easier to maintain over time. By fostering a culture of continuous integration, Trunk-based Development directly contributes to enhancing code maintainability.
+
+### [Streamlining Change Approval](https://dora.dev/devops-capabilities/process/streamlining-change-approval/)
+**Relationship:** Requires  
+Efficient Code Maintainability is necessary for Streamlining Change Approval processes. By making code easier to understand and modify, organizations can move towards a peer-review based change approval process, supported by automated tests. This shift not only reduces the reliance on formal, heavyweight change management processes but also accelerates the pace at which changes can be approved and implemented, thus requiring a maintainable codebase to be effective.
