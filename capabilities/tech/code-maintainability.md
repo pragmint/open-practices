@@ -4,7 +4,18 @@ Code maintainability is critical for efficient software development, enabling te
 
 ## Nuance
 
-<!-- TODO: insert nuance of capability (common misconceptions, important considerations, situations where overdoing it on capability can hinder progress, etc) -->
+### Misunderstanding Code Complexity as Maintainability
+Often, code maintainability is mistakenly equated with code complexity. While complex code can be challenging to maintain, maintainability primarily concerns how easily code can be understood, modified, and extended by developers, regardless of its complexity. Overemphasis on reducing complexity can lead to oversimplified code that lacks necessary functionality or flexibility.
+
+### The Over-Engineering Paradox
+In efforts to make code more maintainable, there's a risk of over-engineering solutions with too many abstractions or overly generic designs. This can paradoxically make the code harder to understand and modify, as developers must navigate unnecessary layers of abstraction or complexity, defeating the purpose of maintainability.
+
+### Dependency Management Overkill
+While effective dependency management is crucial for maintainability, overzealous dependency updates or the inclusion of unnecessary dependencies can introduce instability and security vulnerabilities. It's important to balance keeping dependencies up-to-date with the stability and security of the application.
+
+### Neglecting Documentation and Code Readability
+A common oversight is focusing solely on technical solutions (like refactoring and dependency management) at the expense of documentation and code readability. Well-documented code and adherence to coding standards are fundamental for maintainability, enabling developers to quickly understand and efficiently work with the codebase.
+
 
 ## Introspective Questions
 
