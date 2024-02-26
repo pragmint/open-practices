@@ -19,7 +19,21 @@ A common oversight is focusing solely on technical solutions (like refactoring a
 
 ## Introspective Questions
 
-<!-- TODO: insert thought provoking questions to get reader to deeply consider if they could be better applying this capability to their organization -->
+### How effectively are we managing our code dependencies?
+Consider whether your team is proactively managing dependencies to avoid security vulnerabilities and integration issues, and if you are balancing the need for up-to-date dependencies with the stability of your application.
+
+### Are we over-engineering our solutions?
+Reflect on whether your codebase suffers from over-engineering, such as unnecessary abstractions or overly generic designs, and how this might be impacting the maintainability and understandability of your code.
+
+### Do we prioritize documentation and code readability?
+Ask yourself if your team consistently produces well-documented code and follows coding standards to ensure that the code is easily readable and understandable by new or returning developers.
+
+### How do we handle code complexity?
+Evaluate if your team's approach to handling code complexity effectively aids in maintainability, or if there's a tendency to simplify code to the point where it becomes less flexible or functional than needed.
+
+### Are we conducting regular code reviews with maintainability in mind?
+Consider the role of code reviews in your development process and whether they are focused enough on identifying and improving aspects of code maintainability, such as readability, documentation, and effective dependency management.
+
 
 ## Resources
 
