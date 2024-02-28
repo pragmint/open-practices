@@ -39,7 +39,26 @@ How effectively are we managing the integration of automated coding standards to
 
 ## Exercises
 
-<!-- TODO: insert a list of exercises / experiments the reader can try to see if this practice will help their team / organization improve -->
+### Configuring Automated Coding Standards
+- **Objective:** Experiment with configuring automated coding standards tools to align with your organization's coding guidelines.
+- **Outcome:** Identification of gaps between existing coding practices and automated tool capabilities, leading to a more tailored coding standards enforcement strategy.
+
+### Manual vs. Automated Code Review Challenge
+- **Objective:** Compare the effectiveness and efficiency of manual code reviews against automated coding standards checks.
+- **Outcome:** Insights into how automated tools complement manual review processes and where manual reviews are still necessary.
+
+### Creativity Under Constraints
+- **Objective:** Encourage developers to solve a common problem while adhering strictly to automated coding standards.
+- **Outcome:** Examples of innovative solutions developed within the constraints of coding standards, showcasing the balance between creativity and adherence to standards.
+
+### Tool Integration Workshop
+- **Objective:** Facilitate a workshop to integrate a new automated coding standards tool into your development workflow.
+- **Outcome:** A smoother integration process for new tools, with feedback collected on tool usability, configuration ease, and impact on development speed.
+
+### Customization Sprint
+- **Objective:** Conduct a sprint focused on customizing automated coding standards tools to better fit team needs and preferences.
+- **Outcome:** A set of customized rules and configurations that reflect the unique requirements of your team, leading to more effective enforcement of coding standards.
+
 
 ## Resources
 
