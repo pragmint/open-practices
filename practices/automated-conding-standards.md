@@ -71,4 +71,22 @@ This resource provides insights into the importance of automating coding standar
 
 ## Supporting Capabilities
 
-<!-- TODO: insert a list of [linked capabilities](/capabilities) that this practice supports. For each item, give a brief explanation of how the linked capability is supported by / relates to this practice. Also categorize each linked capability as one of the following: Enables, Requires, Improves -->
+### [Continuous Integration](https://dora.dev/devops-capabilities/technical/continuous-integration/) 
+**Relationship:** Improves
+Automated Coding Standards practice improves Continuous Integration by ensuring that code committed to the repository adheres to predefined quality and style guidelines, facilitating smoother integration and fewer integration issues.
+
+### [Code Maintainability](https://dora.dev/devops-capabilities/technical/code-maintainability/)
+**Relationship:** Improves
+This practice improves code maintainability by enforcing consistent coding standards across the codebase, making it easier to understand, modify, and extend the code over time.
+
+### [Test Automation](https://dora.dev/devops-capabilities/technical/test-automation/)
+**Relationship:** Enables
+Automating coding standards sets a quality baseline that enables more effective test automation, as consistently formatted and standardized code reduces the complexity of writing and maintaining tests.
+
+### [Version Control](https://dora.dev/devops-capabilities/technical/version-control/)
+**Relationship:** Requires
+The practice of Automated Coding Standards requires robust version control systems to track and manage the enforcement of coding standards over time, ensuring that all code changes are compliant.
+
+### [Continuous Delivery](https://dora.dev/devops-capabilities/technical/continuous-delivery/)
+**Relationship:** Improves
+By ensuring that code meets established standards before it is merged, Automated Coding Standards practice streamlines the path to production, improving the Continuous Delivery process by reducing the risk of defects and deployment issues.
