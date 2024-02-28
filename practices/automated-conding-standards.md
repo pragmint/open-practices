@@ -90,3 +90,19 @@ The practice of Automated Coding Standards requires robust version control syste
 ### [Continuous Delivery](https://dora.dev/devops-capabilities/technical/continuous-delivery/)
 **Relationship:** Improves
 By ensuring that code meets established standards before it is merged, Automated Coding Standards practice streamlines the path to production, improving the Continuous Delivery process by reducing the risk of defects and deployment issues.
+
+### [Documentation Quality](https://dora.dev/devops-capabilities/process/documentation-quality/) #core
+**Relationship:** Improves
+Automated coding standards contribute to the overall quality of documentation by ensuring that code examples and snippets adhere to a consistent style and format, making them easier to understand and follow.
+
+### [Team Experimentation](https://dora.dev/devops-capabilities/process/team-experimentation/)
+**Relationship:** Enables
+By automating coding standards, teams are freed to experiment more with architectural and design patterns without worrying about deviating from coding norms, fostering an environment of innovation.
+
+### [Visibility of Work in the Value Stream](https://dora.dev/devops-capabilities/process/work-visibility-in-value-stream/)
+**Relationship:** Improves
+Automated coding standards improve the visibility of work by ensuring that code changes are consistently formatted and adhere to established practices, making it easier to track and review changes across the value stream.
+
+### [Working in Small Batches](https://dora.dev/devops-capabilities/process/working-in-small-batches/)
+**Relationship:** Improves
+Enforcing coding standards through automation encourages the practice of working in small batches by facilitating quicker feedback loops and easier integration of small, incremental changes, enhancing overall workflow efficiency.
