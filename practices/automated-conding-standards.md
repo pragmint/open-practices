@@ -21,7 +21,21 @@ Incorporating automated coding standards tools into existing projects, especiall
 
 ## Introspective Questions
 
-<!-- TODO: insert thought provoking questions to get reader to deeply consider if they could be better applying this practice to their organization -->
+### How Customized Are Our Automated Coding Standards?
+Are our automated coding standards tools customized to reflect our specific coding practices and project needs, or are we using a one-size-fits-all approach?
+
+### Do We Rely Too Much on Automation for Code Quality?
+Are we over-relying on automated tools to enforce code quality, potentially at the expense of deeper learning and understanding of coding standards among our developers?
+
+### Are Our Tools Limiting Creativity?
+Could the way we enforce automated coding standards be stifling creativity or innovation within our development team?
+
+### How Effective Are Our Tools in Contextual Understanding?
+Are we aware of the limitations of our automated coding standards tools, especially in understanding the context and intent behind certain coding decisions?
+
+### Facing Integration Challenges Effectively?
+How effectively are we managing the integration of automated coding standards tools, especially in large or legacy codebases, and are there areas where we can improve?
+
 
 ## Exercises
 
