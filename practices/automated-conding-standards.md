@@ -106,3 +106,23 @@ Automated coding standards improve the visibility of work by ensuring that code 
 ### [Working in Small Batches](https://dora.dev/devops-capabilities/process/working-in-small-batches/)
 **Relationship:** Improves
 Enforcing coding standards through automation encourages the practice of working in small batches by facilitating quicker feedback loops and easier integration of small, incremental changes, enhancing overall workflow efficiency.
+
+### [Generative Organizational Culture](https://dora.dev/devops-capabilities/cultural/generative-organizational-culture/) #core
+**Relationship:** Improves
+Automated coding standards promote a generative culture by fostering an environment where collaboration and high-quality standards are valued, leading to increased trust and shared responsibility among team members.
+
+### [Learning Culture](https://dora.dev/devops-capabilities/cultural/learning-culture/)
+**Relationship:** Enables
+The practice of automated coding standards supports a learning culture by encouraging continuous improvement and adaptation of coding practices, facilitating ongoing learning and development within the team.
+
+### [Transformational Leadership](https://dora.dev/devops-capabilities/cultural/transformational-leadership/)
+**Relationship:** Requires
+Implementing automated coding standards effectively requires transformational leadership to champion the adoption of these practices, demonstrating commitment to quality and continuous improvement.
+
+### [Job Satisfaction](https://dora.dev/devops-capabilities/cultural/job-satisfaction/)
+**Relationship:** Improves
+By reducing the mundane aspects of code reviews and enhancing code quality, automated coding standards can lead to higher job satisfaction among developers who can focus more on creative problem-solving.
+
+### [Well-being](https://dora.dev/devops-capabilities/cultural/well-being/) #core
+**Relationship:** Improves
+Automated coding standards contribute to the well-being of developers by creating a more structured and predictable coding environment, reducing stress and cognitive load associated with maintaining code quality.
