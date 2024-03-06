@@ -1,6 +1,6 @@
-# Version Controlled Dependencies
+# Version Dependencies
 
-The practice of Version Controlled Dependencies involves managing application dependencies by versioning and referencing them through specific versions. This approach ensures consistency, reliability, and traceability in software development projects by maintaining a clear record of all dependency versions used within an application.
+The practice of Version Dependencies involves managing application dependencies by versioning and referencing them through specific versions. This approach ensures consistency, reliability, and traceability in software development projects by maintaining a clear record of all dependency versions used within an application.
 
 ## Nuance
 
@@ -90,7 +90,7 @@ Version Controlled Dependencies complement trunk-based development by ensuring t
 
 ### [Version Control](/capabilities/tech/version-control.md)
 **Relationship:** Requires  
-The practice of Version Controlled Dependencies inherently requires a robust version control system to manage the dependencies' versions alongside the application's source code.
+The practice of Version Dependencies inherently requires a robust version control system to manage the dependencies' versions alongside the application's source code.
 
 ### [Code Maintainability](https://dora.dev/devops-capabilities/technical/code-maintainability/)
 **Relationship:** Improves  

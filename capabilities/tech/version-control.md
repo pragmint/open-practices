@@ -100,9 +100,9 @@ Implementing Check Documentation Consistency enables the Version Control capabil
 **Relationship:** Improves   
 Infrastructure as Code enhances the Version Control capability by applying its principles to infrastructure management. This practice ensures that infrastructure provisioning and configuration are as reproducible and transparent as application code changes, fostering better collaboration and consistency across development and operations teams.
 
-### [Version-Controlled Dependencies](/practices/version-controlled-dependencies.md)
+### [Version Dependencies](/practices/version-dependencies.md)
 **Relationship:** Improves  
-Version-Controlled Dependencies complement the Version Control capability by ensuring dependencies are managed with the same diligence as source code. This practice enhances reproducibility, traceability, and consistency in software builds, aligning with the core principles of effective version control for comprehensive software development management.
+Version Dependencies complement the Version Control capability by ensuring dependencies are managed with the same diligence as source code. This practice enhances reproducibility, traceability, and consistency in software builds, aligning with the core principles of effective version control for comprehensive software development management.
 
 ### [Working in Small Increments](/practices/working-in-small-increments.md)
 **Relationship:** Improves  
