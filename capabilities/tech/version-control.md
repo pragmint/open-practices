@@ -79,7 +79,7 @@ Envision your development process as a road trip. Does your version control serv
 
 ## Supporting Practices
 
-### [Automatic Database Migrations](/practices/automatic-database-migrations.md)
+### [Automate Database Migrations](/practices/automate-database-migrations.md)
 **Relationship:** Improves  
 Implementing Automatic Database Migrations enhances the effectiveness of the Version Control capability by ensuring database schema changes are consistently versioned and managed alongside application code. This practice fosters an environment where code and database changes are integrated, tested, and deployed in a unified manner, leading to more reliable and streamlined development workflows. It directly contributes to the core objectives of version control by adding a layer of automation and traceability to database evolution.
 
