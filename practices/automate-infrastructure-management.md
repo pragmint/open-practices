@@ -1,6 +1,6 @@
-# Infrastructure as Code
+# Automate Infrastructure Management
 
-Infrastructure as Code (IaC) is a practice that automates the provisioning and management of IT infrastructure through code rather than manual processes. Utilizing tools like Terraform, IaC allows teams to efficiently deploy and manage servers, storage, and networking in a consistent, repeatable manner. This approach enhances agility, reduces human error, and ensures secure, compliant infrastructure setups. Through version control and continuous integration, IaC supports a more reliable and scalable infrastructure, crucial for modern software development workflows.
+Automate Infrastructure Management a practice that automates the provisioning and management of IT infrastructure through code rather than manual processes. Utilizing tools like Terraform, IaC allows teams to efficiently deploy and manage servers, storage, and networking in a consistent, repeatable manner. This approach enhances agility, reduces human error, and ensures secure, compliant infrastructure setups. Through version control and continuous integration, IaC supports a more reliable and scalable infrastructure, crucial for modern software development workflows.
 
 ## Nuance
 
@@ -101,7 +101,7 @@ Deployment automation relies on IaC for scripting and automating the deployment 
 
 ### [Version Control](https://dora.dev/devops-capabilities/technical/version-control/) #core
 **Relationship**: Improves  
-IaC practices enhance version control by allowing infrastructure to be versioned and tracked along with application code. This integration improves collaboration and rollback capabilities.
+Automate Infrastructure Management practice enhances version control by allowing infrastructure to be versioned and tracked along with application code. This integration improves collaboration and rollback capabilities.
 
 ### [Test Automation](https://dora.dev/devops-capabilities/technical/test-automation/) #core
 **Relationship**: Improves  
