@@ -1,6 +1,6 @@
-# Documentation Consistency Check
+# Check Documentation Consistency
 
-The Documentation Consistency Check practice ensures that documentation remains aligned with the code and technical artifacts it describes. This involves regular updates and reviews to keep information current and accurate, integrating documentation as a core part of the development process. By doing so, it reduces confusion, streamlines onboarding, and enhances project clarity and communication.
+The Check Documentation Consistency practice ensures that documentation remains aligned with the code and technical artifacts it describes. This involves regular updates and reviews to keep information current and accurate, integrating documentation as a core part of the development process. By doing so, it reduces confusion, streamlines onboarding, and enhances project clarity and communication.
 
 ## Nuance
 
@@ -124,7 +124,7 @@ This practice improves continuous delivery by ensuring that documentation is alw
 
 ### [Monitoring and Observability](https://dora.dev/devops-capabilities/technical/monitoring-and-observability/)
 **Relationship: Enables**  
-By ensuring that documentation accurately reflects the system's architecture and behavior, Documentation Consistency Check enables more effective monitoring and observability. Accurate documentation provides a critical reference for understanding observed behaviors and diagnosing issues.
+By ensuring that documentation accurately reflects the system's architecture and behavior, Check Documentation Consistency enables more effective monitoring and observability. Accurate documentation provides a critical reference for understanding observed behaviors and diagnosing issues.
 
 ### [Test Automation](https://dora.dev/devops-capabilities/technical/test-automation/)
 **Relationship: Enables**  
