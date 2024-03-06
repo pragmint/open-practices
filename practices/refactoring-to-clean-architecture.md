@@ -1,4 +1,4 @@
-# Clean Architecture
+# Refactoring to Clean Architecture
 
 Clean Architecture emphasizes code separation into distinct layers, promoting maintainability, scalability, and testability. By adhering to principles like Single Responsibility and Dependency Inversion, it ensures components have clear, isolated roles and rely on abstractions rather than concrete implementations. This structure benefits automated testing by facilitating easier creation and maintenance of tests, as changes in external elements like UI or databases do not impact the core logic, leading to more robust and reliable software.
 
