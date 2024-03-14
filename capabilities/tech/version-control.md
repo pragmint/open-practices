@@ -1,6 +1,6 @@
 # [Version Control](https://dora.dev/devops-capabilities/technical/version-control/)
 
-The version control capability underscores the critical role of systems like Git in managing software development processes. It highlights how version control is foundational for enabling automation, ensuring disaster recovery, and facilitating continuous integration. By storing source code, scripts, configuration data, and dependencies in a version control system, teams can significantly enhance software delivery, traceability, and quality, while also improving their ability to respond to defects promptly.
+Version control allows teams to revert changes back to a working state. When this is fast an easy to accomplish, teams can move forward with less fear of breaking the system. Technologies like Git and SVN have made version control for code popular. However, this DORA Capability applies all the same to configuration, data, infrastructure, and documentation. Furthermore, version control is foundational for enabling automation, ensuring disaster recovery, and facilitating continuous integration.
 
 ## Nuance
 
