@@ -6,15 +6,11 @@ Version control allows teams to revert changes back to a working state. When thi
 
 ### Branching Complexity
 
-While branching strategies are powerful, overly complex branching structures can lead to confusion. Striking a balance between simplicity and effectiveness is key. Unnecessary complexity can hinder collaboration and make it challenging to understand the codebase's history.
+While branching strategies could help you organize incremental work, overly complex branching structures can lead to confusion. Striking a balance between simplicity and effectiveness is key.
 
 ### Misconception: "It Only Tracks Code"
 
-Version control goes beyond tracking lines of code; it encompasses documentation, configurations, and other project artifacts. Acknowledging that version control manages the entire project's state helps in creating comprehensive backups and ensuring reproducibility.
-
-### Consideration: User-Friendly Tools Matter
-
-Some teams may shy away from version control due to the perceived complexity of tools. However, user-friendly interfaces and simplified workflows are available, making adoption easier. Choosing tools that align with the team's skill level and needs is crucial for successful implementation.
+Version control goes beyond tracking lines of code; it encompasses documentation, configurations, and other project artifacts, this allows you to keep in sync all artifacts for an specific version/release.
 
 ### Misconception: "It's Only About Rollbacks"
 
@@ -24,21 +20,13 @@ While rollbacks are a valuable aspect, version control is equally about enabling
 
 Introducing version control may have a learning curve, especially for teams new to the concept. Providing adequate training and support during the transition is essential to avoid frustration and ensure a smooth adaptation.
 
-### Misconception: "It Slows Us Down"
-
-Some might perceive version control as an additional step that slows down development. However, the initial investment pays off in terms of time saved on issue resolution, collaboration streamlining, and maintaining a stable codebase over the long run.
-
 ### Consideration: Regular Maintenance
 
 Neglecting regular maintenance of version control systems can lead to inefficiencies. Cleaning up obsolete branches, ensuring proper documentation, and periodically optimizing repositories contribute to a healthier version control environment.
 
-### Misconception: "It's Just for Code"
-
-Version control is not exclusive to code; it can manage various file types and project assets. Acknowledging its versatility allows teams to leverage version control for a broader range of project components, enhancing overall project management.
-
 ### Consideration: Striking a Balance
 
-Overemphasizing version control to the detriment of actual coding can hinder progress. Striking a balance between maintaining a well-organized version control system and focusing on actual development work is crucial for a productive workflow.
+Striking a balance between maintaining a well-organized version control system and focusing on actual development work is crucial for a productive workflow.
 
 ## Introspective Questions
 
