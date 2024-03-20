@@ -14,7 +14,7 @@ This practice improves Version Control by segregating application code from oper
 
 ### [Clean Git History](/practices/clean-git-history.md)
 **Relationship:** Improves  
-Maintaining a Clean Git History enhances the Version Control capability by ensuring a clear, navigable, and meaningful project history. This practice facilitates better understanding, collaboration, and troubleshooting by making the revision history easier to follow. It directly supports the objectives of effective version control, contributing to more efficient and reliable software development processes.
+Maintaining a Clean Git History enhances the Version Control capability by ensuring a clear comprehensible project history. This practice facilitates better understanding, collaboration, troubleshooting and rollbacks by making the revision history easier to follow.
 
 ### [Check Documentation Consistency](/practices/check-documentation-consistency.md)
 **Relationship:** Enables  
