@@ -21,13 +21,12 @@ Maintaining a Clean Git History enhances the Version Control capability by ensur
 Check Documentation Consistency improves the Version Control capability by ensuring that all documentation is kept up-to-date and consistent with the codebase it describes. This practice facilitates better alignment between documentation and software development, ensuring that changes in code are accurately reflected in the documentation, thereby enhancing the overall quality and reliability of both the codebase and the supporting documents.
 
 ### [Automate Infrastructure Management](/practices/automate-infrastructure-management.md)
-
 **Relationship:** Improves   
 Infrastructure as Code enhances the Version Control capability by applying its principles to infrastructure management. This practice ensures that infrastructure provisioning and configuration are as reproducible and transparent as application code changes, fostering better collaboration and consistency across development and operations teams.
 
 ### [Version Dependencies](/practices/version-dependencies.md)
 **Relationship:** Improves  
-Version Dependencies complement the Version Control capability by ensuring dependencies are managed with the same diligence as source code. This practice enhances reproducibility, traceability, and consistency in software builds, aligning with the core principles of effective version control for comprehensive software development management.
+Version Dependencies complement the Version Control capability by ensuring dependencies are managed with the same diligence as source code. This practice enhances reproducibility, traceability, and consistency in software builds.
 
 ### [Working in Small Increments](/practices/working-in-small-increments.md)
 **Relationship:** Improves  
