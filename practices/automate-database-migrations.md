@@ -1,6 +1,6 @@
 # Automate Database Migrations
 
-Automate Database Migrations is an strategic practice for managing and evolving a database schema over time through version-controlled scripts. These scripts enable incremental changes, such as adding features or fixing issues, while maintaining data integrity. Crucially, this approach includes rollback capabilities, allowing any modifications to be safely reversed if necessary. It aligns with Evolutionary Database Design, promoting adaptability and risk mitigation by integrating changes smoothly into development workflows. This method is key for supporting continuous integration and deployment, streamlining updates, and minimizing disruption.
+Automate Database Migrations is an strategic practice for managing and evolving a database schema over time through version-controlled scripts. These scripts enable incremental changes, such as adding features or fixing issues, while maintaining data integrity. This approach includes rollback capabilities, allowing any modifications to be safely reversed if necessary. It aligns with Evolutionary Database Design, promoting adaptability and risk mitigation by integrating changes smoothly into development workflows. This method is key for supporting continuous integration and deployment, streamlining updates, and minimizing disruption.
 
 ## Nuance
 
