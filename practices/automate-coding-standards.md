@@ -1,6 +1,6 @@
 # Automate Coding Standards
 
-Automating Coding Standards is a practice that emphasizes the importance of maintaining a high level of code quality through automation. It involves using tools to enforce coding standards and conventions automatically, ensuring that code is consistently formatted and adheres to predefined quality metrics. This practice not only helps in maintaining code readability and reducing the chance of errors but also streamlines the code review process by catching issues early. It's a proactive approach to code quality, making it easier for teams to manage large codebases and collaborate effectively.
+Automate Coding Standards is a practice about maintaining a high level of code quality through automation. It involves using tools to enforce coding standards and conventions automatically, ensuring that code is consistently formatted and adheres to predefined quality metrics. This practice not only helps in maintaining code readability and reducing the chance of errors but also streamlines the code review process by catching issues early. It's a proactive approach to code quality, making it easier for teams to manage large codebases and collaborate effectively.
 
 ## Nuance
 
