@@ -2,56 +2,6 @@
 
 Version control allows teams to revert changes back to a working state. When this is fast an easy to accomplish, teams can move forward with less fear of breaking the system. Technologies like Git and SVN have made version control for code popular. However, this DORA Capability applies all the same to configuration, data, infrastructure, and documentation. Furthermore, version control is foundational for enabling automation, ensuring disaster recovery, and facilitating continuous integration.
 
-## Nuance
-
-### Branching Complexity
-
-While branching strategies could help you organize incremental work, overly complex branching structures can lead to confusion. Striking a balance between simplicity and effectiveness is key.
-
-### Misconception: "It Only Tracks Code"
-
-Version control goes beyond tracking lines of code; it encompasses documentation, configurations, and other project artifacts, this allows you to keep in sync all artifacts for an specific version/release.
-
-### Misconception: "It's Only About Rollbacks"
-
-While rollbacks are a valuable aspect, version control is equally about enabling collaboration, facilitating code reviews, and supporting continuous integration. Seeing it solely as a safety net for mistakes overlooks its role in enhancing the entire development lifecycle.
-
-### Consideration: Learning Curve
-
-Introducing version control may have a learning curve, especially for teams new to the concept. Providing adequate training and support during the transition is essential to avoid frustration and ensure a smooth adaptation.
-
-### Consideration: Regular Maintenance
-
-Neglecting regular maintenance of version control systems can lead to inefficiencies. Cleaning up obsolete branches, ensuring proper documentation, and periodically optimizing repositories contribute to a healthier version control environment.
-
-### Consideration: Striking a Balance
-
-Striking a balance between maintaining a well-organized version control system and focusing on actual development work is crucial for a productive workflow.
-
-## Introspective Questions
-
-### Do you have a clear history?
-   Does your version control strategy provide a clear view into the changes made over time, fostering predictability and informed decision-making?
-
-### Are Your Code Collaborations Like a Well-Choreographed Dance?
-   Is your version control helping or hindering smooth collaboration? Are you utilizing branching and merging effectively to avoid stepping on each other's toes during code changes?
-
-### What's the Story Your Code Tells?
-   Think about the narrative your codebase tells. Does your version control capture the evolution of your project comprehensively? Can someone join your team and easily follow the storyline of your code's development?
-
-### How Fast Can You Bounce Back from Code Hiccups?
-   Consider how quickly your team can recover from mistakes or unexpected issues. Does your version control provide a safety net for rapid rollbacks and quick resolutions, or are you left grappling with prolonged downtimes?
-
-### Do you have conflicts often?
-   Imagine your codebase as a musical composition. Is your version control orchestrating a harmonious collaboration among developers, or is it contributing to a cacophony of conflicting changes and dissonance?
-
-### Are You Building a Code Time Capsule or a Living Document?
-   Think about how your codebase will be perceived in the future. Is your version control creating a time capsule that captures the essence of each development phase, or is it merely a static document lacking the vibrancy of a living, evolving project?
-
-## Resources
-
-<!-- TODO: insert a list of resources that explore this capability. For each item, give a brief summary of the resource. -->
-
 ## Supporting Practices
 
 ### [Automate Database Migrations](/practices/automate-database-migrations.md)
