@@ -17,8 +17,8 @@ This practice improves Version Control by segregating application code from oper
 Maintaining a Clean Git History enhances the Version Control capability by ensuring a clear comprehensible project history. This practice facilitates better understanding, collaboration, troubleshooting and rollbacks by making the revision history easier to follow.
 
 ### [Check Documentation Consistency](/practices/check-documentation-consistency.md)
-**Relationship:** Enables  
-Implementing Check Documentation Consistency enables the Version Control capability by ensuring that all documentation is kept up-to-date and consistent with the codebase it describes. This practice facilitates better alignment between documentation and software development, ensuring that changes in code are accurately reflected in the documentation, thereby enhancing the overall quality and reliability of both the codebase and the supporting documents.
+**Relationship:** Improves  
+Check Documentation Consistency improves the Version Control capability by ensuring that all documentation is kept up-to-date and consistent with the codebase it describes. This practice facilitates better alignment between documentation and software development, ensuring that changes in code are accurately reflected in the documentation, thereby enhancing the overall quality and reliability of both the codebase and the supporting documents.
 
 ### [Automate Infrastructure Management](/practices/automate-infrastructure-management.md)
 
