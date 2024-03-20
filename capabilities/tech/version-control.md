@@ -10,7 +10,7 @@ Implementing Automatic Database Migrations enhances the effectiveness of the Ver
 
 ### [Avoid Storing Config in Version Control](/practices/avoid-storing-config-in-version-control.md)
 **Relationship:** Improves    
-This practice improves Version Control by segregating application code from operational configurations. It minimizes risks associated with data exposure and declutters repositories, focusing version control efforts on code changes. This method enhances security and deployment processes, reinforcing the core principles of effective version control management
+This practice improves Version Control by segregating application code from operational configurations. It minimizes risks associated with data exposure, focusing version control efforts on code changes. This method enhances security and deployment processes.
 
 ### [Clean Git History](/practices/clean-git-history.md)
 **Relationship:** Improves  
