@@ -10,8 +10,17 @@ Integrating automatic database migrations with version control systems is crucia
 ### Environment-Specific Migrations
 Some database changes may need to be applied only in specific environments, such as development, staging, or production. Handling these environment-specific migrations requires careful planning and execution to ensure that each environment maintains its integrity and purpose without unintended impacts.
 
-### Dependency Management
-Database migrations often have dependencies, where certain changes must be applied in a specific order. Managing these dependencies effectively is essential to prevent errors during the migration process and ensure the database evolves coherently with the application it supports.
+### Migrations Execution Sequence
+Migrations often have dependencies and errors can occur if they are not executed in the right order.
+Frequent communication between team member helps to reduce this type of errors.
+A good version control strategy that promotes frequent integration contributes to reduce the frequency of migration sequence errors.  
+
+### Dependency Management Between Migrations
+Database migrations often have dependencies and errors can occur if not thought carefully.
+Migrations must be executed in a certain order.
+Teams must be mindful of this to reduce migration conflicts and the size of those conflict.
+Migrations can not depend on external resources that don't evolve side by side with the migration.
+Managing these dependencies effectively is essential to prevent errors during the migration process and ensure the database evolves coherently with the application it supports.
 
 ### Data Transformation and Migration
 In addition to schema changes, migrations might involve transforming existing data or migrating data between tables or formats. These operations can be complex and risk data integrity, requiring thorough testing and validation to ensure accuracy and completeness.
