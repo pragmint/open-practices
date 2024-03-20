@@ -30,4 +30,4 @@ Version Dependencies complement the Version Control capability by ensuring depen
 
 ### [Working in Small Increments](/practices/working-in-small-increments.md)
 **Relationship:** Improves  
-Working in Small Increments improves the Version Control capability by facilitating more manageable, frequent, and understandable commits. This practice enhances the traceability and reversibility of changes, making it easier to identify and address issues quickly, thereby improving the overall efficiency and reliability of the development process.
+Working in Small Increments improves the Version Control capability by facilitating more manageable, frequent, and understandable commits. This practice enhances the traceability and reversibility of changes, making it easier to identify and address issues quickly, thereby improving the overall efficiency and reliability of the development process. It also increases productivity and collaboration reducing the frequency of large merge conflicts.
