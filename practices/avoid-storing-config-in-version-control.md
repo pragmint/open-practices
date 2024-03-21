@@ -1,6 +1,6 @@
 # Avoid Storing Config in Version Control
 
-The practice of not storing configuration and sensitive data in version control is crucial for maintaining application security and flexibility. It separates operational details from code, reducing the risk of data exposure and supporting seamless deployment across different environments, thereby becoming a fundamental principle in secure and scalable software development.
+Avoiding Storing Config in Version Control makes systems for flexible and secure. It separates operational details from code, reducing the risk of data exposure and supporting seamless deployment across different environments, thereby becoming a fundamental principle in secure and scalable software development.
 
 ## Nuance
 
@@ -13,16 +13,16 @@ Maintaining consistent configurations across different environments is crucial t
 ### Deployment Complexity
 Adopting external configuration management introduces complexity in selecting and implementing the right tools and processes. Teams must navigate through options, considering factors such as integration, security, and scalability, to find a balance between the benefits of externalized configurations and the added complexity of managing them effectively.
 
-## Introspective Questions
+### The Exception for Local Development Examples
+An important nuance in this practice is the exception for including example configuration files in version control. These example or template configurations are intended to guide developers in setting up their local development environments quickly and efficiently. These files should contain generic, non-sensitive information and serve as a blueprint for developers to create their own local configuration files. For instance, an .env.example file might include placeholders for environment variables that need to be set but without providing any real keys or passwords.
+
+# Introspective Questions
 
 ### Are We Protecting Sensitive Configuration Effectively?
 Have we implemented robust security measures for our configuration data? Are encryption and access controls in place to prevent unauthorized access and ensure compliance with security regulations?
 
 ### How Do We Manage Configuration Across Environments?
 Do we have a consistent approach for managing configurations across different environments? How do we ensure that our deployment processes are seamless and that configurations do not lead to errors or discrepancies in various environments?
-
-### Is Our Configuration Separation Optimal for Scalability and Maintainability?
-Have we achieved a clear separation between code and configuration to facilitate scalability and maintainability? Are we leveraging external configuration management tools effectively to adapt to changes and requirements as our application grows?
 
 ### How Do We Handle Configuration Changes and Versioning?
 What processes do we have in place for managing changes to configuration? How do we track and version configuration changes to ensure that our application remains stable and secure with each update?
@@ -62,8 +62,9 @@ A concise guide that underscores the significance of externalizing configuration
 ## Supporting Capabilities
 
 ## [Version Control](/capabilities/tech/version-control.md)
-**Relationship Type: Enables**  
-By advocating for the exclusion of configuration and sensitive data from version control, this practice underscores the importance of using version control systems primarily for code. It ensures that version control focuses on its core purpose: tracking and managing changes to the application's source code efficiently, without the risk of exposing sensitive information.
+**Relationship Type: Improves**  
+By advocating for the exclusion of configuration and sensitive data from version control, this practice improves the Version Control Capability, 
+by defining the exceptions where storing information in source control is not desirable.  
 
 ## [Continuous Integration](https://dora.dev/devops-capabilities/technical/continuous-integration)
 **Relationship Type: Improves**  
@@ -72,10 +73,6 @@ Avoiding the storage of config in version control facilitates more efficient and
 ## [Deployment Automation](https://dora.dev/devops-capabilities/technical/deployment-automation)
 **Relationship Type: Requires**  
 This practice necessitates sophisticated deployment automation that can manage and inject external configurations at deployment time. By separating configuration from the codebase, deployment automation becomes a critical capability for applying different configurations across environments automatically, thus supporting scalable and repeatable deployments.
-
-## [Change Management](https://dora.dev/devops-capabilities/technical/change-management)
-**Relationship Type: Improves**  
-Externalizing configuration from version control contributes to more effective change management by isolating application changes from configuration changes. This distinction simplifies tracking and managing changes to the application, reducing the risk of configuration-related errors during deployments and enabling more agile and controlled change management processes.
 
 ## [Monitoring and Observability](https://dora.dev/devops-capabilities/technical/monitoring-and-observability)
 **Relationship Type: Improves**  
