@@ -15,13 +15,6 @@ Migrations often have dependencies and errors can occur if they are not executed
 Frequent communication between team member helps to reduce this type of errors.
 A good version control strategy that promotes frequent integration contributes to reduce the frequency of migration sequence errors.  
 
-### Dependency Management Between Migrations
-Database migrations often have dependencies and errors can occur if not thought carefully.
-Migrations must be executed in a certain order.
-Teams must be mindful of this to reduce migration conflicts and the size of those conflict.
-Migrations can not depend on external resources that don't evolve side by side with the migration.
-Managing these dependencies effectively is essential to prevent errors during the migration process and ensure the database evolves coherently with the application it supports.
-
 ### Data Transformation and Migration
 In addition to schema changes, migrations might involve transforming existing data or migrating data between tables or formats. These operations can be complex and risk data integrity, requiring thorough testing and validation to ensure accuracy and completeness.
 
@@ -33,10 +26,6 @@ Thorough testing and validation are paramount to ensure that migrations do not a
 
 ### Performance Considerations
 Large-scale migrations can significantly impact database performance, especially in production environments. Planning for off-peak execution times, batch processing, and incremental migrations are strategies to mitigate performance degradation during the migration process.
-
-### Regulatory Compliance and Data Protection
-In industries subject to regulatory compliance, migrations must be executed with consideration for data protection laws and regulations. This includes ensuring that data handling and storage modifications comply with standards such as GDPR, HIPAA, or others relevant to the organization's operations.
-
 
 ## Introspective Questions
 
