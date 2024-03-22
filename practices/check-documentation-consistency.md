@@ -1,26 +1,34 @@
 # Check Documentation Consistency
 
-The Check Documentation Consistency practice ensures that documentation remains aligned with the code and technical artifacts it describes. This involves regular updates and reviews to keep information current and accurate, integrating documentation as a core part of the development process. By doing so, it reduces confusion, streamlines onboarding, and enhances project clarity and communication.
+This practice ensures that documentation remains aligned with the code and technical artifacts it describes.
+This involves regular updates and reviews to keep information current and accurate.
+By doing so, it reduces confusion, streamlines onboarding, and enhances project clarity and communication.
 
 ## Nuance
 
 ### Balancing Detail and Clarity
-Striking the right balance between providing enough detail to be useful and keeping the documentation clear and concise is crucial. Overly detailed documentation can be as confusing as documentation that's too vague.
+Striking the right balance between providing enough detail to be useful and keeping the documentation clear and concise is crucial.
+Overly detailed documentation can be as confusing as documentation that's too vague.
 
 ### Version Control Challenges
-Managing documentation alongside different versions of code can introduce complexities. Ensuring that documentation reflects the correct version of the software it describes requires careful attention.
+Managing documentation alongside different versions of code can introduce complexities.
+Ensuring that documentation reflects the correct version of the software it describes requires careful attention.
 
 ### Resource Allocation
-Documentation consistency checks require time and resources. Teams must balance the effort between writing code and updating documentation, which can be challenging in fast-paced development environments.
+Documentation consistency checks require time and resources.
+Teams must balance the effort between writing code and updating documentation, which can be challenging in fast-paced development environments.
 
 ### Automated vs. Manual Updates
-While some aspects of documentation can be automated, such as API documentation generation, other parts require manual intervention. Deciding what to automate and what to manually update is a nuanced decision that impacts consistency and efficiency.
+While some aspects of documentation can be automated, such as API documentation generation, other parts require manual intervention.
+Deciding what to automate and what to manually update is a nuanced decision that impacts consistency and efficiency.
 
 ### Audience Consideration
-The intended audience for the documentation (developers, end-users, stakeholders) affects how consistency is maintained. Technical details necessary for developers might not be relevant for end-users, requiring different versions or layers of documentation.
+The intended audience for the documentation (developers, end-users, stakeholders) affects how consistency is maintained.
+Technical details necessary for developers might not be relevant for end-users, requiring different versions or layers of documentation.
 
 ### Cultural Shifts
-Emphasizing documentation consistency often requires a cultural shift within the organization. Teams accustomed to prioritizing development over documentation may need to adjust their approach and values.
+Emphasizing documentation consistency often requires a cultural shift within the organization.
+Teams accustomed to prioritizing development over documentation may need to adjust their approach and values.
 
 ### Tooling and Infrastructure
 The choice of tools and infrastructure for managing documentation (e.g., wikis, documentation generators) can significantly impact the ease and effectiveness of maintaining consistency.
@@ -29,47 +37,54 @@ The choice of tools and infrastructure for managing documentation (e.g., wikis, 
 Establishing feedback loops with documentation users can help identify inconsistencies and areas for improvement, but managing this feedback effectively without overwhelming the team is a nuanced challenge.
 
 ### Documentation Decay
-Over time, even well-maintained documentation can become outdated if not regularly reviewed and updated, especially in rapidly evolving projects. Recognizing and addressing documentation decay is a continuous effort.
+Over time, even well-maintained documentation can become outdated if not regularly reviewed and updated, especially in rapidly evolving projects.
+Recognizing and addressing documentation decay is a continuous effort.
 
 ### Knowledge Silos
-Avoiding knowledge silos where only certain team members know how to update documentation is crucial for consistency. Ensuring that knowledge and responsibility are shared across the team prevents bottlenecks.
+Avoiding knowledge silos where only certain team members know how to update documentation is crucial for consistency.
+Ensuring that knowledge and responsibility are shared across the team prevents bottlenecks.
 
 ## Introspective Questions
 
 ### Alignment with Development Processes
-How well is our documentation process integrated with our development lifecycle? Are we updating documentation as part of our routine development tasks?
-
-### Resource Commitment
-Are we allocating sufficient resources and time to maintain documentation consistency? How can we better balance documentation efforts with development priorities?
+How well is our documentation process integrated with our development lifecycle? 
+Are we updating documentation as part of our routine development tasks?
+Are documentation updates included in our definition of done?
+Are documentation updates included in our checklists?
 
 ### Automation Strategies
-To what extent have we explored and implemented automation in our documentation processes? Are there areas where automation could significantly improve consistency and efficiency?
+To what extent have we explored and implemented automation in our documentation processes?
+Are there areas where automation could significantly improve consistency and efficiency?
 
 ### Audience Awareness
-Do we clearly understand the different audiences for our documentation? How are we tailoring documentation to meet the diverse needs of developers, end-users, and stakeholders?
+Do we clearly understand the different audiences for our documentation? 
+How are we tailoring documentation to meet the diverse needs of developers, end-users, and stakeholders?
 
 ### Cultural Adoption
-Is the importance of documentation consistency recognized and valued across our team? What steps can we take to foster a culture that prioritizes documentation alongside development?
+Is the importance of documentation consistency recognized and valued across our team?
+What steps can we take to foster a culture that prioritizes documentation alongside development?
 
 ### Tool Utilization
-Are we using the most effective tools and platforms for managing and updating our documentation? Could changes or upgrades to our toolset enhance our documentation consistency?
+Are we using the most effective tools and platforms for managing and updating our documentation?
+Could changes or upgrades to our toolset enhance our documentation consistency?
 
 ### Feedback Mechanisms
-How effective are our feedback mechanisms for documentation? Are we regularly collecting and incorporating feedback from users to improve documentation quality and relevance?
+How effective are our feedback mechanisms for documentation?
+Are we regularly collecting and incorporating feedback from users to improve documentation quality and relevance?
 
 ### Addressing Documentation Decay
-How do we monitor and address documentation decay? What processes do we have in place to ensure documentation remains accurate over time?
+How do we monitor and address documentation decay?
+What processes do we have in place to ensure documentation remains accurate over time?
 
 ### Preventing Knowledge Silos
-What measures are we taking to prevent knowledge silos related to documentation practices? How can we ensure that all team members are equipped to contribute to and update documentation?
+What measures are we taking to prevent knowledge silos related to documentation practices?
+How can we ensure that all team members are equipped to contribute to and update documentation?
 
 ### Measuring Impact
-How do we measure the impact of documentation consistency on our project's success? What metrics or indicators help us understand the value of keeping our documentation aligned with our technical artifacts?
+How do we measure the impact of documentation consistency on our project's success?
+What metrics or indicators help us understand the value of keeping our documentation aligned with our technical artifacts?
 
 ## Exercises
-
-### Documentation Review Sprint
-- **Exercise**: Organize a dedicated sprint focused solely on reviewing and updating documentation. This includes aligning the documentation with the current state of the codebase, updating any outdated information, and ensuring that all technical artifacts are consistently described across all documents.
 
 ### Automated Documentation Generation
 - **Exercise**: Implement a tool for automated documentation generation, such as Doxygen for code documentation or Swagger for API documentation. Integrate this tool into your development process and observe how it impacts the consistency and efficiency of documentation updates.
@@ -114,26 +129,10 @@ Underscores the complexity of software development where two mistakes might canc
 **Relationship: Improves**  
 Documentation Consistency Check enhances the use of version control by ensuring that documentation revisions are tracked alongside code changes. This alignment facilitates clear understanding of changes over time, supporting collaborative development and historical review.
 
-### [Continuous Integration](https://dora.dev/devops-capabilities/technical/continuous-integration/)
-**Relationship: Enables**  
-Documentation Consistency Check enables more effective continuous integration by ensuring that as code is integrated and tested, the documentation accurately reflects the latest features and functionalities, supporting developers in understanding the current state of the project.
-
-### [Continuous Delivery](https://dora.dev/devops-capabilities/technical/continuous-delivery/)
-**Relationship: Improves**  
-This practice improves continuous delivery by ensuring that documentation is always up to date, which is crucial for the smooth deployment and operation of software. Accurate documentation supports stakeholders in understanding the current deployment and its features.
-
 ### [Monitoring and Observability](https://dora.dev/devops-capabilities/technical/monitoring-and-observability/)
-**Relationship: Enables**  
+**Relationship: Improves**  
 By ensuring that documentation accurately reflects the system's architecture and behavior, Check Documentation Consistency enables more effective monitoring and observability. Accurate documentation provides a critical reference for understanding observed behaviors and diagnosing issues.
-
-### [Test Automation](https://dora.dev/devops-capabilities/technical/test-automation/)
-**Relationship: Enables**  
-Consistent and up-to-date documentation supports test automation by clearly defining expected behaviors and system configurations, facilitating the creation and maintenance of automated tests that align with the current state of the software.
 
 ### [Documentation Quality](https://dora.dev/devops-capabilities/process/documentation-quality/)
 **Relationship: Improves**  
 Documentation Consistency Check directly supports the enhancement of documentation quality by ensuring that the information is current, accurate, and aligned with the software and its development practices, thereby contributing to overall process improvement.
-
-### [Streamlining Change Approval](https://dora.dev/devops-capabilities/process/streamlining-change-approval/)
-**Relationship: Improves**  
-This practice improves the process of streamlining change approval by providing accurate and up-to-date documentation, which facilitates faster and more informed decision-making regarding changes, reducing bottlenecks in the development pipeline.
