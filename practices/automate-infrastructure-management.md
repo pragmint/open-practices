@@ -1,14 +1,17 @@
 # Automate Infrastructure Management
 
-Automate Infrastructure Management a practice that automates the provisioning and management of IT infrastructure through code rather than manual processes. Utilizing tools like Terraform, IaC allows teams to efficiently deploy and manage servers, storage, and networking in a consistent, repeatable manner. This approach enhances agility, reduces human error, and ensures secure, compliant infrastructure setups. Through version control and continuous integration, IaC supports a more reliable and scalable infrastructure, crucial for modern software development workflows.
+Automate Infrastructure Management a practice that automates the provisioning and management of IT infrastructure through code rather than manual processes.
+Utilizing tools like Terraform, IaC allows teams to efficiently deploy and manage servers, storage, and networking in a consistent, repeatable manner.
+This approach enhances agility, reduces human error, and ensures secure, compliant infrastructure setups.
 
 ## Nuance
 
 ### Understanding the Complexity of Setup
-Setting up Infrastructure as Code (IaC) can initially be complex, especially for organizations transitioning from manual infrastructure management. The initial investment in learning and setting up IaC tools and practices requires time and effort.
+Setting up Infrastructure as Code (IaC) can initially be complex, especially for organizations transitioning from manual infrastructure management.
+The initial investment in learning and setting up IaC tools and practices requires time and effort.
 
 ### Version Control is Crucial
-One common misconception is underestimating the importance of version control for IaC configurations. Treating infrastructure code with the same rigor as application code, including version control, is essential for maintaining consistency and auditability.
+Treating infrastructure code with the same rigor as application code, including version control, is essential for maintaining consistency.
 
 ### Security and Compliance Challenges
 Ensuring security and compliance within IaC practices is not automatic. Teams must incorporate security practices into their IaC workflows, such as scanning for vulnerabilities and enforcing policy as code, to safeguard their infrastructure.
@@ -34,19 +37,24 @@ While IaC inherently documents infrastructure setups, additional documentation o
 ## Introspective Questions
 
 ### How Current Is Your Automation?
-Are you leveraging the latest tools and practices in IaC to ensure your infrastructure management is as efficient and secure as possible? Consider whether your current approach to automation fully meets the needs of your organization's evolving infrastructure.
+Are you leveraging the latest tools and practices in IaC to ensure your infrastructure management is as efficient and secure as possible?
+Consider whether your current approach to automation fully meets the needs of your organization's evolving infrastructure.
 
 ### Is Your Infrastructure Truly Immutable?
-Reflect on the degree to which your infrastructure can be recreated from scratch with minimal manual intervention. How does this impact your disaster recovery and scaling strategies?
+Reflect on the degree to which your infrastructure can be recreated from scratch with minimal manual intervention.
+How does this impact your disaster recovery and scaling strategies?
 
 ### How Integrated Is IaC in Your CI/CD Pipeline?
-Evaluate how seamlessly IaC is integrated into your continuous integration and continuous deployment (CI/CD) processes. Are there areas where further automation or integration could reduce bottlenecks and improve deployment times?
+Evaluate how seamlessly IaC is integrated into your continuous integration and continuous deployment (CI/CD) processes. 
+Are there areas where further automation or integration could reduce bottlenecks and improve deployment times?
 
 ### Are You Balancing Speed and Security Effectively?
-Consider the balance between the speed of deployment and security within your IaC practices. Are security checks and compliance measures embedded throughout your IaC pipelines, or are they an afterthought?
+Consider the balance between the speed of deployment and security within your IaC practices.
+Are security checks and compliance measures embedded throughout your IaC pipelines, or are they an afterthought?
 
 ### How Collaborative Is Your IaC Approach?
-Think about the level of collaboration between your development, operations, and security teams in managing and evolving your IaC strategy. Is there a culture of shared responsibility and knowledge sharing, or are silos hindering your progress?
+Think about the level of collaboration between your development, operations, and security teams in managing and evolving your IaC strategy.
+Is there a culture of shared responsibility and knowledge sharing, or are silos hindering your progress?
 
 ## Exercises
 
@@ -88,24 +96,25 @@ This resource provides a comprehensive guide on implementing a secure Terraform 
 ## Supporting Capabilities
 
 ### [Continuous Integration](https://dora.dev/devops-capabilities/technical/continuous-integration/) #core
-**Relationship**: Enables  
-Infrastructure as Code (IaC) is fundamental to Continuous Integration (CI) by automating the provisioning of test environments. This ensures that code can be integrated and tested frequently, reducing integration issues and accelerating development cycles.
+**Relationship**: Improves  
+Infrastructure as Code (IaC) can improve Continuous Integration by automating the provisioning of test environments. This ensures that code can be integrated and tested frequently, reducing integration issues and accelerating development cycles.
 
 ### [Continuous Delivery](https://dora.dev/devops-capabilities/technical/continuous-delivery/) #core
 **Relationship**: Enables  
 IaC automates and documents the process for deploying applications, making Continuous Delivery (CD) achievable by ensuring that every change can be deployed to production safely and quickly.
 
 ### [Deployment Automation](https://dora.dev/devops-capabilities/technical/deployment-automation/) #core
-**Relationship**: Requires  
-Deployment automation relies on IaC for scripting and automating the deployment process. IaC ensures that the infrastructure deployment is repeatable, predictable, and scalable.
+**Relationship**: Improves  
+IaC ensures that the infrastructure deployment is repeatable, predictable, and scalable.
 
 ### [Version Control](https://dora.dev/devops-capabilities/technical/version-control/) #core
 **Relationship**: Improves  
-Automate Infrastructure Management practice enhances version control by allowing infrastructure to be versioned and tracked along with application code. This integration improves collaboration and rollback capabilities.
+Automate Infrastructure Management practice enhances version control by allowing infrastructure to be versioned and tracked along with application code.
 
 ### [Test Automation](https://dora.dev/devops-capabilities/technical/test-automation/) #core
 **Relationship**: Improves  
-IaC supports test automation by ensuring consistent, reproducible environments for testing. Automated tests can be run in environments that closely mimic production, improving test accuracy.
+IaC supports test automation by ensuring consistent, reproducible environments for testing.
+Automated tests can be run in environments that closely mimic production, improving test accuracy.
 
 ### [Flexible Infrastructure](https://dora.dev/devops-capabilities/technical/flexible-infrastructure/) #core
 **Relationship**: Enables  
