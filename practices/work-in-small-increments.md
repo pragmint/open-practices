@@ -5,22 +5,26 @@ The practice of working in small increments involves making frequent, manageable
 ## Nuance
 
 ### Misconception: More Commits Equals More Productivity
-The belief that a higher frequency of commits directly correlates with increased productivity can be misleading. While working in small increments encourages regular updates, the focus should be on meaningful, self-contained changes that contribute to the project's progression. Simply pushing a high volume of minor changes without clear intent can lead to clutter in the version history and complicate project tracking.
+The belief that a higher frequency of commits directly correlates with increased productivity can be misleading.
+While working in small increments encourages regular updates, the focus should be on meaningful, self-contained changes that contribute to the project's progression.
+Simply pushing a high volume of minor changes without clear intent can lead to clutter in the version history and complicate project tracking.
 
 ### Overemphasis on Size Over Substance
-Prioritizing the size of increments over the quality and relevance of the contribution can detract from the project's overall goals. It's crucial to ensure that each increment adds value and aligns with the project's objectives. Small, trivial changes that don't drive the project forward or improve its quality can waste valuable time and resources.
+Prioritizing the size of increments over the quality and relevance of the contribution can detract from the project's overall goals.
+It's crucial to ensure that each increment adds value and aligns with the project's objectives.
+Small, trivial changes that don't drive the project forward or improve its quality can waste valuable time and resources.
 
 ### Integration Challenges
-While small increments facilitate easier integration and testing, they also require a robust continuous integration (CI) system to manage the frequent updates. Without efficient CI practices and tools in place, the benefits of working in small increments can be negated by integration delays and bottlenecks.
-
-### Underestimating the Importance of Clear Commit Messages
-Each small increment should be accompanied by a clear, descriptive commit message. This becomes even more critical when working in small increments, as the project history will contain a higher volume of updates. Neglecting this can lead to confusion and difficulties in understanding the purpose and impact of changes.
+While small increments facilitate easier integration and testing, they also require a robust continuous integration (CI) system to manage the frequent updates.
+Without efficient CI practices and tools in place, the benefits of working in small increments can be negated by integration delays and bottlenecks.
 
 ### Risk of Fragmentation
-Working in excessively small increments can lead to fragmentation, where the codebase is peppered with incomplete features or changes that don't function well independently. This can make it difficult to maintain a clear direction for the project and may hinder the team's ability to deliver cohesive updates.
+Working in excessively small increments can lead to fragmentation, where the codebase is peppered with incomplete features or changes that don't function well independently.
+This can make it difficult to maintain a clear direction for the project and may hinder the team's ability to deliver cohesive updates.
 
 ### Neglecting Long-Term Planning
-Focusing too narrowly on small, immediate tasks can sometimes distract from the bigger picture and long-term objectives of the project. It's important to balance the benefits of incremental work with strategic planning to ensure that all efforts contribute meaningfully towards the project's overarching goals.
+Focusing too narrowly on small, immediate tasks can sometimes distract from the bigger picture and long-term objectives of the project.
+It's important to balance the benefits of incremental work with strategic planning to ensure that all efforts contribute meaningfully towards the project's overarching goals.
 
 ## Introspective Questions
 
@@ -32,9 +36,6 @@ Are the increments you work on truly meaningful and contributing to the project,
 
 ### How Effective Is Your CI System?
 How effectively does your current continuous integration (CI) system handle the frequency of updates from working in small increments, and where can improvements be made?
-
-### How Clear Are Your Commit Messages?
-Do your commit messages accurately and clearly convey the purpose and impact of each change, facilitating easier tracking and understanding of the project's evolution?
 
 ### Do You Maintain Project Cohesion?
 Have you experienced any fragmentation in your project due to working in very small increments, and how do you ensure that each piece contributes to a coherent whole?
@@ -55,10 +56,6 @@ How do you maintain a balance between focusing on small, immediate tasks and ens
 ### Continuous Integration (CI) Workflow Optimization
 * **Objective:** Evaluate and improve the CI process to handle frequent updates more efficiently, including automating tests and deployment where possible.
 * **Outcome:** A smoother, faster CI process that supports the practice without becoming a bottleneck.
-
-### Commit Message Workshop
-* **Objective:** Host a session to discuss and practice writing clear, descriptive commit messages that effectively communicate the intent and scope of changes.
-* **Outcome:** Improved commit messages that facilitate better project tracking, understanding, and collaboration.
 
 ### Fragmentation Review
 * **Objective:** Conduct a review of recent features or changes to identify instances of fragmentation due to excessively small increments.
@@ -86,27 +83,27 @@ An approach to coding that urges developers to continually improve and clean up 
 
 ## Supporting Capabilities
 
-### [Continuous Integration](https://dora.dev/devops-capabilities/technical/continuous-integration/) #core
+### [Continuous Integration](https://dora.dev/devops-capabilities/technical/continuous-integration/)
 **Relationship:** Enables  
 Working in small increments is foundational for effective continuous integration, allowing teams to integrate changes frequently, detect errors early, and maintain high quality and velocity.
 
-### [Database Change Management](https://dora.dev/devops-capabilities/technical/database-change-management/) #core
+### [Database Change Management](https://dora.dev/devops-capabilities/technical/database-change-management/)
 **Relationship:** Improves  
 Small, incremental changes facilitate smoother database updates and migrations, reducing the risk of disruptive errors and ensuring that database evolution aligns with application development.
 
-### [Deployment Automation](https://dora.dev/devops-capabilities/technical/deployment-automation/) #core
+### [Deployment Automation](https://dora.dev/devops-capabilities/technical/deployment-automation/)
 **Relationship:** Enables  
 The practice of working in small increments complements deployment automation by ensuring that changes are small enough to be deployed rapidly and reliably, enabling a continuous delivery pipeline.
 
-### [Test Automation](https://dora.dev/devops-capabilities/technical/test-automation/) #core
+### [Test Automation](https://dora.dev/devops-capabilities/technical/test-automation/)
 **Relationship:** Improves  
 Small, frequent commits make it easier to maintain a comprehensive suite of automated tests, as each change can be tested in isolation, improving test coverage and confidence in the codebase.
 
-### [Trunk-Based Development](https://dora.dev/devops-capabilities/technical/trunk-based-development/) #core
+### [Trunk-Based Development](https://dora.dev/devops-capabilities/technical/trunk-based-development/)
 **Relationship:** Requires  
 Trunk-based development relies on developers working in small increments and merging their changes into the main branch frequently, minimizing divergence and promoting a more cohesive and stable codebase.
 
-### [Streamlining Change Approval](https://dora.dev/devops-capabilities/process/streamlining-change-approval/) #core
+### [Streamlining Change Approval](https://dora.dev/devops-capabilities/process/streamlining-change-approval/)
 **Relationship:** Enables  
 By breaking work into smaller increments, teams can streamline the change approval process, as smaller changes are easier to review, understand, and validate, leading to quicker and more efficient approval cycles.
 
@@ -118,6 +115,6 @@ This capability is essentially what working in small increments is about—manag
 **Relationship:** Improves  
 The practice of working in small increments fosters a learning culture by encouraging experimentation and rapid feedback on small changes, which supports continuous learning and adaptation within the team.
 
-### [Generative Organizational Culture](https://dora.dev/devops-capabilities/cultural/generative-organizational-culture/) #core
+### [Generative Organizational Culture](https://dora.dev/devops-capabilities/cultural/generative-organizational-culture/)
 **Relationship:** Improves  
 Working in small increments can contribute to a generative culture by promoting transparency, collaboration, and high trust, as teams work closely together, share knowledge freely, and support each other in continuous improvement efforts.
