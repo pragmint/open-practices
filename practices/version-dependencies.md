@@ -83,21 +83,9 @@ By versioning database schema changes alongside code dependencies, teams can app
 **Relationship:** Enables  
 Having dependencies version-controlled allows for more predictable deployments, as the exact versions used in development are carried through to production environments, supporting automated deployment pipelines.
 
-### [Test Automation](https://dora.dev/devops-capabilities/technical/test-automation/)
-**Relationship:** Enables  
-Automated tests can rely on specific versions of dependencies being available, ensuring that tests are consistent and reliable across different environments and stages of development.
-
-### [Trunk-Based Development](https://dora.dev/devops-capabilities/technical/trunk-based-development/)
-**Relationship:** Enables  
-Version Controlled Dependencies complement trunk-based development by ensuring that changes to dependencies are centrally managed and integrated, supporting the rapid integration and testing of changes.
-
 ### [Version Control](/capabilities/tech/version-control.md)
 **Relationship:** Requires  
 The practice of Version Dependencies inherently requires a robust version control system to manage the dependencies' versions alongside the application's source code.
-
-### [Code Maintainability](https://dora.dev/devops-capabilities/technical/code-maintainability/)
-**Relationship:** Improves  
-By locking down dependency versions, teams can reduce the variability that leads to technical debt and improve the maintainability of their codebase over time.
 
 ### [Documentation Quality](https://dora.dev/devops-capabilities/process/documentation-quality/)
 **Relationship:** Improves  
