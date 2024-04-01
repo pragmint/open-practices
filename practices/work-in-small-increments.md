@@ -68,7 +68,7 @@ How do you maintain a balance between focusing on small, immediate tasks and ens
 ## Resources
 
 ### [Know Your Next Commit](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_47#know-your-next-commit)
-A guideline advocating for clarity and foresight in planning commits, emphasizing the practice of keeping changes small and manageable for streamlined development and easier troubleshooting.
+A guideline advocating for clarity and foresight in planning commits, emphasizing the practice of keeping changes small and manageable for incremental development and easier troubleshooting.
 
 ### [An Argument Against PRs](https://www.youtube.com/watch?v=ZlLZEQQBcFg)
 A video discussion that critiques the standard use of pull requests, arguing for a workflow that favors smaller, frequent updates to foster better collaboration and efficiency in software development.
@@ -84,37 +84,28 @@ An approach to coding that urges developers to continually improve and clean up 
 ## Supporting Capabilities
 
 ### [Continuous Integration](https://dora.dev/devops-capabilities/technical/continuous-integration/)
-**Relationship:** Enables  
 Working in small increments is foundational for effective continuous integration, allowing teams to integrate changes frequently, detect errors early, and maintain high quality and velocity.
 
 ### [Database Change Management](https://dora.dev/devops-capabilities/technical/database-change-management/)
-**Relationship:** Improves  
 Small, incremental changes facilitate smoother database updates and migrations, reducing the risk of disruptive errors and ensuring that database evolution aligns with application development.
 
 ### [Deployment Automation](https://dora.dev/devops-capabilities/technical/deployment-automation/)
-**Relationship:** Enables  
 The practice of working in small increments complements deployment automation by ensuring that changes are small enough to be deployed rapidly and reliably, enabling a continuous delivery pipeline.
 
 ### [Test Automation](https://dora.dev/devops-capabilities/technical/test-automation/)
-**Relationship:** Improves  
 Small, frequent commits make it easier to maintain a comprehensive suite of automated tests, as each change can be tested in isolation, improving test coverage and confidence in the codebase.
 
 ### [Trunk-Based Development](https://dora.dev/devops-capabilities/technical/trunk-based-development/)
-**Relationship:** Requires  
 Trunk-based development relies on developers working in small increments and merging their changes into the main branch frequently, minimizing divergence and promoting a more cohesive and stable codebase.
 
 ### [Streamlining Change Approval](https://dora.dev/devops-capabilities/process/streamlining-change-approval/)
-**Relationship:** Enables  
 By breaking work into smaller increments, teams can streamline the change approval process, as smaller changes are easier to review, understand, and validate, leading to quicker and more efficient approval cycles.
 
 ### [Working in Small Batches](https://dora.dev/devops-capabilities/process/working-in-small-batches/)
-**Relationship:** Is synonymous with  
 This capability is essentially what working in small increments is about—managing work in small batches to improve flow, reduce cycle times, and enhance feedback loops for continuous improvement.
 
 ### [Learning Culture](https://dora.dev/devops-capabilities/cultural/learning-culture/)
-**Relationship:** Improves  
 The practice of working in small increments fosters a learning culture by encouraging experimentation and rapid feedback on small changes, which supports continuous learning and adaptation within the team.
 
 ### [Generative Organizational Culture](https://dora.dev/devops-capabilities/cultural/generative-organizational-culture/)
-**Relationship:** Improves  
 Working in small increments can contribute to a generative culture by promoting transparency, collaboration, and high trust, as teams work closely together, share knowledge freely, and support each other in continuous improvement efforts.
