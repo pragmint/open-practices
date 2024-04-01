@@ -1,8 +1,18 @@
 # [Code Maintainability](https://dora.dev/devops-capabilities/technical/code-maintainability/)
 
-Each time we write, edit, or read a line of code it costs an organization time and money. In the lifespan of a line of code, it will be written once, edited at least a handful of times, and read many times. As such, it makes sense to write code in a way that reduces the time required to comprehend it. Ideally, the software is built such that the reader can avoid needing to know how the whole system functions in order to make a local change. Furthermore, bugs are easier to spot when the surrounding code is easy to comprehend. The result of building code that's easy to maintain is more efficient delivery and better stability.
+Each time we write, edit, or read a line of code it costs an organization time and money.
+In the lifespan of a line of code, it will be written once, edited at least a handful of times, and read many times.
+As such, it makes sense to write code in a way that reduces the time required to comprehend it.
+Ideally, the software is built such that the reader can avoid needing to know how the whole system functions in order to make a local change.
+Furthermore, bugs are easier to spot when the surrounding code is easy to comprehend.
+The result of building code that's easy to maintain is more efficient delivery and better stability.
 
-When difficult to maintain code is written, it can have a snowball effect. It requires an advanced set of skills to write maintainable code in a sea of hard to maintain code. Often, developers follow the path of least resistance by adding to the mess to get their new functionality added. There may be good reasons to follow such a path, however doing so further degrades the maintainability of the system. There is a delay between difficult to maintain code being introduced and the team experiencing a performance degradation. This delay makes it harder for non-technical team members to understand the consequences of implementing too many short-term solutions.
+When difficult to maintain code is written, it can have a snowball effect.
+It requires an advanced set of skills to write maintainable code in a sea of hard to maintain code.
+Often, developers follow the path of least resistance by adding to the mess to get their new functionality added.
+There may be good reasons to follow such a path, however doing so further degrades the maintainability of the system.
+There is a delay between difficult to maintain code being introduced and the team experiencing a performance degradation.
+This delay makes it harder for non-technical team members to understand the consequences of implementing too many short-term solutions.
 
 ## Nuance
 
