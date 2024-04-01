@@ -126,13 +126,10 @@ Underscores the complexity of software development where two mistakes might canc
 ## Supporting Capabilities
 
 ### [Version Control](https://dora.dev/devops-capabilities/technical/version-control/)
-**Relationship: Improves**  
 Documentation Consistency Check enhances the use of version control by ensuring that documentation revisions are tracked alongside code changes. This alignment facilitates clear understanding of changes over time, supporting collaborative development and historical review.
 
 ### [Monitoring and Observability](https://dora.dev/devops-capabilities/technical/monitoring-and-observability/)
-**Relationship: Improves**  
 By ensuring that documentation accurately reflects the system's architecture and behavior, Check Documentation Consistency enables more effective monitoring and observability. Accurate documentation provides a critical reference for understanding observed behaviors and diagnosing issues.
 
 ### [Documentation Quality](https://dora.dev/devops-capabilities/process/documentation-quality/)
-**Relationship: Improves**  
 Documentation Consistency Check directly supports the enhancement of documentation quality by ensuring that the information is current, accurate, and aligned with the software and its development practices, thereby contributing to overall process improvement.
