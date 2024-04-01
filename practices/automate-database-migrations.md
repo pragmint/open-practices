@@ -1,6 +1,6 @@
 # Automate Database Migrations
 
-Automate Database Migrations is an strategic practice for managing and evolving a database schema over time through version-controlled scripts. These scripts enable incremental changes, such as adding features or fixing issues, while maintaining data integrity. This approach includes rollback capabilities, allowing any modifications to be safely reversed if necessary. It aligns with Evolutionary Database Design, promoting adaptability and risk mitigation by integrating changes smoothly into development workflows. This method is key for supporting continuous integration and deployment, streamlining updates, and minimizing disruption.
+Automate Database Migrations is an strategic practice for managing and evolving a database schema over time through version-controlled scripts. These scripts enable incremental changes, such as adding features or fixing issues, while maintaining data integrity. This approach includes rollback capabilities, allowing any modifications to be safely reversed if necessary. It aligns with Evolutionary Database Design, promoting adaptability and risk mitigation by integrating changes smoothly into development workflows. This method is key for supporting continuous integration and deployment and minimizing disruption.
 
 ## Nuance
 
@@ -100,25 +100,19 @@ This foundational article by Martin Fowler discusses the principles and practice
 ## Supporting Capabilities
 
 ### [Database Change Management](https://dora.dev/devops-capabilities/technical/database-change-management)
-**Relationship Type**: Requires  
 Automatic Database Migrations are integral to the DORA capability of Database Change Management. This practice ensures that database changes are systematically managed and aligned with application updates, reducing the risk of errors and downtime.
 
 ### [Version Control](/capabilities/tech/version-control.md)
-**Relationship Type**: Enables  
 Version control is foundational for Automatic Database Migrations, enabling teams to track, review, and manage changes to database schemas alongside application code, thus enhancing collaboration and reducing conflicts.
 
 ### [Continuous Integration](https://dora.dev/devops-capabilities/technical/continuous-integration)
-**Relationship Type**: Improves  
-Continuous Integration is enhanced by Automatic Database Migrations, facilitating the seamless integration of database changes into the development lifecycle. This supports agile practices by allowing for frequent and reliable updates to the database schema.
+Continuous Integration is enhanced by Automatic Database Migrations, facilitating the easy integration of database changes into the development lifecycle. This supports agile practices by allowing for frequent and reliable updates to the database schema.
 
 ### [Deployment Automation](https://dora.dev/devops-capabilities/technical/deployment-automation)
-**Relationship Type**: Requires  
-Deployment Automation necessitates Automatic Database Migrations to streamline and automate the process of applying database schema changes. This capability reduces manual intervention and improves the reliability of deployments.
+Deployment Automation necessitates Automatic Database Migrations to automate the process of applying database schema changes. This capability reduces manual intervention and improves the reliability of deployments.
 
 ### [Monitoring and Observability](https://dora.dev/devops-capabilities/technical/monitoring-and-observability)
-**Relationship Type**: Improves  
 Monitoring and Observability are improved with Automatic Database Migrations by providing insights into the impact of database changes on application performance. This enables quick detection and resolution of issues.
 
 ### [Learning Culture](https://dora.dev/devops-capabilities/cultural/learning-culture/)
-**Relationship Type**: Enables  
 A Learning Culture benefits from the insights and experiences gained through Automatic Database Migrations. The practice encourages continuous improvement and knowledge sharing about database management and migration strategies.
