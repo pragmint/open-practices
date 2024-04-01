@@ -2,7 +2,7 @@
 
 This practice ensures that documentation remains aligned with the code and technical artifacts it describes.
 This involves regular updates and reviews to keep information current and accurate.
-By doing so, it reduces confusion, streamlines onboarding, and enhances project clarity and communication.
+By doing so, it reduces confusion, ease onboarding, and enhances project clarity and communication.
 
 ## Nuance
 
