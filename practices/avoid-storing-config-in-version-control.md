@@ -1,6 +1,6 @@
 # Avoid Storing Config in Version Control
 
-Avoiding Storing Config in Version Control makes systems for flexible and secure. It separates operational details from code, reducing the risk of data exposure and supporting seamless deployment across different environments, thereby becoming a fundamental principle in secure and scalable software development.
+Avoiding Storing Config in Version Control makes systems more flexible and secure. It separates operational details from code, reducing the risk of data exposure and supporting seamless deployment across different environments, thereby becoming a fundamental principle in secure and scalable software development.
 
 ## Nuance
 
