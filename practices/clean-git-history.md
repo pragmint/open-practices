@@ -11,7 +11,7 @@ Commit messages should be descriptive enough to convey the purpose behind change
 The timing and size of commits are critical; too few can obscure the project's evolution by combining unrelated changes, while too many can over-complicate the history. Finding a rhythm that maintains clarity without sacrificing detail is key.
 
 ### Squashing Commits
-Squashing can streamline history but may also conceal important development steps and rationales if overused. It's vital to use this technique judiciously to maintain a balance between a clean history and preserving the context of changes.
+Squashing can simplify history but may also conceal important development steps and rationales if overused. It's vital to use this technique judiciously to maintain a balance between a clean history and preserving the context of changes.
 
 ### Force Pushing
 Using force push, especially after rebasing, can keep the history neat but risks disrupting others' work on shared branches. It's a powerful tool that requires careful consideration and communication when used.
@@ -74,7 +74,7 @@ Dependence on tools for automating squashing or enforcing commit message standar
 ## Resources
 
 ### [Keep a Clean Git History](https://simplabs.com/blog/2021/05/26/keeping-a-clean-git-history/)
-Offers guidance on maintaining a streamlined Git commit history, emphasizing practices like squashing similar commits, crafting clear commit messages, and organizing changes logically to make the project's history navigable and understandable, crucial for effective code reviews and project oversight.
+Offers guidance on maintaining a clean Git commit history, emphasizing practices like squashing similar commits, crafting clear commit messages, and organizing changes logically to make the project's history navigable and understandable, crucial for effective code reviews and project oversight.
 
 ### [Staying Disciplined with Your Git History](https://8thlight.com/blog/makis-otman/2015/07/08/git-disciplined.html)
 Advocates for the disciplined management of Git history through methods like feature branching, minimizing the size of commits, and keeping branches updated via regular rebasing. Highlights the benefits of these practices for enhancing collaboration, facilitating project tracking, and simplifying code reversions.
@@ -91,7 +91,7 @@ Details strategies for properly amending Git history issues, such as errant comm
 
 ### [Continuous Integration](https://dora.dev/devops-capabilities/technical/continuous-integration/)
 *Relationship:* Improves   
-A clean Git history enhances continuous integration by streamlining the integration of changes, facilitating smoother builds, and ensuring that automated tests are more effective and reliable.
+A clean Git history enhances continuous integration by simplifying the integration of changes, facilitating smoother builds, and ensuring that automated tests are more effective and reliable.
 
 ### [Continuous Delivery](https://dora.dev/devops-capabilities/technical/continuous-delivery/)
 *Relationship:* Improves   
