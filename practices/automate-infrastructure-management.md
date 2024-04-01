@@ -96,39 +96,29 @@ This resource provides a comprehensive guide on implementing a secure Terraform 
 ## Supporting Capabilities
 
 ### [Continuous Integration](https://dora.dev/devops-capabilities/technical/continuous-integration/) #core
-**Relationship**: Improves  
 Infrastructure as Code (IaC) can improve Continuous Integration by automating the provisioning of test environments. This ensures that code can be integrated and tested frequently, reducing integration issues and accelerating development cycles.
 
 ### [Continuous Delivery](https://dora.dev/devops-capabilities/technical/continuous-delivery/) #core
-**Relationship**: Enables  
 IaC automates and documents the process for deploying applications, making Continuous Delivery (CD) achievable by ensuring that every change can be deployed to production safely and quickly.
 
 ### [Deployment Automation](https://dora.dev/devops-capabilities/technical/deployment-automation/) #core
-**Relationship**: Improves  
 IaC ensures that the infrastructure deployment is repeatable, predictable, and scalable.
 
 ### [Version Control](https://dora.dev/devops-capabilities/technical/version-control/) #core
-**Relationship**: Improves  
 Automate Infrastructure Management practice enhances version control by allowing infrastructure to be versioned and tracked along with application code.
 
 ### [Test Automation](https://dora.dev/devops-capabilities/technical/test-automation/) #core
-**Relationship**: Improves  
 IaC supports test automation by ensuring consistent, reproducible environments for testing.
 Automated tests can be run in environments that closely mimic production, improving test accuracy.
 
 ### [Flexible Infrastructure](https://dora.dev/devops-capabilities/technical/flexible-infrastructure/) #core
-**Relationship**: Enables  
 IaC provides the ability to quickly provision, configure, and decommission infrastructure resources on demand, leading to a more flexible and responsive IT infrastructure.
 
 ### [Monitoring and Observability](https://dora.dev/devops-capabilities/technical/monitoring-and-observability/) #core
-**Relationship**: Improves  
 IaC can automate the setup of monitoring and logging tools across environments, ensuring comprehensive observability and the ability to react to issues based on real-time data.
 
 ### [Database Change Management](https://dora.dev/devops-capabilities/technical/database-change-management/) #core
-**Relationship**: Improves  
 IaC facilitates database change management by automating database provisioning, updates, and rollbacks, ensuring consistency across environments.
 
 ### [Empowering Teams to Choose Tools](https://dora.dev/devops-capabilities/technical/teams-empowered-to-choose-tools/) #core
-**Relationship**: Improves  
 IaC empowers teams by allowing them to define infrastructure through code using tools that best fit their project requirements and workflows.
-
