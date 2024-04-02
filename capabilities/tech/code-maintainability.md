@@ -61,53 +61,40 @@ This practice involves the use of tools and processes to automatically enforce c
 ## Related Capabilities
 
 ### [Continuous Integration](https://dora.dev/devops-capabilities/technical/continuous-integration/)
-**Relationship:** Enables  
 Continuous Integration ensures frequent automated testing and merging of code changes, which reduces conflicts and promotes a maintainable, easily updated codebase.
 
 ### [Continuous Delivery](https://dora.dev/devops-capabilities/technical/continuous-delivery/)
-**Relationship:** Requires  
 Effective Continuous Delivery relies on maintainable code to enable rapid, reliable updates and deployments, emphasizing the necessity of a well-structured codebase.
 
 ### [Deployment Automation](https://dora.dev/devops-capabilities/technical/deployment-automation/)
-**Relationship:** Improves  
 Deployment Automation benefits from maintainable code by minimizing deployment errors and facilitating smoother, faster release processes.
 
 ### [Version Control](https://dora.dev/devops-capabilities/technical/version-control/)
-**Relationship:** Enables  
 Version Control is fundamental for a maintainable codebase, allowing for efficient tracking, collaboration, and management of code changes over time.
 
 ### [Test Automation](https://dora.dev/devops-capabilities/technical/test-automation/)
-**Relationship:** Improves  
 Test Automation supports maintainable code through consistent, automated validation of code changes, enhancing reliability and speed of development cycles.
 
 ### [Documentation Quality](https://dora.dev/devops-capabilities/process/documentation-quality/)
-**Relationship:** Improves  
 High-quality documentation is essential for maintaining a codebase as it ensures that the code is understandable and accessible, enabling developers to contribute more effectively and maintain the codebase with ease.
 
 ### [Loosely Coupled Architecture](https://dora.dev/devops-capabilities/process/loosely-coupled-architecture/)
-**Relationship:** Enables  
 Adopting a loosely coupled architecture facilitates code maintainability by allowing individual components or services to be updated, maintained, or replaced without significantly impacting other parts of the system.
 
 ### [Shifting Left on Security](https://dora.dev/devops-capabilities/process/shifting-left-on-security/)
-**Relationship:** Requires  
 Integrating security practices early in the development lifecycle requires maintainable code to efficiently address potential security issues, making the overall development process more secure and sustainable.
 
 ### [Streamlining Change Approval](https://dora.dev/devops-capabilities/process/streamlining-change-approval/)
-**Relationship:** Improves  
 Streamlining the change approval process improves code maintainability by reducing the bureaucratic overhead associated with making changes, thus allowing for quicker and more efficient updates to the codebase.
 
 ### [Generative Organizational Culture](https://dora.dev/devops-capabilities/cultural/generative-organizational-culture/)
-**Relationship:** Improves  
 A generative organizational culture encourages open communication, collaboration, and shared responsibility, which can lead to more effective code maintainability practices by fostering an environment where continuous improvement is valued.
 
 ### [Learning Culture](https://dora.dev/devops-capabilities/cultural/learning-culture/)
-**Relationship:** Enables  
 A strong learning culture empowers teams to stay current with best practices and technologies for code maintenance, enabling continuous improvement and adaptation in maintainability practices.
 
 ### [Transformational Leadership](https://dora.dev/devops-capabilities/cultural/transformational-leadership/)
-**Relationship:** Enables  
 Transformational leadership can inspire and motivate teams to prioritize and improve code maintainability, by leading through example and fostering an environment that values high-quality, sustainable code.
 
 ### [Well-being](https://dora.dev/devops-capabilities/cultural/well-being/)
-**Relationship:** Improves  
 Prioritizing the well-being of software development teams can lead to higher job satisfaction and lower turnover, which contributes to better code maintainability through consistent and focused efforts on code quality and documentation.
