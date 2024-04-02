@@ -7,7 +7,7 @@ Version control allows teams to revert changes back to a working state. When thi
 ### [Automate Database Migrations](/practices/automate-database-migrations.md)
 Implementing Automatic Database Migrations enhances the effectiveness of the Version Control capability by ensuring database schema changes are consistently versioned and managed alongside application code. This practice fosters an environment where code and database changes are integrated, tested, and deployed in a unified manner, leading to more reliable development workflows. It adds a layer of automation and traceability to database evolution.
 
-### [Avoid Storing Config in Version Control](/practices/avoid-storing-config-in-version-control.md)
+### [Separate Config from Code](/practices/separate-config-from-code.md)
 This practice improves Version Control by segregating application code from operational configurations. It minimizes risks associated with data exposure, focusing version control efforts on code changes. This method enhances security and deployment processes.
 
 ### [Clean Git History](/practices/clean-git-history.md)

@@ -1,6 +1,6 @@
-# Avoid Storing Config in Version Control
+# Separate Config from Code
 
-Avoiding Storing Config in Version Control makes systems more flexible and secure. It separates operational details from code, reducing the risk of data exposure and supporting seamless deployment across different environments, thereby becoming a fundamental principle in secure and scalable software development.
+Separate Config from Code makes systems more flexible and secure. It separates operational details from code, reducing the risk of data exposure and supporting seamless deployment across different environments, thereby becoming a fundamental principle in secure and scalable software development.
 
 ## Nuance
 
@@ -13,8 +13,16 @@ Maintaining consistent configurations across different environments is crucial t
 ### Deployment Complexity
 Adopting external configuration management introduces complexity in selecting and implementing the right tools and processes. Teams must navigate through options, considering factors such as integration, security, and scalability, to find a balance between the benefits of externalized configurations and the added complexity of managing them effectively.
 
+### Version Control for Config
+Using version control for configurations is highly recommended. 
+However, it is advisable to keep these configurations in a separate repository, distinct from the application code.
+This practice makes it easier to manage configurations and enhances security for sensitive data.
+Additionally, it improves the understanding of application deployment processes, troubleshooting, and eases the onboarding of new team members.
+
 ### The Exception for Local Development Examples
-An important nuance in this practice is the exception for including example configuration files in version control. These example or template configurations are intended to guide developers in setting up their local development environments quickly and efficiently. These files should contain generic, non-sensitive information and serve as a blueprint for developers to create their own local configuration files. For instance, an .env.example file might include placeholders for environment variables that need to be set but without providing any real keys or passwords.
+An important nuance in this practice is the exception for including example configuration files in the same code repository.
+These example or template configurations are intended to guide developers in setting up their local development environments quickly and efficiently.
+These files should contain generic, non-sensitive information and serve as a blueprint for developers to create their own local configuration files. For instance, an .env.example file might include placeholders for environment variables that need to be set but without providing any real keys or passwords.
 
 # Introspective Questions
 
@@ -62,18 +70,14 @@ A concise guide that underscores the significance of externalizing configuration
 ## Supporting Capabilities
 
 ## [Version Control](/capabilities/tech/version-control.md)
-**Relationship Type: Improves**  
 By advocating for the exclusion of configuration and sensitive data from version control, this practice improves the Version Control Capability, 
 by defining the exceptions where storing information in source control is not desirable.  
 
 ## [Continuous Integration](https://dora.dev/devops-capabilities/technical/continuous-integration)
-**Relationship Type: Improves**  
-Avoiding the storage of config in version control facilitates more efficient and secure continuous integration (CI) processes. It allows for seamless integration of code changes by ensuring that environment-specific configurations do not interfere with the build process, thereby enhancing the reliability and speed of CI cycles.
+Separate Config from Code facilitates more efficient and secure continuous integration (CI) processes. It allows for seamless integration of code changes by ensuring that environment-specific configurations do not interfere with the build process, thereby enhancing the reliability and speed of CI cycles.
 
 ## [Deployment Automation](https://dora.dev/devops-capabilities/technical/deployment-automation)
-**Relationship Type: Requires**  
 This practice necessitates sophisticated deployment automation that can manage and inject external configurations at deployment time. By separating configuration from the codebase, deployment automation becomes a critical capability for applying different configurations across environments automatically, thus supporting scalable and repeatable deployments.
 
 ## [Monitoring and Observability](https://dora.dev/devops-capabilities/technical/monitoring-and-observability)
-**Relationship Type: Improves**  
 While not directly related to monitoring and observability, this practice indirectly supports these capabilities by promoting cleaner and more manageable codebases. By keeping configuration data separate, it simplifies the application's operational landscape, making it easier to monitor and observe its behavior across different environments.
