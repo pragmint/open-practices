@@ -14,48 +14,10 @@ There may be good reasons to follow such a path, however doing so further degrad
 There is a delay between difficult to maintain code being introduced and the team experiencing a performance degradation.
 This delay makes it harder for non-technical team members to understand the consequences of implementing too many short-term solutions.
 
-## Nuance
-
-### Misunderstanding Code Complexity as Maintainability
-Often, code maintainability is mistakenly equated with code complexity. While complex code can be challenging to maintain, maintainability primarily concerns how easily code can be understood, modified, and extended by developers, regardless of its complexity. Overemphasis on reducing complexity can lead to oversimplified code that lacks necessary functionality or flexibility.
-
-### The Over-Engineering Paradox
-In efforts to make code more maintainable, there's a risk of over-engineering solutions with too many abstractions or overly generic designs. This can paradoxically make the code harder to understand and modify, as developers must navigate unnecessary layers of abstraction or complexity, defeating the purpose of maintainability.
-
-### Dependency Management Overkill
-While effective dependency management is crucial for maintainability, overzealous dependency updates or the inclusion of unnecessary dependencies can introduce instability and security vulnerabilities. It's important to balance keeping dependencies up-to-date with the stability and security of the application.
-
-### Neglecting Documentation and Code Readability
-A common oversight is focusing solely on technical solutions (like refactoring and dependency management) at the expense of documentation and code readability. Well-documented code and adherence to coding standards are fundamental for maintainability, enabling developers to quickly understand and efficiently work with the codebase.
-
-
-## Introspective Questions
-
-### How effectively are we managing our code dependencies?
-Consider whether your team is proactively managing dependencies to avoid security vulnerabilities and integration issues, and if you are balancing the need for up-to-date dependencies with the stability of your application.
-
-### Are we over-engineering our solutions?
-Reflect on whether your codebase suffers from over-engineering, such as unnecessary abstractions or overly generic designs, and how this might be impacting the maintainability and understandability of your code.
-
-### Do we prioritize documentation and code readability?
-Ask yourself if your team consistently produces well-documented code and follows coding standards to ensure that the code is easily readable and understandable by new or returning developers.
-
-### How do we handle code complexity?
-Evaluate if your team's approach to handling code complexity effectively aids in maintainability, or if there's a tendency to simplify code to the point where it becomes less flexible or functional than needed.
-
-### Are we conducting regular code reviews with maintainability in mind?
-Consider the role of code reviews in your development process and whether they are focused enough on identifying and improving aspects of code maintainability, such as readability, documentation, and effective dependency management.
-
-
-## Resources
-
-<!-- TODO: insert a list of resources that explore this capability. For each item, give a brief summary of the resource. -->
-
 ## Supporting Practices
 
 ### [Automate Coding Standards](/practices/automate-coding-standards.md)
 
-**Relationship:** Enables  
 This practice involves the use of tools and processes to automatically enforce coding standards, style guides, and other best practices during the coding phase. By automating these standards, teams can significantly reduce the number of errors and inconsistencies in the codebase, making it easier to understand, modify, and extend. This leads to improved maintainability as the code is cleaner, less prone to bugs, and more aligned with agreed-upon coding practices. Automating coding standards removes the burden of manual reviews for stylistic and some functional issues, allowing developers to focus on more complex problems and innovative solutions.
 
 ## Related Capabilities
