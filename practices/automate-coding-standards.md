@@ -11,9 +11,12 @@ It's a proactive approach to code quality, making it easier for teams to manage 
 Automated coding standards are highly configurable, allowing customization to fit specific project needs.
 It's a misconception that these tools enforce a rigid, universal standard across all projects.
 Team members should have the opportunity to suggest changes to the coding standards and those suggested changes should be discussed as a team.
+Strict adherence to automated standards without flexibility can stifle creativity.
+It's important to balance between maintaining code quality and allowing developers the freedom to innovate.
 
 ### Tool Limitations
-Automated tools may not catch every type of issue, particularly those related to complex logic or architecture. Developers should be mindful of these limitations and not solely rely on these tools for ensuring code quality.
+Automated tools may not catch every type of issue, particularly those related to complex logic or architecture.
+Developers should be mindful of these limitations and not solely rely on these tools for ensuring code quality.
 
 ### Creativity Stifling
 Strict adherence to automated standards without flexibility can stifle creativity. It's important to balance between maintaining code quality and allowing developers the freedom to innovate.
