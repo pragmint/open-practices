@@ -19,7 +19,8 @@ Automated tools may not catch every type of issue, particularly those related to
 Developers should be mindful of these limitations and not solely rely on these tools for ensuring code quality.
 
 ### Integration Challenges
-Incorporating automated coding standards tools into existing projects, especially large or legacy codebases, can be challenging. Teams may face hurdles in configuring these tools to align with existing practices and addressing non-compliant legacy code.
+Incorporating automated coding standards tools into existing projects, especially large or legacy codebases, can be challenging.
+Teams may face hurdles in configuring these tools to align with existing practices and addressing non-compliant legacy code.
 
 ## Introspective Questions
 
