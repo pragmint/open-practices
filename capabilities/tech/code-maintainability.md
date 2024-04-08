@@ -16,6 +16,8 @@ This delay makes it harder for non-technical team members to understand the cons
 
 ## Supporting Practices
 
+<!-- More practices will be added incrementally -->
+
 ### [Automate Coding Standards](/practices/automate-coding-standards.md)
 
 This practice involves the use of tools and processes to automatically enforce coding standards, style guides, and other best practices during the coding phase. By automating these standards, teams can significantly reduce the number of errors and inconsistencies in the codebase, making it easier to understand, modify, and extend. This leads to improved maintainability as the code is cleaner, less prone to bugs, and more aligned with agreed-upon coding practices. Automating coding standards removes the burden of manual reviews for stylistic and some functional issues, allowing developers to focus on more complex problems and innovative solutions.
