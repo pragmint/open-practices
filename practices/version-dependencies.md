@@ -16,6 +16,8 @@ However, this approach requires a strategy to stay updated with the latest fixes
 Automated tools like Dependabot facilitate keep the dependencies updated across projects.
 They monitor dependencies for new versions, and can automatically create pull requests to update to these newer versions.
 
+<!-- Include mentioning of integrating tools with CI/CD pipeline -->
+
 ## Introspective Questions
 
 ### How Effective Is Your Dependency Management?
