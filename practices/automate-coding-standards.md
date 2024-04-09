@@ -70,64 +70,46 @@ It recommends a gradual approach, utilizing auto-fix capabilities wherever possi
 Also proposes secondary lint configuration for new rules, applied only to modified files via a pre-commit hook.
 This method, inspired by the Boy Scout Rule of leaving code better than one found it.
 
-## Related Practices
-
-<!-- TODO: insert a list of [linked practices](/practices) that relate to this practice. For each item, give a brief explanation of how the linked practice supports / relates to this practice. Also categorize each linked practices as one of the following: Enables, Requires, Improves -->
-
 ## Supporting Capabilities
 
 ### [Continuous Integration](https://dora.dev/devops-capabilities/technical/continuous-integration/) 
-**Relationship:** Improves
 Automating Coding Standards practice improves Continuous Integration by ensuring that code committed to the repository adheres to predefined quality and style guidelines, facilitating smoother integration and fewer integration issues.
 
 ### [Code Maintainability](https://dora.dev/devops-capabilities/technical/code-maintainability/)
-**Relationship:** Improves
 This practice improves code maintainability by enforcing consistent coding standards across the codebase, making it easier to understand, modify, and extend the code over time.
 
 ### [Test Automation](https://dora.dev/devops-capabilities/technical/test-automation/)
-**Relationship:** Enables
 Automating coding standards sets a quality baseline that enables more effective test automation, as consistently formatted and standardized code reduces the complexity of writing and maintaining tests.
 
 ### [Version Control](https://dora.dev/devops-capabilities/technical/version-control/)
-**Relationship:** Requires
 The practice of Automated Coding Standards requires robust version control systems to track and manage the enforcement of coding standards over time, ensuring that all code changes are compliant.
 
 ### [Continuous Delivery](https://dora.dev/devops-capabilities/technical/continuous-delivery/)
-**Relationship:** Improves
 By ensuring that code meets established standards before it is merged, Automating Coding Standards practice streamlines the path to production, improving the Continuous Delivery process by reducing the risk of defects and deployment issues.
 
 ### [Documentation Quality](https://dora.dev/devops-capabilities/process/documentation-quality/) #core
-**Relationship:** Improves
 Automated coding standards contribute to the overall quality of documentation by ensuring that code examples and snippets adhere to a consistent style and format, making them easier to understand and follow.
 
 ### [Team Experimentation](https://dora.dev/devops-capabilities/process/team-experimentation/)
-**Relationship:** Enables
 By automating coding standards, teams are freed to experiment more with architectural and design patterns without worrying about deviating from coding norms, fostering an environment of innovation.
 
 ### [Visibility of Work in the Value Stream](https://dora.dev/devops-capabilities/process/work-visibility-in-value-stream/)
-**Relationship:** Improves
 Automated coding standards improve the visibility of work by ensuring that code changes are consistently formatted and adhere to established practices, making it easier to track and review changes across the value stream.
 
 ### [Working in Small Batches](https://dora.dev/devops-capabilities/process/working-in-small-batches/)
-**Relationship:** Improves
 Enforcing coding standards through automation encourages the practice of working in small batches by facilitating quicker feedback loops and easier integration of small, incremental changes, enhancing overall workflow efficiency.
 
 ### [Generative Organizational Culture](https://dora.dev/devops-capabilities/cultural/generative-organizational-culture/) #core
-**Relationship:** Improves
 Automated coding standards promote a generative culture by fostering an environment where collaboration and high-quality standards are valued, leading to increased trust and shared responsibility among team members.
 
 ### [Learning Culture](https://dora.dev/devops-capabilities/cultural/learning-culture/)
-**Relationship:** Enables
 The practice of automated coding standards supports a learning culture by encouraging continuous improvement and adaptation of coding practices, facilitating ongoing learning and development within the team.
 
 ### [Transformational Leadership](https://dora.dev/devops-capabilities/cultural/transformational-leadership/)
-**Relationship:** Requires
 Implementing automated coding standards effectively requires transformational leadership to champion the adoption of these practices, demonstrating commitment to quality and continuous improvement.
 
 ### [Job Satisfaction](https://dora.dev/devops-capabilities/cultural/job-satisfaction/)
-**Relationship:** Improves
 By reducing the mundane aspects of code reviews and enhancing code quality, automated coding standards can lead to higher job satisfaction among developers who can focus more on creative problem-solving.
 
 ### [Well-being](https://dora.dev/devops-capabilities/cultural/well-being/) #core
-**Relationship:** Improves
 Automated coding standards contribute to the well-being of developers by creating a more structured and predictable coding environment, reducing stress and cognitive load associated with maintaining code quality.
