@@ -22,6 +22,11 @@ Developers should be mindful of these limitations and not solely rely on these t
 Incorporating automated coding standards tools into existing projects, especially large or legacy code-bases, can be challenging.
 Lint rules and code fixes must be introduced in an incremental way.
 
+### Development Workflow Integration
+Automatic Coding Standards tools should be incorporated as part of the development process.
+There are many options to do this: build scrips, IDE/Editors, pre-commit, pre-push, during code review/pull requests or Continuous Integration (CI Pipeline). 
+The specific approach to incorporate automatic coding standards as part of the development workflow will very depending on team preferences and the cost of running the process.
+
 ## Introspective Questions
 
 ### How Customized Are Our Automated Coding Standards?
@@ -37,7 +42,7 @@ Could the way we enforce automated coding standards be stifling creativity or in
 Are we aware of the limitations of our automated coding standards tools, especially in understanding the context and intent behind certain coding decisions?
 
 ### Facing Integration Challenges Effectively?
-How effectively are we managing the integration of automated coding standards tools, especially in large or legacy codebases, and are there areas where we can improve?
+How effectively are we managing the integration of automated coding standards tools, especially in large or legacy code-bases, and are there areas where we can improve?
 
 
 ## Exercises
@@ -72,7 +77,7 @@ This resource provides insights into the importance of automating coding standar
 
 This resource is about introducing new lint rules in a large legacy codebase. 
 It recommends a gradual approach, utilizing auto-fix capabilities wherever possible and manually addressing issues otherwise.
-Also proposes secondary lint configuration for new rules, applied only to modified files via a precommit hook.
+Also proposes secondary lint configuration for new rules, applied only to modified files via a pre-commit hook.
 This method, inspired by the Boy Scout Rule of leaving code better than one found it.
 
 ## Related Practices
