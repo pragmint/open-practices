@@ -18,9 +18,9 @@ It's important to balance between maintaining code quality and allowing develope
 Automated tools may not catch every type of issue, particularly those related to complex logic or architecture.
 Developers should be mindful of these limitations and not solely rely on these tools for ensuring code quality.
 
-### Integration Challenges
-Incorporating automated coding standards tools into existing projects, especially large or legacy codebases, can be challenging.
-Teams may face hurdles in configuring these tools to align with existing practices and addressing non-compliant legacy code.
+### Legacy Code Challenges
+Incorporating automated coding standards tools into existing projects, especially large or legacy code-bases, can be challenging.
+Lint rules and code fixes must be introduced in an incremental way.
 
 ## Introspective Questions
 
@@ -67,6 +67,13 @@ How effectively are we managing the integration of automated coding standards to
 
 ### [Automate Your Coding Standard](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_04)
 This resource provides insights into the importance of automating coding standards to maintain code quality and consistency. It highlights how automated tools can help enforce coding conventions, making the codebase more manageable and the development process more efficient.
+
+### [One bite at a time](https://dev.to/christiankohler/one-bite-at-a-time-how-to-introduce-new-lint-rules-in-a-large-codebase-37ph)
+
+This resource is about introducing new lint rules in a large legacy codebase. 
+It recommends a gradual approach, utilizing auto-fix capabilities wherever possible and manually addressing issues otherwise.
+Also proposes secondary lint configuration for new rules, applied only to modified files via a precommit hook.
+This method, inspired by the Boy Scout Rule of leaving code better than one found it.
 
 ## Related Practices
 
