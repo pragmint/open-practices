@@ -9,7 +9,29 @@ Decoupling code from specific third-party tools enhances its portability across 
 
 ## Nuance
 
-<!-- TODO: insert nuance of practice (common misconceptions, important considerations, situations where overdoing it on practice can hinder progress, etc) -->
+### Balancing Decoupling with Pragmatism
+
+While decoupling is beneficial, overdoing it can lead to unnecessary complexity and abstraction.
+It's essential to find the right balance between decoupling and practicality based on the specific requirements of your project.
+
+### Identifying Core Dependencies
+
+Not all third-party dependencies are equal. It's crucial to distinguish between core dependencies that significantly impact the functionality of your application and peripheral dependencies that can be easily swapped out or abstracted.
+
+### Vendor Lock-in vs. Flexibility
+
+While decoupling reduces vendor lock-in, it's essential to balance this with the potential benefits of tightly integrating with certain third-party tools or services.
+Evaluate the trade-offs between vendor lock-in and the flexibility to switch providers.
+
+### Documentation and Communication
+
+Clear documentation and communication are crucial when working with abstracted interfaces, especially in collaborative projects.
+Ensure that team members understand the purpose and usage of interface contracts to maintain consistency and avoid misunderstandings.
+
+### Testing Strategies
+
+Decoupling enables easier testing through test doubles, but is important to devise effective testing strategies.
+Ensure that tests cover the interactions between components effectively and that changes to interfaces and implementations are reflected in test cases.
 
 ## Introspective Questions
 
