@@ -35,7 +35,41 @@ Ensure that tests cover the interactions between components effectively and that
 
 ## Introspective Questions
 
-<!-- TODO: insert thought provoking questions to get reader to deeply consider if they could be better applying this practice to their organization -->
+### Assessing Dependency on Third-Party Tools
+
+* How dependent are we on specific third-party frameworks, libraries, or APIs in our software projects?
+* What are the key third-party dependencies we rely on in our projects? 
+* Have we identified any single points of failure or critical dependencies on specific third-party tools?
+* Are there alternative solutions or fallback options available in case a third-party dependency becomes unavailable or incompatible?
+
+### Challenges of Tight Coupling with Third-Party Tools
+
+* Have we encountered challenges in the past due to tightly coupling our code with third-party tools?
+* What specific challenges or difficulties have arisen from tightly coupling our code with third-party frameworks or APIs?
+* Have there been instances where changes or updates to third-party tools have caused unexpected issues or disruptions in our projects?
+
+### Long-Term Implications of Dependency Management
+
+* Do we have a clear understanding of the long-term implications and costs associated with our current level of dependency on third-party software?
+* What are the potential risks and drawbacks of maintaining high levels of dependency on third-party tools in the long term?
+* How do we evaluate the trade-offs between the benefits of using third-party solutions and the risks of dependency and lock-in?
+* Are there measures in place to monitor and manage the total cost of ownership (TCO) associated with third-party dependencies, including licensing, maintenance, and support costs?
+* What steps can we take to future-proof our projects and mitigate risks associated with changes or discontinuation of third-party tools?
+
+### Exploring Decoupling Strategies
+
+* Are there opportunities to abstract away dependencies through the use of interfaces or other abstraction mechanisms in our codebase?
+* In which areas of our codebase do we see the greatest potential for decoupling from third-party tools through abstraction?
+* How well-defined and documented are the interfaces or abstraction layers that mediate interactions with third-party dependencies?
+* What criteria do we use to determine whether a particular dependency warrants abstraction or decoupling from our codebase?
+
+### Promoting a Culture of Decoupling
+
+* How can we foster a culture of decoupling and abstraction within our development team?
+* What educational resources or training opportunities are available to help team members understand the importance of decoupling and abstraction?
+* Do we actively encourage exploration and experimentation with alternative solutions and dependencies that could reduce our reliance on third-party tools?
+* Are there forums or channels for sharing knowledge and best practices related to decoupling and dependency management within our development team?
+* How do we recognize and reward team members who contribute to decoupling efforts and advocate for best practices in dependency management?
 
 ## Exercises
 
