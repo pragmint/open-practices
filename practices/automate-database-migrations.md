@@ -1,6 +1,6 @@
 # Automate Database Migrations
 
-Automate Database Migrations is an strategic practice for managing and evolving a database schema over time through version-controlled scripts. These scripts enable incremental changes, such as adding features or fixing issues, while maintaining data integrity. This approach includes rollback capabilities, allowing any modifications to be safely reversed if necessary. It aligns with Evolutionary Database Design, promoting adaptability and risk mitigation by integrating changes smoothly into development workflows. This method is key for supporting continuous integration and deployment and minimizing disruption.
+Automate Database Migrations is a practice for managing and evolving a database schema over time through version-controlled scripts. These scripts enable incremental changes, such as adding features or fixing issues, while maintaining data integrity. This approach includes rollback capabilities, allowing any modifications to be safely reversed if necessary. It aligns with [Evolutionary Database Design](/practices/automate-database-migrations.md#evolutionary-database-design), promoting adaptability and risk mitigation by integrating changes smoothly into development workflows. This method is key for supporting continuous integration and deployment and minimizing disruption.
 
 ## Nuance
 
@@ -10,16 +10,14 @@ Integrating automatic database migrations with version control systems is crucia
 ### Environment-Specific Migrations
 Some database changes may need to be applied only in specific environments, such as development, staging, or production. Handling these environment-specific migrations requires careful planning and execution to ensure that each environment maintains its integrity and purpose without unintended impacts.
 
-### Migrations Execution Sequence
-Migrations often have dependencies and errors can occur if they are not executed in the right order.
-Frequent communication between team member helps to reduce this type of errors.
-A good version control strategy that promotes frequent integration contributes to reduce the frequency of migration sequence errors.  
-
 ### Data Transformation and Migration
-In addition to schema changes, migrations might involve transforming existing data or migrating data between tables or formats. These operations can be complex and risk data integrity, requiring thorough testing and validation to ensure accuracy and completeness.
+In addition to schema changes, migrations might involve transforming existing data or migrating data between tables or formats. These operations can be complex and risk data integrity, requiring thorough testing and validation to ensure accuracy and completeness. Generally speaking, it is best practice to avoid breaking schema changes by adding new tables/columns as they're needed and deleting old ones only after ensuring they're no longer necessary. It can be tempting to simply update a column in place, which can introduce timing issues during deployments and/or integrity issues during rollbacks.
 
 ### Rollback Strategies
 While the ability to rollback changes is a fundamental aspect of automatic database migrations, designing effective rollback strategies is nuanced. It involves not just reverting schema changes but also considering the impact on data that has been modified or added since the migration was applied.
+
+### Migrations Execution Sequence
+One should build their migrations to avoid sequential dependencies. However, sometimes there's no avoiding that situation and errors can occur if migrations are not executed in the right order. In these rare situations, frequent communication between team members helps to reduce these types of errors.
 
 ### Testing and Validation
 Thorough testing and validation are paramount to ensure that migrations do not adversely affect the application or data integrity. This includes unit testing of migration scripts, as well as integration and acceptance testing to verify the application's functionality post-migration.
@@ -38,8 +36,8 @@ Are our migration scripts and database schema changes properly version-controlle
 ### Environment Adaptation
 Do our migration strategies effectively address the unique needs of different environments (development, staging, production)? How can we ensure consistency while accommodating environment-specific requirements?
 
-### Dependency Handling
-How effectively do we manage dependencies within our migration scripts? Are there tools or practices we could adopt to better handle complex migrations and dependency chains?
+### Sequential Dependency Handling
+How effectively do we manage sequential dependencies within our migration scripts? Are there tools or practices we could adopt to better handle complex migrations and dependency chains?
 
 ### Data Integrity Safeguards
 What measures do we have in place to ensure data integrity during migrations? How do we test and validate data before and after migrations to prevent loss or corruption?
@@ -93,7 +91,7 @@ What lessons have we learned from past migrations, and how are we applying these
 ### [Evolutionary Database Design](https://martinfowler.com/articles/evodb.html)
 This foundational article by Martin Fowler discusses the principles and practices behind evolutionary database design, which is central to the concept of automatic database migrations. It provides a thorough exploration of how to manage database schema changes in a way that supports agile development practices.
 
-## Related Practices
+<!-- ## Related Practices -->
 
 <!-- TODO: insert a list of [linked practices](/practices) that relate to this practice. For each item, give a brief explanation of how the linked practice supports / relates to this practice. Also categorize each linked practices as one of the following: Enables, Requires, Improves -->
 
