@@ -106,92 +106,92 @@ An entry from "97 Things Every Programmer Should Know" that critiques the use of
 ### [Interface Segregation Principle](https://reflectoring.io/interface-segregation-principle/)
 An in-depth article on the Interface Segregation Principle, detailing how splitting larger interfaces into smaller, more specific ones can reduce the impact of change, a concept that aligns with Clean Architecture's emphasis on decoupling and modular design.
 
-## Related Practices
+<!-- ## Related Practices -->
 
 <!-- TODO: insert a list of [linked practices](/practices) that relate to this practice. For each item, give a brief explanation of how the linked practice supports / relates to this practice. Also categorize each linked practices as one of the following: Enables, Requires, Improves -->
 
 ## Supporting Capabilities
 
 ### [Code maintainability](https://dora.dev/devops-capabilities/technical/code-maintainability/)
-**Relationship:** Improves  
+**Relationship:** Improves
 Clean Architecture supports code maintainability by enforcing separation of concerns and modular design, which makes the codebase easier to navigate, understand, and modify without affecting unrelated parts of the system.
 
 ### [Continuous delivery](https://dora.dev/devops-capabilities/technical/continuous-delivery/)
-**Relationship:** Enables  
+**Relationship:** Enables
 By promoting modularization and testability, Clean Architecture facilitates Continuous Delivery by making it easier to deploy changes in small, manageable increments that can be independently tested and released.
 
 ### [Continuous integration](https://dora.dev/devops-capabilities/technical/continuous-integration/)
-**Relationship:** Improves  
+**Relationship:** Improves
 Clean Architecture enhances Continuous Integration practices by ensuring that components can be developed, tested, and integrated in isolation, reducing integration issues and speeding up the CI process.
 
 ### [Deployment automation](https://dora.dev/devops-capabilities/technical/deployment-automation/)
-**Relationship:** Enables  
+**Relationship:** Enables
 The separation of concerns inherent in Clean Architecture allows for more straightforward deployment automation, as dependencies between components are minimized, making it easier to automate the deployment of individual parts of the system.
 
 ### [Test automation](https://dora.dev/devops-capabilities/technical/test-automation/)
-**Relationship:** Improves  
+**Relationship:** Improves
 Clean Architecture's emphasis on testability directly supports Test Automation by ensuring that components are decoupled and isolated, which simplifies writing and maintaining automated tests, particularly unit tests.
 
 ### [Monitoring and observability](https://dora.dev/devops-capabilities/technical/monitoring-and-observability/)
-**Relationship:** Improves  
+**Relationship:** Improves
 Although not directly addressed by Clean Architecture, its principles of modularity and separation of concerns can facilitate better monitoring and observability. By having clear boundaries between components, it becomes easier to monitor each component's performance and health independently.
 
 ### [Flexible infrastructure](https://dora.dev/devops-capabilities/technical/flexible-infrastructure/)
-**Relationship:** Enables  
+**Relationship:** Enables
 Clean Architecture's principle of independence from UI, databases, and external frameworks makes it naturally compatible with flexible infrastructures, as the core application logic is decoupled from infrastructure concerns, allowing for more straightforward migrations and changes to the infrastructure.
 
-### [Documentation quality](https://dora.dev/devops-capabilities/process/documentation-quality/) 
-**Relationship:** Improves  
+### [Documentation quality](https://dora.dev/devops-capabilities/process/documentation-quality/)
+**Relationship:** Improves
 Clean Architecture supports high documentation quality by promoting clear, maintainable code structures that are easier to document. Well-structured codebases align with comprehensive documentation, enabling teams to better understand and document the architecture and design decisions.
 
-### [Loosely coupled architecture](https://dora.dev/devops-capabilities/process/loosely-coupled-architecture/) 
-**Relationship:** Enables  
+### [Loosely coupled architecture](https://dora.dev/devops-capabilities/process/loosely-coupled-architecture/)
+**Relationship:** Enables
 Clean Architecture inherently encourages a loosely coupled architecture through its emphasis on separation of concerns and modular design. This practice enables organizations to achieve a more flexible and adaptable system structure, which is a core goal of loosely coupled architectures.
 
-### [Shifting left on security](https://dora.dev/devops-capabilities/process/shifting-left-on-security/) 
-**Relationship:** Improves  
+### [Shifting left on security](https://dora.dev/devops-capabilities/process/shifting-left-on-security/)
+**Relationship:** Improves
 By structuring applications with Clean Architecture principles, security considerations can be integrated early in the development process. This structure facilitates the early identification and mitigation of security vulnerabilities, aligning with the practice of shifting left on security.
 
-### [Streamlining change approval](https://dora.dev/devops-capabilities/process/streamlining-change-approval/) 
-**Relationship:** Improves  
+### [Streamlining change approval](https://dora.dev/devops-capabilities/process/streamlining-change-approval/)
+**Relationship:** Improves
 Clean Architecture can streamline change approval processes by ensuring that system components are well-defined and decoupled. This clarity and separation make it easier to assess the impact of proposed changes, thereby streamlining the approval process.
 
 ### [Team experimentation](https://dora.dev/devops-capabilities/process/team-experimentation/)
-**Relationship:** Enables  
+**Relationship:** Enables
 The modular and decoupled nature of Clean Architecture allows teams to experiment with new technologies or methodologies within isolated parts of the system without impacting the whole. This enables a culture of experimentation, where teams can safely explore innovative solutions.
 
 ### [Visibility of work in the value stream](https://dora.dev/devops-capabilities/process/work-visibility-in-value-stream/)
-**Relationship:** Improves  
+**Relationship:** Improves
 Implementing Clean Architecture improves the visibility of work in the value stream by defining clear boundaries and responsibilities within the codebase. This clarity helps teams understand how their work contributes to the overall system, enhancing visibility and alignment with business objectives.
 
 ### [Working in small batches](https://dora.dev/devops-capabilities/process/working-in-small-batches/)
-**Relationship:** Improves  
+**Relationship:** Improves
 Clean Architecture facilitates working in small batches by enabling independent development and testing of system components. This modularity supports incremental changes and continuous delivery, allowing teams to deliver value more frequently and reliably.
 
 ### [Generative organizational culture](https://dora.dev/devops-capabilities/cultural/generative-organizational-culture/)
-**Relationship:** Enables  
+**Relationship:** Enables
 Clean Architecture fosters a generative organizational culture by encouraging collaboration, learning, and high responsibility among team members. This practice supports a culture that values continuous improvement and collective ownership of the codebase, contributing to a more innovative and adaptive environment.
 
 ### [How to empower software delivery teams as business leaders](https://dora.dev/devops-capabilities/cultural/how-to-empower-software-delivery-teams/)
-**Relationship:** Improves  
+**Relationship:** Improves
 Adopting Clean Architecture can improve the empowerment of software delivery teams by giving them a clear framework and set of principles to guide their design decisions. This empowerment allows teams to make architectural decisions that align closely with business objectives, fostering a sense of leadership and accountability.
 
 ### [How to transform](https://dora.dev/devops-capabilities/cultural/devops-culture-transform/)
-**Relationship:** Requires  
+**Relationship:** Requires
 Implementing Clean Architecture requires a transformational approach, as it may necessitate changes in how teams are structured, how work is approached, and how software is delivered. This practice aligns with and supports the journey of cultural transformation towards more agile and DevOps-oriented models.
 
 ### [Job satisfaction](https://dora.dev/devops-capabilities/cultural/job-satisfaction/)
-**Relationship:** Improves  
+**Relationship:** Improves
 Clean Architecture can improve job satisfaction by reducing the complexity and frustration often associated with tightly coupled systems. By creating a more organized and understandable codebase, developers are likely to experience greater satisfaction in their work, leading to higher morale and reduced turnover.
 
 ### [Learning culture](https://dora.dev/devops-capabilities/cultural/learning-culture/)
-**Relationship:** Enables  
+**Relationship:** Enables
 The principles underlying Clean Architecture promote a learning culture by encouraging developers to continuously explore and apply best practices in software design. This practice supports an environment where learning and growth are prioritized, enabling teams to stay current with evolving technologies and methodologies.
 
 ### [Transformational leadership](https://dora.dev/devops-capabilities/cultural/transformational-leadership/)
-**Relationship:** Improves  
+**Relationship:** Improves
 Clean Architecture benefits from transformational leadership, which can guide and inspire teams to adopt these principles effectively. Leaders who embody and advocate for the values of Clean Architecture can drive significant improvements in software quality and team performance.
 
 ### [Well-being](https://dora.dev/devops-capabilities/cultural/well-being/)
-**Relationship:** Improves  
+**Relationship:** Improves
 By reducing technical debt and fostering a sense of accomplishment through well-structured code, Clean Architecture can contribute to the well-being of software teams. A clearer, more maintainable codebase can alleviate stress and promote a healthier work-life balance, improving overall team well-being.

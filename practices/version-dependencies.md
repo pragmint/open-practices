@@ -11,12 +11,12 @@ Even with strict version control, dependencies must be regularly updated to addr
 Managing a complex web of dependencies can lead to "dependency hell," where updating one dependency necessitates cascading updates, potentially causing compatibility issues across the project.
 
 ### Locking Dependencies and Automated tools
-To ensure stability and predictability in software projects, we recommend to lock dependencies to specific versions. 
+To ensure stability and predictability in software projects, we recommend to lock dependencies to specific versions.
 However, this approach requires a strategy to stay updated with the latest fixes and improvements and security patches.
 Automated tools like Dependabot facilitate keep the dependencies updated across projects.
 They monitor dependencies for new versions, and can automatically create pull requests to update to these newer versions.
 
-<!-- Include mentioning of integrating tools with CI/CD pipeline -->
+<!-- TODO: Include mentioning of integrating tools with CI/CD pipeline -->
 
 ## Introspective Questions
 
@@ -56,38 +56,37 @@ Could you benefit from using tools like Dependendabot, Renovate or Snyk to have 
 - **Objective:** Lock mayor dependencies in your project and configure Dependabot or a similar tool, to generate PRs when new version of dependencies are published
 - **Outcome:** Understand how automatic dependency update tools impact your work flow and the overall stability of the project.
 
-
 ## Resources
 
 ### [Dependencies Belong in Version Control](https://www.forrestthewoods.com/blog/dependencies-belong-in-version-control/)
 This article explores the importance of including dependencies within version control systems to ensure consistency, reliability, and traceability in software development projects. It discusses the benefits and methodologies of version controlling dependencies, offering insights into best practices for managing software dependencies effectively.
 
-## Related Practices
+<!-- ## Related Practices -->
 
 <!-- TODO: insert a list of [linked practices](/practices) that relate to this practice. For each item, give a brief explanation of how the linked practice supports / relates to this practice. Also categorize each linked practices as one of the following: Enables, Requires, Improves -->
 
 ## Supporting Capabilities
 
 ### [Continuous Integration](https://dora.dev/devops-capabilities/technical/continuous-integration/)
-**Relationship:** Enables  
+**Relationship:** Enables
 Version Controlled Dependencies ensure that all team members work with the same versions of dependencies, reducing integration conflicts and enabling more efficient continuous integration processes.
 
 ### [Database Change Management](https://dora.dev/devops-capabilities/technical/database-change-management/)
-**Relationship:** Enables  
+**Relationship:** Enables
 By versioning database schema changes alongside code dependencies, teams can apply version control practices to database changes as well, facilitating smoother migrations and deployments.
 
 ### [Deployment Automation](https://dora.dev/devops-capabilities/technical/deployment-automation/)
-**Relationship:** Enables  
+**Relationship:** Enables
 Having dependencies version-controlled allows for more predictable deployments, as the exact versions used in development are carried through to production environments, supporting automated deployment pipelines.
 
 ### [Version Control](/capabilities/tech/version-control.md)
-**Relationship:** Requires  
+**Relationship:** Requires
 The practice of Version Dependencies inherently requires a robust version control system to manage the dependencies' versions alongside the application's source code.
 
 ### [Documentation Quality](https://dora.dev/devops-capabilities/process/documentation-quality/)
-**Relationship:** Improves  
+**Relationship:** Improves
 Proper versioning of dependencies can improve documentation quality by providing clear references to the specific versions of external libraries or frameworks used, making the documentation more accurate and useful.
 
 ### [Working in Small Batches](https://dora.dev/devops-capabilities/process/working-in-small-batches/)
-**Relationship:** Improves  
+**Relationship:** Improves
 Version Controlled Dependencies support working in small batches by making it easier to manage and integrate small, incremental changes to dependencies, aligning with best practices for agile and DevOps methodologies.

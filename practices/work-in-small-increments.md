@@ -76,8 +76,7 @@ A video discussion that critiques the standard use of pull requests, arguing for
 ### [Boy Scout Rule](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_08)
 An approach to coding that urges developers to continually improve and clean up the codebase, making small, incremental enhancements with each commit, in line with the adage of leaving the code better than you found it.
 
-
-## Related Practices
+<!-- ## Related Practices -->
 
 <!-- TODO: insert a list of [linked practices](/practices) that relate to this practice. For each item, give a brief explanation of how the linked practice supports / relates to this practice. Also categorize each linked practices as one of the following: Enables, Requires, Improves -->
 

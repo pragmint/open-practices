@@ -14,7 +14,7 @@ Maintaining consistent configurations across different environments is crucial t
 Adopting external configuration management introduces complexity in selecting and implementing the right tools and processes. Teams must navigate through options, considering factors such as integration, security, and scalability, to find a balance between the benefits of externalized configurations and the added complexity of managing them effectively.
 
 ### Version Control for Config
-Using version control for configurations is highly recommended. 
+Using version control for configurations is highly recommended.
 However, it is advisable to keep these configurations in a separate repository, distinct from the application code.
 This practice makes it easier to manage configurations and enhances security for sensitive data.
 Additionally, it improves the understanding of application deployment processes, troubleshooting, and eases the onboarding of new team members.
@@ -63,15 +63,15 @@ This section of the Twelve-Factor App methodology emphasizes the importance of s
 ### [97 Things Every Programmer Should Know - Store Configurations in the Environment](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_61)
 A concise guide that underscores the significance of externalizing configuration, highlighting how this practice enhances application security, simplifies deployment, and supports scalability. It provides actionable advice for developers to implement this best practice effectively.
 
-## Related Practices
+<!-- ## Related Practices -->
 
 <!-- TODO: insert a list of [linked practices](/practices) that relate to this practice. For each item, give a brief explanation of how the linked practice supports / relates to this practice. Also categorize each linked practices as one of the following: Enables, Requires, Improves -->
 
 ## Supporting Capabilities
 
 ## [Version Control](/capabilities/tech/version-control.md)
-By advocating for the exclusion of configuration and sensitive data from version control, this practice improves the Version Control Capability, 
-by defining the exceptions where storing information in source control is not desirable.  
+By advocating for the exclusion of configuration and sensitive data from version control, this practice improves the Version Control Capability,
+by defining the exceptions where storing information in source control is not desirable.
 
 ## [Continuous Integration](https://dora.dev/devops-capabilities/technical/continuous-integration)
 Separate Config from Code facilitates more efficient and secure continuous integration (CI) processes. It allows for seamless integration of code changes by ensuring that environment-specific configurations do not interfere with the build process, thereby enhancing the reliability and speed of CI cycles.

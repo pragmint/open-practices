@@ -47,7 +47,7 @@ Ensuring that knowledge and responsibility are shared across the team prevents b
 ## Introspective Questions
 
 ### Alignment with Development Processes
-How well is our documentation process integrated with our development lifecycle? 
+How well is our documentation process integrated with our development lifecycle?
 Are we updating documentation as part of our routine development tasks?
 Are documentation updates included in our definition of done?
 Are documentation updates included in our checklists?
@@ -57,7 +57,7 @@ To what extent have we explored and implemented automation in our documentation 
 Are there areas where automation could significantly improve consistency and efficiency?
 
 ### Audience Awareness
-Do we clearly understand the different audiences for our documentation? 
+Do we clearly understand the different audiences for our documentation?
 How are we tailoring documentation to meet the diverse needs of developers, end-users, and stakeholders?
 
 ### Cultural Adoption
@@ -119,7 +119,7 @@ What metrics or indicators help us understand the value of keeping our documenta
 ### [Two wrongs can make a right (and are difficult to fix)](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_86)
 Underscores the complexity of software development where two mistakes might cancel each other out, making them harder to identify and fix. It highlights the importance of thorough testing and documentation to prevent and resolve such issues effectively.
 
-## Related Practices
+<!-- ## Related Practices -->
 
 <!-- TODO: insert a list of [linked practices](/practices) that relate to this practice. For each item, give a brief explanation of how the linked practice supports / relates to this practice. Also categorize each linked practices as one of the following: Enables, Requires, Improves -->
 

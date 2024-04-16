@@ -24,7 +24,7 @@ Lint rules and code fixes must be introduced in an incremental way.
 
 ### Development Workflow Integration
 Automatic Coding Standards tools should be incorporated as part of the development process.
-There are many options to do this: build scrips, IDE/Editors, pre-commit, pre-push, during code review/pull requests or Continuous Integration (CI Pipeline). 
+There are many options to do this: build scrips, IDE/Editors, pre-commit, pre-push, during code review/pull requests or Continuous Integration (CI Pipeline).
 The specific approach to incorporate automatic coding standards as part of the development workflow will very depending on team preferences and the cost of running the process.
 
 ## Introspective Questions
@@ -65,14 +65,18 @@ This resource provides insights into the importance of automating coding standar
 
 ### [One bite at a time](https://dev.to/christiankohler/one-bite-at-a-time-how-to-introduce-new-lint-rules-in-a-large-codebase-37ph)
 
-This resource is about introducing new lint rules in a large legacy codebase. 
+This resource is about introducing new lint rules in a large legacy codebase.
 It recommends a gradual approach, utilizing auto-fix capabilities wherever possible and manually addressing issues otherwise.
 Also proposes secondary lint configuration for new rules, applied only to modified files via a pre-commit hook.
 This method, inspired by the Boy Scout Rule of leaving code better than one found it.
 
+<!-- ## Related Practices -->
+
+<!-- TODO: insert a list of [linked practices](/practices) that relate to this practice. For each item, give a brief explanation of how the linked practice supports / relates to this practice. Also categorize each linked practices as one of the following: Enables, Requires, Improves -->
+
 ## Supporting Capabilities
 
-### [Continuous Integration](https://dora.dev/devops-capabilities/technical/continuous-integration/) 
+### [Continuous Integration](https://dora.dev/devops-capabilities/technical/continuous-integration/)
 Automating Coding Standards practice improves Continuous Integration by ensuring that code committed to the repository adheres to predefined quality and style guidelines, facilitating smoother integration and fewer integration issues.
 
 ### [Code Maintainability](https://dora.dev/devops-capabilities/technical/code-maintainability/)

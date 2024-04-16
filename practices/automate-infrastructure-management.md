@@ -45,7 +45,7 @@ Reflect on the degree to which your infrastructure can be recreated from scratch
 How does this impact your disaster recovery and scaling strategies?
 
 ### How Integrated Is IaC in Your CI/CD Pipeline?
-Evaluate how seamlessly IaC is integrated into your continuous integration and continuous deployment (CI/CD) processes. 
+Evaluate how seamlessly IaC is integrated into your continuous integration and continuous deployment (CI/CD) processes.
 Are there areas where further automation or integration could reduce bottlenecks and improve deployment times?
 
 ### Are You Balancing Speed and Security Effectively?
@@ -89,7 +89,7 @@ Is there a culture of shared responsibility and knowledge sharing, or are silos 
 
 This resource provides a comprehensive guide on implementing a secure Terraform delivery pipeline, emphasizing the importance of codifying infrastructure to leverage version control. It outlines best practices for managing infrastructure as code (IaC) securely, including how to automate the deployment process, enforce policy as code, and integrate security checks. The article is valuable for understanding how to efficiently and securely manage infrastructure changes within a version-controlled environment.
 
-## Related Practices
+<!-- ## Related Practices -->
 
 <!-- TODO: insert a list of [linked practices](/practices) that relate to this practice. For each item, give a brief explanation of how the linked practice supports / relates to this practice. Also categorize each linked practices as one of the following: Enables, Requires, Improves -->
 

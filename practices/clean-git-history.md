@@ -82,8 +82,7 @@ Advocates for the disciplined management of Git history through methods like fea
 ### [Two Wrongs Can Make a Right (And Are Difficult to Fix)](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_86)
 Details strategies for properly amending Git history issues, such as errant commits or merge mistakes, without exacerbating problems. Includes practical advice and Git command examples for correcting history efficiently and effectively, focusing on common Git missteps and the complexities of rectifying them.
 
-
-## Related Practices
+<!-- ## Related Practices -->
 
 <!-- TODO: insert a list of [linked practices](/practices) that relate to this practice. For each item, give a brief explanation of how the linked practice supports / relates to this practice. Also categorize each linked practices as one of the following: Enables, Requires, Improves -->
 
@@ -106,4 +105,3 @@ Well-maintained Git history facilitates team experimentation by simplifying the 
 
 ### [Documentation Quality](https://dora.dev/devops-capabilities/process/documentation-quality/)
 Clear commit messages and organized history contribute to high-quality documentation of development processes, enhancing the overall documentation and understanding of project evolution.
-
