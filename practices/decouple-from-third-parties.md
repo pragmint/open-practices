@@ -73,7 +73,33 @@ Ensure that tests cover the interactions between components effectively and that
 
 ## Exercises
 
-<!-- TODO: insert a list of exercises / experiments the reader can try to see if this practice will help their team / organization improve -->
+### Identify Dependencies
+
+Start by identifying the dependencies your project currently has on third-party software, frameworks, or libraries. Make a list of these dependencies and assess how tightly coupled they are to your codebase.
+
+### Introduce Abstractions
+
+Choose a key dependency and refactor your code to introduce abstractions such as interfaces or abstract classes to encapsulate interactions with that dependency. 
+Rewrite the implementations to depend on these abstractions rather than the concrete third-party tools.
+
+### Implement Swappable Components
+
+Select a part of your application where you foresee potential changes in third-party tools or where flexibility is important.
+Implement multiple versions of this component, each interacting with a different third-party tool through the same interface or with a fake implementation.
+Implement a mechanism to select the proper implementation based on a config file.
+Test the swapping of these components to verify that the system remains functional and adaptable.
+
+### Unit Testing with Mocks
+
+Take a critical piece of functionality in your project and create unit tests for it using mock objects.
+Use these mocks to simulate interactions with third-party dependencies without actually calling them.
+Ensure that these tests are comprehensive and cover various scenarios.
+
+### Solicit Feedback
+
+Throughout these exercises, gather feedback from team members on their experiences with the practice.
+Discuss any challenges encountered, benefits observed, and areas for improvement.
+Use this feedback to refine your approach and tailor it to the specific needs and dynamics of your team or organization.
 
 ## Resources
 
