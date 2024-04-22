@@ -103,7 +103,10 @@ Use this feedback to refine your approach and tailor it to the specific needs an
 
 ## Resources
 
-<!-- TODO: insert a list of resources that explore this practice. For each item, give a brief summary of the resource. -->
+### [That's Not Yours](https://8thlight.com/insights/thats-not-yours)
+
+The article explores the pitfalls and benefits of using mock objects in test-driven development (TDD), emphasizing the principle of "Don't Mock What You Don't Own."
+The author discusses how improper use of mocks can lead to unreliable tests and proposes alternatives, such as wrapping third-party libraries in domain-specific objects.
 
 ## Related Practices
 
