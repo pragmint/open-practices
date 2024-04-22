@@ -92,7 +92,7 @@ Test the swapping of these components to verify that the system remains function
 ### Unit Testing with Mocks
 
 Take a critical piece of functionality in your project and create unit tests for it using mock objects.
-Use these mocks to simulate interactions with third-party dependencies without actually calling them.
+Write wrappers (adapters) to interact with third party dependencies and use mocks to simulate interactions with them without calling the real third party.
 Ensure that these tests are comprehensive and cover various scenarios.
 
 ### Solicit Feedback
