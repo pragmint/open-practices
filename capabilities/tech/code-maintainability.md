@@ -25,6 +25,10 @@ By automating these standards, teams can significantly reduce the number of erro
 This leads to improved maintainability as the code is cleaner, less prone to bugs, and more aligned with agreed-upon coding practices.
 Automating coding standards removes the burden of manual reviews for stylistic and some functional issues, allowing developers to focus on more complex problems and innovative solutions.
 
+### [Decouple from Third Parties](/practices/decouple-from-third-parties.md)
+
+The Decouple from Third Parties practice significantly supports the Code Maintainability capability by advocating for the minimization of dependencies on third-party software, thereby ensuring that code remains adaptable and easy to maintain over time. By abstracting dependencies behind interfaces and relying on abstractions like interfaces instead of specific third-party tools, teams can enhance the portability of their code, facilitate comprehensive testing through the creation of mock or stub implementations, and enable flexibility in migration to alternative solutions if necessary.
+
 ## Related Capabilities
 
 ### [Continuous Integration](https://dora.dev/devops-capabilities/technical/continuous-integration/)
