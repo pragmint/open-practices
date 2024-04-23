@@ -116,6 +116,10 @@ The innermost layer comprises entities encapsulating enterprise-wide business ru
 Encapsulates principles and practices to produce readable and maintainable code. 
 The author emphasizes the importance of writing code that communicates its intent clearly, adheres to consistent formatting, and is modular, allowing for easy modification and extension.
 
+### [DIP in the Wild](https://chat.openai.com/c/af4d0747-78f9-47b5-97f4-1f81f63dcd0a)
+
+This article discusses the Dependency Inversion Principle (DIP) in software design and its application in managing dependencies with third parties. It illustrates various scenarios where the DIP can be useful, such as simplifying complex APIs, aligning library abstractions with domain concepts, rejecting external constraints, and controlling time-related dependencies.
+
 ### [That's Not Yours](https://8thlight.com/insights/thats-not-yours)
 
 The article explores the pitfalls and benefits of using mock objects in test-driven development (TDD), emphasizing the principle of "Don't Mock What You Don't Own."
