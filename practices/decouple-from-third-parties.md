@@ -132,3 +132,15 @@ The author discusses how improper use of mocks can lead to unreliable tests and 
 ### [Code Maintainability](capabilities/tech/code-maintainability.md)
 
 The Decouple from Third Parties practice significantly supports the Code Maintainability capability by advocating for the minimization of dependencies on third-party software, thereby ensuring that code remains adaptable and easy to maintain over time. By abstracting dependencies behind interfaces and relying on abstractions like interfaces instead of specific third-party tools, teams can enhance the portability of their code, facilitate comprehensive testing through the creation of mock or stub implementations, and enable flexibility in migration to alternative solutions if necessary.
+
+### [Test Automation](https://dora.dev/devops-capabilities/technical/test-automation/)
+
+Decouple from Third Parties supports the Test Automation capability by advocating minimal dependency on third-party software, 
+enabling teams to create and maintain fast, deterministic automated tests.
+By abstracting dependencies behind interfaces and relying on abstractions like interfaces, teams can enhance the portability of their code and facilitate testing.
+
+### [Loosely Coupled Architecture](https://dora.dev/devops-capabilities/process/loosely-coupled-architecture/)
+
+This practice is linked to the Loosely Coupled DORA Capability by emphasizing the reduction of dependencies on external systems or services within the architectural design.
+By decoupling from third-party dependencies, teams can achieve greater autonomy and flexibility in their software development processes.
+This practice enables teams to make large-scale changes to their systems without external permissions or coordination, complete work without extensive communication with external entities, and deploy their products or services independently of external dependencies.
