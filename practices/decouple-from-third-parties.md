@@ -116,6 +116,10 @@ The innermost layer comprises entities encapsulating enterprise-wide business ru
 Encapsulates principles and practices to produce readable and maintainable code. 
 The author emphasizes the importance of writing code that communicates its intent clearly, adheres to consistent formatting, and is modular, allowing for easy modification and extension.
 
+### [Boundaries](https://www.destroyallsoftware.com/talks/boundaries)
+
+This presentation delves into the concept of using simple values rather than complex objects as the boundaries between components and subsystems in software development. It covers various topics such as functional programming, the relationship between mutability and object-oriented programming (OO), isolated unit testing with and without test doubles, and concurrency. Understanding and implementing these concepts can be immensely beneficial in managing dependencies with third parties.
+
 ### [DIP in the Wild](https://chat.openai.com/c/af4d0747-78f9-47b5-97f4-1f81f63dcd0a)
 
 This article discusses the Dependency Inversion Principle (DIP) in software design and its application in managing dependencies with third parties. It illustrates various scenarios where the DIP can be useful, such as simplifying complex APIs, aligning library abstractions with domain concepts, rejecting external constraints, and controlling time-related dependencies.
