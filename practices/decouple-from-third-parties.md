@@ -109,11 +109,6 @@ The article delves into various architectural methodologies such as Hexagonal Ar
 It introduces "The Clean Architecture," centered on the Dependency Rule, depicted by concentric circles signifying different software domains and their corresponding responsibilities.
 Adhering to the Dependency Rule promotes high cohesion and low coupling. When managing dependencies with third parties, Clean Architecture provides a structured approach by encapsulating external dependencies within outer layers, effectively isolating them from core business logic.
 
-### [Clean Code Book](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
-
-Encapsulates principles and practices to produce readable and maintainable code. 
-The author emphasizes the importance of writing code that communicates its intent clearly, adheres to consistent formatting, and is modular, allowing for easy modification and extension.
-
 ### [Boundaries](https://www.destroyallsoftware.com/talks/boundaries)
 
 This presentation delves into the concept of using simple values rather than complex objects as the boundaries between components and subsystems in software development. It covers various topics such as functional programming, the relationship between mutability and object-oriented programming (OO), isolated unit testing with and without test doubles, and concurrency. Understanding and implementing these concepts can be immensely beneficial in managing dependencies with third parties.
