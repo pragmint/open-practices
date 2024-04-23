@@ -129,6 +129,6 @@ The author discusses how improper use of mocks can lead to unreliable tests and 
 
 ## Supporting Capabilities
 
-### [Code Maintainability](https://dora.dev/devops-capabilities/technical/code-maintainability/)
+### [Code Maintainability](capabilities/tech/code-maintainability.md)
 
 The Decouple from Third Parties practice significantly supports the Code Maintainability capability by advocating for the minimization of dependencies on third-party software, thereby ensuring that code remains adaptable and easy to maintain over time. By abstracting dependencies behind interfaces and relying on abstractions like interfaces instead of specific third-party tools, teams can enhance the portability of their code, facilitate comprehensive testing through the creation of mock or stub implementations, and enable flexibility in migration to alternative solutions if necessary.
