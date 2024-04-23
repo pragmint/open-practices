@@ -105,11 +105,9 @@ Use this feedback to refine your approach and tailor it to the specific needs an
 
 ### [Clean Architecture Article](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 
-The article discusses various architectural approaches like Hexagonal Architecture, Onion Architecture, Screaming Architecture, DCI, and BCE, all aimed at achieving separation of concerns in software systems.
-The key principles emphasized include independence of frameworks, testability, and separation of concerns such as UI and database.
-The article proposes a unified architecture called "The Clean Architecture," which revolves around the Dependency Rule.
-It illustrates the architecture through concentric circles representing different areas of software, each with specific responsibilities.
-The innermost layer comprises entities encapsulating enterprise-wide business rules, followed by use cases, interface adapters, and outermost frameworks and drivers. The Dependency Rule dictates that dependencies must point inward, ensuring high cohesion and low coupling.
+The article delves into various architectural methodologies such as Hexagonal Architecture, Onion Architecture, Screaming Architecture, DCI, and BCE, with a focus on principles like framework independence, testability, and concern separation. 
+It introduces "The Clean Architecture," centered on the Dependency Rule, depicted by concentric circles signifying different software domains and their corresponding responsibilities.
+Adhering to the Dependency Rule promotes high cohesion and low coupling. When managing dependencies with third parties, Clean Architecture provides a structured approach by encapsulating external dependencies within outer layers, effectively isolating them from core business logic.
 
 ### [Clean Code Book](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
 
