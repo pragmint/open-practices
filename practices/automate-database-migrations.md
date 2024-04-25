@@ -20,7 +20,9 @@ While the ability to rollback changes is a fundamental aspect of automatic datab
 One should build their migrations to avoid sequential dependencies. However, sometimes there's no avoiding that situation and errors can occur if migrations are not executed in the right order. In these rare situations, frequent communication between team members helps to reduce these types of errors.
 
 ### Testing and Validation
-Thorough testing and validation are paramount to ensure that migrations do not adversely affect the application or data integrity. This includes unit testing of migration scripts, as well as integration and acceptance testing to verify the application's functionality post-migration.
+Testing database migrations with integration and acceptance tests is important.
+These tests validate that migrations are executed correctly.
+Without such tests, errors in migrations could lead to data loss or application failures.
 
 ### Performance Considerations
 Large-scale migrations can significantly impact database performance, especially in production environments. Planning for off-peak execution times, batch processing, and incremental migrations are strategies to mitigate performance degradation during the migration process.
