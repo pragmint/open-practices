@@ -7,9 +7,6 @@ Automate Database Migrations is a practice for managing and evolving a database 
 ### Version Control Integration
 Integrating automatic database migrations with version control systems is crucial for tracking and coordinating changes among team members. This ensures that every modification to the database schema is documented, reviewed, and synchronized with the corresponding application code changes, enhancing collaboration and minimizing conflicts.
 
-### Environment-Specific Migrations
-Some database changes may need to be applied only in specific environments, such as development, staging, or production. Handling these environment-specific migrations requires careful planning and execution to ensure that each environment maintains its integrity and purpose without unintended impacts.
-
 ### Data Transformation and Migration
 In addition to schema changes, migrations might involve transforming existing data or migrating data between tables or formats. These operations can be complex and risk data integrity, requiring thorough testing and validation to ensure accuracy and completeness. Generally speaking, it is best practice to avoid breaking schema changes by adding new tables/columns as they're needed and deleting old ones only after ensuring they're no longer necessary. It can be tempting to simply update a column in place, which can introduce timing issues during deployments and/or integrity issues during rollbacks.
 
@@ -34,9 +31,6 @@ How well do our automatic database migration processes integrate with our curren
 
 ### Version Control Harmony
 Are our migration scripts and database schema changes properly version-controlled alongside our application code? How can we improve traceability and coordination between code and database changes?
-
-### Environment Adaptation
-Do our migration strategies effectively address the unique needs of different environments (development, staging, production)? How can we ensure consistency while accommodating environment-specific requirements?
 
 ### Sequential Dependency Handling
 How effectively do we manage sequential dependencies within our migration scripts? Are there tools or practices we could adopt to better handle complex migrations and dependency chains?
@@ -79,14 +73,6 @@ What lessons have we learned from past migrations, and how are we applying these
   1. Write a migration script that alters an existing table by adding a new column.
   2. Populate the new column with data transformed from existing columns (e.g., concatenating two columns into a new one).
   3. Apply the migration and verify the data transformation was successful.
-
-## Exercise 4: Environment-Specific Migrations
-* **Objective**: Learn to manage migrations across different environments.
-* **Tasks**:
-  1. Create two separate migration scripts: one for development and another for production environments. The production script should include additional safety checks or logging.
-  2. Apply the development script to your development database and the production script to a simulated production environment.
-  3. Review the outcomes to ensure each script performed as expected in its respective environment.
-
 
 ## Resources
 
