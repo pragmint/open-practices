@@ -1,0 +1,5 @@
+# Conduct Code Reviews
+
+Code review is a crucial part of software development, where peers examine code changes to ensure quality and reliability; it helps catch bugs, enforce best practices, and promote collaboration. Having clear guidelines for code reviews, along with using checklists that can be continuously refined during retrospectives, is important for ensuring consistency, improving the quality of reviews, and fostering continuous improvement in the development process.
+Automating parts of code review helps ensure consistency, save time, and allows people to focus on more important tasks, making the software development process better and faster.
+Many aspects of code review can be automated, including checking for coding standards compliance, syntax errors, test coverage, static code analysis, dependency management, performance profiling, and documentation generation.
