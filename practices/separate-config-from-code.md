@@ -5,7 +5,9 @@ Separate Config from Code makes systems more flexible and secure. It separates o
 ## Nuance
 
 ### Security Concerns
-Externalizing configuration necessitates strong security measures to protect sensitive data from unauthorized access. This involves encryption, secure access protocols, and possibly using secret management tools to safeguard information like API keys and database credentials, ensuring compliance with security standards.
+It's important to keep security in mind when separating application code from sensitive configuration data.
+Overlooking security measures can expose sensitive data to potential threats, compromising the integrity and confidentiality of the application.
+Store configurations in secure, encrypted repositories or vaults, enforce strict access controls and conduct regular security audits.
 
 ### Environment Parity
 Maintaining consistent configurations across different environments is crucial to avoid "it works on my machine" issues. This involves using environment variables, configuration files, or services to ensure uniformity from development through production, thereby reducing deployment errors and operational discrepancies.
