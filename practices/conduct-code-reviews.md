@@ -33,6 +33,6 @@ At the same time developers should be open to constructive criticism and view it
 
 ### Checklists
 
-Using checklists to conduct code reviews is a beneficial practice as it helps ensure consistency and thoroughness in the evaluation process.
+Using checklists to conduct code reviews helps ensure consistency and thoroughness in the evaluation process.
 However, it's important to note that checklists should not remain static; rather, they should be continuously refined during retrospectives.
 This involves soliciting feedback from team members and incorporating lessons learned from previous reviews to improve the effectiveness of the checklist over time.
