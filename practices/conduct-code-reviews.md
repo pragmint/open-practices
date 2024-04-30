@@ -81,7 +81,7 @@ Prior to beginning development tasks, designate a reviewer for each task upfront
 This proactive approach allows the reviewer to familiarize themselves with the upcoming changes, gain context about the requirements.
 After this analyze the quality of the resulting code review.
 
-## Code Review Simulation
+### Code Review Simulation
 
 Simulate a code review scenario using a sample codebase.
 Assign roles to team members and go through the process of reviewing the code, discussing feedback, and reaching consensus on changes.
@@ -93,3 +93,8 @@ Host interactive workshops aimed at developing feedback skills within the team.
 Create practical exercises and scenarios that encourage participants to offer helpful criticism while being respectful.
 Highlight the importance of sharing observations, staying curious, and avoiding making judgments without understanding the author's intentions and thought process.
 Empower participants to receive feedback openly, emphasizing the importance of not taking criticism personally and avoid assuming negative intentions from the reviewer.
+
+### Continuous Feedback Loop
+
+Create a shared document to collecting feedback from team members after each code review.
+Use this feedback to identify areas for improvement and make iterative adjustments to the code review process over time.
