@@ -36,3 +36,30 @@ At the same time developers should be open to constructive criticism and view it
 Using checklists to conduct code reviews helps ensure consistency and thoroughness in the evaluation process.
 However, it's important to note that checklists should not remain static; rather, they should be continuously refined during retrospectives.
 This involves soliciting feedback from team members and incorporating lessons learned from previous reviews to improve the effectiveness of the checklist over time.
+
+## Introspective Questions
+
+### Contextual Understanding
+
+* Do our reviewers have a clear understanding of the broader context surrounding code changes, including user requirements and project goals?
+* Are there opportunities for reviewers to engage in pair programming or collaborative discussions with developers to gain deeper insights into the code being reviewed?
+
+### Accounting for Subjectivity
+
+* How do we handle differing opinions among developers regarding code style, architecture, and implementation details during code reviews?
+* Are we prioritizing changes that align with the project's overall objectives rather than personal preferences?
+
+### Managing Workload
+
+* Do we have clear guidelines in place for review turnaround times, and are they being consistently followed to?
+* Are we actively working to prevent long pull requests that can overwhelm reviewers and cause delays in the development process?
+
+### Feedback Sensitivity
+
+* Are our developers equipped with the skills to provide constructive feedback during code reviews while maintaining a positive and supportive environment?
+* How do we ensure that feedback is received openly and viewed as an opportunity for growth rather than criticism?
+
+### Checklists
+
+* Are we effectively utilizing checklists to conduct code reviews, and do they cover all relevant aspects of the evaluation process?
+* How often do we revisit and update our checklists based on feedback and lessons learned from previous reviews?
