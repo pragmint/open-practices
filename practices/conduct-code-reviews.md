@@ -63,3 +63,33 @@ This involves soliciting feedback from team members and incorporating lessons le
 
 * Are we effectively utilizing checklists to conduct code reviews, and do they cover all relevant aspects of the evaluation process?
 * How often do we revisit and update our checklists based on feedback and lessons learned from previous reviews?
+
+## Exercises
+
+### Guideline Creation Workshop
+
+Organize a collaborative workshop where team members collectively establish clear guidelines for conducting code reviews.
+Encourage open discussions to ensure that the guidelines are comprehensive and reflect the team's values and objectives.
+
+### Pair Programming Sessions
+
+Schedule regular pair programming sessions where developers work together on coding tasks.
+
+### Assigning Reviewers in Advance
+
+Prior to beginning development tasks, designate a reviewer for each task upfront during the planning phase.
+This proactive approach allows the reviewer to familiarize themselves with the upcoming changes, gain context about the requirements.
+After this analyze the quality of the resulting code review.
+
+## Code Review Simulation
+
+Simulate a code review scenario using a sample codebase.
+Assign roles to team members and go through the process of reviewing the code, discussing feedback, and reaching consensus on changes.
+This hands-on exercise can help identify areas for improvement in the code review process.
+
+### Effective Feedback Skills Workshop
+
+Host interactive workshops aimed at developing feedback skills within the team.
+Create practical exercises and scenarios that encourage participants to offer helpful criticism while being respectful.
+Highlight the importance of sharing observations, staying curious, and avoiding making judgments without understanding the author's intentions and thought process.
+Empower participants to receive feedback openly, emphasizing the importance of not taking criticism personally and avoid assuming negative intentions from the reviewer.
