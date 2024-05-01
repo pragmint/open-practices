@@ -101,6 +101,12 @@ Use this feedback to identify areas for improvement and make iterative adjustmen
 
 ## Related Practices
 
+### [The power of feedback loops](https://lucamezzalira.medium.com/the-power-of-feedback-loops-f8e27e8ac25f)
+
+Luca Mezzalira highlights the necessity and importance of feedback mechanisms in software development.
+He advocates for implementing various feedback loops, such as test-driven development (TDD), static analysis, pair programming, and code review.
+These feedback loops enable continuous improvement by offering timely insights into code quality, identifying potential issues, and enhancing collaboration among team members.
+
 ### [Two Wrongs Can Make a Right (and Are Difficult to Fix)](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_86)
 
 Allan Kelly's article sheds light on the challenges posed by code defects that compound into single visible faults, complicating the troubleshooting process.
