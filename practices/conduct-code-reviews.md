@@ -98,3 +98,11 @@ Empower participants to receive feedback openly, emphasizing the importance of n
 
 Create a shared document to collecting feedback from team members after each code review.
 Use this feedback to identify areas for improvement and make iterative adjustments to the code review process over time.
+
+## Related Practices
+
+### [Two Wrongs Can Make a Right (and Are Difficult to Fix)](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_86)
+
+Allan Kelly's article sheds light on the challenges posed by code defects that compound into single visible faults, complicating the troubleshooting process.
+This insight underscores the significance of meticulous code reviews.
+By conducting thorough reviews and promoting open communication among team members, teams can detect and address defects early on, preventing the accumulation of complex issues that become harder to rectify over time.
