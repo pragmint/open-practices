@@ -112,3 +112,10 @@ These feedback loops enable continuous improvement by offering timely insights i
 Allan Kelly's article sheds light on the challenges posed by code defects that compound into single visible faults, complicating the troubleshooting process.
 This insight underscores the significance of meticulous code reviews.
 By conducting thorough reviews and promoting open communication among team members, teams can detect and address defects early on, preventing the accumulation of complex issues that become harder to rectify over time.
+
+### [Async Code Reviews Are Chocking Your Company’s Throughput by Dragan Stepanovic](https://www.youtube.com/watch?v=ZlLZEQQBcFg)
+
+In his presentation, Dragan delves into the common practice of pull requests (PRs) in software development teams and its potential impact on throughput.
+Drawing from his study analyzing tens of thousands of PRs across various repositories, he reveals that teams utilizing small PRs with asynchronous code reviews often experience lower throughput compared to those employing larger PRs.
+However, Dragan introduces a solution to this dilemma through co-creation patterns such as pair and mob programming, where multiple individuals collaborate simultaneously on a task.
+By exploring data that challenges the assumption that this collaborative approach diminishes team throughput, Dragan suggests a path toward achieving both high throughput and quality in software development.
