@@ -113,7 +113,7 @@ Allan Kelly's article sheds light on the challenges posed by code defects that c
 This insight underscores the significance of meticulous code reviews.
 By conducting thorough reviews and promoting open communication among team members, teams can detect and address defects early on, preventing the accumulation of complex issues that become harder to rectify over time.
 
-### [Async Code Reviews Are Chocking Your Company’s Throughput by Dragan Stepanovic](https://www.youtube.com/watch?v=ZlLZEQQBcFg)
+### [Async Code Reviews Are Chocking Your Company’s Throughput](https://www.youtube.com/watch?v=ZlLZEQQBcFg)
 
 In his presentation, Dragan delves into the common practice of pull requests (PRs) in software development teams and its potential impact on throughput.
 Drawing from his study analyzing tens of thousands of PRs across various repositories, he reveals that teams utilizing small PRs with asynchronous code reviews often experience lower throughput compared to those employing larger PRs.
