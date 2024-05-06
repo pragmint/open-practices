@@ -1,26 +1,20 @@
 # Separate Config from Code
 
-Separate Config from Code makes systems more flexible and secure. It separates operational details from code, reducing the risk of data exposure and supporting seamless deployment across different environments, thereby becoming a fundamental principle in secure and scalable software development.
+Separating configuration from code is crucial for maintaining secure and flexible systems. Extracting configurable values makes systems adaptable, enabling easy adjustments without modifying the codebase. Sensitive information like passwords or API keys should be isolated to limit access to highly trusted team members.
 
 ## Nuance
 
-### Security Concerns
-It's important to keep security in mind when separating application code from sensitive configuration data.
-Overlooking security measures can expose sensitive data to potential threats, compromising the integrity and confidentiality of the application.
-Store configurations in secure, encrypted repositories or vaults, enforce strict access controls and conduct regular security audits.
-
-### Environment Parity
-Maintaining consistent configurations across different environments is crucial to avoid "it works on my machine" issues. This involves using environment variables, configuration files, or services to ensure uniformity from development through production, thereby reducing deployment errors and operational discrepancies.
+### Configuration Storage
+Store sensitive configurations in secure, encrypted repositories or vaults, enforce strict access controls and conduct regular security audits. When considering storing options, favor ones that support versioning configuration changes so you retain the ability to restore to previous "known to work" configuration values.
 
 ### Deployment Complexity
 Adopting external configuration management introduces complexity in selecting and implementing the right tools and processes. Teams must navigate through options, considering factors such as integration, security, and scalability, to find a balance between the benefits of externalized configurations and the added complexity of managing them effectively.
 
-### Version Control for Config
-Using version control for configurations is highly recommended. However, it is advisable to keep these configurations in a separate repository, distinct from the application code. This practice makes it easier to manage configurations and enhances security for sensitive data. Additionally, it improves the understanding of application deployment processes, troubleshooting, and eases the onboarding of new team members.
+### Environment Parity
+Use the same environment variables, configuration files, and services to ensure uniformity from development through production, thereby reducing deployment errors and operational discrepancies. Obviously the configured values will differ from environment to environment. The key consideration here is to maintain an identical "configuration schema" so to speak.
 
-### The Exception for Local Development Examples
-An important nuance in this practice is the exception for including example configuration files in the same code repository.
-These example or template configurations are intended to guide developers in setting up their local development environments quickly and efficiently. These files should contain generic, non-sensitive information and serve as a blueprint for developers to create their own local configuration files. For instance, an .env.example file might include placeholders for environment variables that need to be set but without providing any real keys or passwords.
+### Allow Local Overrides
+Allow local overrides of configuration values and provide developers with a blueprint to create their own local configuration files. For instance, an .env.example file might include placeholders for environment variables that need to be set but without providing any real keys or passwords. This keeps sensitive data out of application version control, without constraining developer productivity.
 
 # Introspective Questions
 
@@ -31,7 +25,7 @@ Have we implemented robust security measures for our configuration data? Are enc
 Do we have a consistent approach for managing configurations across different environments? How do we ensure that our deployment processes are seamless and that configurations do not lead to errors or discrepancies in various environments?
 
 ### How Do We Handle Configuration Changes and Versioning?
-What processes do we have in place for managing changes to configuration? How do we track and version configuration changes to ensure that our application remains stable and secure with each update?
+What processes do we have in place for managing changes to configuration? How do we track and version configuration changes to ensure that our application remains stable with each update?
 
 ### Are We Balancing Flexibility with Complexity?
 In our efforts to externalize configuration, have we introduced unnecessary complexity into our deployment and operational processes? How do we strike a balance between the flexibility of externalized configurations and the simplicity of our overall system architecture?
@@ -42,10 +36,7 @@ In our efforts to externalize configuration, have we introduced unnecessary comp
 Audit your current repositories to identify instances of configuration or sensitive data stored within version control. Document the types of data found and evaluate the potential risks associated with their exposure.
 
 ### Implement Environment-Specific Configuration Files
-Create separate configuration files for different environments (development, staging, production) without storing them in version control. Experiment with mechanisms to securely inject these configurations during deployment or runtime.
-
-### Environment Variables Experimentation
-Shift a piece of configuration data, such as a database connection string, to environment variables. Test the application's behavior in different environments to assess the ease of configuration changes and its impact on deployment processes.
+Create separate configuration files for different environments (development, staging, production). Ensure the schema of each file should be the same. Experiment with mechanisms to securely inject these configurations during deployment or runtime.
 
 ### Secure Configuration Storage Evaluation
 Explore and integrate a secure configuration management solution, such as HashiCorp Vault or AWS Secrets Manager. Evaluate the effectiveness of this solution in improving security and flexibility compared to storing sensitive data in version control.
@@ -68,7 +59,7 @@ A concise guide that underscores the significance of externalizing configuration
 ## Supporting Capabilities
 
 ## [Version Control](/capabilities/tech/version-control.md)
-By advocating for the exclusion of configuration and sensitive data from version control, this practice improves the Version Control Capability, by defining the exceptions where storing information in source control is not desirable.
+By advocating for the exclusion of configuration and sensitive data from version control, this practice improves the Version Control Capability, by defining the exceptions where storing information in application code source control is not desirable.
 
 ## [Continuous Integration](https://dora.dev/devops-capabilities/technical/continuous-integration)
 Separate Config from Code facilitates more efficient and secure continuous integration (CI) processes. It allows for seamless integration of code changes by ensuring that environment-specific configurations do not interfere with the build process, thereby enhancing the reliability and speed of CI cycles.
