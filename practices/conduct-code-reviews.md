@@ -6,23 +6,24 @@ Many aspects of code review can be automated, including checking for coding stan
 
 ## Nuance
 
+### Get Feedback Early In The Process
+
+Ideally, the reviewer should engage in pair programming with the author during some or all of the development process. From a speed standpoint, the earlier corrective feedback is provided, the less time is wasted going down the incorrect path. From a review quality standpoint, this collaboration provides an opportunity to gain context, understand the rationale behind design decisions, and grasp the intricacies of the code changes, thus resulting in a more informed and insightful code review.
+
 ### Contextual Understanding
 
-Reviewers need to understand the broader context of the changes being made, including user requirements.
+All reviewers need to understand the broader context of the changes being made, including user requirements and architecture.
 Lacking this context can result in misguided feedback or approval of suboptimal solutions.
-Ideally, the reviewer should engage in pair programming with the author during the development process.
-This collaboration provides an opportunity to gain context, understand the rationale behind design decisions, 
-and grasp the intricacies of the code changes, thus resulting in a more informed and insightful code review.
 
 ### Accounting for Subjectivity
 
 Different developers may have varying opinions on code style, architecture, and implementation details.
-It's important to recognize that some feedback may be subjective and prioritize changes that align with the project's overall objectives rather than personal preferences.
+It's important to recognize that some feedback may be subjective and prioritize changes that align with the project's overall objectives rather than personal preferences. Any subjective concerns should be codified into linting rules so they don't cloud the code review process.
 
 ### Managing Workload
 
 Code reviews can become a bottleneck if not managed effectively.
-Teams should establish clear guidelines for review turnaround times and distribute review responsibilities evenly.
+If code reviews are going to be done asynchronously, teams should establish clear guidelines for review turnaround times and distribute review responsibilities accordingly.
 It's important for the team to agree on strategies to avoid long pull requests, as these can overwhelm reviewers and lead to delays.
 
 ### Feedback Sensitivity
@@ -36,6 +37,12 @@ At the same time developers should be open to constructive criticism and view it
 Using checklists to conduct code reviews helps ensure consistency and thoroughness in the evaluation process.
 However, it's important to note that checklists should not remain static; rather, they should be continuously refined during retrospectives.
 This involves soliciting feedback from team members and incorporating lessons learned from previous reviews to improve the effectiveness of the checklist over time.
+
+### Automation
+
+It can be helpful to have automated build / verification processes take place when a pull/merge request is opened. Some examples include: run the linter, deploy to an ephemeral environment, run integration tests, etc. These steps reduce the chances of accidentally merging in broken code.
+
+Furthermore, LLMs backed tools are able to provide automated feedback on code changes. These can be useful, but be wary of useless or even misguided feedback. No LLM is going to remove the need to think. Advise your teams to be smart.
 
 ## Introspective Questions
 
@@ -51,8 +58,8 @@ This involves soliciting feedback from team members and incorporating lessons le
 
 ### Managing Workload
 
-* Do we have clear guidelines in place for review turnaround times, and are they being consistently followed to?
-* Are we actively working to prevent long pull requests that can overwhelm reviewers and cause delays in the development process?
+* Do we have clear guidelines in place for review turnaround times, and are they being consistently followed?
+* Are we actively working to prevent long pull/merge requests that can overwhelm reviewers and cause delays in the development process?
 
 ### Feedback Sensitivity
 
@@ -63,6 +70,10 @@ This involves soliciting feedback from team members and incorporating lessons le
 
 * Are we effectively utilizing checklists to conduct code reviews, and do they cover all relevant aspects of the evaluation process?
 * How often do we revisit and update our checklists based on feedback and lessons learned from previous reviews?
+
+### Automation
+
+* Are we using reliable tooling to speed up the review process? Is there more we could be doing on this front?
 
 ## Exercises
 
@@ -81,12 +92,6 @@ Prior to beginning development tasks, designate a reviewer for each task upfront
 This proactive approach allows the reviewer to familiarize themselves with the upcoming changes, gain context about the requirements.
 After this analyze the quality of the resulting code review.
 
-### Code Review Simulation
-
-Simulate a code review scenario using a sample codebase.
-Assign roles to team members and go through the process of reviewing the code, discussing feedback, and reaching consensus on changes.
-This hands-on exercise can help identify areas for improvement in the code review process.
-
 ### Effective Feedback Skills Workshop
 
 Host interactive workshops aimed at developing feedback skills within the team.
@@ -99,7 +104,7 @@ Empower participants to receive feedback openly, emphasizing the importance of n
 Create a shared document to collecting feedback from team members after each code review.
 Use this feedback to identify areas for improvement and make iterative adjustments to the code review process over time.
 
-## Related Practices
+## Resources
 
 ### [The power of feedback loops](https://lucamezzalira.medium.com/the-power-of-feedback-loops-f8e27e8ac25f)
 
@@ -115,10 +120,14 @@ By conducting thorough reviews and promoting open communication among team membe
 
 ### [Async Code Reviews Are Chocking Your Company’s Throughput](https://www.youtube.com/watch?v=ZlLZEQQBcFg)
 
-In his presentation, Dragan delves into the common practice of pull requests (PRs) in software development teams and its potential impact on throughput.
+In his presentation, Dragan delves into the common practice of pull/merge requests (PRs) in software development teams and its potential impact on throughput.
 Drawing from his study analyzing tens of thousands of PRs across various repositories, he reveals that teams utilizing small PRs with asynchronous code reviews often experience lower throughput compared to those employing larger PRs.
 However, Dragan introduces a solution to this dilemma through co-creation patterns such as pair and mob programming, where multiple individuals collaborate simultaneously on a task.
 By exploring data that challenges the assumption that this collaborative approach diminishes team throughput, Dragan suggests a path toward achieving both high throughput and quality in software development.
+
+<!-- ## Related Practices -->
+
+<!-- TODO: insert a list of [linked practices](/practices) that relate to this practice. For each item, give a brief explanation of how the linked practice supports / relates to this practice. Also categorize each linked practices as one of the following: Enables, Requires, Improves -->
 
 ## Supporting Capabilities
 
