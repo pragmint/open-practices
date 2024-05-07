@@ -14,7 +14,7 @@ Ensuring the functional core remains pure and without side effects is important.
 However, fixating excessively on absolute purity may inadvertently introduce impractical code.
 For instance, rigidly avoiding variable mutation can sometimes lead to the use of recursion.
 While recursion aligns with functional purity, its efficiency may diminish, particularly in languages where stack management for large inputs poses challenges.
-Therefore, it's vital to strike a balance between functional purity and practicality, considering the performance implications in different contexts.
+Functional programming constructs, while elegant, may not always be the most efficient choice, especially in performance-critical scenarios.
 
 ### Values are the Boundary
 
