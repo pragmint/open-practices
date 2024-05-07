@@ -5,7 +5,7 @@ Automate Database Migrations is a practice for managing and evolving a database 
 ## Nuance
 
 ### Version Control Integration
-Integrating automatic database migrations with version control systems is crucial for tracking and coordinating changes among team members. This ensures that every modification to the database schema is documented, reviewed, and synchronized with the corresponding application code changes, enhancing collaboration and minimizing conflicts.
+Integrating automatic database (db) migrations with version control systems is crucial for tracking and coordinating changes among team members. This ensures that every modification to the database schema is documented, reviewed, and synchronized with the corresponding application code changes, enhancing collaboration and minimizing conflicts. It is also preferred to have the migration scripts live in the same repository as the application code that operates on that database (assuming there is only one application that serves this role for that particular db/table/whatever). Doing this ensures the assumptions that the application makes of the db schema are correct and up to date.
 
 ### Data Transformation and Migration
 In addition to schema changes, migrations might involve transforming existing data or migrating data between tables or formats. These operations can be complex and risk data integrity, requiring thorough testing and validation to ensure accuracy and completeness. Generally speaking, it is best practice to avoid breaking schema changes by adding new tables/columns as they're needed and deleting old ones only after ensuring they're no longer necessary. It can be tempting to simply update a column in place, which can introduce timing issues during deployments and/or integrity issues during rollbacks.
@@ -17,12 +17,13 @@ While the ability to rollback changes is a fundamental aspect of automatic datab
 One should build their migrations to avoid sequential dependencies. However, sometimes there's no avoiding that situation and errors can occur if migrations are not executed in the right order. In these rare situations, frequent communication between team members helps to reduce these types of errors.
 
 ### Testing and Validation
-Testing database migrations with integration and acceptance tests is important.
-These tests validate that migrations are executed correctly.
-Without such tests, errors in migrations could lead to data loss or application failures.
+Every application's testing needs are going to vary based on the architectural constraints, team norms, tech stack, etc. Generally speaking, it's a good idea to have some way to automate verification that the database is structured as expected. This can be accomplished in many ways: end to end tests, regression tests, production monitoring / alerting, etc. Select a verification strategy that gives developers the confidence they need without introducing too much complexity or reducing the reliability of the build process.
 
 ### Performance Considerations
 Large-scale migrations can significantly impact database performance, especially in production environments. Planning for off-peak execution times, batch processing, and incremental migrations are strategies to mitigate performance degradation during the migration process.
+
+### NoSQL Databases
+When considering migrations for NoSQL databases, it's essential to embrace schema flexibility by supporting multiple schema versions concurrently and allowing application logic to handle different data structures dynamically. Instead of enforcing strict schema updates through upgrade scripts, use a schema version identifier and implement incremental updates or "lazy" migrations as data is accessed. This approach maintains application compatibility across schema changes while reducing downtime and ensuring consistent data accessibility.
 
 ## Introspective Questions
 
@@ -55,7 +56,7 @@ What lessons have we learned from past migrations, and how are we applying these
 ## Exercise 1: Create a Simple Migration Script
 * **Objective**: Learn the basics of writing a migration script by creating a simple script that adds a new table to your database.
 * **Tasks**:
-  1. Choose a database migration tool compatible with your database system (e.g., Flyway, Liquibase).
+  1. Choose a database migration tool compatible with your database system (e.g., Flyway, Liquibase, etc).
   2. Write a migration script to create a new table with at least three columns: an ID, a name, and a timestamp.
   3. Run the migration script against your local development database.
   4. Verify the table was created successfully by querying the database.
@@ -99,6 +100,3 @@ Deployment Automation necessitates Automatic Database Migrations to automate the
 
 ### [Monitoring and Observability](https://dora.dev/devops-capabilities/technical/monitoring-and-observability)
 Monitoring and Observability are improved with Automatic Database Migrations by providing insights into the impact of database changes on application performance. This enables quick detection and resolution of issues.
-
-### [Learning Culture](https://dora.dev/devops-capabilities/cultural/learning-culture/)
-A Learning Culture benefits from the insights and experiences gained through Automatic Database Migrations. The practice encourages continuous improvement and knowledge sharing about database management and migration strategies.
