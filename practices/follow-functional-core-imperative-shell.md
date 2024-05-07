@@ -21,3 +21,9 @@ Functional programming constructs, while elegant, may not always be the most eff
 Values serve as the boundary between the layers.
 The imperative shell should communicate with the functional core by passing value objects exclusively, avoiding objects or functions that could potentially induce side effects.
 This ensures that the functional core remains isolated from external state changes, promoting clarity, predictability, and maintainability in the codebase while facilitating easier testing, debugging, and refactoring.
+
+### Learning Curve
+
+Transitioning to the Functional Core, Imperative Shell practice may present a learning curve, especially for developers accustomed to diverse paradigms or architectural styles.
+To facilitate this transition smoothly, it's recommended that developers with more knowledge mentor other developers through pair programming sessions.
+Additionally, fostering an environment of knowledge sharing, providing resources, and allocating time for developers to study the practice can greatly aid in its adoption and understanding across the team.
