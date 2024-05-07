@@ -27,3 +27,11 @@ This ensures that the functional core remains isolated from external state chang
 Transitioning to the Functional Core, Imperative Shell practice may present a learning curve, especially for developers accustomed to diverse paradigms or architectural styles.
 To facilitate this transition smoothly, it's recommended that developers with more knowledge mentor other developers through pair programming sessions.
 Additionally, fostering an environment of knowledge sharing, providing resources, and allocating time for developers to study the practice can greatly aid in its adoption and understanding across the team.
+
+### Is Not Incompatible with Object-Oriented Programming
+
+The Functional Core, Imperative Shell practice is not mutually exclusive with Object-Oriented Programming (OOP) principles.
+As long as the functional core remains free of side effects, it can coexist within an object-oriented architecture.
+The Functional Core's logic could be encapsulated within methods of a class, ensuring that these methods return new objects instead of mutating their fields.
+The Functional Core can take advantage of polymorphism by receiving or returning objects of a class hierarchy with multiple subclasses to represent various inputs or outputs.
+Developers can implement the functional core while adhering to OOP principles and have the advantages of both paradigms.
