@@ -15,3 +15,9 @@ However, fixating excessively on absolute purity may inadvertently introduce imp
 For instance, rigidly avoiding variable mutation can sometimes lead to the use of recursion.
 While recursion aligns with functional purity, its efficiency may diminish, particularly in languages where stack management for large inputs poses challenges.
 Therefore, it's vital to strike a balance between functional purity and practicality, considering the performance implications in different contexts.
+
+### Values are the Boundary
+
+Values serve as the boundary between the layers.
+The imperative shell should communicate with the functional core by passing value objects exclusively, avoiding objects or functions that could potentially induce side effects.
+This ensures that the functional core remains isolated from external state changes, promoting clarity, predictability, and maintainability in the codebase while facilitating easier testing, debugging, and refactoring.
