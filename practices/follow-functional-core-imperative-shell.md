@@ -24,7 +24,7 @@ This ensures that the functional core remains isolated from external state chang
 
 ### Learning Curve
 
-Transitioning to the Functional Core, Imperative Shell practice may present a learning curve, especially for developers accustomed to diverse paradigms or architectural styles.
+Transitioning to the Functional Core, Imperative Shell practice may present a learning curve.
 To facilitate this transition smoothly, it's recommended that developers with more knowledge mentor other developers through pair programming sessions.
 Additionally, fostering an environment of knowledge sharing, providing resources, and allocating time for developers to study the practice can greatly aid in its adoption and understanding across the team.
 
