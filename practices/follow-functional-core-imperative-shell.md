@@ -42,9 +42,14 @@ In simple cases, the imperative shell merely passes inputs to the functional cor
 However, there are scenarios where the functional core may produce outputs that require inspection or processing by the imperative shell.
 While the imperative shell should ideally remain minimal and devoid of complex logic, it may need to analyze, interpret, or transform the response from the functional core to ensure proper interaction and presentation to the user.
 
+### Side Effects should only happen before and after the execution of the Functional Core
+
+Ideally, the imperative shell should organize the IO (Input/Output) parts of the code at the beginning and end of its execution, sandwiching the invocation of the Functional Core in the middle, following the pattern IO => FC => IO.
+However, in certain scenarios, there may be a need to interleave IO operations with calls to the Functional Core, resulting in a pattern such as IO => FC => IO => FC => IO.
+While this deviation from the ideal pattern may occur out of necessity, it should be minimized whenever possible.
+
 <!-- 
 
-### Side Effects should only happen before and after the execution of the functional Core
 
 ### Can be combined with Dependency Injection
 
