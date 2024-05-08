@@ -28,7 +28,7 @@ Transitioning to the Functional Core, Imperative Shell practice may present a le
 To facilitate this transition smoothly, it's recommended that developers with more knowledge mentor other developers through pair programming sessions.
 Additionally, fostering an environment of knowledge sharing, providing resources, and allocating time for developers to study the practice can greatly aid in its adoption and understanding across the team.
 
-### Is Not Incompatible with Object-Oriented Programming
+### Is Incompatible with Object-Oriented Programming
 
 The Functional Core, Imperative Shell practice is not mutually exclusive with Object-Oriented Programming (OOP) principles.
 As long as the functional core remains free of side effects, it can coexist within an object-oriented architecture.
@@ -48,9 +48,9 @@ Ideally, the imperative shell should organize the IO (Input/Output) parts of the
 However, in certain scenarios, there may be a need to interleave IO operations with calls to the Functional Core, resulting in a pattern such as IO => FC => IO => FC => IO.
 While this deviation from the ideal pattern may occur out of necessity, it should be minimized whenever possible.
 
-<!-- 
+### Unit Testing Functional Core, Integration Testing Imperative Shell
 
-
-### Can be combined with Dependency Injection
-
--->
+Unit tests should primarily concentrate on validating the business logic enclosed within the functional core, testing its expected behavior in isolation.
+This approach is especially advantageous due to the functional core's composition of pure functions, facilitating straightforward unit testing devoid of external dependencies or side effects.
+Integration tests, should scrutinize cover the behavior of the imperative shell as it interacts with external systems, including database calls, API requests, and user interfaces.
+Imperative shell integration tests ideally require fewer scenarios to validate, given that control statements such as if, while, or for loops should mostly reside within the functional core layer.
