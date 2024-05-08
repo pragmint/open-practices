@@ -69,3 +69,9 @@ By communicating between the Functional Core and Imperative Shell via passing va
 * In what ways could the Functional Core and Imperative Shell mitigate the impact of changes in infrastructure technology, allowing for smoother transitions and future-proofing our codebase?
 * What benefits might arise from writing unit tests with the assurance that the Functional Core code being tested has no side effects?
 * How could the reduced presence of control statements in the Imperative Shell simplify integration tests?
+
+### Evaluating Team Readiness
+
+* How prepared are our development teams to embrace a paradigm shift towards functional programming principles?
+* Do team members possess the necessary skills and knowledge to implement and maintain code following this practice?
+* What resources, training, or support mechanisms can we provide to facilitate the transition and ensure successful adoption?
