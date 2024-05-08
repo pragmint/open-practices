@@ -75,6 +75,7 @@ By communicating between the Functional Core and Imperative Shell via passing va
 * How prepared are our development teams to embrace a paradigm shift towards functional programming principles?
 * Do team members possess the necessary skills and knowledge to implement and maintain code following this practice?
 * What resources, training, or support mechanisms can we provide to facilitate the transition and ensure successful adoption?
+* How can we address potential challenges or resistance from team members who may be unfamiliar with functional programming concepts or reluctant to change existing coding practices?
 
 ### Transitioning to Functional Core, Imperative Shell Incrementally
 
@@ -83,5 +84,3 @@ By communicating between the Functional Core and Imperative Shell via passing va
 * Are there opportunities to introduce the Functional Core, Imperative Shell pattern gradually, perhaps starting with new features or modules, before expanding its adoption to legacy code?
 * How can we ensure effective communication and collaboration among team members during the transition process, including knowledge sharing, pair programming, and code reviews?
 * What metrics or milestones can we establish to measure progress and evaluate the success of transitioning to the Functional Core, Imperative Shell pattern incrementally?
-* How can we address potential challenges or resistance from team members who may be unfamiliar with functional programming concepts or reluctant to change existing coding practices?
-* What support mechanisms, training opportunities, or documentation resources can we provide to help team members understand and embrace the benefits of transitioning to the Functional Core, Imperative Shell pattern incrementally?
