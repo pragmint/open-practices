@@ -54,3 +54,13 @@ Unit tests should primarily concentrate on validating the business logic enclose
 This approach is especially advantageous due to the functional core's composition of pure functions, facilitating straightforward unit testing devoid of external dependencies or side effects.
 Integration tests, should scrutinize cover the behavior of the imperative shell as it interacts with external systems, including database calls, API requests, and user interfaces.
 Imperative shell integration tests ideally require fewer scenarios to validate, given that control statements such as if, while, or for loops should mostly reside within the functional core layer.
+
+## Introspective Questions
+
+### Assessing the Benefits
+
+* What advantages could the adoption of the Functional Core, Imperative Shell practice bring to our projects?
+* How might separating business logic from side effects enhance code readability, maintainability, and scalability?
+* In what ways could the Functional Core and Imperative Shell mitigate the impact of changes in infrastructure technology, allowing for smoother transitions and future-proofing our codebase?
+* What benefits might arise from writing unit tests with the assurance that the Functional Core code being tested has no side effects?
+* How could the reduced presence of control statements in the Imperative Shell simplify integration tests?
