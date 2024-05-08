@@ -35,3 +35,17 @@ As long as the functional core remains free of side effects, it can coexist with
 The Functional Core's logic could be encapsulated within methods of a class, ensuring that these methods return new objects instead of mutating their fields.
 The Functional Core can take advantage of polymorphism by receiving or returning objects of a class hierarchy with multiple subclasses to represent various inputs or outputs.
 Developers can implement the functional core while adhering to OOP principles and have the advantages of both paradigms.
+
+### There can not be any logic in the Imperative Shell
+
+In simple cases, the imperative shell merely passes inputs to the functional core, receives the response, and renders it back to the user.
+However, there are scenarios where the functional core may produce outputs that require inspection or processing by the imperative shell.
+While the imperative shell should ideally remain minimal and devoid of complex logic, it may need to analyze, interpret, or transform the response from the functional core to ensure proper interaction and presentation to the user.
+
+<!-- 
+
+### Side Effects should only happen before and after the execution of the functional Core
+
+### Can be combined with Dependency Injection
+
+-->
