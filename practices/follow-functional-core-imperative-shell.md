@@ -52,7 +52,7 @@ While this deviation from the ideal pattern may occur out of necessity, it shoul
 
 Unit tests should primarily concentrate on validating the business logic enclosed within the functional core, testing its expected behavior in isolation.
 This approach is especially advantageous due to the functional core's composition of pure functions, facilitating straightforward unit testing devoid of external dependencies or side effects.
-Integration tests, should scrutinize cover the behavior of the imperative shell as it interacts with external systems, including database calls, API requests, and user interfaces.
+Integration tests, should cover the behavior of the imperative shell as it interacts with external systems, including database calls, API requests, or user interfaces.
 Imperative shell integration tests ideally require fewer scenarios to validate, given that control statements such as if, while, or for loops should mostly reside within the functional core layer.
 
 ## Introspective Questions
