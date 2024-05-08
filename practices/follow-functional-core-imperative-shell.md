@@ -55,6 +55,11 @@ This approach is especially advantageous due to the functional core's compositio
 Integration tests, should cover the behavior of the imperative shell as it interacts with external systems, including database calls, API requests, or user interfaces.
 Imperative shell integration tests ideally require fewer scenarios to validate, given that control statements such as if, while, or for loops should mostly reside within the functional core layer.
 
+### Is Specially beneficial when using dynamic languages
+
+In dynamic languages, the Functional Core, Imperative Shell approach is often favored due to its ability to address testing challenges inherent in these languages.
+By communicating between the Functional Core and Imperative Shell via passing values instead of relying on interfaces, developers can mitigate the risk of false positives when using mocks and encountering errors with the real implementation.
+
 ## Introspective Questions
 
 ### Assessing the Benefits
