@@ -94,3 +94,7 @@ This talk is about using simple values (as opposed to complex objects) not just 
 ### [Moving IO to the edges of your app: Functional Core, Imperative Shell](https://www.youtube.com/watch?v=P1vES9AgfC4)
 
 Modern architectures (such as Onion, Clean and Hexagonal) recommend that interfacing with the outside world be done at the boundaries of your app, not in the middle. Similarly, in functional programming, the core code should be deterministic, and all I/O should be at the edges. But how can you actually do this in practice? How can you separate I/O from business logic in an elegant way? In this talk, we'll look at some concrete examples of how to refactor code in this way. We'll also talk about how doing this improves code comprehension, testing, and refactoring.
+
+### [How functional programming patterns can simplify code](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_02)
+
+The article promotes the mastery of functional programming principles, stating they improve code quality beyond multi-core challenges. It emphasizes referential transparency, where functions yield consistent results regardless of mutable state. It criticizes mutable variables in imperative code and suggests smaller, immutable functions for fewer defects. It acknowledges functional programming's limitations but advocates for its application in various domains, asserting its complementarity with object orientation.
