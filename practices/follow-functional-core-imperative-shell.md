@@ -84,3 +84,9 @@ By communicating between the Functional Core and Imperative Shell via passing va
 * Are there opportunities to introduce the Functional Core, Imperative Shell pattern gradually, perhaps starting with new features or modules, before expanding its adoption to legacy code?
 * How can we ensure effective communication and collaboration among team members during the transition process, including knowledge sharing, pair programming, and code reviews?
 * What metrics or milestones can we establish to measure progress and evaluate the success of transitioning to the Functional Core, Imperative Shell pattern incrementally?
+
+## Resources
+
+### [Boundaries](https://www.destroyallsoftware.com/talks/boundaries)
+
+This talk is about using simple values (as opposed to complex objects) not just for holding data, but also as the boundaries between components and subsystems. It moves through many topics: functional programming; mutability's relationship to OO; isolated unit testing with and without test doubles; and concurrency, to name some.
