@@ -98,3 +98,7 @@ Modern architectures (such as Onion, Clean and Hexagonal) recommend that interfa
 ### [How functional programming patterns can simplify code](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_02)
 
 The article promotes the mastery of functional programming principles, stating they improve code quality beyond multi-core challenges. It emphasizes referential transparency, where functions yield consistent results regardless of mutable state. It criticizes mutable variables in imperative code and suggests smaller, immutable functions for fewer defects. It acknowledges functional programming's limitations but advocates for its application in various domains, asserting its complementarity with object orientation.
+
+### [Are We There Yet](https://www.youtube.com/watch?v=ScEPu1cs4l0)
+
+In his keynote at JVM Languages Summit 2009, Rich Hickey advocated for the reexamination of basic principles like state, identity, value, time, types, genericity, complexity, as they are used by OOP today, to be able to create the new constructs and languages to deal with the massive parallelism and concurrency of the future.
