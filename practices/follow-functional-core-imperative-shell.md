@@ -90,3 +90,7 @@ By communicating between the Functional Core and Imperative Shell via passing va
 ### [Boundaries](https://www.destroyallsoftware.com/talks/boundaries)
 
 This talk is about using simple values (as opposed to complex objects) not just for holding data, but also as the boundaries between components and subsystems. It moves through many topics: functional programming; mutability's relationship to OO; isolated unit testing with and without test doubles; and concurrency, to name some.
+
+### [Moving IO to the edges of your app: Functional Core, Imperative Shell](https://www.youtube.com/watch?v=P1vES9AgfC4)
+
+Modern architectures (such as Onion, Clean and Hexagonal) recommend that interfacing with the outside world be done at the boundaries of your app, not in the middle. Similarly, in functional programming, the core code should be deterministic, and all I/O should be at the edges. But how can you actually do this in practice? How can you separate I/O from business logic in an elegant way? In this talk, we'll look at some concrete examples of how to refactor code in this way. We'll also talk about how doing this improves code comprehension, testing, and refactoring.
