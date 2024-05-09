@@ -1,75 +1,42 @@
 # Decouple from Third Parties
 
-This practice aims to minimize dependencies on third-party software such as frameworks, libraries, and external APIs.
-It advocates relying on abstractions like interfaces, enabling the creation of code implementations that are not tightly coupled to specific third-party tools.
-Developers can easily switch between different implementations or versions of third-party components without affecting the core logic of their application.
+Minimize reliance on third-party software like platforms, frameworks, libraries, and external APIs by using patterns such as interfaces or shims. This shields the core system from changes in third-party tools, allowing seamless switching between implementations or versions.
 
-By utilizing interfaces, developers can create mock or stub implementations for testing purposes, facilitating comprehensive unit testing without relying on external resources.
-Decoupling code from specific third-party tools enhances its portability across different platforms and environments, it provides the flexibility to migrate to alternative solutions if necessary.
+This practice also enables mock or stub implementations for testing without external dependencies. Decoupling code improves portability across platforms and provides flexibility to migrate to alternative solutions when needed.
 
 ## Nuance
 
 ### Balancing Decoupling with Pragmatism
 
-While decoupling is beneficial, overdoing it can lead to unnecessary complexity and abstraction.
-It's essential to find the right balance between decoupling and practicality based on the specific requirements of your project.
+While decoupling is beneficial, overdoing it can lead to unnecessary complexity and abstraction. Be on the lookout for 3rd party software that has a high surface area with your codebase. For example, if you are using an ORM to fetch data, you likely don't want to pass those ORM objects all around your codebase. Doing so would make upgrading to future versions or moving to a new ORM extremely painful. If instead you're using a JSON serializer in a couple of places, it's probably overkill to "hide" that dependency as upgrading or replacing it would be fairly straightforward. Find the right balance between decoupling and practicality based on the specific requirements of your project.
 
-### Identifying Core Dependencies
-
-Not all third-party dependencies are equal. It's crucial to distinguish between core dependencies that significantly impact the functionality of your application and peripheral dependencies that can be easily swapped out or abstracted.
-
-### Vendor Lock-in vs. Flexibility
-
-While decoupling reduces vendor lock-in, it's essential to balance this with the potential benefits of tightly integrating with certain third-party tools or services.
-Evaluate the trade-offs between vendor lock-in and the flexibility to switch providers.
-
-### Documentation and Communication
-
-Clear documentation and communication are crucial when working with abstracted interfaces, especially in collaborative projects.
-Ensure that team members understand the purpose and usage of interface contracts to maintain consistency and avoid misunderstandings.
+Some organizations make long-term agreements with 3rd party systems that significantly reduce the cost of operating their system. For example, Google Cloud signed some very client favorable deals when they were trying to take market share away from AWS. For those organizations that signed long-term and favorable deals, it likely wasn't as important to build their systems in ways that avoided vendor lock-in.
 
 ### Testing Strategies
 
-Decoupling enables easier testing through test doubles, but is important to devise effective testing strategies.
-Ensure that tests cover the interactions between components effectively and that changes to interfaces and implementations are reflected in test cases.
+Decoupling facilitates easier testing by using test doubles, such as mocks and stubs. However, it's crucial to keep these test doubles straightforward to prevent divergence from the real system's behavior. Overly complex test doubles can lead to false confidence in test results, as they may not accurately represent actual system interactions.
+
+Rather than creating complex scenarios with test doubles, consider enhancing test reliability by testing actual interactions. Move towards higher levels of the testing pyramid where integration and end-to-end tests validate real system behaviors, providing more confidence in the robustness of your software.
+
+Every situation is unique, so there's no one size fits all guidance for this situation. Be aware of the trade-offs you're making and use your head.
 
 ## Introspective Questions
 
 ### Assessing Dependency on Third-Party Tools
 
-* How dependent are we on specific third-party frameworks, libraries, or APIs in our software projects?
-* What are the key third-party dependencies we rely on in our projects? 
+* What are the key third-party dependencies we rely on in our projects?
 * Have we identified any single points of failure or critical dependencies on specific third-party tools?
-* Are there alternative solutions or fallback options available in case a third-party dependency becomes unavailable or incompatible?
 
 ### Challenges of Tight Coupling with Third-Party Tools
 
-* Have we encountered challenges in the past due to tightly coupling our code with third-party tools?
-* What specific challenges or difficulties have arisen from tightly coupling our code with third-party frameworks or APIs?
 * Have there been instances where changes or updates to third-party tools have caused unexpected issues or disruptions in our projects?
+* Have we encountered other challenges in the past due to tightly coupling our code with third-party tools?
 
 ### Long-Term Implications of Dependency Management
 
-* Do we have a clear understanding of the long-term implications and costs associated with our current level of dependency on third-party software?
 * What are the potential risks and drawbacks of maintaining high levels of dependency on third-party tools in the long term?
-* How do we evaluate the trade-offs between the benefits of using third-party solutions and the risks of dependency and lock-in?
-* Are there measures in place to monitor and manage the total cost of ownership (TCO) associated with third-party dependencies, including licensing, maintenance, and support costs?
 * What steps can we take to future-proof our projects and mitigate risks associated with changes or discontinuation of third-party tools?
 
-### Exploring Decoupling Strategies
-
-* Are there opportunities to abstract away dependencies through the use of interfaces or other abstraction mechanisms in our codebase?
-* In which areas of our codebase do we see the greatest potential for decoupling from third-party tools through abstraction?
-* How well-defined and documented are the interfaces or abstraction layers that mediate interactions with third-party dependencies?
-* What criteria do we use to determine whether a particular dependency warrants abstraction or decoupling from our codebase?
-
-### Promoting a Culture of Decoupling
-
-* How can we foster a culture of decoupling and abstraction within our development team?
-* What educational resources or training opportunities are available to help team members understand the importance of decoupling and abstraction?
-* Do we actively encourage exploration and experimentation with alternative solutions and dependencies that could reduce our reliance on third-party tools?
-* Are there forums or channels for sharing knowledge and best practices related to decoupling and dependency management within our development team?
-* How do we recognize and reward team members who contribute to decoupling efforts and advocate for best practices in dependency management?
 
 ## Exercises
 
@@ -79,7 +46,7 @@ Start by identifying the dependencies your project currently has on third-party 
 
 ### Introduce Abstractions
 
-Choose a key dependency and refactor your code to introduce abstractions such as interfaces or abstract classes to encapsulate interactions with that dependency. 
+Choose a key dependency and refactor your code to introduce abstractions such as interfaces or abstract classes to encapsulate interactions with that dependency.
 Rewrite the implementations to depend on these abstractions rather than the concrete third-party tools.
 
 ### Implement Swappable Components
@@ -89,23 +56,11 @@ Implement multiple versions of this component, each interacting with a different
 Implement a mechanism to select the proper implementation based on a config file.
 Test the swapping of these components to verify that the system remains functional and adaptable.
 
-### Unit Testing with Mocks
-
-Take a critical piece of functionality in your project and create unit tests for it using mock objects.
-Write wrappers (adapters) to interact with third party dependencies and use mocks to simulate interactions with them without calling the real third party.
-Ensure that these tests are comprehensive and cover various scenarios.
-
-### Solicit Feedback
-
-Throughout these exercises, gather feedback from team members on their experiences with the practice.
-Discuss any challenges encountered, benefits observed, and areas for improvement.
-Use this feedback to refine your approach and tailor it to the specific needs and dynamics of your team or organization.
-
 ## Resources
 
 ### [Clean Architecture Article](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 
-The article delves into various architectural methodologies such as Hexagonal Architecture, Onion Architecture, Screaming Architecture, DCI, and BCE, with a focus on principles like framework independence, testability, and concern separation. 
+The article delves into various architectural methodologies such as Hexagonal Architecture, Onion Architecture, Screaming Architecture, DCI, and BCE, with a focus on principles like framework independence, testability, and concern separation.
 It introduces "The Clean Architecture," centered on the Dependency Rule, depicted by concentric circles signifying different software domains and their corresponding responsibilities.
 Adhering to the Dependency Rule promotes high cohesion and low coupling. When managing dependencies with third parties, Clean Architecture provides a structured approach by encapsulating external dependencies within outer layers, effectively isolating them from core business logic.
 
@@ -130,7 +85,7 @@ The Decouple from Third Parties practice significantly supports the Code Maintai
 
 ### [Test Automation](https://dora.dev/devops-capabilities/technical/test-automation/)
 
-Decouple from Third Parties supports the Test Automation capability by advocating minimal dependency on third-party software, 
+Decouple from Third Parties supports the Test Automation capability by advocating minimal dependency on third-party software,
 enabling teams to create and maintain fast, deterministic automated tests.
 By abstracting dependencies behind interfaces and relying on abstractions like interfaces, teams can enhance the portability of their code and facilitate testing.
 
