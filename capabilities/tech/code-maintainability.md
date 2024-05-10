@@ -33,6 +33,12 @@ The Decouple from Third Parties practice significantly supports the Code Maintai
 
 The Conduct Code Reviews practice significantly strengthens the Code Maintainability capability within software teams. Through these reviews, team members can collectively ensure that proposed code changes are not only functional but also easy to maintain over time. By providing feedback on readability, modularity, and coding standards adherence, code reviews help improve the overall quality of the codebase.
 
+### [Follow Functional Core, Imperative Shell](/practices/follow-functional-core-imperative-shell.md)
+
+The Follow Functional Core, Imperative Shell practice significantly supports the Code Maintainability capability.
+By separating business logic into a functional core and side effects into an imperative shell, this approach enhances code readability, simplifies comprehension, and reduces complexity.
+With a clear distinction between pure functions and imperative code, developers can more easily understand and modify code, leading to improved maintainability and stability of the software system.
+
 ## Related Capabilities
 
 ### [Continuous Integration](https://dora.dev/devops-capabilities/technical/continuous-integration/)

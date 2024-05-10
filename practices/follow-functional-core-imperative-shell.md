@@ -102,3 +102,11 @@ The article promotes the mastery of functional programming principles, stating t
 ### [Are We There Yet](https://www.youtube.com/watch?v=ScEPu1cs4l0)
 
 In his keynote at JVM Languages Summit 2009, Rich Hickey advocated for the reexamination of basic principles like state, identity, value, time, types, genericity, complexity, as they are used by OOP today, to be able to create the new constructs and languages to deal with the massive parallelism and concurrency of the future.
+
+## Supporting Capabilities
+
+### [Code Maintainability](/capabilities/tech/code-maintainability.md)
+
+The Follow Functional Core, Imperative Shell practice significantly supports the Code Maintainability capability.
+By separating business logic into a functional core and side effects into an imperative shell, this approach enhances code readability, simplifies comprehension, and reduces complexity.
+With a clear distinction between pure functions and imperative code, developers can more easily understand and modify code, leading to improved maintainability and stability of the software system.
