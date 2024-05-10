@@ -17,3 +17,8 @@ Some tasks may benefit from individual exploration and problem-solving before co
 ### Managing Pair Dynamics
 
 Rotating pairs fosters diverse perspectives, mitigates dependency, while alternating roles between Driver and Reviewer promotes skill development and sustains engagement within the team.
+
+### Avoiding Dependency on One Pair
+
+Relying too heavily on a single pair can create bottlenecks and knowledge silos within the team.
+It's essential to encourage pairing across the team and ensure that knowledge is shared widely to mitigate risks associated with individual dependencies.
