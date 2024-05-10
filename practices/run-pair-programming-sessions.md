@@ -22,3 +22,8 @@ Rotating pairs fosters diverse perspectives, mitigates dependency, while alterna
 
 Relying too heavily on a single pair can create bottlenecks and knowledge silos within the team.
 It's essential to encourage pairing across the team and ensure that knowledge is shared widely to mitigate risks associated with individual dependencies.
+
+### Adapting to Remote Collaboration Challenges
+
+While Pair Programming can be done remotely, has some challenges such as communication barriers, technical issues, and time zone differences.
+Teams must use in suitable collaboration tools (Live VS Code Live Share) and establish clear communication protocols.
