@@ -13,3 +13,7 @@ Effective Pair Programming requires clear communication, mutual respect, regular
 While Run Pair Programming Sessions emphasize collaboration, it's essential to balance them with individual work.
 Over-reliance on pair programming for all tasks may limit developers' autonomy and creativity.
 Some tasks may benefit from individual exploration and problem-solving before collaboration.
+
+### Managing Pair Dynamics
+
+Rotating pairs fosters diverse perspectives, mitigates dependency, while alternating roles between Driver and Reviewer promotes skill development and sustains engagement within the team.
