@@ -88,3 +88,9 @@ The article explores the balance between solving complex problems elegantly and 
 It discusses Project Euler's mathematical challenges and the importance of simplicity in collaborative coding environments.
 Emphasizing readability over complexity, it advocates for clear, accessible code that encourages contributions and facilitates debugging.
 Ultimately, it champions simplicity in coding solutions.
+
+## Supporting Capabilities
+
+### [Code Maintainability](/capabilities/tech/code-maintainability.md)
+
+Pair Programming directly supports Code Maintainability by fostering collaboration, real-time code review, and knowledge sharing among developers. By working in pairs, developers catch issues early, ensure code comprehensibility, and spread knowledge across the team, leading to a more maintainable codebase. Additionally, Pair Programming promotes adherence to coding standards, enhancing code consistency and readability.
