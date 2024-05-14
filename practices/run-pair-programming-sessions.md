@@ -51,3 +51,18 @@ Teams must use in suitable collaboration tools (Like VS Code Live Share) and est
 * Are there specific tasks or project phases where Pair Programming is particularly effective, and how do we identify these opportunities?
 * What tools and protocols do we have in place to address challenges associated with remote Pair Programming, such as communication barriers and time zone differences?
 * How do we ensure that team members are equipped with the necessary skills and resources to effectively engage in Pair Programming?
+
+## Exercises
+
+### Trial Period
+Implementing a trial period allows your team to directly experience Pair Programming in action. By committing to regular Pair Programming sessions for a defined period, such as a week or two, you can observe firsthand how it affects code quality, knowledge sharing, and team collaboration. This hands-on experience provides valuable insights into whether Pair Programming is a suitable practice for your team and organization.
+
+### Pairing Rotation
+Rotating pairs frequently within the team is crucial for including diverse perspectives, mitigating dependency, and promoting skill development.
+Assigning different pairs for various tasks or user stories allows team members to collaborate with different individuals and learn from each other's expertise.
+By assessing how pairing rotation impacts knowledge sharing, team dynamics, and skill development, you can determine the effectiveness of Pair Programming in your team.
+
+### Feedback Sessions
+Regular feedback sessions provide an opportunity for team members to share their experiences, challenges, and suggestions regarding Pair Programming.
+By collecting feedback from participants, you can identify areas for improvement, address concerns, and iterate on the Pair Programming process.
+This continuous feedback loop enables you to refine your approach to Pair Programming and ensure that it aligns with your team's needs and goals.
