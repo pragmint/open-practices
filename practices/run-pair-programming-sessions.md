@@ -66,3 +66,25 @@ By assessing how pairing rotation impacts knowledge sharing, team dynamics, and 
 Regular feedback sessions provide an opportunity for team members to share their experiences, challenges, and suggestions regarding Pair Programming.
 By collecting feedback from participants, you can identify areas for improvement, address concerns, and iterate on the Pair Programming process.
 This continuous feedback loop enables you to refine your approach to Pair Programming and ensure that it aligns with your team's needs and goals.
+
+## Resources
+
+### [The power of feedback loops](https://lucamezzalira.medium.com/the-power-of-feedback-loops-f8e27e8ac25f)
+This article emphasizes the importance of feedback loops in software development, citing expert insights to advocate for their adoption.
+It explores various types of feedback loops, including TDD, static analysis, pair programming, code review, Agile modeling, daily stand-ups, and retrospectives, stressing their role in enhancing project quality and team collaboration.
+By advocating for multiple feedback loops, the article emphasizes their pivotal role in ensuring project success and customer satisfaction, urging teams to experiment with new techniques for continuous improvement.
+
+### [Async Code Reviews Are Chocking Your Company’s Throughput](https://www.youtube.com/watch?v=ZlLZEQQBcFg)
+
+In his presentation, Dragan delves into the common practice of pull/merge requests (PRs) in software development teams and its potential impact on throughput.
+Drawing from his study analyzing tens of thousands of PRs across various repositories, he reveals that teams utilizing small PRs with asynchronous code reviews often experience lower throughput compared to those employing larger PRs.
+However, Dragan introduces a solution to this dilemma through co-creation patterns such as pair and mob programming, where multiple individuals collaborate simultaneously on a task.
+By exploring data that challenges the assumption that this collaborative approach diminishes team throughput, Dragan suggests a path toward achieving both high throughput and quality in software development.
+
+
+### [Clever code considered harmful](https://medium.com/@joshuawcomeau/clever-code-considered-harmful-a1fb1054e8a1)
+
+The article explores the balance between solving complex problems elegantly and writing accessible code.
+It discusses Project Euler's mathematical challenges and the importance of simplicity in collaborative coding environments.
+Emphasizing readability over complexity, it advocates for clear, accessible code that encourages contributions and facilitates debugging.
+Ultimately, it champions simplicity in coding solutions.
