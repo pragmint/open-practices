@@ -93,4 +93,4 @@ Ultimately, it champions simplicity in coding solutions.
 
 ### [Code Maintainability](/capabilities/tech/code-maintainability.md)
 
-Pair Programming directly supports Code Maintainability by fostering collaboration, real-time code review, and knowledge sharing among developers. By working in pairs, developers catch issues early, ensure code comprehensibility, and spread knowledge across the team, leading to a more maintainable codebase. Additionally, Pair Programming promotes adherence to coding standards, enhancing code consistency and readability.
+Pair Programming directly supports Code Maintainability by facilitating collaboration, real-time code review, and knowledge sharing among developers. By working in pairs, developers catch issues early, ensure code comprehensibility, and spread knowledge across the team, leading to a more maintainable codebase. Additionally, Pair Programming promotes adherence to coding standards, enhancing code consistency and readability.
