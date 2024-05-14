@@ -1,6 +1,6 @@
 # Clean Git History
 
-Clean Git History is a practice that emphasizes maintaining a clear and organized commit history in Git repositories. It involves making logical, cohesive commits with descriptive messages, and using strategies like squashing and reordering commits to ensure the history is easily navigable for code reviews, debugging and rollbacks. This approach aims to enhance productivity and collaboration by keeping the project's evolution understandable for all team members.
+The Clean Git History practice favors small commits, ensuring that each change is concise and focused. This approach aids navigation and search within the repository and facilitates efficient code reviews. Additionally, each commit should be releasable, maintaining the codebase in a deployable state consistently to minimize the risk of bugs or instability. Furthermore, commits in a shared environment are treated as immutable, highlighting the importance of stability and reliability in collaborative workflows. This strategy enhances productivity and promotes a clear and organized evolution of the project.
 
 ## Nuance
 
