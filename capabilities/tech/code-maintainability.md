@@ -43,6 +43,13 @@ With a clear distinction between pure functions and imperative code, developers 
 
 Pair Programming directly supports Code Maintainability by facilitating collaboration, real-time code review, and knowledge sharing among developers. By working in pairs, developers catch issues early, ensure code comprehensibility, and spread knowledge across the team, leading to a more maintainable codebase. Additionally, Pair Programming promotes adherence to coding standards, enhancing code consistency and readability.
 
+### [Reduce Coupling Between Abstractions](/practices/reduce-coupling-between-abstractions.md)
+
+Reducing Coupling Between Abstractions enhances Code Maintainability by creating a modular and flexible codebase.
+Independent, well-defined components minimize unintended side effects, making the code easier to understand, modify, and test.
+This modularity ensures that changes in one part of the system do not disrupt others, preserving stability and reducing cognitive load.s
+Clear abstractions and minimal dependencies support better documentation and collaboration, facilitating efficient onboarding and continuous improvement.
+
 ## Related Capabilities
 
 ### [Continuous Integration](https://dora.dev/devops-capabilities/technical/continuous-integration/)
