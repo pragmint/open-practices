@@ -94,3 +94,12 @@ Monitor the impact on system stability and adjust the plan as needed based on fe
 Use pair programming to enhance knowledge sharing about design decisions and abstractions.
 Pair less experienced team members with more experienced ones to work on reducing coupling in a specific part of the codebase, explaining the reasoning behind design choices.
 Rotate pairs regularly to maximize knowledge sharing across the team.
+
+## Supporting Capabilities
+
+### [Code Maintainability](/capabilities/tech/code-maintainability.md)
+
+Reducing Coupling Between Abstractions enhances Code Maintainability by creating a modular and flexible codebase.
+Independent, well-defined components minimize unintended side effects, making the code easier to understand, modify, and test.
+This modularity ensures that changes in one part of the system do not disrupt others, preserving stability and reducing cognitive load.s
+Clear abstractions and minimal dependencies support better documentation and collaboration, facilitating efficient onboarding and continuous improvement.
