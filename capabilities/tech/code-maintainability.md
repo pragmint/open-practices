@@ -39,7 +39,7 @@ The Follow Functional Core, Imperative Shell practice significantly supports the
 By separating business logic into a functional core and side effects into an imperative shell, this approach enhances code readability, simplifies comprehension, and reduces complexity.
 With a clear distinction between pure functions and imperative code, developers can more easily understand and modify code, leading to improved maintainability and stability of the software system.
 
-### [Run Pair Programming Sessions](/capabilities/tech/code-maintainability.md)
+### [Run Pair Programming Sessions](/practices/run-pair-programming-sessions.md)
 
 Pair Programming directly supports Code Maintainability by facilitating collaboration, real-time code review, and knowledge sharing among developers. By working in pairs, developers catch issues early, ensure code comprehensibility, and spread knowledge across the team, leading to a more maintainable codebase. Additionally, Pair Programming promotes adherence to coding standards, enhancing code consistency and readability.
 
