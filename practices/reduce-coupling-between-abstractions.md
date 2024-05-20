@@ -62,3 +62,35 @@ Are there ways to improve collaboration and onboarding through better documentat
 Have we identified the most problematic areas of coupling in our codebase?
 What small, incremental changes can we make to start reducing coupling in these areas?
 How do we ensure system stability while refactoring to reduce coupling?
+
+## Exercises
+
+### Module Dependency Analysis
+
+Analyze the dependencies within your codebase to understand the current level of coupling.
+Use a dependency analysis tool to visualize the relationships between modules and components, identify highly coupled areas, and discuss why these dependencies exist.
+This exercise helps the team understand where to focus their efforts in reducing coupling.
+
+### Interface Audit
+
+Evaluate the use and necessity of interfaces in your project.
+List all interfaces and their implementations, assess their value, and remove or consolidate those that add unnecessary complexity.
+Document the reasons for retaining or removing each interface to ensure shared understanding and effective use of interfaces in reducing coupling.
+
+### Refactoring Workshop
+
+Conduct a hands-on refactoring session focusing on reducing coupling in a specific part of the codebase.
+Select a highly coupled module, break down the refactoring task into smaller changes, and work in pairs or small groups to implement these changes.
+This practical exercise helps the team improve code modularity and maintain system stability.
+
+### Incremental Refactoring Plan
+
+Develop a plan for incremental refactoring to gradually reduce coupling.
+Identify small, incremental changes that can reduce coupling, prioritize them based on impact and effort, and implement them one at a time while testing.
+Monitor the impact on system stability and adjust the plan as needed based on feedback and observed results.
+
+### Pair Programming for Knowledge Sharing
+
+Use pair programming to enhance knowledge sharing about design decisions and abstractions.
+Pair less experienced team members with more experienced ones to work on reducing coupling in a specific part of the codebase, explaining the reasoning behind design choices.
+Rotate pairs regularly to maximize knowledge sharing across the team.
