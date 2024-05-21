@@ -1,8 +1,8 @@
 # Clean Git History
 
-The Clean Git History practice favors small commits, ensuring that each change is concise and focused, aiding navigation and search within the repository, and facilitating efficient code reviews. Additionally, each commit should be releasable, maintaining the codebase in a deployable state consistently to minimize the risk of bugs or instability.
-Furthermore, commits in a shared environment are treated as immutable to avoid conflicts while integrating changes.
-This strategy enhances productivity and promotes a clear and organized evolution of the project.
+The Clean Git History practice favors small, focused commits to aid navigation, search, and efficient code reviews. Each commit should be releasable, maintaining the codebase in a deployable state to minimize instability. In a shared environment, commits are treated as immutable to avoid conflicts, enhancing productivity. Adding context information, such as ticket or story references, to commits helps developers understand the requirements and business reasons behind changes. This practice also facilitates grouping related commits and aids in researching pull requests and technical discussions.
+
+Small commits are particularly beneficial for debugging. They make it easier to pinpoint the exact commit causing an issue and, due to their limited scope, help identify the specific line of code responsible. Large commits, while identifying the problematic commit, complicate the process of locating the precise error due to their extensive content. Thus, maintaining small, well-documented commits ensures a transparent and manageable.
 
 ## Nuance
 
