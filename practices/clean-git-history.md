@@ -31,15 +31,20 @@ Training on these tools ensures developers can manage and navigate Git history e
 
 ## Introspective Questions
 
-* Am I consistently writing descriptive, yet concise commit messages that provide context and the rationale behind changes?
-* Do my commits represent logical, self-contained changes that can be easily understood and reviewed by others?
-* Am I squashing commits judiciously to maintain clarity in the project’s history, without losing important details about the development process?
-* How do I balance the need for a clean history with the potential disruption caused by rewriting history or force pushing, especially in a collaborative environment?
-* How comfortable am I with Git's more advanced features, like interactive rebase, and am I using them appropriately to manage the project history?
-* Do I regularly review the project’s commit history to learn from it, identify patterns, or spot potential issues early?
-* Am I effectively communicating with my team about changes to the Git history, especially when actions might affect their work?
-* What steps can I take to improve my Git practices and contribute more effectively to maintaining a clean and useful project history?
+### Commit Message Clarity and Relevance:
 
+* Are our commit messages providing clear and relevant context, or do they risk becoming verbose or tangential?
+* How can we ensure that our commit messages strike the right balance between providing necessary context and avoiding unnecessary clutter?
+
+### Collaborative Commit Practices:
+
+* Do we have clear guidelines in place for committing changes in our collaborative environment?
+* Are we consistently following agreed-upon commit message formats, branch naming conventions, and merging strategies?
+
+### Educating Team Members:
+
+* Have we effectively communicated the benefits of clean Git history practices to all team members?
+* Are our team members equipped with the necessary training and tools to navigate Git history effectively?
 
 ## Exercises
 
