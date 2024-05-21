@@ -6,25 +6,28 @@ Small commits are particularly beneficial for debugging. They make it easier to 
 
 ## Nuance
 
-### Balancing Commit Granularity
+### Mindful Contextual Comments
 
-Small commits are favored to ensure concise and focused changes. However, overly granular commits can clutter the history, making navigation and review difficult.
-Finding a balance is important to maintaining an effective Git history.
+While adding context information like ticket or story references is valuable, developers should avoid verbose or irrelevant comments within commit messages.
+Clear and concise contextual information enhances understanding, but excessive or redundant comments can clutter the history and distract from the essential changes.
 
-### Meaningful Commit Messages
+### Striking a Balance in Commit Frequency
 
-Clear and descriptive commit messages are essential to understand the purpose of each change.
-Verbosity or inconsistency can obscure the intent of commits, reducing readability and comprehension.
+While frequent commits are generally beneficial, excessively frequent commits can disrupt workflow and create unnecessary noise in the commit history.
+Developers should aim for a balance, committing changes at logical breakpoints or when significant functionality is completed, rather than after every minor edit.
 
-### Balancing Code Review Efficiency
+### Collaborative Commit Practices
 
-While small commits aid in efficient code reviews, breaking down changes excessively can overwhelm reviewers with trivial details.
-Balancing granularity ensures productive reviews without sacrificing the benefits of concise commits.
+In collaborative environments, it's crucial to establish clear guidelines for committing changes to avoid conflicts and maintain consistency.
+This includes agreeing on commit message formats, branch naming conventions, and the use of rebasing or merging strategies.
+Overlooking these practices can lead to confusion and inefficiencies in the development process.
 
-### Continuous Integration and Deployment
+### Educating Team Members
 
-Requiring each commit to be releasable ensures a deployable codebase, but rigid adherence may slow development.
-Implementing automated testing and integration streamlines feedback on deployability without impeding progress.
+Adopting clean Git history practices requires buy-in from all team members and ongoing education to ensure adherence.
+It's important to communicate the benefits of small, focused commits and provide training on effective commit strategies to maintain consistency across the development team.
+This education should include familiarizing developers with tools like git log --grep="ticket-number" to group and find commits related to specific tickets, and git bisect to identify the commit that introduced a bug.
+Training on these tools ensures developers can manage and navigate Git history efficiently, creating a culture of best practices and continual improvement.
 
 ## Introspective Questions
 
