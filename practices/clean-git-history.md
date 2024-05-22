@@ -93,20 +93,6 @@ Details strategies for properly amending Git history issues, such as errant comm
 
 ## Supporting Capabilities
 
-### [Continuous Integration](https://dora.dev/devops-capabilities/technical/continuous-integration/)
-A clean Git history enhances continuous integration by simplifying the integration of changes, facilitating smoother builds, and ensuring that automated tests are more effective and reliable.
-
-### [Continuous Delivery](https://dora.dev/devops-capabilities/technical/continuous-delivery/)
-Maintaining a logical and clear commit history improves continuous delivery practices by enabling faster and more reliable release cycles, with better traceability and easier rollback options.
-
-### [Deployment Automation](https://dora.dev/devops-capabilities/technical/deployment-automation/)
-Deployment automation relies on a consistent and well-documented change history to automate the deployment process efficiently, minimizing manual errors and intervention.
-
 ### [Version Control](/capabilities/tech/version-control.md)
+
 A clean Git history is fundamental to effective version control, enabling precise tracking, easier code reviews, and better management of project codebases.
-
-### [Team Experimentation](https://dora.dev/devops-capabilities/process/team-experimentation/)
-Well-maintained Git history facilitates team experimentation by simplifying the process of branching, testing new ideas, and integrating experimental changes without conflict.
-
-### [Documentation Quality](https://dora.dev/devops-capabilities/process/documentation-quality/)
-Clear commit messages and organized history contribute to high-quality documentation of development processes, enhancing the overall documentation and understanding of project evolution.
