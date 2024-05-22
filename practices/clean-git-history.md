@@ -49,35 +49,32 @@ Training on these tools ensures developers can manage and navigate Git history e
 ## Exercises
 
 ### Commit Message Workshop
-- *Exercise*: Gather a few recent commit messages from your project. Rewrite them to be more descriptive, yet concise, focusing on the "why" behind the changes.
 
-### Logical Commit Grouping
-- *Exercise*: Take a complex feature or bug fix you recently worked on, and break down the work into logical, self-contained commits. Try to organize your work retrospectively into a series of commits that each make sense on their own.
+Organize a workshop where team members review and rewrite a series of commit messages from past projects.
+Focus on adding relevant context, ticket references, and ensuring clarity.
+Compare the original and improved messages to highlight the importance of clear commit messages, discussing common pitfalls and best practices.
 
-### Squash and Rebase Challenge
-- *Exercise*: Find a branch with multiple small commits. Use interactive rebase (`git rebase -i`) to squash related commits and reorder them if necessary to tell a coherent story of your changes.
+### Commit Frequency Audit
 
-### Force Push Simulation
-- *Exercise*: On a personal or test repository, practice using `git push --force-with-lease` after rebasing or altering history. Note the safeguards `--force-with-lease` provides compared to a straight `git push --force`.
+Conduct an audit of recent commits to assess their frequency and relevance.
+Identify instances of both too frequent and too sparse commits.
+Based on this analysis, develop guidelines for when to commit changes, aiming for logical breakpoints or completion of significant functionality.
+Discuss as a team and adjust practices accordingly.
 
-### History Review Session
-- *Exercise*: Regularly (e.g., once a month), review the commit history of your main branch. Identify any patterns, good practices, or areas for improvement. Share your findings with your team.
+### Collaborative Commit Exercise
 
-### Advanced Git Features Exploration
-- *Exercise*: Pick an advanced Git feature you're not familiar with, such as interactive rebase, cherry-picking, or bisect. Use a test repository to explore this feature, focusing on how it might help you maintain a cleaner history.
+Simulate a collaborative coding session where multiple developers work on different parts of the same project.
+Implement clear guidelines for commit messages, branch naming conventions, and merging strategies. After the session, review the commit history together to identify any conflicts or inconsistencies and discuss how to improve collaborative practices.
 
-### Team Git Practices Review
-- *Exercise*: Organize a meeting with your team to discuss your current Git practices. Identify what's working well and what could be improved. Make a plan to address any identified issues.
+### Git Bisect Debugging
 
-### Communicating History Changes
-- *Exercise*: Next time you need to rewrite history in a way that affects others (e.g., before a force push), draft a communication to your team explaining what you're doing, why, and how it impacts them. Review the clarity and completeness of your communication.
+Introduce the git bisect tool and demonstrate its usage in identifying problematic commits.
+Set up a mock scenario where a bug is introduced in the codebase, and have team members use git bisect to pinpoint the exact commit causing the issue.
 
-### Git Tools and Extensions Trial
-- *Exercise*: Research and try out a new Git tool or extension designed to help maintain a clean history, such as a commit linter or a graphical history viewer. Evaluate its effectiveness for your workflow.
+### Git Log Exploration
 
-### Reflective Git Practice Diary
-- *Exercise*: Keep a diary for one month where you note down your Git practices, particularly focusing on how you maintain your project's history. Reflect weekly on what you've learned and how you can improve.
-
+Teach team members how to use git log with various options (--grep etc.) to search for specific commits related to tickets or features.
+This exercise will improve their ability to navigate and utilize Git history effectively.
 
 ## Resources
 
