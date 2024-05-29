@@ -40,8 +40,9 @@ Focus on identifying and isolating specific areas that need improvement, and imp
 Prioritize high-impact areas to maximize the benefits of refactoring efforts.
 Gradually integrate changes to avoid overwhelming the system and facilitate smooth transitions, ensuring the codebase improves and remains stable over time.
 
-### Team Coordination is Essential
+### Trunk-based Development
 
-Refactoring should not be done in isolation.
-Coordination and communication within the development team are crucial to ensure that everyone is aware of the changes being made and understands the rationale behind them.
-This helps prevent conflicts.
+Trunk-based development, with its focus on continuous integration, is highly conducive to continuous refactoring.
+By committing changes directly to the mainline, developers can refactor incrementally, ensuring ongoing improvement.
+This approach promotes a culture of collaboration, as changes are immediately visible to the entire team.
+The fast feedback loop allows for quick identification and resolution of any issues.
