@@ -2,15 +2,8 @@
 
 Refactoring is a disciplined technique in software development that involves restructuring existing code without changing its external behavior.
 The goal is to improve code readability, reduce complexity, and enhance maintainability.
-Refactoring should be done continuously and in small increments to minimize errors and ease tracking.
-Changes should be made through a series of small transformations, applied from the least to the most disruptive.
-This practice maintain the code's capacity to change and adapt effectively over time.
-
-<!--
-    * Do it in small bites
-    * Do it constantly
-    * Do the simplest possible thing (TPP)
- -->
+Refactoring should be done continuously and in small increments to minimize errors and avoid being overwhelmed by large-scale changes or causing conflicts with team members who might be working on the same parts of the code.
+Changes should be made through a series of small transformations, applied from the least to the most disruptive. This practice maintains the code's capacity to change and adapt effectively over time.
 
 ## Nuance
 
@@ -28,8 +21,9 @@ Without adequate testing, it becomes difficult to guarantee that the code’s be
 
 ### The Risks of Too Much in One Go
 
-Attempting too much in a single refactor can increase complexity, introduce errors, and hinder progress.
-Breaking tasks into smaller, manageable units is key to maintaining clarity, reducing errors, and enhancing the codebase incrementally.
+Attempting too much in a single refactor can increase complexity, introduce errors, and slow progress.
+It's important to break tasks into smaller, manageable units to maintain clarity, reduce errors, and enhance the codebase incrementally.
+Doing too much at once can be overwhelming and create conflicts with other team members.
 
 ### Prolonged Gaps Between Refactors
 
