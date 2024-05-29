@@ -28,15 +28,17 @@ Doing too much at once can be overwhelming and create conflicts with other team 
 ### Prolonged Gaps Between Refactors
 
 Allowing too much time to elapse between refactoring sessions can lead to numerous challenges.
-Codebases left unattended for extended periods often accumulate technical debt, making subsequent refactors more daunting and time-consuming.
+Code-bases left unattended for extended periods often accumulate technical debt, making subsequent refactors more daunting and time-consuming.
 To mitigate this, it's important to adopt a strategy of frequent, incremental refactoring rather than waiting for issues to pile up.
 By addressing small improvements continuously, developers can maintain code quality, reduce the accumulation of technical debt, and ensure the codebase remains easy to work with over time.
 
 ### Refactoring Legacy Code Requires Careful Planning
 
-Refactoring legacy code can be particularly challenging due to its complexity and potential lack of tests.
-In such cases, it's essential to approach refactoring incrementally and with a clear plan.
-Prioritize areas that will benefit most from refactoring and ensure thorough testing is in place before making significant changes.
+Refactoring legacy code requires careful planning due to its complexity and potential lack of tests.
+An incremental approach is essential, making small, manageable changes to avoid introducing new errors.
+Focus on identifying and isolating specific areas that need improvement, and implement testing around these areas to ensure behavior remains consistent.
+Prioritize high-impact areas to maximize the benefits of refactoring efforts.
+Gradually integrate changes to avoid overwhelming the system and facilitate smooth transitions, ensuring the codebase improves and remains stable over time.
 
 ### Team Coordination is Essential
 
