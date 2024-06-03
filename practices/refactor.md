@@ -40,9 +40,29 @@ Focus on identifying and isolating specific areas that need improvement, and imp
 Prioritize high-impact areas to maximize the benefits of refactoring efforts.
 Gradually integrate changes to avoid overwhelming the system and facilitate smooth transitions, ensuring the codebase improves and remains stable over time.
 
+### Monitoring and Roll-back
+
+Monitoring and roll-back infrastructure is important in managing regressions during refactoring.
+Monitoring tools provide real-time feedback on application performance and behavior, enabling quick detection of issues introduced by refactoring.
+Combined with a robust roll-back system, teams can revert changes if regressions occur, minimizing disruption to users.
+This dual approach ensures the application remains stable and consistent, maintaining the integrity of the codebase while allowing continuous improvement.
+
 ### Trunk-based Development
 
 Trunk-based development, with its focus on continuous integration, is highly conducive to continuous refactoring.
 By committing changes directly to the mainline, developers can refactor incrementally, ensuring ongoing improvement.
 This approach promotes a culture of collaboration, as changes are immediately visible to the entire team.
 The fast feedback loop allows for quick identification and resolution of any issues.
+
+## Introspective Questions
+
+### Understanding Refactoring
+
+How frequently does your team engage in refactoring activities?
+Are team members clear on the distinction between refactoring and adding new features/functionality?
+How do team members understand the importance of refactoring in maintaining code quality?
+
+### Testing and Refactoring
+
+Have there been instances where inadequate testing led to unexpected behavior post-refactoring?
+Are there any gaps in testing coverage that could hinder refactoring initiatives?
