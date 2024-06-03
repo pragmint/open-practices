@@ -114,3 +114,9 @@ Start by identifying high-impact areas that require improvement.
 Develop a plan to implement small, incremental changes and establish a set of tests to ensure behavior remains consistent.
 Execute the refactoring plan, closely monitoring for any issues.
 This exercise will highlight the challenges and strategies involved in refactoring legacy code and emphasize the importance of careful planning and incremental progress.
+
+## Supporting Capabilities
+
+### [Code Maintainability](/capabilities/tech/code-maintainability.md)
+
+Refactoring, as a practice, significantly supports the Code Maintainability Capability by systematically improving code structure, readability, and quality. Through incremental changes and adherence to coding standards, it addresses complexity and technical debt, ensuring the code remains clean, modular, and comprehensible. By integrating refactoring into regular development cycles, teams establish a foundation of maintainable code, enabling efficient delivery, stability, and ongoing innovation.
