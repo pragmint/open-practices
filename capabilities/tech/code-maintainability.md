@@ -54,6 +54,12 @@ Clear abstractions and minimal dependencies support better documentation and col
 
 Refactoring, as a practice, significantly supports the Code Maintainability Capability by systematically improving code structure, readability, and quality. Through incremental changes and adherence to coding standards, it addresses complexity and technical debt, ensuring the code remains clean, modular, and comprehensible. By integrating refactoring into regular development cycles, teams establish a foundation of maintainable code, enabling efficient delivery, stability, and ongoing innovation.
 
+### [Work in Small Increments](/practices/work-in-small-increments.md)
+
+Working in small increments enables teams to improve Code Maintainability without getting overwhelmed.
+By breaking down tasks into manageable, frequent updates, teams can make clear, incremental improvements to the codebase.
+This approach reduces complexity, facilitating easier tracking, review, and integration.
+
 ## Related Capabilities
 
 ### [Version Control](/capabilities/tech/version-control.md)

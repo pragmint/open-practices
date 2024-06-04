@@ -1,6 +1,8 @@
 # Working in Small Increments
 
-The practice of working in small increments involves making frequent, manageable changes to the codebase, facilitating easier tracking, quicker issue detection, and straightforward integration. It promotes continuous improvement, minimizes risks from large updates, and enhances collaboration. By breaking tasks into smaller pieces, development teams can ensure higher quality, consistent progress, and efficient adaptability.
+The practice of working in small increments involves making frequent, manageable changes to the codebase, facilitating easier tracking, quicker issue detection, and straightforward integration.
+It promotes continuous improvement, minimizes risks from large updates, and enhances collaboration.
+By breaking tasks into smaller pieces, development teams can ensure higher quality, consistent progress, and efficient adaptability.
 
 ## Nuance
 
@@ -82,29 +84,8 @@ An approach to coding that urges developers to continually improve and clean up 
 
 ## Supporting Capabilities
 
-### [Continuous Integration](https://dora.dev/devops-capabilities/technical/continuous-integration/)
-Working in small increments is foundational for effective continuous integration, allowing teams to integrate changes frequently, detect errors early, and maintain high quality and velocity.
+### [Code Maintainability](/capabilities/tech/code-maintainability.md)
 
-### [Database Change Management](https://dora.dev/devops-capabilities/technical/database-change-management/)
-Small, incremental changes facilitate smoother database updates and migrations, reducing the risk of disruptive errors and ensuring that database evolution aligns with application development.
-
-### [Deployment Automation](https://dora.dev/devops-capabilities/technical/deployment-automation/)
-The practice of working in small increments complements deployment automation by ensuring that changes are small enough to be deployed rapidly and reliably, enabling a continuous delivery pipeline.
-
-### [Test Automation](https://dora.dev/devops-capabilities/technical/test-automation/)
-Small, frequent commits make it easier to maintain a comprehensive suite of automated tests, as each change can be tested in isolation, improving test coverage and confidence in the codebase.
-
-### [Trunk-Based Development](https://dora.dev/devops-capabilities/technical/trunk-based-development/)
-Trunk-based development relies on developers working in small increments and merging their changes into the main branch frequently, minimizing divergence and promoting a more cohesive and stable codebase.
-
-### [Streamlining Change Approval](https://dora.dev/devops-capabilities/process/streamlining-change-approval/)
-By breaking work into smaller increments, teams can streamline the change approval process, as smaller changes are easier to review, understand, and validate, leading to quicker and more efficient approval cycles.
-
-### [Working in Small Batches](https://dora.dev/devops-capabilities/process/working-in-small-batches/)
-This capability is essentially what working in small increments is about—managing work in small batches to improve flow, reduce cycle times, and enhance feedback loops for continuous improvement.
-
-### [Learning Culture](https://dora.dev/devops-capabilities/cultural/learning-culture/)
-The practice of working in small increments fosters a learning culture by encouraging experimentation and rapid feedback on small changes, which supports continuous learning and adaptation within the team.
-
-### [Generative Organizational Culture](https://dora.dev/devops-capabilities/cultural/generative-organizational-culture/)
-Working in small increments can contribute to a generative culture by promoting transparency, collaboration, and high trust, as teams work closely together, share knowledge freely, and support each other in continuous improvement efforts.
+Working in small increments enables teams to improve Code Maintainability without getting overwhelmed.
+By breaking down tasks into manageable, frequent updates, teams can make clear, incremental improvements to the codebase.
+This approach reduces complexity, facilitating easier tracking, review, and integration.
