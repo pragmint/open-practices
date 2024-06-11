@@ -6,25 +6,29 @@
 
 <!-- TODO: insert a list of [linked practices](/practices) that support this capability. For each item, give a brief explanation of how the linked practice supports / relates to this capability. Also categorize each linked practice as one of the following: Enables, Requires, Improves -->
 
-* Automate Test Coverage Checks
-* Creating and Managing Ephemeral Environments 
+* Automate Test Coverage Checks (Non blocking)
+* Creating and Managing Ephemeral Environments
+    * Independent of truck-based development
 * Implement Continuous Integration Pipeline 
+    * Running tests
 * Implement TDD
-* Use Test Doubles
-* Write Characterization testing (For legacy code)
-* Write Ephemeral model-based tests
-* Write Performance Tests
-* Write Fast Tests
-* Promote a Testing Culture
-* Do manual exploratory testing
-* Do usability testing
-* Write Acceptance Tests
-* Include Unit Tests for all new Code in the Definition of Done
-* Use the page object Pattern
-* Implement Funcional Core and Imperative Shell
-* Follow the Tests Pyramid
+    * Red, green and Refactor
+    * Transformation priority premise
+    * Test Doubles Nuances
+    * F. R. I. S. T.
+* Build a consistent testing strategy
+    * How to choose the proper type of test depending of the situation
+    * Follow the Tests Pyramid
+    * Write Ephemeral model-based tests
+    * Write Performance Tests
+    * Do manual exploratory testing
+    * Do usability testing
+    * Write Acceptance Tests
+    * Include Unit Tests for all new Code in the Definition of Done
+    * Delete all expensive tests you can
+* Incrementally Transformation
+* Implement Functional Core and Imperative Shell
 * Conduct Code Reviews
-* Delete all expensive tests you can
 
 ## Related Capabilities
 
