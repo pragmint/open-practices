@@ -1,8 +1,8 @@
 # Clean Git History
 
-The Clean Git History practice favors small, focused commits to aid navigation, search, and efficient code reviews. Each commit should be releasable, maintaining the codebase in a deployable state to minimize instability. In a shared environment, commits are treated as immutable to avoid conflicts, enhancing productivity. Adding context information, such as ticket or story references, to commits helps developers understand the requirements and business reasons behind changes. This practice also facilitates grouping related commits and aids in researching pull requests and technical discussions.
+The Clean Git History practice favors small, focused commits to aid navigation, search, and efficient code reviews. Each commit should be releasable, maintaining the codebase in a deployable state to minimize instability. On shared branches, commits are treated as immutable to avoid nasty conflicts. Adding context information, such as ticket or story references, to commits helps developers understand the requirements and business reasons behind changes.
 
-Small commits are particularly beneficial for debugging. They make it easier to pinpoint the exact commit causing an issue and, due to their limited scope, help identify the specific line of code responsible. Large commits, while identifying the problematic commit, complicate the process of locating the precise error due to their extensive content. Thus, maintaining small, well-documented commits ensures a transparent and manageable git history.
+Small commits are particularly beneficial for debugging. They make it easier to pinpoint the exact commit causing an issue and, due to their limited scope, help identify the specific line of code responsible. Large commits complicate the process of locating the precise error due to their size. Thus, maintaining small, well-documented commits ensures a transparent and manageable git history.
 
 ## Nuance
 
@@ -13,8 +13,9 @@ Clear and concise contextual information enhances understanding, but excessive o
 
 ### Striking a Balance in Commit Frequency
 
-While frequent commits are generally beneficial, excessively frequent commits can disrupt workflow and create unnecessary noise in the commit history.
-Developers should aim for a balance, committing changes at logical breakpoints or when significant functionality is completed, rather than after every minor edit.
+Developers should aim for a balance, ensuring commits are neither too sparse (to capture meaningful progress) nor too frequent (to avoid cluttering the commit history).
+If developers wait to commit until their entire feature is complete (assuming it's not a minor change), then they're likely not committing frequently enough.
+When following the red/green/refactor flow from the [test-driven design](/practices/implement-test-driven-design.md) practice, then it's prudent to aim to commit every couple of red/green/refactor cycles.
 
 ### Collaborative Commit Practices
 
@@ -26,33 +27,31 @@ Overlooking these practices can lead to confusion and inefficiencies in the deve
 
 Adopting clean Git history practices requires buy-in from all team members and ongoing education to ensure adherence.
 It's important to communicate the benefits of small, focused commits and provide training on effective commit strategies to maintain consistency across the development team.
-This education should include familiarizing developers with tools like git log --grep="ticket-number" to group and find commits related to specific tickets, and git bisect to identify the commit that introduced a bug.
+This education should include familiarizing developers with tools like `git log --grep="ticket-number"` to group and find commits related to specific tickets, and `git bisect` to identify the commit that introduced a bug.
 Training on these tools ensures developers can manage and navigate Git history efficiently, creating a culture of best practices and continual improvement.
+
+### Use Automation
+
+While finding the right commit size should always be a judgement call, it may make sense to introduce some automation to ensure commit messages comply with agreed upon standards. [Git Hooks](https://git-scm.com/book/en/v2/Customizing-Git-An-Example-Git-Enforced-Policy#_an_example_git_enforced_policy) are one way to automate that enforcement.
 
 ## Introspective Questions
 
-### Commit Message Clarity and Relevance:
+### Commit Message Clarity and Relevance
 
 * Are our commit messages providing clear and relevant context, or do they risk becoming verbose or tangential?
 * How can we ensure that our commit messages strike the right balance between providing necessary context and avoiding unnecessary clutter?
 
-### Collaborative Commit Practices:
+### Collaborative Commit Practices
 
 * Do we have clear guidelines in place for committing changes in our collaborative environment?
 * Are we consistently following agreed-upon commit message formats, branch naming conventions, and merging strategies?
 
-### Educating Team Members:
+### Educating Team Members
 
 * Have we effectively communicated the benefits of clean Git history practices to all team members?
 * Are our team members equipped with the necessary training and tools to navigate Git history effectively?
 
 ## Exercises
-
-### Commit Message Workshop
-
-Organize a workshop where team members review and rewrite a series of commit messages from past projects.
-Focus on adding relevant context, ticket references, and ensuring clarity.
-Compare the original and improved messages to highlight the importance of clear commit messages, discussing common pitfalls and best practices.
 
 ### Commit Frequency Audit
 
@@ -61,20 +60,10 @@ Identify instances of both too frequent and too sparse commits.
 Based on this analysis, develop guidelines for when to commit changes, aiming for logical breakpoints or completion of significant functionality.
 Discuss as a team and adjust practices accordingly.
 
-### Collaborative Commit Exercise
-
-Simulate a collaborative coding session where multiple developers work on different parts of the same project.
-Implement clear guidelines for commit messages, branch naming conventions, and merging strategies. After the session, review the commit history together to identify any conflicts or inconsistencies and discuss how to improve collaborative practices.
-
 ### Git Bisect Debugging
 
 Introduce the git bisect tool and demonstrate its usage in identifying problematic commits.
 Set up a mock scenario where a bug is introduced in the codebase, and have team members use git bisect to pinpoint the exact commit causing the issue.
-
-### Git Log Exploration
-
-Teach team members how to use git log with various options (--grep etc.) to search for specific commits related to tickets or features.
-This exercise will improve their ability to navigate and utilize Git history effectively.
 
 ## Resources
 
