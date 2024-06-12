@@ -1,5 +1,18 @@
 # Perform Static Code Analysis
 
+Performing static code analysis involves using automated tools to review and scan the codebase for potential issues, ensuring adherence to quality standards and best practices.
+These tools help detect issues early in development, integrating with version control systems, IDEs, and CI/CD pipelines to enhance productivity.
+Static code analysis is valuable for spotting code smells, basic security vulnerabilities, performance bottlenecks, and analyzing dependencies for better modularity.
+
+## Nuance
+
+### Common Misconceptions about Static Code Analysis
+
+A common misconception is that static code analysis can catch all possible issues in a codebase.
+While these tools are powerful for identifying code smells, basic security vulnerabilities, and performance bottlenecks, they are not foolproof.
+They may miss more nuanced or context-specific problems, and sometimes flag good code as problematic.
+Developers should not solely rely on these tools but use them as part of a broader quality assurance strategy.
+
 ## Key Points
 
 ### Automated Code Review
