@@ -53,6 +53,28 @@ How frequently do we encounter issues that static code analysis tools miss, and 
 How effectively are we using static code analysis tools to assess and improve module cohesion and dependency management?
 Are there areas in our codebase with poor modularity that these tools have helped us identify and improve?
 
+## Exercises
+
+### Tool Selection and Initial Setup
+
+Identify and set up a static code analysis tool that fits your team's needs.
+Research various static code analysis tools, such as SonarQube or CodeClimate, and compare their features.
+Select one or two tools that seem promising and run them on a small project or segment of your codebase.
+Integrate the chosen tool with your version control system and IDE.
+Review the initial set of issues identified to understand the tool's strengths and weaknesses, and determine which tool aligns best with your workflow.
+
+### Integration into CI/CD Pipeline
+
+Integrate static code analysis into your CI/CD pipeline.
+Configure the tool to automatically run on every code commit or pull request, providing immediate feedback on code changes.
+Set up automated reports for detected issues to be shared with the development team, facilitating quick issue resolution.
+
+### Dependency and Modularity Analysis
+
+Use static code analysis tools to evaluate and improve module dependencies.
+Run a dependency analysis on your current codebase and document areas with high coupling and poor cohesion.
+Based on the analysis, refactor parts of the codebase to improve modularity.
+Run the dependency analysis again to measure improvements.
 
 ## Key Points
 
