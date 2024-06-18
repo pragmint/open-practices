@@ -83,3 +83,20 @@ Run the dependency analysis again to measure improvements.
 This resource provides insights into the importance of automating coding standards to maintain code quality and consistency.
 It highlights how automated tools can help enforce coding conventions, making the codebase more manageable and the development process more efficient.
 
+### [System architecture as network data](https://vimeo.com/241241654)
+
+The speaker emphasizes the importance of loose coupling and high cohesion in software architecture to reduce dependencies between modules, thereby minimizing meetings and coordination overhead.
+They demonstrate how to use tools like Line Topology, Cytoscape, and Jupyter Notebooks to analyze and visualize code dependencies, enabling automated detection of modularity and cohesion in the system.
+By using network science and computational techniques, the speaker argues for the value of objective metrics in assessing and improving code modularity, drawing parallels to social networks and using examples like Game of Thrones character interactions to illustrate their points.
+
+### [Design structure matrix](https://en.wikipedia.org/wiki/Design_structure_matrix)
+
+The Design Structure Matrix (DSM) is a visual tool used in systems engineering and project management to represent the interactions and dependencies within complex systems or processes in a compact, square matrix format.
+Originating in the 1960s, DSMs gained popularity in the 1990s across various industries and government agencies.
+They can model both static systems, where elements coexist simultaneously, and time-based systems, which reflect processes over time.
+DSMs are advantageous for highlighting patterns, managing changes, and optimizing system structures.
+They utilize algorithms for reordering elements to minimize feedback loops and can be extended to multiple domain matrices to visualize interactions across different domains, enhancing information flow and office work optimization.
+
+### [Two Wrongs Can Make a Right (and Are Difficult to Fix)](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_86)
+
+The article "Two Wrongs Can Make a Right (and Are Difficult to Fix)" by Allan Kelly highlights the complex nature of software bugs, particularly when two defects interact to create a single visible fault. This interplay can lead developers to repeatedly attempt fixes that fail because they only address part of the problem. Such scenarios demonstrate the importance of comprehensive error detection and resolution strategies. This concept supports the Perform Static Code Analysis Practice by underscoring the limitations of relying solely on automated tools to catch all issues. While static code analysis can identify many potential problems, it may miss nuanced or context-specific defects, especially those involving multiple interacting errors.
