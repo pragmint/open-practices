@@ -100,3 +100,8 @@ They utilize algorithms for reordering elements to minimize feedback loops and c
 ### [Two Wrongs Can Make a Right (and Are Difficult to Fix)](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_86)
 
 The article "Two Wrongs Can Make a Right (and Are Difficult to Fix)" by Allan Kelly highlights the complex nature of software bugs, particularly when two defects interact to create a single visible fault. This interplay can lead developers to repeatedly attempt fixes that fail because they only address part of the problem. Such scenarios demonstrate the importance of comprehensive error detection and resolution strategies. This concept supports the Perform Static Code Analysis Practice by underscoring the limitations of relying solely on automated tools to catch all issues. While static code analysis can identify many potential problems, it may miss nuanced or context-specific defects, especially those involving multiple interacting errors.
+
+### [The power of feedback loops](https://lucamezzalira.medium.com/the-power-of-feedback-loops-f8e27e8ac25f)
+
+Luca Mezzalira's article 'The Power of Feedback Loops' underscores how iterative feedback enhances processes, resonating with the practice of Perform Static Code Analysis.
+Like feedback loops in development cycles, static code analysis tools automate early detection of issues such as code smells and security vulnerabilities, aligning with Mezzalira's advocacy for leveraging feedback to maintain high standards while emphasizing the need for developer judgment and human oversight in software quality assurance.
