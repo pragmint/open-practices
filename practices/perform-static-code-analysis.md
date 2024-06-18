@@ -76,3 +76,10 @@ Run a dependency analysis on your current codebase and document areas with high 
 Based on the analysis, refactor parts of the codebase to improve modularity.
 Run the dependency analysis again to measure improvements.
 
+## Resources
+
+### [Automate Your Coding Standard](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_04)
+
+This resource provides insights into the importance of automating coding standards to maintain code quality and consistency.
+It highlights how automated tools can help enforce coding conventions, making the codebase more manageable and the development process more efficient.
+
