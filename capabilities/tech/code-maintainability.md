@@ -60,6 +60,12 @@ Working in small increments enables teams to improve Code Maintainability withou
 By breaking down tasks into manageable, frequent updates, teams can make clear, incremental improvements to the codebase.
 This approach reduces complexity, facilitating easier tracking, review, and integration.
 
+### [Perform Static Code Analysis](/practices/perform-static-code-analysis.md)
+
+The Perform Static Code Analysis practice robustly supports the Code Maintainability Dora Capability by providing automated tools that enhance code quality, consistency, and readability.
+These tools meticulously scan the codebase to identify potential issues such as code smells, security vulnerabilities, and performance bottlenecks early in the development process.
+By integrating static code analysis into version control systems, IDEs, and CI/CD pipelines, teams can receive immediate feedback on code changes, ensuring adherence to coding standards and best practices. This proactive approach reduces the cognitive load on developers, allowing them to focus on more complex tasks while maintaining a clean, modular, and easily comprehensible codebase.
+
 ## Related Capabilities
 
 ### [Version Control](/capabilities/tech/version-control.md)

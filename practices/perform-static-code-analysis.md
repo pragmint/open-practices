@@ -105,3 +105,11 @@ The article "Two Wrongs Can Make a Right (and Are Difficult to Fix)" by Allan Ke
 
 Luca Mezzalira's article 'The Power of Feedback Loops' underscores how iterative feedback enhances processes, resonating with the practice of Perform Static Code Analysis.
 Like feedback loops in development cycles, static code analysis tools automate early detection of issues such as code smells and security vulnerabilities, aligning with Mezzalira's advocacy for leveraging feedback to maintain high standards while emphasizing the need for developer judgment and human oversight in software quality assurance.
+
+## Supporting Capabilities
+
+### [Code Maintainability](/capabilities/tech/code-maintainability.md)
+
+The Perform Static Code Analysis practice robustly supports the Code Maintainability Dora Capability by providing automated tools that enhance code quality, consistency, and readability.
+These tools meticulously scan the codebase to identify potential issues such as code smells, security vulnerabilities, and performance bottlenecks early in the development process.
+By integrating static code analysis into version control systems, IDEs, and CI/CD pipelines, teams can receive immediate feedback on code changes, ensuring adherence to coding standards and best practices. This proactive approach reduces the cognitive load on developers, allowing them to focus on more complex tasks while maintaining a clean, modular, and easily comprehensible codebase.
