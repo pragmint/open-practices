@@ -1,4 +1,4 @@
-# Creating and Managing Ephemeral Environments
+# Create and Manage Ephemeral Environments
 
 ## Key Points
 
