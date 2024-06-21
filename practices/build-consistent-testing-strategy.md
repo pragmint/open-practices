@@ -1,5 +1,12 @@
 # Build a Consistent Testing Strategy
 
+Building a consistent testing strategy involves matching your approach to the specific needs of your project and considering the influence of your technology stack.
+Prioritize testing critical and complex code areas, and select appropriate types of tests, such as unit, integration, and end-to-end tests.
+Balance the proportion of each test type, favoring more unit tests and fewer high-cost tests like end-to-end tests.
+Ensure comprehensive test coverage for new and modified code by including tests in the definition of done and verifying them during code reviews.
+Manage expensive tests by regularly reviewing, deleting, and replacing them with more efficient alternatives.
+Integrate tests into the continuous integration pipeline and spread knowledge of the testing strategy and best practices among the development team.
+
 ## Key Points
 
 * Choose a Testing Strategy that Matches Your Project Needs: Tailor your testing strategy to fit the specific requirements and constraints of your project.
