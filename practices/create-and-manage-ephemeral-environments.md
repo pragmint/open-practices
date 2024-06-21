@@ -3,6 +3,7 @@
 ## Key Points
 
 * Explanation of the is an Ephemeral Environment
+* Ephemeral Environment should be similar to production
 * Reduce conflict in the development process
 * Ease troubleshooting and debugging
 * Reproducibility Reduce "it works in my machine" issue
@@ -10,3 +11,4 @@
 * Easily scale the number of environments based on current testing needs.
 * Could be automated using IaC
 * CI/CD, create and destroy environments as part of the process
+* Run production traffic against ephemeral environment to compare performance and reliability.
