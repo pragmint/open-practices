@@ -10,3 +10,9 @@
 * Transformation priority premise
 * Test Doubles Nuances
 * F. R. I. S. T.
+* Test Pyramid
+* TDD is mostly unit tests
+
+## Resources
+
+https://vimeo.com/29823879
