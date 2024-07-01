@@ -9,7 +9,10 @@ This approach software quality and stability and also reduces team burnout and d
 
 ## Supporting Practices
 
-<!-- TODO: insert a list of [linked practices](/practices) that support this capability. For each item, give a brief explanation of how the linked practice supports / relates to this capability. Also categorize each linked practice as one of the following: Enables, Requires, Improves -->
+### [Build a Consistent Testing Strategy](/practices/build-consistent-testing-strategy.md)
+
+Building a Consistent Testing Strategy supports the Test Automation capability by providing a structured approach to testing that aligns with project needs.
+It emphasizes balanced test coverage, integrates tests into CI pipelines for fast feedback, and combines automated and manual testing to ensure comprehensive quality and stability of software delivery.
 
 * Automate Test Coverage Checks (Non blocking)
 * Creating and Managing Ephemeral Environments

@@ -120,6 +120,13 @@ Organize workshops or knowledge-sharing sessions where team members can learn ab
 Encourage the team to share their experiences and tips.
 Track how this knowledge transfer impacts the quality and consistency of your testing efforts.
 
+## Supporting Capabilities
+
+### [Test Automation](/capabilities/tech/test-automation.md)
+
+Building a Consistent Testing Strategy supports the Test Automation capability by providing a structured approach to testing that aligns with project needs.
+It emphasizes balanced test coverage, integrates tests into CI pipelines for fast feedback, and combines automated and manual testing to ensure comprehensive quality and stability of software delivery.
+
 ## Key Points
 
 * Choose a Testing Strategy that Matches Your Project Needs: Tailor your testing strategy to fit the specific requirements and constraints of your project.
