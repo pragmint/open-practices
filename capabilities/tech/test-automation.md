@@ -1,6 +1,11 @@
 # [Test Automation](https://dora.dev/devops-capabilities/technical/test-automation/)
 
-<!-- TODO: insert summary of capability -->
+Test automation is essential for building quality into software by providing fast feedback throughout the software delivery lifecycle.
+It addresses the inefficiencies of manual testing, such as time consumption, unreliability, and delayed feedback.
+Automated testing should be integrated continuously, involving various types of tests, such as unit and acceptance tests, to ensure functionality and prevent regression errors.
+
+Effective test automation requires collaboration between testers and developers, continuous improvement of test suites, and maintaining a balanced ratio of unit and acceptance tests.
+This approach software quality and stability and also reduces team burnout and deployment challenges.
 
 ## Supporting Practices
 
