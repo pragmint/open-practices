@@ -71,9 +71,37 @@ High code coverage is often seen as a metric of success in TDD, but it can be mi
 * How do you balance striving for high code coverage with writing valuable and robust tests?
 
 ### Continuous Improvement
+
 * How frequently do you review and reflect on your TDD practices to identify areas for improvement?
 * What steps do you take to ensure that your TDD approach evolves with your team's needs and project requirements?
 * How do you encourage and facilitate a culture of continuous improvement in your TDD practices within your team?
+
+## Exercises
+
+### Start with a Simple Project
+
+Select a small, non-critical project or a module within your existing codebase to practice TDD. Begin by writing tests for new features or small changes.
+Follow the Red, Green, Refactor cycle diligently, and observe how this impacts your development process.
+This exercise will help you get comfortable with TDD without the pressure of high-stakes projects.
+
+### Test Double Balance Check
+
+Review your current use of test doubles in your tests. Identify instances where you may be overusing mocks or stubs and evaluate if they are leading to brittle tests.
+Try to replace some test doubles with real objects, focusing on integration tests to see if this improves test robustness and reliability.
+
+### Integration Test Implementation
+
+Add a set of integration tests to your existing test suite.
+Identify important interactions between components and write tests to validate these interactions. Compare the results with your unit tests to understand how integration testing complements your current TDD practice and improves overall test coverage.
+
+### Test Pyramid Audit
+
+Conduct an audit of your test suite to assess its alignment with the Test Pyramid principles. Ensure you have a larger number of unit tests at the base, fewer integration tests in the middle, and a smaller number of end-to-end tests at the top.
+
+### Design and Architecture Reflection
+
+Reflect on how your TDD practice is influencing your code design and architecture.
+Assess whether your tests are guiding you towards modular, maintainable, and scalable designs. Make necessary adjustments to balance test-driven development with thoughtful design principles, ensuring a cohesive and robust codebase.
 
 # Key Points
 
