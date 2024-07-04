@@ -28,6 +28,15 @@ While TDD emphasizes unit tests, solely focusing on them can neglect the importa
 Real-world applications often involve multiple components interacting with each other, and unit tests alone might not capture issues arising from these interactions.
 Incorporating integration tests ensures that components work together as expected, providing a more comprehensive validation of the system.
 
+### Misunderstanding the Test Pyramid
+
+The Test Pyramid suggests having a larger number of unit tests compared to integration and end-to-end tests, but this does not mean neglecting the latter types of tests.
+Misinterpreting this can lead to an over-reliance on unit tests and insufficient higher-level testing.
+
+### Overemphasis on Code Coverage
+
+High code coverage is often seen as a metric of success in TDD, but it can be misleading. Focusing excessively on achieving 100% code coverage can lead to writing superficial tests that do not add significant value. 
+
 # Key Points
 
 * Benefits
