@@ -125,4 +125,23 @@ This principle advises developers to avoid adding functionality to their code un
 Fowler argues that anticipating future needs often leads to unnecessary complexity and wasted effort, as these needs may never materialize.
 By adhering to YAGNI, developers can keep their codebase simpler, more focused, and easier to maintain, ensuring that only the required features are implemented, thus promoting efficient and effective development practices.
 
-https://vimeo.com/29823879
+### [The power of feedback loops](https://lucamezzalira.medium.com/the-power-of-feedback-loops-f8e27e8ac25f)
+
+Luca Mezzalira highlights the necessity and importance of feedback mechanisms in software development.
+He advocates for implementing various feedback loops, such as test-driven development (TDD), static analysis, pair programming, and code review.
+These feedback loops enable continuous improvement by offering timely insights into code quality, identifying potential issues, and enhancing collaboration among team members.
+
+### [Clean Code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882)
+
+"Clean Code: A Handbook of Agile Software Craftsmanship" by Robert C. Martin, also known as Uncle Bob, is a seminal work that provides a comprehensive guide to writing clean, readable, and maintainable code. The book is divided into three parts: the principles, patterns, and practices of writing clean code; several case studies of increasing complexity; and a list of heuristics gathered while creating the case studies. Martin emphasizes the importance of naming, functions, comments, error handling, and testing, among other topics, and advocates for continuous improvement and refactoring. By adhering to the guidelines in "Clean Code," developers can produce high-quality software that is easier to understand, maintain, and extend.
+
+### [Transformation Priority Premise](http://blog.cleancoder.com/uncle-bob/2013/05/27/TheTransformationPriorityPremise.html)
+
+In his blog post "The Transformation Priority Premise," Robert C. Martin (Uncle Bob) introduces the concept of prioritizing code transformations to guide the development process in Test-Driven Development (TDD). Martin explains that not all code changes are equal and categorizes transformations—such as from a constant to a variable or from an if-statement to a loop—by their complexity and impact. The Transformation Priority Premise (TPP) suggests starting with the simplest, least impactful transformations to progress incrementally and maintain code stability. This approach helps developers make small, manageable changes that align with the TDD cycle of Red, Green, Refactor, ultimately leading to cleaner, more maintainable code.
+
+### [String Scan Kata](https://github.com/JoshCheek/strscan-kata)
+
+The String Scan Coding Kata is a programming exercise designed to improve a developer's skills in string manipulation and parsing.
+The exercise typically involves writing a function or a series of functions that can scan and process strings according to specified rules.
+The goal is to practice breaking down a problem, writing clean and maintainable code, and applying test-driven development (TDD) principles.
+
