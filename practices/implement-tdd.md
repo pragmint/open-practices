@@ -103,21 +103,14 @@ Conduct an audit of your test suite to assess its alignment with the Test Pyrami
 Reflect on how your TDD practice is influencing your code design and architecture.
 Assess whether your tests are guiding you towards modular, maintainable, and scalable designs. Make necessary adjustments to balance test-driven development with thoughtful design principles, ensuring a cohesive and robust codebase.
 
-# Key Points
-
-* Benefits
-    * Enhance code quality
-    * Improved design and architecture
-    * Early bug detection
-    * Increased developer confidence
-    * Simplify debugging and maintenance
-* Red, green and Refactor
-* Transformation priority premise
-* Test Doubles Nuances
-* F. R. I. S. T.
-* Test Pyramid
-* TDD is mostly unit tests
-
 ## Resources
+
+### The Three Laws of TDD ([Talk](https://www.youtube.com/watch?v=qkblc5WRn-U) | [Article](http://www.butunclebob.com/ArticleS.UncleBob.TheThreeRulesOfTdd))
+
+In his article "The Three Rules of TDD," Uncle Bob Martin outlines the fundamental principles of Test-Driven Development. He emphasizes that TDD is guided by three key rules: writing no production code until a failing test exists, writing only enough of a test to fail (not compiling is considered failing), and writing only enough production code to pass the test. These rules enforce a disciplined approach to development, ensuring that code is written incrementally and is always covered by tests, leading to higher quality, better-designed software, and more maintainable codebases.
+
+### [Understanding the Four Rules of Simple Design](https://leanpub.com/4rulesofsimpledesign)
+
+In the book "The 4 Rules of Simple Design" by Corey Haines, the author explores the four fundamental principles that lead to clean, efficient, and maintainable code. These rules are: passing all tests, revealing intention, having no duplication, and minimizing the number of classes and methods. By adhering to these guidelines, developers can achieve simplicity in design, which enhances readability, reduces complexity, and facilitates easier modifications and extensions. The book provides practical insights and examples to help developers internalize these rules and apply them effectively in their software projects.
 
 https://vimeo.com/29823879
