@@ -107,10 +107,22 @@ Assess whether your tests are guiding you towards modular, maintainable, and sca
 
 ### The Three Laws of TDD ([Talk](https://www.youtube.com/watch?v=qkblc5WRn-U) | [Article](http://www.butunclebob.com/ArticleS.UncleBob.TheThreeRulesOfTdd))
 
-In his article "The Three Rules of TDD," Uncle Bob Martin outlines the fundamental principles of Test-Driven Development. He emphasizes that TDD is guided by three key rules: writing no production code until a failing test exists, writing only enough of a test to fail (not compiling is considered failing), and writing only enough production code to pass the test. These rules enforce a disciplined approach to development, ensuring that code is written incrementally and is always covered by tests, leading to higher quality, better-designed software, and more maintainable codebases.
+In his article "The Three Rules of TDD," Uncle Bob Martin outlines the fundamental principles of Test-Driven Development.
+He emphasizes that TDD is guided by three key rules: writing no production code until a failing test exists, writing only enough of a test to fail (not compiling is considered failing), and writing only enough production code to pass the test.
+These rules enforce a disciplined approach to development, ensuring that code is written incrementally and is always covered by tests, leading to higher quality, better-designed software, and more maintainable codebases.
 
 ### [Understanding the Four Rules of Simple Design](https://leanpub.com/4rulesofsimpledesign)
 
-In the book "The 4 Rules of Simple Design" by Corey Haines, the author explores the four fundamental principles that lead to clean, efficient, and maintainable code. These rules are: passing all tests, revealing intention, having no duplication, and minimizing the number of classes and methods. By adhering to these guidelines, developers can achieve simplicity in design, which enhances readability, reduces complexity, and facilitates easier modifications and extensions. The book provides practical insights and examples to help developers internalize these rules and apply them effectively in their software projects.
+In the book "The 4 Rules of Simple Design" by Corey Haines, the author explores the four fundamental principles that lead to clean, efficient, and maintainable code.
+These rules are: passing all tests, revealing intention, having no duplication, and minimizing the number of classes and methods.
+By adhering to these guidelines, developers can achieve simplicity in design, which enhances readability, reduces complexity, and facilitates easier modifications and extensions.
+The book provides practical insights and examples to help developers internalize these rules and apply them effectively in their software projects.
+
+### [You Aren't Gonna Need It](https://www.martinfowler.com/bliki/Yagni.html)
+
+In his article "Yagni" on Martin Fowler's blog, Fowler discusses the YAGNI principle, which stands for "You Aren't Gonna Need It."
+This principle advises developers to avoid adding functionality to their code until it is absolutely necessary.
+Fowler argues that anticipating future needs often leads to unnecessary complexity and wasted effort, as these needs may never materialize.
+By adhering to YAGNI, developers can keep their codebase simpler, more focused, and easier to maintain, ensuring that only the required features are implemented, thus promoting efficient and effective development practices.
 
 https://vimeo.com/29823879
