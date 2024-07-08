@@ -40,4 +40,8 @@ It emphasizes balanced test coverage, integrates tests into CI pipelines for fas
 
 ## Related Capabilities
 
-<!-- TODO: insert a list of [linked capabilities](/capabilities) that support this capability. For each item, give a brief explanation of how the linked capability supports / relates to this capability. Also categorize each linked capability as one of the following: Enables, Requires, Improves -->
+### [Test Automation](/practices/implement-tdd.md)
+
+Implementing Test-Driven Development (TDD) supports the Test Automation DORA Capability by integrating rigorous testing directly into the development process.
+TDD mandates writing tests before coding, ensuring early bug detection and promoting better software design through continuous refactoring.
+Following the red-green-refactor cycle and principles like Transformation Priority Premise and F. R. I. S. T., TDD ensures reliable and efficient tests that align with the Test Pyramid's principles.
