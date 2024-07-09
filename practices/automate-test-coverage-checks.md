@@ -74,6 +74,14 @@ He argues that while high test coverage percentages can highlight which parts of
 Fowler emphasizes that test coverage should be used alongside other techniques and metrics to assess the robustness of tests, and that focusing solely on coverage numbers can lead to superficial or inadequate testing.
 He advocates for a balanced approach that combines test coverage with thoughtful test design and evaluation to achieve meaningful software quality.
 
+## Supporting Capabilities
+
+### [Test Automation](/capabilities/tech/test-automation.md)
+
+Automating test coverage checks supports the Test Automation capability by ensuring continuous and immediate feedback on code changes within the CI pipeline.
+This practice identifies untested code early, helping prevent bugs and regressions, and aligns with a consistent testing strategy.
+By maintaining realistic coverage thresholds for different modules, it optimizes testing efforts, enhances collaboration between testers and developers, and ultimately improves software quality and stability throughout the delivery lifecycle.
+
 ## Key Points
 
 * Improves development workflow.

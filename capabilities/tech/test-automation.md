@@ -14,6 +14,12 @@ This approach software quality and stability and also reduces team burnout and d
 Building a Consistent Testing Strategy supports the Test Automation capability by providing a structured approach to testing that aligns with project needs.
 It emphasizes balanced test coverage, integrates tests into CI pipelines for fast feedback, and combines automated and manual testing to ensure comprehensive quality and stability of software delivery.
 
+### [Automate Test Coverage Checks](/practices/automate-test-coverage-checks.md)
+
+Automating test coverage checks supports the Test Automation capability by ensuring continuous and immediate feedback on code changes within the CI pipeline.
+This practice identifies untested code early, helping prevent bugs and regressions, and aligns with a consistent testing strategy.
+By maintaining realistic coverage thresholds for different modules, it optimizes testing efforts, enhances collaboration between testers and developers, and ultimately improves software quality and stability throughout the delivery lifecycle.
+
 * Automate Test Coverage Checks (Non blocking)
 * Creating and Managing Ephemeral Environments
     * Independent of truck-based development
