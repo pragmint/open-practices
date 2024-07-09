@@ -134,3 +134,7 @@ By exploring data that challenges the assumption that this collaborative approac
 ### [Code Maintainability](/capabilities/tech/code-maintainability.md)
 
 The Conduct Code Reviews practice significantly strengthens the Code Maintainability capability within software teams. Through these reviews, team members can collectively ensure that proposed code changes are not only functional but also easy to maintain over time. By providing feedback on readability, modularity, and coding standards adherence, code reviews help improve the overall quality of the codebase.
+
+### [Test Automation](/capabilities/tech/test-automation.md)
+
+The Conduct Code Reviews practice supports the Test Automation DORA capability by ensuring code changes adhere to quality standards, catching potential issues early, and enforcing consistent coding practices. This promotes a robust suite of automated tests, prevents regression errors, and maintains smooth continuous integration processes. By fostering collaboration and identifying gaps in test coverage, code reviews enhance software reliability and stability, directly contributing to effective test automation.

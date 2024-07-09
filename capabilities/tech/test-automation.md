@@ -20,6 +20,10 @@ Automating test coverage checks supports the Test Automation capability by ensur
 This practice identifies untested code early, helping prevent bugs and regressions, and aligns with a consistent testing strategy.
 By maintaining realistic coverage thresholds for different modules, it optimizes testing efforts, enhances collaboration between testers and developers, and ultimately improves software quality and stability throughout the delivery lifecycle.
 
+### [Conduct Code Reviews](/practices/conduct-code-reviews.md)
+
+The Conduct Code Reviews practice supports the Test Automation DORA capability by ensuring code changes adhere to quality standards, catching potential issues early, and enforcing consistent coding practices. This promotes a robust suite of automated tests, prevents regression errors, and maintains smooth continuous integration processes. By fostering collaboration and identifying gaps in test coverage, code reviews enhance software reliability and stability, directly contributing to effective test automation.
+
 ## Related Capabilities
 
 ### [Test Automation](/practices/implement-tdd.md)
