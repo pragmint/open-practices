@@ -20,30 +20,6 @@ Automating test coverage checks supports the Test Automation capability by ensur
 This practice identifies untested code early, helping prevent bugs and regressions, and aligns with a consistent testing strategy.
 By maintaining realistic coverage thresholds for different modules, it optimizes testing efforts, enhances collaboration between testers and developers, and ultimately improves software quality and stability throughout the delivery lifecycle.
 
-* Automate Test Coverage Checks (Non blocking)
-* Creating and Managing Ephemeral Environments
-    * Independent of truck-based development
-* Implement Continuous Integration Pipeline 
-    * Running tests
-* Implement TDD
-    * Red, green and Refactor
-    * Transformation priority premise
-    * Test Doubles Nuances
-    * F. R. I. S. T.
-* Build a consistent testing strategy
-    * How to choose the proper type of test depending of the situation
-    * Follow the Tests Pyramid
-    * Write Ephemeral model-based tests
-    * Write Performance Tests
-    * Do manual exploratory testing
-    * Do usability testing
-    * Write Acceptance Tests
-    * Include Unit Tests for all new Code in the Definition of Done
-    * Delete all expensive tests you can
-* Incrementally Transformation
-* Implement Functional Core and Imperative Shell
-* Conduct Code Reviews
-
 ## Related Capabilities
 
 ### [Test Automation](/practices/implement-tdd.md)
