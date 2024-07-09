@@ -81,17 +81,3 @@ He advocates for a balanced approach that combines test coverage with thoughtful
 Automating test coverage checks supports the Test Automation capability by ensuring continuous and immediate feedback on code changes within the CI pipeline.
 This practice identifies untested code early, helping prevent bugs and regressions, and aligns with a consistent testing strategy.
 By maintaining realistic coverage thresholds for different modules, it optimizes testing efforts, enhances collaboration between testers and developers, and ultimately improves software quality and stability throughout the delivery lifecycle.
-
-## Key Points
-
-* Improves development workflow.
-
-* Realistic coverage thresholds.
-
-* Different Coverage Thresholds for different modules in the application.
-
-* CI Pipeline Integration (Non-blocking).
-
-* Over-reliance on coverage metrics without considering test quality.
-
-* Neglecting non-functional tests (performance, security).
