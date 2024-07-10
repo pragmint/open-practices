@@ -29,6 +29,45 @@ Legacy systems or applications with intricate dependencies may face challenges i
 In such cases, adopting a hybrid approach—integrating both ephemeral and persistent environments strategically—can help strike a balance between flexibility and compliance.
 This approach ensures that critical or complex application components are appropriately supported while leveraging the scalability and cost-efficiency benefits of ephemeral environments where feasible.
 
+## Questions
+
+### Understanding Ephemeral Environments
+
+* What is your current understanding of ephemeral environments, and how they can be applied to your workflow?
+* How do you expect ephemeral environments to differ from your current setup of traditional, long-lived environments?
+
+### Anticipated Benefits
+
+* How do you think ephemeral environments could help reduce conflicts in your development process?
+* In what ways do you anticipate ephemeral environments will simplify troubleshooting and debugging for your team?
+* How do you expect ephemeral environments to improve reproducibility and reduce the "it works on my machine" issue?
+
+### Resource and Scalability Considerations
+
+* How do you believe ephemeral environments will help in saving resources compared to long-lived testing environments?
+* How do you plan to scale the number of ephemeral environments based on current testing needs?
+
+### Automation and Integration
+
+* How familiar is your team with using Infrastructure as Code (IaC) for automating environments?
+* How do you envision integrating ephemeral environments into your CI/CD pipelines?
+
+### Security and Privacy
+
+* How will you ensure the security and privacy of sensitive data within ephemeral environments?
+* What monitoring and logging mechanisms will you need to implement to detect and respond to security incidents promptly?
+
+### Suitability and Adaptation
+
+* Which applications or systems might face challenges with ephemeral deployment, and why?
+* Have you considered adopting a hybrid approach that combines ephemeral and persistent environments?
+
+### Preparing for Adoption
+
+* What initial steps will you take to start adopting ephemeral environments in your organization?
+* How prepared is your team to adopt and manage ephemeral environments, and what training or resources will be necessary?
+* Will you conduct pilot tests of ephemeral environments before full-scale implementation, and what criteria will you use to evaluate their success?
+
 ## Key Points
 
 * Explanation of the is an Ephemeral Environment
