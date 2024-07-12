@@ -76,6 +76,15 @@ The article on webapp.io explains ephemeral environments as temporary, self-cont
 These environments allow for faster development cycles, visual reviews, and collaboration with non-technical stakeholders, closely mirroring production environments.
 Integrating ephemeral environments with CI/CD pipelines and using Infrastructure as Code (IaC) can optimize resource usage and scalability, enhancing overall development efficiency.
 
+## Supporting Capabilities
+
+### [Test Automation](/capabilities/tech/test-automation.md)
+
+The Create and Manage Ephemeral Environments practice enhances the Test Automation DORA capability by providing flexible, production-like testing setups that ensure automated tests are reliable and accurate.
+These temporary environments reduce conflicts, simplify debugging, and improve reproducibility.
+Integrated into CI/CD pipelines, they offer continuous, immediate feedback on code changes, promoting early bug detection and robust software quality.
+Using Infrastructure as Code (IaC) for automation optimizes resources and allows for easy scaling of testing environments, supporting effective test automation.
+
 ## Key Points
 
 * Explanation of the is an Ephemeral Environment

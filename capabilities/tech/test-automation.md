@@ -24,6 +24,13 @@ By maintaining realistic coverage thresholds for different modules, it optimizes
 
 The Conduct Code Reviews practice supports the Test Automation DORA capability by ensuring code changes adhere to quality standards, catching potential issues early, and enforcing consistent coding practices. This promotes a robust suite of automated tests, prevents regression errors, and maintains smooth continuous integration processes. By fostering collaboration and identifying gaps in test coverage, code reviews enhance software reliability and stability, directly contributing to effective test automation.
 
+### [Create and Manage Ephemeral Environments](/practices/create-and-manage-ephemeral-environments.md)
+
+The Create and Manage Ephemeral Environments practice enhances the Test Automation DORA capability by providing flexible, production-like testing setups that ensure automated tests are reliable and accurate.
+These temporary environments reduce conflicts, simplify debugging, and improve reproducibility.
+Integrated into CI/CD pipelines, they offer continuous, immediate feedback on code changes, promoting early bug detection and robust software quality.
+Using Infrastructure as Code (IaC) for automation optimizes resources and allows for easy scaling of testing environments, supporting effective test automation.
+
 ## Related Capabilities
 
 ### [Test Automation](/practices/implement-tdd.md)
