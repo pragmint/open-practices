@@ -31,6 +31,14 @@ These temporary environments reduce conflicts, simplify debugging, and improve r
 Integrated into CI/CD pipelines, they offer continuous, immediate feedback on code changes, promoting early bug detection and robust software quality.
 Using Infrastructure as Code (IaC) for automation optimizes resources and allows for easy scaling of testing environments, supporting effective test automation.
 
+### [Test Automation](/practices/follow-functional-core-imperative-shell.md)
+
+The Follow Functional Core, Imperative Shell practice supports the Test Automation capability by facilitating the creation of highly testable and maintainable code.
+The functional core, being side-effect-free, allows for straightforward unit testing, as its pure functions yield predictable results and don't rely on external states.
+This ensures that the core business logic is thoroughly tested and reliable.
+The imperative shell handles side effects and interactions with external systems, which can be tested through integration tests.
+This clear separation simplifies the testing process, improves test coverage, and provides faster, more reliable feedback during development, which is crucial for robust and efficient test automation.
+
 ## Related Capabilities
 
 ### [Test Automation](/practices/implement-tdd.md)
