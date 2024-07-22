@@ -84,16 +84,3 @@ The Create and Manage Ephemeral Environments practice enhances the Test Automati
 These temporary environments reduce conflicts, simplify debugging, and improve reproducibility.
 Integrated into CI/CD pipelines, they offer continuous, immediate feedback on code changes, promoting early bug detection and robust software quality.
 Using Infrastructure as Code (IaC) for automation optimizes resources and allows for easy scaling of testing environments, supporting effective test automation.
-
-## Key Points
-
-* Explanation of the is an Ephemeral Environment
-* Ephemeral Environment should be similar to production
-* Reduce conflict in the development process
-* Ease troubleshooting and debugging
-* Reproducibility Reduce "it works in my machine" issue
-* Save resources by eliminating the need for long-lived testing environments.
-* Easily scale the number of environments based on current testing needs.
-* Could be automated using IaC
-* CI/CD, create and destroy environments as part of the process
-* Run production traffic against ephemeral environment to compare performance and reliability.
