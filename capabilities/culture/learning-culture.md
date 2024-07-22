@@ -46,6 +46,10 @@ Starting a book club can encompass a variety of materials, including books, whit
 
 Hosting a viewing party is a great way to engage a group with conference talks, podcasts, or short videos. As you go through the content together, you can pause at key points or when questions arise to facilitate discussion. This approach is particularly effective for getting experienced practitioners to consider new ideas and perspectives, as it combines the informative nature of the content with the collaborative benefits of group discussion. By allowing time for conversation and reflection, viewing parties can enhance understanding and inspire innovative thinking.
 
+### [Do A Spike](/practices/build-a-proof-of-concept.md)
+
+Also referred to as building a proof-of-concept (POC), this practice involves setting a short period of time aside in order to get some hands on experience building a solution as a means to reduce uncertainty. Spikes tend to last a couple of hours or days (at the most). They're a great way to try out a new practice, process, or tool. Given a spike's short duration, it's helpful to have an experienced member of the team lead these efforts to avoid teams from getting stuck for prolonged periods of time.
+
 ### [Host A Retrospective](/practices/host-a-retrospective.md)
 
 Hosting a retrospective is a vital tool for continuous improvement within a team or organization. These sessions can be routine or focused on a specific event, such as a postmortem. The key to a successful retrospective is to walk away with clear action items while maintaining a blameless environment. It's important to vary the format to keep it fresh and prevent it from becoming a value-less ceremony. Recognize that constraints and pain points are unavoidable; the goal is not to eliminate them entirely but to reduce their frequency or impact. Be mindful of the trade-offs when introducing new controls, ensuring they don’t become excessive. Retrospectives are excellent for fine-tuning processes and addressing immediate issues, though they are less effective for sparking visionary changes.
