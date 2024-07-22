@@ -46,7 +46,7 @@ Starting a book club can encompass a variety of materials, including books, whit
 
 Hosting a viewing party is a great way to engage a group with conference talks, podcasts, or short videos. As you go through the content together, you can pause at key points or when questions arise to facilitate discussion. This approach is particularly effective for getting experienced practitioners to consider new ideas and perspectives, as it combines the informative nature of the content with the collaborative benefits of group discussion. By allowing time for conversation and reflection, viewing parties can enhance understanding and inspire innovative thinking.
 
-### [Do A Spike](/practices/build-a-proof-of-concept.md)
+### [Do A Spike](/practices/do-a-spike.md)
 
 Also referred to as building a proof-of-concept (POC), this practice involves setting a short period of time aside in order to get some hands on experience building a solution as a means to reduce uncertainty. Spikes tend to last a couple of hours or days (at the most). They're a great way to try out a new practice, process, or tool. Given a spike's short duration, it's helpful to have an experienced member of the team lead these efforts to avoid teams from getting stuck for prolonged periods of time.
 
