@@ -10,9 +10,27 @@
 
 <!-- TODO: insert thought provoking questions to get reader to deeply consider if they could be better applying this practice to their organization -->
 
-## Exercises
+## How to Improve
 
-<!-- TODO: insert a list of exercises / experiments the reader can try to see if this practice will help their team / organization improve -->
+### [Lead A Demonstration](/practices/lead-a-demonstration.md)
+
+### [Lead Workshops](/practices/lead-workshops.md)
+
+### [Host A Roundtable Discussion](/practices/host-a-roundtable-discussion.md)
+
+### [Start A Book Club](/practices/start-a-book-club.md)
+
+### [Host A Viewing Party](/practices/host-a-viewing-party.md)
+
+### [Do A Spike](/practices/do-a-spike.md)
+
+### [Host A Retrospective](/practices/host-a-retrospective.md)
+
+### [Talk Directly With Users](/practices/talk-directly-with-users.md)
+
+### [Dogfood Your Systems](/practices/dogfood-your-systems.md)
+
+### [Start A Community Of Practice](/practices/start-a-community-of-practice.md)
 
 ## Resources
 
