@@ -44,31 +44,29 @@ Do team members understand the reasons behind certain coding rules?
 ### Facing Integration Challenges Effectively?
 How effectively are we managing the integration of automated coding standards tools, especially in large or legacy code-bases, and are there areas where we can improve?
 
-## Exercises
+## How to Improve
 
-### Configuring Automated Coding Standards
-- **Objective:** Experiment with configuring automated coding standards tools to align with your organization's coding guidelines.
-- **Outcome:** Identification of gaps between existing coding practices and automated tool capabilities, leading to a more tailored coding standards enforcement strategy.
+### [Start A Book Club](/practices/start-a-book-club.md)
 
-### Manual vs. Automated Code Review Challenge
-- **Objective:** Compare the effectiveness and efficiency of manual code reviews against automated coding standards checks.
-- **Outcome:** Insights into how automated tools complement manual review processes and where manual reviews are still necessary.
+- [Automate Your Coding Standard](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_04)
 
-### Tool Integration Workshop
-- **Objective:** Facilitate a workshop to integrate a new automated coding standards tool into your development workflow.
-- **Outcome:** A smoother integration process for new tools, with feedback collected on tool usability, configuration ease, and impact on development speed.
+This resource provides insights into the importance of automating coding standards to maintain code quality and consistency.
+It highlights how automated tools can help enforce coding conventions, making the codebase more manageable and the development process more efficient.
 
-## Resources
-
-### [Automate Your Coding Standard](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_04)
-This resource provides insights into the importance of automating coding standards to maintain code quality and consistency. It highlights how automated tools can help enforce coding conventions, making the codebase more manageable and the development process more efficient.
-
-### [One bite at a time](https://dev.to/christiankohler/one-bite-at-a-time-how-to-introduce-new-lint-rules-in-a-large-codebase-37ph)
+- [One bite at a time](https://dev.to/christiankohler/one-bite-at-a-time-how-to-introduce-new-lint-rules-in-a-large-codebase-37ph)
 
 This resource is about introducing new lint rules in a large legacy codebase.
 It recommends a gradual approach, utilizing auto-fix capabilities wherever possible and manually addressing issues otherwise.
 Also proposes secondary lint configuration for new rules, applied only to modified files via a pre-commit hook.
 This method, inspired by the Boy Scout Rule of leaving code better than one found it.
+
+### [Do A Spike](/practices/do-a-spike.md)
+
+Implement what you learned in the article [Automate Your Coding Standard](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_04) with a project or module of your codebase.
+
+## Resources
+
+
 
 <!-- ## Related Practices -->
 
