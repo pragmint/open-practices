@@ -64,14 +64,6 @@ This method, inspired by the Boy Scout Rule of leaving code better than one foun
 
 Implement what you learned in the article [Automate Your Coding Standard](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_04) with a project or module of your codebase.
 
-## Resources
-
-
-
-<!-- ## Related Practices -->
-
-<!-- TODO: insert a list of [linked practices](/practices) that relate to this practice. For each item, give a brief explanation of how the linked practice supports / relates to this practice. Also categorize each linked practices as one of the following: Enables, Requires, Improves -->
-
 ## Supporting Capabilities
 
 ### [Continuous Integration](https://dora.dev/devops-capabilities/technical/continuous-integration/)
