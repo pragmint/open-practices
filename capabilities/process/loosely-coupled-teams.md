@@ -1,4 +1,4 @@
-# [How to Empower Software Delivery Teams as a Business Leader](https://dora.dev/devops-capabilities/cultural/how-to-empower-software-delivery-teams/)
+# [Loosely Coupled Teams](https://dora.dev/capabilities/loosely-coupled-teams/)
 
 <!-- TODO: insert summary of capability -->
 

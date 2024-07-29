@@ -23,9 +23,7 @@ Click on a link below to learn which [best practices](/practices/) support each 
 - [Deployment Automation](/capabilities/tech/deployment-automation.md)
 - [Empowering Teams To Choose Tools](/capabilities/tech/empowering-teams-to-choose-tools.md)
 - [Flexible Infrastructure](/capabilities/tech/flexible-infrastructure.md)
-- [Loosely Coupled Architecture](/capabilities/tech/loosely-coupled-architecture.md)
 - [Monitoring and Observability](/capabilities/tech/monitoring-and-observability.md)
-- [Shifting Left on Security](/capabilities/tech/shifting-left-on-security.md)
 - [Test Automation](/capabilities/tech/test-automation.md)
 - [Test Data Management](/capabilities/tech/test-data-management.md)
 - [Trunk-Based Development](/capabilities/tech/trunk-based-development.md)
@@ -35,7 +33,9 @@ Click on a link below to learn which [best practices](/practices/) support each 
 
 - [Customer Feedback](/capabilities/process/customer-feedback.md)
 - [Documentation Quality](/capabilities/process/documentation-quality.md)
+- [Loosely Coupled Teams](/capabilities/process/loosely-coupled-teams.md)
 - [Monitoring Systems to Inform Business Decisions](/capabilities/process/monitoring-systems-to-inform-business-decisions.md)
+- [Pervasive Security](/capabilities/process/pervasive-security.md)
 - [Proactive Failure Notification](/capabilities/process/proactive-failure-notification.md)
 - [Streamline Change Approval](/capabilities/process/streamline-change-approval.md)
 - [Team Experimentation](/capabilities/process/team-experimentation.md)
@@ -47,8 +47,6 @@ Click on a link below to learn which [best practices](/practices/) support each 
 ### Cultural
 
 - [Generative Organizational Culture](/capabilities/culture/generative-organizational-culture.md)
-- [How to Empower Software Delivery Teams as a Business Leader](/capabilities/culture/how-to-empower-software-delivery-teams-as-a-business-leader.md)
-- [How to Transform](/capabilities/culture/how-to-transform.md)
 - [Job Satisfaction](/capabilities/culture/job-satisfaction.md)
 - [Learning Culture](/capabilities/culture/learning-culture.md)
 - [Transformational Leadership](/capabilities/culture/transformational-leadership.md)
