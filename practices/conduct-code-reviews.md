@@ -75,59 +75,42 @@ Furthermore, LLMs backed tools are able to provide automated feedback on code ch
 
 * Are we using reliable tooling to speed up the review process? Is there more we could be doing on this front?
 
-## Exercises
+## How to Improve
 
-### Guideline Creation Workshop
+### [Lead Workshops](/practices/lead-workshops.md)
+
+#### Guideline Creation Workshop
 
 Organize a collaborative workshop where team members collectively establish clear guidelines for conducting code reviews.
 Encourage open discussions to ensure that the guidelines are comprehensive and reflect the team's values and objectives.
 
-### Pair Programming Sessions
-
-Schedule regular pair programming sessions where developers work together on coding tasks.
-
-### Assigning Reviewers in Advance
-
-Prior to beginning development tasks, designate a reviewer for each task upfront during the planning phase.
-This proactive approach allows the reviewer to familiarize themselves with the upcoming changes, gain context about the requirements.
-After this analyze the quality of the resulting code review.
-
-### Effective Feedback Skills Workshop
+#### Effective Feedback Skills Workshop
 
 Host interactive workshops aimed at developing feedback skills within the team.
 Create practical exercises and scenarios that encourage participants to offer helpful criticism while being respectful.
 Highlight the importance of sharing observations, staying curious, and avoiding making judgments without understanding the author's intentions and thought process.
 Empower participants to receive feedback openly, emphasizing the importance of not taking criticism personally and avoid assuming negative intentions from the reviewer.
 
-### Continuous Feedback Loop
+### [Start A Book Club](/practices/start-a-book-club.md)
 
-Create a shared document to collecting feedback from team members after each code review.
-Use this feedback to identify areas for improvement and make iterative adjustments to the code review process over time.
-
-## Resources
-
-### [The power of feedback loops](https://lucamezzalira.medium.com/the-power-of-feedback-loops-f8e27e8ac25f)
+#### [The power of feedback loops](https://lucamezzalira.medium.com/the-power-of-feedback-loops-f8e27e8ac25f)
 
 Luca Mezzalira highlights the necessity and importance of feedback mechanisms in software development.
 He advocates for implementing various feedback loops, such as test-driven development (TDD), static analysis, pair programming, and code review.
 These feedback loops enable continuous improvement by offering timely insights into code quality, identifying potential issues, and enhancing collaboration among team members.
 
-### [Two Wrongs Can Make a Right (and Are Difficult to Fix)](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_86)
+#### [Two Wrongs Can Make a Right (and Are Difficult to Fix)](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_86)
 
 Allan Kelly's article sheds light on the challenges posed by code defects that compound into single visible faults, complicating the troubleshooting process.
 This insight underscores the significance of meticulous code reviews.
 By conducting thorough reviews and promoting open communication among team members, teams can detect and address defects early on, preventing the accumulation of complex issues that become harder to rectify over time.
 
-### [Async Code Reviews Are Chocking Your Company’s Throughput](https://www.youtube.com/watch?v=ZlLZEQQBcFg)
+#### [Async Code Reviews Are Chocking Your Company’s Throughput](https://www.youtube.com/watch?v=ZlLZEQQBcFg)
 
 In his presentation, Dragan delves into the common practice of pull/merge requests (PRs) in software development teams and its potential impact on throughput.
 Drawing from his study analyzing tens of thousands of PRs across various repositories, he reveals that teams utilizing small PRs with asynchronous code reviews often experience lower throughput compared to those employing larger PRs.
 However, Dragan introduces a solution to this dilemma through co-creation patterns such as pair and mob programming, where multiple individuals collaborate simultaneously on a task.
 By exploring data that challenges the assumption that this collaborative approach diminishes team throughput, Dragan suggests a path toward achieving both high throughput and quality in software development.
-
-<!-- ## Related Practices -->
-
-<!-- TODO: insert a list of [linked practices](/practices) that relate to this practice. For each item, give a brief explanation of how the linked practice supports / relates to this practice. Also categorize each linked practices as one of the following: Enables, Requires, Improves -->
 
 ## Supporting Capabilities
 
