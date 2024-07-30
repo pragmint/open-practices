@@ -37,45 +37,39 @@ Every situation is unique, so there's no one size fits all guidance for this sit
 * What are the potential risks and drawbacks of maintaining high levels of dependency on third-party tools in the long term?
 * What steps can we take to future-proof our projects and mitigate risks associated with changes or discontinuation of third-party tools?
 
+## How to Improve
 
-## Exercises
+### [Do A Spike](/practices/do-a-spike.md)
 
-### Identify Dependencies
+Choose am important dependency and refactor your code to introduce abstractions such as interfaces or abstract classes to encapsulate interactions with that dependency.
+Rewrite the implementations to depend on these abstractions rather than the concrete third-party tools.
+
+### [Lead Workshops](/practices/lead-workshops.md)
 
 Start by identifying the dependencies your project currently has on third-party software, frameworks, or libraries. Make a list of these dependencies and assess how tightly coupled they are to your codebase.
 
-### Introduce Abstractions
+### [Start A Book Club](/practices/start-a-book-club.md)
 
-Choose a key dependency and refactor your code to introduce abstractions such as interfaces or abstract classes to encapsulate interactions with that dependency.
-Rewrite the implementations to depend on these abstractions rather than the concrete third-party tools.
-
-### Implement Swappable Components
-
-Select a part of your application where you foresee potential changes in third-party tools or where flexibility is important.
-Implement multiple versions of this component, each interacting with a different third-party tool through the same interface or with a fake implementation.
-Implement a mechanism to select the proper implementation based on a config file.
-Test the swapping of these components to verify that the system remains functional and adaptable.
-
-## Resources
-
-### [Clean Architecture Article](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
+- [Clean Architecture Article](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 
 The article delves into various architectural methodologies such as Hexagonal Architecture, Onion Architecture, Screaming Architecture, DCI, and BCE, with a focus on principles like framework independence, testability, and concern separation.
 It introduces "The Clean Architecture," centered on the Dependency Rule, depicted by concentric circles signifying different software domains and their corresponding responsibilities.
 Adhering to the Dependency Rule promotes high cohesion and low coupling. When managing dependencies with third parties, Clean Architecture provides a structured approach by encapsulating external dependencies within outer layers, effectively isolating them from core business logic.
 
-### [Boundaries](https://www.destroyallsoftware.com/talks/boundaries)
-
-This presentation delves into the concept of using simple values rather than complex objects as the boundaries between components and subsystems in software development. It covers various topics such as functional programming, the relationship between mutability and object-oriented programming (OO), isolated unit testing with and without test doubles, and concurrency. Understanding and implementing these concepts can be immensely beneficial in managing dependencies with third parties.
-
-### [DIP in the Wild](https://chat.openai.com/c/af4d0747-78f9-47b5-97f4-1f81f63dcd0a)
+- [DIP in the Wild](https://martinfowler.com/articles/dipInTheWild.html)
 
 This article discusses the Dependency Inversion Principle (DIP) in software design and its application in managing dependencies with third parties. It illustrates various scenarios where the DIP can be useful, such as simplifying complex APIs, aligning library abstractions with domain concepts, rejecting external constraints, and controlling time-related dependencies.
 
-### [That's Not Yours](https://8thlight.com/insights/thats-not-yours)
+- [That's Not Yours](https://8thlight.com/insights/thats-not-yours)
 
 The article explores the pitfalls and benefits of using mock objects in test-driven development (TDD), emphasizing the principle of "Don't Mock What You Don't Own."
 The author discusses how improper use of mocks can lead to unreliable tests and proposes alternatives, such as wrapping third-party libraries in domain-specific objects.
+
+### [Host A Viewing Party](/practices/host-a-viewing-party.md)
+
+- [Boundaries](https://www.destroyallsoftware.com/talks/boundaries)
+
+This presentation delves into the concept of using simple values rather than complex objects as the boundaries between components and subsystems in software development. It covers various topics such as functional programming, the relationship between mutability and object-oriented programming (OO), isolated unit testing with and without test doubles, and concurrency. Understanding and implementing these concepts can be immensely beneficial in managing dependencies with third parties.
 
 ## Supporting Capabilities
 
