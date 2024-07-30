@@ -30,6 +30,10 @@ TODO: insert a list of resources that explore this capability. For each item, gi
 
 Leading a demonstration is an excellent way to engage an audience by live coding, showcasing customer feedback, or presenting on a specific topic. Demonstrations can vary in length, from brief lightning talks to more extended sessions, and can be conducted as one-off events or as part of a regular series. This format is particularly effective for introducing new topics or ideas, as it allows the presenter to provide a clear and focused explanation. Including a Q&A session at the end or during the demonstration can enhance understanding and provide immediate clarification. However, this approach is less effective for spurring in-depth discussions, as the primary focus is on delivering content rather than fostering interactive dialogue.
 
+### [Run Pair Programming Sessions](/practices/run-pair-programming-sessions.md)
+
+Run Pair Programming Sessions is a practice that can significantly foster a learning culture within an organization by promoting continuous knowledge sharing and collaboration. In these sessions, two developers work together at a single workstation, enabling the exchange of skills, techniques, and best practices in real-time. This collaborative environment accelerates the onboarding process for new team members and also helps experienced developers refine their skills through peer review and immediate feedback.
+
 ### [Lead Workshops](/practices/lead-workshops.md)
 
 Leading workshops is an excellent method for providing participants with hands-on experience, allowing them to actively engage with the material. Workshops are particularly effective in breaking down preconceived notions, as they offer a practical approach to learning and problem-solving. However, workshops are not ideal for introducing new topics or ideas. Participants may struggle if they lack foundational understanding, which can hinder their ability to fully benefit from the hands-on experience. To ensure success, it's important to establish a solid groundwork before diving into more complex workshop activities.
