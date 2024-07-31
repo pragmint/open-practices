@@ -91,23 +91,19 @@ How do you approach refactoring efforts in legacy codebases?
 What strategies do you employ to ensure careful planning and incremental changes in legacy systems?
 Are there specific techniques or tools your team utilizes to identify high-impact areas for refactoring in legacy code?
 
-## Exercises
+## How to Improve
 
-### Incremental and Frequent Refactoring
+### [Lead A Demonstration](/practices/lead-a-demonstration.md)
+
+### [Lead Workshops](/practices/lead-workshops.md)
+
+#### Incremental and Frequent Refactoring
 
 Organize a dedicated part of a sprint to refactoring, where the team focuses on incremental improvements.
 Break down the codebase into small, manageable units and assign each unit to team members.
 Use automated tests to validate each change.
 
-### Automated Testing and Monitoring Assessment
-
-Conduct a comprehensive assessment of your current automated testing coverage and identify areas with low test coverage.
-Develop additional tests to fill these gaps.
-Simulate a refactoring session followed by a deliberate introduction of a minor bug.
-Use your monitoring tools to detect the issue and employ the roll-back system to revert the changes.
-Analyze the data collected to understand how quickly and effectively the system identifies and responds to problems.
-
-### Refactoring Legacy Code Workshop
+#### Refactoring Legacy Code Workshop
 
 Organize a workshop focused on refactoring a specific section of legacy code.
 Start by identifying high-impact areas that require improvement.
