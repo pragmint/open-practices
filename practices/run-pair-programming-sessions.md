@@ -52,42 +52,45 @@ Teams must use in suitable collaboration tools (Like VS Code Live Share) and est
 * What tools and protocols do we have in place to address challenges associated with remote Pair Programming, such as communication barriers and time zone differences?
 * How do we ensure that team members are equipped with the necessary skills and resources to effectively engage in Pair Programming?
 
-## Exercises
+## How to Improve
 
-### Trial Period
-Implementing a trial period allows your team to directly experience Pair Programming in action. By committing to regular Pair Programming sessions for a defined period, such as a week or two, you can observe firsthand how it affects code quality, knowledge sharing, and team collaboration. This hands-on experience provides valuable insights into whether Pair Programming is a suitable practice for your team and organization.
+### [Lead Workshops](/practices/lead-workshops.md)
 
-### Pairing Rotation
-Rotating pairs frequently within the team is crucial for including diverse perspectives, mitigating dependency, and promoting skill development.
-Assigning different pairs for various tasks or user stories allows team members to collaborate with different individuals and learn from each other's expertise.
-By assessing how pairing rotation impacts knowledge sharing, team dynamics, and skill development, you can determine the effectiveness of Pair Programming in your team.
+#### Trial Period
 
-### Feedback Sessions
+To experiment with pair programming and evaluate its effects, start by pairing team members for a designated period, such as one or two weeks. Assign tasks to pairs, ensuring a mix of experience levels if possible. Rotate pairs frequently to encourage diverse collaboration. During each session, have one person in the "driver" role, actively writing code, while the other acts as the "navigator," providing real-time feedback and suggestions. Encourage pairs to switch roles regularly. Monitor the outcomes by gathering feedback on code quality, productivity, and team satisfaction. Additionally, observe any improvements in knowledge sharing, problem-solving efficiency, and team cohesion.
+
+### [Host A Retrospective](/practices/host-a-retrospective.md)
+
+#### Feedback Sessions
+
 Regular feedback sessions provide an opportunity for team members to share their experiences, challenges, and suggestions regarding Pair Programming.
 By collecting feedback from participants, you can identify areas for improvement, address concerns, and iterate on the Pair Programming process.
 This continuous feedback loop enables you to refine your approach to Pair Programming and ensure that it aligns with your team's needs and goals.
 
-## Resources
+### [Start A Book Club](/practices/start-a-book-club.md)
 
-### [The power of feedback loops](https://lucamezzalira.medium.com/the-power-of-feedback-loops-f8e27e8ac25f)
+#### [The power of feedback loops](https://lucamezzalira.medium.com/the-power-of-feedback-loops-f8e27e8ac25f)
+
 This article emphasizes the importance of feedback loops in software development, citing expert insights to advocate for their adoption.
 It explores various types of feedback loops, including TDD, static analysis, pair programming, code review, Agile modeling, daily stand-ups, and retrospectives, stressing their role in enhancing project quality and team collaboration.
 By advocating for multiple feedback loops, the article emphasizes their pivotal role in ensuring project success and customer satisfaction, urging teams to experiment with new techniques for continuous improvement.
 
-### [Async Code Reviews Are Chocking Your Company’s Throughput](https://www.youtube.com/watch?v=ZlLZEQQBcFg)
-
-In his presentation, Dragan delves into the common practice of pull/merge requests (PRs) in software development teams and its potential impact on throughput.
-Drawing from his study analyzing tens of thousands of PRs across various repositories, he reveals that teams utilizing small PRs with asynchronous code reviews often experience lower throughput compared to those employing larger PRs.
-However, Dragan introduces a solution to this dilemma through co-creation patterns such as pair and mob programming, where multiple individuals collaborate simultaneously on a task.
-By exploring data that challenges the assumption that this collaborative approach diminishes team throughput, Dragan suggests a path toward achieving both high throughput and quality in software development.
-
-
-### [Clever code considered harmful](https://medium.com/@joshuawcomeau/clever-code-considered-harmful-a1fb1054e8a1)
+#### [Clever code considered harmful](https://medium.com/@joshuawcomeau/clever-code-considered-harmful-a1fb1054e8a1)
 
 The article explores the balance between solving complex problems elegantly and writing accessible code.
 It discusses Project Euler's mathematical challenges and the importance of simplicity in collaborative coding environments.
 Emphasizing readability over complexity, it advocates for clear, accessible code that encourages contributions and facilitates debugging.
 Ultimately, it champions simplicity in coding solutions.
+
+### [Host A Viewing Party](/practices/host-a-viewing-party.md)
+
+#### [Async Code Reviews Are Chocking Your Company’s Throughput](https://www.youtube.com/watch?v=ZlLZEQQBcFg)
+
+In his presentation, Dragan delves into the common practice of pull/merge requests (PRs) in software development teams and its potential impact on throughput.
+Drawing from his study analyzing tens of thousands of PRs across various repositories, he reveals that teams utilizing small PRs with asynchronous code reviews often experience lower throughput compared to those employing larger PRs.
+However, Dragan introduces a solution to this dilemma through co-creation patterns such as pair and mob programming, where multiple individuals collaborate simultaneously on a task.
+By exploring data that challenges the assumption that this collaborative approach diminishes team throughput, Dragan suggests a path toward achieving both high throughput and quality in software development.
 
 ## Supporting Capabilities
 

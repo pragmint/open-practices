@@ -14,6 +14,8 @@
 
 ### [Lead A Demonstration](/practices/lead-a-demonstration.md)
 
+### [Run Pair Programming Sessions](/practices/run-pair-programming-sessions.md)
+
 ### [Lead Workshops](/practices/lead-workshops.md)
 
 ### [Host A Roundtable Discussion](/practices/host-a-roundtable-discussion.md)
