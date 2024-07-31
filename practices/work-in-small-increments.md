@@ -45,42 +45,20 @@ Have you experienced any fragmentation in your project due to working in very sm
 ### Is Your Work Aligned With Long-Term Goals?
 How do you maintain a balance between focusing on small, immediate tasks and ensuring that every effort aligns with and contributes to the long-term objectives of your project?
 
-## Exercises
+## How to Improve
 
-### Implement a Daily Commit Challenge
-* **Objective:** Encourage developers to commit at least once a day with meaningful changes to foster the habit of working in small increments.
-* **Outcome:** Increased familiarity with the practice, leading to a more consistent and manageable development process.
+### [Start A Book Club](/practices/start-a-book-club.md)
 
-### Track and Analyze Commit Sizes
-* **Objective:** Review the size and scope of commits over a period to assess whether the team is effectively balancing between too small and too large increments.
-* **Outcome:** Insights into the optimal size for commits that balance manageability with meaningful contribution to the project.
-
-### Continuous Integration (CI) Workflow Optimization
-* **Objective:** Evaluate and improve the CI process to handle frequent updates more efficiently, including automating tests and deployment where possible.
-* **Outcome:** A smoother, faster CI process that supports the practice without becoming a bottleneck.
-
-### Fragmentation Review
-* **Objective:** Conduct a review of recent features or changes to identify instances of fragmentation due to excessively small increments.
-* **Outcome:** Recommendations for combining or restructuring work to maintain project cohesion without sacrificing the benefits of small increments.
-
-### Strategic Increment Planning Session
-* **Objective:** Organize a planning session to align small increment work with long-term project goals, ensuring that each small task contributes to the bigger picture.
-* **Outcome:** A clearer understanding of how daily work fits into long-term objectives, potentially leading to more strategic task allocation and prioritization.
-
-## Resources
-
-### [Know Your Next Commit](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_47#know-your-next-commit)
+#### [Know Your Next Commit](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_47#know-your-next-commit)
 A guideline advocating for clarity and foresight in planning commits, emphasizing the practice of keeping changes small and manageable for incremental development and easier troubleshooting.
 
-### [An Argument Against PRs](https://www.youtube.com/watch?v=ZlLZEQQBcFg)
-A video discussion that critiques the standard use of pull requests, arguing for a workflow that favors smaller, frequent updates to foster better collaboration and efficiency in software development.
-
-### [Boy Scout Rule](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_08)
+#### [Boy Scout Rule](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_08)
 An approach to coding that urges developers to continually improve and clean up the codebase, making small, incremental enhancements with each commit, in line with the adage of leaving the code better than you found it.
 
-<!-- ## Related Practices -->
+### [Host A Viewing Party](/practices/host-a-viewing-party.md)
 
-<!-- TODO: insert a list of [linked practices](/practices) that relate to this practice. For each item, give a brief explanation of how the linked practice supports / relates to this practice. Also categorize each linked practices as one of the following: Enables, Requires, Improves -->
+#### [An Argument Against PRs](https://www.youtube.com/watch?v=ZlLZEQQBcFg)
+A video discussion that critiques the standard use of pull requests, arguing for a workflow that favors smaller, frequent updates to foster better collaboration and efficiency in software development.
 
 ## Supporting Capabilities
 
