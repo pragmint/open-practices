@@ -53,9 +53,11 @@ How frequently do we encounter issues that static code analysis tools miss, and 
 How effectively are we using static code analysis tools to assess and improve module cohesion and dependency management?
 Are there areas in our codebase with poor modularity that these tools have helped us identify and improve?
 
-## Exercises
+## How to Improve
 
-### Tool Selection and Initial Setup
+### [Do A Spike](/practices/do-a-spike.md)
+
+#### Tool Selection and Initial Setup
 
 Identify and set up a static code analysis tool that fits your team's needs.
 Research various static code analysis tools, such as SonarQube or CodeClimate, and compare their features.
@@ -63,33 +65,23 @@ Select one or two tools that seem promising and run them on a small project or s
 Integrate the chosen tool with your version control system and IDE.
 Review the initial set of issues identified to understand the tool's strengths and weaknesses, and determine which tool aligns best with your workflow.
 
-### Integration into CI/CD Pipeline
+### [Lead Workshops](/practices/lead-workshops.md)
 
-Integrate static code analysis into your CI/CD pipeline.
-Configure the tool to automatically run on every code commit or pull request, providing immediate feedback on code changes.
-Set up automated reports for detected issues to be shared with the development team, facilitating quick issue resolution.
-
-### Dependency and Modularity Analysis
+#### Dependency and Modularity Analysis
 
 Use static code analysis tools to evaluate and improve module dependencies.
 Run a dependency analysis on your current codebase and document areas with high coupling and poor cohesion.
 Based on the analysis, refactor parts of the codebase to improve modularity.
 Run the dependency analysis again to measure improvements.
 
-## Resources
+### [Start A Book Club](/practices/start-a-book-club.md)
 
-### [Automate Your Coding Standard](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_04)
+#### [Automate Your Coding Standard](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_04)
 
 This resource provides insights into the importance of automating coding standards to maintain code quality and consistency.
 It highlights how automated tools can help enforce coding conventions, making the codebase more manageable and the development process more efficient.
 
-### [System architecture as network data](https://vimeo.com/241241654)
-
-The speaker emphasizes the importance of loose coupling and high cohesion in software architecture to reduce dependencies between modules, thereby minimizing meetings and coordination overhead.
-They demonstrate how to use tools like Line Topology, Cytoscape, and Jupyter Notebooks to analyze and visualize code dependencies, enabling automated detection of modularity and cohesion in the system.
-By using network science and computational techniques, the speaker argues for the value of objective metrics in assessing and improving code modularity, drawing parallels to social networks and using examples like Game of Thrones character interactions to illustrate their points.
-
-### [Design structure matrix](https://en.wikipedia.org/wiki/Design_structure_matrix)
+#### [Design structure matrix](https://en.wikipedia.org/wiki/Design_structure_matrix)
 
 The Design Structure Matrix (DSM) is a visual tool used in systems engineering and project management to represent the interactions and dependencies within complex systems or processes in a compact, square matrix format.
 Originating in the 1960s, DSMs gained popularity in the 1990s across various industries and government agencies.
@@ -97,14 +89,22 @@ They can model both static systems, where elements coexist simultaneously, and t
 DSMs are advantageous for highlighting patterns, managing changes, and optimizing system structures.
 They utilize algorithms for reordering elements to minimize feedback loops and can be extended to multiple domain matrices to visualize interactions across different domains, enhancing information flow and office work optimization.
 
-### [Two Wrongs Can Make a Right (and Are Difficult to Fix)](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_86)
+#### [Two Wrongs Can Make a Right (and Are Difficult to Fix)](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_86)
 
 The article "Two Wrongs Can Make a Right (and Are Difficult to Fix)" by Allan Kelly highlights the complex nature of software bugs, particularly when two defects interact to create a single visible fault. This interplay can lead developers to repeatedly attempt fixes that fail because they only address part of the problem. Such scenarios demonstrate the importance of comprehensive error detection and resolution strategies. This concept supports the Perform Static Code Analysis Practice by underscoring the limitations of relying solely on automated tools to catch all issues. While static code analysis can identify many potential problems, it may miss nuanced or context-specific defects, especially those involving multiple interacting errors.
 
-### [The power of feedback loops](https://lucamezzalira.medium.com/the-power-of-feedback-loops-f8e27e8ac25f)
+#### [The power of feedback loops](https://lucamezzalira.medium.com/the-power-of-feedback-loops-f8e27e8ac25f)
 
 Luca Mezzalira's article 'The Power of Feedback Loops' underscores how iterative feedback enhances processes, resonating with the practice of Perform Static Code Analysis.
 Like feedback loops in development cycles, static code analysis tools automate early detection of issues such as code smells and security vulnerabilities, aligning with Mezzalira's advocacy for leveraging feedback to maintain high standards while emphasizing the need for developer judgment and human oversight in software quality assurance.
+
+### [Host A Viewing Party](/practices/host-a-viewing-party.md)
+
+#### [System architecture as network data](https://vimeo.com/241241654)
+
+The speaker emphasizes the importance of loose coupling and high cohesion in software architecture to reduce dependencies between modules, thereby minimizing meetings and coordination overhead.
+They demonstrate how to use tools like Line Topology, Cytoscape, and Jupyter Notebooks to analyze and visualize code dependencies, enabling automated detection of modularity and cohesion in the system.
+By using network science and computational techniques, the speaker argues for the value of objective metrics in assessing and improving code modularity, drawing parallels to social networks and using examples like Game of Thrones character interactions to illustrate their points.
 
 ## Supporting Capabilities
 
