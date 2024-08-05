@@ -51,38 +51,26 @@ Do we have adequate monitoring and alerting in place to detect and respond to is
 ### Continuous Improvement
 What lessons have we learned from past migrations, and how are we applying these insights to improve future processes? Are there emerging tools or practices that could enhance our migration strategy?
 
-## Exercises
+## How to Improve
 
-## Exercise 1: Create a Simple Migration Script
-* **Objective**: Learn the basics of writing a migration script by creating a simple script that adds a new table to your database.
-* **Tasks**:
-  1. Choose a database migration tool compatible with your database system (e.g., Flyway, Liquibase, etc).
-  2. Write a migration script to create a new table with at least three columns: an ID, a name, and a timestamp.
-  3. Run the migration script against your local development database.
-  4. Verify the table was created successfully by querying the database.
+### [Lead Workshops](/practices/lead-workshops.md)
 
-## Exercise 2: Implementing Rollbacks
-* **Objective**: Understand the rollback process by writing a script that undoes a migration.
-* **Tasks**:
-  1. Using the migration script from Exercise 1, write a rollback script that removes the table.
-  2. Apply the rollback script to your development database.
-  3. Confirm that the table has been successfully removed.
+#### Create a Simple Migration Script
 
-## Exercise 3: Handling Complex Migrations
-* **Objective**: Gain experience with complex migrations involving data transformations.
-* **Tasks**:
-  1. Write a migration script that alters an existing table by adding a new column.
-  2. Populate the new column with data transformed from existing columns (e.g., concatenating two columns into a new one).
-  3. Apply the migration and verify the data transformation was successful.
+Learn the basics of writing a migration script by creating a simple script that adds a new table to your database. Choose a database migration tool compatible with your database system (e.g., Flyway, Liquibase, etc). Write a migration script to create a new table with at least three columns: an ID, a name, and a timestamp. Run the migration script against your local development database. Verify the table was created successfully by querying the database.
 
-## Resources
+#### Implementing Rollbacks
+
+Understand the rollback process by writing a script that undoes a migration. Using the migration script from Exercise 1, write a rollback script that removes the table. Apply the rollback script to your development database. Confirm that the table has been successfully removed.
+
+#### Handling Complex Migrations
+
+Gain experience with complex migrations involving data transformations. Write a migration script that alters an existing table by adding a new column. Populate the new column with data transformed from existing columns (e.g., concatenating two columns into a new one). Apply the migration and verify the data transformation was successful.
+
+### [Start A Book Club](/practices/start-a-book-club.md)
 
 ### [Evolutionary Database Design](https://martinfowler.com/articles/evodb.html)
 This foundational article by Martin Fowler discusses the principles and practices behind evolutionary database design, which is central to the concept of automatic database migrations. It provides a thorough exploration of how to manage database schema changes in a way that supports agile development practices.
-
-<!-- ## Related Practices -->
-
-<!-- TODO: insert a list of [linked practices](/practices) that relate to this practice. For each item, give a brief explanation of how the linked practice supports / relates to this practice. Also categorize each linked practices as one of the following: Enables, Requires, Improves -->
 
 ## Supporting Capabilities
 
