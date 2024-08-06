@@ -30,31 +30,35 @@ What processes do we have in place for managing changes to configuration? How do
 ### Are We Balancing Flexibility with Complexity?
 In our efforts to externalize configuration, have we introduced unnecessary complexity into our deployment and operational processes? How do we strike a balance between the flexibility of externalized configurations and the simplicity of our overall system architecture?
 
-## Exercises
+## How to Improve
 
-### Review and Identify Configuration in Version Control
+### [Lead Workshops](/practices/lead-workshops.md)
+
+#### Review and Identify Configuration in Version Control
+
 Audit your current repositories to identify instances of configuration or sensitive data stored within version control. Document the types of data found and evaluate the potential risks associated with their exposure.
 
-### Implement Environment-Specific Configuration Files
-Create separate configuration files for different environments (development, staging, production). Ensure the schema of each file should be the same. Experiment with mechanisms to securely inject these configurations during deployment or runtime.
+#### Configuration Change Management Simulation
 
-### Secure Configuration Storage Evaluation
-Explore and integrate a secure configuration management solution, such as HashiCorp Vault or AWS Secrets Manager. Evaluate the effectiveness of this solution in improving security and flexibility compared to storing sensitive data in version control.
-
-### Configuration Change Management Simulation
 Simulate a process for managing changes to configuration data that involves multiple environments. Include steps for reviewing, approving, and applying configuration changes. Assess the impact on deployment times, security, and team collaboration.
 
-## Resources
+### [Do A Spike](/practices/do-a-spike.md)
 
-### [The Twelve-Factor App - Config](https://12factor.net/config)
+#### Implement Environment-Specific Configuration Files
+
+Create separate configuration files for different environments (development, staging, production). Ensure the schema of each file should be the same. Experiment with mechanisms to securely inject these configurations during deployment or runtime.
+
+#### Secure Configuration Storage Evaluation
+
+Explore and integrate a secure configuration management solution, such as HashiCorp Vault or AWS Secrets Manager. Evaluate the effectiveness of this solution in improving security and flexibility compared to storing sensitive data in version control.
+
+### [Start A Book Club](/practices/start-a-book-club.md)
+
+#### [The Twelve-Factor App - Config](https://12factor.net/config)
 This section of the Twelve-Factor App methodology emphasizes the importance of separating configuration from code. It advocates for storing config in the environment to improve security and adaptability across various deployment environments, offering foundational insights for efficient configuration management.
 
-### [97 Things Every Programmer Should Know - Store Configurations in the Environment](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_61)
+#### [97 Things Every Programmer Should Know - Store Configurations in the Environment](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_61)
 A concise guide that underscores the significance of externalizing configuration, highlighting how this practice enhances application security, simplifies deployment, and supports scalability. It provides actionable advice for developers to implement this best practice effectively.
-
-<!-- ## Related Practices -->
-
-<!-- TODO: insert a list of [linked practices](/practices) that relate to this practice. For each item, give a brief explanation of how the linked practice supports / relates to this practice. Also categorize each linked practices as one of the following: Enables, Requires, Improves -->
 
 ## Supporting Capabilities
 
