@@ -68,9 +68,11 @@ This approach ensures that critical or complex application components are approp
 * How prepared is your team to adopt and manage ephemeral environments, and what training or resources will be necessary?
 * Will you conduct pilot tests of ephemeral environments before full-scale implementation, and what criteria will you use to evaluate their success?
 
-## Resource
+## How to Improve
 
-### [What is an ephemeral environment?](https://webapp.io/blog/what-is-an-ephemeral-environment/)
+### [Start A Book Club](/practices/start-a-book-club.md)
+
+#### [What is an ephemeral environment?](https://webapp.io/blog/what-is-an-ephemeral-environment/)
 
 The article on webapp.io explains ephemeral environments as temporary, self-contained setups for application feature branches.
 These environments allow for faster development cycles, visual reviews, and collaboration with non-technical stakeholders, closely mirroring production environments.
