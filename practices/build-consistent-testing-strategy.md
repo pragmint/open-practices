@@ -70,9 +70,11 @@ With the rise of automation, there is a misconception that manual testing is no 
 * How adaptable is your testing strategy to changes in project requirements, team composition, or technology stack?
 * What processes do you have in place to regularly review and update your testing strategy?
 
-## Exercises
+## How to Improve
 
-### Evaluate Current Testing Strategy
+### [Host A Roundtable Discussion](/practices/host-a-roundtable-discussion.md)
+
+#### Evaluate Current Testing Strategy
 
 Schedule a team meeting to review your current testing strategy.
 Analyze your existing practices, tools, and processes.
@@ -80,39 +82,34 @@ Document the strengths, weaknesses, and any gaps in your approach.
 Discuss potential improvements and prioritize them based on impact and feasibility.
 After implementing changes, reassess after a few sprints to measure improvements in bug detection and code quality.
 
-### Develop a Testing Strategy Document
+<!-- workshop  -->
+
+### [Lead a Workshop](/practices/lead-a-workshop.md)
+
+#### Develop a Testing Strategy Document
 
 Create a detailed testing strategy document that outlines your project's specific testing needs. Include information on test types, coverage goals, and maintenance practices.
 Share this document with your team and solicit feedback.
 Implement the strategy and monitor its impact on your testing process and overall code quality.
 
-### Balance Your Test Pyramid
+#### Balance Your Test Pyramid
 
 Analyze your current distribution of unit, integration, and end-to-end tests.
 Compare it to the ideal test pyramid, which suggests having more unit tests, fewer integration tests, and even fewer end-to-end tests.
 Adjust your test suite to better align with this model, and observe changes in test execution times and reliability.
 
-### Integrate Tests into Continuous Integration (CI) Pipeline
+#### Integrate Tests into Continuous Integration (CI) Pipeline
 
 If not already done, integrate your tests into the CI pipeline.
 Ensure that all tests run automatically on each code commit.
 
-### Conduct Manual Exploratory Testing Sessions
+#### Conduct Manual Exploratory Testing Sessions
 
 Schedule regular manual exploratory testing sessions where team members test the application without predefined scripts.
 Focus on uncovering usability issues and edge cases.
 Compare the issues found through these sessions with those found through automated testing to understand the value added by manual exploration.
 
-### Refactor and Maintain Tests Regularly
-
-Implement a routine for regularly reviewing and refactoring your test suite to ensure it remains relevant and maintainable.
-Track how often tests are updated and how this correlates with test reliability and maintenance effort.
-Document any patterns or practices that help in keeping the test suite effective.
-
-### Measure and Analyze Test Coverage
-
-Use test coverage tools to measure the extent of code covered by your tests.
-Identify areas with low coverage and assess whether increasing coverage in these areas improves bug detection rates.
+### [Run Pair Programming Sessions](/practices/run-pair-programming-sessions.md)
 
 ### Share and Educate Testing Best Practices
 
