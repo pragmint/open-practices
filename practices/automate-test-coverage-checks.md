@@ -65,9 +65,11 @@ Teams should regularly review and adjust coverage thresholds based on evolving p
 * How do we measure the success of our automated testing strategy over time?
 * What lessons can we learn from past experiences to enhance our future approach to automated test coverage?
 
-## Resources
+## How to Improve
 
-### [Test Coverage](https://martinfowler.com/bliki/TestCoverage.html)
+### [Start A Book Club](/practices/start-a-book-club.md)
+
+#### [Test Coverage](https://martinfowler.com/bliki/TestCoverage.html)
 
 In his blog post on test coverage, Martin Fowler explores the concept of test coverage as a tool for identifying untested code rather than as a definitive measure of test quality.
 He argues that while high test coverage percentages can highlight which parts of the code are exercised by tests, they do not necessarily indicate the effectiveness of those tests.
