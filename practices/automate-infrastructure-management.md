@@ -56,42 +56,36 @@ Are security checks and compliance measures embedded throughout your IaC pipelin
 Think about the level of collaboration between your development, operations, and security teams in managing and evolving your IaC strategy.
 Is there a culture of shared responsibility and knowledge sharing, or are silos hindering your progress?
 
-## Exercises
+## How to Improve
 
-### Exercise 1: IaC Tool Comparison
-* **Objective:** Compare at least two IaC tools (e.g., Terraform vs. Ansible) by setting up a simple infrastructure (such as a web server) using both.
-* **Outcome:** Understand the strengths and weaknesses of each tool in terms of syntax, ecosystem, and community support.
+### [Do A Spike](/practices/do-a-spike.md)
 
-### Exercise 2: Infrastructure Version Control
-* **Objective:** Implement version control for your IaC configurations using a platform like GitHub or GitLab.
-* **Outcome:** Experience how version control facilitates collaboration among team members, improves transparency, and enables rollback to previous states.
+#### IaC Tool Comparison
 
-### Exercise 3: CI/CD Integration
-* **Objective:** Integrate your IaC setup with a CI/CD pipeline (using Jenkins, GitLab CI, or GitHub Actions) to automate the deployment of infrastructure changes.
-* **Outcome:** Learn how automation in deployment processes reduces manual errors and speeds up delivery times.
+Compare at least two IaC tools (e.g., Terraform vs. Ansible) by setting up a simple infrastructure (such as a web server) using both. Understand the strengths and weaknesses of each tool in terms of syntax, ecosystem, and community support.
 
-### Exercise 4: Immutable Infrastructure Deployment
-* **Objective:** Deploy a set of infrastructure components, then simulate a "disaster" by destroying them. Re-deploy using only your IaC scripts.
-* **Outcome:** Gain confidence in the immutability and recoverability of your infrastructure through IaC practices.
+#### CI/CD Integration
 
-### Exercise 5: Security and Compliance as Code
-* **Objective:** Implement security scanning and compliance checks into your IaC workflow using tools like Checkov or Terrascan.
-* **Outcome:** Understand how to proactively identify and remediate security and compliance issues within your infrastructure code.
+Integrate your IaC setup with a CI/CD pipeline (using Jenkins, GitLab CI, or GitHub Actions) to automate the deployment of infrastructure changes.
+Learn how automation in deployment processes reduces manual errors and speeds up delivery times.
 
-### Exercise 6: Collaboration and Knowledge Sharing
-* **Objective:** Conduct a knowledge-sharing session within your team to discuss best practices, challenges, and tips for using IaC effectively.
-* **Outcome:** Foster a culture of collaboration and continuous improvement, identifying gaps in knowledge and areas for further training.
+### [Lead Workshops](/practices/lead-workshops.md)
 
+#### Immutable Infrastructure Deployment
 
-## Resources
+Deploy a set of infrastructure components, then simulate a "disaster" by destroying them. Re-deploy using only your IaC scripts. Gain confidence in the immutability and recoverability of your infrastructure through IaC practices.
 
-### [Codify your infrastructure so it can also be version controlled](https://dzone.com/articles/secure-terraform-delivery-pipeline-best-practices)
+### [Host A Roundtable Discussion](/practices/host-a-roundtable-discussion.md)
+
+#### Collaboration and Knowledge Sharing
+
+Conduct a knowledge-sharing session within your team to discuss best practices, challenges, and tips for using IaC effectively. Foster a culture of collaboration and continuous improvement, identifying gaps in knowledge and areas for further training.
+
+### [Start A Book Club](/practices/start-a-book-club.md)
+
+#### [Codify your infrastructure so it can also be version controlled](https://dzone.com/articles/secure-terraform-delivery-pipeline-best-practices)
 
 This resource provides a comprehensive guide on implementing a secure Terraform delivery pipeline, emphasizing the importance of codifying infrastructure to leverage version control. It outlines best practices for managing infrastructure as code (IaC) securely, including how to automate the deployment process, enforce policy as code, and integrate security checks. The article is valuable for understanding how to efficiently and securely manage infrastructure changes within a version-controlled environment.
-
-<!-- ## Related Practices -->
-
-<!-- TODO: insert a list of [linked practices](/practices) that relate to this practice. For each item, give a brief explanation of how the linked practice supports / relates to this practice. Also categorize each linked practices as one of the following: Enables, Requires, Improves -->
 
 ## Supporting Capabilities
 
