@@ -16,8 +16,6 @@ However, this approach requires a strategy to stay updated with the latest fixes
 Automated tools like Dependabot facilitate keep the dependencies updated across projects.
 They monitor dependencies for new versions, and can automatically create pull requests to update to these newer versions.
 
-<!-- TODO: Include mentioning of integrating tools with CI/CD pipeline -->
-
 ## Introspective Questions
 
 ### How Effective Is Your Dependency Management?
@@ -34,36 +32,37 @@ How often do you review dependency versions for potential updates, and could thi
 Are automatic dependency update tools suitable for your project?
 Could you benefit from using tools like Dependendabot, Renovate or Snyk to have dependency update pull requests generated automatically?
 
-## Exercises
+## How to Improve
 
-### Audit Your Current Dependency Management
-- **Objective:** To assess the current state of dependency management within your team or organization.
-- **Outcome:** A comprehensive report detailing which dependencies are managed effectively and which are not, identifying potential areas for improvement.
+### [Lead Workshops](/practices/lead-workshops.md)
 
-### Implement Semantic Versioning on a Small Scale
-- **Objective:** To experiment with semantic versioning by applying it to a small, manageable portion of your project.
-- **Outcome:** Insights into how semantic versioning affects project stability and the process of updating dependencies, helping you decide if a broader implementation is beneficial.
+#### Audit Your Current Dependency Management
 
-### Dependency Update Policy Review
-- **Objective:** To review and potentially revise your current policies on updating dependencies.
-- **Outcome:** A refined update policy that balances the need for updates with the desire for stability, possibly leading to more efficient and secure project development.
+To assess the current state of dependency management within your team or organization. A comprehensive report detailing which dependencies are managed effectively and which are not, identifying potential areas for improvement.
 
-### Simulate a Dependency Hell Scenario
-- **Objective:** To simulate a "dependency hell" scenario to understand its impact and identify strategies for mitigation.
-- **Outcome:** Practical experience in managing complex dependency chains, leading to improved strategies for avoiding or dealing with dependency hell in real projects.
+#### Dependency Update Policy Review
 
-### Implement Automatic Dependency Updates tool
-- **Objective:** Lock mayor dependencies in your project and configure Dependabot or a similar tool, to generate PRs when new version of dependencies are published
-- **Outcome:** Understand how automatic dependency update tools impact your work flow and the overall stability of the project.
+To review and potentially revise your current policies on updating dependencies. A refined update policy that balances the need for updates with the desire for stability, possibly leading to more efficient and secure project development.
 
-## Resources
+#### Simulate a Dependency Hell Scenario
 
-### [Dependencies Belong in Version Control](https://www.forrestthewoods.com/blog/dependencies-belong-in-version-control/)
+To simulate a "dependency hell" scenario to understand its impact and identify strategies for mitigation. Practical experience in managing complex dependency chains, leading to improved strategies for avoiding or dealing with dependency hell in real projects.
+
+### [Do A Spike](/practices/do-a-spike.md)
+
+#### Implement Semantic Versioning on a Small Scale
+
+To experiment with semantic versioning by applying it to a small, manageable portion of your project. Insights into how semantic versioning affects project stability and the process of updating dependencies, helping you decide if a broader implementation is beneficial.
+
+#### Implement Automatic Dependency Updates tool
+
+Lock mayor dependencies in your project and configure Dependabot or a similar tool, to generate PRs when new version of dependencies are published. Understand how automatic dependency update tools impact your work flow and the overall stability of the project.
+
+### [Start A Book Club](/practices/start-a-book-club.md)
+
+#### [Dependencies Belong in Version Control](https://www.forrestthewoods.com/blog/dependencies-belong-in-version-control/)
+
 This article explores the importance of including dependencies within version control systems to ensure consistency, reliability, and traceability in software development projects. It discusses the benefits and methodologies of version controlling dependencies, offering insights into best practices for managing software dependencies effectively.
-
-<!-- ## Related Practices -->
-
-<!-- TODO: insert a list of [linked practices](/practices) that relate to this practice. For each item, give a brief explanation of how the linked practice supports / relates to this practice. Also categorize each linked practices as one of the following: Enables, Requires, Improves -->
 
 ## Supporting Capabilities
 
