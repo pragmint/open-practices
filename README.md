@@ -1,6 +1,6 @@
-# Best Practices
+# Open Practices
 
-This repository is an opinionated list of best practices that high-performing software development teams can follow. We've organized these [practices](/practices/) based on [DORA Capabilities](https://dora.dev/capabilities/) to piggyback off of their exhaustive research over the past decade. By focusing on the practices, we aim to give readers many actionable opportunities to grow their skills and fine-tune their processes.
+This repository is an opinionated list of open practices that high-performing software development teams can follow. We've organized these [practices](/practices/) based on [DORA Capabilities](https://dora.dev/capabilities/) to piggyback off of their exhaustive research over the past decade. By focusing on the practices, we aim to give readers many actionable opportunities to grow their skills and fine-tune their processes.
 
 For the purposes of this repository **we're defining a practice to mean an actionable pattern, technique, or process.** Our goal is to give teams specific practices that they can experiment with to improve. Not every practice we include will be beneficial in every situation. Every situation is rife with nuance. Our curated list is designed to include practices that typically work and are in support a given DORA Capability. Our goal is to provide specific options for teams to take action on to improve.
 
@@ -54,4 +54,4 @@ If you're a tech leader, exposing your teams to this resource may be a helpful f
 
 ## Contributing
 
-Our repository is always evolving. You can add to it by [raising issues](https://github.com/pragmint/best-practices/issues) or [submitting pull requests](https://github.com/pragmint/best-practices/pulls). Given this repository is meant to represent the opinions of [Pragmint](https://pragmint.com/), our maintainers reserve the right to approve or reject any and all suggestions. However, we welcome contributions as they represent opportunities to broaden our horizons and interact with the broader community. Any contributions to this repository are subject to the [Creative Commons License](/LICENSE.txt) so that anyone in the community can benefit from the ideas contained in this repository.
+Our repository is always evolving. You can add to it by [raising issues](https://github.com/pragmint/open-practices/issues) or [submitting pull requests](https://github.com/pragmint/open-practices/pulls). Given this repository is meant to represent the opinions of [Pragmint](https://pragmint.com/), our maintainers reserve the right to approve or reject any and all suggestions. However, we welcome contributions as they represent opportunities to broaden our horizons and interact with the broader community. Any contributions to this repository are subject to the [Creative Commons License](/LICENSE.txt) so that anyone in the community can benefit from the ideas contained in this repository.
