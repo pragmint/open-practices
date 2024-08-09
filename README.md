@@ -1,8 +1,10 @@
 # Open Practices
 
-This repository is an opinionated list of open practices that high-performing software development teams can follow. We've organized these [practices](/practices/) based on [DORA Capabilities](https://dora.dev/capabilities/) to piggyback off of their exhaustive research over the past decade. By focusing on the practices, we aim to give readers many actionable opportunities to grow their skills and fine-tune their processes.
+> Practice - An actionable pattern, technique, or process employed by software professionals.
 
-For the purposes of this repository **we're defining a practice to mean an actionable pattern, technique, or process.** Our goal is to give teams specific practices that they can experiment with to improve. Not every practice we include will be beneficial in every situation. Every situation is rife with nuance. Our curated list is designed to include practices that typically work and are in support a given DORA Capability. Our goal is to provide specific options for teams to take action on to improve.
+This repository is an opinionated list of practices that high-performing software development teams can follow. We've organized these [practices](/practices/) based on [DORA Capabilities](https://dora.dev/capabilities/) to piggyback off of their exhaustive research over the past decade. By focusing on practices that support these research-backed capabilities, we aim to give readers many actionable opportunities to grow their skills and fine-tune their processes in areas that are likely to positively impact the organizations they work with.
+
+Not every practice we include will be beneficial in every situation. Each unique situation is rife with nuance. Our curated list is designed to include practices that typically work and are in support a given DORA Capability. Our goal is to ensure that teams always have fresh, pragmatic, and actionable ideas on how they can improve.
 
 At [Pragmint](https://pragmint.com/), we rely on this resource to onboard new team members and focus our [Co-Dev Coaching](https://www.pragmint.com/insight/what-is-co-dev-coaching) efforts.
 
