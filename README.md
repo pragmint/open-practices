@@ -48,6 +48,10 @@ At [Pragmint](https://pragmint.com/), we rely on this resource to onboard new te
 - [Test Data Management](/capabilities/test-data-management.md)
 - [Visibility of Work in the Value Stream](/capabilities/visibility-of-work-in-the-value-stream.md)
 
+## Capabilities Maturity Assessment
+
+Teams can take [this assessment](/capabilities-maturity-assessment.md) to identify areas where there are significant gaps in capability adoption.
+
 ## Important Note
 
 Reading and learning alone won't create lasting change. It's important to experiment with each practice. Each team has a different mix of skills, experiences, and constraints. So, a one-size-fits-all approach tends to feel heavyweight. It's helpful to set time aside to earnestly experiment with new practices, then keep what works and throw out what doesn't. Understand that just because a practice doesn't work for one team doesn't mean it has no value for other teams. Our goal with this repository is to list practices that tend to work for most teams.
