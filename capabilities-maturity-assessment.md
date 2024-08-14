@@ -237,8 +237,8 @@ To improve in a capability, find the page in the [capabilities list](/capabiliti
 
 #### Manual Test Data Management
 
-1. **Manual Data Management:** Teams test locally or in shared environments, with difficulties in setting up and tearing down data for test scenarios.
-2. **Shared Test Environments with Limited Control:** Teams share test environments with varied data, but face challenges with environment contamination and access restrictions.
+1. **No Data Management:** Teams manually set up and tear down data required for test scenarios, sometimes with great difficulty.
+2. **Shared Test Environments with Limited Control:** Teams share test environments with varied data, but face occasional challenges with environment contamination and access restrictions.
 3. **Scripted Data Seeding:** Teams can run automated data seeding scripts locally or in ephemeral environments, but they may not cover all possible scenarios.
 4. **Scrubbed Prod Data:** Ephemeral environments are easily created and torn down, seeded with production data that has sensitive information scrubbed from it, representing all existing states.
 
