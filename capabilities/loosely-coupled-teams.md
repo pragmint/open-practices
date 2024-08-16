@@ -9,11 +9,38 @@
 * Teams can deploy during normal business hours with negligible downtime.
 
 * Use the proper architectural archetypes according to evolutionary organization needs. Monolithic -> Microservices
+    * Monolith v1
+    * Monolith v2
+    * Microservices
+* Testing with mocking eliminating external dependencies
+
+* Blue Green deployment model
+* Rolling deployment model
+* Backward compatible migrations
+
+* Avoid
+    * Releasing many services at once
+    * Integrate changes from too many developers
+    * Bottle necks
+        * Teams that many others rely on to deliver changes
+
+* strangler fig application
+
+* service-discovery mechanism
+
+* API versioning for backwards compatibility while deploying services one by one
+
+* Improvements in job satisfaction and team experimentation (related capabilities)
 
 
 ## Supporting Practices
 
+* evolutionary architecture
+* Decouple From Third Parties
+* Create and Manage Ephemeral Environments
+* Run Pair Programming sessions (with members from another team)
 * [Check Documentation Consistency](/practices/check-documentation-consistency.md)
+* Write Contract Tests
 * Write decision making log
 * Implement Microservice Architecture
 * Implement Distributed Tracing
@@ -35,3 +62,9 @@
 [Conway’s Law: How to dissolve communication barriers in your API development organization](https://medium.com/better-practices/how-to-dissolve-communication-barriers-in-your-api-development-organization-3347179b4ecc)
 
 [Technical Decision Making](https://copyconstruct.medium.com/technical-decision-making-9b2817c18da4)
+
+[Blue Green & Rolling deployments](https://www.split.io/blog/difference-between-rolling-and-blue-green-deployments/)
+
+[Contact Test](https://martinfowler.com/bliki/ContractTest.html)
+
+[The Twelve Factor App](https://12factor.net/)
