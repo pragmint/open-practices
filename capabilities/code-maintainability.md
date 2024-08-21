@@ -1,7 +1,7 @@
 # [Code Maintainability](https://dora.dev/devops-capabilities/technical/code-maintainability/)
 
 Each time we write, edit, or read a line of code it costs an organization time and money.
-In the lifespan of a line of code, it will be written once, edited at least a handful of times, and read many times.
+In the lifespan of a typical line of code, it will likely be written once, edited at least a handful of times, and read many times.
 As such, it makes sense to write code in a way that reduces the time required to comprehend it.
 Ideally, the software is built such that the reader can avoid needing to know how the whole system functions in order to make a local change.
 Furthermore, bugs are easier to spot when the surrounding code is easy to comprehend.
@@ -14,9 +14,37 @@ There may be good reasons to follow such a path, however doing so further degrad
 There is a delay between difficult to maintain code being introduced and the team experiencing a performance degradation.
 This delay makes it harder for non-technical team members to understand the consequences of implementing too many short-term solutions.
 
-## Supporting Practices
+## Nuance
 
-<!-- More practices will be added incrementally -->
+### Gold Plating
+
+While it's important to write code that is easy to maintain, this shouldn't be done at the expense of building a perfect system.
+The cost of creating and maintaining software systems can add up quickly, and every decision made during development has the potential to impact the long-term maintenance of the system.
+Therefore, it's important to be mindful of these costs and benefits when making decisions about the design and functionality of the software.
+
+## Assessment
+
+To assess how mature your team or organization is in this capability, answer the questions below.
+
+Don't worry if the description doesn't exactly match your situation. The descriptions are meant as examples of situations that would qualify for the associated score. Generally, score yourself a 1 if this capability is completely missing from your team, a 2 if there is a lot of room for improvement, a 3 if there is some room for improvement, and a 4 if your team is exemplary in this capability.
+
+### New Code
+
+1. **Growing Tech Debt:** Code is rarely refactored, leading to routine growth of tech debt.
+2. **Occasional Maintenance:** Teams sometimes prioritize feature delivery over maintainability.
+3. **Reactive Maintenance:** Code is regularly maintained as problems become bottlenecks or pain points.
+4. **Proactive Maintenance:** Teams have a sharpened design sense and proactively refactor the codebase to minimize the impact of future changes.
+
+### Previously Written Code
+
+1. **Brittle Codebase:** Changing any code is time-consuming, complex, and error prone.
+2. **Fairly Complex:** Most changes require significant refactoring, and it's difficult to predict the impact of changes on the overall system.
+3. **Partially Modular:** Most parts of the system are modular and easy to update, but some are complex and difficult to work with.
+4. **Well Organized:** When changes are made to the existing codebase, they don’t tend to require much rework.
+
+Now average the two responses and that will be your score for this capability.
+
+## Supporting Practices
 
 ### [Automate Coding Standards](/practices/automate-coding-standards.md)
 
@@ -71,3 +99,15 @@ By integrating static code analysis into version control systems, IDEs, and CI/C
 ### [Version Control](/capabilities/tech/version-control.md)
 
 Version Control is fundamental for a maintainable codebase, allowing for efficient tracking, collaboration, and management of code changes over time.
+By tracking changes made to the codebase using version control, developers can ensure consistency across contributors, reuse code components, conduct code audits, track bugs and errors, meet compliance requirements, manage security patches, and integrate updates quickly and easily into the codebase.
+
+### [Documentation Quality](/capabilities/documentation-quality.md)
+
+High-quality documentation is essential for code maintainability, providing context, design decisions, best practices, and compatibility information.
+By investing in documentation, developers create a single source of truth for the codebase, reducing confusion and bugs down the line.
+A well-documented codebase is more maintainable, and vice versa.
+
+### [Loosely Coupled Teams](/capabilities/loosely-coupled-teams.md)
+
+When teams are able to "own" their changes without requiring buy-in or high levels of coordination with other teams, the codebases they operate in tend to reflect that loose coupling.
+As a result, the overall maintainability of the codebase improves, with faster bug fixing, improved security, and better code quality.
