@@ -2,6 +2,8 @@
 
 This assessment is designed to assess the maturity of your team(s) or organization as it relates to [DORA Capabilities](https://dora.dev/capabilities/). Take a moment to understand each capability then choose the statement that best reflects your current experience within your team(s) or organization. Most capabilities only have one questions, but for those with multiple sub-questions, take the average and that's your maturity score for the given capability.
 
+Don't worry if the description doesn't exactly match your situation. The descriptions are meant as examples of situations that would qualify for the associated score. Generally, score yourself a 1 if this capability is completely missing from your team, a 2 if there is a lot of room for improvement, a 3 if there is some room for improvement, and a 4 if your team is exemplary in this capability.
+
 Don't feel any pressure to select a high rating. The goal of this assessment is to get an honest reading and pinpoint areas where further improvement are likely to yield benefits for your organization. You may also find that the act of taking this assessment will spur helpful conversations with your team(s).
 
 To improve in a capability, find the page in the [capabilities list](/capabilities/), then select any relevant supporting practices to experiment with. Each practice has a `How To Improve` section that should help you get started. After you've made some improvements, take this assessment again to track your progress and find your next area of focus.
