@@ -70,7 +70,12 @@ Gain experience with complex migrations involving data transformations. Write a 
 ### [Start A Book Club](/practices/start-a-book-club.md)
 
 ### [Evolutionary Database Design](https://martinfowler.com/articles/evodb.html)
+
 This foundational article by Martin Fowler discusses the principles and practices behind evolutionary database design, which is central to the concept of automatic database migrations. It provides a thorough exploration of how to manage database schema changes in a way that supports agile development practices.
+
+### [Migrations Done Well](https://newsletter.pragmaticengineer.com/p/migrations)
+
+This issue is an extensive guide on the process of migration. You can use it as a blueprint when preparing and executing migrations.
 
 ## Supporting Capabilities
 
