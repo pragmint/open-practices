@@ -72,7 +72,7 @@ Starting a community of practice provides a dedicated space where a variety of p
 
 ### [Use SPIN To Unearth Problems and Solutions](/practices/use-spin-to-unearth-problems-and-solutions.md)
 
-50% of solving a problem is to first know it exists. Use SPIN To Unearth Problems and Solutions provides a clear framework for uncovering problems and solutions. An organization equipped with SPIN techniques will be able to uncover problems and solutions at higher rates, allowing teams to learn from past decisions and continuously improve.
+SPIN is a question asking framework originally developed for sales professionals. Software professionals can use SPIN to uncover problems and creative solutions, thus bolstering a learning culture.
 
 ## Related Capabilities
 
