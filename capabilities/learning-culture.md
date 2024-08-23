@@ -70,6 +70,10 @@ Dogfooding your systems involves having your teams use the same products or syst
 
 Starting a community of practice provides a dedicated space where a variety of practices can be performed. This collaborative environment fosters continuous learning, sharing of best practices, and collective problem-solving. By bringing together practitioners with shared interests, a community of practice can drive innovation, enhance skills, and promote a culture of continuous improvement. It serves as a flexible platform for implementing various practices and exploring new ideas within the group.
 
+### [Use SPIN To Unearth Problems and Solutions](/practices/use-spin-to-unearth-problems-and-solutions.md)
+
+50% of solving a problem is to first know it exists. Use SPIN To Unearth Problems and Solutions provides a clear framework for uncovering problems and solutions. An organization equipped with SPIN techniques will be able to uncover problems and solutions at higher rates, allowing teams to learn from past decisions and continuously improve.
+
 ## Related Capabilities
 
 ### [Generative Organizational Culture](/capabilities/culture/generative-organizational-culture.md)
