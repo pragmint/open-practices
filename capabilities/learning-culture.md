@@ -13,16 +13,16 @@ A learning culture can only be fostered if there is support from leadership.
 If leaders aren't creating the space and advocating for learning, the team's focus will shift to execution.
 If a team is only ever focused on execution, the team's performance isn't likely to improve over time.
 
-## Introspective Questions
+## Assessment
 
-- Does your organization view learning as an investment necessary for growth?
-- Is learning seen as a necessary burden, undertaken only grudgingly?
-- Is learning completely avoided?
+To assess how mature your team or organization is in this capability, answer the question below.
 
-<!--
-## Resources
-TODO: insert a list of resources that explore this capability. For each item, give a brief summary of the resource.
--->
+Don't worry if the description doesn't exactly match your situation. The descriptions are meant as examples of situations that would qualify for the associated score. Generally, score yourself a 1 if this capability is completely missing from your team, a 2 if there is a lot of room for improvement, a 3 if there is some room for improvement, and a 4 if your team is exemplary in this capability.
+
+1. **Static Knowledge:** Learning is limited to onboarding and initial training, with little emphasis on ongoing development or skill-building.
+2. **Ad Hoc Learning:** Teams occasionally attend conferences or workshops, but learning is not a prioritized or structured part of the organization's culture.
+3. **Encouraged Learning:** Learning is valued and encouraged, with some resources and opportunities provided for professional development, but it's not a core part of the organization's identity.
+4. **Learning As A Competitive Advantage:** Learning is deeply ingrained in the organization's culture, viewed as a key driver of improvement and innovation, and actively prioritized and invested in to stay ahead of the curve.
 
 ## Supporting Practices
 
