@@ -1,34 +1,31 @@
 # Use SPIN To Unearth Problems and Solutions
 
-SPIN is a technique which is designed to unearth problems and solutions by asking different kinds of questions. While these questions serve value when asked to decision makers, they can also be asked inwardly.
-It's an acronym for:
-* Situation Questions: questions that collect facts, information, and background data about the existing situation.
-* Problem Questions: questions that probe for problems, difficulties, or dissatisfaction.
-* Implication Questions: questions that develop the seriousness of an implied need and increase the size of the problem.
-* Need-Payoff Questions: questions that build up the value or usefulness of the solution.
+SPIN Selling is a practice that focuses on understanding a person's needs through four types of questions: Situation, Problem, Implication, and Need-Payoff. By identifying and addressing the someone's pain points and the consequences of inaction, the question asker guides the person to recognize the value of the solution being offered. Below is a more detailed breakdown of each category of question:
 
-Other useful terms:
+* Situation: questions that collect facts, information, and background data about the existing situation.
+* Problem: questions that probe for problems, difficulties, or dissatisfaction.
+* Implication: questions that develop the seriousness of an implied need and increase the size of the problem.
+* Need-Payoff: questions that build up the value or usefulness of the solution.
 
-* Implied Needs: Statements of problems, difficulties, and dissatisfaction.
-* Explicit Needs: Specific statements of wants or desires.
+Software professionals can use SPIN to generate buy-in on a new idea. This occurs when there is a high level of agreement in the problems and implications of those problems existing.
 
-It also provides a path for getting buy in from others. For example, convincing a team to write unit tests is not as simple as telling the team to write unit tests. Using the SPIN model takes the team on a journey and clearly conveys the implications of not having unit tests and the benefits of adopting unit testing.
+Let's say there is a team struggling to get timely code review from a centralized reviewer. Someone could use the SPIN framework with the centralized reviewer to establish the importance of solving this problem. See the example conversation below:
 
-### The Spin Model
-Use SITUATION QUESTIONS to establish context,
-leading to PROBLEM QUESTIONS so that the IMPLIED NEEDS are revealed,
-which are developed by IMPLICATION QUESTIONS,
-which makes the impact of the problem more clear and accurate,
-leading to NEED-PAYOFF QUESTIONS so that the EXPLICIT NEEDS are identified,
-allowing the BENEFITS to be identified,
-which are strongly related to success.
+```text
+Situation Q: How many pull requests do you review each day?
+A: It depends, but usually somewhere between 6 and 10.
 
+Problem Q: Is it hard to juggle that many pull requests every day? How much of your feedback is repetitive?
+A: Yeah, the context switching is difficult and a large percentage of the feedback I provide winds up covering a similar selection of topics.
 
-## Nuance
+Implication Q: What are you unable to do now because of the effort required to stay on top of these reviews?
+A: I'm so behind on doing actual programming. Right now, it's taking me twice as long to finish my work.
 
+Need Payoff Q: If there was a way to automatically post relevant feedback to a pull request from a knowledge base you maintain using AI, how much time would that save you?
+A: If it worked well, that would probably cut my review time in half.
+```
 
-## Introspective Questions
-
+The above example shows how following SPIN can set the stage for the need before offering a solution. It's common for people to dive straight into the solution, which can lessen the chances of generating buy-in.
 
 ## How to Improve
 
@@ -41,4 +38,5 @@ This book emphasizes understanding the implications of problems and demonstratin
 ## Supporting Capabilities
 
 ### [Learning Culture](/capabilities/learning-culture.md)
+
 Use SPIN To Unearth Problems and Solutions promotes learning culture because it provides a means to discover areas of individual, team, and organizational improvement.
