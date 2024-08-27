@@ -96,7 +96,7 @@ By integrating static code analysis into version control systems, IDEs, and CI/C
 
 ## Related Capabilities
 
-### [Version Control](/capabilities/tech/version-control.md)
+### [Version Control](/capabilities/version-control.md)
 
 Version Control is fundamental for a maintainable codebase, allowing for efficient tracking, collaboration, and management of code changes over time.
 By tracking changes made to the codebase using version control, developers can ensure consistency across contributors, reuse code components, conduct code audits, track bugs and errors, meet compliance requirements, manage security patches, and integrate updates quickly and easily into the codebase.

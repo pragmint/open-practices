@@ -56,6 +56,6 @@ Finding or starting relevant Communities of Practice can be a great place to lea
 
 ## Supporting Capabilities
 
-### [Learning Culture](/capabilities/culture/learning-culture.md)
+### [Learning Culture](/capabilities/learning-culture.md)
 
 Organizations that host demonstrations / presentations tend to value learning as a part of their culture.

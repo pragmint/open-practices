@@ -72,10 +72,10 @@ Starting a community of practice provides a dedicated space where a variety of p
 
 ## Related Capabilities
 
-### [Generative Organizational Culture](/capabilities/culture/generative-organizational-culture.md)
+### [Generative Organizational Culture](/capabilities/generative-organizational-culture.md)
 
 A big part of having a Generative Organizational Culture is about creating a safe environment to fail. This attribute is also important to having a Learning Culture as failure tends to be a great teacher.
 
-### [Transformational Leadership](/capabilities/culture/transformational-leadership.md)
+### [Transformational Leadership](/capabilities/transformational-leadership.md)
 
 A big part of having Transformational Leadership is about creating intellectual stimulation amongst the team members. Following the practices that support building a strong Learning Culture can help towards that end.

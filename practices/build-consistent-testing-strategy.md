@@ -119,7 +119,7 @@ Track how this knowledge transfer impacts the quality and consistency of your te
 
 ## Supporting Capabilities
 
-### [Test Automation](/capabilities/tech/test-automation.md)
+### [Test Automation](/capabilities/test-automation.md)
 
 Building a Consistent Testing Strategy supports the Test Automation capability by providing a structured approach to testing that aligns with project needs.
 It emphasizes balanced test coverage, integrates tests into CI pipelines for fast feedback, and combines automated and manual testing to ensure comprehensive quality and stability of software delivery.

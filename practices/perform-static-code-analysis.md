@@ -108,7 +108,7 @@ By using network science and computational techniques, the speaker argues for th
 
 ## Supporting Capabilities
 
-### [Code Maintainability](/capabilities/tech/code-maintainability.md)
+### [Code Maintainability](/capabilities/code-maintainability.md)
 
 The Perform Static Code Analysis practice robustly supports the Code Maintainability Dora Capability by providing automated tools that enhance code quality, consistency, and readability.
 These tools meticulously scan the codebase to identify potential issues such as code smells, security vulnerabilities, and performance bottlenecks early in the development process.

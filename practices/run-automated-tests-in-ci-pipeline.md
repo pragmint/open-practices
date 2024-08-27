@@ -32,13 +32,13 @@
 <!-- TODO
 ## Supporting Capabilities
 
-### [Database Change Management](/capabilities/tech/database-change-management.md)
+### [Database Change Management](/capabilities/database-change-management.md)
 
 It's important to have a clean test environment.... etc etc etc
             * Running migrations
             * Transaction Rollback to undo changes done my tests
 
-### [Test Data Management](/capabilities/tech/test-data-management.md)
+### [Test Data Management](/capabilities/test-data-management.md)
 It's important to have a clean test environment.... etc etc etc
             * Database seeding
             * Database Snapshots

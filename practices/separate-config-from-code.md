@@ -62,7 +62,7 @@ A concise guide that underscores the significance of externalizing configuration
 
 ## Supporting Capabilities
 
-## [Version Control](/capabilities/tech/version-control.md)
+## [Version Control](/capabilities/version-control.md)
 By advocating for the exclusion of configuration and sensitive data from version control, this practice improves the Version Control Capability, by defining the exceptions where storing information in application code source control is not desirable.
 
 ## [Continuous Integration](https://dora.dev/devops-capabilities/technical/continuous-integration)

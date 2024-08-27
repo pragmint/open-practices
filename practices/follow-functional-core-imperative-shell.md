@@ -109,12 +109,12 @@ The article promotes the mastery of functional programming principles, stating t
 
 ## Supporting Capabilities
 
-### [Code Maintainability](/capabilities/tech/code-maintainability.md)
+### [Code Maintainability](/capabilities/code-maintainability.md)
 
 The Follow Functional Core, Imperative Shell practice significantly supports the Code Maintainability capability.
 By separating business logic into a functional core and side effects into an imperative shell, this approach enhances code readability, simplifies comprehension, and reduces complexity.
 With a clear distinction between pure functions and imperative code, developers can more easily understand and modify code, leading to improved maintainability and stability of the software system.
 
-### [Test Automation](/capabilities/tech/test-automation.md)
+### [Test Automation](/capabilities/test-automation.md)
 
 The Follow Functional Core, Imperative Shell practice supports the Test Automation capability by facilitating the creation of highly testable and maintainable code. The functional core, being side-effect-free, allows for straightforward unit testing, as its pure functions yield predictable results and don't rely on external states. This ensures that the core business logic is thoroughly tested and reliable. The imperative shell handles side effects and interactions with external systems, which can be tested through integration tests. This clear separation simplifies the testing process, improves test coverage, and provides faster, more reliable feedback during development, which is crucial for robust and efficient test automation.

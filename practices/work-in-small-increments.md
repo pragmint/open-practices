@@ -62,13 +62,13 @@ A video discussion that critiques the standard use of pull requests, arguing for
 
 ## Supporting Capabilities
 
-### [Code Maintainability](/capabilities/tech/code-maintainability.md)
+### [Code Maintainability](/capabilities/code-maintainability.md)
 
 Working in small increments enables teams to improve Code Maintainability without getting overwhelmed.
 By breaking down tasks into manageable, frequent updates, teams can make clear, incremental improvements to the codebase.
 This approach reduces complexity, facilitating easier tracking, review, and integration.
 
-### [Version Control](/capabilities/tech/version-control.md)
+### [Version Control](/capabilities/version-control.md)
 
 The practice of working in small increments aligns with the DORA capability of Version Control by encouraging frequent, manageable updates.
 This approach enhances the traceability, reviewability, and reversibility of changes, ensuring that each commit contributes to the project's progression while supporting better collaboration and quicker issue detection.

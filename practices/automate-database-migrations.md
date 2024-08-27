@@ -82,7 +82,7 @@ This issue is an extensive guide on the process of migration. You can use it as 
 ### [Database Change Management](https://dora.dev/devops-capabilities/technical/database-change-management)
 Automatic Database Migrations are integral to the DORA capability of Database Change Management. This practice ensures that database changes are systematically managed and aligned with application updates, reducing the risk of errors and downtime.
 
-### [Version Control](/capabilities/tech/version-control.md)
+### [Version Control](/capabilities/version-control.md)
 Version control is foundational for Automatic Database Migrations, enabling teams to track, review, and manage changes to database schemas alongside application code, thus enhancing collaboration and reducing conflicts.
 
 ### [Continuous Integration](https://dora.dev/devops-capabilities/technical/continuous-integration)

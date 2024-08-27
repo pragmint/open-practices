@@ -78,7 +78,7 @@ By versioning database schema changes alongside code dependencies, teams can app
 **Relationship:** Enables
 Having dependencies version-controlled allows for more predictable deployments, as the exact versions used in development are carried through to production environments, supporting automated deployment pipelines.
 
-### [Version Control](/capabilities/tech/version-control.md)
+### [Version Control](/capabilities/version-control.md)
 **Relationship:** Requires
 The practice of Version Dependencies inherently requires a robust version control system to manage the dependencies' versions alongside the application's source code.
 

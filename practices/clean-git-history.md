@@ -82,6 +82,6 @@ Details strategies for properly amending Git history issues, such as errant comm
 
 ## Supporting Capabilities
 
-### [Version Control](/capabilities/tech/version-control.md)
+### [Version Control](/capabilities/version-control.md)
 
 A clean Git history is fundamental to effective version control, enabling precise tracking, easier code reviews, and better management of project codebases.

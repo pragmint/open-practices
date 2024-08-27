@@ -80,7 +80,7 @@ How do we ensure system stability while refactoring to reduce coupling?
 
 ## Supporting Capabilities
 
-### [Code Maintainability](/capabilities/tech/code-maintainability.md)
+### [Code Maintainability](/capabilities/code-maintainability.md)
 
 Reducing Coupling Between Abstractions enhances Code Maintainability by creating a modular and flexible codebase.
 Independent, well-defined components minimize unintended side effects, making the code easier to understand, modify, and test.

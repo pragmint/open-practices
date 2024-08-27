@@ -53,7 +53,7 @@ He advocates for a balanced approach that combines test coverage with thoughtful
 
 ## Supporting Capabilities
 
-### [Test Automation](/capabilities/tech/test-automation.md)
+### [Test Automation](/capabilities/test-automation.md)
 
 Automating test coverage checks supports the Test Automation capability by ensuring continuous and immediate feedback on code changes within the CI pipeline.
 This practice identifies untested code early, helping prevent bugs and regressions, and aligns with a consistent testing strategy.

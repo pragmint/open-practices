@@ -145,7 +145,7 @@ The String Scan Coding Kata is a programming exercise designed to improve a deve
 The exercise typically involves writing a function or a series of functions that can scan and process strings according to specified rules.
 The goal is to practice breaking down a problem, writing clean and maintainable code, and applying test-driven development (TDD) principles.
 
-### [Test Automation](/capabilities/tech/test-automation.md)
+### [Test Automation](/capabilities/test-automation.md)
 
 Implementing Test-Driven Development (TDD) supports the Test Automation DORA Capability by integrating rigorous testing directly into the development process.
 TDD mandates writing tests before coding, ensuring early bug detection and promoting better software design through continuous refactoring.

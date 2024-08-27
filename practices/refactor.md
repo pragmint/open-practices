@@ -113,11 +113,11 @@ This exercise will highlight the challenges and strategies involved in refactori
 
 ## Supporting Capabilities
 
-### [Code Maintainability](/capabilities/tech/code-maintainability.md)
+### [Code Maintainability](/capabilities/code-maintainability.md)
 
 Refactoring, as a practice, significantly supports the Code Maintainability Capability by systematically improving code structure, readability, and quality. Through incremental changes and adherence to coding standards, it addresses complexity and technical debt, ensuring the code remains clean, modular, and comprehensible. By integrating refactoring into regular development cycles, teams establish a foundation of maintainable code, enabling efficient delivery, stability, and ongoing innovation.
 
-### [Version Control](/capabilities/tech/version-control.md)
+### [Version Control](/capabilities/version-control.md)
 
 Version control and refactoring in software development go hand in hand.
 Version control tracks code changes over time, facilitating collaboration and reversibility.
