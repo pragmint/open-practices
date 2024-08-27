@@ -2,9 +2,16 @@
 
 ## Key Points
 
-* Teams can make large-scale changes to the design of their systems without the permission of somebody outside the team or depending on other teams.
+### Teams can make large-scale changes to the design of their systems without the permission of somebody outside the team or depending on other teams.
+
+#### Practices
+
 * Teams are able to complete work without needing fine-grained communication and coordination with people outside the team.
+    * The specific approach will be different for different organizations. (Nuance point)
 * Teams deploy and release their product or service on demand, independently of the services it depends on or of other services that depend on it.
+    * P: Preserve backwards compatibility
+    * P: Maintain a Service Level Agreement
+    * 
 * Teams do most of their testing on demand, without requiring an integrated test environment.
 * Teams can deploy during normal business hours with negligible downtime.
 
