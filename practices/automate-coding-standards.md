@@ -27,23 +27,6 @@ Automatic Coding Standards tools should be incorporated as part of the developme
 There are many options to do this: build scrips, IDE/Editors, pre-commit, pre-push, during code review/pull requests or Continuous Integration (CI Pipeline).
 The specific approach to incorporate automatic coding standards as part of the development workflow will very depending on team preferences and the cost of running the process.
 
-## Introspective Questions
-
-### How Customized Are Our Automated Coding Standards?
-Are our automated coding standards tools customized to reflect our specific coding practices and project needs, or are we using a one-size-fits-all approach?
-
-### Do We Rely Too Much on Automation for Code Quality?
-Are we over-relying on automated tools to enforce code quality, potentially at the expense of deeper learning and understanding of coding standards among our developers?
-
-### Are Our Tools Limiting Creativity?
-Could the way we enforce automated coding standards be stifling creativity or innovation within our development team?
-
-### Do we understanding our Coding Standards?
-Do team members understand the reasons behind certain coding rules?
-
-### Facing Integration Challenges Effectively?
-How effectively are we managing the integration of automated coding standards tools, especially in large or legacy code-bases, and are there areas where we can improve?
-
 ## How to Improve
 
 ### [Start A Book Club](/practices/start-a-book-club.md)
@@ -63,6 +46,11 @@ This method, inspired by the Boy Scout Rule of leaving code better than one foun
 ### [Do A Spike](/practices/do-a-spike.md)
 
 Implement what you learned in the article [Automate Your Coding Standard](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_04) with a project or module of your codebase.
+
+### [Host A Roundtable Discussion](/practices/host-a-roundtable-discussion.md)
+
+* Are our automated coding standards tools customized to reflect our specific coding practices and project needs, or are we using a one-size-fits-all approach?
+* Do team members understand the reasons behind certain coding rules?
 
 ## Supporting Capabilities
 
