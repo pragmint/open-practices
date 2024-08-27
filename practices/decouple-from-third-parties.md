@@ -20,23 +20,6 @@ Rather than creating complex scenarios with test doubles, consider enhancing tes
 
 Every situation is unique, so there's no one size fits all guidance for this situation. Be aware of the trade-offs you're making and use your head.
 
-## Introspective Questions
-
-### Assessing Dependency on Third-Party Tools
-
-* What are the key third-party dependencies we rely on in our projects?
-* Have we identified any single points of failure or critical dependencies on specific third-party tools?
-
-### Challenges of Tight Coupling with Third-Party Tools
-
-* Have there been instances where changes or updates to third-party tools have caused unexpected issues or disruptions in our projects?
-* Have we encountered other challenges in the past due to tightly coupling our code with third-party tools?
-
-### Long-Term Implications of Dependency Management
-
-* What are the potential risks and drawbacks of maintaining high levels of dependency on third-party tools in the long term?
-* What steps can we take to future-proof our projects and mitigate risks associated with changes or discontinuation of third-party tools?
-
 ## How to Improve
 
 ### [Do A Spike](/practices/do-a-spike.md)
@@ -70,6 +53,14 @@ The author discusses how improper use of mocks can lead to unreliable tests and 
 - [Boundaries](https://www.destroyallsoftware.com/talks/boundaries)
 
 This presentation delves into the concept of using simple values rather than complex objects as the boundaries between components and subsystems in software development. It covers various topics such as functional programming, the relationship between mutability and object-oriented programming (OO), isolated unit testing with and without test doubles, and concurrency. Understanding and implementing these concepts can be immensely beneficial in managing dependencies with third parties.
+
+### [Host A Roundtable Discussion](/practices/host-a-roundtable-discussion.md)
+
+* What are the key third-party dependencies we rely on in our projects?
+* Have we identified any single points of failure or critical dependencies on specific third-party tools?
+* Have there been instances where changes or updates to third-party tools have caused unexpected issues or disruptions in our projects?
+* What are the potential risks and drawbacks of maintaining high levels of dependency on third-party tools in the long term?
+* What steps can we take to future-proof our projects and mitigate risks associated with changes or discontinuation of third-party tools?
 
 ## Supporting Capabilities
 
