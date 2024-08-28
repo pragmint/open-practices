@@ -60,31 +60,6 @@ Imperative shell integration tests ideally require fewer scenarios to validate, 
 In dynamic languages, the Functional Core, Imperative Shell approach is often favored due to its ability to address testing challenges inherent in these languages.
 By communicating between the Functional Core and Imperative Shell via passing values instead of relying on interfaces, developers can mitigate the risk of false positives when using mocks and encountering errors with the real implementation.
 
-## Introspective Questions
-
-### Assessing the Benefits
-
-* What advantages could the adoption of the Functional Core, Imperative Shell practice bring to our projects?
-* How might separating business logic from side effects enhance code readability, maintainability, and scalability?
-* In what ways could the Functional Core and Imperative Shell mitigate the impact of changes in infrastructure technology, allowing for smoother transitions and future-proofing our codebase?
-* What benefits might arise from writing unit tests with the assurance that the Functional Core code being tested has no side effects?
-* How could the reduced presence of control statements in the Imperative Shell simplify integration tests?
-
-### Evaluating Team Readiness
-
-* How prepared are our development teams to embrace a paradigm shift towards functional programming principles?
-* Do team members possess the necessary skills and knowledge to implement and maintain code following this practice?
-* What resources, training, or support mechanisms can we provide to facilitate the transition and ensure successful adoption?
-* How can we address potential challenges or resistance from team members who may be unfamiliar with functional programming concepts or reluctant to change existing coding practices?
-
-### Transitioning to Functional Core, Imperative Shell Incrementally
-
-* How can we identify and prioritize modules or components within our existing codebase that are suitable candidates for transitioning to the Functional Core, Imperative Shell pattern?
-* What strategies can we employ to refactor existing imperative code into pure functions within the functional core while maintaining backward compatibility and minimizing disruptions to ongoing development?
-* Are there opportunities to introduce the Functional Core, Imperative Shell pattern gradually, perhaps starting with new features or modules, before expanding its adoption to legacy code?
-* How can we ensure effective communication and collaboration among team members during the transition process, including knowledge sharing, pair programming, and code reviews?
-* What metrics or milestones can we establish to measure progress and evaluate the success of transitioning to the Functional Core, Imperative Shell pattern incrementally?
-
 ## How to Improve
 
 ### [Host A Viewing Party](/practices/host-a-viewing-party.md)
@@ -118,3 +93,27 @@ With a clear distinction between pure functions and imperative code, developers 
 ### [Test Automation](/capabilities/test-automation.md)
 
 The Follow Functional Core, Imperative Shell practice supports the Test Automation capability by facilitating the creation of highly testable and maintainable code. The functional core, being side-effect-free, allows for straightforward unit testing, as its pure functions yield predictable results and don't rely on external states. This ensures that the core business logic is thoroughly tested and reliable. The imperative shell handles side effects and interactions with external systems, which can be tested through integration tests. This clear separation simplifies the testing process, improves test coverage, and provides faster, more reliable feedback during development, which is crucial for robust and efficient test automation.
+
+### [Host A Roundtable Discussion](/practices/host-a-roundtable-discussion.md)
+
+#### Assessing the Benefits
+
+* What advantages could the adoption of the Functional Core, Imperative Shell practice bring to our projects?
+* How might separating business logic from side effects enhance code readability, maintainability, and scalability?
+* In what ways could the Functional Core and Imperative Shell mitigate the impact of changes in infrastructure technology, allowing for smoother transitions and future-proofing our codebase?
+* What benefits might arise from writing unit tests with the assurance that the Functional Core code being tested has no side effects?
+* How could the reduced presence of control statements in the Imperative Shell simplify integration tests?
+
+#### Evaluating Team Readiness
+
+* How prepared are our development teams to embrace a paradigm shift towards functional programming principles?
+* Do team members possess the necessary skills and knowledge to implement and maintain code following this practice?
+* What resources, training, or support mechanisms can we provide to facilitate the transition and ensure successful adoption?
+
+#### Transitioning to Functional Core, Imperative Shell Incrementally
+
+* How can we identify and prioritize modules or components within our existing codebase that are suitable candidates for transitioning to the Functional Core, Imperative Shell pattern?
+* What strategies can we employ to refactor existing imperative code into pure functions within the functional core while maintaining backward compatibility and minimizing disruptions to ongoing development?
+* Are there opportunities to introduce the Functional Core, Imperative Shell pattern gradually, perhaps starting with new features or modules, before expanding its adoption to legacy code?
+* How can we ensure effective communication and collaboration among team members during the transition process, including knowledge sharing, pair programming, and code reviews?
+* What metrics or milestones can we establish to measure progress and evaluate the success of transitioning to the Functional Core, Imperative Shell pattern incrementally?
