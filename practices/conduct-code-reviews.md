@@ -44,37 +44,6 @@ It can be helpful to have automated build / verification processes take place wh
 
 Furthermore, LLMs backed tools are able to provide automated feedback on code changes. These can be useful, but be wary of useless or even misguided feedback. No LLM is going to remove the need to think. Advise your teams to be smart.
 
-## Introspective Questions
-
-### Contextual Understanding
-
-* Do our reviewers have a clear understanding of the broader context surrounding code changes, including user requirements and project goals?
-* Are there opportunities for reviewers to engage in pair programming or collaborative discussions with developers to gain deeper insights into the code being reviewed?
-
-### Accounting for Subjectivity
-
-* How do we handle differing opinions among developers regarding code style, architecture, and implementation details during code reviews?
-* Are we prioritizing changes that align with the project's overall objectives rather than personal preferences?
-
-### Managing Workload
-
-* Do we have clear guidelines in place for review turnaround times, and are they being consistently followed?
-* Are we actively working to prevent long pull/merge requests that can overwhelm reviewers and cause delays in the development process?
-
-### Feedback Sensitivity
-
-* Are our developers equipped with the skills to provide constructive feedback during code reviews while maintaining a positive and supportive environment?
-* How do we ensure that feedback is received openly and viewed as an opportunity for growth rather than criticism?
-
-### Checklists
-
-* Are we effectively utilizing checklists to conduct code reviews, and do they cover all relevant aspects of the evaluation process?
-* How often do we revisit and update our checklists based on feedback and lessons learned from previous reviews?
-
-### Automation
-
-* Are we using reliable tooling to speed up the review process? Is there more we could be doing on this front?
-
 ## How to Improve
 
 ### [Lead Workshops](/practices/lead-workshops.md)
@@ -121,3 +90,15 @@ The Conduct Code Reviews practice significantly strengthens the Code Maintainabi
 ### [Test Automation](/capabilities/test-automation.md)
 
 The Conduct Code Reviews practice supports the Test Automation DORA capability by ensuring code changes adhere to quality standards, catching potential issues early, and enforcing consistent coding practices. This promotes a robust suite of automated tests, prevents regression errors, and maintains smooth continuous integration processes. By fostering collaboration and identifying gaps in test coverage, code reviews enhance software reliability and stability, directly contributing to effective test automation.
+
+### [Host A Roundtable Discussion](/practices/host-a-roundtable-discussion.md)
+
+* Do our reviewers have a clear understanding of the broader context surrounding code changes, including user requirements and project goals?
+* Are there opportunities for reviewers to engage in pair programming or collaborative discussions with developers to gain deeper insights into the code being reviewed?
+* How do we handle differing opinions among developers regarding code style, architecture, and implementation details during code reviews?
+* Do we have clear guidelines in place for review turnaround times, and are they being consistently followed?
+* Are we actively working to prevent long pull/merge requests that can overwhelm reviewers and cause delays in the development process?
+* How do we ensure that feedback is received openly and viewed as an opportunity for growth rather than criticism?
+* Are we effectively utilizing checklists to conduct code reviews, and do they cover all relevant aspects of the evaluation process?
+* How often do we revisit and update our checklists based on feedback and lessons learned from previous reviews?
+* Are we using reliable tooling to speed up the review process? Is there more we could be doing on this front?
