@@ -32,26 +32,6 @@ However, routine tasks or individual research may not require constant collabora
 While Pair Programming can be done remotely, has some challenges such as communication barriers, technical issues, and time zone differences.
 Teams must use in suitable collaboration tools (Like VS Code Live Share) and establish clear communication protocols.
 
-## Introspective Questions
-
-### Maximizing the Effectiveness of Pair Programming:
-
-* How frequently do we engage in Pair Programming sessions, and are they integrated into our regular workflow?
-* How do we measure the effectiveness of Pair Programming in terms of code quality, knowledge sharing, and team collaboration, and what adjustments can we make to improve outcomes?
-* Are Pair Programming sessions adapted to suit different project phases and tasks, ensuring that they are utilized where they add the most value?
-
-### Reflecting on Pair Dynamics and Team Culture:
-
-* How do we manage pair dynamics to foster diverse perspectives and mitigate dependency on individual team members?
-* What steps can we take to encourage pairing across the team and prevent reliance on a single pair, which could lead to bottlenecks?
-* Are team members encouraged to take on both the role of driver and reviewer during Pair Programming sessions to promote skill development and engagement?
-
-### Evaluating Contextual Suitability and Adaptability:
-
-* Are there specific tasks or project phases where Pair Programming is particularly effective, and how do we identify these opportunities?
-* What tools and protocols do we have in place to address challenges associated with remote Pair Programming, such as communication barriers and time zone differences?
-* How do we ensure that team members are equipped with the necessary skills and resources to effectively engage in Pair Programming?
-
 ## How to Improve
 
 ### [Lead Workshops](/practices/lead-workshops.md)
@@ -95,6 +75,26 @@ In his presentation, Dragan delves into the common practice of pull/merge reques
 Drawing from his study analyzing tens of thousands of PRs across various repositories, he reveals that teams utilizing small PRs with asynchronous code reviews often experience lower throughput compared to those employing larger PRs.
 However, Dragan introduces a solution to this dilemma through co-creation patterns such as pair and mob programming, where multiple individuals collaborate simultaneously on a task.
 By exploring data that challenges the assumption that this collaborative approach diminishes team throughput, Dragan suggests a path toward achieving both high throughput and quality in software development.
+
+### [Host A Roundtable Discussion](/practices/host-a-roundtable-discussion.md)
+
+#### Maximizing the Effectiveness of Pair Programming
+
+* How frequently do we engage in Pair Programming sessions, and are they integrated into our regular workflow?
+* How do we measure the effectiveness of Pair Programming in terms of code quality, knowledge sharing, and team collaboration, and what adjustments can we make to improve outcomes?
+* Are Pair Programming sessions adapted to suit different project phases and tasks, ensuring that they are utilized where they add the most value?
+
+#### Reflecting on Pair Dynamics and Team Culture
+
+* How do we manage pair dynamics to foster diverse perspectives and mitigate dependency on individual team members?
+* What steps can we take to encourage pairing across the team and prevent reliance on a single pair, which could lead to bottlenecks?
+* Are team members encouraged to take on both the role of driver and reviewer during Pair Programming sessions to promote skill development and engagement?
+
+#### Evaluating Contextual Suitability and Adaptability
+
+* Are there specific tasks or project phases where Pair Programming is particularly effective, and how do we identify these opportunities?
+* What tools and protocols do we have in place to address challenges associated with remote Pair Programming, such as communication barriers and time zone differences?
+* How do we ensure that team members are equipped with the necessary skills and resources to effectively engage in Pair Programming?
 
 ## Supporting Capabilities
 
