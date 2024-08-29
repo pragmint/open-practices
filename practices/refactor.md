@@ -54,43 +54,6 @@ By committing changes directly to the mainline, developers can refactor incremen
 This approach promotes a culture of collaboration, as changes are immediately visible to the entire team.
 The fast feedback loop allows for quick identification and resolution of any issues.
 
-## Introspective Questions
-
-### Understanding Refactoring
-
-How frequently does your team engage in refactoring activities?
-Are team members clear on the distinction between refactoring and adding new features/functionality?
-How do team members understand the importance of refactoring in maintaining code quality?
-
-### Testing and Refactoring
-
-Have there been instances where inadequate testing led to unexpected behavior post-refactoring?
-Are there any gaps in testing coverage that could hinder refactoring initiatives?
-
-### Managing Refactoring Tasks
-
-How does your team manage the size and scope of refactoring tasks?
-Have there been instances of attempting too much in a single refactor, resulting in complications?
-How do you prioritize refactoring tasks to ensure the most critical areas are addressed first?
-
-### Monitoring and Roll-back
-
-How quickly can your team detect issues introduced by refactoring through your monitoring tools?
-What improvements can be made to your monitoring and roll-back systems to better support refactoring efforts?
-How do you track and analyze data from monitoring tools to prevent similar issues in future refactoring efforts?
-
-### Frequency and Timing
-
-What is the typical interval between refactoring sessions in your organization?
-Have you observed any challenges stemming from prolonged gaps between refactors?
-How can you encourage a culture of frequent, incremental refactoring to mitigate technical debt accumulation?
-
-### Legacy Code Refactoring
-
-How do you approach refactoring efforts in legacy codebases?
-What strategies do you employ to ensure careful planning and incremental changes in legacy systems?
-Are there specific techniques or tools your team utilizes to identify high-impact areas for refactoring in legacy code?
-
 ## How to Improve
 
 ### [Lead A Demonstration](/practices/lead-a-demonstration.md)
@@ -123,3 +86,40 @@ Version control and refactoring in software development go hand in hand.
 Version control tracks code changes over time, facilitating collaboration and reversibility.
 Refactoring improves code structure without altering behavior.
 Together, they enable teams to systematically enhance code quality, with version control tracking and integrating improvements with confidence.
+
+### [Host A Roundtable Discussion](/practices/host-a-roundtable-discussion.md)
+
+#### Understanding Refactoring
+
+* How frequently does your team engage in refactoring activities?
+* Are team members clear on the distinction between refactoring and adding new features/functionality?
+* How do team members understand the importance of refactoring in maintaining code quality?
+
+#### Testing and Refactoring
+
+* Have there been instances where inadequate testing led to unexpected behavior post-refactoring?
+* Are there any gaps in testing coverage that could hinder refactoring initiatives?
+
+### Managing Refactoring Tasks
+
+* How does your team manage the size and scope of refactoring tasks?
+* Have there been instances of attempting too much in a single refactor, resulting in complications?
+* How do you prioritize refactoring tasks to ensure the most critical areas are addressed first?
+
+### Monitoring and Roll-back
+
+* How quickly can your team detect issues introduced by refactoring through your monitoring tools?
+* What improvements can be made to your monitoring and roll-back systems to better support refactoring efforts?
+* How do you track and analyze data from monitoring tools to prevent similar issues in future refactoring efforts?
+
+### Frequency and Timing
+
+* What is the typical interval between refactoring sessions in your organization?
+* Have you observed any challenges stemming from prolonged gaps between refactors?
+* How can you encourage a culture of frequent, incremental refactoring to mitigate technical debt accumulation?
+
+### Legacy Code Refactoring
+
+* How do you approach refactoring efforts in legacy codebases?
+* What strategies do you employ to ensure careful planning and incremental changes in legacy systems?
+* Are there specific techniques or tools your team utilizes to identify high-impact areas for refactoring in legacy code?
