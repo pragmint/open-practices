@@ -28,23 +28,6 @@ This can make it difficult to maintain a clear direction for the project and may
 Focusing too narrowly on small, immediate tasks can sometimes distract from the bigger picture and long-term objectives of the project.
 It's important to balance the benefits of incremental work with strategic planning to ensure that all efforts contribute meaningfully towards the project's overarching goals.
 
-## Introspective Questions
-
-### How Often Do You Commit?
-How often do you commit changes to your codebase, and do you believe your current frequency optimally supports your project's goals and workflow?
-
-### Are Your Increments Meaningful?
-Are the increments you work on truly meaningful and contributing to the project, or are they simply small for the sake of being manageable?
-
-### How Effective Is Your CI System?
-How effectively does your current continuous integration (CI) system handle the frequency of updates from working in small increments, and where can improvements be made?
-
-### Do You Maintain Project Cohesion?
-Have you experienced any fragmentation in your project due to working in very small increments, and how do you ensure that each piece contributes to a coherent whole?
-
-### Is Your Work Aligned With Long-Term Goals?
-How do you maintain a balance between focusing on small, immediate tasks and ensuring that every effort aligns with and contributes to the long-term objectives of your project?
-
 ## How to Improve
 
 ### [Start A Book Club](/practices/start-a-book-club.md)
@@ -72,3 +55,11 @@ This approach reduces complexity, facilitating easier tracking, review, and inte
 
 The practice of working in small increments aligns with the DORA capability of Version Control by encouraging frequent, manageable updates.
 This approach enhances the traceability, reviewability, and reversibility of changes, ensuring that each commit contributes to the project's progression while supporting better collaboration and quicker issue detection.
+
+### [Host A Roundtable Discussion](/practices/host-a-roundtable-discussion.md)
+
+* How often do you commit changes to your codebase, and do you believe your current frequency optimally supports your project's goals and workflow?
+* Are the increments you work on truly meaningful and contributing to the project, or are they simply small for the sake of being manageable?
+* How effectively does your current continuous integration (CI) system handle the frequency of updates from working in small increments, and where can improvements be made?
+* Have you experienced any fragmentation in your project due to working in very small increments, and how do you ensure that each piece contributes to a coherent whole?
+* How do you maintain a balance between focusing on small, immediate tasks and ensuring that every effort aligns with and contributes to the long-term objectives of your project?
