@@ -38,31 +38,6 @@ Reducing coupling prepares the codebase for future changes, but it’s important
 The YAGNI principle warns against adding complexity for features that might never be needed.
 Focus on the current requirements and only introduce abstractions when there's a clear, present need, avoiding speculative design.
 
-## Introspective Questions
-
-### Understanding Dependencies
-
-How tightly coupled are our current modules and components?
-What are the most common pain points we encounter due to high coupling in our codebase?
-How often do changes in one part of the system require changes in other parts?
-
-### Evaluating Interfaces
-
-Are we using interfaces effectively to reduce coupling, or are they adding unnecessary complexity?
-How many interfaces in our codebase have only one implementation?
-Do we have a clear understanding of when and why we should introduce new interfaces?
-
-### Knowledge Sharing
-
-How effectively do we share knowledge about our design decisions and abstractions within the team?
-Are there ways to improve collaboration and onboarding through better documentation and communication?
-
-### Gradual Refactoring
-
-Have we identified the most problematic areas of coupling in our codebase?
-What small, incremental changes can we make to start reducing coupling in these areas?
-How do we ensure system stability while refactoring to reduce coupling?
-
 ## How To Improve
 
 ### [Start A Book Club](/practices/start-a-book-club.md)
@@ -86,3 +61,28 @@ Reducing Coupling Between Abstractions enhances Code Maintainability by creating
 Independent, well-defined components minimize unintended side effects, making the code easier to understand, modify, and test.
 This modularity ensures that changes in one part of the system do not disrupt others, preserving stability and reducing cognitive load.s
 Clear abstractions and minimal dependencies support better documentation and collaboration, facilitating efficient onboarding and continuous improvement.
+
+### [Host A Roundtable Discussion](/practices/host-a-roundtable-discussion.md)
+
+#### Understanding Dependencies
+
+* How tightly coupled are our current modules and components?
+* What are the most common pain points we encounter due to high coupling in our codebase?
+* How often do changes in one part of the system require changes in other parts?
+
+#### Evaluating Interfaces
+
+* Are we using interfaces effectively to reduce coupling, or are they adding unnecessary complexity?
+* How many interfaces in our codebase have only one implementation?
+* Do we have a clear understanding of when and why we should introduce new interfaces?
+
+#### Knowledge Sharing
+
+* How effectively do we share knowledge about our design decisions and abstractions within the team?
+* Are there ways to improve collaboration and onboarding through better documentation and communication?
+
+#### Gradual Refactoring
+
+* Have we identified the most problematic areas of coupling in our codebase?
+* What small, incremental changes can we make to start reducing coupling in these areas?
+* How do we ensure system stability while refactoring to reduce coupling?
