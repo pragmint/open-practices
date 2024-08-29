@@ -26,33 +26,6 @@ Relying too heavily on static code analysis might lead to a reduction in code re
 Automated tools should complement, not replace, human reviews, which are essential for catching context-specific issues and providing valuable feedback on code design and architecture.
 Ensuring that manual code reviews remain a part of the development process is vital for maintaining high code quality.
 
-## Introspective Questions
-
-### Understanding and Usage
-
-How well do we understand the capabilities and limitations of our static code analysis tools?
-Are we using static code analysis tools to their full potential within our development process?
-
-### Integration and Workflow
-
-How are our static code analysis tools integrated with our version control systems, IDEs, and CI/CD pipelines?
-Are there any bottlenecks or disruptions caused by static code analysis tools in our current workflow?
-
-### Developer Judgment
-
-Do our developers feel empowered to override automated checks when necessary?
-How often do we find that flagged issues are false positives, and how do we handle them?
-
-### Issue Detection and Resolution
-
-Are we addressing the issues identified by static code analysis tools promptly and effectively?
-How frequently do we encounter issues that static code analysis tools miss, and how can we improve our detection methods?
-
-### Dependency Analysis
-
-How effectively are we using static code analysis tools to assess and improve module cohesion and dependency management?
-Are there areas in our codebase with poor modularity that these tools have helped us identify and improve?
-
 ## How to Improve
 
 ### [Do A Spike](/practices/do-a-spike.md)
@@ -105,6 +78,33 @@ Like feedback loops in development cycles, static code analysis tools automate e
 The speaker emphasizes the importance of loose coupling and high cohesion in software architecture to reduce dependencies between modules, thereby minimizing meetings and coordination overhead.
 They demonstrate how to use tools like Line Topology, Cytoscape, and Jupyter Notebooks to analyze and visualize code dependencies, enabling automated detection of modularity and cohesion in the system.
 By using network science and computational techniques, the speaker argues for the value of objective metrics in assessing and improving code modularity, drawing parallels to social networks and using examples like Game of Thrones character interactions to illustrate their points.
+
+### [Host A Roundtable Discussion](/practices/host-a-roundtable-discussion.md)
+
+#### Understanding and Usage
+
+* How well do we understand the capabilities and limitations of our static code analysis tools?
+* Are we using static code analysis tools to their full potential within our development process?
+
+#### Integration and Workflow
+
+* How are our static code analysis tools integrated with our version control systems, IDEs, and CI/CD pipelines?
+* Are there any bottlenecks or disruptions caused by static code analysis tools in our current workflow?
+
+#### Developer Judgment
+
+* Do our developers feel empowered to override automated checks when necessary?
+* How often do we find that flagged issues are false positives, and how do we handle them?
+
+#### Issue Detection and Resolution
+
+* Are we addressing the issues identified by static code analysis tools promptly and effectively?
+* How frequently do we encounter issues that static code analysis tools miss, and how can we improve our detection methods?
+
+#### Dependency Analysis
+
+* How effectively are we using static code analysis tools to assess and improve module cohesion and dependency management?
+* Are there areas in our codebase with poor modularity that these tools have helped us identify and improve?
 
 ## Supporting Capabilities
 
