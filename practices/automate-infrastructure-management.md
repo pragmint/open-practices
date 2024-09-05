@@ -34,28 +34,6 @@ Relying on external IaC tools and cloud providers introduces dependencies. It's 
 ### The Importance of Documentation
 While IaC inherently documents infrastructure setups, additional documentation on the context, design decisions, and operational procedures is crucial for maintaining and scaling IaC practices effectively.
 
-## Introspective Questions
-
-### How Current Is Your Automation?
-Are you leveraging the latest tools and practices in IaC to ensure your infrastructure management is as efficient and secure as possible?
-Consider whether your current approach to automation fully meets the needs of your organization's evolving infrastructure.
-
-### Is Your Infrastructure Truly Immutable?
-Reflect on the degree to which your infrastructure can be recreated from scratch with minimal manual intervention.
-How does this impact your disaster recovery and scaling strategies?
-
-### How Integrated Is IaC in Your CI/CD Pipeline?
-Evaluate how seamlessly IaC is integrated into your continuous integration and continuous deployment (CI/CD) processes.
-Are there areas where further automation or integration could reduce bottlenecks and improve deployment times?
-
-### Are You Balancing Speed and Security Effectively?
-Consider the balance between the speed of deployment and security within your IaC practices.
-Are security checks and compliance measures embedded throughout your IaC pipelines, or are they an afterthought?
-
-### How Collaborative Is Your IaC Approach?
-Think about the level of collaboration between your development, operations, and security teams in managing and evolving your IaC strategy.
-Is there a culture of shared responsibility and knowledge sharing, or are silos hindering your progress?
-
 ## How to Improve
 
 ### [Do A Spike](/practices/do-a-spike.md)
@@ -77,9 +55,27 @@ Deploy a set of infrastructure components, then simulate a "disaster" by destroy
 
 ### [Host A Roundtable Discussion](/practices/host-a-roundtable-discussion.md)
 
-#### Collaboration and Knowledge Sharing
+####  State of you Automation
 
-Conduct a knowledge-sharing session within your team to discuss best practices, challenges, and tips for using IaC effectively. Foster a culture of collaboration and continuous improvement, identifying gaps in knowledge and areas for further training.
+* Are you leveraging the latest tools and practices in IaC to ensure your infrastructure management is as efficient and secure as possible?
+
+* Consider whether your current approach to automation fully meets the needs of your organization's evolving infrastructure.
+
+#### Immutability
+
+* Reflect on the degree to which your infrastructure can be recreated from scratch with minimal manual intervention.
+* How does this impact your disaster recovery and scaling strategies?
+
+#### CI/CD Pipeline
+
+* Evaluate how seamlessly IaC is integrated into your continuous integration and continuous deployment (CI/CD) processes.
+* Are there areas where further automation or integration could reduce bottlenecks and improve deployment times?
+
+
+#### How Collaborative Is Your IaC Approach?
+
+* Think about the level of collaboration between your development, operations, and security teams in managing and evolving your IaC strategy.
+* Is there a culture of shared responsibility and knowledge sharing, or are silos hindering your progress?
 
 ### [Start A Book Club](/practices/start-a-book-club.md)
 
