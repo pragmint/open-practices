@@ -34,23 +34,6 @@ Training on these tools ensures developers can manage and navigate Git history e
 
 While finding the right commit size should always be a judgement call, it may make sense to introduce some automation to ensure commit messages comply with agreed upon standards. [Git Hooks](https://git-scm.com/book/en/v2/Customizing-Git-An-Example-Git-Enforced-Policy#_an_example_git_enforced_policy) are one way to automate that enforcement.
 
-## Introspective Questions
-
-### Commit Message Clarity and Relevance
-
-* Are our commit messages providing clear and relevant context, or do they risk becoming verbose or tangential?
-* How can we ensure that our commit messages strike the right balance between providing necessary context and avoiding unnecessary clutter?
-
-### Collaborative Commit Practices
-
-* Do we have clear guidelines in place for committing changes in our collaborative environment?
-* Are we consistently following agreed-upon commit message formats, branch naming conventions, and merging strategies?
-
-### Educating Team Members
-
-* Have we effectively communicated the benefits of clean Git history practices to all team members?
-* Are our team members equipped with the necessary training and tools to navigate Git history effectively?
-
 ## How to Improve
 
 ### [Lead A Demonstration](/practices/lead-a-demonstration.md)
@@ -79,6 +62,23 @@ Advocates for the disciplined management of Git history through methods like fea
 
 ### [Two Wrongs Can Make a Right (And Are Difficult to Fix)](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_86)
 Details strategies for properly amending Git history issues, such as errant commits or merge mistakes, without exacerbating problems. Includes practical advice and Git command examples for correcting history efficiently and effectively, focusing on common Git missteps and the complexities of rectifying them.
+
+### [Host A Roundtable Discussion](/practices/host-a-roundtable-discussion.md)
+
+#### Commit Message Clarity and Relevance
+
+* Are our commit messages providing clear and relevant context, or do they risk becoming verbose or tangential?
+* How can we ensure that our commit messages strike the right balance between providing necessary context and avoiding unnecessary clutter?
+
+#### Collaborative Commit Practices
+
+* Do we have clear guidelines in place for committing changes in our collaborative environment?
+* Are we consistently following agreed-upon commit message formats, branch naming conventions, and merging strategies?
+
+#### Educating Team Members
+
+* Have we effectively communicated the benefits of clean Git history practices to all team members?
+* Are our team members equipped with the necessary training and tools to navigate Git history effectively?
 
 ## Supporting Capabilities
 
