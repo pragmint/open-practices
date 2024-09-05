@@ -25,32 +25,6 @@ Large-scale migrations can significantly impact database performance, especially
 ### NoSQL Databases
 When considering migrations for NoSQL databases, it's essential to embrace schema flexibility by supporting multiple schema versions concurrently and allowing application logic to handle different data structures dynamically. Instead of enforcing strict schema updates through upgrade scripts, use a schema version identifier and implement incremental updates or "lazy" migrations as data is accessed. This approach maintains application compatibility across schema changes while reducing downtime and ensuring consistent data accessibility.
 
-## Introspective Questions
-
-### Alignment with Development Workflow
-How well do our automatic database migration processes integrate with our current development, testing, and deployment workflows? Are there points of friction, and how can we address them?
-
-### Version Control Harmony
-Are our migration scripts and database schema changes properly version-controlled alongside our application code? How can we improve traceability and coordination between code and database changes?
-
-### Sequential Dependency Handling
-How effectively do we manage sequential dependencies within our migration scripts? Are there tools or practices we could adopt to better handle complex migrations and dependency chains?
-
-### Data Integrity Safeguards
-What measures do we have in place to ensure data integrity during migrations? How do we test and validate data before and after migrations to prevent loss or corruption?
-
-### Rollback Readiness
-How confident are we in our ability to rollback a migration in case of failure? Do we have a tested and reliable process for reverting changes without affecting data integrity?
-
-### Performance Impact Assessment
-Have we experienced performance impacts during migrations? How can we minimize downtime and performance degradation, especially in production environments?
-
-### Monitoring and Alerting
-Do we have adequate monitoring and alerting in place to detect and respond to issues during the migration process? How can we improve real-time visibility into migrations?
-
-### Continuous Improvement
-What lessons have we learned from past migrations, and how are we applying these insights to improve future processes? Are there emerging tools or practices that could enhance our migration strategy?
-
 ## How to Improve
 
 ### [Lead Workshops](/practices/lead-workshops.md)
@@ -76,6 +50,50 @@ This foundational article by Martin Fowler discusses the principles and practice
 ### [Migrations Done Well](https://newsletter.pragmaticengineer.com/p/migrations)
 
 This issue is an extensive guide on the process of migration. You can use it as a blueprint when preparing and executing migrations.
+
+### [Host A Roundtable Discussion](/practices/host-a-roundtable-discussion.md)
+
+## Introspective Questions
+
+### Alignment with Development Workflow
+
+How well do our automatic database migration processes integrate with our current development, testing, and deployment workflows?
+Are there points of friction, and how can we address them?
+
+### Version Control Harmony
+
+Are our migration scripts and database schema changes properly version-controlled alongside our application code?
+How can we improve traceability and coordination between code and database changes?
+
+### Sequential Dependency Handling
+
+How effectively do we manage sequential dependencies within our migration scripts?
+Are there tools or practices we could adopt to better handle complex migrations and dependency chains?
+
+### Data Integrity Safeguards
+
+What measures do we have in place to ensure data integrity during migrations?
+How do we test and validate data before and after migrations to prevent loss or corruption?
+
+### Rollback Readiness
+
+How confident are we in our ability to rollback a migration in case of failure?
+Do we have a tested and reliable process for reverting changes without affecting data integrity?
+
+### Performance Impact Assessment
+
+Have we experienced performance impacts during migrations?
+How can we minimize downtime and performance degradation, especially in production environments?
+
+### Monitoring and Alerting
+
+Do we have adequate monitoring and alerting in place to detect and respond to issues during the migration process?
+How can we improve real-time visibility into migrations?
+
+### Continuous Improvement
+
+What lessons have we learned from past migrations, and how are we applying these insights to improve future processes?
+Are there emerging tools or practices that could enhance our migration strategy?
 
 ## Supporting Capabilities
 
