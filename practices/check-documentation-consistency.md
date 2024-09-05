@@ -44,46 +44,6 @@ Recognizing and addressing documentation decay is a continuous effort.
 Avoiding knowledge silos where only certain team members know how to update documentation is crucial for consistency.
 Ensuring that knowledge and responsibility are shared across the team prevents bottlenecks.
 
-## Introspective Questions
-
-### Alignment with Development Processes
-How well is our documentation process integrated with our development lifecycle?
-Are we updating documentation as part of our routine development tasks?
-Are documentation updates included in our definition of done?
-Are documentation updates included in our checklists?
-
-### Automation Strategies
-To what extent have we explored and implemented automation in our documentation processes?
-Are there areas where automation could significantly improve consistency and efficiency?
-
-### Audience Awareness
-Do we clearly understand the different audiences for our documentation?
-How are we tailoring documentation to meet the diverse needs of developers, end-users, and stakeholders?
-
-### Cultural Adoption
-Is the importance of documentation consistency recognized and valued across our team?
-What steps can we take to foster a culture that prioritizes documentation alongside development?
-
-### Tool Utilization
-Are we using the most effective tools and platforms for managing and updating our documentation?
-Could changes or upgrades to our toolset enhance our documentation consistency?
-
-### Feedback Mechanisms
-How effective are our feedback mechanisms for documentation?
-Are we regularly collecting and incorporating feedback from users to improve documentation quality and relevance?
-
-### Addressing Documentation Decay
-How do we monitor and address documentation decay?
-What processes do we have in place to ensure documentation remains accurate over time?
-
-### Preventing Knowledge Silos
-What measures are we taking to prevent knowledge silos related to documentation practices?
-How can we ensure that all team members are equipped to contribute to and update documentation?
-
-### Measuring Impact
-How do we measure the impact of documentation consistency on our project's success?
-What metrics or indicators help us understand the value of keeping our documentation aligned with our technical artifacts?
-
 ### [Lead Workshops](/practices/lead-workshops.md)
 
 #### Documentation Audience Analysis
@@ -110,6 +70,39 @@ Organize regular knowledge-sharing sessions where team members can present on ar
 
 ### [Two wrongs can make a right (and are difficult to fix)](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_86)
 Underscores the complexity of software development where two mistakes might cancel each other out, making them harder to identify and fix. It highlights the importance of thorough testing and documentation to prevent and resolve such issues effectively.
+
+### [Host A Roundtable Discussion](/practices/host-a-roundtable-discussion.md)
+
+#### Alignment with Development Processes
+
+* Are we updating documentation as part of our routine development tasks?
+* Are documentation updates included in our definition of done?
+* Are documentation updates included in our checklists?
+
+#### Automation Strategies
+
+* To what extent have we explored and implemented automation in our documentation processes?
+* Are there areas where automation could significantly improve consistency and efficiency?
+
+#### Audience Awareness
+
+* Do we clearly understand the different audiences for our documentation?
+* How are we tailoring documentation to meet the diverse needs of developers, end-users, and stakeholders?
+
+#### Cultural Adoption
+
+* Is the importance of documentation consistency recognized and valued across our team?
+* What steps can we take to foster a culture that prioritizes documentation alongside development?
+
+#### Addressing Documentation Decay
+
+* How do we monitor and address documentation decay?
+* What processes do we have in place to ensure documentation remains accurate over time?
+
+#### Preventing Knowledge Silos
+
+* What measures are we taking to prevent knowledge silos related to documentation practices?
+* How can we ensure that all team members are equipped to contribute to and update documentation?
 
 ## Supporting Capabilities
 
