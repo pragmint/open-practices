@@ -16,20 +16,6 @@ Use the same environment variables, configuration files, and services to ensure 
 ### Allow Local Overrides
 Allow local overrides of configuration values and provide developers with a blueprint to create their own local configuration files. For instance, an .env.example file might include placeholders for environment variables that need to be set but without providing any real keys or passwords. This keeps sensitive data out of application version control, without constraining developer productivity.
 
-# Introspective Questions
-
-### Are We Protecting Sensitive Configuration Effectively?
-Have we implemented robust security measures for our configuration data? Are encryption and access controls in place to prevent unauthorized access and ensure compliance with security regulations?
-
-### How Do We Manage Configuration Across Environments?
-Do we have a consistent approach for managing configurations across different environments? How do we ensure that our deployment processes are seamless and that configurations do not lead to errors or discrepancies in various environments?
-
-### How Do We Handle Configuration Changes and Versioning?
-What processes do we have in place for managing changes to configuration? How do we track and version configuration changes to ensure that our application remains stable with each update?
-
-### Are We Balancing Flexibility with Complexity?
-In our efforts to externalize configuration, have we introduced unnecessary complexity into our deployment and operational processes? How do we strike a balance between the flexibility of externalized configurations and the simplicity of our overall system architecture?
-
 ## How to Improve
 
 ### [Lead Workshops](/practices/lead-workshops.md)
@@ -59,6 +45,28 @@ This section of the Twelve-Factor App methodology emphasizes the importance of s
 
 #### [97 Things Every Programmer Should Know - Store Configurations in the Environment](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_61)
 A concise guide that underscores the significance of externalizing configuration, highlighting how this practice enhances application security, simplifies deployment, and supports scalability. It provides actionable advice for developers to implement this best practice effectively.
+
+### [Host A Roundtable Discussion](/practices/host-a-roundtable-discussion.md)
+
+#### Protecting Sensitive Configuration
+
+Have we implemented robust security measures for our configuration data?
+Are encryption and access controls in place to prevent unauthorized access and ensure compliance with security regulations?
+
+#### Manage Configuration Across Environments
+
+Do we have a consistent approach for managing configurations across different environments?
+How do we ensure that our deployment processes are seamless and that configurations do not lead to errors or discrepancies in various environments?
+
+#### Handle Configuration Changes and Versioning
+
+What processes do we have in place for managing changes to configuration?
+How do we track and version configuration changes to ensure that our application remains stable with each update?
+
+#### Balancing Flexibility with Complexity?
+
+In our efforts to externalize configuration, have we introduced unnecessary complexity into our deployment and operational processes?
+How do we strike a balance between the flexibility of externalized configurations and the simplicity of our overall system architecture?
 
 ## Supporting Capabilities
 
