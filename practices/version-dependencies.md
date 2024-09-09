@@ -16,22 +16,6 @@ However, this approach requires a strategy to stay updated with the latest fixes
 Automated tools like Dependabot facilitate keep the dependencies updated across projects.
 They monitor dependencies for new versions, and can automatically create pull requests to update to these newer versions.
 
-## Introspective Questions
-
-### How Effective Is Your Dependency Management?
-How effectively is your team currently managing dependency versions, and could a more systematic approach to version control improve project consistency and reliability?
-
-### How Are You Addressing Dependency Hell?
-Have you encountered issues with "dependency hell," and what strategies could you implement to mitigate these challenges while maintaining strict version control?
-
-### How Often Do You Review Your Update Policies?
-Is your current policy for updating dependencies proactive or reactive?
-How often do you review dependency versions for potential updates, and could this process be optimized?
-
-### Are you using using tools to automate dependency updates?
-Are automatic dependency update tools suitable for your project?
-Could you benefit from using tools like Dependendabot, Renovate or Snyk to have dependency update pull requests generated automatically?
-
 ## How to Improve
 
 ### [Lead Workshops](/practices/lead-workshops.md)
@@ -63,6 +47,20 @@ Lock mayor dependencies in your project and configure Dependabot or a similar to
 #### [Dependencies Belong in Version Control](https://www.forrestthewoods.com/blog/dependencies-belong-in-version-control/)
 
 This article explores the importance of including dependencies within version control systems to ensure consistency, reliability, and traceability in software development projects. It discusses the benefits and methodologies of version controlling dependencies, offering insights into best practices for managing software dependencies effectively.
+
+### [Host A Roundtable Discussion](/practices/host-a-roundtable-discussion.md)
+
+#### How Effective Is Your Dependency Management?
+
+* How effectively is your team currently managing dependency versions, and could a more systematic approach to version control improve project consistency and reliability?
+* Have you encountered issues with "dependency hell," and what strategies could you implement to mitigate these challenges while maintaining strict version control?
+* Is your current policy for updating dependencies proactive or reactive?
+How often do you review dependency versions for potential updates, and could this process be optimized?
+
+#### Are you using using tools to automate dependency updates?
+
+* Are automatic dependency update tools suitable for your project?
+* Could you benefit from using tools like Dependendabot, Renovate or Snyk to have dependency update pull requests generated automatically?
 
 ## Supporting Capabilities
 
