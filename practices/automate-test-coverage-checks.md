@@ -29,16 +29,7 @@ None of those types of tests fit neatly into a traditional "coverage" check.
 ### Continuous Improvement
 
 Automating test coverage checks should not be a one-time setup but an ongoing process of refinement and improvement.
-Teams should regularly review and adjust coverage thresholds based on evolving project requirements, feedback from testing outcomes, and changes in software functionality.
-
-## Introspective Questions
-
-* Are our current coverage thresholds realistic and tailored to the specific needs of different modules within our application?
-* How often do we review and adjust our coverage metrics to align with evolving project requirements?
-* Do our tests catch bugs and edge cases, or are they merely boosting our coverage numbers?
-* Are we adequately addressing non-functional testing, such as performance, security, and usability, in our automated test coverage?
-* Are there any cultural or organizational barriers that prevent us from fully implementing this practice?
-* What lessons can we learn from past experiences to enhance our future approach to automated test coverage?
+Teams should regularly review and adjust coverage thresholds based on evolving project requirements, feedback from testing outcomes, and changes in software functionality.### [Host A Roundtable Discussion](/practices/host-a-roundtable-discussion.md)
 
 ## How to Improve
 
@@ -50,6 +41,23 @@ In his blog post on test coverage, Martin Fowler explores the concept of test co
 He argues that while high test coverage percentages can highlight which parts of the code are exercised by tests, they do not necessarily indicate the effectiveness of those tests.
 Fowler emphasizes that test coverage should be used alongside other techniques and metrics to assess the robustness of tests, and that focusing solely on coverage numbers can lead to superficial or inadequate testing.
 He advocates for a balanced approach that combines test coverage with thoughtful test design and evaluation to achieve meaningful software quality.
+
+### [Host A Roundtable Discussion](/practices/host-a-roundtable-discussion.md)
+
+#### Tailoring and Adjusting Test Coverage
+
+* Are our current coverage thresholds realistic and tailored to the specific needs of different modules within our application?
+* How often do we review and adjust our coverage metrics to align with evolving project requirements?
+
+#### Effectiveness of Test Coverage
+
+* Do our tests catch bugs and edge cases, or are they merely boosting our coverage numbers?
+* Are we adequately addressing non-functional testing, such as performance, security, and usability, in our automated test coverage?
+
+#### Challenges and Lessons in Test Coverage Implementation
+
+* Are there any cultural or organizational barriers that prevent us from fully implementing this practice?
+* What lessons can we learn from past experiences to enhance our future approach to automated test coverage?
 
 ## Supporting Capabilities
 
