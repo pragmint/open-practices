@@ -59,7 +59,7 @@ Focus on the current requirements and only introduce abstractions when there's a
 
 Reducing Coupling Between Abstractions enhances Code Maintainability by creating a modular and flexible codebase.
 Independent, well-defined components minimize unintended side effects, making the code easier to understand, modify, and test.
-This modularity ensures that changes in one part of the system do not disrupt others, preserving stability and reducing cognitive load.s
+This modularity ensures that changes in one part of the system do not disrupt others, preserving stability and reducing cognitive load.
 Clear abstractions and minimal dependencies support better documentation and collaboration, facilitating efficient onboarding and continuous improvement.
 
 ### [Host A Roundtable Discussion](/practices/host-a-roundtable-discussion.md)
