@@ -30,7 +30,7 @@ However, routine tasks or individual research may not require constant collabora
 ### Adapting to Remote Collaboration Challenges
 
 While Pair Programming can be done remotely, has some challenges such as communication barriers, technical issues, and time zone differences.
-Teams must use in suitable collaboration tools (Like VS Code Live Share) and establish clear communication protocols.
+Teams must use suitable collaboration tools (Like VS Code Live Share) and establish clear communication protocols.
 
 ## How to Improve
 
