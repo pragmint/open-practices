@@ -13,6 +13,53 @@ Integrating these checks into CI pipelines can help prevent accidental exposure.
 Version control systems should be configured with .gitignore to prevent committing sensitive files, and automated tests must handle credentials securely without exposing them.
 Lastly, it’s essential to ensure that logs do not accidentally capture sensitive information, further safeguarding credentials.
 
+## Nuance
+
+### Misconception: "Environment Variables Are Always Secure"
+
+Many developers assume that using environment variables automatically guarantees the security of credentials.
+However, environment variables can be exposed in logs, dumped during crashes, or improperly accessed if the system's access control is weak.
+It’s important to use secure deployment practices, configure access permissions correctly, and avoid exposing environment variables to unnecessary users or services.
+
+### False Sense of Security in Version Control
+
+Developers might believe that adding credentials to .gitignore is enough to secure sensitive information. While .gitignore prevents credentials from being committed going forward, it doesn't address cases where sensitive data has already been committed in previous versions.
+Simply removing credentials from the codebase doesn’t erase them from the version control history, and using tools like git-filter-repo or BFG Repo-Cleaner is necessary to fully clean the history.
+
+### Ignoring the Importance of Credential Rotation
+
+Some teams set up a credential management system and assume it’s secure without ever revisiting it.
+However, credentials should be rotated regularly to minimize the impact of potential leaks.
+A forgotten, stagnant set of credentials could be compromised without anyone noticing, leading to long-term vulnerabilities.
+Teams should have policies in place for automatic or scheduled credential rotation and update workflows to handle this gracefully.
+
+### Misjudging the Risk in Different Environments
+
+Some developers may treat all environments—development, staging, and production—with the same level of security when handling credentials.
+However, the level of risk varies by environment.
+For example, exposing credentials in a production environment is far riskier than in a local development environment.
+Developers should prioritize security efforts based on risk and criticality, and while all environments deserve protection, production must always be handled with the highest level of care.
+
+### Overlooking Role-Based Access Control (RBAC)
+
+Separating credentials from code is not the only step in protecting sensitive data.
+Without properly enforcing Role-Based Access Control (RBAC), teams might still expose credentials to more people or services than necessary.
+Even with secrets management tools in place, improper RBAC implementation can result in credential misuse.
+Teams should regularly audit who has access to specific credentials and adjust permissions based on roles and responsibilities.
+
+### Excessive Dependence on Automated Tools
+
+While tools like GitGuardian and TruffleHog are important for scanning repositories for exposed credentials, relying solely on these automated systems be a mistake.
+Developers should still exercise vigilance in their day-to-day practices, as no tool is perfect.
+Regular manual audits, alongside automated tools, ensure that issues are caught and resolved before they become a threat.
+
+### Assuming One Solution Fits All
+
+Different types of credentials and systems require different handling methods.
+For example, API keys may require frequent rotation, while database passwords might need stronger encryption and storage policies.
+Using a "one-size-fits-all" approach can lead to suboptimal security configurations.
+It's important to assess the sensitivity of each credential and apply appropriate solutions tailored to the specific risk.
+
 ## Key Points
 
 * Explanation of what it means to separate credentials from code.
