@@ -1,6 +1,6 @@
 # [Code Maintainability](https://dora.dev/devops-capabilities/technical/code-maintainability/)
 
-Each time we write, edit, or read a line of code it costs an organization time and money.
+Let's get started. Each time we write, edit, or read a line of code it costs an organization time and money.
 In the lifespan of a typical line of code, it will likely be written once, edited at least a handful of times, and read many times.
 As such, it makes sense to write code in a way that reduces the time required to comprehend it.
 Ideally, the software is built such that the reader can avoid needing to know how the whole system functions in order to make a local change.
