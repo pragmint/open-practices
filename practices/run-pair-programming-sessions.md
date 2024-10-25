@@ -35,28 +35,32 @@ However, routine tasks or individual research may not require constant collabora
 While pair programming can be done remotely, this approach presents some challenges such as communication barriers, technical issues, and time zone differences.
 Teams must use suitable collaboration tools (for example, Visual Studio Live Share) and establish clear communication protocols.
 
-<ed> Edit OK? This appears to be the way MS refers to the tool. Also, I notice this is the first specific tool that is referenced. Practice files discussed automation tools and visual analytics tools, generally, but did not name any names. I realize this is tricky, as you don't want to appear to be endorsing any one specific product, but specific recommendations might be helpful for some readers. This is something to consider adding in your revisions. </ed> 
+<ed> Edit OK? This appears to be the way MS refers to the tool. Also, I notice this is the first specific tool that is referenced. Practice files discussed automation tools and visual analytics tools, generally, but did not name any names. I realize this is tricky, as you don't want to appear to be endorsing any one specific product, but specific recommendations might be helpful for some readers. This is something to consider adding in your revisions. </ed>
 
 ## How to Improve
 
-<ed> Suggest editing the above section header to something more specific, like "How to Implement This Practice" or "Tips on Implementing This Practice" </ed> 
+<ed> Suggest editing the above section header to something more specific, like "How to Implement This Practice" or "Tips on Implementing This Practice" </ed>
 
 Help your team implement this practice by hosting a viewing party of specially curated talks, starting a book club to discuss impactful titles on this topic, facilitating a roundtable discussion about relevant topics, leading a workshop, or running a retrospective.
 
-<ed> Suggested text to introduce this section and preview what it will cover. Such text would appear in all Practices. With all Practice files, I would suggest consistently presenting the topics in this order: 
+<ed> Suggested text to introduce this section and preview what it will cover. Such text would appear in all Practices. With all Practice files, I would suggest consistently presenting the topics in this order:
 - Host viewing party
 - Start book club
 - Facilitate roundtable
-[other tips... I notice that, beyond these top three, they begin to vary] My edits below reflect this suggestion. </ed> 
+[other tips... I notice that, beyond these top three, they begin to vary] My edits below reflect this suggestion. </ed>
 
 
 ### [Host a Viewing Party](/practices/host-a-viewing-party.md)
 
 #### [Async Code Reviews Are Chocking Your Company’s Throughput](https://www.youtube.com/watch?v=ZlLZEQQBcFg)
 
-In this video, principal engineer at HelloFresh Dragan Stepanovic delves into the common practice of pull/merge requests (PRs) in software development teams and their potential impact on throughput. <ed> Added detail about who Dragan is. OK? </ed> 
+In this video, principal engineer at HelloFresh Dragan Stepanovic delves into the common practice of pull/merge requests (PRs) in software development teams and their potential impact on throughput. <ed> Added detail about who Dragan is. OK? </ed>
 Drawing from his study analyzing tens of thousands of PRs across various repositories, he reveals that teams using small PRs with asynchronous code reviews often experience lower throughput compared to those using larger PRs. Dragan introduces a solution to this dilemma: co-creation patterns such as pair and mob programming, where multiple individuals collaborate simultaneously on a task.
 By exploring data that challenges the assumption that these collaborative patterns diminish team throughput, Dragan suggests a path toward achieving both high throughput and high quality in software development.
+
+#### [Is The Best Software Written Alone?](https://vimeo.com/241742427/eba2897c1f)
+
+Elizabeth Engleman talks about how mismatches in personality, learning style, and experience levels can create challenges while pair programming.
 
 
 ### [Start a Book Club](/practices/start-a-book-club.md)
