@@ -5,16 +5,12 @@ In the lifespan of a typical line of code, it will likely be written once, edite
 As such, it makes sense to write code in a way that reduces the time required to comprehend it.
 Ideally, the software is built such that the reader can avoid needing to know how the whole system functions in order to make a local change.
 Furthermore, bugs are easier to spot when the surrounding code is easy to comprehend.
-The result of building code that's easy to maintain is more efficient delivery and better stability. But writing maintainable code requires an advanced set of skills — a set of skills that is developed by following the practices described in this section. 
-
-<ed> Edit OK? I want to assure the reader that this "advanced set of skills" is indeed attainable and how. </ed>
+The result of building code that's easy to maintain is more efficient delivery and better stability. But writing maintainable code requires an advanced set of skills — one that can be developed by following the practices described below. 
 
 Too often, we are working with code that is difficult to maintain. 
 
 There are many reasons developers write code that is ultimately hard to maintain. 
 One key reason is that developers generally focus on learning skills that help them execute the job in front of them, like learning a language or framework. They tend to under-invest in skills that have a long-term payoff, like writing cleanly abstracted, easy to maintain, and extensible code. 
-
-<ed> Above text is taken from your reply to my query in the Gdoc. I like how you articulated this, so I added it to the intro. OK? </ed>
 
 While writing difficult-to-maintain code may seem quicker in the short term, it can have a snowball effect. Making changes to codebases that are already a mess tends to be time-consuming, complex, and prone to errors. Often, developers follow the path of least resistance by adding to the mess to get their new functionality added.
 There may be good reasons to follow such a path. However, doing so further degrades the maintainability of the system.
@@ -24,13 +20,10 @@ This delay makes it harder for non-technical team members to understand the cons
 
 ## Nuance
 
-This section outlines common pitfalls, challenges, or limitations teams commonly encounter when applying this capability.
+This section outlines common pitfalls, challenges, or limitations teams commonly encounter when applying this capability. The goal here is not to discourage you. Rather, the goal is to arm you with the appropriate context so that you can make an informed decision about when and how to implement the capability with your teams.
 
-<ed> This line (whether it's this exact line or a tweaked version) can be used consistently for all Capabilities, at the start of the Nuance section. </ed>
 
 ### Gold Plating
-
-<ed> I've woven some of your Gdoc reply into the text below. Again, I like how you articulated it. Please review carefully and tweak as needed. </ed>
 	
 The cost of creating and maintaining software systems can add up quickly. While it's important to write code that is easy to maintain, this shouldn't be done at the expense of building a perfect system. When building re-usable software, teams have to make certain assumptions about how the code may be re-used in the future. Making these assumptions is a bit of an art. If your team avoids making any assumptions at all, they risk building software that's difficult to alter down the line. But if your team makes a bunch of faulty assumptions about the future use of their software — assumptions that are unlikely to come to fruition — they risk wasted time and effort. This is known as Gold Plating. 
 
@@ -39,13 +32,12 @@ Therefore, it's important to weigh cost-benefit tradeoffs when making decisions 
 
 ## Assessment
 
-To assess how mature your team or organization is in this capability, score yourself on the descriptions below.
+To assess how mature your team or organization is in this capability, complete this short, two-part exercise. 
 
-Don't worry if the description doesn't exactly match your situation. These descriptions are meant to be examples of situations that would qualify for the associated score. 
+First, score yourself on the Code Maintainability capability. Generally, score yourself a 1 if Code Maintainability is completely missing from your team or organization, a 2 if there is a lot of room for improvement, a 3 if there is some room for improvement, and a 4 if your team or organization is exemplary in the area of Code Maintainability.
 
-Generally, score yourself a 1 if this capability is completely missing from your team or organization, a 2 if there is a lot of room for improvement, a 3 if there is some room for improvement, and a 4 if your team or organization is exemplary in this capability.
+Next, consider the descriptions in the two areas of focus below: New Code and Previously Written Code. Score yourself on each description. A score of 1 means..., a score of 2 means..., a score of 3 means..., and a score of 4 means... Don't worry if the description doesn't exactly match your situation. These descriptions are meant to be examples of situations that would qualify for the associated score. 
 
-<ed> There are a few points of confusion here. First, we're asking the reader to score themselves on each description below. But, in the line above, we then refer to the description as "this capability". I suggest we avoid using the word "capability" since the one key capability we're focused on here is code maintainability. Perhaps these can be referred to as areas. But this leads to a second point of confusion: If we refer to something like "growing tech debt" as an "area" and we ask the reader to score themselves on it, then a score of 1 for "growing tech debt" means this area is completely missing from their team or organization...which doesn't really match up. I think two things need to happen: 1) edit "capability" to something like "area" and 2) clarify what each score means in the context of "areas". For example, a score of 4 for "proactive maintenance" means that your team or organization is exemplary in this area. I think the score of 1 probably needs most clarification. </ed> 
 
 ### New Code
 
@@ -61,17 +53,14 @@ Generally, score yourself a 1 if this capability is completely missing from your
 3. **Partially Modular Codebase:** Most parts of the system are modular and easy to update, but some are complex and difficult to work with.
 4. **Well-organized Codebase:** When changes are made to the existing codebase, they don’t tend to require much rework.
 
-Now average your scores for the two responses and that will be your overall score for this capability.
+Now, average your scores for New Code and average your scores for Previously Written Code. Then, average those two numbers and you'll have your overall score for this capability. So, if your average score for New Code was 3 and your average score for Previously Written Code was 2, then your overall score for Code Maintainability would be 2.5. 
 
-<ed> By "two responses" do we mean New Code and Previously Written Code? I think we could make this instruction clearer for the reader. My understanding is that the reader is to score themselves on each of the 4 areas in each of the two "subcategories" above (New Code and Previously Written Code). Do they then average the scores of each subcategory or do they average the scores of ALL areas (which would be 8 areas total)? </ed> 
+An overall score of 2.5 or below means you'll probably gain a lot of value from experimenting with some of the supporting practices listed below. An overall score of 3 or higher means you and your team are largely proficient, or well on your way to becoming proficient, in the area of Code Maintainability; you would likely benefit from evaluating your scores in other capabilities.
 
-<ed> I suggest adding a line or two here that clarifies your vision for next steps for readers based on their score. For example, if their score was a 4, they're good to go here and can opt to move on to Related Capabilities? If their score was 3 or below, they should see Supporting Practices? </ed>
 
 ## Supporting Practices
 
-The following supporting practices will bolster your team’s Code Maintainability capability.
-
-<ed> I suggest we consistently add a quick line here to signal to the reader what this new section will cover. The line will need to be edited based on the capability. This text is just a suggestion -- feel free to edit as you see fit. </ed>
+The following is a curated list of supporting practices to consider when looking to improve your team's Code Maintainability capability. While not every practice will be beneficial in every situation, they are meant to provide teams with fresh, pragmatic, and actionable ideas to support this capability.
 
 
 ### [Automate Coding Standards](/practices/automate-coding-standards.md)
@@ -84,8 +73,6 @@ Automating coding standards removes the burden of manual reviews for stylistic a
 ### [Decouple from Third Parties](/practices/decouple-from-third-parties.md)
 
 Decoupling from third parties means minimizing dependencies on third-party software, thereby ensuring that code remains adaptable and easy to maintain over time. By abstracting dependencies behind interfaces and relying on those interfaces instead of specific third-party tools, teams can enhance the portability of their code, facilitate comprehensive testing through the creation of mock or stub implementations, and flexibly migrate to alternative solutions if necessary.
-
-<ed> Edit to line above ok/accurate? </ed>
 
 ### [Conduct Code Reviews](/practices/conduct-code-reviews.md)
 
@@ -104,7 +91,7 @@ Pair programming facilitates collaboration, real-time code review, and knowledge
 
 Reducing coupling between abstractions creates a modular and flexible codebase.
 Independent, well-defined components minimize unintended side effects, making the code easier to understand, modify, and test.
-This modularity ensures that changes in one part of the system do not disrupt others, preserving stability and reducing cognitive load. <ed> Do we mean reducing cognitive load on...the system? Or on the developers reading/reviewing the code? Please clarify. </ed> Clear abstractions and minimal dependencies support better documentation and collaboration, facilitating efficient onboarding and continuous improvement.
+This modularity ensures that changes in one part of the system do not disrupt others, preserving stability and reducing cognitive load on developers. Clear abstractions and minimal dependencies support better documentation and collaboration, facilitating efficient onboarding and continuous improvement.
 
 ### [Refactor](/practices/refactor.md)
 
@@ -122,11 +109,13 @@ Performing static code analysis involves using automated tools to enhance code q
 These tools meticulously scan the codebase to identify potential issues such as code smells, security vulnerabilities, and performance bottlenecks early in the development process.
 By integrating static code analysis into version control systems, IDEs, and CI/CD pipelines, teams can receive immediate feedback on code changes, ensuring adherence to coding standards and best practices. This proactive approach reduces the cognitive load on developers, allowing them to focus on more complex tasks while maintaining a clean, modular, and easily comprehensible codebase.
 
-## Related Capabilities
+## Adjacent Capabilities
 
-The following related capabilities may be helpful for you and your team to explore next. 
+The following capabilities will be valuable for you and your team to explore, as they are either:
 
-<ed> Ditto above re: inserting a line that breaks up the stacked headers and signals to the reader what this section will cover. This line can remain the same for all Capability files. Again, text here is just a suggestion. </ed>
+- Related (they cover similar territory to Code Maintainability)
+- Upstream (they are a pre-requisite for Code Maintainability)
+- Downstream (Code Maintainability is a pre-requisite for them)
 
 ### [Version Control](/capabilities/version-control.md)
 
@@ -142,5 +131,4 @@ A well-documented codebase is more maintainable, and vice versa.
 ### [Loosely Coupled Teams](/capabilities/loosely-coupled-teams.md)
 
 When teams are able to "own" their changes without requiring buy-in or high levels of coordination with other teams, the codebases they operate in tend to reflect that loose coupling.
-As a result, the overall maintainability of the codebase improves, with faster bug fixing, improved security, and better code quality.
-<ed> I'm curious how security is improved by loose coupling. Suggest briefly clarifying, even parenthetically. </ed> 
+As a result, the overall maintainability of the codebase improves, with faster bug fixing and better code quality.
