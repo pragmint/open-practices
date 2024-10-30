@@ -6,10 +6,7 @@ Reducing coupling ultimately makes the system easier to understand, fix, and exp
 
 ## Nuances
 
-<ed> Ditto comment in Run Pair Programming Sessions about swapping Nuances and How to... sections. </ed> 
-
-
-This section outlines common pitfalls, challenges, or limitations teams commonly encounter when applying this practice.
+This section outlines common pitfalls, challenges, or limitations teams commonly encounter when applying this practice. The goal here is not to discourage you. Rather, the goal is to arm you with the appropriate context so that you can make an informed decision about when and how to implement the practice with your teams.
 
 ### Over-Engineering
 
@@ -38,19 +35,16 @@ Start with the most problematic areas, gradually refactoring and decoupling comp
 Not all coupling is bad; some level of dependency is natural and necessary.
 Recognizing and accepting necessary coupling helps avoid futile efforts to decouple what should inherently be connected.
 
-### Design for Change vs. YAGNI (You Aren't Gonna Need It)
-<ed> I'm not sure I understand the specific pitfall/challenge from this title. Perhaps "Design for Needed, Not Speculative, Features"? </ed>
+### Design for Needed, Not Speculative, Features
 
 Reducing coupling prepares the codebase for future changes, but it’s important to avoid premature optimization.
-The YAGNI principle warns against adding complexity for features that might never be needed.
+The YAGNI (You Aren't Gonna Need It) principle warns against adding complexity for features that might never be needed.
 Focus on the current requirements and only introduce abstractions when there's a clear, present need. This will help you avoid speculative design.
 
 
-## How To Improve
+## Getting Your Team Started
 
-<ed> Ditto comment in Run Pair Programming Sessions about editing the title of this section. </ed> 
-
-Help your team implement this practice by hosting a viewing party of specially curated talks, starting a book club to discuss impactful titles on this topic, facilitating a roundtable discussion about relevant topics, or doing a spike.
+Help your team implement this practice by hosting a viewing party of specially curated talks, starting a book club to discuss impactful titles on this topic, facilitating a roundtable discussion about relevant topics, or doing a spike (or timeboxed experiment).
 
 ### [Host a Viewing Party](/practices/host-a-viewing-party.md)
 
@@ -63,14 +57,16 @@ This talk explores the intricate dynamics between code boundaries and system arc
 #### [Clean Architecture by Robert C. Martin](https://www.goodreads.com/book/show/18043011-clean-architecture) 
 This book delves into principles and practices that ensure code remains clean, emphasizing the importance of separation of concerns and the decoupling of systems for better manageability.
 
-<ed> Are there any text/video resources on refactoring, specifically, that you want to recommend? </ed>
+#### [Working Effectively with Legacy Code by Michael C. Feathers](https://www.goodreads.com/book/show/44919.Working_Effectively_with_Legacy_Code)
+This book discusses how to find seams, add automated test coverage, and refactor the system to be more simple.
+
+#### [Refactoring by Martin Fowler](https://www.goodreads.com/en/book/show/44936.Refactoring)
+This is similar to Feathers's book above, but it covers the content from a first-principles standpoint.
 
 
 ### [Facilitate a Roundtable Discussion](/practices/host-a-roundtable-discussion.md)
 
 Below are suggestions for topics and prompts you could explore with your team during a roundtable discussion. 
-
-<ed> Line above OK? Tweak as you like, but I recommend adding a quick sentence here to give context to the subsections and questions that follow. </ed>
 
 #### Understanding Dependencies
 
@@ -96,13 +92,10 @@ Below are suggestions for topics and prompts you could explore with your team du
 * How do we ensure system stability while refactoring to reduce coupling?
 
 
-### [Do a Spike](/practices/do-a-spike.md)
-
-<ed> This may be a silly question, but does your target reader know what a spike is? I'm assuming they do and we don't need to define this practice, but just want to double-check. </ed>
-
+### [Do a Spike, or Timeboxed Experiment](/practices/do-a-spike.md)
 
 - **Refactor**: Set some time aside to refactor a key component or set of components to reduce coupling. Present your findings to the team to see if committing those changes or making additional changes have a good potential return on investment.
-- **Audit Your Dependencies**: Use a dependency analysis tool to visualize the relationships between modules and components, and to identify highly coupled areas. Discuss why these dependencies exist. <ed> Is there a specific tool(s) you'd recommend? </ed>
+- **Audit Your Dependencies**: Use a dependency analysis tool to visualize the relationships between modules and components, and to identify highly coupled areas. Discuss why these dependencies exist.
 
 
 ## Supporting Capability
@@ -111,7 +104,7 @@ Below are suggestions for topics and prompts you could explore with your team du
 
 Reducing coupling between abstractions enhances the Code Maintainability capability by creating a modular and flexible codebase.
 Independent, well-defined components minimize unintended side effects, making the code easier to understand, modify, and test.
-This modularity ensures that changes in one part of the system do not disrupt others, preserving stability and reducing cognitive load. <ed> Cognitive load on the developers or on the system? </ed> 
+This modularity ensures that changes in one part of the system do not disrupt others, preserving stability and reducing cognitive load on developers.
 Clear abstractions and minimal dependencies support better documentation and collaboration, which in turn facilitate efficient onboarding and continuous improvement.
 
 
