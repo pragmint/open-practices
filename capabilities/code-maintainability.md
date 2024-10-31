@@ -22,7 +22,6 @@ This delay makes it harder for non-technical team members to understand the cons
 
 This section outlines common pitfalls, challenges, or limitations teams commonly encounter when applying this capability. The goal here is not to discourage you. Rather, the goal is to arm you with the appropriate context so that you can make an informed decision about when and how to implement the capability with your teams.
 
-
 ### Gold Plating
 
 The cost of creating and maintaining software systems can add up quickly. While it's important to write code that is easy to maintain, this shouldn't be done at the expense of building a perfect system. When building re-usable software, teams have to make certain assumptions about how the code may be re-used in the future. Making these assumptions is a bit of an art. If your team avoids making any assumptions at all, they risk building software that's difficult to alter down the line. But if your team makes a bunch of faulty assumptions about the future use of their software — assumptions that are unlikely to come to fruition — they risk wasted time and effort. This is known as Gold Plating.
@@ -37,7 +36,6 @@ To assess how mature your team or organization is in this capability, complete t
 First, score yourself on the Code Maintainability capability. Generally, score yourself a 1 if Code Maintainability is completely missing from your team or organization, a 2 if there is a lot of room for improvement, a 3 if there is some room for improvement, and a 4 if your team or organization is exemplary in the area of Code Maintainability.
 
 Next, consider the descriptions in the two areas of focus below: New Code and Previously Written Code. Score yourself on each description. Don't worry if the description doesn't exactly match your situation. These descriptions are meant to be examples of situations that would qualify for the associated score.
-
 
 ### New Code
 
@@ -57,11 +55,9 @@ Now, average your scores for New Code and average your scores for Previously Wri
 
 An overall score of 2.5 or below means you'll probably gain a lot of value from experimenting with some of the supporting practices listed below. An overall score of 3 or higher means you and your team are largely proficient, or well on your way to becoming proficient, in the area of Code Maintainability; you would likely benefit from evaluating your scores in other capabilities.
 
-
 ## Supporting Practices
 
 The following is a curated list of supporting practices to consider when looking to improve your team's Code Maintainability capability. While not every practice will be beneficial in every situation, they are meant to provide teams with fresh, pragmatic, and actionable ideas to support this capability.
-
 
 ### [Automate Coding Standards](/practices/automate-coding-standards.md)
 
