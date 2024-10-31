@@ -117,18 +117,18 @@ The following capabilities will be valuable for you and your team to explore, as
 - Upstream (they are a pre-requisite for Code Maintainability)
 - Downstream (Code Maintainability is a pre-requisite for them)
 
-### [Version Control](/capabilities/version-control.md)
+### [Version Control](/capabilities/version-control.md) - Upstream
 
 Version Control is fundamental for a maintainable codebase. It allows for efficient tracking, collaboration, and management of code changes over time.
 By tracking changes made to the codebase using version control, developers can ensure consistency across contributors, re-use code components, conduct code audits, track bugs and errors, meet compliance requirements, manage security patches, and integrate updates quickly and easily.
 
-### [Documentation Quality](/capabilities/documentation-quality.md)
+### [Documentation Quality](/capabilities/documentation-quality.md) - Related
 
 High-quality documentation is essential for code maintainability. It provides context for design decisions while also cataloging best practices and compatibility information.
 By investing in documentation, developers create a single source of truth for the codebase, reducing confusion and bugs down the line.
 A well-documented codebase is more maintainable, and vice versa.
 
-### [Loosely Coupled Teams](/capabilities/loosely-coupled-teams.md)
+### [Loosely Coupled Teams](/capabilities/loosely-coupled-teams.md) - Upstream
 
 When teams are able to "own" their changes without requiring buy-in or high levels of coordination with other teams, the codebases they operate in tend to reflect that loose coupling.
 As a result, the overall maintainability of the codebase improves, with faster bug fixing and better code quality.
