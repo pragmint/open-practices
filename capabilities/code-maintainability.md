@@ -5,12 +5,12 @@ In the lifespan of a typical line of code, it will likely be written once, edite
 As such, it makes sense to write code in a way that reduces the time required to comprehend it.
 Ideally, the software is built such that the reader can avoid needing to know how the whole system functions in order to make a local change.
 Furthermore, bugs are easier to spot when the surrounding code is easy to comprehend.
-The result of building code that's easy to maintain is more efficient delivery and better stability. But writing maintainable code requires an advanced set of skills — one that can be developed by following the practices described below. 
+The result of building code that's easy to maintain is more efficient delivery and better stability. But writing maintainable code requires an advanced set of skills — one that can be developed by following the practices described below.
 
-Too often, we are working with code that is difficult to maintain. 
+Too often, we are working with code that is difficult to maintain.
 
-There are many reasons developers write code that is ultimately hard to maintain. 
-One key reason is that developers generally focus on learning skills that help them execute the job in front of them, like learning a language or framework. They tend to under-invest in skills that have a long-term payoff, like writing cleanly abstracted, easy to maintain, and extensible code. 
+There are many reasons developers write code that is ultimately hard to maintain.
+One key reason is that developers generally focus on learning skills that help them execute the job in front of them, like learning a language or framework. They tend to under-invest in skills that have a long-term payoff, like writing cleanly abstracted, easy to maintain, and extensible code.
 
 While writing difficult-to-maintain code may seem quicker in the short term, it can have a snowball effect. Making changes to codebases that are already a mess tends to be time-consuming, complex, and prone to errors. Often, developers follow the path of least resistance by adding to the mess to get their new functionality added.
 There may be good reasons to follow such a path. However, doing so further degrades the maintainability of the system.
@@ -24,19 +24,19 @@ This section outlines common pitfalls, challenges, or limitations teams commonly
 
 
 ### Gold Plating
-	
-The cost of creating and maintaining software systems can add up quickly. While it's important to write code that is easy to maintain, this shouldn't be done at the expense of building a perfect system. When building re-usable software, teams have to make certain assumptions about how the code may be re-used in the future. Making these assumptions is a bit of an art. If your team avoids making any assumptions at all, they risk building software that's difficult to alter down the line. But if your team makes a bunch of faulty assumptions about the future use of their software — assumptions that are unlikely to come to fruition — they risk wasted time and effort. This is known as Gold Plating. 
+
+The cost of creating and maintaining software systems can add up quickly. While it's important to write code that is easy to maintain, this shouldn't be done at the expense of building a perfect system. When building re-usable software, teams have to make certain assumptions about how the code may be re-used in the future. Making these assumptions is a bit of an art. If your team avoids making any assumptions at all, they risk building software that's difficult to alter down the line. But if your team makes a bunch of faulty assumptions about the future use of their software — assumptions that are unlikely to come to fruition — they risk wasted time and effort. This is known as Gold Plating.
 
 Every decision made during development — and every assumption about the software — has the potential to impact the long-term maintenance of the system.
 Therefore, it's important to weigh cost-benefit tradeoffs when making decisions and assumptions about the design and functionality of the software.
 
 ## Assessment
 
-To assess how mature your team or organization is in this capability, complete this short, two-part exercise. 
+To assess how mature your team or organization is in this capability, complete this short, two-part exercise.
 
 First, score yourself on the Code Maintainability capability. Generally, score yourself a 1 if Code Maintainability is completely missing from your team or organization, a 2 if there is a lot of room for improvement, a 3 if there is some room for improvement, and a 4 if your team or organization is exemplary in the area of Code Maintainability.
 
-Next, consider the descriptions in the two areas of focus below: New Code and Previously Written Code. Score yourself on each description. A score of 1 means..., a score of 2 means..., a score of 3 means..., and a score of 4 means... Don't worry if the description doesn't exactly match your situation. These descriptions are meant to be examples of situations that would qualify for the associated score. 
+Next, consider the descriptions in the two areas of focus below: New Code and Previously Written Code. Score yourself on each description. Don't worry if the description doesn't exactly match your situation. These descriptions are meant to be examples of situations that would qualify for the associated score.
 
 
 ### New Code
@@ -53,7 +53,7 @@ Next, consider the descriptions in the two areas of focus below: New Code and Pr
 3. **Partially Modular Codebase:** Most parts of the system are modular and easy to update, but some are complex and difficult to work with.
 4. **Well-organized Codebase:** When changes are made to the existing codebase, they don’t tend to require much rework.
 
-Now, average your scores for New Code and average your scores for Previously Written Code. Then, average those two numbers and you'll have your overall score for this capability. So, if your average score for New Code was 3 and your average score for Previously Written Code was 2, then your overall score for Code Maintainability would be 2.5. 
+Now, average your scores for New Code and average your scores for Previously Written Code. Then, average those two numbers and you'll have your overall score for this capability. So, if your average score for New Code was 3 and your average score for Previously Written Code was 2, then your overall score for Code Maintainability would be 2.5.
 
 An overall score of 2.5 or below means you'll probably gain a lot of value from experimenting with some of the supporting practices listed below. An overall score of 3 or higher means you and your team are largely proficient, or well on your way to becoming proficient, in the area of Code Maintainability; you would likely benefit from evaluating your scores in other capabilities.
 
