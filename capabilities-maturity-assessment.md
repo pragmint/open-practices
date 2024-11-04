@@ -102,17 +102,17 @@ To improve in a capability, find the page in the [capabilities list](/capabiliti
 
 #### Change Failure Rate
 
-1. **High Failure Rate:** More than 15% of changes result in a service outage or subsequently require a hotfix.
-2. **Moderate Failure Rate:** Between 3-15% of changes result in a service outage or subsequently require a hotfix.
-3. **Low Failure Rate:** Less than 3% of changes result in a service outage or subsequently require a hotfix.
-4. **Very Low Failure Rate:** Less than 1% of changes result in a service outage or subsequently require a hotfix.
+1. **High Failure Rate:** More than 15% of changes to production results in a degraded service and requires immediate remediation.
+2. **Moderate Failure Rate:** Between 3-15% of changes to production results in a degraded service and requires immediate remediation.
+3. **Low Failure Rate:** Less than 3% of changes to production results in a degraded service and requires immediate remediation.
+4. **Very Low Failure Rate:** Less than 1% of changes to production results in a degraded service and requires immediate remediation.
 
 #### Time to Restore Service
 
-1. **Days:** It typically takes multiple days to restore service after an outage.
-2. **Hours:** It typically takes multiple hours to restore service after an outage.
-3. **Under An Hour:** It typically takes somewhere between 10 and 60 minutes to restore service after an outage.
-4. **A Couple Of Minutes:** It typically takes under 10 minutes to restore service after an outage.
+1. **Days:** It typically takes multiple days to restore service after a change failure.
+2. **Hours:** It typically takes multiple hours to restore service after a change failure.
+3. **Under An Hour:** It typically takes somewhere between 10 and 60 minutes to restore service after a change failure.
+4. **A Couple Of Minutes:** It typically takes under 10 minutes to restore service after a change failure.
 
 ### [Database Change Management](/capabilities/database-change-management.md)
 
