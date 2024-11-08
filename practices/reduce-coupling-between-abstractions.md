@@ -95,7 +95,7 @@ Below are suggestions for topics and prompts you could explore with your team du
 ### [Do a Spike, or Timeboxed Experiment](/practices/do-a-spike.md)
 
 - **Refactor**: Set some time aside to refactor a key component or set of components to reduce coupling. Present your findings to the team to see if committing those changes or making additional changes have a good potential return on investment.
-- **Audit Your Dependencies**: Use a dependency analysis tool to visualize the relationships between modules and components, and to identify highly coupled areas. Discuss why these dependencies exist.
+- **Audit Your Dependencies**: Use a [dependency analysis tool](https://markgacoka.medium.com/how-to-visualize-your-codebase-7c4c4d948141) to visualize the relationships between modules and components, and to identify highly coupled areas. Discuss why these dependencies exist.
 
 
 ## Supporting Capability
