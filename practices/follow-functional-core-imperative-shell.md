@@ -93,7 +93,7 @@ Below are suggestions for topics and prompts you could explore with your team du
 #### Assessing the Benefits
 
 * What advantages could the adoption of the Functional Core, Imperative Shell pattern bring to our projects?
-* How might separating business logic from I/O enhance code readability, maintainability, and scalability?
+* How might separating business logic from side effects enhance code readability, maintainability, and scalability?
 * In what ways could the Functional Core, Imperative Shell pattern mitigate the impact of changes in infrastructure technology, allowing for smoother transitions and future-proofing our codebase?
 * What benefits might arise from writing unit tests that ensure the functional core code being tested has no side effects?
 * How could the reduced presence of control statements in the imperative shell simplify integration tests?
