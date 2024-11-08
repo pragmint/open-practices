@@ -17,7 +17,7 @@ Over-reliance on pair programming for all tasks may limit developers' autonomy a
 
 ### Managing Pair Dynamics
 
-Rotating pairs fosters diverse perspectives and mitigates dependency, while alternating roles promotes skill development and engagement. Whether the roles are driver and navigator or something less formal, the key idea is that both members of the pair should be fully engaged in the task. If they're not, this should be quickly rectified so the benefits of pairing are not lost. 
+Rotating pairs fosters diverse perspectives and mitigates dependency, while alternating roles promotes skill development and engagement. Whether the roles are driver and navigator or something less formal, the key idea is that both members of the pair should be fully engaged in the task. If they're not, this should be quickly rectified so the benefits of pairing are not lost.
 
 Continuous pair programming sessions without breaks can also lead to burnout and fatigue, diminishing the effectiveness of collaboration. Teams should take regular breaks, rotate pairs frequently, and encourage developers to take time for individual reflection.
 
@@ -31,11 +31,9 @@ However, routine tasks or individual research may not require constant collabora
 While pair programming can be done remotely, this approach presents some challenges such as communication barriers, technical issues, and time zone differences.
 Teams must use suitable collaboration tools (for example, Visual Studio Live Share) and establish clear communication protocols.
 
-
 ## Getting Your Team Started
 
 Help your team implement this practice by hosting a viewing party of specially curated talks, starting a book club to discuss impactful titles on this topic, facilitating a roundtable discussion about relevant topics, leading a workshop, or running a retrospective.
-
 
 ### [Host a Viewing Party](/practices/host-a-viewing-party.md)
 
@@ -43,11 +41,9 @@ Help your team implement this practice by hosting a viewing party of specially c
 
 Engineer Dragan Stepanovic discusses his analysis of thousands of PRs across various repositories, revealing that teams using small PRs with asynchronous code reviews often experience lower throughput compared to those using larger PRs. Dragan introduces a solution to this dilemma: co-creation patterns such as pair and mob programming, where multiple individuals collaborate simultaneously on a task.
 
-
 #### [Is The Best Software Written Alone?](https://vimeo.com/241742427/eba2897c1f)
 
 Engineer Elizabeth Engelman talks about how mismatches in personality, learning style, and experience levels can create challenges while pair programming.
-
 
 ### [Start a Book Club](/practices/start-a-book-club.md)
 
@@ -67,12 +63,10 @@ Ultimately, Joshua's article champions simplicity in coding solutions.
 
 This article, co-authored by faculty from North Carolina State University and the University of Utah, focuses on the benefits of pair programming. Based on anecdotal evidence and structured experiments, the authors argue that pair programming leads to higher-quality code, faster development, and increased programmer satisfaction. The article presents data from professional programmers and students, showing that pair programming is more efficient despite initial skepticism. It also highlights pair programming's role in the Extreme Programming (XP) methodology, emphasizing its effectiveness across all levels of programming skill.
 
-
 ### [Facilitate a Roundtable Discussion](/practices/host-a-roundtable-discussion.md)
 
-Below are suggestions for topics and prompts you could explore with your team during a roundtable discussion. 
+Below are suggestions for topics and prompts you could explore with your team during a roundtable discussion.
 
-	
 #### Maximizing the Effectiveness of Pair Programming
 
 * How frequently do we engage in pair programming sessions, and are they integrated into our regular workflow?
@@ -83,7 +77,7 @@ Below are suggestions for topics and prompts you could explore with your team du
 
 * How do we manage pair dynamics to foster diverse perspectives and mitigate dependency on individual team members?
 * What steps can we take to encourage pairing across the team and prevent reliance on a single pair, which could lead to bottlenecks?
-* Are team members encouraged to take on both the role of driver and navigator during pair programming sessions, to promote skill development and engagement? 
+* Are team members encouraged to take on both the role of driver and navigator during pair programming sessions, to promote skill development and engagement?
 
 #### Evaluating Contextual Suitability and Adaptability
 
@@ -91,13 +85,11 @@ Below are suggestions for topics and prompts you could explore with your team du
 * What tools and protocols do we have in place to address challenges associated with remote pair programming, such as communication barriers and time zone differences?
 * How do we ensure that team members are equipped with the necessary skills and resources to effectively engage in pair programming?
 
-
 ### [Lead Workshops](/practices/lead-workshops.md)
 
 #### Trial Period
 
 To experiment with pair programming and evaluate its effects, start by pairing team members for a designated trial period, such as one or two weeks. Aim to pair individuals with mixed experience levels, if possible. Assign tasks to the pairs and rotate pairs frequently to encourage diverse collaboration. During each trial period, have one person in the driver role, actively writing code, while the other acts as the navigator, providing real-time feedback and suggestions. Encourage pairs to switch roles regularly. Monitor the outcomes by gathering feedback on code quality, productivity, and team satisfaction. Additionally, observe any improvements in knowledge sharing, problem-solving efficiency, and team cohesion.
-
 
 ### [Run a Retrospective](/practices/host-a-retrospective.md)
 
@@ -105,11 +97,9 @@ To experiment with pair programming and evaluate its effects, start by pairing t
 
 Regular feedback sessions provide an opportunity for team members to share their experiences, challenges, and suggestions regarding pair programming. By collecting feedback from participants, you can identify areas for improvement, address concerns, and iterate on the pair programming process. This continuous feedback loop enables you to refine your approach to pair programming and ensure that it aligns with your team's evolving needs and goals.
 
-
-
 ## Supporting Capability
 
-This practice supports enhanced performance in the following capability. 
+This practice supports enhanced performance in the following capability.
 
 ### [Code Maintainability](/capabilities/code-maintainability.md)
 
