@@ -26,6 +26,7 @@ Reducing coupling can make the system more modular and understandable, but if th
 Effective communication and comprehensive documentation are essential.
 
 ### Radical Implementation vs. Incremental
+
 Attempting to reduce coupling throughout an existing codebase *all at once* can be overwhelming and risky.
 Instead, it's often more practical to implement these changes incrementally.
 Start with the most problematic areas, gradually refactoring and decoupling components. This helps manage risk and maintain system stability.
@@ -41,32 +42,33 @@ Reducing coupling prepares the codebase for future changes, but it’s important
 The YAGNI (You Aren't Gonna Need It) principle warns against adding complexity for features that might never be needed.
 Focus on the current requirements and only introduce abstractions when there's a clear, present need. This will help you avoid speculative design.
 
-
 ## Getting Your Team Started
 
 Help your team implement this practice by hosting a viewing party of specially curated talks, starting a book club to discuss impactful titles on this topic, facilitating a roundtable discussion about relevant topics, or doing a spike (or timeboxed experiment).
 
 ### [Host a Viewing Party](/practices/host-a-viewing-party.md)
 
-#### [Boundaries by Gary Bernhardt](https://www.destroyallsoftware.com/talks/boundaries) 
-This talk explores the intricate dynamics between code boundaries and system architecture, illustrating how to create clean and maintainable code through effective separation of concerns. In particular, Gary introduces a way to use values as the boundaries between abstractions.
+#### [Boundaries by Gary Bernhardt](https://www.destroyallsoftware.com/talks/boundaries)
 
+This talk explores the intricate dynamics between code boundaries and system architecture, illustrating how to create clean and maintainable code through effective separation of concerns. In particular, Gary introduces a way to use values as the boundaries between abstractions.
 
 ### [Start a Book Club](/practices/start-a-book-club.md)
 
-#### [Clean Architecture by Robert C. Martin](https://www.goodreads.com/book/show/18043011-clean-architecture) 
+#### [Clean Architecture by Robert C. Martin](https://www.goodreads.com/book/show/18043011-clean-architecture)
+
 This book delves into principles and practices that ensure code remains clean, emphasizing the importance of separation of concerns and the decoupling of systems for better manageability.
 
 #### [Working Effectively with Legacy Code by Michael C. Feathers](https://www.goodreads.com/book/show/44919.Working_Effectively_with_Legacy_Code)
+
 This book discusses how to find seams, add automated test coverage, and refactor the system to be more simple.
 
 #### [Refactoring by Martin Fowler](https://www.goodreads.com/en/book/show/44936.Refactoring)
-This is similar to Feathers's book above, but it covers the content from a first-principles standpoint.
 
+This is similar to Feathers's book above, but it covers the content from a first-principles standpoint.
 
 ### [Facilitate a Roundtable Discussion](/practices/host-a-roundtable-discussion.md)
 
-Below are suggestions for topics and prompts you could explore with your team during a roundtable discussion. 
+Below are suggestions for topics and prompts you could explore with your team during a roundtable discussion.
 
 #### Understanding Dependencies
 
@@ -91,12 +93,10 @@ Below are suggestions for topics and prompts you could explore with your team du
 * What small, incremental changes can we make to start reducing coupling in these areas?
 * How do we ensure system stability while refactoring to reduce coupling?
 
-
 ### [Do a Spike, or Timeboxed Experiment](/practices/do-a-spike.md)
 
-- **Refactor**: Set some time aside to refactor a key component or set of components to reduce coupling. Present your findings to the team to see if committing those changes or making additional changes have a good potential return on investment.
-- **Audit Your Dependencies**: Use a [dependency analysis tool](https://markgacoka.medium.com/how-to-visualize-your-codebase-7c4c4d948141) to visualize the relationships between modules and components, and to identify highly coupled areas. Discuss why these dependencies exist.
-
+* **Refactor**: Set some time aside to refactor a key component or set of components to reduce coupling. Present your findings to the team to see if committing those changes or making additional changes have a good potential return on investment.
+* **Audit Your Dependencies**: Use a [dependency analysis tool](https://markgacoka.medium.com/how-to-visualize-your-codebase-7c4c4d948141) to visualize the relationships between modules and components, and to identify highly coupled areas. Discuss why these dependencies exist.
 
 ## Supporting Capability
 
@@ -106,5 +106,3 @@ Reducing coupling between abstractions enhances the Code Maintainability capabil
 Independent, well-defined components minimize unintended side effects, making the code easier to understand, modify, and test.
 This modularity ensures that changes in one part of the system do not disrupt others, preserving stability and reducing cognitive load on developers.
 Clear abstractions and minimal dependencies support better documentation and collaboration, which in turn facilitate efficient onboarding and continuous improvement.
-
-
