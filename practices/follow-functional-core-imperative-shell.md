@@ -9,11 +9,9 @@ This separation of concerns enhances modularity, clarity, and flexibility in sof
 In dynamic languages, the Functional Core, Imperative Shell pattern is often favored because it can address testing challenges inherent in these languages.
 By communicating between the functional core and imperative shell via passing values, instead of relying on interfaces, developers can mitigate the risk of false positives when using mocks and avoid encountering errors with the real implementation.
 
-
 ## Nuances
 
 This section outlines common pitfalls, challenges, or limitations teams commonly encounter when applying this practice. The goal here is not to discourage you. Rather, the goal is to arm you with the appropriate context so that you can make an informed decision about when and how to implement the practice with your teams.
-
 
 ### Overemphasis on Functional Purity
 
@@ -37,12 +35,11 @@ Additionally, fostering an environment of knowledge sharing, providing resources
 
 ### Can Be Compatible with Object-Oriented Programming
 
-The purpose of an object is to bundle behavior and state into a single, cohesive unit. In contrast, the Functional Core, Imperative Shell pattern aims to _separate_ pure logic from state management. When using the Functional Core, Imperative Shell pattern in an object-oriented application, the idea is to extract functional-style components that are then used by objects managing state and interacting with external systems. 
+The purpose of an object is to bundle behavior and state into a single, cohesive unit. In contrast, the Functional Core, Imperative Shell pattern aims to _separate_ pure logic from state management. When using the Functional Core, Imperative Shell pattern in an object-oriented application, the idea is to extract functional-style components that are then used by objects managing state and interacting with external systems.
 
 This approach works best when there are clear boundaries between pure computations and operations that cause side effects. However, avoid applying this pattern to objects where state and behavior are tightly intertwined, as it can add unnecessary complexity. The goal is to separate concerns while preserving the natural behavior of objects and maintaining the integrity of stateful components.
 
 So, developers can implement the functional core while adhering to OOP principles, taking advantage of both paradigms.
-
 
 ### Some Behavior and Logic Needs to Live on the Imperative Shell
 
@@ -57,11 +54,9 @@ This approach is especially advantageous due to the functional core's compositio
 Integration tests should cover the behavior of the imperative shell as it interacts with external systems, including database calls, API requests, or user interfaces.
 Imperative shell integration tests ideally require fewer scenarios to validate, given that control statements such as `if`, `while`, or `for` loops should mostly reside within the functional core layer.
 
-
 ## Getting Your Teams Started
 
 Help your team implement this practice by hosting a viewing party of specially curated talks, starting a book club to discuss impactful titles on this topic, or facilitating a roundtable discussion about relevant topics.
-
 
 ### [Host a Viewing Party](/practices/host-a-viewing-party.md)
 
@@ -73,7 +68,6 @@ This talk is about using simple values (as opposed to complex objects) as the bo
 
 Modern software design patterns, like Onion, Clean, and Hexagonal architecture, suggest that your app's logic should run the same way every time, with I/O handled in separate abstractions at the edges. This talk introduces a simple way to keep I/O and core logic apart, simplifying code.
 
-
 #### [Are We There Yet](https://www.youtube.com/watch?v=ScEPu1cs4l0)
 
 This talk covers some first-principles thinking about how software could, and should, be designed. It highlights the challenges of managing state and avoiding complexity, and advocates for designs that allow for smoother evolution over time.
@@ -84,11 +78,9 @@ This talk covers some first-principles thinking about how software could, and sh
 
 This article promotes the mastery of functional programming principles, stating they improve code quality beyond multi-core challenges. It emphasizes referential transparency, where functions yield consistent results regardless of mutable state. It criticizes mutable variables in imperative code and suggests smaller, immutable functions for fewer defects. It acknowledges functional programming's limitations but advocates for its application in various domains, asserting it complements OOP.
 
-
 ### [Facilitate a Roundtable Discussion](/practices/host-a-roundtable-discussion.md)
 
-Below are suggestions for topics and prompts you could explore with your team during a roundtable discussion. 
-
+Below are suggestions for topics and prompts you could explore with your team during a roundtable discussion.
 
 #### Assessing the Benefits
 
@@ -104,27 +96,24 @@ Below are suggestions for topics and prompts you could explore with your team du
 * Do team members possess the necessary skills and knowledge to implement and maintain code following this practice?
 * What resources, training, or support mechanisms can we provide to facilitate the transition and ensure successful adoption?
 
-#### Incremental Transition to Functional Core, Imperative Shell 
+#### Incremental Transition to Functional Core, Imperative Shell
 
-* How can we identify and prioritize modules or components within our existing codebase that are suitable candidates for transitioning to the Functional Core, Imperative Shell pattern? 
+* How can we identify and prioritize modules or components within our existing codebase that are suitable candidates for transitioning to the Functional Core, Imperative Shell pattern?
 * What strategies can we employ to refactor existing imperative code into pure functions within the functional core, while maintaining backward compatibility and minimizing disruptions to ongoing development?
 * Are there opportunities to introduce the Functional Core, Imperative Shell pattern gradually, perhaps starting with new features or modules before expanding its adoption to legacy code?
 * How can we ensure effective communication and collaboration among team members during the transition process, including knowledge sharing, pair programming, and code reviews?
 * What metrics or milestones can we establish to measure progress and evaluate the success of incrementally transitioning to the Functional Core, Imperative Shell pattern?
 
-
 ## Supporting Capabilities
 
-This practice supports enhanced performance in the following capabilities. 
-
+This practice supports enhanced performance in the following capabilities.
 
 ### [Code Maintainability](/capabilities/code-maintainability.md)
 
 Follow the Functional Core, Imperative Shell pattern significantly supports the Code Maintainability capability.
-By separating business logic into a functional core and side effects into an imperative shell, code becomes more readable, more comprehensible, and less complex. 
+By separating business logic into a functional core and side effects into an imperative shell, code becomes more readable, more comprehensible, and less complex.
 With a clear distinction between pure functions and imperative code, developers can more easily understand and modify code, leading to improved maintainability and stability of the software system.
 
 ### [Test Automation](/capabilities/test-automation.md)
 
 Follow the Functional Core, Imperative Shell pattern supports the Test Automation capability because it facilitates the creation of highly testable and maintainable code. The functional core, being side-effect-free, allows for straightforward unit testing - its pure functions yield predictable results and don't rely on external states. This ensures that the core business logic is thoroughly tested and reliable. The imperative shell handles side effects and interactions with external systems, which can be tested through integration tests. This clear separation simplifies the testing process, improves test coverage, and provides faster and more reliable feedback during development, which is crucial for robust and efficient test automation.
-
