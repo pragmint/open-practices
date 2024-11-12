@@ -1,38 +1,43 @@
 # [Learning Culture](https://dora.dev/devops-capabilities/cultural/learning-culture/)
 
-Culture is defined by the behaviors a group of people regularly exhibit.
+_Culture_ is defined by the behaviors a group of people regularly exhibit.
 It's not some aspirational statement that someone in marketing or HR came up with.
-Having a culture that prioritizes learning is core to a team's ability to improve.
+Building a culture that prioritizes learning, or a _learning culture_, is core to a team's desire to improve.
 As such, this capability is a good place to start if you're looking to improve your teams' ability to deliver impactful results.
 
 ## Nuance
+This section outlines common pitfalls, challenges, or limitations teams commonly encounter when applying this capability. The goal here is not to discourage you. Rather, the goal is to arm you with the appropriate context so that you can make an informed decision about when and how to implement the capability with your teams.
 
-### Importance of Leadership
+
+### Support From Leadership is Essential
 
 A learning culture can only be fostered if there is support from leadership.
-If leaders aren't creating the space and advocating for learning, the team's focus will shift to execution.
-If a team is only ever focused on execution, the team's performance isn't likely to improve over time.
+If leaders aren't creating the space for learning, and advocating its importance, the team's focus will shift to pure execution.
+If a team is only ever focused on execution, then their performance isn't likely to improve over time.
 
 ## Assessment
 
-To assess how mature your team or organization is in this capability, answer the question below.
-
-Don't worry if the description doesn't exactly match your situation. The descriptions are meant as examples of situations that would qualify for the associated score. Generally, score yourself a 1 if this capability is completely missing from your team, a 2 if there is a lot of room for improvement, a 3 if there is some room for improvement, and a 4 if your team is exemplary in this capability.
+To assess how mature your team or organization is in this capability, consider the four descriptions below. Which description most accurately describes the learning culture in your team or organization today? 
 
 1. **Static Knowledge:** Learning is limited to onboarding and initial training, with little emphasis on ongoing development or skill-building.
 2. **Ad Hoc Learning:** Teams occasionally attend conferences or workshops, but learning is not a prioritized or structured part of the organization's culture.
 3. **Encouraged Learning:** Learning is valued and encouraged, with some resources and opportunities provided for professional development, but it's not a core part of the organization's identity.
 4. **Learning As A Competitive Advantage:** Learning is deeply ingrained in the organization's culture, viewed as a key driver of improvement and innovation, and actively prioritized and invested in to stay ahead of the curve.
 
+If your team's learning culture is best described as "static knowledge" or "ad-hoc learning," then you'll probably gain a lot of value from experimenting with some of the supporting practices listed and techniques below. If your team's learning culture is best described as "encouraged learning" or "learning as a competitive advantage," then you and your team are largely proficient, or well on your way to becoming proficient, in the area of Learning Culture; you would likely benefit from evaluating your scores in other capabilities.
+
 ## Supporting Practices
+The following is a curated list of supporting practices to consider when looking to improve your team's Learning Culture capability. While not every practice will be beneficial in every situation, they are meant to provide teams with fresh, pragmatic, and actionable ideas to support this capability.
 
-### [Lead A Demonstration](/practices/lead-a-demonstration.md)
 
-Leading a demonstration is an excellent way to engage an audience by live coding, showcasing customer feedback, or presenting on a specific topic. Demonstrations can vary in length, from brief lightning talks to more extended sessions, and can be conducted as one-off events or as part of a regular series. This format is particularly effective for introducing new topics or ideas, as it allows the presenter to provide a clear and focused explanation. Including a Q&A session at the end or during the demonstration can enhance understanding and provide immediate clarification. However, this approach is less effective for spurring in-depth discussions, as the primary focus is on delivering content rather than fostering interactive dialogue.
+### [Lead a Demonstration](/practices/lead-a-demonstration.md)
+
+Leading a demonstration is an excellent way to engage an audience by live coding, showcasing customer feedback, or presenting on a specific topic. Demonstrations can vary in length, from brief lightning talks to more extended sessions, and can be conducted as one-off events or as part of a regular series. This format is particularly effective for introducing new topics or ideas, as it allows the presenter to provide a clear and focused explanation. Including a Q&A session at the end of the demonstration can enhance understanding and provide quick clarification. However, this practice is less effective for spurring in-depth discussions, as the primary focus is on _delivering content_ rather than fostering _interactive dialogue_.
 
 ### [Run Pair Programming Sessions](/practices/run-pair-programming-sessions.md)
 
-Run Pair Programming Sessions is a practice that can significantly foster a learning culture within an organization by promoting continuous knowledge sharing and collaboration. In these sessions, two developers work together at a single workstation, enabling the exchange of skills, techniques, and best practices in real-time. This collaborative environment accelerates the onboarding process for new team members and also helps experienced developers refine their skills through peer review and immediate feedback.
+Running pair programming sessions can help foster a learning culture within an organization because it promotes continuous knowledge sharing and collaboration. In these sessions, two developers work together at a single workstation, enabling the exchange of skills, techniques, and best practices in real time. This type of collaborative environment accelerates the onboarding process for new team members and also helps experienced developers refine their skills through peer review and feedback.
+
 
 ### [Lead Workshops](/practices/lead-workshops.md)
 
@@ -42,13 +47,18 @@ Leading workshops is an excellent method for providing participants with hands-o
 
 Hosting a roundtable discussion involves coming prepared with a few key talking points, then allowing the conversation to evolve organically. A good host ensures that the discussion remains productive while limiting their interventions, welcoming productive tangents that can lead to deeper insights. This format is particularly effective when the topic is already somewhat understood by the participants, as it encourages a deeper understanding through collaborative dialogue and diverse perspectives. Roundtable discussions are excellent for spurring meaningful conversations and uncovering new angles on familiar topics.
 
-### [Start A Book Club](/practices/start-a-book-club.md)
 
-Starting a book club can encompass a variety of materials, including books, whitepapers, blogs, articles, and podcasts. This practice is excellent for encouraging experienced practitioners to consider new ideas and perspectives. By engaging with diverse content and participating in thoughtful discussions, members can expand their knowledge and challenge their existing viewpoints. Book clubs provide a structured yet flexible environment for continuous learning and professional growth. However, if there is a lot of content to go through, this burden can create drop-off for less invested parties. This needs to be managed.
+## Getting Your Team Started
+Help your team implement this capability by hosting a viewing party of specially curated talks, starting a book club to discuss impactful titles on this topic, or running a timeboxed experiment (or spike).
+
 
 ### [Host A Viewing Party](/practices/host-a-viewing-party.md)
 
 Hosting a viewing party is a great way to engage a group with conference talks, podcasts, or short videos. As you go through the content together, you can pause at key points or when questions arise to facilitate discussion. This approach is particularly effective for getting experienced practitioners to consider new ideas and perspectives, as it combines the informative nature of the content with the collaborative benefits of group discussion. By allowing time for conversation and reflection, viewing parties can enhance understanding and inspire innovative thinking.
+
+### [Start A Book Club](/practices/start-a-book-club.md)
+
+Starting a book club can encompass a variety of materials, including books, whitepapers, blogs, articles, and podcasts. This practice is excellent for encouraging experienced practitioners to consider new ideas and perspectives. By engaging with diverse content and participating in thoughtful discussions, members can expand their knowledge and challenge their existing viewpoints. Book clubs provide a structured yet flexible environment for continuous learning and professional growth. However, if there is a lot of content to go through, this burden can create drop-off for less invested parties. This needs to be managed.
 
 ### [Do A Spike](/practices/do-a-spike.md)
 
