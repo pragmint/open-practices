@@ -6,12 +6,20 @@ Manual testing is inefficient, time-consuming, and unreliable, leading to delaye
 Effective test automation requires collaboration between testers and developers, continuous improvement of test suites, and maintaining a balanced ratio of unit and acceptance tests.
 This approach to software quality and stability and also reduces team burnout and deployment challenges.
 
-
 ## Nuance(s)
+
 This section outlines common pitfalls, challenges, or limitations teams commonly encounter when applying this capability. The goal here is not to discourage you. Rather, the goal is to arm you with the appropriate context so that you can make an informed decision about when and how to implement the capability with your teams.
 
+### Potential Cultural Resistance
+
+In some organizations, test automation is sometimes undervalued due to gaps in awareness or experience with effective test design. Code structured for testability is often easier to maintain and of higher quality, but developing this skill takes time and practice. By building a culture of test automation, teams can reduce friction in the testing process and benefit from DORA’s findings, which support the impact of developer-driven testing on overall performance.
+
+### Automation Isn't Meant To Completely Remove Manual Testing
+
+Test automation is not a substitute for manual testing but rather a complement that helps reduce the repetitive and time-consuming aspects of verifying system correctness. Each test carries its own cost-benefit ratio, and attempting to cover 100% of a system with automation can lead to high maintenance costs and, at times, a false sense of security. Instead, the focus should be on automating routine checks and creating tests that catch critical bugs early, freeing up manual testing for more exploratory and edge-case scenarios.
 
 ## Assessment
+
 To assess how mature your team or organization is in this capability, complete this short exercise.
 
 Consider the descriptions below and score yourself on the Test Automation capability. Generally, score a 1 if Test Automation is limited or completely lacking from your team or organization, a 2 if it is basic and you feel there is a LOT of room for improvement, a 3 if it is mature and you feel there is some room for improvement, and a 4 if your team or organization is exemplary in the area of Test Automation.
@@ -26,7 +34,6 @@ Don't worry if the description doesn't exactly match your situation. These descr
 The number you selected represents your overall score for this capability. If you feel like your team or organization fits somewhere in between two scores, it's okay to use a decimal. For example, if you think your team or organization has somewhere between basic and mature Test Automation, then you would score a 2.5.
 
 An overall score of 2.5 or below means you'll probably gain a lot of value from experimenting with some of the supporting practices listed below. An overall score of 3 or higher means you and your team are largely proficient, or well on your way to becoming proficient, in the area of Test Automation; you would likely benefit from evaluating your scores in other capabilities.
-
 
 ## Supporting Practices
 
@@ -68,11 +75,22 @@ Implementing Test-Driven Development (TDD) integrates rigorous testing directly 
 TDD mandates writing tests _before_ coding, ensuring early bug detection and promoting better software design through continuous refactoring.
 Following the red-green-refactor cycle and principles like Transformation Priority Premise and F. R. I. S. T., TDD ensures reliable and efficient tests that align with the Test Pyramid's principles.
 
-
 ## Adjacent Capabilities
 
 The following capabilities will be valuable for you and your team to explore, as they are either:
 
-- Related (they cover similar territory to Test Automation)
-- Upstream (they are a pre-requisite for Test Automation)
-- Downstream (Test Automation is a pre-requisite for them)
+### [Test Data Management](/capabilities/test-data-management.md) - Upstream
+
+Some types of test automation (e2e, performance, load, etc) rely on data to run their assertions. That's why it's important for teams to have a mature test data management capability.
+
+### [Continuous Integration](/capabilities/continuous-integration.md) - Downstream
+
+In order for a Continuous Integration pipeline to know what changes to accept and what changes to reject, they rely on automated tests. It's important to have a robust and fast-running automated test suite so that changes can be verified continuously. The less reliable a test suite is, the more manual interventions are required, the less continuous changes can be integrated.
+
+### [Streamline Change Approval](/capabilities/streamline-change-approval.md) - Downstream
+
+With robust Test Automation in place, teams can make changes with confidence, knowing they have a reliable safeguard to catch errors and ensure system stability. Reviewers and approvers can focus on strategic and functional aspects of the change, rather than worrying about technical integrity, since potential errors have already been identified and addressed earlier in the process by the tests.
+
+### [Code Maintainability](/capabilities/code-maintainability.md) - Related
+
+Test Automation can offer valuable insights into Code Maintainability. Code that is easy to test is often better organized, more maintainable, and resilient. When developers struggle to write automated tests, it can serve as a signal that the code may need restructuring or refinement. This feedback loop from test automation helps teams improve code quality over time, enhancing both testability and long-term maintainability.
