@@ -1,22 +1,20 @@
 # [Test Automation](https://dora.dev/devops-capabilities/technical/test-automation/)
 
-Test automation is essential for building quality into software.
-Manual testing is inefficient, time-consuming, and unreliable, leading to delayed feedback. Automated testing, on the other hand, provides fast feedback throughout the software delivery lifecycle. In order to ensure quality functionality and to prevent regression errors, test automation should be integrated continuously and should involve various types of tests such as unit and acceptance.
+Test automation is essential for building high-quality software. It provides fast feedback throughout the software delivery lifecycle, reduces team burnout and deployment challenges, and removes the inefficiencies of manual testing. While manual testing is an essential part of every testing plan, it can be inefficient and unreliable, leading to delayed feedback. It's important to balance manual testing with automated testing, and not rely too much on one or the other. 
 
-Effective test automation requires collaboration between testers and developers, continuous improvement of test suites, and maintaining a balanced ratio of unit and acceptance tests.
-This approach to software quality and stability and also reduces team burnout and deployment challenges.
+Effective test automation requires collaboration between testers and developers, continuous integration and improvement of test suites, and a balanced ratio of unit and acceptance tests. This will prevent regression errors and ensure quality functionality in your software. 
 
-## Nuance(s)
+## Nuances
 
 This section outlines common pitfalls, challenges, or limitations teams commonly encounter when applying this capability. The goal here is not to discourage you. Rather, the goal is to arm you with the appropriate context so that you can make an informed decision about when and how to implement the capability with your teams.
 
 ### Potential Cultural Resistance
 
-In some organizations, test automation is sometimes undervalued due to gaps in awareness or experience with effective test design. Code structured for testability is often easier to maintain and of higher quality, but developing this skill takes time and practice. By building a culture of test automation, teams can reduce friction in the testing process and benefit from DORA’s findings, which support the impact of developer-driven testing on overall performance.
+In some organizations, test automation is sometimes undervalued due to gaps in awareness or experience with effective test design. Code that is structured for testability is often easier to maintain and higher quality, but developing the skill to write such code takes time and practice. According to DORA's findings, teams that value of automated, developer-driven testing experience less friction in the testing process and benefit from higher overall performance.
 
-### Automation Isn't Meant To Completely Remove Manual Testing
+### Automation Isn't Meant To Replace Manual Testing
 
-Test automation is not a substitute for manual testing but rather a complement that helps reduce the repetitive and time-consuming aspects of verifying system correctness. Each test carries its own cost-benefit ratio, and attempting to cover 100% of a system with automation can lead to high maintenance costs and, at times, a false sense of security. Instead, the focus should be on automating routine checks and creating tests that catch critical bugs early, freeing up manual testing for more exploratory and edge-case scenarios.
+Test automation is not a substitute for manual testing. Rather, automated testing _complements_ manual testing. It helps reduce the repetitive and time-consuming aspects of manually verifying system correctness. Each test carries its own cost-benefit ratio, and attempting to cover 100% of a system with automation can lead to high maintenance costs and, at times, a false sense of security. Instead, the focus should be on automating routine checks and creating tests that catch critical bugs early, reserving manual testing for more exploratory and edge-case scenarios.
 
 ## Assessment
 
@@ -73,24 +71,28 @@ This clear separation simplifies the testing process, improves test coverage, an
 
 Implementing Test-Driven Development (TDD) integrates rigorous testing directly into the development process.
 TDD mandates writing tests _before_ coding, ensuring early bug detection and promoting better software design through continuous refactoring.
-Following the red-green-refactor cycle and principles like Transformation Priority Premise and F. R. I. S. T., TDD ensures reliable and efficient tests that align with the Test Pyramid's principles.
+Following the red-green-refactor cycle and principles like Transformation Priority Premise and [F. I. R. S. T.](https://dzone.com/articles/first-principles-solid-rules-for-tests), TDD ensures reliable and efficient tests that align with the [Test Pyramid's principles](https://martinfowler.com/articles/practical-test-pyramid.html).
 
 ## Adjacent Capabilities
 
 The following capabilities will be valuable for you and your team to explore, as they are either:
 
+- Related (they cover similar territory to Test Automation)
+- Upstream (they are a pre-requisite for Test Automation)
+- Downstream (Test Automation is a pre-requisite for them)
+
 ### [Test Data Management](/capabilities/test-data-management.md) - Upstream
 
-Some types of test automation (e2e, performance, load, etc) rely on data to run their assertions. That's why it's important for teams to have a mature test data management capability.
+Some types of test automation -- such as e2e, performance, and load -- rely on data to run their assertions. That's why it's important for teams to have a mature test data management capability before setting up automated test suites.
 
 ### [Continuous Integration](/capabilities/continuous-integration.md) - Downstream
 
-In order for a Continuous Integration pipeline to know what changes to accept and what changes to reject, they rely on automated tests. It's important to have a robust and fast-running automated test suite so that changes can be verified continuously. The less reliable a test suite is, the more manual interventions are required, the less continuous changes can be integrated.
+In order for a CI pipeline to know what changes to accept and what changes to reject, it must rely on automated tests. It's important to have a robust and fast-running automated test suite so that changes can be verified continuously. The less reliable a test suite is, the more manual interventions are required and the less continuous changes can be integrated.
 
 ### [Streamline Change Approval](/capabilities/streamline-change-approval.md) - Downstream
 
-With robust Test Automation in place, teams can make changes with confidence, knowing they have a reliable safeguard to catch errors and ensure system stability. Reviewers and approvers can focus on strategic and functional aspects of the change, rather than worrying about technical integrity, since potential errors have already been identified and addressed earlier in the process by the tests.
+With robust test automation in place, teams can make changes with confidence, knowing they have a reliable safeguard to catch errors and ensure system stability. Reviewers and approvers can focus on strategic and functional aspects of the change, rather than worrying about technical integrity, since potential errors have already been identified and addressed earlier in the process by automated tests.
 
 ### [Code Maintainability](/capabilities/code-maintainability.md) - Related
 
-Test Automation can offer valuable insights into Code Maintainability. Code that is easy to test is often better organized, more maintainable, and resilient. When developers struggle to write automated tests, it can serve as a signal that the code may need restructuring or refinement. This feedback loop from test automation helps teams improve code quality over time, enhancing both testability and long-term maintainability.
+Test automation can offer valuable insights into code maintainability. Code that is easy to test is often better organized, more maintainable, and resilient. When developers struggle to write automated tests, it can serve as a signal that the code may need restructuring or refinement. This feedback loop from test automation helps teams improve code quality over time, enhancing both testability and long-term maintainability.
