@@ -1,8 +1,8 @@
 # [Test Automation](https://dora.dev/devops-capabilities/technical/test-automation/)
 
-Test automation is essential for building high-quality software. It provides fast feedback throughout the software delivery lifecycle, reduces team burnout and deployment challenges, and removes the inefficiencies of manual testing. While manual testing is an essential part of every testing plan, it can be inefficient and unreliable, leading to delayed feedback. It's important to balance manual testing with automated testing, and not rely too much on one or the other. 
+Test automation is essential for building high-quality software. It provides early feedback in the software delivery lifecycle, reduces team burnout, and reduces deployment challenges. While manual testing is an essential part of every testing plan, it can be inefficient and unreliable, leading to missed bugs and delayed feedback.
 
-Effective test automation requires collaboration between testers and developers, continuous integration and improvement of test suites, and a balanced ratio of unit and acceptance tests. This will prevent regression errors and ensure quality functionality in your software. 
+There are many types of automated tests, each with their own benefits and limitations. The most valuable test suites are made up of multiple layers, following a pyramid-like structure (see [Testing Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html)). This way, the systems under test get a thorough an reliable check every time the test suite is run.
 
 ## Nuances
 
@@ -10,7 +10,7 @@ This section outlines common pitfalls, challenges, or limitations teams commonly
 
 ### Potential Cultural Resistance
 
-In some organizations, test automation is sometimes undervalued due to gaps in awareness or experience with effective test design. Code that is structured for testability is often easier to maintain and higher quality, but developing the skill to write such code takes time and practice. According to DORA's findings, teams that value of automated, developer-driven testing experience less friction in the testing process and benefit from higher overall performance.
+In some organizations, test automation is sometimes undervalued due to gaps in awareness or experience with effective test design. Code that is structured for testability is often easier to maintain and higher quality, but developing the skill to write such code takes time and practice. According to DORA's findings, teams that value of automated, developer-led testing experience less friction in the testing process and benefit from higher overall performance.
 
 ### Automation Isn't Meant To Replace Manual Testing
 
@@ -71,19 +71,19 @@ This clear separation simplifies the testing process, improves test coverage, an
 
 Implementing Test-Driven Development (TDD) integrates rigorous testing directly into the development process.
 TDD mandates writing tests _before_ coding, ensuring early bug detection and promoting better software design through continuous refactoring.
-Following the red-green-refactor cycle and principles like Transformation Priority Premise and [F. I. R. S. T.](https://dzone.com/articles/first-principles-solid-rules-for-tests), TDD ensures reliable and efficient tests that align with the [Test Pyramid's principles](https://martinfowler.com/articles/practical-test-pyramid.html).
+Following the red-green-refactor cycle and principles like Transformation Priority Premise and [F. I. R. S. T.](https://dzone.com/articles/first-principles-solid-rules-for-tests), help to build simple and reliable systems.
 
 ## Adjacent Capabilities
 
 The following capabilities will be valuable for you and your team to explore, as they are either:
 
-- Related (they cover similar territory to Test Automation)
-- Upstream (they are a pre-requisite for Test Automation)
-- Downstream (Test Automation is a pre-requisite for them)
+* Related (they cover similar territory to Test Automation)
+* Upstream (they are a pre-requisite for Test Automation)
+* Downstream (Test Automation is a pre-requisite for them)
 
 ### [Test Data Management](/capabilities/test-data-management.md) - Upstream
 
-Some types of test automation -- such as e2e, performance, and load -- rely on data to run their assertions. That's why it's important for teams to have a mature test data management capability before setting up automated test suites.
+Some types of test automation -- such as e2e, performance, and load -- rely on data to run their assertions. That's why it's important for teams to have a mature test data management capability before setting up data-reliant automated tests.
 
 ### [Continuous Integration](/capabilities/continuous-integration.md) - Downstream
 
@@ -91,7 +91,7 @@ In order for a CI pipeline to know what changes to accept and what changes to re
 
 ### [Streamline Change Approval](/capabilities/streamline-change-approval.md) - Downstream
 
-With robust test automation in place, teams can make changes with confidence, knowing they have a reliable safeguard to catch errors and ensure system stability. Reviewers and approvers can focus on strategic and functional aspects of the change, rather than worrying about technical integrity, since potential errors have already been identified and addressed earlier in the process by automated tests.
+With robust test automation in place, teams can approve changes with confidence, knowing they have a reliable safeguard to catch errors and ensure system stability. Reviewers can focus on strategic and functional aspects of the change, rather than worrying about technical integrity, since certain categories of potential errors have already been identified and addressed earlier in the process by automated tests.
 
 ### [Code Maintainability](/capabilities/code-maintainability.md) - Related
 
