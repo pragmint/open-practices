@@ -2,7 +2,7 @@
 
 Test automation is essential for building high-quality software. It provides early feedback in the software delivery lifecycle, reduces team burnout, and reduces deployment challenges. While manual testing is an essential part of every testing plan, it can be inefficient and unreliable, leading to missed bugs and delayed feedback.
 
-There are many types of automated tests, each with their own benefits and limitations. The most valuable test suites are made up of multiple layers, following a pyramid-like structure (see [Testing Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html)). This way, the systems under test get a thorough an reliable check every time the test suite is run.
+There are many types of automated tests, each with their own benefits and limitations. The most valuable test suites are made up of multiple layers, following a pyramid-like structure (see [Testing Pyramid](https://martinfowler.com/articles/practical-test-pyramid.html)). This way, the systems under test get a thorough and reliable check every time the test suite is run.
 
 ## Nuances
 
@@ -31,7 +31,7 @@ Don't worry if the description doesn't exactly match your situation. These descr
 
 The number you selected represents your overall score for this capability. If you feel like your team or organization fits somewhere in between two scores, it's okay to use a decimal. For example, if you think your team or organization has somewhere between basic and mature Test Automation, then you would score a 2.5.
 
-Generally, an overall score below 3.5 means you'll likely gain a lot of value from experimenting with some of the supporting practices listed here. An overall score higher than 3.5 generally means you and your team are largely proficient, or well on your way to becoming proficient, in the area of Test Automation; you would likely benefit from evaluating your scores in other capabilities.
+Generally, an overall score below 3 means you'll likely gain a lot of value from experimenting with some of the supporting practices listed here. An overall score higher than 3 generally means you and your team are largely proficient, or well on your way to becoming proficient, in the area of Test Automation; you would likely benefit from evaluating your scores in other capabilities.
 
 ## Supporting Practices
 
@@ -57,11 +57,10 @@ Conducting code reviews ensures code changes adhere to quality standards. Potent
 Creating and managing ephemeral environments provides flexible, production-like testing setups that ensure automated tests are reliable and accurate.
 These temporary environments reduce conflicts, simplify debugging, and improve reproducibility.
 Integrated into CI/CD pipelines, they offer continuous, immediate feedback on code changes, promoting early bug detection and robust software quality.
-Using Infrastructure as Code (IaC) for automation optimizes resources and allows for easy scaling of testing environments.
 
 ### [Follow Functional Core Imperative Shell](/practices/follow-functional-core-imperative-shell.md)
 
-The Functional Core, Imperative Shell pattern uses both unit and integration tests, facilitating the creation of highly testable and maintainable code. 
+The Functional Core, Imperative Shell pattern makes it easier to write testable and maintainable code. 
 The functional core, being side-effect-free, allows for straightforward unit testing -- its pure functions yield predictable results and don't rely on external states.
 This ensures that the core business logic is thoroughly tested and reliable.
 The imperative shell handles side effects and interactions with external systems, which can be checked with integration tests.
