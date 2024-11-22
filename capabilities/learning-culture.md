@@ -8,13 +8,19 @@ As such, this capability is a good place to start if you're looking to improve y
 ## Nuance
 This section outlines common pitfalls, challenges, or limitations teams commonly encounter when applying this capability. The goal here is not to discourage you. Rather, the goal is to arm you with the appropriate context so that you can make an informed decision about when and how to implement the capability with your teams.
 
-
 ### Support From Leadership is Essential
 
 A learning culture can only be fostered if there is support from leadership.
 If leaders aren't creating the space for learning, and advocating its importance, the team's focus will shift to pure execution.
 If a team is only ever focused on execution, then their performance isn't likely to improve over time.
 
+### Problem and Skill Matching
+
+Effective problem and skill matching is very tricky and situation-dependent as it relates to supporting a learning culture. Assigning work to individuals that aren't specialists in that line of work can create learning opportunities for people. However if the skill gap is too large, that may create inefficiencies that aren't worth the benefit.
+
+### Changing Culture Takes Time
+
+Building a learning culture is not an overnight process; it requires sustained effort and commitment from all levels of the organization. Cultural change involves altering ingrained behaviors and mindsets, which can be challenging and may face resistance. Recognizing that this transformation is a long-term investment is crucial for success.
 
 ## Assessment
 
@@ -22,7 +28,7 @@ To assess how mature your team or organization is in this capability, complete t
 
 Consider the descriptions below and score your team on the Learning Culture capability. Generally, score a 1 if learning is limited to static knowledge, a 2 if your team demonstrates ad hoc learning but you feel there is a LOT of room for improvement, a 3 if learning is encouraged and you feel there is some room for improvement, and a 4 if learning is actively prioritized and you feel your team is exemplary in the area of Learning Culture.
 
-Don't worry if the description doesn't exactly match your situation. These descriptions are meant to be examples of situations that would qualify for the associated score. 
+Don't worry if the description doesn't exactly match your situation. These descriptions are meant to be examples of situations that would qualify for the associated score.
 
 1. **Static Knowledge:** Learning is limited to onboarding and initial training, with little emphasis on ongoing development or skill-building.
 2. **Ad Hoc Learning:** Teams occasionally attend conferences or workshops, but learning is not a prioritized or structured part of the organization's culture.
@@ -33,10 +39,9 @@ The number you selected represents your overall score for this capability. If yo
 
 An overall score of 2.5 or below means you'll probably gain a lot of value from experimenting with some of the supporting practices listed below. An overall score of 3 or higher means you and your team are largely proficient, or well on your way to becoming proficient, in the area of Learning Culture; you would likely benefit from evaluating your scores in other capabilities.
 
-
 ## Supporting Practices
-The following is a curated list of supporting practices to consider when looking to improve your team's Learning Culture capability. While not every practice will be beneficial in every situation, this list is meant to provide teams with fresh, pragmatic, and actionable ideas to support this capability.
 
+The following is a curated list of supporting practices to consider when looking to improve your team's Learning Culture capability. While not every practice will be beneficial in every situation, this list is meant to provide teams with fresh, pragmatic, and actionable ideas to support this capability.
 
 ### [Host a Viewing Party](/practices/host-a-viewing-party.md)
 
@@ -48,10 +53,7 @@ A book club may review a variety of written material, including books, whitepape
 
 ### [Facilitate a Roundtable Discussion](/practices/host-a-roundtable-discussion.md)
 
-Roundtable discussions are excellent tools for spurring meaningful conversations and uncovering new angles on familiar topics. Facilitating a roundtable discussion involves coming prepared with a few key talking points, then allowing the conversation to evolve organically. A good host ensures that the discussion remains productive while limiting their interventions, welcoming productive tangents that can lead to deeper insights. This format is particularly effective when the topic is already somewhat understood by the participants, as it encourages a deeper understanding through collaborative dialogue and diverse perspectives. 
-
-Below are suggestions for topics and prompts related to Learning Culture that you could explore with your team during a roundtable discussion.
-
+Roundtable discussions are excellent tools for spurring meaningful conversations and uncovering new angles on familiar topics. Facilitating a roundtable discussion involves coming prepared with a few key talking points, then allowing the conversation to evolve organically. A good host ensures that the discussion remains productive while limiting their interventions, welcoming productive tangents that can lead to deeper insights. This format is particularly effective when the topic is already somewhat understood by the participants, as it encourages a deeper understanding through collaborative dialogue and diverse perspectives.
 
 ### [Lead a Demonstration](/practices/lead-a-demonstration.md)
 
@@ -59,11 +61,11 @@ Leading a demonstration is an excellent way to engage an audience by live coding
 
 ### [Run Pair Programming Sessions](/practices/run-pair-programming-sessions.md)
 
-Running pair programming sessions can help foster a learning culture within an organization because they promote continuous knowledge sharing and collaboration. In these sessions, two developers work together at a single workstation, enabling the real-time exchange of skills, techniques, and best practices. This type of collaborative environment accelerates the onboarding process for new team members and also helps experienced developers refine their skills through peer review and feedback.
+Running pair programming sessions can help foster a learning culture within an organization because they promote continuous knowledge sharing and collaboration. In these sessions, two developers usually work together at a single workstation, enabling the real-time exchange of skills, techniques, and best practices. This type of collaborative environment accelerates the onboarding process for new team members and also helps experienced developers refine their skills through peer review and feedback.
 
 ### [Lead Workshops](/practices/lead-workshops.md)
 
-Leading workshops is an excellent way to provide your team with hands-on experience, allowing them to actively engage with the material. Workshops are particularly effective in breaking down preconceived notions, as they offer a practical approach to learning and problem-solving. However, workshops are not ideal for introducing new topics or ideas (that is better done by leading a demonstration). Participants may struggle in a workshop if they lack foundational knowledge, which can hinder their ability to fully benefit from the hands-on experience. To ensure success, it's important to establish a solid groundwork before diving into complex workshop activities.
+Leading workshops is an excellent way to provide your team with hands-on experience, allowing them to actively engage with the material. Workshops are particularly effective in breaking down preconceived notions, as they offer a practical approach to learning and problem-solving. However, workshops are not ideal for introducing new topics or ideas (that is better done by leading a demonstration). Participants may struggle in a workshop if they lack foundational knowledge, which can hinder their ability to fully benefit from the hands-on experience. To ensure success, it's important to establish a solid foundation before diving into complex workshop activities.
 
 ### [Do a Spike, or Timeboxed Experiment](/practices/do-a-spike.md)
 
@@ -71,7 +73,7 @@ Also referred to as building a proof-of-concept (POC), this practice involves se
 
 ### [Host a Retrospective](/practices/host-a-retrospective.md)
 
-Hosting a retrospective is a vital tool for continuous improvement within a team or organization. These sessions can be routine or focused on a specific event, such as a postmortem. The key to a successful retrospective is to walk away with clear action items while maintaining a blameless environment. It's important to vary the format to keep it fresh and prevent it from becoming an unhelpful ceremony. Recognize that constraints and pain points are unavoidable; the goal is not to eliminate them entirely but to reduce their frequency or impact. Be mindful of the trade-offs when introducing new controls, ensuring they don’t become excessive. Retrospectives are excellent for fine-tuning processes and addressing immediate issues, though they are less effective for sparking visionary changes.
+Hosting a retrospective is a vital practice for continuous improvement within a team or organization. These sessions can be routine or focused on a specific event, such as a postmortem. The key to a successful retrospective is to walk away with clear action items while maintaining a blameless environment. It's important to vary the format to keep it fresh and prevent it from becoming an unhelpful and repetitive ceremony. Recognize that constraints and pain points are unavoidable; the goal is not to eliminate them entirely but to reduce their frequency or impact. Be mindful of the trade-offs when introducing new controls, ensuring they don’t become excessive. Retrospectives are excellent for fine-tuning processes and addressing immediate issues, though they are less effective for sparking visionary changes.
 
 ### [Talk Directly With Users](/practices/talk-directly-with-users.md)
 
@@ -83,15 +85,16 @@ Dogfooding your systems involves having your teams use the same products or syst
 
 ### [Start a Community Of Practice](/practices/start-a-community-of-practice.md)
 
-Starting a community of practice means providing a dedicated space where a variety of practices can be performed. This collaborative environment fosters continuous learning, sharing of best practices, and collective problem-solving. By bringing together practitioners with shared interests, a community of practice can drive innovation, enhance skills, and promote a learning culture. 
+Starting a community of practice means providing a dedicated space where a variety of practices (like demonstrations, workshops, book clubs, etc.) can be performed. This collaborative environment fosters continuous learning, sharing of best practices, and collective problem-solving. By bringing together practitioners with shared interests, a community of practice can drive innovation, enhance skills, and promote a learning culture.
 
 ### [Use SPIN To Unearth Problems and Solutions](/practices/use-spin-to-unearth-problems-and-solutions.md)
 
 SPIN is a question-asking framework originally developed for sales professionals. Software professionals can use SPIN to uncover problems and creative solutions, thus bolstering a learning culture.
 
-
 ## Adjacent Capabilities
+
 The following capabilities will be valuable for you and your team to explore, as they are either:
+
 - Related (they cover similar territory to Learning Culture)
 - Upstream (they are a pre-requisite for Learning Culture)
 - Downstream (Learning Culture is a pre-requisite for them)
@@ -102,4 +105,4 @@ When you create a Generative Organizational Culture, you're creating an environm
 
 ### [Transformational Leadership](/capabilities/transformational-leadership.md) - Downstream
 
-A big part of Transformational Leadership is creating intellectual stimulation within your team. Following the practices that support building a strong Learning Culture can help propel you toward transformational leadership. 
+A big part of Transformational Leadership is creating intellectual stimulation within your team. Following the practices that support building a strong Learning Culture can help propel you toward transformational leadership.
