@@ -5,7 +5,7 @@ _Documentation_ describes a range of internal decisions, processes, or policies.
 
 _Documentation quality_ refers to the accuracy, clarity, completeness, and accessibility of internal documentation. Excellent documentation enables teams to effectively collaborate, make informed decisions, and deliver high-quality software quickly and reliably.
 
-## Nuance
+## Nuances
 
 This section outlines common pitfalls, challenges, or limitations teams commonly encounter when applying this capability. The goal here is not to discourage you. Rather, the goal is to arm you with the appropriate context so that you can make an informed decision about when and how to implement the capability with your teams.
 
@@ -22,7 +22,7 @@ Once documentation is created, the work is not done. Developers must make a deli
 
 To assess how mature your team or organization is in this capability, complete this short exercise.
 
-Consider the descriptions below and score yourself on the Documentation Quality capability. Generally, score a 1 if Documentation Quality is minimal or completely lacking from your team or organization, a 2 if it is basic and you feel there is a LOT of room for improvement, a 3 if it is good and you feel there is some room for improvement, and a 4 if your team or organization is exemplary in the area of Documentation Quality.
+Consider the descriptions below and score yourself on the Documentation Quality capability. Generally, score a 1 if Documentation Quality is minimal or completely lacking from your team or organization, a 2 if it is basic and you feel there is a lot of room for improvement, a 3 if it is good and you feel there is some room for improvement, and a 4 if your team or organization is exemplary in the area of Documentation Quality.
 
 Don't worry if the description doesn't exactly match your situation. These descriptions are meant to be examples of situations that would qualify for the associated score.
 
@@ -33,7 +33,7 @@ Don't worry if the description doesn't exactly match your situation. These descr
 
 The number you selected represents your overall score for this capability. If you feel like your team or organization fits somewhere in between two scores, it's okay to use a decimal. For example, if you think your team or organization has somewhere between basic and good Documentation Quality, you would score a 2.5.
 
-An overall score of 2.5 or below means you'll probably gain a lot of value from experimenting with some of the supporting practices listed below. An overall score of 3 or higher means you and your team are largely proficient, or well on your way to becoming proficient, in the area of Documentation Quality; you would likely benefit from evaluating your scores in other capabilities.
+Generally, an overall score equal to or less than 3 means you'll likely gain a lot of value from experimenting with some of the supporting practices listed here. An overall score higher than 3 generally means you and your team are largely proficient, or well on your way to becoming proficient, in the area of Documentation Quality; you would likely benefit from evaluating your scores in other capabilities.
 
 ## Supporting Practices
 

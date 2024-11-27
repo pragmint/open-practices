@@ -53,7 +53,7 @@ Next, consider the descriptions in the two areas of focus below: New Code and Pr
 
 Now, average your scores for New Code and average your scores for Previously Written Code. Then, average those two numbers and you'll have your overall score for this capability. So, if your average score for New Code was 3 and your average score for Previously Written Code was 2, then your overall score for Code Maintainability would be 2.5.
 
-An overall score of 2.5 or below means you'll probably gain a lot of value from experimenting with some of the supporting practices listed below. An overall score of 3 or higher means you and your team are largely proficient, or well on your way to becoming proficient, in the area of Code Maintainability; you would likely benefit from evaluating your scores in other capabilities.
+Generally, an overall score equal to or less than 3 means you'll likely gain a lot of value from experimenting with some of the supporting practices listed here. An overall score higher than 3 generally means you and your team are largely proficient, or well on your way to becoming proficient, in the area of Code Maintainability; you would likely benefit from evaluating your scores in other capabilities.
 
 ## Supporting Practices
 
