@@ -32,7 +32,7 @@ Don't worry if the description doesn't exactly match your situation. These descr
 
 The number you selected represents your overall score for this capability. If you feel like your team or organization fits somewhere in between two scores, it's okay to use a decimal. For example, if you think your team's toolset represents something between adequate and capable, then you would score a 2.5.
 
-Generally, an overall score below 3 means you'll likely gain a lot of value from experimenting with some of the supporting practices listed below. An overall score higher than 3 generally means you and your team are largely proficient, or well on your way to becoming proficient, in being empowered to choose tools; you would likely benefit from evaluating your scores in other capabilities.
+Generally, an overall score equal to or less than 3 means you'll likely gain a lot of value from experimenting with some of the supporting practices listed below. An overall score higher than 3 generally means you and your team are largely proficient, or well on your way to becoming proficient, in being empowered to choose tools; you would likely benefit from evaluating your scores in other capabilities.
 
 
 ## Supporting Practices
