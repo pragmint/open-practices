@@ -5,7 +5,7 @@ It's not simply an aspirational statement that someone in marketing or HR came u
 Building a culture that prioritizes learning, or a _learning culture_, is core to a team's desire to improve.
 As such, this capability is a good place to start if you're looking to improve your team's ability to deliver impactful results.
 
-## Nuance
+## Nuances
 This section outlines common pitfalls, challenges, or limitations teams commonly encounter when applying this capability. The goal here is not to discourage you. Rather, the goal is to arm you with the appropriate context so that you can make an informed decision about when and how to implement the capability with your teams.
 
 ### Support From Leadership is Essential
@@ -16,7 +16,7 @@ If a team is only ever focused on execution, then their performance isn't likely
 
 ### Problem and Skill Matching
 
-Effective problem and skill matching is very tricky and situation-dependent as it relates to supporting a learning culture. Assigning work to individuals that aren't specialists in that line of work can create learning opportunities for people. However if the skill gap is too large, that may create inefficiencies that aren't worth the benefit.
+Effective problem and skill matching can be tricky and situational. Assigning tasks to individuals who aren't specialists in that line of work can create learning opportunities but, if the skill gap is too large, it may create inefficiencies that aren't worth the benefit.
 
 ### Changing Culture Takes Time
 
@@ -37,7 +37,7 @@ Don't worry if the description doesn't exactly match your situation. These descr
 
 The number you selected represents your overall score for this capability. If you feel like your team or organization fits somewhere in between two scores, it's okay to use a decimal. For example, if you think your team's learning represents something between static knowledge and ad hoc learning, then you would score a 2.5.
 
-Generally, an overall score below 3 means you'll likely gain a lot of value from experimenting with some of the supporting practices listed below. An overall score higher than 3 generally means you and your team are largely proficient, or well on your way to becoming proficient, in the area of Learning Culture; you would likely benefit from evaluating your scores in other capabilities.
+Generally, an overall score equal to or less than 3 means you'll likely gain a lot of value from experimenting with some of the supporting practices listed below. An overall score higher than 3 generally means you and your team are largely proficient, or well on your way to becoming proficient, in the area of Learning Culture; you would likely benefit from evaluating your scores in other capabilities.
 
 ## Supporting Practices
 
