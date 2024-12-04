@@ -57,7 +57,7 @@ Generally, an overall score equal to or less than 3 means you'll likely gain a l
 
 ## Supporting Practices
 
-The following is a curated list of supporting practices to consider when looking to improve your team's Code Maintainability capability. While not every practice will be beneficial in every situation, they are meant to provide teams with fresh, pragmatic, and actionable ideas to support this capability.
+The following is a curated list of supporting practices to consider when looking to improve your team's Code Maintainability capability. While not every practice will be beneficial in every situation, this list is meant to provide teams with fresh, pragmatic, and actionable ideas to support this capability.
 
 ### [Automate Coding Standards](/practices/automate-coding-standards.md)
 
