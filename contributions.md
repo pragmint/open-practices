@@ -20,15 +20,15 @@ If you chose to contribute a new practice, please try to follow our pre-establis
 ```markdown
 # Title of Practice
 
-A 2-3 sentence description of the practice, followed by a sentence or two describing the main benefits of adopting this practice. Try to keep the text brief, relatable, and motivational.
+A 2-3 sentence description of the practice, followed by a sentence or two describing the main benefits of adopting this practice. Try to keep the text brief, relatable, and motivational. Our audience wants a quick read. The writing style should be conversational, not academic; the details should be higher level (think overview or summary), not too technical.
 
 ## Nuance
 
-This next section outlines 2-4 common pitfalls, challenges, or limitations that teams commonly encounter when adopting this practice. Each nuance should have a title (styled as a subhead) and a brief (3-5 sentences) description.
+This next section outlines some common pitfalls, challenges, or limitations that teams commonly encounter when adopting this practice (roughly 3-5). Each nuance should have a title (styled as a subhead) and a brief description (3-5 sentences).
 
 *Begin this section with the following text:* "This section outlines common pitfalls, challenges, or limitations teams commonly encounter when applying this practice. The goal here is not to discourage you. Rather, the goal is to arm you with the appropriate context so that you can make an informed decision about when and how to implement the practice with your team(s)."
 
-## Putting the Practice to Use [or "Practice in Action"?]
+## Gaining Traction
 
 *Begin this section with the following text:* "The following actions will help your team implement this practice." 
 
@@ -38,11 +38,11 @@ For example, a general practice is to Facilitate a Roundtable Discussion. In the
 
 Another example of a general practice is to Start a Book Club. In the Reduce Coupling Between Abstractions practice, we list specific books that can help put this practice to use such as "Refactoring" by Martin Fowler and "Clean Architecture" by Robert C. Martin.
 
-See the relevant section in [other practice pages](/practices/) for more examples.
+See the Gaining Traction section in [other practice pages](/practices/) for more examples.
 
 ## Adjacent Capabilities
 
-The final section lists 2-4 other DORA Capabilities that are related to the Practice, either because they're similar or because you need one to accomplish the other. Each Capability should have a title (styled as a subhead) and brief (2-4 sentences) description. The title should be an  existing, linked DORA Capability from the repository.
+The final section lists a handful of other DORA Capabilities (roughly 1-4) that are related to the Practice, either because they're similar or because you need one to accomplish the other. Each Capability should have a title (styled as a subhead) and brief description (2-4 sentences). The title should be an  existing, linked DORA Capability from the repository.
 
 *Begin this section with the following text:* "This practice supports enhanced performance in the following capabilities."
 ```
