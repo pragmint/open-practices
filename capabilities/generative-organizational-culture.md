@@ -18,13 +18,13 @@ When there is a lack of trust between decision-makers and team members, valuable
 
 ### Centralized and Decentralized Structures Each Have Trade-Offs
 
-Both centralized and decentralized organizational structures can be generative. However, each structure has distinct strengths and challenges. 
+Both centralized and decentralized organizational structures can be generative. However, each structure has distinct strengths and challenges.
 
-Decentralized structures, where a lot of decision-making happens at lower levels of the organization, enable lower-level managers and developers to use their specialized knowledge, and encourage them to acquire more information. However, these structures can lead to misalignment with broader organizational objectives and hinder coordination across divisions. 
+Decentralized structures, where a lot of decision-making happens at lower levels of the organization, enable lower-level managers and developers to use their specialized knowledge, and encourage them to acquire more information. However, these structures can lead to misalignment with broader organizational objectives and hinder coordination across divisions.
 
-Centralized structures, where solutions are generally pre-determined at a higher level, ensure better goal alignment and resource allocation, as well as consistency, but insights are often lost due to communication barriers. 
+Centralized structures, where solutions are generally pre-determined at a higher level, ensure better goal alignment and resource allocation, as well as consistency, but insights are often lost due to communication barriers.
 
-One structure is not better than the other; the use of one over the other depends on what you're optimizing for. An organization may be centralized in some ways (for example, in operational consistency) but decentralized in others (for example, in local responsiveness). The goal is to achieve balance in your organization's structure by carefully evaluating its needs. 
+One structure is not better than the other; the use of one over the other depends on what you're optimizing for. An organization may be centralized in some ways (for example, in strategic decision-making) but decentralized in others (for example, in technology choice). The goal is to achieve balance in your organization's structure by carefully evaluating its needs.
 
 ### Problem and Skill Matching
 
@@ -33,7 +33,6 @@ Effective problem and skill matching is foundational for a generative culture. M
 ### Changing Culture Takes Time
 
 Transitioning to a Generative Organizational Culture is not an overnight process. As with trust-building, cultural change requires sustained effort and commitment from all levels of the organization. It involves altering ingrained behaviors and mindsets, which can be challenging and met with resistance. Recognizing that this transformation is a long-term investment is crucial for success.
-
 
 ## Assessment
 
@@ -52,11 +51,11 @@ The number you selected represents your overall score for this capability. If yo
 
 Generally, an overall score equal to or less than 3 means you'll likely gain a lot of value from experimenting with some of the supporting practices listed here. An overall score higher than 3 generally means your organization is largely proficient, or well on its way to becoming proficient, in the area of Generative Organizational Culture; you would likely benefit from evaluating your scores in other capabilities.
 
-
 ## Supporting Practices
+
 The following is a curated list of supporting practices to consider when looking to improve your team's Generative Organizational Culture capability. While not every practice will be beneficial in every situation, this list is meant to provide teams with fresh, pragmatic, and actionable ideas to support this capability.
 
-### Conduct Blameless Retrospectives 
+### Conduct Blameless Retrospectives
 
 After any incident or failure, organize a postmortem meeting where the focus is on *understanding the root causes* rather than assigning blame. Encourage all team members to openly share insights and perspectives to learn from the event. By treating failures as opportunities for inquiry and learning, teams can feel empowered to improve processes and prevent future issues, enhancing organizational trust and collaboration.
 
@@ -68,7 +67,7 @@ Skip-level 1:1s foster a Generative Organizational Culture by creating a direct 
 
 A crucial conversation is a high-stakes discussion where differing opinions and strong emotions must be handled carefully to achieve constructive outcomes. These conversations support a Generative Organizational Culture by fostering open communication, trust, and psychological safety, ensuring that concerns and conflicts are addressed directly. By promoting shared accountability and learning from mistakes, crucial conversations enhance collaboration and drive continuous improvement across teams.
 
-### Rotate Team Members Routinely 
+### Rotate Team Members Routinely
 
 Routinely rotating team members exposes them to new roles, challenges, and perspectives, fostering collaboration and breaking down silos. This practice encourages knowledge sharing, builds empathy, and brings fresh ideas to teams — all of which help drive innovation and adaptability. Team rotations support the high cooperation and shared responsibility that define a Generative Organizational Culture.
 
@@ -83,7 +82,6 @@ Aim to create teams that are composed of members from different functional areas
 ### Use Open Communication Platforms
 
 Adopt tools and platforms that facilitate transparent and easy communication across the organization, such as chat systems, collaborative documentation, and shared dashboards. Encourage the sharing of information, questions, and updates openly and regularly rather than through isolated channels and in narrow timeframes. By improving information flow, teams are better informed and can respond more effectively to changes and challenges.
-
 
 ## Adjacent Capabilities
 
