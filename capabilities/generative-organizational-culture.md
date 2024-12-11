@@ -16,15 +16,15 @@ Personal relationships and informal networks play a significant role in how info
 
 When there is a lack of trust between decision-makers and team members, valuable information often gets ignored as team members are more likely to stop sharing context. For example, if engineers spot a product flaw but don't trust their warnings will be taken seriously, they might avoid raising concerns, leading to mis-informed executive decision-making. Trust-building is a long-term process but is critical for enabling high-functioning, performance-oriented, generative cultures.
 
-### Centralized and Decentralized Authority Each Have Trade-Offs
+### Centralized and Decentralized Structures Each Have Trade-Offs
 
 Both centralized and decentralized organizational structures can be generative. However, each structure has distinct strengths and challenges. 
 
-Decentralized structures, where [xyz happens], enable lower-level managers to use their specialized knowledge and encourage them to acquire more information. However, these structures can lead to misalignment with broader organizational objectives and hinder coordination across divisions. 
+Decentralized structures, where a lot of decision-making happens at lower levels of the organization, enable lower-level managers and developers to use their specialized knowledge, and encourage them to acquire more information. However, these structures can lead to misalignment with broader organizational objectives and hinder coordination across divisions. 
 
-Centralized structures, where [xyz happens], ensure better goal alignment and resource allocation but insights are often lost due to communication barriers. 
+Centralized structures, where solutions are generally pre-determined at a higher level, ensure better goal alignment and resource allocation, as well as consistency, but insights are often lost due to communication barriers. 
 
-Leaders can aim to achieve a balance of centralized and decentralized authority by carefully evaluating their organization's needs. For example, a leader might weigh the importance of local responsiveness (characteristic of a centralized orgs?) versus operational consistency (characteristic of decentralized orgs?).
+One structure is not better than the other; the use of one over the other depends on what you're optimizing for. An organization may be centralized in some ways (for example, in operational consistency) but decentralized in others (for example, in local responsiveness). The goal is to achieve balance in your organization's structure by carefully evaluating its needs. 
 
 ### Problem and Skill Matching
 
@@ -56,7 +56,7 @@ Generally, an overall score equal to or less than 3 means you'll likely gain a l
 ## Supporting Practices
 The following is a curated list of supporting practices to consider when looking to improve your team's Generative Organizational Culture capability. While not every practice will be beneficial in every situation, this list is meant to provide teams with fresh, pragmatic, and actionable ideas to support this capability.
 
-### Conduct Blameless Retrospectives [link to "conduct retrospective meetings" practice?]
+### Conduct Blameless Retrospectives 
 
 After any incident or failure, organize a postmortem meeting where the focus is on *understanding the root causes* rather than assigning blame. Encourage all team members to openly share insights and perspectives to learn from the event. By treating failures as opportunities for inquiry and learning, teams can feel empowered to improve processes and prevent future issues, enhancing organizational trust and collaboration.
 
@@ -68,7 +68,7 @@ Skip-level 1:1s foster a Generative Organizational Culture by creating a direct 
 
 A crucial conversation is a high-stakes discussion where differing opinions and strong emotions must be handled carefully to achieve constructive outcomes. These conversations support a Generative Organizational Culture by fostering open communication, trust, and psychological safety, ensuring that concerns and conflicts are addressed directly. By promoting shared accountability and learning from mistakes, crucial conversations enhance collaboration and drive continuous improvement across teams.
 
-### Rotate Team Members Routinely [link to pair programming practice?]
+### Rotate Team Members Routinely 
 
 Routinely rotating team members exposes them to new roles, challenges, and perspectives, fostering collaboration and breaking down silos. This practice encourages knowledge sharing, builds empathy, and brings fresh ideas to teams — all of which help drive innovation and adaptability. Team rotations support the high cooperation and shared responsibility that define a Generative Organizational Culture.
 
