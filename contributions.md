@@ -1,11 +1,11 @@
 # Making A Contribution
 
-Thanks for considering making a contribution to our repository! We welcome new ideas and appreciate your willingness to share your experience with us. This is a general purpose repository, however, it is associated with Pragmint's brand. Therefore we reserve the right to reject contributions if our experiences don't support the suggestions.
+Thanks for considering making a contribution to our repository! We welcome new ideas and appreciate your willingness to share your experience with us. While this is a general purpose repository, it is associated with Pragmint's brand. Therefore, we reserve the right to reject contributions if our experiences don't support the suggestions.
 
 When making a contribution, keep the following definitions in mind:
 
 1. Capability - An area of proficiency that by teams possessing contributes to the success of software delivery and operational performance.
-2. Practice - An actionable pattern, technique, or process employed by software professionals. For the purposes of this repository, each practice supports one or more Capabilities. These are not necessary based on DORA research, rather supported by expert opinion.
+2. Practice - An actionable pattern, technique, or process employed by software professionals. For the purposes of this repository, each practice supports one or more capabilities. These practices are not necessarily based on DORA research; rather, they are supported by expert opinion.
 
 We are looking for contributions in the following areas:
 
@@ -15,22 +15,34 @@ We are looking for contributions in the following areas:
 4. Additional content describing common pitfalls, challenges, or limitations teams commonly encounter when applying certain practices or capabilities.
 5. Typos or grammatical fixes.
 
-If you chose to contribute a new practice try to follow our pre-established structure:
+If you chose to contribute a new practice, please try to follow our pre-established structure:
 
 ```markdown
-# Title Of Practice
+# Title of Practice
 
-A 2-3 sentence description of the practice followed by a sentence or two describing the main benefits of adopting this practice. Try to keep it brief.
+A 2-3 sentence description of the practice, followed by a sentence or two describing the main benefits of adopting this practice. Try to keep the text brief, relatable, and motivational. Our audience wants a quick read. The writing style should be conversational, not academic; the details should be higher level (think overview or summary), not too technical.
 
 ## Nuance
 
-This section outlines 2-4 common pitfalls, challenges, or limitations teams commonly encounter when adopting this practice. Each nuance should have a subheader and description.
+This next section outlines some common pitfalls, challenges, or limitations that teams commonly encounter when adopting this practice (roughly 3-5). Each nuance should have a title (styled as a subhead) and a brief description (3-5 sentences).
 
-## How To Improve
+*Begin this section with the following text:* "This section outlines common pitfalls, challenges, or limitations teams commonly encounter when applying this practice. The goal here is not to discourage you. Rather, the goal is to arm you with the appropriate context so that you can make an informed decision about when and how to implement the practice with your team(s)."
 
-List practices from [Learning Culture](/capabilities/learning-culture.md) and add the practice specific information (talking points, instructions, links to external resources, etc) in the description. See the How To Improve sections in [other practice pages](/practices/) for examples.
+## Gaining Traction
+
+*Begin this section with the following text:* "The following actions will help your team implement this practice." 
+
+Then, list the relevant general practices - from [Learning Culture](/capabilities/learning-culture.md) - and how to put those general practices to use by adding specifics such as talking points, demonstration instructions, roundtable discussion prompts, and links to external resources. 
+
+For example, a general practice is to Facilitate a Roundtable Discussion. In the Run Pair Programming Sessions practice, we elaborate on how to facilitate a roundtable discussion by listing specific discussion prompts related to pair programming such as, "How frequently do we engage in pair programming sessions, and are they integrated into our regular workflow?" 
+
+Another example of a general practice is to Start a Book Club. In the Reduce Coupling Between Abstractions practice, we list specific books that can help put this practice to use such as "Refactoring" by Martin Fowler and "Clean Architecture" by Robert C. Martin.
+
+See the Gaining Traction section in [other practice pages](/practices/) for more examples.
 
 ## Adjacent Capabilities
 
-2-4 other DORA Capabilities that are related either because they're similar or because you need one to accomplish the other. Each capability should have a title and description. The title should be an already existing DORA Capability.
+The final section lists a handful of other DORA Capabilities (roughly 1-4) that are related to the Practice, either because they're similar or because you need one to accomplish the other. Each Capability should have a title (styled as a subhead) and brief description (2-4 sentences). The title should be an  existing, linked DORA Capability from the repository.
+
+*Begin this section with the following text:* "This practice supports enhanced performance in the following capabilities."
 ```
