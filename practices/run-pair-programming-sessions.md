@@ -31,9 +31,9 @@ However, routine tasks or individual research may not require constant collabora
 While pair programming can be done remotely, this approach presents some challenges such as communication barriers, technical issues, and time zone differences.
 Teams must use suitable collaboration tools (for example, Visual Studio Live Share) and establish clear communication protocols.
 
-## Getting Your Team Started
+## Gaining Traction
 
-Help your team implement this practice by hosting a viewing party of specially curated talks, starting a book club to discuss impactful titles on this topic, facilitating a roundtable discussion about relevant topics, leading a workshop, or running a retrospective.
+The following actions will help your team implement this practice. 
 
 ### [Host a Viewing Party](/practices/host-a-viewing-party.md)
 
@@ -97,7 +97,7 @@ To experiment with pair programming and evaluate its effects, start by pairing t
 
 Regular feedback sessions provide an opportunity for team members to share their experiences, challenges, and suggestions regarding pair programming. By collecting feedback from participants, you can identify areas for improvement, address concerns, and iterate on the pair programming process. This continuous feedback loop enables you to refine your approach to pair programming and ensure that it aligns with your team's evolving needs and goals.
 
-## Supporting Capability
+## Adjacent Capability
 
 This practice supports enhanced performance in the following capability.
 

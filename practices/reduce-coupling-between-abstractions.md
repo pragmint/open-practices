@@ -42,9 +42,9 @@ Reducing coupling prepares the codebase for future changes, but it’s important
 The YAGNI (You Aren't Gonna Need It) principle warns against adding complexity for features that might never be needed.
 Focus on the current requirements and only introduce abstractions when there's a clear, present need. This will help you avoid speculative design.
 
-## Getting Your Team Started
+## Gaining Traction
 
-Help your team implement this practice by hosting a viewing party of specially curated talks, starting a book club to discuss impactful titles on this topic, facilitating a roundtable discussion about relevant topics, or doing a spike (or timeboxed experiment).
+The following actions will help your team implement this practice. 
 
 ### [Host a Viewing Party](/practices/host-a-viewing-party.md)
 
@@ -98,7 +98,9 @@ Below are suggestions for topics and prompts you could explore with your team du
 * **Refactor**: Set some time aside to refactor a key component or set of components to reduce coupling. Present your findings to the team to see if committing those changes or making additional changes have a good potential return on investment.
 * **Audit Your Dependencies**: Use a [dependency analysis tool](https://markgacoka.medium.com/how-to-visualize-your-codebase-7c4c4d948141) to visualize the relationships between modules and components, and to identify highly coupled areas. Discuss why these dependencies exist.
 
-## Supporting Capability
+## Adjacent Capability
+
+This practice supports enhanced performance in the following capability.
 
 ### [Code Maintainability](/capabilities/code-maintainability.md)
 

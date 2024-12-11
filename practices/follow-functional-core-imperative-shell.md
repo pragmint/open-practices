@@ -54,9 +54,9 @@ This approach is especially advantageous due to the functional core's compositio
 Integration tests should cover the behavior of the imperative shell as it interacts with external systems, including database calls, API requests, or user interfaces.
 Imperative shell integration tests ideally require fewer scenarios to validate, given that control statements such as `if`, `while`, or `for` loops should mostly reside within the functional core layer.
 
-## Getting Your Teams Started
+## Gaining Traction
 
-Help your team implement this practice by hosting a viewing party of specially curated talks, starting a book club to discuss impactful titles on this topic, or facilitating a roundtable discussion about relevant topics.
+The following actions will help your team implement this practice. 
 
 ### [Host a Viewing Party](/practices/host-a-viewing-party.md)
 
@@ -104,7 +104,7 @@ Below are suggestions for topics and prompts you could explore with your team du
 * How can we ensure effective communication and collaboration among team members during the transition process, including knowledge sharing, pair programming, and code reviews?
 * What metrics or milestones can we establish to measure progress and evaluate the success of incrementally transitioning to the Functional Core, Imperative Shell pattern?
 
-## Supporting Capabilities
+## Adjacent Capabilities
 
 This practice supports enhanced performance in the following capabilities.
 
