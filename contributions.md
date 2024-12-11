@@ -4,7 +4,7 @@ Thanks for considering making a contribution to our repository! We welcome new i
 
 When making a contribution, keep the following definitions in mind:
 
-1. Capability - An area of proficiency that by teams possessing contributes to the success of software delivery and operational performance.
+1. Capability - An area of proficiency that by teams possessing contributes to the success of software delivery and operational performance. These capabilities are defined by the [DORA research team](https://dora.dev/). We summarize their findings and add context as deemed appropriate.
 2. Practice - An actionable pattern, technique, or process employed by software professionals. For the purposes of this repository, each practice supports one or more capabilities. These practices are not necessarily based on DORA research; rather, they are supported by expert opinion.
 
 We are looking for contributions in the following areas:
@@ -30,11 +30,11 @@ This next section outlines some common pitfalls, challenges, or limitations that
 
 ## Gaining Traction
 
-*Begin this section with the following text:* "The following actions will help your team implement this practice." 
+*Begin this section with the following text:* "The following actions will help your team implement this practice."
 
-Then, list the relevant general practices - from [Learning Culture](/capabilities/learning-culture.md) - and how to put those general practices to use by adding specifics such as talking points, demonstration instructions, roundtable discussion prompts, and links to external resources. 
+Then, list the relevant general practices - from [Learning Culture](/capabilities/learning-culture.md) - and how to put those general practices to use by adding specifics such as talking points, demonstration instructions, roundtable discussion prompts, and links to external resources.
 
-For example, a general practice is to Facilitate a Roundtable Discussion. In the Run Pair Programming Sessions practice, we elaborate on how to facilitate a roundtable discussion by listing specific discussion prompts related to pair programming such as, "How frequently do we engage in pair programming sessions, and are they integrated into our regular workflow?" 
+For example, a general practice is to Facilitate a Roundtable Discussion. In the Run Pair Programming Sessions practice, we elaborate on how to facilitate a roundtable discussion by listing specific discussion prompts related to pair programming such as, "How frequently do we engage in pair programming sessions, and are they integrated into our regular workflow?"
 
 Another example of a general practice is to Start a Book Club. In the Reduce Coupling Between Abstractions practice, we list specific books that can help put this practice to use such as "Refactoring" by Martin Fowler and "Clean Architecture" by Robert C. Martin.
 
