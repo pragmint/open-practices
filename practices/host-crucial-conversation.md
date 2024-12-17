@@ -1,5 +1,58 @@
 # Host a Crucial Conversation
 
+Covers the basic definition of this model.
+
+## Nuances
+
+This section outlines common pitfalls, challenges, or limitations teams commonly encounter when applying this practice. The goal here is not to discourage you. Rather, the goal is to arm you with the appropriate context so that you can make an informed decision about when and how to implement the practice with your teams.
+
+### Fool's Choice
+
+### Counter-Productive When Covering Objective Issues
+
+Don't use this methodology if you're discussing something objective like 1+1=2. The crucial conversations practice is appropriate for situations where there is hidden meaning or subjective views of a situation.
+
+### You have to keep an open mind
+
+If you go into a crucial conversation without being actually curious about the other perspective, you're doomed.
+
+### It can be difficult to keep a single point of focus during a crucial conversation
+
+When a conversation is uncomfortable, it's common for people to bring up unrelated issues to divert the focus of the conversation. Bookmarking is important here.
+
+### Not everything is going to be consensus
+
+...insert stuff..
+
+## Getting Your Teams Started
+
+Help your team implement this practice by hosting a viewing party of specially curated talks, starting a book club to discuss impactful titles on this topic, or facilitating a roundtable discussion about relevant topics.
+
+### [Lead Workshops](/practices/lead-workshops.md)
+
+#### Host a mock crucial conversation
+
+[worksheet](https://irp-cdn.multiscreensite.com/25ad169b/files/uploaded/Crucial-Conversations-Worksheet.pdf)
+
+### [Start A Book Club](/practices/start-a-book-club.md)
+
+#### [Crucial Conversations by Various Authors](https://www.goodreads.com/book/show/15014.Crucial_Conversations)
+
+Insert a quick summary of the book
+
+### [Host A Viewing Party](/practices/host-a-viewing-party.md)
+
+#### [Mastering Crucial Conversations by Joseph Grenny](https://www.youtube.com/watch?v=uc3ARpccRwQ)
+
+Insert a quick summary of the talk
+
+## Supporting Capabilities
+
+This practice supports enhanced performance in the following capabilities.
+
+<!-- TODO: insert a list of [linked capabilities](/capabilities) that this practice supports. For each item, give a brief explanation of how the linked capability is supported by / relates to this practice. Also categorize each linked capability as one of the following: Enables, Requires, Improves -->
+
+
 ## Key Points
 
 * Define Crucial Conversation
