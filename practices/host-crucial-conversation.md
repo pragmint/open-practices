@@ -58,10 +58,13 @@ In his talk Mastering the Art of Crucial Conversations, Joseph Grenny outlines k
 
 ## Supporting Capabilities
 
-This practice supports enhanced performance in the following capabilities.
+### [Generative organizational culture](https://dora.dev/capabilities/generative-organizational-culture/)
 
-<!-- TODO: insert a list of [linked capabilities](/capabilities) that this practice supports. For each item, give a brief explanation of how the linked capability is supported by / relates to this practice. Also categorize each linked capability as one of the following: Enables, Requires, Improves -->
+Hosting a crucial conversation supports the Generative Organizational Culture capability by promoting open communication, trust, and collaboration. It encourages team members to share ideas, challenge assumptions, and provide constructive feedback in a safe environment. This openness helps align teams, promotes continuous learning, and drives innovation, key elements of a generative culture that leads to better performance and outcomes.
 
+### [Well-being](https://dora.dev/capabilities/well-being/)
+
+Hosting a crucial conversation supports the Well-being capability by providing a safe space to address issues and resolve conflicts constructively. It helps reduce stress and burnout, promotes a healthier work environment, and ensures team members feel heard and valued, enhancing overall mental and emotional well-being.
 
 ## Key Points
 
