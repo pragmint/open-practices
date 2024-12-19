@@ -2,22 +2,26 @@
 
 This capability is about empowering teams to select the tools and technologies that best support their unique workflows and tasks. The DORA research has found that the most qualified decision-makers are the individual contributors themselves. When teams are empowered to choose their own tools, we tend to see higher software delivery performance and increases in job satisfaction.
 
-## Nuance
+## Nuances
 
-### Balancing Choice with Complexity
+### Balance Choice with Complexity
 
 It’s crucial to balance tool choice with the potential costs of acquisition, support, and added complexity that come with adding new tools to a tech stack. 
 
-Typically, organizations have platform teams that do a lot of the "behind the scenes" support work required to keep a technology stack compliant and efficient. A baseline set of approved tools should be established for all teams, which can cover the majority of the organization's needs while allowing room for innovation. If one team feels strongly that a different tool or technology is best for their case, they should feel free to choose it. However, they should know that their choice means they must also do the work of _supporting_ this new tool or set of tools.
+While a baseline set of tools should be established across an organization, teams should feel free to choose a new tool or technology if they feel strongly that it is best suited for their use case. Making this choice means they must also _support_ the new tool(s), which can be a tall order.
 
-Sometimes that support work can be easy to gloss over. Take, for example, the decision to use a different language. Once this decision is made, the team will need to build out a whole new CI/CD pipeline and ensure its environments are suitable to run their code in the new language. They'll also need to introduce other new tooling that scans for security vulnerabilities and a host of other tasks, which the organization's platform team likely already handles. As you can see, one team's decision to use another tool has created a domino effect in terms of support, and has potentially added a layer of complexity in communication between teams. 
+Take, for example, a team's choice to use a different language. Once this decision is made, the team will need to build a new CI/CD pipeline and ensure its environments are suitable to run their code in the new language. They'll also need to introduce other new tooling that scans for security vulnerabilities and a host of other tasks, which the organization's platform team likely already handles. After all, the role of the platform team is to keep the technology stack compliant and efficient. 
 
-**Allowing teams to choose their tools doesn't mean unrestricted freedom.**
+As you can see, one team's decision to use another tool has created a domino effect in terms of support, and has potentially added a layer of complexity in communication between teams. 
 
-Too much freedom in tool choice can lead to a fragmented tech stack, increasing technical debt and fragility over time. Each new tool requires maintenance and integration efforts, which can dilute the benefits of the new technology. It's essential to define a standardized process for evaluating and adopting new tools, and to ensure teams understand the implications of their choices.
+### Develop Standards for Adopting New Tools
+
+Allowing teams to choose their tools doesn't mean unrestricted freedom.
+
+Too much freedom in tool choice can lead to a fragmented tech stack, increasing technical debt and making the infrastructure more fragile over time. Each new tool requires maintenance and integration efforts, which can dilute the benefits of the new technology. For these reasons, it's essential to define a standardized process for evaluating and adopting new tools, and to ensure teams understand the implications of their choices.
 
 
-##Assessment
+## Assessment
 
 To assess how mature your team or organization is in this capability, complete this short exercise.
 
