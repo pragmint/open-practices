@@ -42,19 +42,19 @@ Help your team implement this practice by hosting a viewing party of specially c
 
 #### Host a mock crucial conversation
 
-[worksheet](https://irp-cdn.multiscreensite.com/25ad169b/files/uploaded/Crucial-Conversations-Worksheet.pdf)
+A mock crucial conversation exercise involves role-playing a challenging conversation to practice managing emotions and communicating effectively. Participants simulate scenarios like giving feedback or resolving conflicts, while others observe and provide feedback. The exercise helps build skills such as active listening, staying calm under pressure, and addressing sensitive topics constructively. Afterward, the group reflects on the experience to improve future real-life conversations. To enhance the practice, it would be helpful to use the Crucial Conversations [worksheet](https://irp-cdn.multiscreensite.com/25ad169b/files/uploaded/Crucial-Conversations-Worksheet.pdf) to guide the mock conversation, ensuring that key strategies and goals are addressed throughout the exercise.
 
 ### [Start A Book Club](/practices/start-a-book-club.md)
 
-#### [Crucial Conversations by Various Authors](https://www.goodreads.com/book/show/15014.Crucial_Conversations)
+#### [Crucial Conversations: Tools for Talking When Stakes are High](https://www.goodreads.com/book/show/15014.Crucial_Conversations)
 
-Insert a quick summary of the book
+Crucial Conversations teaches you how to navigate high-stakes situations where emotions run high and opinions differ. It offers practical tools for handling tough conversations effectively, helping you communicate clearly, stay calm, and achieve positive outcomes. You'll learn techniques like preparing for tough discussions quickly, creating a safe environment for open dialogue, being persuasive without being aggressive, and staying engaged even when others become defensive or silent. The book empowers you to turn difficult conversations into opportunities for resolution and action.
 
 ### [Host A Viewing Party](/practices/host-a-viewing-party.md)
 
 #### [Mastering Crucial Conversations by Joseph Grenny](https://www.youtube.com/watch?v=uc3ARpccRwQ)
 
-Insert a quick summary of the talk
+In his talk Mastering the Art of Crucial Conversations, Joseph Grenny outlines key strategies for effectively navigating high-stakes discussions. He emphasizes the importance of creating a safe environment for open dialogue, where all parties can speak honestly without fear of judgment. Grenny focuses on techniques for staying calm under pressure, managing emotions, and keeping the conversation productive. He also stresses the need to focus on shared goals and mutual respect, providing practical tools to handle difficult conversations with confidence and achieve positive outcomes.
 
 ## Supporting Capabilities
 
