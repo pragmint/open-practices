@@ -12,9 +12,9 @@ While a baseline set of tools should be established across an organization, team
 
 Take, for example, a team's choice to use a different language. Once this decision is made, the team will need to build a new CI/CD pipeline and ensure its environments are suitable to run their code in the new language. They'll also need to introduce other new tooling that scans for security vulnerabilities and a host of other tasks, which the organization's platform team likely already handles. After all, the role of the platform team is to keep the technology stack compliant and efficient. 
 
-As you can see, one team's decision to use another tool has created a domino effect in terms of support, and has potentially added a layer of complexity in communication between teams. 
+As you can see, one team's decision to use another tool has added a layer of complexity in terms of support. 
 
-### Develop Standards for Adopting New Tools
+### Risk of Tool Overproliferation
 
 Allowing teams to choose their tools doesn't mean unrestricted freedom.
 
