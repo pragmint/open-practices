@@ -39,12 +39,12 @@ Metrics:
 
 * Card wall
 * Story Board
-* Kaban Board
+* Kaban Board (Practice)
 
 ### Common pitfalls (Maybe good for nuance section)
 
-* Overestimating knowledge: Teams often lack full visibility into the value stream, requiring cross-team collaboration to uncover gaps.
-* Incomplete mapping: Omitting parts of the value stream leads to missed improvement opportunities.
+(Nuances)
+* Silos based on specialties
 * Wrong focus: Prioritizing non-bottlenecks wastes effort without improving lead times.
 * Lack of authority: Teams need decision-making power to implement changes effectively.
 
@@ -69,3 +69,5 @@ Related capabilities
 ## Summary
 ## Nuance
 ## Supporting Practices
+
+* Double-loop learning
