@@ -101,8 +101,12 @@ The following capabilities will be valuable for you and your team to explore, as
 
 ### [Generative Organizational Culture](/capabilities/generative-organizational-culture.md) - Related
 
-When you create a Generative Organizational Culture, you're creating an environment in which it is safe to fail. This attribute is also important to a Learning Culture, as failure tends to be a great teacher.
+When you create a Generative Organizational Culture, you're creating an environment in which it is safe to fail. To know what works best, you have to find out what doesn't work and reflect on why. Learning cultures support this approach.
 
-### [Transformational Leadership](/capabilities/transformational-leadership.md) - Downstream
+### [Transformational Leadership](/capabilities/transformational-leadership.md) - Upstream
 
-A big part of Transformational Leadership is creating intellectual stimulation within your team. Following the practices that support building a strong Learning Culture can help propel you toward transformational leadership.
+Without support from leadership, learning cultures can only exist in small pockets of an organization. Challenging teams to question their assumptions creates intellectual stimulation, which is a key aspect of transformational leadership and supports a strong learning culture.
+
+### [Team Experimentation](/capabilities/team-experimentation.md) - Related
+
+Learning Culture and Team Experimentation have a A learning culture encourages teams to take risks, experiment, and learn from failures. By experimenting a lot, you're reinforcing your team's learning culture.
