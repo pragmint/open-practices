@@ -2,7 +2,7 @@
 
 Comprehensive version control ensures reproducibility and traceability across the system, enabling teams to provision production-like environments, track changes, and respond quickly to evolving needs. This capability enhances disaster recovery, auditability, and quality by allowing teams to restore services efficiently, demonstrate process integrity, and receive rapid feedback on changes. When teams can scale their environments and roll back to verified working states, when necessary, they can support capacity management and defect response.
 
-Without a robust version control strategy, teams are left vulnerable to disruptions in productivity and system reliability. They may struggle to reproduce environments, leading to prolonged downtime and inefficiency. Auditability is also compromised, making regulatory compliance difficult to demonstrate. Defect response suffers, as teams lack the ability to swiftly restore a known working state. 
+Without a robust version control strategy, teams are left vulnerable to disruptions in productivity and system reliability. They may struggle to reproduce environments, leading to prolonged downtime and inefficiency. Auditability is also compromised, making regulatory compliance difficult to demonstrate. Defect response suffers, as teams lack the ability to swiftly restore a known working state.
 
 By prioritizing effective version control practices, organizations can mitigate these risks and ensure seamless, reliable, and compliant software delivery.
 
@@ -25,7 +25,6 @@ Version control systems like Git struggle with large file sizes. Storing large f
 ### Security, Compliance, and Access Control
 
 Strict version control helps teams identify security vulnerabilities and exploits that have been incorporated into the system. For example, certain versions of software can be flagged as vulnerable by the Common Vulnerabilities and Exposures (CVE) database. Having good version control makes it easy to work with this data and to make upgrades to the version with vulnerable dependencies.
-
 
 However, systems that are managed by version control software must comply with regulatory requirements like GDPR, HIPAA, or PCI-DSS, which adds complexity. Storing sensitive data in broadly accessible repositories poses risks. Effective access control, encryption, and auditing mechanisms are crucial to mitigate these challenges.
 
@@ -86,7 +85,6 @@ Version dependencies ensure dependencies are managed with the same diligence as 
 
 Working in small increments enhances the traceability and reversibility of changes, making it easier to identify and address issues. This practice also increases productivity and collaboration, reducing the frequency of large merge conflicts. The result is a more efficient and reliable development process, as well as more manageable, frequent, and understandable commits.
 
-
 ## Adjacent Capabilities
 
 The following capabilities will be valuable for you and your team to explore, as they are either:
@@ -109,4 +107,4 @@ Deployment Automation depends on storing deployment scripts and configurations i
 
 ### [Code Maintainability](/capabilities/code-maintainability.md) - Downstream
 
-If you want your codebase to be maintainble, then Version Control is critical because it allows for efficient tracking, collaboration, and management of code changes over time. By tracking changes made to the codebase using version control, developers can ensure consistency across contributors, re-use code components, conduct code audits, track bugs and errors, meet compliance requirements, manage security patches, and integrate updates quickly and easily.
+If you want your codebase to be maintainable, then Version Control is critical because it allows for efficient tracking, collaboration, and management of code changes over time. By tracking changes made to the codebase using version control, developers can ensure consistency across contributors, re-use code components, conduct code audits, track bugs and errors, meet compliance requirements, manage security patches, and integrate updates quickly and easily.
