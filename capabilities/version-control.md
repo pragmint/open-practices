@@ -20,11 +20,14 @@ Version control extends beyond code to configuration, data, infrastructure, depe
 
 ### Working With Large Assets
 
-Traditional version control systems like Git struggle with large file sizes. Storing large files in these systems can lead to inefficiencies, as entire file copies are stored between versions instead of diffs. This limitation necessitates specialized systems or strategies for managing large assets, ensuring efficient storage and versioning.
+Version control systems like Git struggle with large file sizes. Storing large files in these systems can lead to inefficiencies, as entire file copies are stored between versions instead of diffs. This limitation necessitates specialized systems or strategies for managing large assets, ensuring efficient storage and versioning.
 
 ### Security, Compliance, and Access Control
 
-Strict version control helps teams identify security vulnerabilities and exploits that have been incorporated into the system. However, version control systems must comply with regulatory requirements like GDPR, HIPAA, or PCI-DSS, which adds complexity. Storing sensitive data in these broadly accessible repositories poses risks. Effective access control, encryption, and auditing mechanisms are crucial to mitigate these challenges.
+Strict version control helps teams identify security vulnerabilities and exploits that have been incorporated into the system. For example, certain versions of software can be flagged as vulnerable by the Common Vulnerabilities and Exposures (CVE) database. Having good version control makes it easy to work with this data and to make upgrades to the version with vulnerable dependencies.
+
+
+However, systems that are managed by version control software must comply with regulatory requirements like GDPR, HIPAA, or PCI-DSS, which adds complexity. Storing sensitive data in broadly accessible repositories poses risks. Effective access control, encryption, and auditing mechanisms are crucial to mitigate these challenges.
 
 ### Learning Curve
 
@@ -98,7 +101,7 @@ Version Control is fundamental to Continuous Integration, as it provides the sha
 
 ### [Trunk-Based Development](/capabilities/trunk-based-development.md) - Downstream
 
-Trunk-Based Development relies on a strong version control system to manage code changes in a single shared branch. By using version control effectively, teams can avoid complex merges and conflicts, facilitating rapid development and collaboration.
+Trunk-Based Development relies on strong version control to manage code changes in a single shared branch. By using version control effectively, teams can avoid complex merges and conflicts, facilitating rapid development and collaboration.
 
 ### [Deployment Automation](/capabilities/deployment-automation.md) - Downstream
 
