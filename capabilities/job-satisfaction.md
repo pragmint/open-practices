@@ -8,7 +8,7 @@ This section outlines common pitfalls, challenges, or limitations teams commonly
 
 ### Lagging Indicator
 
-Changes in job satisfaction often occur _after_ changes in underlying factors, such as new policies, new tools, management changes, or shifts in workload. There is often a lag in job satisfaction metrics until upstream indicators have changed. Think of job satisfaction metrics as symptoms of a larger issue. Focusing solely on improving symptoms (job satisfaction metrics) is ineffective unless the underlying causes (factors that indicate job satisfaction) have been addressed.
+Changes in job satisfaction often occur _after_ changes in underlying factors, such as new policies, new tools, management changes, or shifts in workload. There is often a lag in job satisfaction metrics until upstream factors have changed. Think of job satisfaction metrics as symptoms of a larger issue. Focusing solely on improving symptoms (job satisfaction metrics) is ineffective unless the underlying causes (factors that indicate job satisfaction) have been addressed.
 
 ### Providing Necessary Tools and Resources
 
@@ -24,7 +24,7 @@ Technological and organizational transformations can be stressful, and this stre
 
 ### Time and Resources for Continuous Improvement
 
-Improving processes and adopting new practices in the spirit of continuous improvement requires dedicated time and resources. Employees need regular opportunities to learn, adapt, and refine their skills. When organizations allocate sufficient resources to support continuous improvement, we typically see a boost in job satisfaction and performance.
+Improving processes and adopting new practices in the spirit of continuous improvement requires dedicated time and resources. Employees need regular opportunities to learn, adapt, and refine their skills. As DORA found, when organizations allocate sufficient resources to support continuous improvement, there is typically a boost in job satisfaction and performance.
 
 ## Assessment
 To assess how mature your team or organization is in this capability, complete this short exercise.
@@ -42,13 +42,12 @@ The number you selected represents your overall score for this capability. If yo
 
 Generally, an overall score equal to or less than 3 means you'll likely gain a lot of value from experimenting with some of the supporting practices listed here. An overall score higher than 3 generally means you and your team are largely proficient, or well on your way to becoming proficient, in the area of Job Satisfaction; you would likely benefit from evaluating your scores in other capabilities.
 
-
 ## Supporting Practices
 The following is a curated list of supporting practices to consider when looking to improve your team's Job Satisfaction capability. While not every practice will be beneficial in every situation, this list is meant to provide teams with fresh, pragmatic, and actionable ideas to support this capability.
 
-### Host Skip-Level Meetings
+### Host Skip-Level 1:1s
 
-Skip-level meetings provide a safe space for employees to share concerns, ideas, and feedback with their manager's manager or another high-level leader. The goal here is to foster open communication across the organization. By listening to employees' concerns, leaders can identify and address potential issues before they escalate, reducing turnover and improving job satisfaction. Leaders can offer guidance, mentorship, and opportunities for growth, aligning employees' goals with organizational objectives. Skip-level meetings can also demonstrate that employees' voices are valued, giving them a sense of empowerment and autonomy.
+Skip-level 1:1s create a direct channel for information flow, regardless of one's status in the organization. They provide a safe space for employees to share concerns, ideas, and feedback with their manager's manager or another high-level leader. They also demonstrate to employees that their voices are valued, giving them a sense of empowerment and autonomy. The goal is to foster open communication and build trust across the organization. By listening to employees' concerns, leaders can identify and address potential issues before they escalate, reducing turnover and improving job satisfaction. Leaders can also offer guidance, mentorship, and opportunities for growth, aligning employees' goals with organizational objectives. 
 
 ### Implement Employee Recognition Programs
 
@@ -56,15 +55,15 @@ Establish structured programs to recognize and reward employees for their contri
 
 ### Allocate Time To Have Fun and Build Strong Relationships
 
-Allocating time for fun and relationship-building at work enhances job satisfaction by fostering a sense of belonging, reducing stress, and strengthening collaboration. Positive interactions and strong connections among coworkers improve engagement, boost creativity, and promote a supportive company culture. These elements not only make the workplace more enjoyable but also encourage retention and productivity by signaling that the organization values its employees' well-being. An organization that balances productivity with meaningful relationships creates an environment where employees thrive.
+Allocating time for fun and relationship-building fosters trust, collaboration, and a sense of belonging among team members. When employees can share positive experiences, it strengthens psychological safety, boosts creativity, and encourages cross-team connections. These elements not only make the workplace more enjoyable but also encourage retention and productivity by signaling that the organization values its employees' well-being. An organization that balances productivity with meaningful relationships creates an environment where employees thrive.
 
 ### Train Your Team To Have Crucial Conversations
 
-Training your team in crucial conversations enhances job satisfaction by fostering open communication, trust, and conflict resolution. Employees feel more secure and valued in an environment where sensitive topics can be discussed constructively, reducing misunderstandings and workplace tension. These skills also promote personal growth and stronger team dynamics, leading to more effective collaboration and a positive work atmosphere. 
+A crucial conversation is a high-stakes discussion where differing opinions and strong emotions must be handled carefully to achieve constructive outcomes. These conversations foster open communication, trust, and psychological safety, ensuring that concerns and conflicts are addressed directly. By promoting shared accountability and learning from mistakes, crucial conversations enhance collaboration and drive continuous improvement across teams.
 
 ### Start a Community of Practice
 
-Starting a Community of Practice (CoP) enhances job satisfaction by fostering collaboration, continuous learning, and a sense of belonging among employees. CoPs provide opportunities for knowledge sharing, skill development, and innovation, making work more meaningful and engaging. CoPs also improve organizational culture by breaking down silos and offering a platform for employees to be recognized for their contributions. This sense of connection and growth empowers employees to feel fulfilled and invested in their work.
+Starting a community of practice means providing a dedicated space where a variety of practices (like demonstrations, workshops, book clubs, etc.) can be performed. This collaborative environment fosters continuous learning, sharing of best practices, and collective problem-solving. By bringing together practitioners with shared interests, a community of practice can drive innovation, enhance skills, and promote a learning culture. This sense of connection and growth empowers employees to feel fulfilled and invested in their work.
 
 ## Adjacent Capabilities
 
