@@ -7,7 +7,6 @@ This approach helps teams learn quickly, adapt, and avoid wasting time on heavy 
 ## Nuances
 This section outlines common pitfalls, challenges, or limitations teams commonly encounter when applying this capability. The goal here is not to discourage you. Rather, the goal is to arm you with the appropriate context so that you can make an informed decision about when and how to implement the capability with your teams.
 
-
 ### Balance Trust With Experimentation
 
 When teams feel safe to experiment — knowing failures won’t derail progress — they’re more likely to find faster, better ways to work. Much of the time, employees won’t take risks and experiment with new approaches unless they see peers fail safely, or even be praised for it. Drawing safe-to-fail boundaries, like having a "failure budget," is key to encouraging experimentation while maintaining trust; without these boundaries, unchecked decisions can lead to misalignment and friction when leadership intervenes. By balancing safety with clear expectations, you can create an environment where experimentation and trust can thrive together.
@@ -27,7 +26,6 @@ Experiments should have clear hypotheses and measurable outcomes. Without proper
 ### Ensure Cross-Team Collaboration
 
 Experimentation within one team is typical, but this can impact other teams or parts of the organization. Open communication about ongoing experiments helps prevent conflicts and duplicated efforts. Collaborating on experiments can amplify its benefits and foster a culture of collective learning.
-
 
 ## Assessment
 To assess how mature your team or organization is in this capability, complete this short exercise.
@@ -54,7 +52,7 @@ The following is a curated list of supporting practices to consider when looking
 
 ### Do a Spike, or Timeboxed Experiment
 
-Also referred to as building a proof-of-concept (POC), this practice of doing a spike involves setting aside a short period of time for your team to get hands-on experience building a solution as a way to reduce uncertainty. Spikes tend to last a couple of hours or days (at the most). They're a great way to try out a new practice, process, or tool. Given a spike's short duration, it's helpful to have an experienced member of the team lead these efforts to avoid getting stuck for prolonged periods of time.
+Also referred to as building a proof-of-concept (POC), this practice involves setting aside a short period of time for your team to get hands-on experience building a solution as a way to reduce uncertainty. Spikes tend to last a couple of hours or days (at the most). They're a great way to try out a new practice, process, or tool. Given a spike's short duration, it's helpful to have an experienced member of the team lead these efforts to avoid teams from getting stuck for prolonged periods of time.
 
 ### Host a Retrospective
 
@@ -62,11 +60,11 @@ Hosting a retrospective is a vital practice for continuous improvement within a 
 
 ### Talk Directly With Users
 
-Talking directly with users is an invaluable practice for gaining insights and understanding their needs and challenges. Field customer support calls. Host developer office hours. Run focus groups. Whatever method you use, engaging with users helps to gather real-world feedback, identify pain points, and uncover opportunities for further experimentation. By maintaining direct communication with users, you can foster a stronger connection between your team and your user base.
+Talking directly with users is an invaluable practice for gaining insights and understanding their needs and challenges. Field customer support calls. Host developer office hours. Run focus groups. Whatever method you use, engaging with users helps to gather real-world feedback, identify pain points, and uncover opportunities for improvement. By maintaining direct communication with users, you can ensure that your product or service aligns closely with expectations and foster a stronger connection between your team and your user base.
 
 ### Dogfood Your Systems
 
-Dogfooding your systems involves having your teams use the same products or systems that your users do, allowing them to experience the same pain points firsthand. This practice helps build empathy with users, identify issues early, and drive improvements based on direct "user" experience. Regularly using your own systems as customers would is a form of experimentation; one that your team can gain valuable insights from to ensure that their product meets the highest standards of usability and performance.
+Dogfooding your systems involves having your teams use the same products or systems that your users do, allowing them to experience the same pain points firsthand. This practice helps build empathy with users, identify issues early, and drive improvements based on direct "user" experience. By regularly using your own systems as customers would, your team can gain valuable insights and ensure that the product meets the highest standards of usability and performance.
 
 ## Adjacent Capabilities
 
