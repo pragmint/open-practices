@@ -83,7 +83,7 @@ Version dependencies ensure dependencies are managed with the same diligence as 
 
 ### [Work in Small Increments](/practices/work-in-small-increments.md)
 
-Working in small increments enhances the traceability and reversibility of changes, making it easier to identify and address issues. This practice also increases productivity and collaboration, reducing the frequency of large merge conflicts. The result is a more efficient and reliable development process, as well as more manageable, frequent, and understandable commits.
+Working in small increments helps teams trace and reverse changes, making it easier for them to identify and address issues. By breaking down tasks into manageable, frequent updates, teams can make clear, incremental improvements to the codebase. This practice increases productivity and collaboration, reducing the frequency of large merge conflicts. 
 
 ## Adjacent Capabilities
 

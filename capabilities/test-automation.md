@@ -50,7 +50,7 @@ By maintaining realistic coverage thresholds for different modules, automating t
 
 ### [Conduct Code Reviews](/practices/conduct-code-reviews.md)
 
-Conducting code reviews ensures code changes adhere to quality standards. Potential issues can be caught early and consistent coding practices can be enforced. This promotes a robust suite of automated tests, prevents regression errors, and maintains smooth CI processes. By fostering collaboration and identifying gaps in test coverage, code reviews enhance software reliability and stability, directly contributing to effective test automation.
+Code reviews allow team members to ensure that proposed code is functional and easy to maintain over time. This practice also promotes test automation, prevents regression errors, and maintains smooth CI processes. By providing feedback on readability, test coverage, and coding standards adherence, conducting code reviews improves the quality of the codebase and the stability of the software. 
 
 ### [Create and Manage Ephemeral Environments](/practices/create-and-manage-ephemeral-environments.md)
 
@@ -58,13 +58,9 @@ Creating and managing ephemeral environments provides flexible, production-like 
 These temporary environments reduce conflicts, simplify debugging, and improve reproducibility.
 Integrated into CI/CD pipelines, they offer continuous, immediate feedback on code changes, promoting early bug detection and robust software quality.
 
-### [Follow Functional Core Imperative Shell](/practices/follow-functional-core-imperative-shell.md)
+### [Follow Functional Core, Imperative Shell](/practices/follow-functional-core-imperative-shell.md)
 
-The Functional Core, Imperative Shell pattern makes it easier to write testable and maintainable code. 
-The functional core, being side-effect-free, allows for straightforward unit testing -- its pure functions yield predictable results and don't rely on external states.
-This ensures that the core business logic is thoroughly tested and reliable.
-The imperative shell handles side effects and interactions with external systems, which can be checked with integration tests.
-This clear separation simplifies the testing process, improves test coverage, and provides faster and more reliable feedback during development. These outcomes are crucial for robust and efficient test automation.
+The Functional Core, Imperative Shell pattern involves separating business logic into a functional core and side effects into an imperative shell. With a clear distinction between pure functions and imperative code, developers can more easily write testable and maintainable code. This enhances the stability and maintainability of the system. It also simplifies the testing process, improves test coverage, and provides faster and more reliable feedback during development. 
 
 ### [Implement Test-Driven Development](/practices/implement-tdd.md)
 
