@@ -51,7 +51,7 @@ Skip-level 1:1s create a direct channel for information flow, regardless of one'
 
 ### Implement Employee Recognition Programs
 
-Establish structured programs to recognize and reward employees for their contributions and achievements. This could include monthly awards, public acknowledgments during team meetings, or personalized appreciation notes. Recognizing employees' efforts boosts morale and makes them feel valued, leading to increased job satisfaction and motivation.
+Establish structured programs to recognize employees for their contributions and achievements. This could include monthly awards, public acknowledgments during team meetings, a digital "kudos" board, or personalized appreciation notes. Share specific examples of outstanding work or helpful behaviors. By promoting a culture of appreciation and peer-to-peer acknowledgment, team morale and motivation improve significantly.
 
 ### Allocate Time To Have Fun and Build Strong Relationships
 
