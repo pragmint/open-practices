@@ -12,7 +12,7 @@ Changes in job satisfaction often occur _after_ changes in underlying factors, s
 
 ### Providing Necessary Tools and Resources
 
-Employees need the right tools and resources to perform their jobs effectively. Without access to appropriate technology, training, and support, job satisfaction can decline. As a leader, granting such access is often your domain. Empower your teams with the autonomy to suggest and select tools that best fit their workflows and that enhance their ability to deliver high-quality work. 
+Employees need the right tools and resources to perform their jobs effectively. Without access to appropriate technology, training, and support, job satisfaction can decline. As a leader, granting such access is often your domain. Empower your teams with the autonomy to suggest and select tools that best fit their workflows and that enhance their ability to deliver high-quality work.
 
 ### Offering Meaningful Work
 
@@ -27,6 +27,7 @@ Technological and organizational transformations can be stressful, and this stre
 Improving processes and adopting new practices in the spirit of continuous improvement requires dedicated time and resources. Employees need regular opportunities to learn, adapt, and refine their skills. As DORA found, when organizations allocate sufficient resources to support continuous improvement, there is typically a boost in job satisfaction and performance.
 
 ## Assessment
+
 To assess how mature your team or organization is in this capability, complete this short exercise.
 
 Consider the descriptions below and score yourself on the Job Satisfaction capability. Generally, score a 1 if job satisfaction is lacking from your team, a 2 if employee engagement is limited and you feel there is a lot of room for improvement, a 3 if employees are generally satisfied and you feel there is some room for improvement, and a 4 if job satisfaction is exceptional among employees.
@@ -43,11 +44,12 @@ The number you selected represents your overall score for this capability. If yo
 Generally, an overall score equal to or less than 3 means you'll likely gain a lot of value from experimenting with some of the supporting practices listed here. An overall score higher than 3 generally means you and your team are largely proficient, or well on your way to becoming proficient, in the area of Job Satisfaction; you would likely benefit from evaluating your scores in other capabilities.
 
 ## Supporting Practices
+
 The following is a curated list of supporting practices to consider when looking to improve your team's Job Satisfaction capability. While not every practice will be beneficial in every situation, this list is meant to provide teams with fresh, pragmatic, and actionable ideas to support this capability.
 
 ### Host Skip-Level 1:1s
 
-Skip-level 1:1s create a direct channel for information flow, regardless of one's status in the organization. They provide a safe space for employees to share concerns, ideas, and feedback with their manager's manager or another high-level leader. They also demonstrate to employees that their voices are valued, giving them a sense of empowerment and autonomy. The goal is to foster open communication and build trust across the organization. By listening to employees' concerns, leaders can identify and address potential issues before they escalate, reducing turnover and improving job satisfaction. Leaders can also offer guidance, mentorship, and opportunities for growth, aligning employees' goals with organizational objectives. 
+Skip-level 1:1s create a direct channel for information flow, regardless of one's status in the organization. They provide a safe space for employees to share concerns, ideas, and feedback with their manager's manager or another high-level leader. They also demonstrate to employees that their voices are valued, giving them a sense of empowerment and autonomy. The goal is to foster open communication and build trust across the organization. By listening to employees' concerns, leaders can identify and address potential issues before they escalate, reducing turnover and improving job satisfaction. Leaders can also offer guidance, mentorship, and opportunities for growth, aligning employees' goals with organizational objectives.
 
 ### Implement Employee Recognition Programs
 
