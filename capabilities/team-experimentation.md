@@ -9,7 +9,7 @@ This section outlines common pitfalls, challenges, or limitations teams commonly
 
 ### Balance Trust With Experimentation
 
-When teams feel safe to experiment — knowing failures won’t derail progress — they’re more likely to find faster, better ways to work. Much of the time, employees won’t take risks and experiment with new approaches unless they see peers fail safely, or even be praised for it. Drawing safe-to-fail boundaries, like having a "failure budget," is key to encouraging experimentation while maintaining trust; without these boundaries, unchecked decisions can lead to misalignment and friction when leadership intervenes. By balancing safety with clear expectations, you can create an environment where experimentation and trust can thrive together.
+When teams feel safe to experiment — knowing failures won’t derail progress — they’re more likely to find faster, better ways to work. Employees typically won’t take risks and experiment with new approaches unless they see peers fail safely, or even be praised for it. Drawing safe-to-fail boundaries, like having a "failure budget," is key to encouraging experimentation while maintaining trust; without these boundaries, team members may hesitate to take risks or make decisions for fear of ruffling feathers. Teams need the assurance that the status quo can be disrupted with new ideas. By balancing safety with clear expectations, you can create an environment where experimentation and trust can thrive together.
 
 ### Teams Need the Right Context to Evaluate Experiments
 
