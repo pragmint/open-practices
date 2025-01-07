@@ -1,9 +1,8 @@
 # Host a Crucial Conversation
 
 By hosting a crucial conversation, you're helping team members with differing (sometimes strong) opinions navigate high-stakes and sensitive discussions. You're also helping to strengthen relationships and build trust within your team. 
-
 The key to hosting a crucial conversation is creating a space of psychological safety, where participants can speak openly and without fear of judgment or conflict. This opens the door to constructive feedback, civil conflict resolution, and collaborative decision-making where team members are working toward a common goal.
-
+For a team of software developers, a crucial conversation might center around deciding whether to refactor a legacy system or invest in building a new one. This discussion could involve balancing the technical debt, budget constraints, and the potential impact on delivery timelines. Another example might involve debating the adoption of test-driven development (TDD) as a standard practice, weighing its potential to improve code quality against concerns about increased development time.
 With the help of a host, these difficult discussions can be turned into opportunities for growth. 
 
 ## Nuances
@@ -14,11 +13,7 @@ This section outlines common pitfalls, challenges, or limitations teams commonly
 
 The fool's choice arises when, during a difficult conversation, people think they must choose between being honest and preserving a relationship. They fear that speaking openly will cause harm or conflict. But the fool's choice is a false dilemma. It's also counterproductive, typically leading to silence or aggression and damaging trust. A _third option_ exists: addressing issues respectfully while maintaining the relationship. As host, remember this third option and focus on articulating shared goals and fostering a safe environment. 
 
-### Counterproductive When Discussing Objective Issues
-
-When discussing purely objective issues, like [xyz], hosting a crucial conversations is typically not the best approach. This practice shines in situations where there is ambiguity, differing perspectives, or subjective views on a topic. It facilitates open dialogue about deeper, often emotionally charged, issues. For purely objective matters, encourage your team members to stick to clear, straightforward communication methods.
-
-### Keep An Open Mind
+### You have to keep an open mind
 
 It's important to enter a crucial conversation with a genuine curiosity about the other person's perspective. Without this, participants limit their ability to truly understand the underlying issues and unique viewpoints. An open mind allows them to consider different angles, question assumptions, and explore the conversation more deeply. By encouraging participants to remain curious, you create a more constructive environment for dialogue, fostering empathy and collaboration. You're also helping your team find common ground and work toward a resolution that benefits all parties to some degree.
 
@@ -61,10 +56,10 @@ In his talk "Mastering the Art of Crucial Conversations," Joseph Grenny (co-auth
 ## Adjacent Capabilities
 This practice supports enhanced performance in the following capabilities.
 
-### [Generative organizational culture](https://dora.dev/capabilities/generative-organizational-culture/)
+### [Generative organizational culture](/capabilities/generative-organizational-culture.md)
 
 Hosting a crucial conversation supports the Generative Organizational Culture capability by promoting open communication, trust, and collaboration. It encourages team members to share ideas, challenge assumptions, and provide constructive feedback in a safe environment. This openness helps align teams, promotes continuous learning, and drives innovation — key elements of a generative culture.
 
-### [Well-being](https://dora.dev/capabilities/well-being/)
+### [Well-being](/capabilities/well-being.md)
 
 Hosting a crucial conversation supports the Well-being capability by providing a safe space to address issues and resolve conflicts constructively. This practice helps reduce stress and burnout, promotes a healthier work environment, and ensures team members feel heard and valued. The result is enhanced overall mental and emotional well-being.
