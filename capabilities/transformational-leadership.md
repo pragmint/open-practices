@@ -1,6 +1,6 @@
 # [Transformational Leadership](https://dora.dev/capabilities/transformational-leadership/)
 
-Transformational leaders inspire and motivate team members to exceed expectations by influencing their attitudes, beliefs, and values. As a capability, Transformational Leadership encompasses five key dimensions: vision, inspirational communication, intellectual stimulation, support, and personal recognition. By modeling these dimensions, leaders help teams adopt effective practices, boosting software delivery and overall performance.
+Transformational leaders inspire and motivate team members to exceed expectations by influencing their attitudes, beliefs, and values. As a capability, Transformational Leadership encompasses five key dimensions: clear vision for the future, inspirational communication, intellectual stimulation, support, and personal recognition. By modeling these dimensions, leaders help teams adopt effective practices, boosting software delivery and overall performance.
 
 ## Nuances
 
@@ -12,7 +12,9 @@ Leadership isn't confined to executives or managers; anyone in the organization 
 
 ### Different Situations Call for Different Approaches
 
-Different situations call for distinct leadership approaches. The unique context, goals, and dynamics of a situation require unique strategies to maximize effectiveness. While transformational leadership is an excellent default for inspiring innovation, fostering long-term engagement, and driving cultural change, it may not always be the most effective choice. In structured, goal-oriented scenarios where consistency, compliance, and immediate results are paramount, _transactional leadership_ often proves more appropriate. Transactional leaders, while adept at communicating vision and providing clear direction, prioritize urgent goals and objectives over things like individual skill development and intellectual stimulation.
+Different situations call for distinct leadership approaches. The unique context, goals, and dynamics of a situation require unique strategies to maximize effectiveness. While transformational leadership is an excellent default for inspiring innovation, fostering long-term engagement, and driving cultural change, it may not always be the most effective choice. In structured, goal-oriented scenarios where consistency, compliance, and immediate results are paramount, _transactional leadership_ is often more appropriate. Transactional leaders, while adept at communicating vision and providing clear direction, focus on managing scenarios that deviate from the norm. They prioritize meeting urgent goals and objectives over individual skill development and intellectual stimulation.
+
+identifying and handling cases that deviate from the norm
 
 Each style has its strengths and understanding when to apply them ensures that leadership is both impactful and aligned with the needs of the moment.
 
@@ -34,7 +36,7 @@ Consider the descriptions below and score yourself on the Transformational Leade
 Don't worry if the description doesn't exactly match your situation. These descriptions are meant to be examples of situations that would qualify for the associated score.
 
 1. Crisis Management: The organization is in a state of crisis or chaos, requiring leaders to take a direct and hands-on approach. Leaders focus on short-term goals, with limited opportunities to communicate a clear long-term vision or inspire team members.
-2. Transactional Leadership: Leaders prioritize meeting urgent goals and objectives, providing clear direction and guidance to team members. They begin to communicate a vision and hold team members accountable for working toward common goals.
+2. Transactional Leadership: Leaders focus on managing scenarios that deviate from the norm. They prioritize meeting urgent goals and objectives, providing clear direction and guidance to team members.They begin to communicate a vision and hold team members accountable for working toward common goals. Under this leadership style, employees are rewarded for their performance and achievements. 
 3. Supportive Leadership: Leaders work closely with team members to develop their skills and abilities, sometimes exhibiting other transformational leadership behaviors like clear vision, inspirational communication, intellectual stimulation, and personal recognition.
 4. Transformational Leadership: Leaders create a culture of trust, empowerment, and autonomy, consistently demonstrating all five dimensions of transformational leadership: clear vision, inspirational communication, intellectual stimulation, support, and personal recognition.
 
