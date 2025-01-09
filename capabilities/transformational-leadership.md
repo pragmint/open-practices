@@ -14,8 +14,6 @@ Leadership isn't confined to executives or managers; anyone in the organization 
 
 Different situations call for distinct leadership approaches. The unique context, goals, and dynamics of a situation require unique strategies to maximize effectiveness. While transformational leadership is an excellent default for inspiring innovation, fostering long-term engagement, and driving cultural change, it may not always be the most effective choice. In structured, goal-oriented scenarios where consistency, compliance, and immediate results are paramount, _transactional leadership_ is often more appropriate. Transactional leaders, while adept at communicating vision and providing clear direction, focus on managing scenarios that deviate from the norm. They prioritize meeting urgent goals and objectives over individual skill development and intellectual stimulation.
 
-identifying and handling cases that deviate from the norm
-
 Each style has its strengths and understanding when to apply them ensures that leadership is both impactful and aligned with the needs of the moment.
 
 ### Teams Need To Be Bought In
@@ -29,6 +27,7 @@ Fostering a high-performing team requires addressing misalignment or obstacles w
 These actions should always be approached with thoughtfulness and empathy, ensuring that they are fair, transparent, and focused on the long-term success of both the organization and its people. Balancing empathy with accountability allows leaders to strengthen team cohesion and create an environment where everyone can thrive.
 
 ## Assessment
+
 To assess how mature you or your organization is in this capability, complete this short exercise.
 
 Consider the descriptions below and score yourself on the Transformational Leadership capability. Generally, score a 1 if leadership in your organization primarily focus on crisis management, a 2 if leadership is transactional but you feel there is a lot of room for improvement, a 3 if leadership is supportive and you feel there is some room for improvement, and a 4 if you feel leadership is transformational and exemplary in this capability.
@@ -36,7 +35,7 @@ Consider the descriptions below and score yourself on the Transformational Leade
 Don't worry if the description doesn't exactly match your situation. These descriptions are meant to be examples of situations that would qualify for the associated score.
 
 1. Crisis Management: The organization is in a state of crisis or chaos, requiring leaders to take a direct and hands-on approach. Leaders focus on short-term goals, with limited opportunities to communicate a clear long-term vision or inspire team members.
-2. Transactional Leadership: Leaders focus on managing scenarios that deviate from the norm. They prioritize meeting urgent goals and objectives, providing clear direction and guidance to team members.They begin to communicate a vision and hold team members accountable for working toward common goals. Under this leadership style, employees are rewarded for their performance and achievements. 
+2. Transactional Leadership: Leaders focus on managing scenarios that deviate from the norm. They prioritize meeting urgent goals and objectives, providing clear direction and guidance to team members.They begin to communicate a vision and hold team members accountable for working toward common goals.
 3. Supportive Leadership: Leaders work closely with team members to develop their skills and abilities, sometimes exhibiting other transformational leadership behaviors like clear vision, inspirational communication, intellectual stimulation, and personal recognition.
 4. Transformational Leadership: Leaders create a culture of trust, empowerment, and autonomy, consistently demonstrating all five dimensions of transformational leadership: clear vision, inspirational communication, intellectual stimulation, support, and personal recognition.
 
@@ -54,7 +53,7 @@ After any incident or failure, organize a postmortem meeting where the focus is 
 
 ### Host Skip-Level 1:1s
 
-Skip-level 1:1s create a direct channel for information flow, regardless of one's status in the organization. They provide a safe space for employees to share concerns, ideas, and feedback with their manager's manager or another high-level leader. They also demonstrate to employees that their voices are valued, giving them a sense of empowerment and autonomy. The goal is to foster open communication and build trust across the organization. By listening to employees' concerns, leaders can identify and address potential issues before they escalate, reducing turnover and improving job satisfaction. Leaders can also offer guidance, mentorship, and opportunities for growth, aligning employees' goals with organizational objectives. 
+Skip-level 1:1s create a direct channel for information flow, regardless of one's status in the organization. They provide a safe space for employees to share concerns, ideas, and feedback with their manager's manager or another high-level leader. They also demonstrate to employees that their voices are valued, giving them a sense of empowerment and autonomy. The goal is to foster open communication and build trust across the organization. By listening to employees' concerns, leaders can identify and address potential issues before they escalate, reducing turnover and improving job satisfaction. Leaders can also offer guidance, mentorship, and opportunities for growth, aligning employees' goals with organizational objectives.
 
 ### Train Your Team To Have Crucial Conversations
 
@@ -90,4 +89,4 @@ Transformational leaders encourage teams to experiment and try new ideas without
 
 ### [Well-Being](/capabilities/well-being.md) - Downstream
 
-Leaders who are supportive and demonstrate personal recognition directly contribute to the well-being of team members. By considering personal needs and acknowledging achievements, leaders help reduce stress and improve job satisfaction, which are crucial for sustained high performance. 
+Leaders who are supportive and demonstrate personal recognition directly contribute to the well-being of team members. By considering personal needs and acknowledging achievements, leaders help reduce stress and improve job satisfaction, which are crucial for sustained high performance.
