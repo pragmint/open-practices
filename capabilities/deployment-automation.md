@@ -56,7 +56,7 @@ The following capabilities will be valuable for you and your team to explore, as
 
 ### [Version Control](/capabilities/version-control.md) - Upstream
 
-Version Control is fundamental to Deployment Automation, as storing infrastructure and deployment pipeline changes in version control enables teams to track, review, and coordinate changes effectively. It ensures that infrastructure and deployment pipeline modifications result in consistent and reliable deployments.
+Version Control is fundamental to Deployment Automation, as storing deployment pipeline changes in version control enables teams to track, review, and coordinate changes effectively. It ensures that deployment pipeline modifications are applied consistently and reliably.
 
 ### [Flexible Infrastructure](/capabilities/flexible-infrastructure.md) - Upstream
 
@@ -64,7 +64,7 @@ Flexible Infrastructure, such as cloud services and containerization, supports D
 
 ### [Continuous Delivery](/capabilities/continuous-delivery.md) - Downstream
 
-Continuous Delivery involves automating the release process to enable frequent and reliable deployments. Effective deployment automation supports continuous delivery by ensuring that infrastructure and deployment pipeline changes are applied consistently and automatically, reducing bottlenecks in the delivery pipeline.
+Continuous Delivery involves automating the release process to enable frequent and reliable deployments. Effective deployment automation supports continuous delivery by ensuring that deployment pipeline changes are applied consistently and automatically, reducing bottlenecks in the delivery pipeline.
 
 ### [Continuous Integration](/capabilities/continuous-integration.md) - Downstream
 
