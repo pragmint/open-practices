@@ -24,10 +24,10 @@ Consider the descriptions below and score yourself on the Test Automation capabi
 
 Don't worry if the description doesn't exactly match your situation. These descriptions are meant to be examples of situations that would qualify for the associated score.
 
-* Limited: Test automation is minimal, slow, and/or unreliable. There is heavy reliance on manual testing.
-* Basic: Test automation is somewhat reliable, but is either slow or has gaps in coverage and/or value. Manual testing is required to achieve high levels of confidence.
-* Mature: Test automation is reliable, fast, and valuable, with good risk coverage. Occasional gaps are still discovered.
-* Optimized: Test automation provides a high degree of assurance that code changes are correct, stable, and won't introduce significant issues if deployed to production. It provides this assurance quickly and reliably.
+1. **Limited:** Test automation is minimal, slow, and/or unreliable. There is heavy reliance on manual testing.
+2. **Basic:** Test automation is somewhat reliable, but is either slow or has gaps in coverage and/or value. Manual testing is required to achieve high levels of confidence.
+3. **Mature:** Test automation is reliable, fast, and valuable, with good risk coverage. Occasional gaps are still discovered.
+4. **Optimized:** Test automation provides a high degree of assurance that code changes are correct, stable, and won't introduce significant issues if deployed to production. It provides this assurance quickly and reliably.
 
 The number you selected represents your overall score for this capability. If you feel like your team or organization fits somewhere in between two scores, it's okay to use a decimal. For example, if you think your team or organization has somewhere between basic and mature Test Automation, then you would score a 2.5.
 

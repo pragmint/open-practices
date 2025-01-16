@@ -44,10 +44,10 @@ Consider the descriptions below and score yourself on the Version Control capabi
 
 Don't worry if the description doesn't exactly match your situation. These descriptions are meant to be examples of situations that would qualify for the associated score.
 
-* Limited or No Adoption: Version control is not used, or its use is limited to select teams, with no organization-wide adoption or standardization.
-* Basic Code and Data Storage: Version control is used primarily for code and data backups, with limited or no version control for infrastructure and other assets.
-* Standard Version Control: Version control is used consistently across teams for code, configuration, data, infrastructure, and documentation. Disaster recovery is fully supported.
-* Advanced Version Control: Version control is optimized for small, comprehensible changes, with a focus on making it easy to traverse and understand the history of changes across code, configurations, documentation, data, and infrastructure.
+1. **Limited or No Adoption:** Version control is not used, or its use is limited to select teams, with no organization-wide adoption or standardization.
+2. **Basic Code and Data Storage:** Version control is used primarily for code and data backups, with limited or no version control for infrastructure and other assets.
+3. **Standard Version Control:** Version control is used consistently across teams for code, configuration, data, infrastructure, and documentation. Disaster recovery is fully supported.
+4. **Advanced Version Control:** Version control is optimized for small, comprehensible changes, with a focus on making it easy to traverse and understand the history of changes across code, configurations, documentation, data, and infrastructure.
 
 The number you selected represents your overall score for this capability. If you feel like your team or organization fits somewhere in between two scores, it's okay to use a decimal. For example, if you think your team or organization has somewhere between basic and standard Version Control, then you would score a 2.5.
 
