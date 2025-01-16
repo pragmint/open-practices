@@ -1,12 +1,14 @@
 # DORA Capabilities Maturity Assessment
 
-This assessment is designed to assess the maturity of your team(s) or organization as it relates to [DORA Capabilities](https://dora.dev/capabilities/). Take a moment to understand each capability then choose the statement that best reflects your current experience within your team(s) or organization. Most capabilities only have one questions, but for those with multiple sub-questions, take the average and that's your maturity score for the given capability.
+The following assessments are designed to assess the maturity of your team(s) or organization as they relates to specific [DORA Capabilities](https://dora.dev/capabilities/). 
 
-Don't worry if the description doesn't exactly match your situation. The descriptions are meant as examples of situations that would qualify for the associated score. Generally, score yourself a 1 if this capability is completely missing from your team, a 2 if there is a lot of room for improvement, a 3 if there is some room for improvement, and a 4 if your team is exemplary in this capability.
+For each capability, choose the statement that best reflects your current experience within your team(s) or organization. The number next to that statement is your maturity score for that capability. Generally, score yourself a 1 if the capability is completely missing from your team, a 2 if there is a lot of room for improvement, a 3 if there is some room for improvement, and a 4 if your team is exemplary in the capability. Don't worry if the description doesn't exactly match your situation. The descriptions are meant as examples of situations that would qualify for the associated score. 
 
-Don't feel any pressure to select a high rating. The goal of this assessment is to get an honest reading and pinpoint areas where further improvement are likely to yield benefits for your organization. You may also find that the act of taking this assessment will spur helpful conversations with your team(s).
+Most capabilities only have one set of statements to consider. For those few capabilities with multiple sets of statements, average your scores -- that's your overall maturity score for the capability.
 
-To improve in a capability, find the page in the [capabilities list](/capabilities/), then select any relevant supporting practices to experiment with. Each practice has a `How To Improve` section that should help you get started. After you've made some improvements, take this assessment again to track your progress and find your next area of focus.
+Resist pressuring yourself to select a high rating. The goal of this assessment is to get an _honest_ reading of the current state of things within your team(s) and to pinpoint areas where improvements are likely to yield benefits for your organization. Taking this assessment may also spur helpful conversations with your team(s).
+
+To improve in a capability, navigate to its page by either clicking on its title or visiting the [capabilities list](/capabilities/). Once on the capability page, review the Supporting Practices. These are fresh, pragmatic, and actionable ideas you can begin experimenting with today to support the capability. After you've implemented some practices, take this assessment again to track your progress and find your next area of focus.
 
 ## Climate for Learning
 
@@ -21,10 +23,10 @@ To improve in a capability, find the page in the [capabilities list](/capabiliti
 
 #### Previously Written Code
 
-1. **Brittle Codebase:** Changing any code is time-consuming, complex, and error prone.
-2. **Fairly Complex:** Most changes require significant refactoring, and it's difficult to predict the impact of changes on the overall system.
-3. **Partially Modular:** Most parts of the system are modular and easy to update, but some are complex and difficult to work with.
-4. **Well Organized:** When changes are made to the existing codebase, they don’t tend to require much rework.
+1. **Brittle Codebase:** Changing any code is time-consuming, complex, and prone to error.
+2. **Fairly Complex Codebase:** Most changes require significant refactoring, and it's difficult to predict the impact of changes on the overall system.
+3. **Partially Modular Codebase:** Most parts of the system are modular and easy to update, but some are complex and difficult to work with.
+4. **Well-organized Codebase:** When changes are made to the existing codebase, they don’t tend to require much rework.
 
 ### [Documentation Quality](/capabilities/documentation-quality.md)
 
@@ -50,30 +52,30 @@ To improve in a capability, find the page in the [capabilities list](/capabiliti
 ### [Job Satisfaction](/capabilities/job-satisfaction.md)
 
 1. **Unfulfilling Work:** Employees often feel undervalued, overworked, and disconnected from the organization's purpose.
-2. **Limited Engagement:** Employees are somewhat satisfied, but lack autonomy, opportunities for growth, and a sense of accomplishment.
-3. **Satisfied:** Employees are generally content, with some opportunities for growth and a sense of fulfillment, but may lack excitement or challenge.
-4. **Exceptional Engagement:** Employees are highly motivated, empowered, and passionate about their work, with a strong sense of purpose and fulfillment.
+2. **Limited Engagement:** Employees are somewhat satisfied but lack autonomy, opportunities for growth, and a sense of accomplishment.
+3. **Satisfactory Engagement:** Employees are generally content, with some opportunities for growth and a sense of fulfillment. They may lack excitement or challenge, though.
+4. **Exceptional Engagement:** Employees are highly motivated, empowered, and passionate about their work. They demonstrate a strong sense of purpose and fulfillment.
 
 ### [Learning Culture](/capabilities/learning-culture.md)
 
 1. **Static Knowledge:** Learning is limited to onboarding and initial training, with little emphasis on ongoing development or skill-building.
 2. **Ad Hoc Learning:** Teams occasionally attend conferences or workshops, but learning is not a prioritized or structured part of the organization's culture.
 3. **Encouraged Learning:** Learning is valued and encouraged, with some resources and opportunities provided for professional development, but it's not a core part of the organization's identity.
-4. **Learning As A Competitive Advantage:** Learning is deeply ingrained in the organization's culture, viewed as a key driver of improvement and innovation, and actively prioritized and invested in to stay ahead of the curve.
+4. **Learning as a Competitive Advantage:** Learning is deeply ingrained in the organization's culture, viewed as a key driver of improvement and innovation. It is actively prioritized and invested in, helping the team to stay ahead of the curve.
 
 ### [Team Experimentation](/capabilities/team-experimentation.md)
 
-1. **Rigid Plans:** Teams follow a strict plan with little room for deviation or experimentation, and must seek approval for even minor changes. They have limited visibility into the organization's overall goals and context, and must pull information from leadership on an ad-hoc basis.
-2. **Controlled Exploration:** Teams are allowed to explore new ideas, but within tightly defined parameters and with close oversight from leadership. Deadline pressure regularly takes priority over idea exploration. They must request access to relevant context and information, which is provided on a need-to-know basis.
-3. **Limited Freedom:** Teams have some flexibility to try new approaches, but must still seek permission from leadership or follow established protocols for most changes. They have access to some organizational context, including goals and objectives, but may not have direct access to customer feedback or the financial performance of the company.
-4. **Self-Directed Innovation:** Teams have autonomy to pursue new ideas and make decisions, informed by direct access to customer feedback and relevant context that is proactively shared by leadership, including the organization's vision, goals, strategic priorities, and financial state. This enables teams to align their work with the organization's overall objectives and make informed decisions.
+1. **Minimal or No Experimentation:** Teams follow a strict, rigid plan with little room for deviation or experimentation and must seek approval for even minor changes. They have limited visibility into the organization's overall goals and context, and they must pull information from leadership on an ad-hoc basis.
+2. **Highly Controlled Experimentation:** Teams are allowed to explore new ideas but within tightly defined parameters and with close oversight from leadership. Deadline pressure regularly takes priority over idea exploration. Teams must request access to relevant context and information, which is provided on an ad-hoc basis.
+3. **Emerging but Limited Experimentation:** Teams have some flexibility to try new approaches but must seek permission from leadership or follow established protocols for most changes. They have access to some organizational context, including goals and objectives, but may not have direct access to customer feedback or the financial performance of the company.
+4. **Self-Directed Innovation:** Teams have autonomy to pursue new ideas and make decisions. Their experiments are informed by direct access to customer feedback and relevant context that is proactively shared by leadership, including the organization's vision, goals, strategic priorities, and financial state.
 
 ### [Transformational Leadership](/capabilities/transformational-leadership.md)
 
-1. **Crisis Management:** The organization is in a state of crisis or chaos, requiring leaders to take a directive and hands-on approach. Leaders focus on short-term goals, with limited opportunities to communicate a clear vision or inspire team members.
-2. **Transactional Leadership:** Leaders prioritize meeting urgent goals and objectives, providing clear direction and guidance to team members. They begin to communicate a vision and hold team members accountable to working towards common goals.
-3. **Supportive Leadership:** Leaders work closely with team members to develop their skills and abilities, sometimes exhibiting transformational leadership behaviors:** clear vision, inspirational communication, intellectual stimulation, supportive leadership, and personal recognition.
-4. **Transformational Leadership:** Leaders create a culture of trust, empowerment, and autonomy, consistently demonstrating all five dimensions of transformational leadership:** clear vision, inspirational communication, intellectual stimulation, supportive leadership, and personal recognition.
+1. **Crisis Management:** The organization is in a state of crisis or chaos, requiring leaders to take a direct and hands-on approach. Leaders focus on short-term goals, with limited opportunities to communicate a clear long-term vision or inspire team members.
+2. **Transactional Leadership:** Leaders focus on managing scenarios that deviate from the norm. They prioritize meeting urgent goals and objectives, providing clear direction and guidance to team members.They begin to communicate a vision and hold team members accountable for working toward common goals.
+3. **Supportive Leadership:** Leaders work closely with team members to develop their skills and abilities, sometimes exhibiting other transformational leadership behaviors like clear vision, inspirational communication, intellectual stimulation, and personal recognition.
+4. **Transformational Leadership:** Leaders create a culture of trust, empowerment, and autonomy, consistently demonstrating all five dimensions of transformational leadership: clear vision, inspirational communication, intellectual stimulation, support, and personal recognition.
 
 ### [Well-Being](/capabilities/well-being.md)
 
@@ -159,7 +161,7 @@ To improve in a capability, find the page in the [capabilities list](/capabiliti
 ### [Version Control](/capabilities/version-control.md)
 
 1. **Limited or No Adoption:** Version control is not used, or its use is limited to select teams, with no organization-wide adoption or standardization.
-2. **Basic Code and Data Storage:** Version control is used primarily for code and data backups, with no or limited version control for infrastructure related and other assets.
+2. **Basic Code and Data Storage:** Version control is used primarily for code and data backups, with limited or no version control for infrastructure and other assets.
 3. **Standard Version Control:** Version control is used consistently across teams for code, configuration, data, infrastructure, and documentation. Disaster recovery is fully supported.
 4. **Advanced Version Control:** Version control is optimized for small, comprehensible changes, with a focus on making it easy to traverse and understand the history of changes across code, configurations, documentation, data, and infrastructure.
 
@@ -230,10 +232,10 @@ To improve in a capability, find the page in the [capabilities list](/capabiliti
 
 ### [Test Automation](/capabilities/test-automation.md)
 
-1. **Limited:** Test automation is minimal, slow, and/or unreliable, with heavy reliance on manual testing.
-2. **Basic:** Test automation is somewhat reliable, but is either slow or has gaps in coverage and/or value, requiring manual testing for high levels of confidence.
-3. **Mature:** Test automation is reliable, fast, and valuable, with good risk coverage, but occasional gaps are still discovered.
-4. **Optimized:** Test automation provides a high degree of assurance that the code changes are correct, stable, and won't introduce significant issues if deployed to production. It provides this level of assurance quickly and reliably.
+1. **Limited:** Test automation is minimal, slow, and/or unreliable. There is heavy reliance on manual testing.
+2. **Basic:** Test automation is somewhat reliable, but is either slow or has gaps in coverage and/or value. Manual testing is required to achieve high levels of confidence.
+3. **Mature:** Test automation is reliable, fast, and valuable, with good risk coverage. Occasional gaps are still discovered.
+4. **Optimized:** Test automation provides a high degree of assurance that code changes are correct, stable, and won't introduce significant issues if deployed to production. It provides this assurance quickly and reliably.
 
 ### [Test Data Management](/capabilities/test-data-management.md)
 
