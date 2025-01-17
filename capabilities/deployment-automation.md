@@ -50,9 +50,9 @@ Creating and managing ephemeral environments provides flexible, production-like 
 
 The following capabilities will be valuable for you and your team to explore, as they are either:
 
-- Related (they cover similar territory to Database Change Management)
-- Upstream (they are a pre-requisite for Database Change Management)
-- Downstream (Database Change Management is a pre-requisite for them)
+- Related (they cover similar territory to Deployment Automation)
+- Upstream (they are a pre-requisite for Deployment Automation)
+- Downstream (Deployment Automation is a pre-requisite for them)
 
 ### [Version Control](/capabilities/version-control.md) - Upstream
 
