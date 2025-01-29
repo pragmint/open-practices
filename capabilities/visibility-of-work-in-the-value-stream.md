@@ -1,5 +1,9 @@
 # [Visibility of Work in the Value Stream](https://dora.dev/devops-capabilities/process/work-visibility-in-value-stream/)
 
+Work visibility in the value stream is a crucial capability that enables organizations to track and understand how work flows from idea to production. When teams lack visibility, they face challenges such as unclear priorities, hidden bottlenecks, and inefficiencies that slow down delivery. By improving visibility, organizations can ensure that all work—whether related to features, bugs, or technical debt—is transparent and aligned with business objectives.
+
+An important aspect of this capability is the ability to identify and address bottlenecks that slow down progress. Work often gets delayed due to dependencies, unclear ownership, or excessive approvals, leading to frustration and reduced productivity. By implementing real-time tracking, dashboards, and collaboration tools, teams can monitor work as it moves through different stages, making it easier to identify problem areas and improve flow efficiency.
+
 ## Key Points
 
 ### Summary
