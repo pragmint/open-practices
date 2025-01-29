@@ -4,7 +4,21 @@ Work visibility in the value stream is a crucial capability that enables organiz
 
 An important aspect of this capability is the ability to identify and address bottlenecks that slow down progress. Work often gets delayed due to dependencies, unclear ownership, or excessive approvals, leading to frustration and reduced productivity. By implementing real-time tracking, dashboards, and collaboration tools, teams can monitor work as it moves through different stages, making it easier to identify problem areas and improve flow efficiency.
 
-## Key Points
+## Nuance
+
+### Silos Based on Specialties
+
+Work visibility can be reduced when teams are structured around narrow specializations, such as frontend, backend, or infrastructure. While specialization is valuable, excessive silos make it difficult to see the full value stream and create dependencies that slow down work. Cross-functional collaboration and shared visibility across disciplines are important to reducing these problems.
+
+### Wrong Focus: Fixing Non-Bottlenecks
+
+A common mistake is optimizing areas that aren’t true constraints, adding complexity without improving delivery speed. For example, a team struggling with slow feature releases might streamline code reviews, but if the real bottleneck is a slow manual testing process, this effort won’t meaningfully reduce lead times. Effective visibility should pinpoint where work is actually stuck—whether in testing, approvals, or deployments—so that improvements address real constraints rather than refining already efficient processes.
+
+### Lack of Authority to Act on Insights
+
+Even with clear visibility, teams may struggle to improve workflows if they lack the authority to make necessary changes. If decision-making is centralized or requires excessive approvals, visibility alone won’t solve inefficiencies. To be effective, teams need both insight into bottlenecks and the autonomy to address them quickly.
+
+## Key Points (This will be deleted when the capability page is completed)
 
 ### Summary
 
