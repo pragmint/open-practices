@@ -36,6 +36,8 @@ The code review process plays a crucial role in work visibility by providing ins
 A well-structured review process ensures that teams can track work progress, identify slow-moving changes, and resolve blockers efficiently.
 Poorly managed reviews, however, can become an invisible bottleneck, delaying work without clear visibility into why.
 
+<!-- NEXT: Add more existing practices -->
+
 ## Adjacent Capabilities
 
 The following capabilities will be valuable for you and your team to explore, as they are either:
@@ -61,6 +63,10 @@ Effective test data management is a prerequisite for work visibility, especially
 Automated testing improves work visibility by providing fast feedback on changes.
 Without automation, testing becomes a major bottleneck, making it difficult to track progress accurately.
 High visibility into automated test results allows teams to detect issues early and maintain a steady workflow, supporting overall value stream efficiency.
+
+### [Visual Management](/capabilities/visual-management.md) - Related
+
+Visual management enhances work visibility by making progress, bottlenecks, and priorities clear through tools like Kanban boards and dashboards. Without it, work remains hidden in scattered tools, making tracking and optimization difficult. Effective visual management ensures visibility efforts lead to actionable insights and better decision-making.
 
 ## Key Points (This will be deleted when the capability page is completed)
 
