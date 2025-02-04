@@ -1,13 +1,27 @@
 # [Working in Small Batches](https://dora.dev/devops-capabilities/process/working-in-small-batches/)
 
-Under Construction
+## Key Points
 
-<!-- TODO: insert summary of capability -->
+* Works together with
+  * Visibility of Work in the Value Stream
+  * Team Experimentation
+  * Visibility into customer feedback
+  * Streamlining change of approval
+  * Trunk Based
 
-<!-- ## Supporting Practices -->
+* Rapid progression
 
-<!-- TODO: insert a list of [linked practices](/practices) that support this capability. For each item, give a brief explanation of how the linked practice supports / relates to this capability. Also categorize each linked practice as one of the following: Enables, Requires, Improves -->
+* Reduces time it takes to get feedback on changes, making it easier to triage and remediate problems
+* It increases efficiency and motivation
+* It prevents our organization from succumbing to the sunk-cost fallacy
 
-<!-- ## Related Capabilities -->
+## How to work in small batches
 
-<!-- TODO: insert a list of [linked capabilities](/capabilities) that support this capability. For each item, give a brief explanation of how the linked capability supports / relates to this capability. Also categorize each linked capability as one of the following: Enables, Requires, Improves -->
+* INVEST principle
+* Merge at least once per day
+
+* Dark Launching (Feature Toggles)
+* Branch by abstraction
+
+<!-- Next: Read Branch by abstraction article -->
+<!-- Next:  Common pitfalls with working in small batches -->
