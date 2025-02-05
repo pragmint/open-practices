@@ -23,5 +23,18 @@
 * Dark Launching (Feature Toggles)
 * Branch by abstraction
 
-<!-- Next: Read Branch by abstraction article -->
-<!-- Next:  Common pitfalls with working in small batches -->
+## Common pitfalls
+
+* Not breaking up work into small enough pieces
+* Working in small batches but then regrouping the batches before sending them downstream for testing or release
+
+## Ways to reduce the size of work batches
+
+* Work is decomposed in a way that enables teams to make more frequent production releases
+* Developers are experienced in breaking down work into small changes that can be completed in the space of hours, not days
+
+## How to measure the size of work batches
+
+* Application features are decomposed in a way that supports frequent releases
+* Application features are sliced in a way that lets developers complete the work in one week or less
+* MVPs are defined and set as goals for teams
