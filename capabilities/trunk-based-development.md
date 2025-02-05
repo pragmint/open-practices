@@ -5,15 +5,17 @@
 * Developer push code directly into trunk
 * Release branches are usually merged back to trunk as soon as possible.
 
-* Is a requiresd practice for continuous integration
+* Is a required practice for continuous integration
 * Fast test suite.
 
-* Break work in smaller batches
+* Related to Break work in smaller batches
 
 * DORA shows that teams achieve higher levels of software delivery and operational performance if they follow:
   * < 3 active branches in repo
   * Merge branches to trunk at least once a day
   * Don't have code freezes and don't have integration phases
+
+* Nuance: For some business code freezes can make sense strategically
 
 * Common Pitfalls
   * An overly heavy code-review process
