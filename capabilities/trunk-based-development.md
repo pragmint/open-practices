@@ -1,5 +1,9 @@
 # [Trunk-Based Development](https://dora.dev/devops-capabilities/technical/trunk-based-development/)
 
+Trunk-based development is a version control strategy where developers work on short-lived branches, integrating small code changes into the main branch (trunk) frequently—often multiple times a day. This approach contrasts with the use of long-lived feature branches, which can lead to complex merges and integration challenges. By committing small, manageable batches of code regularly, teams minimize merge conflicts and maintain a more stable codebase.
+
+Implementing trunk-based development is required for effective continuous integration (CI). CI involves combining trunk-based development with a suite of automated tests that run after each commit to ensure the system remains functional. This practice eliminates lengthy integration and stabilization phases, as frequent integration of small code batches promotes clear communication among developers and prevents the accumulation of large, complex merges. Developers are responsible for keeping the build process "green", they must promptly address any issues that arise during integration.
+
 ## Key Points
 
 * Developer push code directly into trunk
