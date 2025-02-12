@@ -22,10 +22,25 @@ Since trunk-based development discourages long-lived branches, teams need a way 
 
 While trunk-based development encourages frequent commits, some teams—especially those working on large monolithic applications or regulated industries—may find it challenging to integrate multiple times daily. In such cases, enforcing this practice rigidly can lead to stress and reduced productivity. Instead, teams should focus on keeping integration as frequent as feasible while maintaining stability.
 
-<!-- Pair programming -->
+## Supporting Practices
 
-<!-- Next: Read Dave's document -->
+The following is a curated list of supporting practices to consider when looking to improve your team's Trunk Based Development capability. While not every practice will be beneficial in every situation, this list is meant to provide teams with fresh, pragmatic, and actionable ideas to support this capability.
 
+### [Run Pair Programming Sessions](/practices/run-pair-programming-sessions.md)
+
+Pair programming can help teams maintain a high level of code quality and knowledge sharing, which is essential for trunk-based development. By working together, developers can catch issues early, share knowledge, and ensure that code is written in a way that is easy to understand and maintain. Additionally, pair programming can substitute for the code review process, avoiding a bottleneck in the chain of approval and making development more agile.
+
+### [Clean Git History](/practices/clean-git-history.md)
+
+The Clean Git History practice supports trunk-based development by encouraging small, focused commits that keep the main branch stable and releasable. By maintaining a clean, navigable commit history, teams minimize conflicts and simplify integration, which is essential for frequent merges. Additionally, the practice of ensuring each commit is deployable aligns with the trunk-based philosophy of keeping the codebase in a consistently shippable state, reducing risks and enabling faster delivery cycles.
+
+### [Automated Coding Standards](/practices/automate-coding-standards.md)
+
+Automated Coding Standards ensure consistent code quality, enabling frequent merges without delays. By automating style checks and basic quality validations, teams streamline code reviews and maintain a clean, deployable main branch. This supports the fast-paced workflow essential to trunk-based development.
+
+* Automate Database Migrations
+* Build a Consistent Testing Strategy
+* Clean Tests
 
 ## Experiment doc
 
