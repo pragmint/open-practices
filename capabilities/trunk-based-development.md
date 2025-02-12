@@ -8,15 +8,19 @@ Implementing trunk-based development is required for effective continuous integr
 
 ### Automated Testing Must Be Fast and Reliable
 
-<!-- Include pre commit unit test run -->
-Trunk-based development relies on robust automated tests to keep the main branch stable. But tests must also be fast—slow suites create bottlenecks, delaying feedback and hurting productivity. Teams should prioritize efficient, accurate tests to ensure smooth continuous integration without unnecessary firefighting.
+Trunk-based development relies on robust automated tests to keep the main branch stable. But tests must also be fast—slow suites create bottlenecks, delaying feedback and hurting productivity. Preferably, unit tests should run with a pre-commit hook to catch issues early, and all tests must run in the CI/CD pipeline to ensure integration stability. Teams should prioritize efficient, accurate tests to maintain smooth continuous integration without unnecessary firefighting.
 
+### Strict Code Reviews Can Counteract the Benefits
 
-Strict Code Reviews Can Counteract the Benefits
 Overly rigid code review processes that require multiple approvals can slow down development, negating the speed advantages of trunk-based development. If every small change requires lengthy review cycles, developers might batch up changes, leading to larger, riskier merges. Striking a balance between speed and quality through lightweight, synchronous, or just-in-time reviews can help maintain flow.
 
-Feature Flags Are Essential for Incomplete Work
+### Feature Flags Are Essential for Incomplete Work
+
 Since trunk-based development discourages long-lived branches, teams need a way to deploy incomplete features safely. Feature flags allow developers to merge code early while keeping unfinished functionality hidden from users. However, mismanaging feature flags—such as forgetting to clean up old ones—can lead to technical debt and unnecessary complexity.
+
+### Not All Teams Can Commit Multiple Times a Day
+
+While trunk-based development encourages frequent commits, some teams—especially those working on large monolithic applications or regulated industries—may find it challenging to integrate multiple times daily. In such cases, enforcing this practice rigidly can lead to stress and reduced productivity. Instead, teams should focus on keeping integration as frequent as feasible while maintaining stability.
 
 <!-- Pair programming -->
 
