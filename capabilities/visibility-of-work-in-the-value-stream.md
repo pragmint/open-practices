@@ -1,42 +1,59 @@
-# [Visibility of Work in the Value Stream](https://dora.dev/devops-capabilities/process/work-visibility-in-value-stream/)
+# [Visibility of Work in the Value Stream](https://dora.dev/capabilities/work-visibility-in-value-stream/)
 
-Work visibility in the value stream is a crucial capability that enables organizations to track and understand how work flows from idea to production. When teams lack visibility, they face challenges such as unclear priorities, hidden bottlenecks, and inefficiencies that slow down delivery. By improving visibility, organizations can ensure that all work—whether related to features, bugs, or technical debt—is transparent and aligned with business objectives.
+To create visibility of work as it passes through a value stream, one first needs to map out the value stream. A Value Stream Map (VSM) is a visual tool that outlines all the steps in delivering software, from idea to deployment. It highlights how work flows across teams, helping identify delays, bottlenecks, and inefficiencies.
 
-An important aspect of this capability is the ability to identify and address bottlenecks that slow down progress. Work often gets delayed due to dependencies, unclear ownership, or excessive approvals, leading to frustration and reduced productivity. By implementing real-time tracking, dashboards, and collaboration tools, teams can monitor work as it moves through different stages, making it easier to identify problem areas and improve flow efficiency.
+For software teams, VSMs reveal wasted time, like slow code reviews or long deployment cycles, and provide clarity to improve workflows and deliver value faster.
+
+High-performing teams not only have clearly defined VSMs, but they track the flow-related metrics for each phase of work like the following:
+
+- **Lead Time**: Total time from accepting work to handing it off (including waiting).
+- **Process Time**: Time to complete a task without interruptions.
+- **% Complete**: Share of work received that is fully finished as expected.
+- **% Accurate**: Share of work received that is error-free and doesn’t need rework.
+
+With this information, you can pinpoint areas with poor-quality outputs requiring downstream fixes (low %C/A) and steps where lead times are significantly longer than process times. Addressing these issues involves collaborating with stakeholders to create a future-state VSM that outlines the ideal workflow. This sets the foundation for a clear, incremental plan to refine and improve the process over time - thus delivering value to users faster.
 
 ## Nuance
 
-### Silos Based on Specialties
+### Value Stream Mapping is More Than Just Having a Sprint Board
 
-Work visibility can be reduced when teams are structured around narrow specializations, such as frontend, backend, or infrastructure. While specialization is valuable, excessive silos make it difficult to see the full value stream and create dependencies that slow down work. Cross-functional collaboration and shared visibility across disciplines are important to reducing these problems.
+Sprint boards track work from the time it enters a sprint to deployment, focusing on tasks within that sprint. Value Stream Maps (VSMs), however, provide a broader view, starting from the idea phase and extending through deployment. They capture phases like analysis, grooming, design, and estimation, as well as the time between and within these phases. This comprehensive tracking highlights inefficiencies and delays that sprint boards alone cannot reveal, enabling teams to optimize the entire workflow.
 
-### Wrong Focus: Fixing Non-Bottlenecks
+### Leaders Often Incorrectly Assume Teams Know This Stuff
 
-A common mistake is optimizing areas that aren’t true constraints, adding complexity without improving delivery speed. For example, a team struggling with slow feature releases might streamline code reviews, but if the real bottleneck is a slow manual testing process, this effort won’t meaningfully reduce lead times. Effective visibility should pinpoint where work is actually stuck—whether in testing, approvals, or deployments—so that improvements address real constraints rather than refining already efficient processes.
+Many organizations assume that employees have a good understanding of the entire value stream, but this is rarely the case. During value stream mapping exercises, team members often discover unexpected gaps and complexities in how work flows across different departments. Without a comprehensive view, teams may struggle to align on priorities and improvement efforts, reducing the effectiveness of value stream improvements.
 
-### Lack of Authority to Act on Insights
+### Everyone Needs To Be Involved
 
-Even with clear visibility, teams may struggle to improve workflows if they lack the authority to make necessary changes. If decision-making is centralized or requires excessive approvals, visibility alone won’t solve inefficiencies. To be effective, teams need both insight into bottlenecks and the autonomy to address them quickly.
+This isn't just an academic exercise for managers. Participation from everyone involved in the work is essential.  Everyone's input is required to ensure the value stream map reflects reality, not assumptions, and highlights actionable areas for improvement. Broad participation also builds alignment and shared accountability for making meaningful changes.
 
-### Visibility Without Context Leads to Micromanagement
+### Don't Use To Micro-Manage Individual Stories
 
-When leadership gains visibility into workflows without proper context, there’s a risk of micromanagement. For example, a manager reviewing cycle times might see that certain developers take longer to complete tickets and demand they "work faster," without realizing they are handling the most complex tasks. Instead of using visibility to enforce rigid oversight, organizations should use it to empower teams, ensuring insights lead to informed decisions rather than unnecessary pressure.
+This is a tool for teams to visualize and improve the overall flow of work across the value stream. It should empower teams to identify and resolve systemic issues rather than being used by leaders to micro-manage individual stories or track granular progress. The focus should remain on optimizing the process as a whole, not controlling day-to-day details.
 
-### Focusing Only on Metrics, Not the Flow of Work
+### Focusing on Improving Non-Bottleneck Areas
 
-Visibility should provide insights into how work moves through the system, not just a set of numbers. For example, a team tracking story points completed per sprint might look productive on paper, but if work is frequently reworked due to unclear requirements, the true flow of value is poor. Metrics alone don’t tell the full story—teams should also analyze dependencies, handoffs, and qualitative feedback to ensure they are improving efficiency, not just increasing output.
+Efforts to improve efficiency in areas that are not bottlenecks may have minimal impact or, in some cases, even worsen overall flow. Improvements should target the most significant constraints in the value stream to have a meaningful effect on lead times and delivery performance.
+
+### Lack of Authority to Implement Changes
+
+Participants in visibility initiatives often lack the authority to implement necessary changes. Without decision-making power, these efforts can stall, making it harder to achieve the desired future state. Successful implementation requires both support and autonomy to act on findings.
 
 ## Supporting Practices
 
 The following is a curated list of supporting practices to consider when looking to improve your team's Code Maintainability capability. While not every practice will be beneficial in every situation, this list is meant to provide teams with fresh, pragmatic, and actionable ideas to support this capability.
 
-[Code Review Process](/practices/conduct-code-reviews.md)
+### Implement Value Stream Mapping Workshops
 
-The code review process plays a crucial role in work visibility by providing insights into the status and quality of changes.
-A well-structured review process ensures that teams can track work progress, identify slow-moving changes, and resolve blockers efficiently.
-Poorly managed reviews, however, can become an invisible bottleneck, delaying work without clear visibility into why.
+Conduct regular value stream mapping (VSM) workshops involving representatives from each stage of the value stream. Focus on both mapping out the current VSM and on ideal future-state VSMs. Break down the flow into clear process blocks and identify key metrics like lead time, process time, and percent complete and accurate (%C/A)
 
-<!-- NEXT: Add more existing practices -->
+### Set Work-in-Process (WIP) Limits
+
+Establish and enforce WIP limits for tasks in the value stream to prevent overload and maintain a steady flow. By limiting the number of tasks being actively worked on, teams can focus better, reduce context switching, and enhance flow efficiency, leading to faster delivery.
+
+### [Code Review Process](/practices/conduct-code-reviews.md)
+
+The code review process plays a crucial role in work visibility by providing insights into the status and quality of changes. A well-structured review process ensures that teams can track work progress, identify slow-moving changes, and resolve blockers efficiently. Poorly managed reviews, however, can become an invisible bottleneck, delaying work without clear visibility into why.
 
 ## Adjacent Capabilities
 
@@ -46,24 +63,14 @@ The following capabilities will be valuable for you and your team to explore, as
 - Upstream (they are a pre-requisite for Visibility of Work in the Value Stream)
 - Downstream (Visibility of Work in the Value Stream is a pre-requisite for them)
 
-### [Work in Progress (WIP) Limits](/capabilities/work-in-process-limits.md) - Related
+### [Work in Progress Limits](/capabilities/work-in-process-limits.md) - Related
 
 Limiting WIP helps maintain visibility by preventing work from piling up in hidden queues. When teams take on too many tasks simultaneously, work becomes harder to track, leading to inefficiencies and delays. Enforcing WIP limits ensures that work remains manageable and transparent, making it easier to identify and resolve bottlenecks in the value stream.
 
-### [Streamlining Change Approval](/capabilities/streamline-change-approval.md) - Related
+### [Streamlining Change Approval](/capabilities/streamline-change-approval.md) - Downstream
 
-Work visibility and streamlined change approvals go hand in hand, as unclear approval processes can create hidden bottlenecks that slow down delivery. Without visibility, teams may struggle to track where approvals are delayed or why changes are stuck in review. By making approval steps transparent and reducing unnecessary manual gates, organizations improve workflow efficiency, ensuring changes move smoothly through the value stream.
+Visibility of Work in the Value Stream identifies exactly where delays occur in the approval process—whether due to excessive manual gates, unclear ownership, or redundant steps. By focusing on these bottlenecks, teams can prioritize streamlining where it matters most. Attempting to streamline non-bottleneck areas wastes effort and risks disrupting the flow of work.
 
-### [Test Data Management](/capabilities/test-data-management.md) - Upstream
+### [Visual Management](/capabilities/visual-management.md) - Downstream
 
-Effective test data management is a prerequisite for work visibility, especially in testing and validation stages. If teams lack access to relevant, consistent test data, they may struggle to track work progress accurately, leading to hidden bottlenecks.
-
-### [Automated Testing](/capabilities/test-automation.md) - Upstream
-
-Automated testing improves work visibility by providing fast feedback on changes.
-Without automation, testing becomes a major bottleneck, making it difficult to track progress accurately.
-High visibility into automated test results allows teams to detect issues early and maintain a steady workflow, supporting overall value stream efficiency.
-
-### [Visual Management](/capabilities/visual-management.md) - Related
-
-Visual management enhances work visibility by making progress, bottlenecks, and priorities clear through tools like Kanban boards and dashboards. Without it, work remains hidden in scattered tools, making tracking and optimization difficult. Effective visual management ensures visibility efforts lead to actionable insights and better decision-making.
+Value Stream Mapping (VSM) tracks key metrics like lead time, process time, and percent complete and accurate (%C/A) to identify bottlenecks and inefficiencies. Visual Management complements VSM by ensuring teams consistently monitor these metrics, enabling timely adjustments to keep work flowing efficiently.
