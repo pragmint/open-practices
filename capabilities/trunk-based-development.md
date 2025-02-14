@@ -52,6 +52,14 @@ Follow the Functional Core, Imperative Shell pattern supports Trunk-Based Develo
 
 <!-- Include Implement feature flags when done -->
 
+## Adjacent Capabilities
+
+The following capabilities will be valuable for you and your team to explore, as they are either:
+
+- Related (they cover similar territory to Trunk Based Development)
+- Upstream (they are a pre-requisite for Trunk Based Development)
+- Downstream (Trunk Based Development is a pre-requisite for them)
+
 ## Experiment doc
 
 * Pain with snapshot testing
