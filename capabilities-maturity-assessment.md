@@ -256,4 +256,4 @@ To improve in a capability, find the page in the [capabilities list](/capabiliti
 1. **Limited Visibility:** Teams have little understanding of the flow of work from idea to customer, and lack visibility into the current state of products and features.
 2. **Partial Visibility:** Teams have some visibility into the flow of work, but it's limited to their own area of responsibility, and they lack a comprehensive understanding of the entire value stream.
 3. **Visual Management:** Teams use visual displays and dashboards to track the flow of work, and have a good understanding of the current state of products and features, but may not have a complete view of the entire value stream.
-4. **End-to-End Visibility:** Teams have a complete and up-to-date understanding of the flow of work from idea to customer, with real-time visibility into the current state of products and features, and use data to inform decision-making.
+4. **End-to-End Visibility:** Teams have a complete and up-to-date understanding of the flow of work from idea to customer, with real-time visibility into the current state of products and features, and use data to improve the flow of work.
