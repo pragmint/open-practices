@@ -42,8 +42,15 @@ Automated Coding Standards ensure consistent code quality, enabling frequent mer
 
 Automated Database Migrations support Trunk-Based Development by enabling incremental schema changes with rapid rollbacks. This reduces the impact of errors, making teams more comfortable with fast commits and fewer approvals, thus encouraging continuous delivery.
 
-* Build a Consistent Testing Strategy
-* Clean Tests
+### [Build a Consistent Testing Strategy](/practices/build-consistent-testing-strategy.md)
+
+A consistent testing strategy supports Trunk-Based Development by balancing unit and integration tests to provide fast, reliable feedback. This reduces the risk of breaking the main branch, enabling frequent, smaller merges with confidence, and maintaining high development velocity.
+
+### [Follow the Functional Core, Imperative Shell Pattern](/practices/follow-functional-core-imperative-shell.md)
+
+Follow the Functional Core, Imperative Shell pattern supports Trunk-Based Development by making the functional core highly testable and reliable. With predictable, side-effect-free logic, unit tests provide fast feedback, enabling frequent, small merges with confidence. Meanwhile, the simpler imperative shell reduces integration complexity, minimizing merge conflicts and ensuring smoother continuous integration.
+
+<!-- Include Implement feature flags when done -->
 
 ## Experiment doc
 
