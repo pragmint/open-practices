@@ -38,7 +38,10 @@ The Clean Git History practice supports trunk-based development by encouraging s
 
 Automated Coding Standards ensure consistent code quality, enabling frequent merges without delays. By automating style checks and basic quality validations, teams streamline code reviews and maintain a clean, deployable main branch. This supports the fast-paced workflow essential to trunk-based development.
 
-* Automate Database Migrations
+### [Automate Database Migrations](/practices/automate-database-migrations.md)
+
+Automated Database Migrations support Trunk-Based Development by enabling incremental schema changes with rapid rollbacks. This reduces the impact of errors, making teams more comfortable with fast commits and fewer approvals, thus encouraging continuous delivery.
+
 * Build a Consistent Testing Strategy
 * Clean Tests
 
