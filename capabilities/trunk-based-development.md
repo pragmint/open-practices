@@ -60,6 +60,14 @@ The following capabilities will be valuable for you and your team to explore, as
 - Upstream (they are a pre-requisite for Trunk Based Development)
 - Downstream (Trunk Based Development is a pre-requisite for them)
 
+### [Continuous Delivery](/capabilities/continuous-delivery.md) - Downstream
+
+Trunk-Based Development is a pre-requisite for Continuous Delivery because it enables small, frequent merges to the main branch, which reduces integration complexity and conflicts. Without the rapid feedback and stability provided by Trunk-Based Development, maintaining a reliable and efficient Continuous Delivery process would be challenging.
+
+### [Database Change Management](/capabilities/database-change-management.md) - Upstream
+
+Trunk-Based Development requires Database Change Management as it enables continuous integration and rapid rollbacks. By managing database changes effectively, teams can ensure that database updates align with frequent code changes, supporting quick deployments and the ability to revert changes when needed.
+
 ## Experiment doc
 
 * Pain with snapshot testing
