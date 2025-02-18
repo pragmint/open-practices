@@ -60,7 +60,7 @@ The following capabilities will be valuable for you and your team to explore, as
 - Upstream (they are a pre-requisite for Trunk Based Development)
 - Downstream (Trunk Based Development is a pre-requisite for them)
 
-### [Continuous Delivery](/capabilities/continuous-delivery.md) - Downstream
+### [Continuous Delivery](/capabilities/continuous-delivery.md) - Upstream
 
 Trunk-Based Development is a pre-requisite for Continuous Delivery because it enables small, frequent merges to the main branch, which reduces integration complexity and conflicts. Without the rapid feedback and stability provided by Trunk-Based Development, maintaining a reliable and efficient Continuous Delivery process would be challenging.
 
@@ -68,54 +68,10 @@ Trunk-Based Development is a pre-requisite for Continuous Delivery because it en
 
 Trunk-Based Development requires Database Change Management as it enables continuous integration and rapid rollbacks. By managing database changes effectively, teams can ensure that database updates align with frequent code changes, supporting quick deployments and the ability to revert changes when needed.
 
-## Experiment doc
+### [Working in Small Batches](/capabilities/working-in-small-batches.md) - Upstream
 
-* Pain with snapshot testing
-* Lack of solid integration tests
-* Complexity with cross team collaboration
-* Alternative workflow for solo programmers
+Working in Small Batches is a pre-requisite for Trunk-Based Development because it promotes frequent, incremental changes, reducing integration complexity and conflicts. By keeping changes small and manageable, teams can integrate continuously and receive rapid feedback. Without this practice, large, infrequent changes would lead to complicated merges and hinder the fast-paced collaboration required for Trunk-Based Development.
 
-## Key Points
+### [Test Automation](/capabilities/test-automation.md) - Upstream
 
-* Developer push code directly into trunk
-* Release branches are usually merged back to trunk as soon as possible.
-
-* Is a required practice for continuous integration
-* Fast test suite.
-
-* Related to Break work in smaller batches
-
-* DORA shows that teams achieve higher levels of software delivery and operational performance if they follow:
-  * < 3 active branches in repo
-  * Merge branches to trunk at least once a day
-  * Don't have code freezes and don't have integration phases
-
-* Nuance: For some business code freezes can make sense strategically
-
-* Common Pitfalls
-  * An overly heavy code-review process
-  * Performing code reviews asynchronously
-  * Not running automated tests before committing code
-
-* Ways to IMprove
-  * Develop in small batches
-  * Perform synchronous code review
-  * Implement comprehensive automated testing
-  * Have a fast build
-  * Create a core group of advocates and mentors
-
-* Ways to measure trunk-based development
-  * Active branches on the application's code repository
-  * Code freeze periods
-  * Frequency of merging branches and forks to trunk
-  * Check time taken to approve code changes
-
-* More research
-  * Short-lived Branches or Direct Commits
-  * Feature Flags
-  * Automated Testing & CI/CD
-  * Code Review & Pair Programming
-  * Fast & Reliable Releases
-
-
-  <!-- Next: Read Ways to improve trunk-based development in capability DORA page -->
+Test Automation is a pre-requisite for Continuous Integration because it provides rapid and reliable feedback on code changes, ensuring that integrations are smooth and defects are caught early. Without robust automated tests, CI pipelines would require more manual intervention, slowing down development cycles and increasing the risk of introducing bugs.
