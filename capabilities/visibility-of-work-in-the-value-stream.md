@@ -1,8 +1,8 @@
 # [Visibility of Work in the Value Stream](https://dora.dev/capabilities/work-visibility-in-value-stream/)
 
-To create visibility of work as it passes through all steps of software delivery, you must map out the entire process — or the value stream. A Value Stream Map (VSM) is a visual tool that outlines all the steps in delivering software, from idea to deployment. It highlights how work flows across teams, helping identify delays, bottlenecks, and inefficiencies. 
+Visibility of Work refers the the level of clarity teams have of the entire software delivery lifecycle—from business ideas to customer delivery—including knowing the current status of products and features. To create visibility of work you must map out the entire process (aka the value stream). A Value Stream Map (VSM) is a visual tool that outlines all the steps in delivering software, from idea to deployment. It highlights how work flows across teams, helping identify delays, bottlenecks, and inefficiencies.
 
-Visibility of Work in the Value Stream is an important capability for software teams because it reveals wasted time, like slow code reviews or long deployment cycles, and provides clarity and guidance for improving workflows and more quickly delivering value. 
+Visibility of Work in the Value Stream is an important capability for software teams because it reveals wasted time, like slow code reviews or long deployment cycles, and provides clarity and guidance for improving workflows and more quickly delivering value.
 
 High-performing software teams not only have clearly defined VSMs, they also track the flow-related metrics for each phase of work, such as:
 
@@ -14,6 +14,7 @@ High-performing software teams not only have clearly defined VSMs, they also tra
 With this information, you can pinpoint areas with poor-quality outputs (low % Complete and low % Accurate) requiring downstream fixes and steps where lead times are significantly longer than process times. Addressing these issues involves collaborating with stakeholders to create a future-state VSM that outlines the ideal workflow. This sets the foundation for a clear, incremental plan to refine and improve the process over time.
 
 ## Nuances
+
 This section outlines common pitfalls, challenges, or limitations teams commonly encounter when applying this capability. The goal here is not to discourage you. Rather, the goal is to arm you with the appropriate context so that you can make an informed decision about when and how to implement the capability with your teams.
 
 ### VSMs Are More Than Just Sprint Boards
@@ -46,7 +47,7 @@ The following is a curated list of supporting practices to consider when looking
 
 ### Implement VSM Workshops
 
-Conduct regular VSM workshops involving representatives from each stage of the value stream. Map out both the current VSM and the ideal future-state VSM. Break down the value stream into clear process blocks and identify key metrics like lead time, process time, and percent complete and accurate (%C/A).
+Conduct regular VSM workshops involving representatives from each stage of the value stream. Map out both the current VSM and the ideal future-state VSM. Break down the value stream into clear process blocks and identify key metrics like lead time, process time, and percent complete and accurate (%C/A). DORA provided a great breakdown [here](https://dora.dev/guides/value-stream-management/).
 
 ### Set Work-in-Process Limits
 
@@ -77,4 +78,5 @@ Visibility of Work in the Value Stream identifies exactly where delays occur in 
 VSM tracks key metrics like lead time, process time, and percent complete and accurate (%C/A) to identify bottlenecks and inefficiencies. Visual Management complements VSM and takes it a step further, by ensuring teams consistently monitor these metrics. This enables timely adjustments to keep work flowing efficiently.
 
 ### [Empowering Teams to Choose Tools](/capabilities/empowering-teams-to-choose-tools.md)- Downstream
+
 Visibility of Work in the Value Stream is a prerequisite for the Empoweringing Teams to Choose Tools capability. Teams must first identify bottlenecks in the value stream, then exercise the autonomy to select tools that solve for those bottlenecks and best support the workflow. Choosing tools for areas that aren't solving for bottlenecks is an ineffective and inefficient use of time.
