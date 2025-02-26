@@ -1,12 +1,10 @@
 # [Visibility of Work in the Value Stream](https://dora.dev/capabilities/work-visibility-in-value-stream/)
 
-Visibility of work refers to...
+To create visibility of work as it passes through all steps of software delivery, you must map out the entire process — or the value stream. A Value Stream Map (VSM) is a visual tool that outlines all the steps in delivering software, from idea to deployment. It highlights how work flows across teams, helping identify delays, bottlenecks, and inefficiencies. 
 
-A value stream is...
+Visibility of Work in the Value Stream is an important capability for software teams because it reveals wasted time, like slow code reviews or long deployment cycles, and provides clarity and guidance for improving workflows and more quickly delivering value. 
 
-Visibility of work in the value stream is an important capability for software teams because it reveals wasted time, like slow code reviews or long deployment cycles, and provides clarity and guidance for improving workflows and more quickly delivering value. 
-
-To create visibility of work as it passes through a value stream, you first need to map out the value stream. A Value Stream Map (VSM) is a visual tool that outlines all the steps in delivering software, from idea to deployment. It highlights how work flows across teams, helping identify delays, bottlenecks, and inefficiencies. High-performing software teams not only have clearly defined VSMs, they also track the flow-related metrics for each phase of work, such as:
+High-performing software teams not only have clearly defined VSMs, they also track the flow-related metrics for each phase of work, such as:
 
 - **Lead Time**: Total time from accepting work to handing it off (including waiting).
 - **Process Time**: Total time to complete a task without interruptions.
@@ -52,7 +50,7 @@ Conduct regular VSM workshops involving representatives from each stage of the v
 
 ### Set Work-in-Process Limits
 
-Establish and enforce work-in-progress (WIP) limits for tasks in the value stream to prevent bottlenecks and to maintain a steady flow. By limiting the number of tasks that are actively worked on, teams can achieve greater focus, reduce context switching, and enjoy enhanced flow efficiency, leading to faster and smarter software delivery.
+While setting work-in-progress (WIP) limits is a DORA capability, it is also a technique that is actionable. So, we're including it here as a supporting practice. Establishing and enforcing WIP limits for tasks in the value stream prevents bottlenecks and helps to maintain a steady flow. By limiting the number of tasks that are actively worked on, teams can achieve greater focus, reduce context switching, and enjoy enhanced flow efficiency, leading to faster and smarter software delivery.
 
 ### [Code Review Process](/practices/conduct-code-reviews.md)
 
@@ -77,3 +75,6 @@ Visibility of Work in the Value Stream identifies exactly where delays occur in 
 ### [Visual Management](/capabilities/visual-management.md) - Downstream
 
 VSM tracks key metrics like lead time, process time, and percent complete and accurate (%C/A) to identify bottlenecks and inefficiencies. Visual Management complements VSM and takes it a step further, by ensuring teams consistently monitor these metrics. This enables timely adjustments to keep work flowing efficiently.
+
+### [Empowering Teams to Choose Tools](/capabilities/empowering-teams-to-choose-tools.md)- Downstream
+Visibility of Work in the Value Stream is a prerequisite for the Empoweringing Teams to Choose Tools capability. Teams must first identify bottlenecks in the value stream, then exercise the autonomy to select tools that solve for those bottlenecks and best support the workflow. Choosing tools for areas that aren't solving for bottlenecks is an ineffective and inefficient use of time.
