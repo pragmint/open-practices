@@ -101,6 +101,23 @@
     * Enable team members to quickly create tailored visualizations instead.
   * Separate product/executive metrics (e.g., user acquisition, revenue) from operational/service health dashboards for clarity and focus.
 
+### How to measure monitoring and observability
+  * Changes made to monitoring configuration (track how many changes).
+  * Count out of hours alerts.
+  * Team alerting balance (how many alerts are sent to each team).
+  * False positives.
+  * False negatives.
+  * Alert creation per week.
+  * Alert acknowledgment time.
+  * Alert silencing and silence duration. (Silenced or suppressed)
+  * Unactionable alerts.
+  * Usability: alerts, runbooks, dashboards. (How many graphs? Does the team understand them? Navigation from alert to playbook)
+  * MTTD, MTTR, impect. (Mean Time to Detect, Mean Time to Resolve, Impact) Number of customers affected.
+
+  
+
+<!-- Next: https://dora.dev/capabilities/monitoring-and-observability/#how-to-measure-monitoring-and-observability -->
+
 ### Identified Practices
 
 * Retrospectives
