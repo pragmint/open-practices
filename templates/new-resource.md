@@ -1,9 +1,11 @@
-# <start_replace>Title of Resource<end_replace>
+# <start_replace>`Title of Resource`<end_replace>
 
-type: <start_replace>resource type<end_replace>
-<start_replace>Link To Resource (if applicable)<end_replace>
+type: `<start_replace>resource type<end_replace>`
+
+<start_replace>`Link To Resource (if applicable)`<end_replace>
 
 <start_replace>
+```
 The body to each of these resource pages is likely to be very different. So instead of providing you with a bunch of structure to fill in the blanks, we'll share some things you might want to consider when processing a resource, then let you take it from there.
 
 ## What Sort of Resources Are Appropriate For This Section?
@@ -44,4 +46,5 @@ This is where the format will likely vary greatly from resource to resource. Gen
 4. Etc.
 
 After you've thought through these questions and reviewed other [resources](/resources/) feel free to replace this section with whatever you deem appropriate.
+```
 <end_replace>
