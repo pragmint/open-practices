@@ -16,13 +16,14 @@ This section outlines common pitfalls, challenges, or limitations teams commonly
 
 ### Repetitive Work Creates Burnout
 
-There's a strong link between repetitive or toilsome work and burnout. Monotonous tasks, while not novel or interesting, are still important and need to get done. But it's worth trying to automate those tasks, or at least spread this workload across the team, where effective and practical. That way, mind-numbing work doesn't pile up on select team members. 
+There's a strong link between repetitive or toilsome work and burnout. Monotonous tasks, while not novel or interesting, are still important and need to get done. But it's worth trying to automate those tasks, or at least spread this workload across the team, where effective and practical. That way, mind-numbing work doesn't pile up on select team members.
 
 ### Rework Is Inevitable
 
-No matter how hard a team tries, there is always going to be rework. The goal shouldn't be to eliminate rework through ever higher quality standards for software -- that can lead to a warped cost/value assessment of potential investments in quality. Take a more pragmatic approach. Aim to _reduce_ unreasonable amounts of rework through incremental investments in quality -- this is more likely to yield a strong return in terms of team productivity.
+No matter how hard a team tries, there is always going to be rework. The goal shouldn't be to completely eliminate rework through never-ending quality investments. Take a more pragmatic approach. Aim to _reduce_ unreasonable amounts of rework through incremental investments in quality -- this is more likely to yield a strong return in terms of team productivity.
 
 ## Assessment
+
 To assess how mature your team or organization is in this capability, complete this short exercise.
 
 Consider the descriptions below and score your team on the Well-Being capability. Generally, score a 1 if you feel employees are overwhelmed and undervalued, a 2 if you feel employees are managing the load and there is a lot of room for improvement, a 3 if you feel employees are finding work-life balance and there is some room for improvement, and a 4 if you feel your employees are thriving in terms of their well-being.
@@ -44,7 +45,7 @@ The following is a curated list of supporting practices to consider when looking
 
 ### Track Employee Engagement
 
-Designing and routinely sending out an employee engagement survey that fits your organization's culture can uncover issues affecting employee well-being and organizational performance. These surveys can be great tools for listening, understanding, and fostering a culture of continuous improvement. If this data is widely shared and acted upon, it can show employees that their input can drive meaningful change. See some [helpful guidelines here.](https://hbr.org/2002/02/getting-the-truth-into-workplace-surveys) 
+Designing and routinely sending out an employee engagement survey that fits your organization's culture can uncover issues affecting employee well-being and organizational performance. These surveys can be great tools for listening, understanding, and fostering a culture of continuous improvement. If this data is widely shared and acted upon, it can show employees that their input can drive meaningful change. See some [helpful guidelines here.](https://hbr.org/2002/02/getting-the-truth-into-workplace-surveys)
 
 ### Host Skip-Level 1:1s
 
