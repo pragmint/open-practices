@@ -25,13 +25,14 @@ Continuous delivery is often conflated with continuous deployment. While similar
 Continuous delivery is not limited to web services; it applies to all kinds of software, including mobile apps, firmware, and mainframe systems. This universality means that practices must be adapted to different software contexts, taking into account the specific constraints and requirements of various environments.
 
 ## Assessment
+
 To assess how mature your team or organization is in this capability, complete this four-part exercise.
 
-Consider the descriptions in the four areas of focus below: Value Delivery Frequency, Lead Time for Changes, Change Failure Rate, and Time to Restore Services. Score yourself on each area. The number you select represents your overall score for the area of focus. For example, score a 1 if user-facing updates are delivered infrequently, a 2 if they're delivered occasionally, a 3 if they're delivered regularly, and a 4 if these updates are continuous. 
+Consider the descriptions in the four areas of focus below: Value Delivery Frequency, Lead Time for Changes, Change Failure Rate, and Time to Restore Services. Score yourself on each area. The number you select represents your overall score for the area of focus. For example, score a 1 if user-facing updates are delivered infrequently, a 2 if they're delivered occasionally, a 3 if they're delivered regularly, and a 4 if these updates are continuous.
 
 If you feel like your team or organization fits somewhere in between two scores, it's okay to use a decimal. For example, if you think your team's lead time for changes is somewhere between weeks and days, then you would score a 2.5 for that area.
 
-Don't worry if the description doesn't exactly match your situation. These descriptions are meant to be examples of situations that would qualify for the associated score. 
+Don't worry if the description doesn't exactly match your situation. These descriptions are meant to be examples of situations that would qualify for the associated score.
 
 ### Value Delivery Frequency
 
@@ -66,6 +67,7 @@ Now, average your scores for all four areas of focus. You'll then have your over
 Generally, an overall score equal to or less than 3 means you'll likely gain a lot of value from experimenting with some of the supporting practices listed here. An overall score higher than 3 generally means you and your team are largely proficient, or well on your way to becoming proficient, in the area of Continuous Delivery; you would likely benefit from evaluating your scores in other capabilities.
 
 ## Supporting Practices
+
 The following is a curated list of supporting practices to consider when looking to improve your team's Continuous Delivery capability. While not every practice will be beneficial in every situation, this list is meant to provide teams with fresh, pragmatic, and actionable ideas to support this capability.
 
 ### [Clean Git History](/practices/clean-git-history.md)
@@ -85,6 +87,10 @@ It emphasizes balanced test coverage, integrates tests into CI pipelines for fas
 
 Automating test coverage checks ensures continuous and immediate feedback on code changes within the CI pipeline. This practice identifies untested code early, helping prevent bugs and regressions, and aligns with a consistent testing strategy. By maintaining realistic coverage thresholds for different modules, automating test coverage checks optimizes testing efforts, enhances collaboration between testers and developers, and ultimately improves software quality and stability throughout the delivery lifecycle.
 
+### [Work in Small Increments](/practices/work-in-small-increments.md)
+
+Working in small increments helps teams trace and reverse changes, making it easier for them to identify and address issues. By breaking down tasks into manageable, frequent updates, teams can make clear, incremental improvements to the codebase. This practice increases productivity and collaboration, reducing the frequency of large merge conflicts.
+
 ## Adjacent Capabilities
 
-As mentioned earlier, [all of the DORA capabilities](/capabilities/) need to be implemented to a somewhat mature extent in order for continuous delivery to be a cost-effective and de-risking activity. Because of this, all DORA capabilities can be considered upstream pre-requisites for the Continuous Delivery capability. 
+As mentioned earlier, [most of the DORA capabilities](/capabilities/) need to be implemented to a somewhat mature extent in order for continuous delivery to be a cost-effective and de-risking activity. Because of this, the majority of DORA capabilities can be considered upstream pre-requisites for the Continuous Delivery capability.
