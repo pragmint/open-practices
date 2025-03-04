@@ -1,6 +1,6 @@
 # [Database Change Management](https://dora.dev/capabilities/database-change-management/)
 
-The Database Change Management capability involves handling database updates with the same rigor as application code, using version control, automation, and collaboration. A team that is mature in this capability enjoys low-risk and zero-downtime deployments. 
+The Database Change Management capability involves handling database updates with the same rigor as application code, using version control, automation, and collaboration. A team that is mature in this capability enjoys low-risk and zero-downtime deployments.
 
 DBAs or specialized teams often manage databases. So, for application development teams looking to practice database change management, an effective strategy involves creating a self-service method for the team to apply changes and pulling in specialists when delicate or complicated changes need to be applied.
 
@@ -8,9 +8,9 @@ DBAs or specialized teams often manage databases. So, for application developmen
 
 This section outlines common pitfalls, challenges, or limitations teams commonly encounter when applying this capability. The goal here is not to discourage you. Rather, the goal is to arm you with the appropriate context so that you can make an informed decision about when and how to implement the capability with your teams.
 
-### Risks With Shared Databases 
+### Risks With Shared Databases
 
-When multiple systems rely on the same database, even small updates risk breaking functionality across applications. A single update may unintentionally break functionality across applications, causing disruptions and delays. Systems should try to minimize the number of applications that rely on a shared database. When that situation is unavoidable, teams should invest in techniques that reduce the cost of errors being introduced. This includes techniques like automated testing, version control, anomaly detection, and auto-rollbacks.
+When multiple systems rely on the same database, even small updates risk breaking functionality across applications. A single update may unintentionally break functionality across applications, causing disruptions and delays. Systems should be set up in such a way to minimize the number of applications that rely on a shared database. When that situation is unavoidable, teams should invest in techniques that reduce the cost of errors being introduced. This includes techniques like automated testing, version control, anomaly detection, and auto-rollbacks.
 
 ### Shaping DBA Involvement for Maximum Impact
 
@@ -21,6 +21,7 @@ DBAs are vital to database change management but often support multiple teams, l
 Database changes affect both data integrity and application behavior, requiring system-wide validation. To ensure reliability, create production-like testing environments, automate regression tests, and validate functional and performance outcomes. This holistic approach minimizes risks and uncovers hidden issues before deployment.
 
 ## Assessment
+
 To assess how mature your team or organization is in this capability, complete this short exercise.
 
 Consider the descriptions below and score yourself on the Database Change Management capability. Generally, score a 1 if database changes are manual and error-prone, a 2 if they are partially automated and you feel there is a lot of room for improvement, a 3 if they are mostly automated and you feel there is some room for improvement, and a 4 if they are fully automated and your team is exemplary in the area of Database Change Management.
@@ -40,13 +41,17 @@ Generally, an overall score equal to or less than 3 means you'll likely gain a l
 
 The following is a curated list of supporting practices to consider when looking to improve your team's Database Change Management capability. While not every practice will be beneficial in every situation, this list is meant to provide teams with fresh, pragmatic, and actionable ideas to support this capability.
 
+### [Automate Database Migrations](/practices/automate-database-migrations.md)
+
+Implementing automatic database migrations ensures database schema changes are consistently applied. Typically this practice works in concert with code changes, ensuring the whole system is integrated, tested, and deployed in a unified manner.
+
 ### Store Database Changes in Version Control
 
 Keep all database schema changes as scripts in version control alongside application code. This practice ensures that changes are tracked, auditable, and integrated into automated deployment pipelines. It also allows teams to create production-like databases in their local environments.
 
 ### [Create and Manage Ephemeral Environments](/practices/create-and-manage-ephemeral-environments.md)
 
-Creating and managing ephemeral environments provides flexible, production-like testing environments that can be spun up on-demand. These temporary environments reduce conflicts, promote early bug detection, and improve reproducibility. Integrated into CI/CD pipelines, they offer continuous and immediate feedback on code changes, whether those changes are made to the application, database, infrastructure, or some combination of the three. 
+Creating and managing ephemeral environments provides flexible, production-like testing environments that can be spun up on-demand. These temporary environments reduce conflicts, promote early bug detection, and improve reproducibility. Integrated into CI/CD pipelines, they offer continuous and immediate feedback on code changes, whether those changes are made to the application, database, infrastructure, or some combination of the three.
 
 ### Follow the Parallel Change Pattern
 
