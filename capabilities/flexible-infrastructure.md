@@ -10,7 +10,7 @@ This section outlines common pitfalls, challenges, or limitations teams commonly
 
 Simply migrating to a cloud provider doesn't automatically grant flexible infrastructure. Organizations must also adopt cloud-native processes and practices, such as automation and self-service provisioning, to fully realize the benefits of a dynamic system. Without this broader shift, the cloud becomes just another data center with the same limitations as more traditional on-prem data centers.
 
-### Requires Cultural and Organizational Change 
+### Requires Cultural and Organizational Change
 
 Implementing flexible infrastructure requires collaboration across multiple functions, including development, operations, security, procurement, and finance. Resistance to change or misalignment among these groups can hinder the adoption of cloud-native practices, limiting the organization's ability to achieve true infrastructure flexibility.
 
@@ -28,9 +28,10 @@ Achieving flexible infrastructure often requires significant investment in autom
 
 ### Security and Compliance Challenges
 
-Automating parts of your infrastructure can introduce security and compliance risks if not managed properly. Organizations must redesign policies and implement controls within their automation processes to ensure that regulatory requirements and security standards are consistently met.
+Automating infrastructure tasks can make managing security easier, but it also means teams might spend less time critically evaluating configurations. For instance, using infrastructure as code to configure security groups and network access rules can lead to default settings being overlooked, resulting in overly permissive configurations that can increase the risk of unauthorized access.
 
 ## Assessment
+
 To assess how mature your team or organization is in this capability, complete this short exercise.
 
 Consider the descriptions below and score yourself on the Flexible Infrastructure capability. Generally, score a 1 if this capability is minimal or completely lacking from your team or organization, a 2 if you feel there is a lot of room for improvement, a 3 if you feel there is some room for improvement, and a 4 if your team or organization is exemplary in the area of Flexible Infrastructure.
@@ -47,11 +48,12 @@ The number you selected represents your overall score for this capability. If yo
 Generally, an overall score equal to or less than 3 means you'll likely gain a lot of value from experimenting with some of the supporting practices listed here. An overall score higher than 3 generally means you and your team are largely proficient, or well on your way to becoming proficient, in the area of Flexible Infrastructure; you would likely benefit from evaluating your scores in other capabilities.
 
 ## Supporting Practices
+
 The following is a curated list of supporting practices to consider when looking to improve your team's Flexible Infrastructure capability. While not every practice will be beneficial in every situation, this list is meant to provide teams with fresh, pragmatic, and actionable ideas to support this capability.
 
 ### [Automate Infrastructure Management](/practices/automate-infrastructure-management.md)
 
-Define and manage your infrastructure using code and automated tools like [Terraform](https://github.com/hashicorp/terraform) or [Pulumi](https://github.com/pulumi/). This approach ensures that infrastructure provisioning and configuration are reproducible and transparent as application code changes. Automating infrastructure management reduces manual errors and enables rapid, repeatable deployments. 
+Define and manage your infrastructure using code and automated tools like [Terraform](https://github.com/hashicorp/terraform) or [Pulumi](https://github.com/pulumi/). This approach ensures that infrastructure provisioning and configuration are reproducible and transparent as application code changes. Automating infrastructure management reduces manual errors and enables rapid, repeatable deployments.
 
 ### Enable On-Demand Self-Service Access
 
