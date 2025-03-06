@@ -28,9 +28,7 @@ Continuous delivery is not limited to web services; it applies to all kinds of s
 
 To assess how mature your team or organization is in this capability, complete this four-part exercise.
 
-Consider the descriptions in the four areas of focus below: Value Delivery Frequency, Lead Time for Changes, Change Failure Rate, and Time to Restore Services. Score yourself on each area. The number you select represents your overall score for the area of focus. For example, score a 1 if user-facing updates are delivered infrequently, a 2 if they're delivered occasionally, a 3 if they're delivered regularly, and a 4 if these updates are continuous.
-
-If you feel like your team or organization fits somewhere in between two scores, it's okay to use a decimal. For example, if you think your team's lead time for changes is somewhere between weeks and days, then you would score a 2.5 for that area.
+Consider the descriptions in the four areas of focus below: Value Delivery Frequency, Lead Time for Changes, Change Failure Rate, and Time to Restore Services. Score yourself on each area. If you feel like your team or organization fits somewhere in between two scores, it's okay to use a decimal. For example, if you think your team's lead time for changes is somewhere between weeks and days, then you would score a 2.5 for that area.
 
 Don't worry if the description doesn't exactly match your situation. These descriptions are meant to be examples of situations that would qualify for the associated score.
 
