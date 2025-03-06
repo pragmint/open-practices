@@ -72,16 +72,16 @@ Decoupling from third parties means minimizing dependencies on third-party softw
 
 ### [Conduct Code Reviews](/practices/conduct-code-reviews.md)
 
-Code reviews allow team members to ensure that proposed code is functional and easy to maintain over time. This practice also promotes test automation, prevents regression errors, and maintains smooth CI processes. By providing feedback on readability, test coverage, and coding standards adherence, conducting code reviews improves the quality of the codebase and the stability of the software. 
+Code reviews allow team members to ensure that proposed code is functional and easy to maintain over time. This practice also promotes test automation, prevents regression errors, and maintains smooth CI processes. By providing feedback on readability, test coverage, and coding standards adherence, conducting code reviews improves the quality of the codebase and the stability of the software.
 
 ### [Follow Functional Core, Imperative Shell](/practices/follow-functional-core-imperative-shell.md)
 
-The Functional Core, Imperative Shell pattern involves separating business logic into a functional core and side effects into an imperative shell. With a clear distinction between pure functions and imperative code, developers can more easily write testable and maintainable code. This enhances the stability and maintainability of the system. It also simplifies the testing process, improves test coverage, and provides faster and more reliable feedback during development. 
+The Functional Core, Imperative Shell pattern involves separating business logic into a functional core and side effects into an imperative shell. With a clear distinction between pure functions and imperative code, developers can more easily write testable and maintainable code. This enhances the stability and maintainability of the system. It also simplifies the testing process, improves test coverage, and provides faster and more reliable feedback during development.
 
 ### [Run Pair Programming Sessions](/practices/run-pair-programming-sessions.md)
 
 Pair programming sessions facilitate collaboration, real-time code review, and knowledge sharing among developers. By working in pairs, developers can catch issues early, ensure code is comprehensible, and spread knowledge across the team. This collaborative practice also accelerates the onboarding process for new team members while helping experienced developers refine their skills. Additionally, pair programming promotes adherence to coding standards, enhancing code consistency and readability.
- 
+
 ### [Reduce Coupling Between Abstractions](/practices/reduce-coupling-between-abstractions.md)
 
 Reducing coupling between abstractions creates a modular and flexible codebase.
@@ -94,7 +94,7 @@ Refactoring, as a practice, systematically improves code structure, readability,
 
 ### [Work in Small Increments](/practices/work-in-small-increments.md)
 
-Working in small increments helps teams trace and reverse changes, making it easier for them to identify and address issues. By breaking down tasks into manageable, frequent updates, teams can make clear, incremental improvements to the codebase. This practice increases productivity and collaboration, reducing the frequency of large merge conflicts. 
+Working in small increments helps teams trace and reverse changes, making it easier for them to identify and address issues. By breaking down tasks into manageable, frequent updates, teams can make clear, incremental improvements to the codebase. This practice increases productivity and collaboration, reducing the frequency of large merge conflicts.
 
 ### [Perform Static Code Analysis](/practices/perform-static-code-analysis.md)
 
