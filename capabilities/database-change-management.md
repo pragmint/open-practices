@@ -2,7 +2,7 @@
 
 The Database Change Management capability involves handling database updates with the same rigor as application code, using version control, automation, and collaboration. A team that is mature in this capability enjoys low-risk and zero-downtime deployments.
 
-DBAs or specialized teams often manage databases. So, for application development teams looking to practice database change management, an effective strategy involves creating a self-service method for the team to apply changes and pulling in specialists when delicate or complicated changes need to be applied.
+DBAs or specialized teams often manage databases. So, for application development teams looking to practice database change management, an effective strategy involves creating an automated self-service method for the team to apply changes and pulling in specialists when delicate or complicated changes need to be applied.
 
 ## Nuances
 
@@ -14,7 +14,7 @@ When multiple systems rely on the same database, even small updates risk breakin
 
 ### Shaping DBA Involvement for Maximum Impact
 
-DBAs are vital to database change management but often support multiple teams, limiting their support capacity. To reduce reliance on their time, implement self-service workflows with built-in guardrails for routine tasks. This allows DBAs to be pulled in for complex, performance-critical cases where their expertise is essential. In these cases, make sure to involve DBAs early in the process to catch smaller issues before they snowball into bigger ones.
+DBAs are vital to database change management but often support multiple teams, limiting their support capacity. To reduce reliance on their time, implement automated self-service workflows with built-in guardrails for routine tasks. This allows DBAs to be pulled in for manual, complex, and performance-critical cases where their expertise is essential. In these cases, make sure to involve DBAs early in the process to catch smaller issues before they snowball into bigger ones.
 
 ### Integrated Validation
 
@@ -43,7 +43,7 @@ The following is a curated list of supporting practices to consider when looking
 
 ### [Automate Database Migrations](/practices/automate-database-migrations.md)
 
-Implementing automatic database migrations ensures database schema changes are consistently applied. Typically this practice works in concert with code changes, ensuring the whole system is integrated, tested, and deployed in a unified manner.
+Implementing automated database migrations ensures database schema changes are consistently applied. Typically, this practice works in concert with code changes, ensuring the whole system is integrated, tested, and deployed in a unified manner.
 
 ### Store Database Changes in Version Control
 
