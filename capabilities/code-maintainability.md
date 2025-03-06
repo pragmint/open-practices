@@ -92,10 +92,6 @@ This modularity ensures that changes in one part of the system do not disrupt ot
 
 Refactoring, as a practice, systematically improves code structure, readability, and quality. Through incremental changes and adherence to coding standards, refactoring addresses complexity and technical debt, ensuring the code remains clean, modular, and comprehensible. By integrating refactoring into regular development cycles, teams establish a foundation of maintainable code, enabling efficient delivery, stability, and ongoing innovation.
 
-### [Work in Small Increments](/practices/work-in-small-increments.md)
-
-Working in small increments helps teams trace and reverse changes, making it easier for them to identify and address issues. By breaking down tasks into manageable, frequent updates, teams can make clear, incremental improvements to the codebase. This practice increases productivity and collaboration, reducing the frequency of large merge conflicts.
-
 ### [Perform Static Code Analysis](/practices/perform-static-code-analysis.md)
 
 Performing static code analysis involves using automated tools to enhance code quality, consistency, and readability.
