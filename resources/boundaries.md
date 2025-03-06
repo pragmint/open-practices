@@ -1,12 +1,12 @@
 # Boundaries by Gary Bernhardt
 
-type: video
+Resource type: video
 
 https://www.destroyallsoftware.com/talks/boundaries
 
 This presentation delves into the concept of using simple values rather than complex objects as the boundaries between components and subsystems in software development. It covers various topics such as functional programming, the relationship between mutability and object-oriented programming (OO), isolated unit testing with and without test doubles, and concurrency. Understanding and implementing these concepts can be immensely beneficial in managing dependencies with third parties.
 
-If you're watching the video with your team(s), you may wan to pause and ponder at the following points:
+If you're watching the video with your team(s), you may want to pause and ponder at the following points:
 
 * 4:04
   * do we do this?
