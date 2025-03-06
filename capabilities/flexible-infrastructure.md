@@ -28,7 +28,7 @@ Achieving flexible infrastructure often requires significant investment in autom
 
 ### Security and Compliance Challenges
 
-Automating infrastructure tasks can make managing security easier, but it also means teams might spend less time critically evaluating configurations. For instance, using infrastructure as code to configure security groups and network access rules can lead to default settings being overlooked, resulting in overly permissive configurations that can increase the risk of unauthorized access.
+Automating infrastructure tasks can make managing security easier, but it also means teams might spend less time critically evaluating configurations. For instance, using infrastructure-as-code to configure security groups and network access rules can lead to default settings being overlooked, resulting in overly permissive configurations that can increase the risk of unauthorized access.
 
 ## Assessment
 
