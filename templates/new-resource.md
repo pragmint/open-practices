@@ -1,6 +1,6 @@
 # <start_replace>`Title of Resource`<end_replace>
 
-type: `<start_replace>resource type<end_replace>`
+Resource type: `<start_replace>resource type<end_replace>`
 
 <start_replace>`Link To Resource (if applicable)`<end_replace>
 
