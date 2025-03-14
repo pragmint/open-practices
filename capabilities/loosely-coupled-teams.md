@@ -1,6 +1,6 @@
 # [Loosely Coupled Teams](https://dora.dev/capabilities/loosely-coupled-teams/)
 
-Teams that can implement large-scale changes independently, without the need to coordinate with other teams, are often referred to as loosely coupled teams, and they tend to be significantly effective. Loose coupling is enabled by team structure, charter, and architecture. When teams fully own their subsystems and have reliable integration points within the larger system, they can make changes quickly and reduce the wait times typically associated with cross-team coordination.
+Teams that can implement large-scale changes independently, without the need to coordinate with other teams, are often referred to as loosely coupled. These teams tend to be particularly effective. Loose coupling is enabled by team structure, charter, and architecture. When teams fully own their subsystems and have reliable integration points within the larger system, they can make changes quickly and reduce the wait times typically associated with cross-team coordination.
 
 ## Nuances
 
@@ -10,13 +10,13 @@ This section outlines common pitfalls, challenges, or limitations teams commonly
 
 Forming loosely coupled teams can sometimes be a moving target, as changes to an organization's structure and/or goals can be sudden and drastic. When this occurs, keeping the legacy team structures, charters, and architectures intact may actually add friction to the software development process. To maintain organizational agility, embrace the notion that team boundaries can and will evolve. There will be some tension as teams shift their focus and pivot their operations -- monitor this tension while staying mindful of the benefits of forming loosely coupled teams.
 
-### Importance of Well-Defined Interfaces and Cross-Team Contracts
+### Importance of Well-Defined Interfaces
 
-For teams to work independently, they must establish clear and well-defined interfaces and contracts with other teams' services. This clarity ensures that teams can develop and deploy their components without tightly coupling their work with that of others. However, defining and maintaining these interfaces and contracts requires discipline and ongoing communication about changes that could affect other teams.
+For teams to work independently, they must establish clear and well-defined interfaces. This clarity ensures that teams can develop and deploy their components without tightly coupling their work with that of others. However, defining and maintaining these interfaces requires discipline and ongoing communication about changes that could affect other teams.
 
 ### Monoliths Can Work
 
-A common misconception is that loosely coupled teams and architectures require the use of microservices. That's not true. While smaller, self-contained microservices can facilitate loose coupling, they are not a system requirement. A well-structured monolith with clearly delineated modules and strict internal contracts can simplify deployment and reduce overhead while still allowing teams to work independently on their respective components.
+A common misconception is that loosely coupled teams and architectures require the use of microservices. That's not true. While small, self-contained microservices can facilitate loose coupling, they are not a system requirement. A well-structured monolith with clearly delineated modules and strict internal contracts can simplify deployment and reduce overhead while still allowing teams to work independently on their respective components.
 
 ### Balancing Autonomy and Coordination
 
@@ -28,7 +28,7 @@ The following is a curated list of supporting practices to consider when looking
 
 ### Write Contract Tests
 
-Develop and maintain contract tests that verify the interactions between services. Contract tests ensure that all services in a system adhere to agreed-upon interfaces, which allows teams to work independently and avoid breaking integrations. By writing contract tests, teams can deploy changes with the confidence that they will not negatively impact other services, thus supporting loose coupling.
+Develop and maintain contract tests that verify the interactions between services. Contract tests ensure that services in a system adhere to agreed-upon interfaces, which allows teams to work independently and avoid breaking integrations. By writing contract tests, teams can deploy changes with the confidence that they will not negatively impact other services, thus supporting loose coupling.
 
 ### [Decouple from Third Parties](/practices/decouple-from-third-parties.md)
 
@@ -60,7 +60,7 @@ When teams operate independently, they can focus on maintaining and improving th
 
 ### [Empowering Teams To Choose Tools](/capabilities/empowering-teams-to-choose-tools.md) - Downstream
 
-Loosely coupled teams enjoy the independence of selecting tools that best meet their specific needs. This tailored approach can lead to increased productivity and innovation, as teams are not forced to conform to a one-size-fits-all solution.
+Loosely coupled teams often enjoy the independence of selecting tools that best meet their specific needs. This tailored approach can lead to increased productivity and innovation, as teams are not forced to conform to a one-size-fits-all solution.
 
 ### [Customer Feedback](/capabilities/customer-feedback.md) - Related
 
@@ -72,7 +72,7 @@ Clear visibility of work in the value stream is an essential precursor to establ
 
 ### [Generative Organizational Culture](/capabilities/generative-organizational-culture.md) - Upstream
 
-A generative organizational culture fosters an environment where experimentation, innovation, and continuous learning are the norms. When teams are encouraged to question assumptions and generate new ideas, they’re more prone to adopt loosely coupled practices and evolve independently. Teams that are both inventive and independent contribute to overall organizational resilience.
+A generative organizational culture fosters an environment where experimentation, innovation, and continuous learning are the norms. When teams are encouraged to question assumptions and generate new ideas, they’re more prone to adopt loosely coupled practices and evolve independently.
 
 ### [Transformational Leadership](/capabilities/transformational-leadership.md) - Upstream
 
