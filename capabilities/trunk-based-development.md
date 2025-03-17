@@ -1,4 +1,4 @@
-# [Trunk-Based Development](https://dora.dev/devops-capabilities/technical/trunk-based-development/)
+# [Trunk-Based Development](https://dora.dev/capabilities/trunk-based-development/)
 
 Trunk-based development is a version control strategy where developers work on short-lived branches, integrating small code changes into the main branch (trunk) frequently—often multiple times a day. This approach contrasts with the use of long-lived feature branches, which can lead to complex merges and integration challenges. By committing small, manageable batches of code regularly, teams minimize merge conflicts and maintain a more stable codebase.
 
