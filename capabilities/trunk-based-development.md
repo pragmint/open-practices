@@ -2,25 +2,21 @@
 
 Trunk-based development is a version control strategy where developers work on short-lived branches, integrating small code changes into the main branch (trunk) frequently—often multiple times a day. This approach contrasts with the use of long-lived feature branches, which can lead to complex merges and integration challenges. By committing small, manageable batches of code regularly, teams minimize merge conflicts and maintain a more stable codebase.
 
-Implementing trunk-based development is required for effective continuous integration (CI). CI involves combining trunk-based development with a suite of automated tests that run after each commit to ensure the system remains functional. This practice eliminates lengthy integration and stabilization phases, as frequent integration of small code batches promotes clear communication among developers and prevents the accumulation of large, complex merges. Developers are responsible for keeping the build process "green", they must promptly address any issues that arise during integration.
+## Nuances
 
-## Nuance
+This section outlines common pitfalls, challenges, or limitations teams commonly encounter when applying this capability. The goal here is not to discourage you. Rather, the goal is to arm you with the appropriate context so that you can make an informed decision about when and how to implement the capability with your teams.
 
 ### Automated Testing Must Be Fast and Reliable
 
 Trunk-based development relies on robust automated tests to keep the main branch stable. But tests must also be fast—slow suites create bottlenecks, delaying feedback and hurting productivity. Preferably, unit tests should run with a pre-commit hook to catch issues early, and all tests must run in the CI/CD pipeline to ensure integration stability. Teams should prioritize efficient, accurate tests to maintain smooth continuous integration without unnecessary firefighting.
 
-### Strict Code Reviews Can Counteract the Benefits
+### Lengthy Approval Processes Can Counteract the Benefits
 
-Overly rigid code review processes that require multiple approvals can slow down development, negating the speed advantages of trunk-based development. If every small change requires lengthy review cycles, developers might batch up changes, leading to larger, riskier merges. Striking a balance between speed and quality through lightweight, synchronous, or just-in-time reviews can help maintain flow.
+If every small change requires a lengthy approval process, developers are likely to batch up changes, leading to larger, riskier merges. Changes can be reviewed synchronously by pair or mob programming or asynchronously at regular intervals in a way that doesn't block integration. For example, teams can start each day by reviewing all of the changes that were integrated at the start of each day to spot issues and align on the plan for the day.
 
-### Feature Flags Are Essential for Incomplete Work
+### Long Lived Feature Flags
 
-Since trunk-based development discourages long-lived branches, teams need a way to deploy incomplete features safely. Feature flags allow developers to merge code early while keeping unfinished functionality hidden from users. However, mismanaging feature flags—such as forgetting to clean up old ones—can lead to technical debt and unnecessary complexity.
-
-### Not All Teams Can Commit Multiple Times a Day
-
-While trunk-based development encourages frequent commits, some teams—especially those working on large monolithic applications or regulated industries—may find it challenging to integrate multiple times daily. In such cases, enforcing this practice rigidly can lead to stress and reduced productivity. Instead, teams should focus on keeping integration as frequent as feasible while maintaining stability.
+When teams are new to trunk-based development, they tend to reach for feature flags as a way to integrate their changes without risking their changes going live before they're ready. While that's generally good advice, this can become a problem if feature flags live for weeks at a time. One of the main benefits of trunk-based development is how it forces developers to break apart their tasks into small increments (see [Working in Small Batches](/capabilities/working-in-small-batches.md)). The longer code sits behind a feature flag, the larger the batch size becomes and the riskier it is to switch that feature flag on.
 
 ## Supporting Practices
 
@@ -38,19 +34,17 @@ The Clean Git History practice supports trunk-based development by encouraging s
 
 Automated Coding Standards ensure consistent code quality, enabling frequent merges without delays. By automating style checks and basic quality validations, teams streamline code reviews and maintain a clean, deployable main branch. This supports the fast-paced workflow essential to trunk-based development.
 
-### [Automate Database Migrations](/practices/automate-database-migrations.md)
-
-Automated Database Migrations support Trunk-Based Development by enabling incremental schema changes with rapid rollbacks. This reduces the impact of errors, making teams more comfortable with fast commits and fewer approvals, thus encouraging continuous delivery.
-
 ### [Build a Consistent Testing Strategy](/practices/build-consistent-testing-strategy.md)
 
 A consistent testing strategy supports Trunk-Based Development by balancing unit and integration tests to provide fast, reliable feedback. This reduces the risk of breaking the main branch, enabling frequent, smaller merges with confidence, and maintaining high development velocity.
 
-### [Follow the Functional Core, Imperative Shell Pattern](/practices/follow-functional-core-imperative-shell.md)
+### Use Feature Toggles to Integrate More Frequently
 
-Follow the Functional Core, Imperative Shell pattern supports Trunk-Based Development by making the functional core highly testable and reliable. With predictable, side-effect-free logic, unit tests provide fast feedback, enabling frequent, small merges with confidence. Meanwhile, the simpler imperative shell reduces integration complexity, minimizing merge conflicts and ensuring smoother continuous integration.
+Teams can toggle features on or off, allowing them to separate deployment from release. This functionality allows changes to integrate safely even while development is ongoing. It also establishes the habit of splicing in small changes. Feature toggles are designed to be short-lived; avoid cluttering the codebase with long-term toggles by planning their removal once the feature has proven its value.
 
-<!-- Include Implement feature flags when done -->
+### Branch by Abstraction to Integrate More Frequently
+
+Branch by Abstraction is a technique popularized by Martin Fowler which accomplishes a similar outcome as feature toggles. Teams typically prefer branch by abstraction when undertaking complex refactoring of legacy systems, extensive architectural changes, or replacing critical infrastructure where incremental transition is necessary. Feature toggles are meant to be short-lived, where the branch by abstraction pattern provides a path to permanently evolving the codebase without lingering conditional logic.
 
 ## Adjacent Capabilities
 
@@ -60,7 +54,7 @@ The following capabilities will be valuable for you and your team to explore, as
 - Upstream (they are a pre-requisite for Trunk Based Development)
 - Downstream (Trunk Based Development is a pre-requisite for them)
 
-### [Continuous Delivery](/capabilities/continuous-delivery.md) - Upstream
+### [Continuous Delivery](/capabilities/continuous-delivery.md) - Downstream
 
 Trunk-Based Development is a pre-requisite for Continuous Delivery because it enables small, frequent merges to the main branch, which reduces integration complexity and conflicts. Without the rapid feedback and stability provided by Trunk-Based Development, maintaining a reliable and efficient Continuous Delivery process would be challenging.
 
@@ -75,3 +69,11 @@ Working in Small Batches is a pre-requisite for Trunk-Based Development because 
 ### [Test Automation](/capabilities/test-automation.md) - Upstream
 
 Test Automation is a pre-requisite for Continuous Integration because it provides rapid and reliable feedback on code changes, ensuring that integrations are smooth and defects are caught early. Without robust automated tests, CI pipelines would require more manual intervention, slowing down development cycles and increasing the risk of introducing bugs.
+
+### [Streamline Change Approval](/capabilities/streamline-change-approval.md) - Upstream
+
+Streamlined change approval processes reduce friction and delays, enabling teams to push changed directly to trunk frequently without being slowed down by bureaucratic approvals.
+
+### [Version Control](/capabilities/version-control.md) - Upstream
+
+Version control provides teams with the foundational tooling necessary to safely manage and integrate small batches of changes. Without effective version control, trunk-based development becomes difficult or impossible to sustain.
