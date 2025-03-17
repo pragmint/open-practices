@@ -81,10 +81,6 @@ Automating infrastructure management ensures that infrastructure provisioning an
 
 Version dependencies ensure dependencies are managed with the same diligence as source code. This practice enhances reproducibility, traceability, and consistency in software builds.
 
-### [Work in Small Increments](/practices/work-in-small-increments.md)
-
-Working in small increments helps teams trace and reverse changes, making it easier for them to identify and address issues. By breaking down tasks into manageable, frequent updates, teams can make clear, incremental improvements to the codebase. This practice increases productivity and collaboration, reducing the frequency of large merge conflicts. 
-
 ## Adjacent Capabilities
 
 The following capabilities will be valuable for you and your team to explore, as they are either:
