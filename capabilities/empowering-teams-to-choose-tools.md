@@ -6,20 +6,19 @@ This capability is about empowering teams to select the tools and technologies t
 
 ### Balance Choice with Complexity
 
-It’s crucial to balance tool choice with the potential costs of acquisition, support, and added complexity that come with adding new tools to a tech stack. 
+It’s crucial to balance tool choice with the potential costs of acquisition, support, and added complexity that come with adding new tools to a tech stack.
 
 While a baseline set of tools should be established across an organization, teams should feel free to choose a new tool or technology if they feel strongly that it is best suited for their use case. Making this choice means they must also _support_ the new tool(s), which can be a tall order.
 
-Take, for example, a team's choice to use a different language. Once this decision is made, the team will need to build a new CI/CD pipeline and ensure its environments are suitable to run their code in the new language. They'll also need to introduce other new tooling that scans for security vulnerabilities and a host of other tasks, which the organization's platform team likely already handles. After all, the role of the platform team is to keep the technology stack compliant and efficient. 
+Take, for example, a team's choice to use a different language. Once this decision is made, the team will need to build a new CI/CD pipeline and ensure its environments are suitable to run their code in the new language. They'll also need to introduce other new tooling that scans for security vulnerabilities and a host of other tasks, which the organization's platform team likely already handles. After all, the role of the platform team is to keep the technology stack compliant and efficient.
 
-As you can see, one team's decision to use another tool has added a layer of complexity in terms of support. 
+As you can see, one team's decision to use another tool has added a layer of complexity in terms of support.
 
 ### Risk of Tool Overproliferation
 
 Allowing teams to choose their tools doesn't mean unrestricted freedom.
 
 Too much freedom in tool choice can lead to a fragmented tech stack, increasing technical debt and making the infrastructure more fragile over time. Each new tool requires maintenance and integration efforts, which can dilute the benefits of the new technology. For these reasons, it's essential to define a standardized process for evaluating and adopting new tools, and to ensure teams understand the implications of their choices.
-
 
 ## Assessment
 
@@ -38,11 +37,9 @@ The number you selected represents your overall score for this capability. If yo
 
 Generally, an overall score equal to or less than 3 means you'll likely gain a lot of value from experimenting with some of the supporting practices listed below. An overall score higher than 3 generally means you and your team are largely proficient, or well on your way to becoming proficient, in being empowered to choose tools; you would likely benefit from evaluating your scores in other capabilities.
 
-
 ## Supporting Practices
 
 The following is a curated list of supporting practices to consider when looking to empower your team to choose tools. While not every practice will be beneficial in every situation, this list is meant to provide teams with fresh, pragmatic, and actionable ideas to support this capability.
-
 
 ### [Establish Golden Paths](/practices/establish-golden-paths.md)
 
@@ -55,7 +52,6 @@ Conduct regular audits of the organization's toolset to evaluate its effectivene
 ### [Schedule Time for Experimentation](/practices/schedule-time-for-experimentation.md)
 
 Regularly allocate time for teams to experiment with new tools, such as through hackathons or innovation days. Encourage team members to test new technologies and assess their suitability for the organization's needs. This practice fosters a culture of experimentation and growth, which can lead to significant performance improvements and greater team engagement.
-
 
 ## Adjacent Capabilities
 

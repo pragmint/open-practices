@@ -5,6 +5,7 @@ The Team Experimentation capability is about giving software teams problems to s
 This approach helps teams learn quickly, adapt, and avoid wasting time on heavy upfront planning. It’s all about creating a cycle of trying, learning, and improving that is aligned with clear business goals or challenges.
 
 ## Nuances
+
 This section outlines common pitfalls, challenges, or limitations teams commonly encounter when applying this capability. The goal here is not to discourage you. Rather, the goal is to arm you with the appropriate context so that you can make an informed decision about when and how to implement the capability with your teams.
 
 ### Balance Trust With Experimentation
@@ -28,6 +29,7 @@ Experiments should have clear hypotheses and measurable outcomes. Without proper
 Experimentation within one team is typical, but this can impact other teams or parts of the organization. Open communication about ongoing experiments helps prevent conflicts and duplicated efforts. Collaborating on experiments can amplify its benefits and foster a culture of collective learning.
 
 ## Assessment
+
 To assess how mature your team or organization is in this capability, complete this short exercise.
 
 Consider the descriptions below and score yourself on the Team Experimentation capability. Generally, score a 1 if experimentation is minimal or completely lacking from your team, a 2 if it is highly controlled and you feel there is a lot of room for improvement, a 3 if it is emerging and you feel there is some room for improvement, and a 4 if your team or organization is exemplary in the area of Team Experimentation.
@@ -37,13 +39,14 @@ Don't worry if the description doesn't exactly match your situation. These descr
 1. Minimal or No Experimentation: Teams follow a strict, rigid plan with little room for deviation or experimentation and must seek approval for even minor changes. They have limited visibility into the organization's overall goals and context, and they must pull information from leadership on an ad-hoc basis.
 2. Highly Controlled Experimentation: Teams are allowed to explore new ideas but within tightly defined parameters and with close oversight from leadership. Deadline pressure regularly takes priority over idea exploration. Teams must request access to relevant context and information, which is provided on an ad-hoc basis.
 3. Emerging but Limited Experimentation: Teams have some flexibility to try new approaches but must seek permission from leadership or follow established protocols for most changes. They have access to some organizational context, including goals and objectives, but may not have direct access to customer feedback or the financial performance of the company.
-4. Self-Directed Innovation: Teams have autonomy to pursue new ideas and make decisions. Their experiments are informed by direct access to customer feedback and relevant context that is proactively shared by leadership, including the organization's vision, goals, strategic priorities, and financial state. 
+4. Self-Directed Innovation: Teams have autonomy to pursue new ideas and make decisions. Their experiments are informed by direct access to customer feedback and relevant context that is proactively shared by leadership, including the organization's vision, goals, strategic priorities, and financial state.
 
 The number you selected represents your overall score for this capability. If you feel like your team or organization fits somewhere in between two scores, it's okay to use a decimal. For example, if you think team experimentation is somewhere between highly controlled and emerging, you would score a 2.5.
 
 Generally, an overall score equal to or less than 3 means you'll likely gain a lot of value from experimenting with some of the supporting practices listed here. An overall score higher than 3 generally means you and your team are largely proficient, or well on your way to becoming proficient, in the area of Team Experimentation; you would likely benefit from evaluating your scores in other capabilities.
 
 ## Supporting Practices
+
 The following is a curated list of supporting practices to consider when looking to improve your Team Experimentation capability. While not every practice will be beneficial in every situation, this list is meant to provide teams with fresh, pragmatic, and actionable ideas to support this capability.
 
 ### Measure Impact With Double Loop Learning
@@ -56,7 +59,7 @@ Also referred to as building a proof-of-concept (POC), this practice involves se
 
 ### Host a Retrospective
 
-Hosting a retrospective is a vital practice for continuous improvement within a team or organization. These sessions can be routine or focused on a specific event, such as a postmortem. The key to a successful retrospective is to walk away with clear action items while maintaining a blameless environment. Recognize that experimentation carries constraints and pain points; these things are unavoidable when trying new approaches. The goal is not to eliminate them entirely but to reduce their frequency or impact. Retrospectives are excellent for fine-tuning processes, evaluating experiments, and addressing immediate issues. Though, they are less effective for sparking visionary changes. 
+Hosting a retrospective is a vital practice for continuous improvement within a team or organization. These sessions can be routine or focused on a specific event, such as a postmortem. The key to a successful retrospective is to walk away with clear action items while maintaining a blameless environment. Recognize that experimentation carries constraints and pain points; these things are unavoidable when trying new approaches. The goal is not to eliminate them entirely but to reduce their frequency or impact. Retrospectives are excellent for fine-tuning processes, evaluating experiments, and addressing immediate issues. Though, they are less effective for sparking visionary changes.
 
 ### Talk Directly With Users
 
@@ -80,11 +83,11 @@ A learning culture promotes continuous learning and knowledge sharing, which sup
 
 ### [Generative Organizational Culture](/capabilities/generative-organizational-culture.md) - Upstream
 
-A generative organizational culture is characterized by high cooperation, shared risks, and a focus on performance over rules. Such a culture values open communication and trust, and empowers teams to experiment without fear — these are support beams for team experimentation. 
+A generative organizational culture is characterized by high cooperation, shared risks, and a focus on performance over rules. Such a culture values open communication and trust, and empowers teams to experiment without fear — these are support beams for team experimentation.
 
 ### [Transformational Leadership](/capabilities/transformational-leadership.md) - Upstream
 
-The capability of Transformational Leadership involves leaders inspiring and motivating their teams to exceed expectations, explore new ideas, and embrace change. These leaders encourage team experimentation by providing the necessary vision and support. 
+The capability of Transformational Leadership involves leaders inspiring and motivating their teams to exceed expectations, explore new ideas, and embrace change. These leaders encourage team experimentation by providing the necessary vision and support.
 
 ### [Empowering Teams To Choose Tools](/capabilities/empowering-teams-to-choose-tools.md) - Related
 

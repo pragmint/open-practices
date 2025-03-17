@@ -1,5 +1,4 @@
-# [Documentation Quality](https://dora.dev/devops-capabilities/process/documentation-quality/)
-
+# [Documentation Quality](https://dora.dev/capabilities/documentation-quality/)
 
 _Documentation_ describes a range of internal decisions, processes, or policies. Software developers typically create and maintain documentation on technical design details, code changes, product requirements, common pitfalls in the tech stack, service interactions, and testing plans.
 
@@ -16,7 +15,6 @@ It's not enough for documentation to exist; it must also be clear and findable. 
 ### Reliability and Maintenance of Documentation
 
 Once documentation is created, the work is not done. Developers must make a deliberate effort to review and refine documentation regularly. The cadence for auditing documentation will look different for different teams. For some teams, reality becomes out of step with documentation every day. For other teams, reality becomes out of step with documentation every month. The goal is to ensure documentation remains reliable and accurate without spinning your wheels. With practice, teams can strike a balance between writing quick, low-level documentation that points people in the right direction and writing more abstract or complex documentation that's unlikely to change much over time.
-
 
 ## Assessment
 
@@ -45,12 +43,11 @@ Automate the creation of documentation using tools that generate comprehensive a
 
 ### [Implement a Documentation Search Engine](/practices/implement-a-documentation-search-engine.md)
 
-Implementing a documentation search engine enables team members to quickly find relevant documentation, reducing the time spent searching for information and increasing productivity. For example, [Obsidian](https://obsidian.md/) links documents together, creating a map of related ideas. With [Notion](https://www.notion.so/), users can tag and filter documents for quick organizing and categorizing. And [Confluence](https://www.atlassian.com/software/confluence) gives teams secure, shared access to large volumes of organized documentation. 
+Implementing a documentation search engine enables team members to quickly find relevant documentation, reducing the time spent searching for information and increasing productivity. For example, [Obsidian](https://obsidian.md/) links documents together, creating a map of related ideas. With [Notion](https://www.notion.so/), users can tag and filter documents for quick organizing and categorizing. And [Confluence](https://www.atlassian.com/software/confluence) gives teams secure, shared access to large volumes of organized documentation.
 
 ### [Schedule Regular Documentation Audits](/practices/schedule-regular-documentation-audits.md)
 
 As systems and processes evolve, it's important to spend some time auditing your existing documentation to ensure it's accurate. Scheduling regular documentation audits ensures that documentation remains up-to-date and consistent with the codebase it describes. This practice better aligns documentation and software development, enhancing the overall quality and reliability of both the codebase and the supporting documents.
-
 
 ## Adjacent Capabilities
 

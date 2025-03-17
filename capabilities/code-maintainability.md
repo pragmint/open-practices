@@ -1,4 +1,4 @@
-# [Code Maintainability](https://dora.dev/devops-capabilities/technical/code-maintainability/)
+# [Code Maintainability](https://dora.dev/capabilities/code-maintainability/)
 
 Each time we write, edit, or read a line of code it costs an organization time and money.
 In the lifespan of a typical line of code, it will likely be written once, edited at least a handful of times, and read many times.
@@ -18,7 +18,7 @@ There may be good reasons to follow such a path. However, doing so further degra
 There is usually a delay between introducing difficult-to-maintain code and the team experiencing a performance degradation.
 This delay makes it harder for non-technical team members to understand the consequences of implementing too many short-term solutions, instead of following best practices.
 
-## Nuance
+## Nuances
 
 This section outlines common pitfalls, challenges, or limitations teams commonly encounter when applying this capability. The goal here is not to discourage you. Rather, the goal is to arm you with the appropriate context so that you can make an informed decision about when and how to implement the capability with your teams.
 

@@ -1,4 +1,4 @@
-# [Version Control](https://dora.dev/devops-capabilities/technical/version-control/)
+# [Version Control](https://dora.dev/capabilities/version-control/)
 
 Comprehensive version control ensures reproducibility and traceability across the system, enabling teams to provision production-like environments, track changes, and respond quickly to evolving needs. This capability enhances disaster recovery, auditability, and quality by allowing teams to restore services efficiently, demonstrate process integrity, and receive rapid feedback on changes. When teams can scale their environments and roll back to verified working states, when necessary, they can support capacity management and defect response.
 

@@ -1,4 +1,4 @@
-# [Test Automation](https://dora.dev/devops-capabilities/technical/test-automation/)
+# [Test Automation](https://dora.dev/capabilities/test-automation/)
 
 Test automation is essential for building high-quality software. It provides early feedback in the software delivery lifecycle, reduces team burnout, and reduces deployment challenges. While manual testing is an essential part of every testing plan, it can be inefficient and unreliable, leading to missed bugs and delayed feedback.
 
@@ -50,7 +50,7 @@ By maintaining realistic coverage thresholds for different modules, automating t
 
 ### [Conduct Code Reviews](/practices/conduct-code-reviews.md)
 
-Code reviews allow team members to ensure that proposed code is functional and easy to maintain over time. This practice also promotes test automation, prevents regression errors, and maintains smooth CI processes. By providing feedback on readability, test coverage, and coding standards adherence, conducting code reviews improves the quality of the codebase and the stability of the software. 
+Code reviews allow team members to ensure that proposed code is functional and easy to maintain over time. This practice also promotes test automation, prevents regression errors, and maintains smooth CI processes. By providing feedback on readability, test coverage, and coding standards adherence, conducting code reviews improves the quality of the codebase and the stability of the software.
 
 ### [Create and Manage Ephemeral Environments](/practices/create-and-manage-ephemeral-environments.md)
 
@@ -60,7 +60,7 @@ Integrated into CI/CD pipelines, they offer continuous, immediate feedback on co
 
 ### [Follow Functional Core, Imperative Shell](/practices/follow-functional-core-imperative-shell.md)
 
-The Functional Core, Imperative Shell pattern involves separating business logic into a functional core and side effects into an imperative shell. With a clear distinction between pure functions and imperative code, developers can more easily write testable and maintainable code. This enhances the stability and maintainability of the system. It also simplifies the testing process, improves test coverage, and provides faster and more reliable feedback during development. 
+The Functional Core, Imperative Shell pattern involves separating business logic into a functional core and side effects into an imperative shell. With a clear distinction between pure functions and imperative code, developers can more easily write testable and maintainable code. This enhances the stability and maintainability of the system. It also simplifies the testing process, improves test coverage, and provides faster and more reliable feedback during development.
 
 ### [Implement Test-Driven Development](/practices/implement-tdd.md)
 

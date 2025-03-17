@@ -1,4 +1,4 @@
-# [Learning Culture](https://dora.dev/devops-capabilities/cultural/learning-culture/)
+# [Learning Culture](https://dora.dev/capabilities/learning-culture/)
 
 _Culture_ is defined by the behaviors a group of people regularly exhibit.
 It's not simply an aspirational statement that someone in marketing or HR came up with.
@@ -6,6 +6,7 @@ Building a culture that prioritizes learning, or a _learning culture_, is core t
 As such, this capability is a good place to start if you're looking to improve your team's ability to deliver impactful results.
 
 ## Nuances
+
 This section outlines common pitfalls, challenges, or limitations teams commonly encounter when applying this capability. The goal here is not to discourage you. Rather, the goal is to arm you with the appropriate context so that you can make an informed decision about when and how to implement the capability with your teams.
 
 ### Support From Leadership is Essential
@@ -62,7 +63,7 @@ Leading a demonstration is an excellent way to engage an audience by live coding
 ### [Run Pair Programming Sessions](/practices/run-pair-programming-sessions.md)
 
 Pair programming sessions facilitate collaboration, real-time code review, and knowledge sharing among developers. By working in pairs, developers can catch issues early, ensure code is comprehensible, and spread knowledge across the team. This collaborative practice also accelerates the onboarding process for new team members while helping experienced developers refine their skills. Additionally, pair programming promotes adherence to coding standards, enhancing code consistency and readability.
- 
+
 ### [Lead Workshops](/practices/lead-workshops.md)
 
 Leading workshops is an excellent way to provide your team with hands-on experience, allowing them to actively engage with the material. Workshops are particularly effective in breaking down preconceived notions, as they offer a practical approach to learning and problem-solving. However, workshops are not ideal for introducing new topics or ideas (that is better done by leading a demonstration). Participants may struggle in a workshop if they lack foundational knowledge, which can hinder their ability to fully benefit from the hands-on experience. To ensure success, it's important to establish a solid foundation before diving into complex workshop activities.
@@ -73,7 +74,7 @@ Also referred to as building a proof-of-concept (POC), this practice involves se
 
 ### [Host a Retrospective](/practices/host-a-retrospective.md)
 
-Hosting a retrospective is a vital practice for continuous improvement within a team or organization. These sessions can be routine or focused on a specific event, such as a postmortem. The key to a successful retrospective is to walk away with clear action items while maintaining a blameless environment. Recognize that experimentation carries constraints and pain points; these things are unavoidable when trying new approaches. The goal is not to eliminate them entirely but to reduce their frequency or impact. Retrospectives are excellent for fine-tuning processes, evaluating experiments, and addressing immediate issues. Though, they are less effective for sparking visionary changes. 
+Hosting a retrospective is a vital practice for continuous improvement within a team or organization. These sessions can be routine or focused on a specific event, such as a postmortem. The key to a successful retrospective is to walk away with clear action items while maintaining a blameless environment. Recognize that experimentation carries constraints and pain points; these things are unavoidable when trying new approaches. The goal is not to eliminate them entirely but to reduce their frequency or impact. Retrospectives are excellent for fine-tuning processes, evaluating experiments, and addressing immediate issues. Though, they are less effective for sparking visionary changes.
 
 ### [Talk Directly With Users](/practices/talk-directly-with-users.md)
 
