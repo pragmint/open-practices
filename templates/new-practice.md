@@ -26,6 +26,8 @@ The following actions will help your team implement this practice.
 
 <start_replace>
 ```
+The goal of this section is to show readers what it takes to guide a team starting with zero awareness to full adoption of this practice. There will be numerous social and technical hurdles that need to be handled. Each sub-section (action) listed here should be ordered chronologically for teams looking to gain traction.
+
 Each Gaining Traction action should have its own section starting with `###` and the title (e.g., Run a Retrospective). Then, add a brief description (3-5 sentences) of the action, including ways the team can generate buy-in, get practical experience, or make the practice a common part of the normal routine. These sections might be steps someone could take to get their team to adopt the practice. The goal is to equip someone who wants to introduce this practice to their team as turnkey as possible.
 
 For the actions you list here, you may want to take inspiration from the general practices in [Learning Culture](/capabilities/learning-culture.md#supporting-practices). Briefly discuss how to put those general practices to use by adding specifics such as unique talking points, demonstration instructions, roundtable discussion prompts, and links to external resources.
