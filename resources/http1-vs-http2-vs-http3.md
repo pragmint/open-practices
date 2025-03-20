@@ -1,4 +1,3 @@
-
 # HTTP 1 Vs HTTP 2 Vs HTTP 3!
 
 Resource type: Video

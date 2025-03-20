@@ -1,4 +1,4 @@
-# Zebras All the Way Down by Bryan Cantrill,
+# Zebras All the Way Down by Bryan Cantrill
 
 Resource type: Video
 
