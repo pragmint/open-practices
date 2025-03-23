@@ -1,6 +1,6 @@
 # Boundaries by Gary Bernhardt
 
-Resource type: video
+Resource type: Video
 
 https://www.destroyallsoftware.com/talks/boundaries
 

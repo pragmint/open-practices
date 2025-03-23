@@ -4,4 +4,4 @@ Resource type: Video
 
 https://www.youtube.com/watch?v=GIRkQQHzsxI
 
-This video provides insights into how to better invest your time to maximize productivity.
+This video by Alex Hormozi provides insights into how to better invest your time to maximize productivity.
