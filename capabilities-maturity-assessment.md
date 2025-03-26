@@ -141,7 +141,7 @@ To improve in a capability, navigate to its page by either clicking on its title
 
 1. **Tightly Coupled:** Teams are heavily dependent on other teams for design decisions and deployment. Frequent, fine-grained communication and coordination are required.
 2. **Somewhat Coupled:** Teams have some independence, but still require regular coordination with other teams. Deployment and design changes often need permission or resources from outside the team.
-3. **Mostly Decoupled:** Teams have a moderate level of independence. They can make some design changes and deploy without permission, but may still need to coordinate with other teams routinely.
+3. **Moderately Coupled:** Teams have a moderate level of independence. They can make some design changes and deploy without permission, but they may still need to coordinate with other teams routinely.
 4. **Loosely Coupled:** Teams have full autonomy to make most large-scale design changes and deploy on-demand. They can test independently and release with negligible downtime, without needing fine-grained communication or coordination with other teams.
 
 ### [Streamline Change Approval](/capabilities/streamline-change-approval.md)
@@ -153,10 +153,10 @@ To improve in a capability, navigate to its page by either clicking on its title
 
 ### [Trunk-Based Development](/capabilities/trunk-based-development.md)
 
-1. **Long-Lived Branches:** Development happens on long-lived feature branches that are rarely merged to trunk, resulting in complex and painful integrations.
+1. **Long-lived Branches:** Development happens on long-lived feature branches that are rarely merged to trunk, resulting in complex and painful integrations.
 2. **Regular Merges:** Development happens on feature branches that are regularly merged to trunk (e.g., weekly), with some manual effort required to resolve conflicts.
-3. **Short-Lived Branches:** Development happens on short-lived feature branches (e.g., 1-3 days) that are frequently merged to trunk, with minimal manual effort required.
-4. **Trunk-Based:** Development happens either directly on trunk or on really short-lived feature branches (e.g., 1-3 hour) and changes are committed and validated continuously, with immediate feedback.
+3. **Short-lived Branches:** Development happens on short-lived feature branches (e.g., 1-3 days) that are frequently merged to trunk, with minimal manual effort required to resolve conflicts.
+4. **Trunk-based:** Development happens either directly on trunk or on very short-lived feature branches (e.g., 1-3 hours). Changes are committed and validated continuously with immediate feedback.
 
 ### [Version Control](/capabilities/version-control.md)
 
@@ -255,7 +255,7 @@ To improve in a capability, navigate to its page by either clicking on its title
 
 ### [Visibility of Work in the Value Stream](/capabilities/visibility-of-work-in-the-value-stream.md)
 
-1. **Limited Visibility:** Teams have little understanding of the flow of work from idea to customer, and lack visibility into the current state of products and features.
-2. **Partial Visibility:** Teams have some visibility into the flow of work, but it's limited to their own area of responsibility, and they lack a comprehensive understanding of the entire value stream.
-3. **Visual Management:** Teams use visual displays and dashboards to track the flow of work, and have a good understanding of the current state of products and features, but may not have a complete view of the entire value stream.
-4. **End-to-End Visibility:** Teams have a complete and up-to-date understanding of the flow of work from idea to customer, with real-time visibility into the current state of products and features, and use data to improve the flow of work.
+1. **Limited Visibility:** Teams have little understanding of the flow of work from idea to customer. They lack visibility into the current state of products and features.
+2. **Partial Visibility:** Teams have some visibility into the flow of work, but it's limited to their own area of responsibility. They lack a comprehensive understanding of the entire value stream.
+3. **Managed Visibility:** Teams use visual displays and dashboards to track the flow of work. They have a good understanding of the current state of products and features, but may not have a complete view of the entire value stream.
+4. **End-to-End Visibility:** Teams have a complete and up-to-date understanding of the flow of work from idea to customer, with real-time visibility into the current state of products and features. They use data to improve the flow of work.
