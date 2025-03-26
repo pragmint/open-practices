@@ -41,6 +41,22 @@ Efforts to improve efficiency in areas that are *not* bottlenecks may have minim
 
 Participants in visibility initiatives often lack the authority to implement necessary changes. When participants lack decision-making power, these efforts can stall, making it harder to achieve the desired future state. Successfully implementing changes related to workflow visibility requires both high-level support and autonomy to act on findings.
 
+## Assessment
+To assess how mature your team or organization is in this capability, complete this short exercise.
+
+Consider the descriptions below and score yourself on the Visibility of Work in the Value Stream capability. Generally, score a 1 if this capability is limited or completely lacking from your team or organization, a 2 if it is basic and you feel there is a LOT of room for improvement, a 3 if it is mature and you feel there is some room for improvement, and a 4 if your team or organization is exemplary in the area of Visibility of Work in the Value Stream.
+
+Don't worry if the description doesn't exactly match your situation. These descriptions are meant to be examples of situations that would qualify for the associated score.
+
+1. **Limited Visibility:** Teams have little understanding of the flow of work from idea to customer. They lack visibility into the current state of products and features.
+2. **Partial Visibility:** Teams have some visibility into the flow of work, but it's limited to their own area of responsibility. They lack a comprehensive understanding of the entire value stream.
+3. **Managed Visibility:** Teams use visual displays and dashboards to track the flow of work. They have a good understanding of the current state of products and features, but may not have a complete view of the entire value stream.
+4. **End-to-End Visibility:** Teams have a complete and up-to-date understanding of the flow of work from idea to customer, with real-time visibility into the current state of products and features. They use data to improve the flow of work.
+
+The number you selected represents your overall score for this capability. If you feel like your team or organization fits somewhere in between two scores, it's okay to use a decimal. For example, if you think visibility of work within your team is somewhere between partial and managed, then you would score a 2.5.
+
+Generally, an overall score equal to or less than 3 means you'll likely gain a lot of value from experimenting with some of the supporting practices listed here. An overall score higher than 3 generally means you and your team are largely proficient, or well on your way to becoming proficient, in the area of Visibility of Work in the Value Stream; you would likely benefit from evaluating your scores in other capabilities.
+
 ## Supporting Practices
 
 The following is a curated list of supporting practices to consider when looking to improve your team's Visibility of Work in the Value Stream capability. While not every practice will be beneficial in every situation, this list is meant to provide teams with fresh, pragmatic, and actionable ideas to support this capability.

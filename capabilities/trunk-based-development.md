@@ -18,6 +18,22 @@ If every small change requires a lengthy approval process, then developers are l
 
 When teams are new to trunk-based development, they tend to reach for feature flags as a way to integrate their changes without risking them going live before they're ready. While that's generally good advice, this can become a problem if feature flags live for weeks at a time. One of the main benefits of trunk-based development is how it forces developers to *break apart* their tasks into small increments (see [Working in Small Batches](/capabilities/working-in-small-batches.md)). The longer code sits behind a feature flag, the larger the batch size becomes and the riskier it is to switch that feature flag on.
 
+## Assessment
+To assess how mature your team or organization is in this capability, complete this short exercise.
+
+Consider the descriptions below and score yourself on the Trunk-based Development capability. Generally, score a 1 if this capability is limited or completely lacking from your team or organization, a 2 if it is basic and you feel there is a LOT of room for improvement, a 3 if it is mature and you feel there is some room for improvement, and a 4 if your team or organization is exemplary in the area of Trunk-based Development.
+
+Don't worry if the description doesn't exactly match your situation. These descriptions are meant to be examples of situations that would qualify for the associated score.
+
+1. **Long-lived Branches:** Development happens on long-lived feature branches that are rarely merged to trunk, resulting in complex and painful integrations.
+2. **Regular Merges:** Development happens on feature branches that are regularly merged to trunk (e.g., weekly), with some manual effort required to resolve conflicts.
+3. **Short-lived Branches:** Development happens on short-lived feature branches (e.g., 1-3 days) that are frequently merged to trunk, with minimal manual effort required to resolve conflicts.
+4. **Trunk-based:** Development happens either directly on trunk or on very short-lived feature branches (e.g., 1-3 hours). Changes are committed and validated continuously with immediate feedback.
+
+The number you selected represents your overall score for this capability. If you feel like your team or organization fits somewhere in between two scores, it's okay to use a decimal. For example, if you think your team works somewhere between regular merges and short-lived branches, then you would score a 2.5.
+
+Generally, an overall score equal to or less than 3 means you'll likely gain a lot of value from experimenting with some of the supporting practices listed here. An overall score higher than 3 generally means you and your team are largely proficient, or well on your way to becoming proficient, in the area of Trunk-based Development; you would likely benefit from evaluating your scores in other capabilities.
+
 ## Supporting Practices
 
 The following is a curated list of supporting practices to consider when looking to improve your team's Trunk-based Development capability. While not every practice will be beneficial in every situation, this list is meant to provide teams with fresh, pragmatic, and actionable ideas to support this capability.

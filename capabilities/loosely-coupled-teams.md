@@ -22,6 +22,23 @@ A common misconception is that loosely coupled teams and architectures require t
 
 For many reasons, striking the right balance between team autonomy and cross-team coordination is critical. While autonomy accelerates change by minimizing dependencies, some level of coordination is necessary to ensure alignment with broader organizational objectives. Leaders must create structured communication channels and establish governance practices that allow teams to operate independently without drifting from shared goals.
 
+
+## Assessment
+To assess how mature your team or organization is in this capability, complete this short exercise.
+
+Consider the descriptions below and score yourself on the Loosely Coupled Teams capability. Generally, score a 1 if this capability is limited or completely lacking from your team or organization, a 2 if it is basic and you feel there is a LOT of room for improvement, a 3 if it is mature and you feel there is some room for improvement, and a 4 if your team or organization is exemplary in the area of Loosely Coupled Teams.
+
+Don't worry if the description doesn't exactly match your situation. These descriptions are meant to be examples of situations that would qualify for the associated score.
+
+1. **Tightly Coupled:** Teams are heavily dependent on other teams for design decisions and deployment. Frequent, fine-grained communication and coordination are required.
+2. **Somewhat Coupled:** Teams have some independence, but still require regular coordination with other teams. Deployment and design changes often need permission or resources from outside the team.
+3. **Moderately Coupled:** Teams have a moderate level of independence. They can make some design changes and deploy without permission, but they may still need to coordinate with other teams routinely.
+4. **Loosely Coupled:** Teams have full autonomy to make most large-scale design changes and deploy on-demand. They can test independently and release with negligible downtime, without needing fine-grained communication or coordination with other teams.
+
+The number you selected represents your overall score for this capability. If you feel like your team or organization fits somewhere in between two scores, it's okay to use a decimal. For example, if you think your team is between somewhat coupled and moderately coupled, then you would score a 2.5.
+
+Generally, an overall score equal to or less than 3 means you'll likely gain a lot of value from experimenting with some of the supporting practices listed here. An overall score higher than 3 generally means you and your team are largely proficient, or well on your way to becoming proficient, in the area of Loosely Coupled Teams; you would likely benefit from evaluating your scores in other capabilities.
+
 ## Supporting Practices
 
 The following is a curated list of supporting practices to consider when looking to improve your team's Loosely Coupled Teams capability. While not every practice will be beneficial in every situation, this list is meant to provide teams with fresh, pragmatic, and actionable ideas to support this capability.
