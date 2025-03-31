@@ -35,7 +35,7 @@ Consider the descriptions below and score yourself on the Transformational Leade
 Don't worry if the description doesn't exactly match your situation. These descriptions are meant to be examples of situations that would qualify for the associated score.
 
 1. Crisis Management: The organization is in a state of crisis or chaos, requiring leaders to take a direct and hands-on approach. Leaders focus on short-term goals, with limited opportunities to communicate a clear long-term vision or inspire team members.
-2. Transactional Leadership: Leaders focus on managing scenarios that deviate from the norm. They prioritize meeting urgent goals and objectives, providing clear direction and guidance to team members.They begin to communicate a vision and hold team members accountable for working toward common goals.
+2. Transactional Leadership: Leaders focus on managing scenarios that deviate from the norm. They prioritize meeting urgent goals and objectives, providing clear direction and guidance to team members. They begin to communicate a vision and hold team members accountable for working toward common goals.
 3. Supportive Leadership: Leaders work closely with team members to develop their skills and abilities, sometimes exhibiting other transformational leadership behaviors like clear vision, inspirational communication, intellectual stimulation, and personal recognition.
 4. Transformational Leadership: Leaders create a culture of trust, empowerment, and autonomy, consistently demonstrating all five dimensions of transformational leadership: clear vision, inspirational communication, intellectual stimulation, support, and personal recognition.
 

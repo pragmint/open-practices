@@ -1,8 +1,8 @@
 # DORA Capabilities Maturity Assessment
 
-The following assessments are designed to assess the maturity of your team(s) or organization as they relates to specific [DORA Capabilities](https://dora.dev/capabilities/). 
+The following assessments are designed to assess the maturity of your team(s) or organization as they relates to specific [DORA Capabilities](https://dora.dev/capabilities/).
 
-For each capability, choose the statement that best reflects your current experience within your team(s) or organization. The number next to that statement is your maturity score for that capability. Generally, score yourself a 1 if the capability is completely missing from your team, a 2 if there is a lot of room for improvement, a 3 if there is some room for improvement, and a 4 if your team is exemplary in the capability. Don't worry if the description doesn't exactly match your situation. The descriptions are meant as examples of situations that would qualify for the associated score. 
+For each capability, choose the statement that best reflects your current experience within your team(s) or organization. The number next to that statement is your maturity score for that capability. Generally, score yourself a 1 if the capability is completely missing from your team, a 2 if there is a lot of room for improvement, a 3 if there is some room for improvement, and a 4 if your team is exemplary in the capability. Don't worry if the description doesn't exactly match your situation. The descriptions are meant as examples of situations that would qualify for the associated score.
 
 Most capabilities only have one set of statements to consider. For those few capabilities with multiple sets of statements, average your scores -- that's your overall maturity score for the capability.
 
@@ -73,7 +73,7 @@ To improve in a capability, navigate to its page by either clicking on its title
 ### [Transformational Leadership](/capabilities/transformational-leadership.md)
 
 1. **Crisis Management:** The organization is in a state of crisis or chaos, requiring leaders to take a direct and hands-on approach. Leaders focus on short-term goals, with limited opportunities to communicate a clear long-term vision or inspire team members.
-2. **Transactional Leadership:** Leaders focus on managing scenarios that deviate from the norm. They prioritize meeting urgent goals and objectives, providing clear direction and guidance to team members.They begin to communicate a vision and hold team members accountable for working toward common goals.
+2. **Transactional Leadership:** Leaders focus on managing scenarios that deviate from the norm. They prioritize meeting urgent goals and objectives, providing clear direction and guidance to team members. They begin to communicate a vision and hold team members accountable for working toward common goals.
 3. **Supportive Leadership:** Leaders work closely with team members to develop their skills and abilities, sometimes exhibiting other transformational leadership behaviors like clear vision, inspirational communication, intellectual stimulation, and personal recognition.
 4. **Transformational Leadership:** Leaders create a culture of trust, empowerment, and autonomy, consistently demonstrating all five dimensions of transformational leadership: clear vision, inspirational communication, intellectual stimulation, support, and personal recognition.
 
