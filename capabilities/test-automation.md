@@ -16,6 +16,14 @@ In some organizations, test automation is sometimes undervalued due to gaps in a
 
 Test automation is _not_ a substitute for manual testing. Rather, automated testing _complements_ manual testing. It helps reduce the repetitive and time-consuming aspects of manually verifying system correctness. Each test carries its own cost-benefit ratio, and attempting to cover 100% of a system with automation can lead to high maintenance costs and, at times, a false sense of security. Instead, the team's focus should be on automating routine checks and creating automated tests that catch critical bugs early, reserving manual testing for more exploratory and edge-case scenarios.
 
+### Flaky Tests
+
+Flaky tests are tests that fail intermittently for reasons unrelated to code changes. The "piling up" of flaky tests erode trust in automated testing and slow down delivery, as teams must investigate whether failures are true defects or false positives. Addressing flaky tests promptly and thoroughly improves team confidence in the test suite and enables faster releases.
+
+### Imbalanced Test Pyramid
+
+Over-reliance on slower acceptance tests instead of faster unit tests can result in longer feedback cycles and increased maintenance costs. An ideal test pyramid should have a larger proportion of unit tests that catch issues in pinpointed areas of the codebase early, followed by fewer acceptance and end-to-end tests that catch issues in the broader system. Ensuring a balanced test pyramid reduces the cost and complexity of test automation.
+
 ## Assessment
 
 To assess how mature your team or organization is in this capability, complete this short exercise.
