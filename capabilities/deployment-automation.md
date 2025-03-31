@@ -1,18 +1,20 @@
 # [Deployment Automation](https://dora.dev/capabilities/deployment-automation/)
 
-Deployment automation means teams can deploy software to testing and production environments with the push of a button. By automating the deployment process, teams reduce the risks associated with production deployments and enjoy fast feedback through comprehensive testing that is done immediately after changes are made. Teams that possess this capability experience more reliable, efficient, and frequent deployments, which enhances overall software delivery performance.
+Deployment automation means teams can deploy software to testing and production environments with the push of a button. By automating the deployment process teams save time while reducing the risk of an outage. Teams that possess this capability experience more reliable, efficient, and frequent deployments, which enhances overall software delivery performance.
 
 ## Nuances
 
 This section outlines common pitfalls, challenges, or limitations teams commonly encounter when applying this capability. The goal here is not to discourage you. Rather, the goal is to arm you with the appropriate context so that you can make an informed decision about when and how to implement the capability with your teams.
 
-### Deployment Determinism
+### Building Environment Specific Artifacts
 
-Achieving deployment determinism involves building the application code artifact once and promoting it through environments without changes. Each environment should use unique, versioned, and pre-packaged infrastructure and configuration artifacts. By consistently using pre-built components, this approach simplifies deployment, and reduces variability and errors.
+Software teams often rebuild their application separately for each environment (testing, staging, production), including environment-specific configurations. Repeated builds can introduce small differences, causing unexpected issues when deploying to production.
+
+A better approach is to build the application **once**, creating a stable artifact that moves unchanged through all environments. The application dynamically loads configurations from standard, predefined locations. Each environment maintains its own clearly labeled and version-controlled configurations, ensuring consistent and error-free deployments.
 
 ### Complex System Interactions
 
-Dependencies between services can complicate deployment automation, as orchestration and strict deployment orders are required. Such tight coupling increases deployment risks and hinders flexibility. Designing services to be independently deployable and maintaining backward compatibility can enable smoother, safer deployments.
+Dependencies between services can complicate deployment automation if they require orchestration or strict deployment ordering. Such tight coupling increases deployment risks and hinders flexibility. Designing services to be independently deployable and maintaining backward compatibility can enable smoother, safer deployments.
 
 ### Shaping Ops Involvement for Maximum Impact
 
@@ -53,7 +55,7 @@ Use Infrastructure as Code (IaC) tools to define and manage your infrastructure 
 
 ### Store Configuration in Its Own Repository
 
-Keep all deployment scripts and configuration files in version control systems like Git. This practice allows teams to collaborate more efficiently, to audit changes, and to roll back to previous configurations if needed. Storing configurations in version control increases transparency and control over the deployment process, making it more manageable and secure.
+Keep all deployment scripts and configuration files in version control systems like Git. This practice allows teams to collaborate more efficiently, audit changes, and roll back to previous configurations if needed. Storing configurations in version control increases transparency and control over the deployment process, making it more manageable and secure.
 
 ### Run Canary Deployments
 
@@ -61,7 +63,7 @@ Only send a small amount of production traffic to newly deployed versions of you
 
 ### [Create and Manage Ephemeral Environments](/practices/create-and-manage-ephemeral-environments.md)
 
-Creating and managing ephemeral environments provides flexible, production-like testing environments that can be spun up on-demand. These temporary environments reduce conflicts, promote early bug detection, and improve reproducibility. Integrated into CI/CD pipelines, they offer continuous and immediate feedback on code changes, whether those changes are made to the application, database, infrastructure, or some combination of the three. 
+Creating and managing ephemeral environments provides flexible, production-like testing environments that can be spun up on-demand. These temporary environments can promote early bug detection and improve reproducibility. Integrated into CI/CD pipelines, they offer continuous and immediate feedback on code changes, whether those changes are made to the application, database, infrastructure, or some combination of the three.
 
 ## Adjacent Capabilities
 
@@ -77,7 +79,7 @@ Version Control is fundamental to Deployment Automation, as storing deployment p
 
 ### [Flexible Infrastructure](/capabilities/flexible-infrastructure.md) - Upstream
 
-Flexible Infrastructure, such as that using cloud services and containerization, supports Deployment Automation by allowing environments to be provisioned and configured automatically. Using technologies like virtualization and container orchestration makes it easier to automate deployments across different environments. Having a flexible infrastructure enhances deployment automation by enabling rapid scaling and consistent environment setups.
+Flexible Infrastructure, such as those using cloud services and/or containerization, supports Deployment Automation by allowing environments to be provisioned and configured automatically. Using technologies like virtualization and container orchestration makes it easier to automate deployments across different environments. Having a flexible infrastructure enhances deployment automation by enabling rapid scaling and consistent environment setups.
 
 ### [Continuous Delivery](/capabilities/continuous-delivery.md) - Downstream
 
