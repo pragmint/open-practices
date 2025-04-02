@@ -1,14 +1,14 @@
 # [Deployment Automation](https://dora.dev/capabilities/deployment-automation/)
 
-Deployment automation means teams can deploy software to testing and production environments with the push of a button. By automating the deployment process teams save time while reducing the risk of an outage. Teams that possess this capability experience more reliable, efficient, and frequent deployments, which enhances overall software delivery performance.
+Deployment automation means teams can deploy software to testing and production environments with the push of a button. By automating the deployment process, teams save time while reducing the risk of an outage. Teams that possess this capability experience more reliable, efficient, and frequent deployments, which enhances overall software delivery performance.
 
 ## Nuances
 
 This section outlines common pitfalls, challenges, or limitations teams commonly encounter when applying this capability. The goal here is not to discourage you. Rather, the goal is to arm you with the appropriate context so that you can make an informed decision about when and how to implement the capability with your teams.
 
-### Building Environment Specific Artifacts
+### Building Environment-specific Artifacts
 
-Software teams often rebuild their application separately for each environment (testing, staging, production), including environment-specific configurations. Repeated builds can introduce small differences, causing unexpected issues when deploying to production.
+Software teams often rebuild their application for each environment (testing, staging, production), including environment-specific configurations. Repeated builds can introduce small differences, causing unexpected issues when deploying to production.
 
 A better approach is to build the application **once**, creating a stable artifact that moves unchanged through all environments. The application dynamically loads configurations from standard, predefined locations. Each environment maintains its own clearly labeled and version-controlled configurations, ensuring consistent and error-free deployments.
 
