@@ -49,7 +49,7 @@ The following is a curated list of supporting practices to consider when looking
 
 Develop scripts that automate the entire deployment process, including environment preparation, package deployment, configuration, and post-deployment testing. By scripting these steps, you eliminate manual interventions and reduce the risk of human error. This leads to a repeatable and reliable deployment process that can be triggered with minimal effort, enhancing deployment speed and consistency.
 
-### Implement Infrastructure as Code
+### [Implement Infrastructure as Code](/practices/automate-infrastructure-management.md)
 
 Use Infrastructure as Code (IaC) tools to define and manage your infrastructure through code rather than manual processes. Tools like [Terraform](https://github.com/hashicorp/terraform) or [Pulumi](https://github.com/pulumi/) allow you to version control your infrastructure configurations and provision environments automatically. Embracing IaC ensures environments are consistent and can be re-created reliably, which enhances deployment automation and reduces configuration drift.
 

@@ -73,15 +73,11 @@ Maintaining a clean Git history ensures a clear and comprehensible project histo
 
 As systems and processes evolve, it's important to spend some time auditing your existing documentation to ensure it's accurate. Scheduling regular documentation audits ensures that documentation remains up-to-date and consistent with the codebase it describes. This practice better aligns documentation and software development, enhancing the overall quality and reliability of both the codebase and the supporting documents.
 
-### [Automate Infrastructure Management](/practices/automate-infrastructure-management.md)
-
-Automating infrastructure management ensures that infrastructure provisioning and configuration are reproducible and transparent as application code changes. This fosters better collaboration and consistency across development and operations teams.
-
 ### [Version Dependencies](/practices/version-dependencies.md)
 
 Version dependencies ensure dependencies are managed with the same diligence as source code. This practice enhances reproducibility, traceability, and consistency in software builds.
 
-### [Implement Infrastructure as Code]
+### [Implement Infrastructure as Code](/practices/automate-infrastructure-management.md)
 
 Use Infrastructure as Code (IaC) tools to define and manage your infrastructure through code rather than manual processes. Tools like [Terraform](https://github.com/hashicorp/terraform) or [Pulumi](https://github.com/pulumi/) allow you to version control your infrastructure configurations and provision environments automatically. Embracing IaC ensures environments are consistent and can be re-created reliably, which enhances version control and reduces configuration drift.
 
