@@ -81,6 +81,10 @@ Automating infrastructure management ensures that infrastructure provisioning an
 
 Version dependencies ensure dependencies are managed with the same diligence as source code. This practice enhances reproducibility, traceability, and consistency in software builds.
 
+### [Implement Infrastructure as Code]
+
+Use Infrastructure as Code (IaC) tools to define and manage your infrastructure through code rather than manual processes. Tools like [Terraform](https://github.com/hashicorp/terraform) or [Pulumi](https://github.com/pulumi/) allow you to version control your infrastructure configurations and provision environments automatically. Embracing IaC ensures environments are consistent and can be re-created reliably, which enhances version control and reduces configuration drift.
+
 ## Adjacent Capabilities
 
 The following capabilities will be valuable for you and your team to explore, as they are either:
