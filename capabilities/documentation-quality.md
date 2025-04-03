@@ -49,6 +49,10 @@ Implementing a documentation search engine enables team members to quickly find 
 
 As systems and processes evolve, it's important to spend some time auditing your existing documentation to ensure it's accurate. Scheduling regular documentation audits ensures that documentation remains up-to-date and consistent with the codebase it describes. This practice better aligns documentation and software development, enhancing the overall quality and reliability of both the codebase and the supporting documents.
 
+### Create Runbooks
+
+Runbooks provide step-by-step guidance that helps teams resolve issues quickly and consistently, especially during high-stress or time-sensitive situations. They reduce the need to rely on tribal knowledge, make onboarding easier, and ensure continuity when team members are unavailable. A good runbook is concise, action-oriented, and regularly updated based on real-world usage.
+
 ## Adjacent Capabilities
 
 The following capabilities will be valuable for you and your team to explore, as they are either:
