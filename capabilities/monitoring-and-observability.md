@@ -74,6 +74,6 @@ Monitoring and observability support security by identifying unusual patterns th
 
 Proactive Failure Notification relies heavily on robust monitoring and observability. By detecting potential failures early and notifying relevant stakeholders, this capability helps reduce downtime and prevent major outages, aligning well with observability goals.
 
-### [Monitoring Systems to Inform Business Decisions](/capabilities/monitoring-systems-to-inform-business-decisions.md) - Downstream
+### [Visual Management](/capabilities/visual-management.md) - Downstream
 
-Business dashboards often rely on data surfaced by monitoring systems. Metrics like user engagement, feature adoption, or system latency directly inform product and strategy decisions. The same infrastructure used to detect and debug outages can also help track business KPIs. Making observability data accessible to product managers, analysts, and executives bridges the gap between technical and business performance.
+Metrics like user engagement, feature adoption, or system latency can be transformed into visual displays that give the team actionable feedback at a glance. Monitoring provides the raw signals—visual management turns those signals into shared, always-visible cues that help the team spot issues, track improvements, and guide daily decisions.
