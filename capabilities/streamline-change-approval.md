@@ -33,6 +33,7 @@ The number you selected represents your overall score for this capability. If yo
 Generally, an overall score equal to or less than 3 means you'll likely gain a lot of value from experimenting with some of the supporting practices listed here. An overall score higher than 3 generally means you and your team are largely proficient, or well on your way to becoming proficient, in the area of Streamline Change Approval; you would likely benefit from evaluating your scores in other capabilities.
 
 ## Supporting Practices
+The following is a curated list of supporting practices to consider when looking to improve your team's Streamline Change Approval capability. While not every practice will be beneficial in every situation, this list is meant to provide teams with fresh, pragmatic, and actionable ideas to support this capability.
 
 ### [Run Pair Programming Sessions](/practices/run-pair-programming-sessions.md)
 
@@ -60,7 +61,7 @@ The following capabilities will be valuable for you and your team to explore, as
 
 ### [Continuous Integration](/capabilities/continuous-integration.md) - Downstream
 
-Streamlining Change Approval is required for Continuous Integration, as it involves frequently integrating code changes and automatically testing them. By streamlining change approvals, teams can detect issues early, supporting faster and more reliable code reviews.
+To continuously integrate changes, the approval process must be streamlined. A lengthy approval process increases the number and size of changes waiting to be merged. This creates a review bottleneck that makes continuous integration impractical.
 
 ### [Monitoring & Observability](/capabilities/monitoring-and-observability.md) - Upstream
 
