@@ -24,7 +24,7 @@ Avoid creating a single point of failure by relying on *one* observability exper
 
 ### Be Careful What You Automate
 
-Automation based on logs, alerts, and metrics can be a powerful way to reduce operational toil—auto-scaling, auto-healing, even auto-remediation of known failure modes. But automation adds its own complexity. If it’s based on noisy or poorly understood signals, it can trigger inappropriately and make a bad situation worse. Cascading failures often start with well-meaning automation responding to incomplete or misleading data. Before wiring automation to monitoring observability signals, make sure those signals are stable, well-tested, and truly reflective of system state.
+Automation based on logs, alerts, and metrics can be a powerful way to reduce operational toil: auto-scaling, auto-healing, even auto-remediation of known failure modes. But automation adds its own complexity. If it’s based on noisy or poorly understood signals, it can trigger inappropriately and make a bad situation worse. Cascading failures often start with well-meaning automation responding to incomplete or misleading data. Before wiring automation to monitoring observability signals, make sure those signals are stable, well-tested, and truly reflective of system state.
 
 ## Assessment
 To assess how mature your team or organization is in this capability, complete this short exercise.
@@ -69,6 +69,10 @@ Automate failure detection and rollback to reduce recovery time and minimize use
 ### Shadow Production with Traffic Replay
 
 Replay real, scrubbed production traffic in staging or testing environments to uncover and understand issues *before* they impact users. This approach mimics realistic load and usage patterns, helping surface problems that synthetic tests might miss. Monitoring and observability tooling can then be used to analyze anomalies, confirm fixes, or validate changes under near-production conditions. This practice is especially valuable for testing config changes, infrastructure updates, or edge cases that don’t appear in standard test suites.
+
+### Monitor and Optimize Resource Usage
+
+By actively monitoring resource usage, you can optimize performance, prevent outages, and control costs. Use monitoring tools and dashboards to gain real-time insights and set up alerts for unusual patterns. The benefit is a more efficient infrastructure that adapts to your organization's needs while minimizing waste.
 
 ## Adjacent Capabilities
 
