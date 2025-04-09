@@ -64,7 +64,7 @@ The following capabilities will be valuable for you and your team to explore, as
 - Upstream (they are a pre-requisite for Proactive Failure Notification)
 - Downstream (Proactive Failure Notification is a pre-requisite for them)
 
-### [Monitoring and Observability](https://dora.dev/capabilities/monitoring-and-observability/) - Upstream
+### [Monitoring and Observability](/capabilities/monitoring-and-observability.md) - Upstream
 
 Proactive failure notification relies heavily on robust monitoring and observability. In order for alerts to fire, they need the underlying monitoring tooling to be in place. Once an alert fires, for it to be useful, teams need observability tooling to understand the problem being alerted.
 
