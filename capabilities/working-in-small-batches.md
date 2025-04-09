@@ -1,10 +1,10 @@
 # [Working in Small Batches](https://dora.dev/capabilities/working-in-small-batches/)
 
-Working in small batches means delivering work in little, manageable increments. Think of "small batch" as smallest possible unit of value that can be tested and iterated upon. This means breaking down features into smaller, deployable increments that provide feedback and validate assumptions early. 
+Working in small batches means delivering work in little, manageable increments. Think of "small batch" as smallest possible unit of value that can be tested and iterated upon. This means breaking down features into smaller, deployable increments that provide feedback and validate assumptions early.
 
 Making many small changes may feel slower than a single large change. But extensive research -- including the DORA reports -- shows that teams that continuously refine and adapt based on real-world usage, rather than upfront assumptions and predictions, achieve faster lead times, higher deployment frequency, lower failure rates, and faster recovery times. Big changes can cause integration problems and delay error discovery, creating unpredictable hiccups. Even if the progress seems slower, making small changes helps teams learn faster, adjust easier, and maintain a steady pace.
 
-For example, consider a team building an internal expense reporting tool. Traditionally, they might spend months creating a complete system with receipt scanning, auto-categorization, and advanced approval workflows. A small-batch approach, however, begins with something simpler, like a basic form for entering expenses manually. After releasing this minimal version, the team might quickly learn that managing receipts is the main user frustration, prompting them to prioritize adding a straightforward upload feature next. Over time, they may discover features like auto-categorization or complex approvals aren't as critical as originally thought. 
+For example, consider a team building an internal expense reporting tool. Traditionally, they might spend months creating a complete system with receipt scanning, auto-categorization, and advanced approval workflows. A small-batch approach, however, begins with something simpler, like a basic form for entering expenses manually. After releasing this minimal version, the team might quickly learn that managing receipts is the main user frustration, prompting them to prioritize adding a straightforward upload feature next. Over time, they may discover features like auto-categorization or complex approvals aren't as critical as originally thought.
 
 ## Nuances
 
@@ -12,7 +12,7 @@ This section outlines common pitfalls, challenges, or limitations teams commonly
 
 ### Thoughtful, Collaborative Upfront Design
 
-Traditionally, software requirements are conceived by leaders or product specialists. The focus is usually on new features or functionality, covering all bells and whistles and all known edge cases. The ideas are presented to designers and developers who must then turn these dreams into reality. But dependencies, intertwined logic, and incorrect assumptions tend to surface during implementation. This workflow is not conducive to working in small batches. 
+Traditionally, software requirements are conceived by leaders or product specialists. The focus is usually on new features or functionality, covering all bells and whistles and all known edge cases. The ideas are presented to designers and developers who must then turn these dreams into reality. But dependencies, intertwined logic, and incorrect assumptions tend to surface during implementation. This workflow is not conducive to working in small batches.
 
 Breaking work into small, independently deliverable batches requires thoughtful upfront software design. Product, engineering, and design teams need to collaborate on requirements early and be willing to continually rethink designs and priorities throughout implementation.
 
@@ -25,6 +25,7 @@ Teams sometimes mistake “small batches” for “small tasks” without consid
 A narrow focus on small, immediate "tasks" can distract from the project's long-term objectives. It's important to balance the benefits of incremental work with broader strategic planning to ensure that all updates represent *meaningful contributions* to the project's overarching goals.
 
 ## Assessment
+
 To assess how mature your team or organization is in this capability, complete this short exercise.
 
 Consider the descriptions below and score yourself on the Working in Small Batches capability. Generally, score a 1 if this capability is limited or completely lacking from your team or organization, a 2 if it is basic and you feel there is a LOT of room for improvement, a 3 if it is mature and you feel there is some room for improvement, and a 4 if your team or organization is exemplary in the area of Working in Small Batches.
@@ -40,10 +41,9 @@ The number you selected represents your overall score for this capability. If yo
 
 Generally, an overall score equal to or less than 3 means you'll likely gain a lot of value from experimenting with some of the supporting practices listed here. An overall score higher than 3 generally means you and your team are largely proficient, or well on your way to becoming proficient, in the area of Working in Small Batches; you would likely benefit from evaluating your scores in other capabilities.
 
-
 ## Supporting Practices
-The following is a curated list of supporting practices to consider when looking to improve your team's Working in Small Batches capability. While not every practice will be beneficial in every situation, this list is meant to provide teams with fresh, pragmatic, and actionable ideas to support this capability.
 
+The following is a curated list of supporting practices to consider when looking to improve your team's Working in Small Batches capability. While not every practice will be beneficial in every situation, this list is meant to provide teams with fresh, pragmatic, and actionable ideas to support this capability.
 
 ### Target an MVP
 
