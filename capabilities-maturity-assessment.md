@@ -148,8 +148,8 @@ To improve in a capability, navigate to its page by either clicking on its title
 
 1. **Manual and Gatekeeping:** Changes require manual approval from a centralized Change Advisory Board (CAB) or external reviewers, creating a bottleneck and slowing down the delivery process.
 2. **Peer-Reviewed and Coordinated:** Changes are manually verified, reviewed, and subsequently approved by peers. Changes require high levels of coordination when they affect multiple teams. It usually takes close to a week or more to get approval.
-3. **Automated and Efficient:** Changes are reviewed and approved through a mix of automated and manual processes, with peer review still in place, but with more efficient coordination and faster approval times. When approval for changes are required, feedback is typically provided within a day or two.
-4. **Streamlined Change Approval:** The high level of automation significantly reduces, and in some cases eliminates, the burden of peer review. A Change Advisory Board (CAB) may still exist, but their role is to simply advise and facilitate important discussions. When approval for changes are required, feedback is typically provided in under 24 hours.
+3. **Semi-automated and Efficient:** Changes are reviewed and approved through a mix of automated and manual processes, with peer review still in place. Coordination is more efficient and approval times are faster. When change approval is required, feedback is typically provided within a day or two.
+4. **Streamlined:** The high level of automation in change approvals significantly reduces, and in some cases eliminates, the burden of peer review. A Change Advisory Board (CAB) may still exist, but their role is to simply advise and facilitate important discussions. When change approval is required, feedback is typically provided in under 24 hours.
 
 ### [Trunk-Based Development](/capabilities/trunk-based-development.md)
 
