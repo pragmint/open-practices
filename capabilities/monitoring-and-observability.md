@@ -1,8 +1,8 @@
 # [Monitoring and Observability](https://dora.dev/capabilities/monitoring-and-observability/)
 
-*Monitoring* your system means tracking predefined metrics and alerting you when known issues occur, like high latency or error rates. It tells you that something is wrong in your system, but not why. 
+*Monitoring* your system means tracking predefined metrics and alerting you when known issues occur, like high latency or error rates. It tells you that something is wrong in your system, but not why.
 
-*Observability* lets you explore system behavior in real time to understand unknown or unexpected failures. It gives you flexibility and context to debug complex issues you didn’t anticipate in advance. 
+*Observability* lets you explore system behavior in real time to understand unknown or unexpected failures. It gives you flexibility and context to debug complex issues you didn’t anticipate in advance.
 
 Given these two concepts are so closely related, it's common for teams to set up systems that use monitoring and observability together.
 
@@ -16,7 +16,7 @@ This section outlines common pitfalls, challenges, or limitations teams commonly
 
 ### Don't Let Tooling Sit On The Shelf
 
-Having monitoring and observability tools in place is just the beginning. What matters is how you use them. Teams often invest in dashboards, log aggregators, and tracing systems, only to let them sit idle or use them during major incidents. The real value of these tools emerges when teams actively use these tools during everyday development, incident reviews, and performance tuning. 
+Having monitoring and observability tools in place is just the beginning. What matters is how you use them. Teams often invest in dashboards, log aggregators, and tracing systems, only to let them sit idle or use them during major incidents. The real value of these tools emerges when teams actively use these tools during everyday development, incident reviews, and performance tuning.
 
 ### Everyone Should Be Empowered To Use This Tooling
 
@@ -27,6 +27,7 @@ Avoid creating a single point of failure by relying on *one* observability exper
 Automation based on logs, alerts, and metrics can be a powerful way to reduce operational toil: auto-scaling, auto-healing, even auto-remediation of known failure modes. But automation adds its own complexity. If it’s based on noisy or poorly understood signals, it can trigger inappropriately and make a bad situation worse. Cascading failures often start with well-meaning automation responding to incomplete or misleading data. Before wiring automation to monitoring observability signals, make sure those signals are stable, well-tested, and truly reflective of system state.
 
 ## Assessment
+
 To assess how mature your team or organization is in this capability, complete this short exercise.
 
 Consider the descriptions below and score yourself on the Monitoring and Observability capability. Generally, score a 1 if monitoring and observability is limited, a 2 if it is basic and you feel there is a LOT of room for improvement, a 3 if it is comprehensive and you feel there is some room for improvement, and a 4 if your team or organization is exemplary in the area of Monitoring and Observability.
