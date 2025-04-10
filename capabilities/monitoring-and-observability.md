@@ -102,3 +102,7 @@ Proactive failure notification relies heavily on robust monitoring and observabi
 ### [Visual Management](/capabilities/visual-management.md) - Downstream
 
 Metrics like user engagement, feature adoption, or system latency can be transformed into visual displays that give the team actionable feedback at a glance. Monitoring provides the raw signals. Visual Management turns those signals into accessible cues that help the team spot issues, track improvements, and guide daily decisions.
+
+### [Monitoring Systems to Inform Business Decisions](/capabilities/monitoring-systems-to-inform-business-decisions.md) - Downstream
+
+Monitoring and Observability provide the data and platforms that inform business decisions. Without reliable signals from production systems, it’s difficult to measure user behavior, system impact, or the success of new features.
