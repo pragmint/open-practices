@@ -105,4 +105,4 @@ Metrics like user engagement, feature adoption, or system latency can be transfo
 
 ### [Monitoring Systems to Inform Business Decisions](/capabilities/monitoring-systems-to-inform-business-decisions.md) - Downstream
 
-Monitoring and Observability provide the data and platforms that inform business decisions. Without reliable signals from production systems, it’s difficult to measure user behavior, system impact, or the success of new features.
+Monitoring and Observability provide the data and platforms that inform sound business decision making. Without reliable signals from production systems, it’s difficult to measure user behavior, system impact, or the success of new features.
