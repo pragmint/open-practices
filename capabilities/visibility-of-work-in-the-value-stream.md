@@ -42,6 +42,7 @@ Efforts to improve efficiency in areas that are *not* bottlenecks may have minim
 Participants in visibility initiatives often lack the authority to implement necessary changes. When participants lack decision-making power, these efforts can stall, making it harder to achieve the desired future state. Successfully implementing changes related to workflow visibility requires both high-level support and autonomy to act on findings.
 
 ## Assessment
+
 To assess how mature your team or organization is in this capability, complete this short exercise.
 
 Consider the descriptions below and score yourself on the Visibility of Work in the Value Stream capability. Generally, score a 1 if this capability is limited or completely lacking from your team or organization, a 2 if it is basic and you feel there is a LOT of room for improvement, a 3 if it is mature and you feel there is some room for improvement, and a 4 if your team or organization is exemplary in the area of Visibility of Work in the Value Stream.
