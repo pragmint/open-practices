@@ -61,3 +61,7 @@ These two capabilities are closely related but serve different purposes in impro
 ### [Monitoring and Observability](/capabilities/monitoring-and-observability.md) - Upstream
 
 Metrics like user engagement, feature adoption, or system latency can be transformed into visual displays that give the team actionable feedback at a glance. Monitoring provides the raw signals. Visual Management turns those signals into accessible cues that help the team spot issues, track improvements, and guide daily decisions.
+
+### [Monitoring Systems to Inform Business Decisions](/capabilities/monitoring-systems-to-inform-business-decisions.md) - Downstream
+
+Visual Management makes monitoring data easy to see and understand. It helps teams and stakeholders quickly spot what’s working, what’s broken, and what needs attention. Without clear visuals, important trends or problems can get missed. When monitoring data is shown in simple, useful ways—like dashboards or wall boards—it becomes much easier to use it to make good business decisions.
