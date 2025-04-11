@@ -59,6 +59,10 @@ Generally, an overall score equal to or less than 3 means you'll likely gain a l
 
 The following is a curated list of supporting practices to consider when looking to improve your team's Code Maintainability capability. While not every practice will be beneficial in every situation, this list is meant to provide teams with fresh, pragmatic, and actionable ideas to support this capability.
 
+### Consolidate Code Patterns
+
+Pick a single, preferred way to handle common tasks like data access, error handling, configuration, or validation. The aim isn’t to lock things down entirely; rather this practice is meant to reduce variation where it adds little value. Fewer patterns means less mental overhead, fewer bugs, and easier onboarding. It also makes automated testing, refactoring, and documentation more straightforward. When exceptions are needed, they should be intentional and well justified; not just the result of personal preference or copy-paste drift.
+
 ### [Automate Coding Standards](/practices/automate-coding-standards.md)
 
 Automating coding standards involves using tools and processes to automatically enforce coding standards, style guides, and other best practices during the coding phase.
