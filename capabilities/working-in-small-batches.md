@@ -1,16 +1,16 @@
 # [Working in Small Batches](https://dora.dev/capabilities/working-in-small-batches/)
 
-Working in small batches means delivering work in little, manageable increments. Think of "small batch" as smallest possible unit of value that can be tested and iterated upon. This means breaking down features into smaller, deployable increments that provide feedback and validate assumptions early.
+Working in small batches means delivering work in little, manageable increments. Think of a "small batch" as the smallest possible unit of value that can be tested and iterated upon. This means breaking down features into smaller, deployable increments that provide feedback and validate assumptions early.
 
-Making many small changes may feel slower than a single large change. But extensive research -- including the DORA reports -- shows that teams that continuously refine and adapt based on real-world usage, rather than upfront assumptions and predictions, achieve faster lead times, higher deployment frequency, lower failure rates, and faster recovery times. Big changes can cause integration problems and delay error discovery, creating unpredictable hiccups. Even if the progress seems slower, making small changes helps teams learn faster, adjust easier, and maintain a steady pace.
+Making many small changes may feel slower than making a single large change. But extensive research -- including the DORA reports -- shows that teams that continuously refine and adapt based on real-world usage, rather than upfront assumptions and predictions, achieve faster lead times, higher deployment frequency, lower failure rates, and faster recovery times. Big changes can cause integration problems and delay error discovery, creating unpredictable hiccups. Even if the progress seems slower, making small changes helps teams learn faster, adjust easier, and maintain a steady pace.
 
-For example, consider a team building an internal expense reporting tool. Traditionally, they might spend months creating a complete system with receipt scanning, auto-categorization, and advanced approval workflows. A small-batch approach, however, begins with something simpler, like a basic form for entering expenses manually. After releasing this minimal version, the team might quickly learn that managing receipts is the main user frustration, prompting them to prioritize adding a straightforward upload feature next. Over time, they may discover features like auto-categorization or complex approvals aren't as critical as originally thought.
+Consider a team that is building an expense-reporting tool. Instead of spending months on advanced features, they quickly launch simple forms to manually enter expenses. Users gain immediate value from this basic version. Early feedback might show that receipt uploads are crucial, prompting quick improvements. If early users rarely mention or request features like complex auto-tagging, then the team quickly recognizes these aren't critical to the immediate user experience; they learn that they can postpone or skip them entirely. By regularly delivering small improvements, teams avoid wasted effort and consistently meet real user needs. This is just like investing small amounts of money regularly, throughout the year, rather than waiting to invest a large sum once a year.
 
 ## Nuances
 
 This section outlines common pitfalls, challenges, or limitations teams commonly encounter when applying this capability. The goal here is not to discourage you. Rather, the goal is to arm you with the appropriate context so that you can make an informed decision about when and how to implement the capability with your teams.
 
-### Thoughtful, Collaborative Upfront Design
+### Trickle-down Design
 
 Traditionally, software requirements are conceived by leaders or product specialists. The focus is usually on new features or functionality, covering all bells and whistles and all known edge cases. The ideas are presented to designers and developers who must then turn these dreams into reality. But dependencies, intertwined logic, and incorrect assumptions tend to surface during implementation. This workflow is not conducive to working in small batches.
 
@@ -47,11 +47,11 @@ The following is a curated list of supporting practices to consider when looking
 
 ### Target an MVP
 
-Start with defining a clear Minimum Viable Product (MVP). This is the simplest version of a product or feature that delivers value to users and allows the team to gather actionable feedback quickly. Focus on identifying core user needs, then work in small batches to deliver on just those. A good MVP should be achievable quickly, typically within weeks rather than months, to ensure rapid feedback.
+Start with defining a clear Minimum Viable Product (MVP). This is the simplest version of a product or feature that delivers value to users and allows the team to gather actionable feedback quickly — typically within weeks rather than months. Focus on identifying core user needs, then use the feedback to add small layers of improvements on top of the MVP.
 
-### Run a Story-Splitting Workshop
+### Run a Story-splitting Workshop
 
-Hold sessions to break down user stories into smaller, independently valuable increments. Teams can practice decomposing features into smaller, more manageable chunks that can be delivered quickly. This will likely push teams out of their comfort zone and open their minds to a new way of thinking about slicing work.
+Hold sessions that give teams an opportunity to practice decomposing features and break down user stories into small, independently valuable increments. This will likely push teams out of their comfort zone. But it's *good* to push teams to slice too much -- it's useful to know what "too much" looks like. Without opening their minds to new ways of slicing work, teams can easily revert to the original scope.
 
 ### Instrument Your System With Telemetry
 
