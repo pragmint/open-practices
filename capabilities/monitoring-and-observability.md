@@ -83,7 +83,7 @@ The following capabilities will be valuable for you and your team to explore, as
 - Upstream (they are a pre-requisite for Monitoring and Observability)
 - Downstream (Monitoring and Observability is a pre-requisite for them)
 
-### [Deployment Automation](/capabilities/deployment-automation.md) - Related
+### [Deployment Automation](/capabilities/deployment-automation.md) - Downstream
 
 Monitoring and observability play a key role in deployment automation. Automated rollouts can be configured to watch for key health metrics, error rates, or latency changes. If something starts to go wrong, observability data enables automated rollback or halts to minimize user impact. Integrating monitoring directly into deployment pipelines helps detect regressions quickly and allows teams to deliver continuously with confidence.
 
