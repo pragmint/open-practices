@@ -16,7 +16,7 @@ Dashboards don’t drive behavior -- people do. If a metric isn’t meaningful t
 
 ### Ensure Tools Are Simple and Actionable
 
-The power of visual management lies in what you don’t need to explain. If a display takes more than a few seconds to understand, it’s not helping. Good visualizations surface tension in the system and point to next steps without adding friction or noise.
+The power of visual management lies in what you don’t need to explain. If a display takes more than a few seconds to understand, it’s not helping. It's common for dashboards to collect dust, partly because their utility is unclear or complicated. Good visualizations surface tension in the system and point to next steps without adding friction or noise.
 
 ### Evolve Visual Displays Regularly
 
@@ -81,4 +81,4 @@ Monitored metrics like user engagement, feature adoption, or system latency can 
 
 ### [Monitoring Systems to Inform Business Decisions](/capabilities/monitoring-systems-to-inform-business-decisions.md) - Downstream
 
-Visual Management makes monitoring data easy to see and understand. It helps teams and stakeholders quickly spot what’s working, what’s broken, and what needs attention. Without clear visuals, important trends or problems can get missed. When monitored data is shown in simple, useful ways -- like dashboards or kanban boards -- it has a greater impact on business decisions.
+Visual Management makes monitoring data easy to see and understand. It helps teams and stakeholders quickly spot what’s working, what’s broken, and what needs attention. Without clear visuals, important trends or problems can get missed. When monitoring data is shown in simple, useful ways -- like dashboards or kanban boards -- it has a greater impact on business decisions.
