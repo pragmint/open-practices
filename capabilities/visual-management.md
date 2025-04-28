@@ -8,7 +8,7 @@ This section outlines common pitfalls, challenges, or limitations teams commonly
 
 ### Systems-level Constraints Get Ignored
 
-When a board shows a failing build, high WIP, or missed throughput goals, it’s a signal, not a root cause. The mistake comes when teams treat that signal as the full story and rush to solve for the symptom without asking why the issue occurred in the first place. Ensure the deeper, systems-level root causes aren't overlooked. 
+When a board shows a failing build, high WIP, or missed throughput goals, it’s a signal, not a root cause. The mistake comes when teams treat that signal as the full story and rush to solve for the symptom without asking why the issue occurred in the first place. Ensure the deeper, systems-level root causes aren't overlooked.
 
 ### If Teams Don’t Choose It, They Won’t Use It
 
@@ -77,7 +77,7 @@ These two capabilities are closely related but serve different purposes in impro
 
 ### [Monitoring and Observability](/capabilities/monitoring-and-observability.md) - Upstream
 
-Monitored metrics like user engagement, feature adoption, or system latency can be transformed into visual displays that give the team actionable feedback at a glance. Monitoring provides the raw signals. Visual Management then turns those signals into actionable cues that help the team spot issues, track improvements, and guide daily decisions.
+Metrics like user engagement, feature adoption, or system latency can be transformed into visual displays that give the team actionable feedback at a glance. Monitoring provides the raw signals. Visual Management then turns those signals into actionable cues that help the team spot issues, track improvements, and guide daily decisions.
 
 ### [Monitoring Systems to Inform Business Decisions](/capabilities/monitoring-systems-to-inform-business-decisions.md) - Downstream
 
