@@ -4,13 +4,13 @@ Monitoring isn’t just about uptime -- it’s about insight. The real power of 
 
 Every system emits data: response times, errors, user behavior. But these aren’t just technical metrics; they're proxies for customer experience, revenue, cost, and product impact.
 
-When you use metrics to inform business decisions, the question shifts from simply *What’s happening?* to *What does it mean?* Why aren't users adopting our latest feature? Where are we leaking revenue? Which investments are actually moving the needle? These questions can be answered when the data is available, accessible, and analyzed properly. 
+When you use metrics to inform business decisions, the question shifts from simply *What’s happening?* to *What does it mean?* Why aren't users adopting our latest feature? Where are we leaking revenue? Which investments are actually moving the needle? These questions can be answered when the data is available, accessible, and analyzed properly.
 
 When teams frame monitoring around business questions, data becomes a tool for learning, not just for observing daily operations. This shift encourages hypotheses, fuels iteration, and ties technical work to customer value.
 
 Monitoring also shortens the feedback loop. Insights from operations or support flow upstream to dev and product, enabling checks on earlier decisions and faster course-correction. Start with business goals, then instrument your systems to ask, and answer, *the right questions*. Make insights accessible, relevant, and timely for all stakeholders.
 
-Monitoring done well turns noise into narrative and day-to-day visibility into strategic clarity. 
+Monitoring done well turns noise into narrative and day-to-day visibility into strategic clarity.
 
 ## Nuances
 
@@ -32,7 +32,7 @@ Consider the descriptions below and score yourself on this capability. Generally
 
 Don't worry if the description doesn't exactly match your situation. These descriptions are meant to be examples of situations that would qualify for the associated score.
 
-1. **Ad-hoc Monitoring:** Monitoring is done on an as-needed basis, with little formal process or visibility into system performance. Data is not used to inform business decisions. 
+1. **Ad-hoc Monitoring:** Monitoring is done on an as-needed basis, with little formal process or visibility into system performance. Data is not used to inform business decisions.
 2. **Basic Monitoring:** Some monitoring data is collected and reported, but it is not regularly used to inform business decisions.
 3. **Mature Monitoring:** Monitoring data is regularly collected and used to inform business decisions, but there is room for improvement in terms of data quality and scope.
 4. **Strategic Monitoring:** Monitoring is a key part of the organization's strategy, with high-quality data collected and used to drive business decisions and optimize system performance.
