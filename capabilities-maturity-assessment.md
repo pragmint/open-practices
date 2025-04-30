@@ -226,9 +226,9 @@ To improve in a capability, navigate to its page by either clicking on its title
 ### [Proactive Failure Notification](/capabilities/proactive-failure-notification.md)
 
 1. **No Notifications:** There is no automated system of notifying teams that a failure has occurred in deployed environments. Failures are typically caught via manual QA or reported by users.
-2. **Rudimentary Alerting:** Some alerting rules are in place, but thresholds are not well-defined, and notifications are often irrelevant or too frequent.
-3. **Threshold-Based Alerting:** Alerting rules are well-defined, with thresholds set to predict potential issues, and notifications are relevant and timely.
-4. **Proactive Notification:** Proactive notification is deeply integrated into the development and operations process, with automated responses to notifications, and continuous review and refinement of alerting rules to anticipate and prevent failures.
+2. **Rudimentary Notifications:** Some alerting rules are in place, but thresholds are not well-defined. Notifications are often irrelevant or too frequent.
+3. **Threshold-based Notifications:** Alerting rules are well-defined, with failure thresholds tuned to accurately spot issues. Notifications are relevant and timely.
+4. **Proactive Notification:** Rate of change metrics are tracked to proactively spot potential issues. There are automated responses to many notifications, and teams continuously review and refine alerting rules to anticipate and prevent failures.
 
 ### [Test Automation](/capabilities/test-automation.md)
 

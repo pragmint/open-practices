@@ -20,7 +20,7 @@ If alert thresholds are set wrong, they can either trigger too many alerts or mi
 
 Alerts need to go to the right people. If they’re sent to the wrong team, or to no one at all, fixing the problem can take much longer. This often happens when alert rules don’t match how teams are set up or haven’t been updated after team changes. To ensure notifications aren't sent into the ether, make sure alert routing is kept up-to-date with who’s actually responsible for what. It also helps to double-check that teams know which alerts they’ll get and how they’re expected to respond.
 
-### Automation Based on Unstable Signals 
+### Automation Based on Unstable Signals
 
 Automation based on alerts can be a powerful way to reduce operational toil: auto-scaling, auto-healing, even auto-remediation of known failure modes. But automation adds its own complexity. If it’s based on noisy or poorly understood signals, it can trigger inappropriately and make a bad situation worse. Cascading failures often start with a well-meaning automation responding to incomplete or misleading data. Before wiring automation to observability signals, make sure those signals are stable, well-tested, and truly reflective of system state.
 
@@ -38,8 +38,8 @@ Don't worry if the description doesn't exactly match your situation. These descr
 
 1. **No Notifications:** There is no automated system of notifying teams that a failure has occurred in deployed environments. Failures are typically caught via manual QA or reported by users.
 2. **Rudimentary Notifications:** Some alerting rules are in place, but thresholds are not well-defined. Notifications are often irrelevant or too frequent.
-3. **Threshold-based Notifications:** Alerting rules are well-defined, with thresholds set to predict potential issues. Notifications are relevant and timely.
-4. **Proactive Notification:** Proactive notification is deeply integrated into the development and operations process. There are automated responses to notifications, and teams continuously review and refine alerting rules to anticipate and prevent failures.
+3. **Threshold-based Notifications:** Alerting rules are well-defined, with failure thresholds tuned to accurately spot issues. Notifications are relevant and timely.
+4. **Proactive Notification:** Rate of change metrics are tracked to proactively spot potential issues. There are automated responses to many notifications, and teams continuously review and refine alerting rules to anticipate and prevent failures.
 
 The number you selected represents your overall score for this capability. If you feel like your team or organization fits somewhere in between two scores, it's okay to use a decimal. For example, if you think your team or organization has somewhere between basic and mature notifications, then you would score a 2.5.
 
@@ -71,7 +71,7 @@ Review and adjust alerts, and the thresholds that trigger them, periodically to 
 
 ### Host Incident Post-Mortems
 
-Hold detailed post-mortem sessions after each incident to identify unmonitored indicators that could have predicted the event. Incorporate these indicators into future monitoring strategies. Post-mortems also provide an opportunity to ensure notification routing is current and that teams know what's expeted of them. 
+Hold detailed post-mortem sessions after each incident to identify unmonitored indicators that could have predicted the event. Incorporate these indicators into future monitoring strategies. Post-mortems also provide an opportunity to ensure notification routing is current and that teams know what's expeted of them.
 
 ## Adjacent Capabilities
 
