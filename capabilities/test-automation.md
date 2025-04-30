@@ -12,6 +12,11 @@ This section outlines common pitfalls, challenges, or limitations teams commonly
 
 In some organizations, test automation is sometimes undervalued due to gaps in awareness or experience with effective test design. Code that is structured for testability is often easier to maintain and higher quality, but developing the skill to write such code takes time and practice. According to DORA's findings, teams that value automated, developer-led testing experience less friction in the testing process and benefit from higher overall performance.
 
+### Testing Is A Whole Team Responsibility
+
+Testing is a shared responsibility and a core part of the development process—not a gate at the end.
+High-performing teams treat testing as a first-class activity that spans design, development, and delivery. While QA specialists bring deep expertise in test strategy and exploratory testing, developers own the quality of their code and maintain comprehensive automated test suites. Product managers and designers contribute by ensuring that critical user journeys and edge cases are clearly defined, prioritized, and testable. Rather than silo testing within QA, the entire team collaborates to catch issues early, reduce feedback loops, and build confidence in every release. The goal isn't just to prevent defects—it's to create a culture where quality is baked in from the start.
+
 ### Automation Isn't Meant To Replace Manual Testing
 
 Test automation is _not_ a substitute for manual testing. Rather, automated testing _complements_ manual testing. It helps reduce the repetitive and time-consuming aspects of manually verifying system correctness. Each test carries its own cost-benefit ratio, and attempting to cover 100% of a system with automation can lead to high maintenance costs and, at times, a false sense of security. Instead, the team's focus should be on automating routine checks and creating automated tests that catch critical bugs early, reserving manual testing for more exploratory and edge-case scenarios.
