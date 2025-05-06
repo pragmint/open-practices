@@ -10,7 +10,7 @@ This section outlines common pitfalls, challenges, or limitations teams commonly
 
 ### Alert Fatigue
 
-In an ideal scenario, teams only receive alerts when the system identifies an issue, or potential issue, and either takes corrective action or seeks immediate human intervention. Teams aren't alerted about ocassional, non-systemic issues like timeouts because there's no action required. Often, the system has automatically tried to resolve the issue. 
+In an ideal setup, alerts are only sent when the system detects an issue (or an elevated risk of one) and either takes corrective action or calls for human intervention. Teams aren't alerted about transient and non-systemic issues like timeouts, because there's no action required.
 
 When teams get too many alerts, they can start to ignore them or take longer to respond. This can lead to missed problems or slower fixes when something actually does go wrong. To avoid this, alerts should be set up carefully so that only the most important and immediately actionable ones get sent.
 
@@ -20,11 +20,11 @@ If alert thresholds are set incorrectly, they can either trigger too many alerts
 
 ### Incorrect Notification Routing
 
-Alerts need to go to the right people. If alerts are sent to the wrong team, or to no one at all, fixing the problem can take much longer. This often happens when alert rules don’t match how teams are set up or haven’t been updated after teams change. On the other hand, if alerts are sent to a single place where a lot of people see them, this can create a dangerous "not my problem" attitude. 
+Alerts need to go to the right people. If alerts are sent to the wrong team, or to no one at all, fixing the problem can take much longer. This often happens when alert rules don’t match how teams are set up or haven’t been updated after teams change. On the other hand, if alerts are sent to a single place where a lot of people see them, this can create a dangerous "not my problem" attitude.
 
 To ensure notifications are sent to the correct teams and individuals, make sure alert routing is kept up-to-date with who’s actually responsible for what. It also helps to double-check that teams know which alerts they’ll get and how they’re expected to respond.
 
-### Potential Cascading Effects of Automation 
+### Potential Cascading Effects of Automation
 
 Automation based on alerts can be a powerful way to reduce operational toil: auto-scaling, auto-healing, even auto-remediation of known failure modes. But automation adds its own complexity. If it’s based on noisy or poorly understood signals, it can trigger inappropriately and make a bad situation worse. Cascading failures often start with a well-meaning automation responding to incomplete or misleading data. Before wiring automation to observability signals, make sure those signals are stable, well-tested, and truly reflective of system state.
 
@@ -59,7 +59,7 @@ By instrumenting key parts of your application with telemetry data, teams gain r
 
 ### Implement Symptom-Based Alerts
 
-Design alerts that focus on visible, or predicted, user-facing symptoms. Issues that don't cause user-facing symptoms shouldn't fire alerts. This helps reduce unnecessary noise and ensures that the most critical issues that impact users — whether they be internal or external — receive prompt attention. By focusing on user-facing symptoms, teams can better prioritize responses, improving the mean time to restore (MTTR).
+Prioritize alerting on issues that either impact users directly or are strong indicators of future user impact. Avoid alerting on low-risk, self-healing, or purely internal anomalies unless they threaten to escalate. This helps reduce noise and ensures that teams focus their attention on incidents that matter most. By aligning alerts with user impact, teams can respond more effectively and improve mean time to restore (MTTR).
 
 ### Automate Failure Detection and Rollback
 
