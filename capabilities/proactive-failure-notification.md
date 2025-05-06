@@ -10,17 +10,21 @@ This section outlines common pitfalls, challenges, or limitations teams commonly
 
 ### Alert Fatigue
 
-When teams get too many alerts, they can start to ignore them or take longer to respond. This can lead to missed problems or slower fixes when something goes wrong. To avoid this, alerts should be set up carefully so that only the most important and immediately actionable ones get sent.
+In an ideal scenario, teams only receive alerts when the system identifies an issue, or potential issue, and either takes corrective action or seeks immediate human intervention. Teams aren't alerted about ocassional, non-systemic issues like timeouts because there's no action required. Often, the system has automatically tried to resolve the issue. 
+
+When teams get too many alerts, they can start to ignore them or take longer to respond. This can lead to missed problems or slower fixes when something actually does go wrong. To avoid this, alerts should be set up carefully so that only the most important and immediately actionable ones get sent.
 
 ### Misconfigured Thresholds
 
-If alert thresholds are set wrong, they can either trigger too many alerts or miss real problems. When thresholds are too strict, teams might get alerts for things that aren't serious issues. If they’re too relaxed, they might not catch issues early enough (or at all). Reviewing past incidents and checking system data regularly can help keep thresholds set at the right level.
+If alert thresholds are set incorrectly, they can either trigger too many alerts or miss real problems. When thresholds are too strict, teams might get alerts for things that aren't serious issues. When thresholds are too relaxed, teams might not catch issues early enough (or at all). Reviewing past incidents and checking system data regularly can help keep thresholds set at the right level.
 
 ### Incorrect Notification Routing
 
-Alerts need to go to the right people. If they’re sent to the wrong team, or to no one at all, fixing the problem can take much longer. This often happens when alert rules don’t match how teams are set up or haven’t been updated after team changes. To ensure notifications aren't sent into the ether, make sure alert routing is kept up-to-date with who’s actually responsible for what. It also helps to double-check that teams know which alerts they’ll get and how they’re expected to respond.
+Alerts need to go to the right people. If alerts are sent to the wrong team, or to no one at all, fixing the problem can take much longer. This often happens when alert rules don’t match how teams are set up or haven’t been updated after teams change. On the other hand, if alerts are sent to a single place where a lot of people see them, this can create a dangerous "not my problem" attitude. 
 
-### Automation Based on Unstable Signals
+To ensure notifications are sent to the correct teams and individuals, make sure alert routing is kept up-to-date with who’s actually responsible for what. It also helps to double-check that teams know which alerts they’ll get and how they’re expected to respond.
+
+### Potential Cascading Effects of Automation 
 
 Automation based on alerts can be a powerful way to reduce operational toil: auto-scaling, auto-healing, even auto-remediation of known failure modes. But automation adds its own complexity. If it’s based on noisy or poorly understood signals, it can trigger inappropriately and make a bad situation worse. Cascading failures often start with a well-meaning automation responding to incomplete or misleading data. Before wiring automation to observability signals, make sure those signals are stable, well-tested, and truly reflective of system state.
 
@@ -55,11 +59,11 @@ By instrumenting key parts of your application with telemetry data, teams gain r
 
 ### Implement Symptom-Based Alerts
 
-Design alerts that focus on observable symptoms impacting users, rather than on broader root causes. This helps reduce unnecessary noise and ensures that the most critical, user-facing issues receive prompt attention. By focusing on symptoms, teams can better prioritize responses, improving the mean time to restore (MTTR).
+Design alerts that focus on visible, or predicted, user-facing symptoms. Issues that don't cause user-facing symptoms shouldn't fire alerts. This helps reduce unnecessary noise and ensures that the most critical issues that impact users — whether they be internal or external — receive prompt attention. By focusing on user-facing symptoms, teams can better prioritize responses, improving the mean time to restore (MTTR).
 
 ### Automate Failure Detection and Rollback
 
-Automate failure detection and rollback to reduce recovery time and minimize user impact. For example, if a deployment spikes error rates, automation can pause or revert it. Use reliable monitoring signals and add safeguards to prevent overcorrection. When thoughtfully applied, this boosts resilience and speeds up recovery.
+Automate failure detection and rollback to reduce recovery time and minimize user impact. For example, if a deployment spikes error rates, automation can pause or revert it. Use reliable monitoring signals and add safeguards to prevent overcorrection. Automation that is thoughtfully (not haphazardly) applied, boosts system resilience and speeds up recovery.
 
 ### Shadow Production with Traffic Replay
 
@@ -71,7 +75,7 @@ Review and adjust alerts, and the thresholds that trigger them, periodically to 
 
 ### Host Incident Post-Mortems
 
-Hold detailed post-mortem sessions after each incident to identify unmonitored indicators that could have predicted the event. Incorporate these indicators into future monitoring strategies. Post-mortems also provide an opportunity to ensure notification routing is current and that teams know what's expeted of them.
+Hold detailed post-mortem sessions after each incident to identify unmonitored indicators that could have predicted the event. Incorporate these indicators into future monitoring strategies. Post-mortems also provide an opportunity to ensure notification routing is current and that teams know what's expected of them.
 
 ## Adjacent Capabilities
 
