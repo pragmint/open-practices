@@ -2,15 +2,35 @@
 
 <start_replace>
 ```
-High-level description of practice.
+High-level, concise summary of practice. (~ 2-3 sentences)
 
-This should include three things: a simple definintion of the practice, a brief explanation of its subtleties, and a concise summary of potential benefits of using the practice.
-
-Try to keep the text brief, relatable, and motivational. Our audience wants a quick read. The writing style should be conversational, not academic; the details should be higher level (think overview or summary), not too technical.
+Keep the text brief, relatable, and motivating. Our audience wants a quick read. The writing style should be conversational, not academic or overly technical.
 ```
 <end_replace>
 
-## Nuance
+## Value Statement(s)
+
+<start_replace>
+```
+List the intended user(s) of this practice, the problem they're experiencing, and their end goal.  
+
+Here's a model to follow:
+
+"I am [role] and I need to [learn how to... ensure that...] so that I can [end goal]."
+
+Include this line as many times as needed to capture the different personas that may benefit from this practice. 
+
+To keep entries somewhat standardized, please select from the following personas: 
+    * Non-technical executive stakeholders
+    * Technical executive stakeholders 
+    * Developers 
+    * QA 
+    * Project managers 
+    * Product managers
+```
+<end_replace>
+
+## Nuances
 
 This section outlines common pitfalls, challenges, or limitations teams commonly encounter when applying this practice. The goal here is not to discourage you. Rather, the goal is to arm you with the appropriate context so that you can make an informed decision about when and how to implement the practice with your team(s).
 
@@ -39,6 +59,14 @@ Another example of a general practice is to Start a Book Club. In the Reduce Cou
 Generally applicable [resources](/resources/), such as videos and books, may be leveraged to support an action; make sure to link to them here. If the resource you have in mind is super specific to the practice, then you can include a link and brief description here.
 
 See the Gaining Traction section in [other practice pages](/practices/) for more examples.
+```
+<end_replace>
+
+## Success Criteria
+
+<start_replace>
+```
+How will the reader measure the impact/success of adopting this practice? Paint some pictures of what "done" looks like (since this will vary by team)? 
 ```
 <end_replace>
 
