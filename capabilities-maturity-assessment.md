@@ -251,7 +251,7 @@ To improve in a capability, navigate to its page by either clicking on its title
 1. **Mocked Data:** Automated tests rely on stubs and mocks for data setup, and don’t support complex integration-style testing.
 2. **Fragmented Static Data:** Integration style automated tests are supported, but rely on static test data that is often scattered across multiple sources. As a result, automated tests are difficult to maintain and update, and prone to failures when data is altered.
 3. **Scripted Data Seeding:** Automated tests use manual data seeding scripts to set up / tear down their data, but may not cover all production scenarios.
-4. **All Categories Of Automated Tests Are Supported:** In addition to supporting scripted data seeding, ephemeral environments are easily created and torn down. They can be seeded with production data that has sensitive information scrubbed from it, which enables advanced testing categories like:** performance, load, anomaly detection, etc.
+4. **All Categories Of Automated Tests Are Supported:** In addition to supporting scripted data seeding, ephemeral environments are easily created and torn down. They can be seeded with realistic synthetic data or production data that has sensitive information scrubbed from it, which enables advanced testing categories like:** performance, load, anomaly detection, etc.
 
 ### [Visibility of Work in the Value Stream](/capabilities/visibility-of-work-in-the-value-stream.md)
 
