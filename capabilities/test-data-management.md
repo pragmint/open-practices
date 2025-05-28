@@ -21,7 +21,7 @@ This section outlines common pitfalls, challenges, or limitations teams commonly
 
 ### Risks of Copying Production Data
 
-Copying production data or replaying production traffic in test environments can make tests feel realistic, but often introduces security risks. Even if you scrub sensitive information, mistakes still happen. You might miss a schema change or run into a bug in the scrubbing tool. Sometimes that's okay, but in other cases it's a serious problem. To stay safe, use clear data governance policies, double-check your scrubbing process, and use fake or synthetic data when the cost of a leak is high.
+Copying production data or replaying production traffic in test environments can make tests feel realistic, but often introduces security risks. Even if you scrub sensitive information, mistakes still happen. You might miss a schema change or run into a bug in the scrubbing tool. Sometimes that's okay, but in other cases it's a serious problem. To stay safe, use clear data standards, double-check your scrubbing process, and use fake or synthetic data when the cost of a leak is high.
 
 ### Outdated or Irrelevant Test Data
 
