@@ -1,6 +1,6 @@
 # [Test Data Management](https://dora.dev/capabilities/test-data-management/)
 
-High-performing teams implement a Test Data Management (TDM) strategy to ensure tests reliably confirm expected system behaviors. They achieve this by making relevant and realistic test data readily available to the teams that need it. When test data is reliable, teams can confidently release high-quality software at a faster pace.
+High-performing teams implement a Test Data Management (TDM) strategy to ensure tests can reliably confirm expected system behaviors. They achieve this by making relevant and realistic test data readily available to the teams that need it. When test data is reliable, teams can confidently release high-quality software at a faster pace.
 
 There are many different types of tests — unit, integration, end-to-end, performance, exploratory, security, regression, and so on. An effective TDM strategy considers the type of test, the specific context of each test environment, and the data requirements unique to the software being tested.
 
@@ -21,7 +21,7 @@ This section outlines common pitfalls, challenges, or limitations teams commonly
 
 ### Risks of Copying Production Data
 
-Copying production data or replaying production traffic in test environments can make tests feel realistic, but often introduces security risks. Even if you scrub sensitive information, mistakes still happen. You might miss a schema change or run into a bug in the scrubbing tool. Sometimes that's okay, but in other cases it's a serious problem. To stay safe, use clear data standards, double-check your scrubbing process, and use fake or synthetic data when the cost of a leak is high.
+Copying production data or replaying production traffic in test environments can make tests more realistic, but can increase security risks. Even if you scrub sensitive information, mistakes still happen. You might miss a schema change or run into a bug in the scrubbing tool. Sometimes that's okay, but in other cases it's a serious problem. To stay safe, use clear data standards, double-check your scrubbing process, and use fake or synthetic data when the cost of a miss is high.
 
 ### Outdated or Irrelevant Test Data
 
@@ -29,7 +29,7 @@ Test data becomes stale for many reasons: leftover data from test runs, time-sen
 
 ### Test Data Not Isolated
 
-Sharing test data across tests or environments often leads to inconsistent results, especially during parallel runs. For example, if multiple tests rely on the same user account, simultaneous access can introduce conflicts that real users wouldn’t encounter. Debugging becomes harder and test flakiness increases when test data isn't properly isolated. To ensure your test data is most reliabile, each test should generate and manage its own isolated data as part of its setup.
+Sharing test data across tests or environments often leads to inconsistent results, especially during parallel runs. For example, if multiple tests rely on the same user account, simultaneous access can introduce conflicts that real users wouldn’t encounter. Debugging becomes harder and test flakiness increases when test data isn't properly isolated. To ensure your test data is most reliable, each test should generate and manage its own isolated data as part of its setup.
 
 ## Assessment
 
@@ -67,7 +67,7 @@ When teams run tests against an in-memory database, execution quickens, they don
 
 ### [Create and Manage Ephemeral Environments](/practices/create-and-manage-ephemeral-environments.md)
 
-Ephemeral environments are isolated, production-like spaces that can be spun up on demand. Each environment starts with a clean state — teams generate, load, and reset data without affecting others. This reduces test flakiness, ensures consistent results, and supports more accurate debugging. When integrated into CI/CD pipelines, ephemeral environments give teams fast, reliable feedback across app, data, and infrastructure changes.
+Ephemeral environments are isolated, production-like spaces that can be spun up on demand. Each environment starts with a clean state. Teams can generate, load, and reset data without affecting others. This reduces test flakiness, ensures consistent results, and supports more accurate debugging. When integrated into CI/CD pipelines, ephemeral environments give teams fast, reliable feedback across app, data, and infrastructure changes.
 
 ### Use Data-generation Tools
 
@@ -75,7 +75,7 @@ To implement an effective TDM strategy, teams should leverage tools that automat
 
 ### Shadow Production with Traffic Replay
 
-It's important that teams replay scrubbed production traffic in test environments. This technique helps them to validate changes using real-world data patterns, and uncover edge cases and regressions that synthetic data often misses. Traffic replay also improves test data realism without compromising user privacy. When a team encounters testing config changes, infrastructure updates, and complex interactions that rely on authentic request flows, this technique becomes especially useful. Combined with observability tools, traffic replay provides a powerful feedback loop for detecting easy-to-miss behavioral and performance anomalies in code changes.
+This technique helps teams validate changes using real-world data patterns, and uncover edge cases and regressions that synthetic data often misses. Traffic replay also improves test data realism without compromising user privacy. When a team encounters testing config changes, infrastructure updates, and complex interactions that rely on authentic request flows, this technique becomes especially useful. Combined with observability tools, traffic replay provides a powerful feedback loop for detecting easy-to-miss behavioral and performance anomalies in code changes.
 
 ## Adjacent Capabilities
 
