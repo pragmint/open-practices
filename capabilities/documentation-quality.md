@@ -61,10 +61,6 @@ The following capabilities will be valuable for you and your team to explore, as
 - Upstream (they are a pre-requisite for Documentation Quality)
 - Downstream (Documentation Quality is a pre-requisite for them)
 
-### [Continuous Integration](/capabilities/continuous-integration.md) - Downstream
-
-High-quality documentation is an essential pre-requisite for effective continuous integration, as it enables teams to understand the existing systems and make informed decisions about changes.
-
 ### [Learning Culture](/capabilities/learning-culture.md) - Upstream
 
 If a culture of learning and knowledge sharing hasn't been established, high-quality documentation will not be actively created or maintained. This can lead to large gaps of documentation or worse, out-of-date or incorrect information.
