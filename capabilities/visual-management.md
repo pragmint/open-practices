@@ -12,7 +12,7 @@ When a board shows a failing build, high WIP, or missed throughput goals, it’s
 
 ### If Teams Don’t Choose It, They Won’t Use It
 
-Dashboards don’t drive behavior -- people do. If a metric isn’t meaningful to the team, it becomes background noise. When teams help choose what’s tracked, they’re more likely to question it, act on it, and improve it. Visual management is not just about measurement -- it’s about ownership.
+Dashboards don’t drive behavior -- people do. If a metric isn’t meaningful to the team, it becomes background noise. When teams help choose what’s tracked, they’re more likely to question it, act on it, and improve it. Visual management is not just about measurement, it’s about ownership.
 
 ### Ensure Tools Are Simple and Actionable
 
@@ -20,7 +20,7 @@ The power of visual management lies in what you don’t need to explain. If a di
 
 ### Evolve Visual Displays Regularly
 
-What was once insightful can become invisible through repetition. Visuals must grow with the team -- surfacing new risks, bottlenecks, or goals as they emerge. Treat dashboards like code: Refactor them often to reflect what matters now.
+What was once insightful can become invisible through repetition. Visuals must grow with the team: surfacing new risks, bottlenecks, or goals as they emerge. Treat dashboards like code: Refactor them often to reflect what matters now.
 
 ### Don’t Confuse Activity with Progress
 
@@ -57,7 +57,7 @@ Visual management isn’t a set-it-and-forget-it practice. Just like code or arc
 
 ### Shift Teams To Track Outcomes Instead of Outputs
 
-It’s easy to default to tracking what’s easy to count -- tickets closed, lines of code, story points. But these are outputs, not outcomes. To drive meaningful improvement, displays should connect work to its impact: customer behavior, system reliability, revenue generated, or time to resolve issues. When teams see the impact of their work, they can make smarter trade-offs and course-correct faster.
+It’s easy to default to tracking what’s easy to count: tickets closed, lines of code, story points. But these are outputs, not outcomes. To drive meaningful improvement, displays should connect work to its impact: customer behavior, system reliability, revenue generated, or time to resolve issues. When teams see the impact of their work, they can make smarter trade-offs and course-correct faster.
 
 ### Set Work-in-Process Limits
 
