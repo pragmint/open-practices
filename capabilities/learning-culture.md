@@ -44,37 +44,13 @@ Generally, an overall score equal to or less than 3 means you'll likely gain a l
 
 The following is a curated list of supporting practices to consider when looking to improve your team's Learning Culture capability. While not every practice will be beneficial in every situation, this list is meant to provide teams with fresh, pragmatic, and actionable ideas to support this capability.
 
-### [Host a Viewing Party](/practices/host-a-viewing-party.md)
-
-Hosting a viewing party of conference talks, podcasts, or short videos is a great way to engage your team. As you view (or listen) to the content together, you can pause at key points or when questions arise to facilitate group discussion. This approach is particularly effective for encouraging experienced practitioners to consider _new_ ideas and perspectives, as it combines knowledge sharing with collaborative group discussion. By allowing time for conversation and reflection, viewing parties can enhance understanding and inspire innovative thinking.
-
-### [Start a Book Club](/practices/start-a-book-club.md)
-
-A book club may review a variety of written material, including books, whitepapers, blogs, articles, and podcast transcripts. This is another excellent practice for encouraging experienced practitioners to consider _new_ ideas and perspectives. By engaging with diverse content and participating in thoughtful discussions, team members can expand their knowledge and challenge their existing viewpoints. Book clubs provide a structured, yet flexible, environment for continuous learning and professional growth. However, if there is a lot of content to review, this burden can create drop-off for less invested parties. Be sure to manage expectations carefully.
-
-### [Facilitate a Roundtable Discussion](/practices/host-a-roundtable-discussion.md)
-
-Roundtable discussions are excellent tools for spurring meaningful conversations and uncovering new angles on familiar topics. Facilitating a roundtable discussion involves coming prepared with a few key talking points, then allowing the conversation to evolve organically. A good host ensures that the discussion remains productive while limiting their interventions, welcoming productive tangents that can lead to deeper insights. This format is particularly effective when the topic is already somewhat understood by the participants, as it encourages a deeper understanding through collaborative dialogue and diverse perspectives.
-
-### [Lead a Demonstration](/practices/lead-a-demonstration.md)
-
-Leading a demonstration is an excellent way to engage an audience by live coding, showcasing customer feedback, or presenting on a specific topic. Demonstrations can vary in length, from brief lightning talks to more extended sessions, and can be conducted as one-off events or as part of a regular series. This format is particularly effective for introducing new topics or ideas, as it allows the presenter to provide a clear and focused explanation. Including a Q&A session at the end of the demonstration can enhance understanding and provide quick clarification. Be mindful, though, that this practice is less effective for spurring in-depth discussions, as the primary focus is on _delivering content_ rather than fostering _interactive dialogue_.
-
 ### [Run Pair Programming Sessions](/practices/run-pair-programming-sessions.md)
 
 Pair programming sessions facilitate collaboration, real-time code review, and knowledge sharing among developers. By working in pairs, developers can catch issues early, ensure code is comprehensible, and spread knowledge across the team. This collaborative practice also accelerates the onboarding process for new team members while helping experienced developers refine their skills. Additionally, pair programming promotes adherence to coding standards, enhancing code consistency and readability.
 
-### [Lead Workshops](/practices/lead-workshops.md)
-
-Leading workshops is an excellent way to provide your team with hands-on experience, allowing them to actively engage with the material. Workshops are particularly effective in breaking down preconceived notions, as they offer a practical approach to learning and problem-solving. However, workshops are not ideal for introducing new topics or ideas (that is better done by leading a demonstration). Participants may struggle in a workshop if they lack foundational knowledge, which can hinder their ability to fully benefit from the hands-on experience. To ensure success, it's important to establish a solid foundation before diving into complex workshop activities.
-
 ### [Do a Spike, or Timeboxed Experiment](/practices/do-a-spike.md)
 
 Also referred to as building a proof-of-concept (POC), this practice involves setting aside a short period of time for your team to get hands-on experience building a solution as a way to reduce uncertainty. Spikes tend to last a couple of hours or days (at the most). They're a great way to try out a new practice, process, or tool. Given a spike's short duration, it's helpful to have an experienced member of the team lead these efforts to avoid teams from getting stuck for prolonged periods of time.
-
-### [Host a Retrospective](/practices/host-a-retrospective.md)
-
-Hosting a retrospective is a vital practice for continuous improvement within a team or organization. These sessions can be routine or focused on a specific event, such as a postmortem. The key to a successful retrospective is to walk away with clear action items while maintaining a blameless environment. Recognize that experimentation carries constraints and pain points; these things are unavoidable when trying new approaches. The goal is not to eliminate them entirely but to reduce their frequency or impact. Retrospectives are excellent for fine-tuning processes, evaluating experiments, and addressing immediate issues. Though, they are less effective for sparking visionary changes.
 
 ### [Talk Directly With Users](/practices/talk-directly-with-users.md)
 
@@ -83,10 +59,6 @@ Talking directly with users is an invaluable practice for gaining insights and u
 ### [Dogfood Your Systems](/practices/dogfood-your-systems.md)
 
 Dogfooding your systems involves having your teams use the same products or systems that your users do, allowing them to experience the same pain points firsthand. This practice helps build empathy with users, identify issues early, and drive improvements based on direct "user" experience. By regularly using your own systems as customers would, your team can gain valuable insights and ensure that the product meets the highest standards of usability and performance.
-
-### [Start a Community Of Practice](/practices/start-a-community-of-practice.md)
-
-Starting a community of practice means providing a dedicated space where a variety of practices (like demonstrations, workshops, book clubs, etc.) can be performed. This collaborative environment fosters continuous learning, sharing of best practices, and collective problem-solving. By bringing together practitioners with shared interests, a community of practice can drive innovation, enhance skills, and promote a learning culture. This sense of connection and growth empowers employees to feel fulfilled and invested in their work.
 
 ### [Use SPIN To Unearth Problems and Solutions](/practices/use-spin-to-unearth-problems-and-solutions.md)
 

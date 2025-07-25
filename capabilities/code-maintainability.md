@@ -92,10 +92,6 @@ Reducing coupling between abstractions creates a modular and flexible codebase.
 Independent, well-defined components minimize unintended side effects, making the code easier to understand, modify, and test.
 This modularity ensures that changes in one part of the system do not disrupt others, preserving stability and reducing cognitive load on developers. Clear abstractions and minimal dependencies support better documentation and collaboration, facilitating efficient onboarding and continuous improvement.
 
-### [Refactor](/practices/refactor.md)
-
-Refactoring, as a practice, systematically improves code structure, readability, and quality. Through incremental changes and adherence to coding standards, refactoring addresses complexity and technical debt, ensuring the code remains clean, modular, and comprehensible. By integrating refactoring into regular development cycles, teams establish a foundation of maintainable code, enabling efficient delivery, stability, and ongoing innovation.
-
 ### [Perform Static Code Analysis](/practices/perform-static-code-analysis.md)
 
 Performing static code analysis involves using automated tools to enhance code quality, consistency, and readability.

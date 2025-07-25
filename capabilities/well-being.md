@@ -30,10 +30,10 @@ Consider the descriptions below and score your team on the Well-Being capability
 
 Don't worry if the description doesn't exactly match your situation. These descriptions are meant to be examples of situations that would qualify for the associated score.
 
-1. Overwhelmed and Undervalued: Employees are consistently overwhelmed by work demands, have little control over their work, and feel undervalued and unrewarded. There is a breakdown in community and a lack of fairness in decision-making processes.
-2. Managing the Load: Teams are coping with work demands, but some employees are still struggling with a lack of control and autonomy, and rewards and recognition are inconsistent. While there are some efforts to build a sense of community, aligning organizational and individual values is still a work in progress.
-3. Finding Balance: Employees are generally happy and engaged, with a good work-life balance. Teams are making progress in addressing work overload, increasing control and autonomy, and providing sufficient rewards and recognition. There is still room for improvement in building a sense of community and fairness.
-4. Thriving Culture: Employees are highly engaged, motivated, and happy. There is a strong sense of well-being. Teams consistently deliver high-quality work in a supportive and fair work environment. There is a clear alignment between organizational and individual values, and opportunities for growth and development are present.
+1. **Overwhelmed and Undervalued:** Employees are consistently overwhelmed by work demands, have little control over their work, and feel undervalued and unrewarded. There is a breakdown in community and a lack of fairness in decision-making processes.
+2. **Managing the Load:** Teams are coping with work demands, but some employees are still struggling with a lack of control and autonomy, and rewards and recognition are inconsistent. While there are some efforts to build a sense of community, aligning organizational and individual values is still a work in progress.
+3. **Finding Balance:** Employees are generally happy and engaged, with a good work-life balance. Teams are making progress in addressing work overload, increasing control and autonomy, and providing sufficient rewards and recognition. There is still room for improvement in building a sense of community and fairness.
+4. **Thriving Culture:** Employees are highly engaged, motivated, and happy. There is a strong sense of well-being. Teams consistently deliver high-quality work in a supportive and fair work environment. There is a clear alignment between organizational and individual values, and opportunities for growth and development are present.
 
 The number you selected represents your overall score for this capability. If you feel like the general well-being of your team fits somewhere in between two scores, it's okay to use a decimal. For example, if you think employees are somewhere between managing their loads and finding a good balance, you would score a 2.5.
 
@@ -51,7 +51,7 @@ Designing and routinely sending out an employee engagement survey that fits your
 
 Skip-level 1:1s create a direct channel for information flow, regardless of one's status in the organization. They provide a safe space for employees to share concerns, ideas, and feedback with their manager's manager or another high-level leader. They also demonstrate to employees that their voices are valued, giving them a sense of empowerment and autonomy. The goal is to foster open communication and build trust across the organization. By listening to employees' concerns, leaders can identify and address potential issues before they escalate, reducing turnover and improving job satisfaction. Leaders can also offer guidance, mentorship, and opportunities for growth, aligning employees' goals with organizational objectives.
 
-### Implement Employee Recognition Programs
+### Implement Employee-Recognition Programs
 
 Establish structured programs to recognize employees for their contributions and achievements. This could include monthly awards, public acknowledgments during team meetings, a digital "kudos" board, or personalized appreciation notes. Share specific examples of outstanding work or helpful behaviors. By promoting a culture of appreciation and peer-to-peer acknowledgment, team morale and motivation improve significantly.
 
@@ -59,15 +59,11 @@ Establish structured programs to recognize employees for their contributions and
 
 Allocating time for fun and relationship-building fosters trust, collaboration, and a sense of belonging among team members. When employees can share positive experiences, it strengthens psychological safety, boosts creativity, and encourages cross-team connections. These elements not only make the workplace more enjoyable but also encourage retention and productivity by signaling that the organization values its employees' well-being. An organization that balances productivity with meaningful relationships creates an environment where employees thrive.
 
-### Start a Community of Practice
-
-Starting a community of practice means providing a dedicated space where a variety of practices (like demonstrations, workshops, book clubs, etc.) can be performed. This collaborative environment fosters continuous learning, sharing of best practices, and collective problem-solving. By bringing together practitioners with shared interests, a community of practice can drive innovation, enhance skills, and promote a learning culture. This sense of connection and growth empowers employees to feel fulfilled and invested in their work.
-
 ### Automate Deployment Scripts
 
 Develop scripts that automate the entire deployment process, including environment preparation, package deployment, configuration, and post-deployment testing. By scripting these steps, you eliminate manual interventions, reduce the risk of human error, and lessen deployment pain. A repeatable and reliable deployment process can then be triggered with minimal effort. This enhances not only deployment speed and consistency but also employee well-being.
 
-### Incorporate Anomaly-detection Tooling
+### Incorporate Anomaly-Detection Tooling
 
 To avoid having to manually verify systems are working in production after a deployment, incorporate tooling that flags anomalies in your system's various environments. Examples of such flags include: reporting spikes in compute or network resources, reporting new error-level log events, A/B testing two versions of a system with the same traffic, running automated user acceptance tests, and so on. Lower deployment pain equals higher well-being.
 

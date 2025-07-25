@@ -36,10 +36,10 @@ Consider the descriptions below and score yourself on the Team Experimentation c
 
 Don't worry if the description doesn't exactly match your situation. These descriptions are meant to be examples of situations that would qualify for the associated score.
 
-1. Minimal or No Experimentation: Teams follow a strict, rigid plan with little room for deviation or experimentation and must seek approval for even minor changes. They have limited visibility into the organization's overall goals and context, and they must pull information from leadership on an ad-hoc basis.
-2. Highly Controlled Experimentation: Teams are allowed to explore new ideas but within tightly defined parameters and with close oversight from leadership. Deadline pressure regularly takes priority over idea exploration. Teams must request access to relevant context and information, which is provided on an ad-hoc basis.
-3. Emerging but Limited Experimentation: Teams have some flexibility to try new approaches but must seek permission from leadership or follow established protocols for most changes. They have access to some organizational context, including goals and objectives, but may not have direct access to customer feedback or the financial performance of the company.
-4. Self-Directed Innovation: Teams have autonomy to pursue new ideas and make decisions. Their experiments are informed by direct access to customer feedback and relevant context that is proactively shared by leadership, including the organization's vision, goals, strategic priorities, and financial state.
+1. **Minimal or No Experimentation:** Teams follow a strict, rigid plan with little room for deviation or experimentation and must seek approval for even minor changes. They have limited visibility into the organization's overall goals and context, and they must pull information from leadership on an ad-hoc basis.
+2. **Highly Controlled Experimentation:** Teams are allowed to explore new ideas but within tightly defined parameters and with close oversight from leadership. Deadline pressure regularly takes priority over idea exploration. Teams must request access to relevant context and information, which is provided on an ad-hoc basis.
+3. **Emerging but Limited Experimentation:** Teams have some flexibility to try new approaches but must seek permission from leadership or follow established protocols for most changes. They have access to some organizational context, including goals and objectives, but may not have direct access to customer feedback or the financial performance of the company.
+4. **Self-Directed Innovation:** Teams have autonomy to pursue new ideas and make decisions. Their experiments are informed by direct access to customer feedback and relevant context that is proactively shared by leadership, including the organization's vision, goals, strategic priorities, and financial state.
 
 The number you selected represents your overall score for this capability. If you feel like your team or organization fits somewhere in between two scores, it's okay to use a decimal. For example, if you think team experimentation is somewhere between highly controlled and emerging, you would score a 2.5.
 
@@ -56,10 +56,6 @@ The following is a curated list of supporting practices to consider when looking
 ### Do a Spike, or Timeboxed Experiment
 
 Also referred to as building a proof-of-concept (POC), this practice involves setting aside a short period of time for your team to get hands-on experience building a solution as a way to reduce uncertainty. Spikes tend to last a couple of hours or days (at the most). They're a great way to try out a new practice, process, or tool. Given a spike's short duration, it's helpful to have an experienced member of the team lead these efforts to avoid teams from getting stuck for prolonged periods of time.
-
-### Host a Retrospective
-
-Hosting a retrospective is a vital practice for continuous improvement within a team or organization. These sessions can be routine or focused on a specific event, such as a postmortem. The key to a successful retrospective is to walk away with clear action items while maintaining a blameless environment. Recognize that experimentation carries constraints and pain points; these things are unavoidable when trying new approaches. The goal is not to eliminate them entirely but to reduce their frequency or impact. Retrospectives are excellent for fine-tuning processes, evaluating experiments, and addressing immediate issues. Though, they are less effective for sparking visionary changes.
 
 ### Talk Directly With Users
 

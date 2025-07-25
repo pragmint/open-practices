@@ -51,7 +51,7 @@ The following is a curated list of supporting practices to consider when looking
 
 Skip-level 1:1s create a direct channel for information flow, regardless of one's status in the organization. They provide a safe space for employees to share concerns, ideas, and feedback with their manager's manager or another high-level leader. They also demonstrate to employees that their voices are valued, giving them a sense of empowerment and autonomy. The goal is to foster open communication and build trust across the organization. By listening to employees' concerns, leaders can identify and address potential issues before they escalate, reducing turnover and improving job satisfaction. Leaders can also offer guidance, mentorship, and opportunities for growth, aligning employees' goals with organizational objectives.
 
-### Implement Employee Recognition Programs
+### Implement Employee-Recognition Programs
 
 Establish structured programs to recognize employees for their contributions and achievements. This could include monthly awards, public acknowledgments during team meetings, a digital "kudos" board, or personalized appreciation notes. Share specific examples of outstanding work or helpful behaviors. By promoting a culture of appreciation and peer-to-peer acknowledgment, team morale and motivation improve significantly.
 
@@ -62,10 +62,6 @@ Allocating time for fun and relationship-building fosters trust, collaboration, 
 ### Train Your Team To Have Crucial Conversations
 
 A crucial conversation is a high-stakes discussion where differing opinions and strong emotions must be handled carefully to achieve constructive outcomes. These conversations foster open communication, trust, and psychological safety, ensuring that concerns and conflicts are addressed directly. By promoting shared accountability and learning from mistakes, crucial conversations enhance collaboration and drive continuous improvement across teams.
-
-### Start a Community of Practice
-
-Starting a community of practice means providing a dedicated space where a variety of practices (like demonstrations, workshops, book clubs, etc.) can be performed. This collaborative environment fosters continuous learning, sharing of best practices, and collective problem-solving. By bringing together practitioners with shared interests, a community of practice can drive innovation, enhance skills, and promote a learning culture. This sense of connection and growth empowers employees to feel fulfilled and invested in their work.
 
 ## Adjacent Capabilities
 
