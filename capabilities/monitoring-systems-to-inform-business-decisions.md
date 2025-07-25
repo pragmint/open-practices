@@ -45,17 +45,17 @@ Generally, an overall score equal to or less than 3 means you'll likely gain a l
 
 The following is a curated list of supporting practices to consider when looking to improve your team's Monitoring Systems to Inform Business Decisions capability. While not every practice will be beneficial in every situation, this list is meant to provide teams with fresh, pragmatic, and actionable ideas to support this capability.
 
-### Adopt Double-loop Learning
+### Measure Impact with Double-loop Learning
 
-Double-loop learning goes beyond tracking outcomes; it connects your work to the assumptions behind your strategy. Instead of just asking *Are we hitting our numbers?*, this practice encourages you to ask *Are we working on the right things to drive those numbers, and are our assumptions still valid?*
+Double-loop learning goes beyond tracking outcomes; it connects your work to the underlying assumptions, objectives, and established mental models behind your strategy. Instead of just asking _Are we hitting our numbers?_, double-loop learning encourages you to ask _Are we working on the right things to drive those numbers?_, and _Are our assumptions still valid?_
 
 When you practice double-loop learning, you map the relationships between projects, input metrics, and business KPIs. This lets you:
+* Reflect on experiments and question previous thinking at a deeper level
+* See how current efforts are (or aren’t) moving the right metrics
+* Adjust course when assumptions prove false
+* Align teams by making strategy visible and testable
 
-- See how current efforts are (or aren’t) moving the right metrics
-- Adjust course when assumptions prove false
-- Align teams by making strategy visible and testable
-
-Rather than treating dashboards as static reports, double-loop learning turns them into dynamic systems for continuous improvement.
+For example, rather than treating dashboards as static reports, double-loop learning turns them into dynamic systems for continuous improvement.
 
 ### Train Teams on Data Interpretation
 
