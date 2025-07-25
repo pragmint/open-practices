@@ -49,9 +49,17 @@ Generally, an overall score equal to or less than 3 means you'll likely gain a l
 
 The following is a curated list of supporting practices to consider when looking to improve your Team Experimentation capability. While not every practice will be beneficial in every situation, this list is meant to provide teams with fresh, pragmatic, and actionable ideas to support this capability.
 
-### Measure Impact With Double Loop Learning
+### Measure Impact with Double-loop Learning
 
-[Double Loop Learning](https://hbr.org/1977/09/double-loop-learning-in-organizations) — stepping back to re-examine underlying objectives, early assumptions, and established mental models — helps teams reflect on their experiments and question previous thinking at a deeper level. By doing this, teams can refine their understanding of a problem and adjust their approach to better align with organizational goals. The process of double loop learning enables teams to learn, adapt, and improve more effectively.
+Double-loop learning goes beyond tracking outcomes; it connects your work to the underlying assumptions, objectives, and established mental models behind your strategy. Instead of just asking _Are we hitting our numbers?_, double-loop learning encourages you to ask _Are we working on the right things to drive those numbers?_, and _Are our assumptions still valid?_
+
+When you practice double-loop learning, you map the relationships between projects, input metrics, and business KPIs. This lets you:
+* Reflect on experiments and question previous thinking at a deeper level
+* See how current efforts are (or aren’t) moving the right metrics
+* Adjust course when assumptions prove false
+* Align teams by making strategy visible and testable
+
+For example, rather than treating dashboards as static reports, double-loop learning turns them into dynamic systems for continuous improvement.
 
 ### Do a Spike, or Timeboxed Experiment
 
