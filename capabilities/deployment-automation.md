@@ -65,6 +65,10 @@ Only send a small amount of production traffic to newly deployed versions of you
 
 Creating and managing ephemeral environments provides flexible, production-like testing environments that can be spun up on-demand. These temporary environments can promote early bug detection and improve reproducibility. Integrated into CI/CD pipelines, they offer continuous and immediate feedback on code changes, whether those changes are made to the application, database, infrastructure, or some combination of the three.
 
+### [Migrate to a Monorepo](/practices/migrate-to-monorepo.md)
+
+Migrating to a monorepo streamlines deployment automation by enabling coordinated, system-wide releases and simplifying the management of shared infrastructure, dependencies, and tooling. With all services and libraries housed in a single repository, teams can define unified deployment workflows, reduce duplication in CI/CD pipelines, and apply automation consistently across projects. This shared context improves visibility and reduces the chance of missed steps during deployment. Monorepos also make it easier to build, test, and deploy multiple services together.
+
 ## Adjacent Capabilities
 
 The following capabilities will be valuable for you and your team to explore, as they are either:

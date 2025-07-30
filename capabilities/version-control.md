@@ -81,6 +81,10 @@ Version dependencies ensure dependencies are managed with the same diligence as 
 
 Use Infrastructure as Code (IaC) tools to define and manage your infrastructure through code rather than manual processes. Tools like [Terraform](https://github.com/hashicorp/terraform) or [Pulumi](https://github.com/pulumi/) allow you to version control your infrastructure configurations and provision environments automatically. Embracing IaC ensures environments are consistent and can be re-created reliably, which enhances version control and reduces configuration drift.
 
+### [Migrate to a Monorepo](/practices/migrate-to-monorepo.md)
+
+Migrating to a monorepo allows teams to version control multiple services, libraries, and shared assets in a single repository. This simplifies dependency management, ensures consistent tooling and configuration, and enables atomic commits that span multiple projects. With everything in one place, teams can more easily trace changes, roll back known working states, and coordinate system-wide updates. Unlike multi-repo setups that fragment history and versioning, a monorepo centralizes history for greater auditability, reproducibility, and visibility (all of those being core benefits of a strong version control strategy).
+
 ## Adjacent Capabilities
 
 The following capabilities will be valuable for you and your team to explore, as they are either:
