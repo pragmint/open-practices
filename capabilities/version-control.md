@@ -12,7 +12,7 @@ This section outlines common pitfalls, challenges, or limitations teams commonly
 
 ### Deterministic Builds vs. Up-to-Date Dependencies
 
-Version control systems often face a trade-off between deterministic builds and up-to-date dependencies. Some developers prefer specifying dependencies to use the latest versions at build time for enhanced security. However, this compromises build determinism, making it challenging to reproduce identical builds. Tools like [Dependabot](https://github.com/dependabot) can mitigate this issue by automatically creating pull requests to update dependencies, separating dependency updates from the build process.
+Version control systems often face a trade-off between deterministic builds and up-to-date dependencies. Some developers prefer specifying dependencies to use the latest versions at build time for enhanced security. However, this compromises build determinism, making it challenging to reproduce identical builds. Tools like [Renovate](https://docs.renovatebot.com/) or [Dependabot](https://github.com/dependabot) can mitigate this issue by automatically creating pull requests to update dependencies, separating dependency updates from the build process.
 
 ### Versioning Non-Code
 
