@@ -66,9 +66,9 @@ The following is a curated list of supporting practices to consider when looking
 
 Conduct regular VSM workshops involving representatives from each stage of the value stream. Map out both the current VSM and the ideal future-state VSM. Break down the value stream into clear process blocks and identify key metrics like lead time, process time, and percent complete and accurate (%C/A). DORA provided a great breakdown [here](https://dora.dev/guides/value-stream-management/).
 
-### Set Work-in-Process Limits
+### Set and Enforce Work-in-Process Limits
 
-While setting work-in-progress (WIP) limits is a DORA capability, it is also a technique that is actionable. So, we're including it here as a supporting practice. Establishing and enforcing WIP limits for tasks in the value stream prevents bottlenecks and helps to maintain a steady flow. By limiting the number of tasks that are actively worked on, teams can achieve greater focus, reduce context switching, and enjoy enhanced flow efficiency, leading to faster and smarter software delivery.
+Start by setting limits that feel ambitious. This forces teams to make deliberate choices about what work matters most. The exact number depends on your team's context, but the goal is to find the sweet spot where teams feel focused but not hamstrung. Display your WIP limits prominently on your board or dashboard. When the limit is reached, treat it as a hard stop. No new work enters the system until something completes. This discipline creates the pressure needed to finish what's started and forces the prioritization conversations that lead to better decisions.
 
 ### [Code Review Process](/practices/conduct-code-reviews.md)
 
