@@ -11,18 +11,19 @@ Quick 2-4 sentence summary. What’s the practice? Why should teams care? (Keep 
 (List for each relevant persona: Non-technical exec, Technical exec, Developer, QA, PM, Product Manager, etc)
 ```
 
-## Goals, Metrics & Signals
-
-### Intended Outcomes
-
-```text
-What 1–3 outcomes does this practice aim to improve? What does success look like? Describe specific observable outcomes, team behaviors, or capability improvements. Examples: delivery speed, quality signals, DevX friction, DORA scores, capability uplift.
-```
-
-### Target Measurements
+## Metrics & Signals
 
 ```text
 How will we measure progress? Target metrics, qualitative markers, or lightweight feedback (surveys, retros, anecdotal signals). This doesn't have to be quantitative, could be qualitative as well. Make sure to include how / who can track this.
+```
+
+## How to Gain Traction
+
+```text
+List 3–5 steps to take a team from zero to adopted.
+Each step gets:
+  ### [Action Step]
+  3 sentences on how to do it, how to get buy-in, and what tools/resources help. Any external resources (videos, guides, book lists, templates, etc.) that help a team adopt this practice should be linked here within the relevant action step.
 ```
 
 ## Lessons From The Field
@@ -31,15 +32,6 @@ How will we measure progress? Target metrics, qualitative markers, or lightweigh
 This section captures real-world patterns (things that consistently help or hinder this practice) along with short, relevant stories from the field. It’s not for personal rants or generic opinions. Each entry must be based on either:
 1. A repeated observation across teams, or
 2. A specific example (what worked, what didn’t, and why).
-```
-
-## How to Gain Traction
-
-```text
-List 3–5 steps to take a team from zero to adopted.
-Each step gets:
-  ## [Action Step]
-  3 sentences on how to do it, how to get buy-in, and what tools/resources help. Any external resources (videos, guides, book lists, templates, etc.) that help a team adopt this practice should be linked here within the relevant action step.
 ```
 
 ## Supported Capabilities
