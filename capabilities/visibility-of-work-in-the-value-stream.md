@@ -68,17 +68,7 @@ Conduct regular VSM workshops involving representatives from each stage of the v
 
 ### Set and Enforce Work-in-Process Limits
 
-By limiting the number of tasks that are actively worked on, teams can achieve greater focus, reduce context switching, and enjoy enhanced flow efficiency, leading to faster and smarter software delivery. Start by setting limits that feel ambitious. This forces teams to make deliberate choices about what truly matters. The exact number depends on your team's context, but the goal is to create enough constraint to drive more effective prioritization and collaboration.
-
-When work gets blocked, collaborate rather than start new work. Instead of picking up new tickets, team members should:
-* Pair with other developers on active work
-* Perform code reviews to unblock others
-* Help QA test in-progress items
-* Mob on complex problems that need multiple perspectives
-
-Make the WIP constraint visible and respected. Display your WIP limits prominently on your board or dashboard. When the limit is reached, treat it as a hard stop—no new work enters the system until something completes. This discipline creates the pressure needed to finish what's started and forces the prioritization conversations that lead to better decisions.
-
-WIP limits aren't set in stone—regularly review and adjust. Monitor your flow metrics and team feedback to determine if your limits are too restrictive (causing idle time) or too permissive (allowing context switching and lead time lag). The goal is finding the sweet spot where teams feel focused but not hamstrung.
+Start by setting limits that feel ambitious. This forces teams to make deliberate choices about what work matters most. The exact number depends on your team's context, but the goal is to find the sweet spot where teams feel focused but not hamstrung. Display your WIP limits prominently on your board or dashboard. When the limit is reached, treat it as a hard stop. No new work enters the system until something completes. This discipline creates the pressure needed to finish what's started and forces the prioritization conversations that lead to better decisions.
 
 ### [Code Review Process](/practices/conduct-code-reviews.md)
 

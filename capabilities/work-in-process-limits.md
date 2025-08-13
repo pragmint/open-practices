@@ -1,11 +1,10 @@
 # [Work-in-Process Limits](https://dora.dev/capabilities/wip-limits/)
 
-Work-in-Process (WIP) refers to the total amount of work currently in progress. When teams have too much WIP, they experience delays waiting for code reviews or QA, along with frequent context switching. By limiting the number of tasks that are actively worked on, teams can achieve greater focus, reduce context switching, and enjoy an efficient workflow. 
+Work-in-Process (WIP) refers to the total amount of work currently in progress. When teams have too much WIP, they experience delays waiting for code reviews or QA, along with frequent context switching. By limiting the number of tasks that are actively worked on, teams can achieve greater focus, reduce context switching, and enjoy an efficient workflow.
 
-For example, when WIP limits are set and enforced, team members who are blocked or waiting wouldn't start new tickets. Instead, they might pair with other developers on active work, perform code reviews to unblock others, help QA test in-progress items, or mob on complex problems that need multiple perspectives.  
+For example, when WIP limits are set and enforced, team members who are blocked or waiting wouldn't start new tickets. Instead, they might pair with other developers on active work, perform code reviews to unblock others, help QA test in-progress items, or mob on complex problems that need multiple perspectives.
 
-Setting WIP limits **forces prioritization without creating waste.** The goal isn't to minimize WIP for its own sake, but to optimize for flow and value delivery. By hyper-focusing on prioritized items, teams increase system throughput, similar to how an express lane flows better than a congested highway with too many on- or off-ramps. 
-
+Setting WIP limits **forces prioritization without creating waste.** The goal isn't to minimize WIP for its own sake, but to optimize for flow and value delivery. By hyper-focusing on prioritized items, teams increase system throughput, similar to how an express lane flows better than a congested highway with too many on- or off-ramps.
 
 ## Nuances
 
@@ -13,7 +12,7 @@ This section outlines common pitfalls, challenges, or limitations teams commonly
 
 ### Doesn't Allow Deferment of Difficult Decisions
 
-Limiting WIP is hard because it continuously forces difficult decisions about reprioritization. This can be especially challenging when priorities are often changing. For teams to have effective conversations about shifting priorities, they need to openly discuss their challenges and align on new priorities. The constraints imposed by WIP limits serve as a forcing function, compelling teams to proactively engage in these discussions. By having these potentially uncomfortable conversations early and often, teams can address issues early, preventing dissent and confusion from building up. This approach also avoids rework, frustration, and decreased morale. 
+Limiting WIP is hard because it continuously forces difficult decisions about reprioritization. This can be especially challenging when priorities are often changing. For teams to have effective conversations about shifting priorities, they need to openly discuss their challenges and align on new priorities. The constraints imposed by WIP limits serve as a forcing function, compelling teams to proactively engage in these discussions. By having these potentially uncomfortable conversations early and often, teams can address issues early, preventing dissent and confusion from building up. This approach also avoids rework, frustration, and decreased morale.
 
 ### Invisible Work
 
@@ -26,6 +25,7 @@ Setting WIP limits that are too high can defeat the purpose of the practice, as 
 WIP limits aren't set in stone—regularly review and adjust. Monitor your flow metrics and team feedback to determine if your limits are too restrictive (causing idle time) or too permissive (allowing context switching and lead time lag). The goal is finding the sweet spot where teams feel focused but not hamstrung.
 
 ## Assessment
+
 To assess how mature your team or organization is in this capability, complete this short exercise.
 
 Consider the descriptions below and score yourself on the Work-in-Process Limits capability. Generally, score a 1 if this capability is limited or completely lacking from your team or organization, a 2 if it is basic and you feel there is a LOT of room for improvement, a 3 if it is mature and you feel there is some room for improvement, and a 4 if your team or organization is exemplary in the area of WIP limits.
@@ -51,7 +51,7 @@ Using a storyboard to represent all ongoing tasks helps make work visible, inclu
 
 ### Set and Enforce WIP Limits
 
-Start by setting limits that feel ambitious -- this forces teams to make deliberate choices about what work matters most. The exact number depends on your team's context, but the goal is to find the sweet spot where teams feel focused but not hamstrung. Display your WIP limits prominently on your board or dashboard. When the limit is reached, treat it as a hard stop -- no new work enters the system until something completes. This discipline creates the pressure needed to finish what's started and forces the prioritization conversations that lead to better decisions. 
+Start by setting limits that feel ambitious. This forces teams to make deliberate choices about what work matters most. The exact number depends on your team's context, but the goal is to find the sweet spot where teams feel focused but not hamstrung. Display your WIP limits prominently on your board or dashboard. When the limit is reached, treat it as a hard stop. No new work enters the system until something completes. This discipline creates the pressure needed to finish what's started and forces the prioritization conversations that lead to better decisions.
 
 ## Adjacent Capabilities
 
