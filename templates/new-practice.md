@@ -1,3 +1,5 @@
+> Review an existing practice like [Migrate to Monorepo](/practices/migrate-to-monorepo.md) to see a good example of a practice following this template.
+
 # `[Action-Oriented Title]`
 
 ```text
@@ -19,7 +21,7 @@ You know this practice is making a positive impact if...
 Create a list of target metrics, qualitative markers, or lightweight feedback (surveys, retros, anecdotal signals). This doesn't have to be quantitative, could be qualitative as well. Make sure to include how / who can track this.
 ```
 
-You'll want to ensure you have both a baseline measurement and an updated measurement after a month or so of experimenting with this practice.
+You'll want to ensure you have both a baseline measurement and an updated measurement after `insert appropriate period of time` of experimenting with this practice.
 
 ## How to Gain Traction
 
