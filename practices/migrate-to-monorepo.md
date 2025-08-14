@@ -12,29 +12,15 @@ Managing dozens of micro-repos can feel like death by a thousand Git pulls. This
 ## Who It’s For & Why
 
 - You are a Developer and you need to make coordinated changes across services without repo-hopping so you can move faster with less friction.
-- You are a QA and you need consistent CI pipelines and shared testing utilities so you can reduce regressions and setup time.
-- You are a Product Manager and you need tighter release coordination across teams so you can confidently ship cross-cutting features.
 
-## Goals, Metrics & Signals
+## Metrics & Signals
 
-### Intended Outcomes
+You know this practice is making a positive impact if...
 
-- Accelerated cross-service development due to reduced overhead (code review, context switching, versioning, etc).
-- Improved DevEx by standardizing scripts, environments, and tooling.
-- Delivering all of the changes all at once reduces the surface area for cross-service conflicts.
+- ...lead time for changes that span multiple repositories decreases. Tools like [DX](https://getdx.com/platform/data-lake/), [Jellyfish](https://jellyfish.co/platform/engineering-metrics/), or others can measure these sort of lead time changes. Custom solutions can also be built using data from project planning tools like [JIRA](https://community.atlassian.com/forums/App-Central-articles/Cycle-Time-and-Lead-Time-in-Jira-Productivity-Measurement-with/ba-p/1905845), [Monday](https://monday.com/blog/project-management/what-is-lead-time/), or others.
+- ...developer sentiment around ease of integrating changes when working across services has improved. This can be measured using a simple tool like [Google Forms](https://workspace.google.com/products/forms/) or [Typeform](https://www.typeform.com/), or it can be integrated into more robust tools like [DX](https://getdx.com/) or [Jellyfish](https://jellyfish.co/).
 
-### Target Measurements
-
-- Pull requests touching multiple services have a decreased lead time. This can be measured using tools like [DX](https://getdx.com/platform/data-lake/), [Jellyfish](https://jellyfish.co/platform/engineering-metrics/), or others. Custom solutions can also be built using data from project planning tools like [JIRA](https://community.atlassian.com/forums/App-Central-articles/Cycle-Time-and-Lead-Time-in-Jira-Productivity-Measurement-with/ba-p/1905845), [Monday](https://monday.com/blog/project-management/what-is-lead-time/), or others.
-- Developer sentiment in retrospectives or surveys show decreased friction when working across services.
-
-## Lessons From The Field
-
-- *It's Important to Preserve Revision History* - The easiest way to migrate over to a workspace tool is to copy/paste the source code into the subdirectories of a new repository. This blows the history away, and all of the rich version history will get lost in the process. If you're using Git, you can merge an external codebase using the `--allow-unrelated-histories` flag. It's probably best to stay away from using submodules as that can create a very clunky developer experience.
-- *Repo Size Increase Can Affect Performance* - While these issues can arise, they aren't common. Even if they do arise, there are tactics to solve for them (see [Optimizing Git Performance](/resources/tech/optimizing-git-performance.md)). You can also decide later to split repositories after those performance issues arise.
-- *Makes Tight Coupling Easier* - When you make it easier to write code that changes multiple parts of the broader system, you make it easier to introduce code that doesn't separate concerns and increases module coupling. This can be mitigated with constant retrospectives focused on how these boundaries are formed. The good news about monorepos is when you identify a poorly constructed boundary, it's easier to fix when it's all in the same repo.
-- *Have a plan for coordinating deploys* - When multiple modules need to be released together for a feature, it can be easier to coordinate activation through feature flags rather than trying to achieve atomic cross-package deployments.
-- *Only build and test what has actually changed between commits* - Good build tools use dependency graphs to determine which packages need rebuilding. Without this, CI/CD times become prohibitive as the repo grows.
+You'll want to ensure you have both a baseline measurement and an updated measurement after a month or so of experimenting with this practice.
 
 ## How to Gain Traction
 
@@ -49,6 +35,14 @@ Give teams an easy way to migrate their repositories into the new workspace whil
 ### Continue Improving DevEx
 
 Schedule time with the team members who work in the new repository to understand their pain points. Brainstorm potential solutions as a group. Keep an eye toward improving the items listed in the Goals, Metrics & Signals section of this page to ensure efforts are making a difference.
+
+## Lessons From The Field
+
+- *It's Important to Preserve Revision History* - The easiest way to migrate over to a workspace tool is to copy/paste the source code into the subdirectories of a new repository. This blows the history away, and all of the rich version history will get lost in the process. If you're using Git, you can merge an external codebase using the `--allow-unrelated-histories` flag. It's probably best to stay away from using submodules as that can create a very clunky developer experience.
+- *Repo Size Increase Can Affect Performance* - While these issues can arise, they aren't common. Even if they do arise, there are tactics to solve for them (see [Optimizing Git Performance](/resources/tech/optimizing-git-performance.md)). You can also decide later to split repositories after those performance issues arise.
+- *Makes Tight Coupling Easier* - When you make it easier to write code that changes multiple parts of the broader system, you make it easier to introduce code that doesn't separate concerns and increases module coupling. This can be mitigated with constant retrospectives focused on how these boundaries are formed. The good news about monorepos is when you identify a poorly constructed boundary, it's easier to fix when it's all in the same repo.
+- *Have a plan for coordinating deploys* - When multiple modules need to be released together for a feature, it can be easier to coordinate activation through feature flags rather than trying to achieve atomic cross-package deployments.
+- *Only build and test what has actually changed between commits* - Good build tools use dependency graphs to determine which packages need rebuilding. Without this, CI/CD times become prohibitive as the repo grows.
 
 ## Supporting Capabilities
 
