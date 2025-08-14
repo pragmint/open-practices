@@ -13,9 +13,13 @@ Quick 2-4 sentence summary. What’s the practice? Why should teams care? (Keep 
 
 ## Metrics & Signals
 
+You know this practice is making a positive impact if...
+
 ```text
-How will we measure progress? Target metrics, qualitative markers, or lightweight feedback (surveys, retros, anecdotal signals). This doesn't have to be quantitative, could be qualitative as well. Make sure to include how / who can track this.
+Create a list of target metrics, qualitative markers, or lightweight feedback (surveys, retros, anecdotal signals). This doesn't have to be quantitative, could be qualitative as well. Make sure to include how / who can track this.
 ```
+
+You'll want to ensure you have both a baseline measurement and an updated measurement after a month or so of experimenting with this practice.
 
 ## How to Gain Traction
 
