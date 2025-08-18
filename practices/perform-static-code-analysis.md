@@ -12,35 +12,38 @@ Some popular tools include:
 
 ## Who It’s For & Why
 
-- You are a developer and would be need feedback on potential bugs, design issues, and style mismatches without waiting for a review cycle.
-- You are a QA Engineer and you need to identify high risk areas earlier in the development process, so you can identify the best use of your often limited testing time ensuring greater code quality.
-- You are a Tech Lead or Manager and you need to ensure consistent code quality across a team without increasing review overhead.
+- **Developers** – Need fast feedback on bugs, design issues, and inconsistencies without waiting for review cycles.
+- **QA Engineers** – Want to identify high-risk areas earlier to focus limited testing time more effectively.
+- **Tech Leads or Managers** – Need to enforce consistent code quality across the team without increasing review overhead.
 
-## Goals, Metrics & Signals
+## Metrics & Signals
 
-### Intended Outcomes
+You know this practice is making a positive impact if...
 
-- Faster detection and resolution of bugs, security vulnerabilities, and style inconsistencies.
-- Increased developer confidence and reduced rework caused by late-discovered issues.
-- Improved consistency and maintainability across the codebase.
+- ...fewer issues are flagged during manual code reviews that could have been automatically detected. Track this by tagging review comments or using tools like GitHub's review insights, [DX](https://getdx.com/platform/data-lake/), or [Code Climate Velocity](https://docs.velocity.codeclimate.com/en/) to analyze trends over time.
+- ...production bugs linked to preventable errors (e.g., null checks, insecure patterns) decrease. Teams can track this by tagging incident postmortems or using bug categorization in tools like [Jira](https://support.atlassian.com/jira-cloud-administration/docs/what-are-issue-types/), [Linear](https://linear.app/docs/labels), or observability platforms like [Sentry](https://docs.sentry.io/product/issues/) to monitor this trend.
+- ...developer sentiment around code review “friction” improves. You can capture this through lightweight surveys using [Typeform](https://www.typeform.com/) or [Google Forms](https://www.google.com/forms/about/) before and after adoption. These can be incorporated into team retros—look for signals like reduced frustration with nitpicky feedback or faster review turnaround times.
+- ... engineers begin resolving more issues before creating pull requests. IDE-integrated tools (like [ESLint](https://eslint.org/docs/latest/use/), [Semgrep](https://semgrep.dev/docs/extensions/overview#official-ide-extensions), or [Claude Code](https://claude.ai/)) often track autofix or alert resolution rates, which can be reviewed monthly to establish a baseline and measure improvement.
+- ...codebase consistency and maintainability improves. This can be tracked by monitoring linter violations, rule compliance trends, or static analysis scores over time (e.g., via [SonarQube dashboards](https://docs.sonarsource.com/sonarqube-server/10.6/user-guide/code-metrics/introduction/) or [Semgrep reports](https://semgrep.dev/docs/semgrep-ci/overview/)).
 
-### Target Measurements
 
-- Reduced number of issues caught during manual code reviews that could have been flagged by automated tools.
-- Decrease in production bugs linked to preventable coding errors.
-- Positive changes in developer sentiment around “friction” in code reviews, measured via retrospectives or surveys.
+You'll want to ensure you have both a baseline measurement and an updated measurement after 4-5 weeks of experimenting with this practice.
 
 
 ## Lessons From The Field
-
-- *Automation Should Complement, Not Replace Human Review* – Automated tools are great at spotting patterns but can miss context-specific problems. Keep human judgment in the loop.
-- *False Positives Can Cause Fatigue* – Too many non-issues flagged will erode trust in the tool. Customize rulesets and adjust sensitivity over time.
-- *Makes Tight Coupling Easier* - When you make it easier to write code that changes multiple parts of the broader system, you make it easier to introduce code that doesn't separate concerns and increases module coupling. This can be mitigated with constant retrospectives focused on how these boundaries are formed. The good news about monorepos is when you identify a poorly constructed boundary, it's easier to fix when it's all in the same repo.
-- *AI Tools Can Provide Richer Feedback* – LLM-powered assistants can understand broader context and suggest better-structured fixes, but may occasionally “hallucinate” incorrect solutions — always verify.
-- *Integrate Into the Workflow Early* – The earlier developers see issues (e.g., in their IDE), the less disruptive they are to fix.
-- *Use the Right Tool for the Right Job* – Some tools shine in specific languages or environments; a multi-tool approach often works best.
+- *Review Fatigue Kills Trust* – When teams adopt static analysis tools without tuning them, developers quickly become numb to the noise. Repeatedly flagging false positives or nitpicky issues creates [review fatigue](https://medium.com/@sageniuz/where-ai-meets-code-techniques-and-best-practices-from-michael-feathers-a-summary-312ef91b6472)—a term coined by Michael Feathers to describe the erosion of attention and care during reviews due to cognitive overload. We’ve seen teams where high-friction rules led to engineers auto-dismissing feedback, eventually ignoring tools entirely.  
+**Lesson:** Curate rulesets with developer input and trim overly noisy alerts. Prioritize signal over volume to preserve trust and ensure these tools remain useful over time.
+- *AI Tools Can Provide Richer Feedback* – AI-assisted tools like Claude can help developers catch bugs earlier, write cleaner code, and accelerate onboarding—especially for newer team members. However, these tools can occasionally propose flawed or overly confident fixes. Teams that encourage developers to use AI for pre-review, followed by intentional peer validation, tend to see the greatest gains. Automation should complement, not replace, human review.
+**Lesson:** Treat AI and automation suggestions like junior developer input—often helpful, but not always right. Peer review remains essential for catching edge cases, maintaining architectural integrity, and avoiding over-reliance on “green checks.”
+- *Early Integration Reduces Friction* – Teams that surface static analysis results directly in the developer’s IDE tend to resolve issues faster and with less frustration. When feedback is delayed to CI or post-push review, issues are often skipped or rushed because the developer has already context-switched. By contrast, showing issues inline—right when code is being written—leads to higher-quality fixes and builds better habits over time.  
+**Lesson:** The sooner the feedback appears, the more likely it is to be acted on. Integrate tools into editors like VS Code or JetBrains, not just your CI, to reduce disruption and encourage learning.
+- *Use the Right Tools for the Job* – Not all static analysis tools are equally effective across languages or tech stacks. Teams often adopt a single tool out of convenience, only to find it lacks precision in certain environments—leading to false positives or missed issues. A better approach is to assess tools based on the codebase, language, and team needs, combining general-purpose and language-specific tools where appropriate.  
+**Lesson:** Choose tools tailored to your stack. A lightweight multi-tool setup, tuned per language, often outperforms an “everything in one” solution.
 
 ## How to Gain Traction
+### Start with Education & Demos 
+
+Begin with a 30-minute live session to align the team on what automated code analysis is, why it matters, and how it fits into their daily work. Share resources like [AI vs Rule-based Static Code Analysis by Kendrick Curtis](https://www.youtube.com/watch?v=hkd5uk7J-qo) and [Semgrep’s blog](https://semgrep.dev/blog/2025/fix-what-matters-faster-how-semgrep-and-sysdig-are-unifying-security-from-code-to-runtime/) in advance, so team members come prepared with questions. Close the session with a short demo in your actual codebase using a tool like ESLint, SonarQube, or Claude Code to make the value real and immediate.
 
 ### Run a Pilot on a Single Repo
 
