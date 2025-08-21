@@ -64,6 +64,10 @@ Dogfooding your systems involves having your teams use the same products or syst
 
 SPIN is a question-asking framework that was originally developed for sales professionals. It focuses on understanding a person's needs through four types of questions: Situation, Problem, Implication, and Need-Payoff. Software professionals can use SPIN to uncover problems, clarify needs, and arrive at creative solutions, thus bolstering a learning culture.
 
+### Introduce a Screen-Recording Tool
+
+By enabling richer, more intuitive communication, screen recording helps teams document intent more clearly, reduce back-and-forth, and improve the efficiency of handoffs without requiring ticket authors to spend a lot of time writing. A lightweight screen-recording tool like [Loom](https://www.loom.com) allows ticket authors to quickly demonstrate the issue or desired behavior using voice and visuals, reducing ambiguity without adding process overhead. 
+
 ## Adjacent Capabilities
 
 The following capabilities will be valuable for you and your team to explore, as they are either:
