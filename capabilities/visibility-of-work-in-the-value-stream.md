@@ -70,7 +70,7 @@ Conduct regular VSM workshops involving representatives from each stage of the v
 
 Start by setting limits that feel ambitious. This forces teams to make deliberate choices about what work matters most. The exact number depends on your team's context, but the goal is to find the sweet spot where teams feel focused but not hamstrung. Display your WIP limits prominently on your board or dashboard. When the limit is reached, treat it as a hard stop. No new work enters the system until something completes. This discipline creates the pressure needed to finish what's started and forces the prioritization conversations that lead to better decisions.
 
-### [Code Review Process](/practices/conduct-code-reviews.md)
+### [Host Codebase Stewardship Mob](/practices/conduct-code-reviews.md)
 
 The code review process plays a crucial role in work visibility because it provides insights into the status and quality of changes. A well-structured code review process ensures that teams can track work progress, identify slow-moving changes, and resolve blockers efficiently. Poorly managed code reviews, however, can become an invisible bottleneck, delaying work for reasons that are unclear.
 
