@@ -15,13 +15,9 @@ Quick 2-4 sentence summary. What’s the practice? Why should teams care? (Keep 
 
 ## Metrics & Signals
 
-You know this practice is making a positive impact if...
-
 ```text
-Create a list of target metrics, qualitative markers, or lightweight feedback (surveys, retros, anecdotal signals). This doesn't have to be quantitative, could be qualitative as well. Make sure to include how / who can track this.
+When writing Metrics & Signals, list target metrics, qualitative markers, or lightweight feedback mechanisms (surveys, retros, anecdotes). Organize them into Fast & Measurable, Fast & Intangible, Slow & Measurable, or Slow & Intangible, but only include categories with strong, defensible signals. For measurable items, specify how to track them (e.g. DX, Jira, CI dashboards, etc); for intangibles, note how to capture feedback (surveys, retro notes, developer chatter). Keep metrics scoped and outcome-focused (e.g. “lead time for cross-repo changes” instead of just “lead time”). Exclude weak or hard-to-attribute signals.
 ```
-
-You'll want to ensure you have both a baseline measurement and an updated measurement after `insert appropriate period of time` of experimenting with this practice.
 
 ## How to Gain Traction
 
