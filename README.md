@@ -1,10 +1,18 @@
 # Open Practices
 
-> Practice - An actionable pattern, technique, or process employed by software professionals.
+> Practice - A specific, repeatable action or technique that software professionals use to improve how they build and deliver software. 
 
-This repository is an opinionated list of practices that high-performing software development teams can follow. We've organized these [practices](/practices/) based on [DORA Capabilities](https://dora.dev/capabilities/) to piggyback off of their exhaustive research over the past decade. By focusing on practices that support these research-backed capabilities, we aim to give readers many actionable opportunities to grow their skills and fine-tune their processes in areas that are likely to positively impact the organizations they work with.
+Welcome to Pragmint’s Open Practices repository. Here, you will find a library of proven techniques and high-impact practices — all open-souced and ready to apply today — that will elevate your team and drive better business results.
 
-Not every practice we include will be beneficial in every situation. Each unique situation is rife with nuance. Our curated list is designed to include practices that typically work and are in support a given DORA Capability. Our goal is to ensure that teams always have fresh, pragmatic, and actionable ideas on how they can improve.
+Material in this repository supports Pragmint’s cyclical **S.T.E.P.** strategy:
+
+* **Survey:** Use our [open-source assessment](/capabilities-maturity-assessment.md) to objectively measure your team’s maturity against the 29 [DORA Capabilities](https://github.com/pragmint/open-practices/tree/main/capabilities). 
+
+* **Target:** Identify Capabilities where there are significant gaps in adoption, and prioritize improving on those that will deliver the highest impact. 
+
+* **Experiment:** Play around with supported [practices](https://github.com/pragmint/open-practices/tree/main/practices) to enhance targeted Capabilities. Select one or two high-impact experiments, commit to them, and give the team time to integrate them into their regular workflow.
+
+* **Polish:** After a few months of experimenting, gather feedback to reflect and reassess progress. Review Metrics & Signals, included in each [practice](https://github.com/pragmint/open-practices/tree/main/practices), to determine whether an experiment is making a positive impact. Refine practices that are working, scrap those that are not, and continue to adapt based on real-world feedback and measurements for success.
 
 At [Pragmint](https://pragmint.com/), we rely on this resource to onboard new team members and focus our [Co-Dev Coaching](https://www.pragmint.com/insight/what-is-co-dev-coaching) efforts.
 
@@ -47,10 +55,6 @@ At [Pragmint](https://pragmint.com/), we rely on this resource to onboard new te
 - [Test Automation](/capabilities/test-automation.md)
 - [Test Data Management](/capabilities/test-data-management.md)
 - [Visibility of Work in the Value Stream](/capabilities/visibility-of-work-in-the-value-stream.md)
-
-## Capabilities Maturity Assessment
-
-Teams can take [this assessment](/capabilities-maturity-assessment.md) to identify areas where there are significant gaps in capability adoption.
 
 ## Important Note
 
