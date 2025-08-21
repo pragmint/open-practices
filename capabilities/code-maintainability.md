@@ -59,10 +59,6 @@ Generally, an overall score equal to or less than 3 means you'll likely gain a l
 
 The following is a curated list of supporting practices to consider when looking to improve your team's Code Maintainability capability. While not every practice will be beneficial in every situation, this list is meant to provide teams with fresh, pragmatic, and actionable ideas to support this capability.
 
-### Consolidate Code Patterns
-
-Pick a single, preferred way to handle common tasks like data access, error handling, configuration, or validation. The aim isn’t to lock things down entirely; rather this practice is meant to reduce variation where it adds little value. Fewer patterns means less mental overhead, fewer bugs, and easier onboarding. It also makes automated testing, refactoring, and documentation more straightforward. When exceptions are needed, they should be intentional and well justified; not just the result of personal preference or copy-paste drift.
-
 ### [Automate Coding Standards](/practices/automate-coding-standards.md)
 
 Automating coding standards involves using tools and processes to automatically enforce coding standards, style guides, and other best practices during the coding phase.
@@ -74,7 +70,7 @@ Automating coding standards removes the burden of manual reviews for stylistic a
 
 Decoupling from third parties means minimizing dependencies on third-party software, thereby ensuring that code remains adaptable and easy to maintain over time. By abstracting dependencies behind interfaces and relying on those interfaces instead of specific third-party tools, teams can enhance the portability of their code, facilitate comprehensive testing through the creation of mock or stub implementations, and flexibly migrate to alternative solutions if necessary.
 
-### [Conduct Code Reviews](/practices/conduct-code-reviews.md)
+### [Regularly Host Codebase Stewardship Mob](/practices/conduct-code-reviews.md)
 
 Code reviews allow team members to ensure that proposed code is functional and easy to maintain over time. This practice also promotes test automation, prevents regression errors, and maintains smooth CI processes. By providing feedback on readability, test coverage, and coding standards adherence, conducting code reviews improves the quality of the codebase and the stability of the software.
 
@@ -110,16 +106,16 @@ The following capabilities will be valuable for you and your team to explore, as
 - Upstream (they are a pre-requisite for Code Maintainability)
 - Downstream (Code Maintainability is a pre-requisite for them)
 
-### [Version Control](/capabilities/version-control.md) - Upstream
-
-Version Control is fundamental for a maintainable codebase. It allows for efficient tracking, collaboration, and management of code changes over time.
-By tracking changes made to the codebase using version control, developers can ensure consistency across contributors, re-use code components, conduct code audits, track bugs and errors, meet compliance requirements, manage security patches, and integrate updates quickly and easily.
-
 ### [Documentation Quality](/capabilities/documentation-quality.md) - Related
 
 High-quality documentation is essential for code maintainability. It provides context for design decisions while also cataloging best practices and compatibility information.
 By investing in documentation, developers create a single source of truth for the codebase, reducing confusion and bugs down the line.
 A well-documented codebase is more maintainable, and vice versa.
+
+### [Version Control](/capabilities/version-control.md) - Upstream
+
+Version Control is fundamental for a maintainable codebase. It allows for efficient tracking, collaboration, and management of code changes over time.
+By tracking changes made to the codebase using version control, developers can ensure consistency across contributors, re-use code components, conduct code audits, track bugs and errors, meet compliance requirements, manage security patches, and integrate updates quickly and easily.
 
 ### [Loosely Coupled Teams](/capabilities/loosely-coupled-teams.md) - Upstream
 
