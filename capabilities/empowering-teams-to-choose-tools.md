@@ -49,7 +49,7 @@ Spotify coined the term [Golden Path](https://engineering.atspotify.com/2020/08/
 
 Conduct regular audits of the organization's toolset to evaluate its effectiveness and relevance. During these audits, discuss and document the benefits and drawbacks of current tools, and explore new technologies. Make sure to invite commentary from all levels of the organization. This practice helps keep the tools aligned with the organization’s evolving goals and fosters a culture of continuous improvement and adaptation.
 
-### [Schedule Time for Experimentation](/practices/schedule-time-for-experimentation.md)
+### [Organize a Hackathon](/practices/schedule-time-for-experimentation.md)
 
 Regularly allocate time for teams to experiment with new tools, such as through hackathons or innovation days. Encourage team members to test new technologies and assess their suitability for the organization's needs. This practice fosters a culture of experimentation and growth, which can lead to significant performance improvements and greater team engagement.
 
