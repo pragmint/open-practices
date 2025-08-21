@@ -41,9 +41,9 @@ The following is a curated list of supporting practices to consider when looking
 
 Automate the creation of documentation using tools that generate comprehensive and up-to-date documentation directly from the source code or configuration files. This practice ensures that documentation stays in sync with the codebase, reducing the manual effort required to maintain it, and minimizing the risk of outdated or incomplete information. Tools like [Swagger](https://github.com/swagger-api) create executable documentation, while tools like [RepoAgent](https://github.com/OpenBMB/RepoAgent) use LLMs to automatically keep the documentation in sync as the codebase changes.
 
-### [Implement a Documentation Search Engine](/practices/implement-a-documentation-search-engine.md)
+### [Implement an Enterprise Search Tool](/practices/implement-a-documentation-search-engine.md)
 
-Implementing a documentation search engine enables team members to quickly find relevant documentation, reducing the time spent searching for information and increasing productivity. For example, [Obsidian](https://obsidian.md/) links documents together, creating a map of related ideas. With [Notion](https://www.notion.so/), users can tag and filter documents for quick organizing and categorizing. And [Confluence](https://www.atlassian.com/software/confluence) gives teams secure, shared access to large volumes of organized documentation.
+Implementing an enterprise search tool enables team members to quickly find relevant documentation, reducing the time spent searching for information and increasing productivity. For example, [Obsidian](https://obsidian.md/) links documents together, creating a map of related ideas. With [Notion](https://www.notion.so/), users can tag and filter documents for quick organizing and categorizing. And [Confluence](https://www.atlassian.com/software/confluence) gives teams secure, shared access to large volumes of organized documentation.
 
 ### [Schedule Regular Documentation Audits](/practices/schedule-regular-documentation-audits.md)
 
@@ -61,10 +61,10 @@ The following capabilities will be valuable for you and your team to explore, as
 - Upstream (they are a pre-requisite for Documentation Quality)
 - Downstream (Documentation Quality is a pre-requisite for them)
 
-### [Learning Culture](/capabilities/learning-culture.md) - Upstream
-
-If a culture of learning and knowledge sharing hasn't been established, high-quality documentation will not be actively created or maintained. This can lead to large gaps of documentation or worse, out-of-date or incorrect information.
-
 ### [Code Maintainability](/capabilities/code-maintainability.md) - Related
 
 Good documentation is critical for maintaining code quality, as it helps developers understand the codebase and make informed decisions about changes.
+
+### [Learning Culture](/capabilities/learning-culture.md) - Upstream
+
+If a culture of learning and knowledge sharing hasn't been established, high-quality documentation will not be actively created or maintained. This can lead to large gaps of documentation or worse, out-of-date or incorrect information.
