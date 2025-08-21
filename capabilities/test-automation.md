@@ -61,7 +61,7 @@ Automating test coverage checks ensures continuous and immediate feedback on cod
 This practice identifies untested code early, helping prevent bugs and regressions, and aligns with a consistent testing strategy.
 By maintaining realistic coverage thresholds for different modules, automating test coverage checks optimizes testing efforts, enhances collaboration between testers and developers, and ultimately improves software quality and stability throughout the delivery lifecycle.
 
-### [Conduct Code Reviews](/practices/conduct-code-reviews.md)
+### [Host a Codebase Stewardship Mob](/practices/conduct-code-reviews.md)
 
 Code reviews allow team members to ensure that proposed code is functional and easy to maintain over time. This practice also promotes test automation, prevents regression errors, and maintains smooth CI processes. By providing feedback on readability, test coverage, and coding standards adherence, conducting code reviews improves the quality of the codebase and the stability of the software.
 
@@ -89,6 +89,10 @@ The following capabilities will be valuable for you and your team to explore, as
 * Upstream (they are a pre-requisite for Test Automation)
 * Downstream (Test Automation is a pre-requisite for them)
 
+### [Code Maintainability](/capabilities/code-maintainability.md) - Related
+
+Test automation can offer valuable insights into code maintainability. Code that is easy to test is often better organized, more maintainable, and resilient. When developers struggle to write automated tests, it can serve as a signal that the code may need restructuring or refinement. This feedback loop from test automation helps teams improve code quality over time, enhancing both testability and long-term maintainability.
+
 ### [Test Data Management](/capabilities/test-data-management.md) - Upstream
 
 Some types of test automation -- such as e2e, performance, and load -- rely on data to run their assertions. That's why it's important for teams to have a mature test data management capability _before_ setting up data-reliant automated tests.
@@ -100,7 +104,3 @@ In order for a CI pipeline to know what changes to accept and what changes to re
 ### [Streamline Change Approval](/capabilities/streamline-change-approval.md) - Downstream
 
 With robust test automation in place, teams can approve changes with confidence, knowing they have a reliable safeguard to catch errors and ensure system stability. Reviewers can focus on strategic and functional aspects of the change, rather than worrying about technical integrity, since certain categories of potential errors have already been identified and addressed via automated tests.
-
-### [Code Maintainability](/capabilities/code-maintainability.md) - Related
-
-Test automation can offer valuable insights into code maintainability. Code that is easy to test is often better organized, more maintainable, and resilient. When developers struggle to write automated tests, it can serve as a signal that the code may need restructuring or refinement. This feedback loop from test automation helps teams improve code quality over time, enhancing both testability and long-term maintainability.
