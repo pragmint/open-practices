@@ -42,7 +42,7 @@ The following is a curated list of supporting practices to consider when looking
 
 Pair programming can help teams maintain a high level of code quality and knowledge sharing, which is essential for trunk-based development. By working together, developers can catch issues early and ensure that code is written in a way that is easy to understand and maintain. Additionally, pair programming can substitute for the code review process, avoiding a bottleneck in the chain of approval and making development more agile.
 
-### [Clean Git History](/practices/clean-git-history.md)
+### [Enforce a Clean Git History](/practices/clean-git-history.md)
 
 The Clean Git History practice supports trunk-based development by encouraging small, focused commits that keep the main branch stable. Maintaining a clean, navigable commit history allows teams to minimize conflicts and simplify integration, which is essential for frequent merges. Ensuring each commit is deployable enables faster delivery cycles and aligns with the trunk-based philosophy of keeping the codebase in a consistently shippable state.
 
@@ -70,10 +70,6 @@ The following capabilities will be valuable for you and your team to explore, as
 - Upstream (they are a pre-requisite for Trunk-based Development)
 - Downstream (Trunk-based Development is a pre-requisite for them)
 
-### [Continuous Delivery](/capabilities/continuous-delivery.md) - Downstream
-
-Trunk-based Development is a pre-requisite for Continuous Delivery because it enables small, frequent merges to the main branch, which reduces integration complexity and conflicts. Without the rapid feedback and stability provided by trunk-based development, maintaining a reliable and efficient continuous delivery process would be challenging.
-
 ### [Database Change Management](/capabilities/database-change-management.md) - Upstream
 
 Database change management enables continuous integration and rapid rollbacks, which is required for trunk-based development. By managing database changes effectively, teams can ensure that database updates align with frequent code changes, supporting quick deployments and the ability to revert changes when needed.
@@ -93,3 +89,7 @@ Streamlined change approval processes reduce friction and delays, enabling teams
 ### [Version Control](/capabilities/version-control.md) - Upstream
 
 Version control provides teams with the foundational tooling necessary to safely manage and integrate small batches of changes. Without effective version control, trunk-based development becomes difficult or impossible to sustain.
+
+### [Continuous Delivery](/capabilities/continuous-delivery.md) - Downstream
+
+Trunk-based Development is a pre-requisite for Continuous Delivery because it enables small, frequent merges to the main branch, which reduces integration complexity and conflicts. Without the rapid feedback and stability provided by trunk-based development, maintaining a reliable and efficient continuous delivery process would be challenging.
