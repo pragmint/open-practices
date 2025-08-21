@@ -53,6 +53,10 @@ As systems and processes evolve, it's important to spend some time auditing your
 
 Runbooks provide step-by-step guidance that helps teams resolve issues quickly and consistently, especially during high-stress or time-sensitive situations. They reduce the need to rely on tribal knowledge, make onboarding easier, and ensure continuity when team members are unavailable. A good runbook is concise, action-oriented, and regularly updated based on real-world usage.
 
+### Introduce a Screen-Recording Tool
+
+By enabling richer, more intuitive communication, screen recording helps teams document intent more clearly, reduce back-and-forth, and improve the efficiency of handoffs without requiring ticket authors to spend a lot of time writing. A lightweight screen-recording tool like [Loom](https://www.loom.com) allows ticket authors to quickly demonstrate the issue or desired behavior using voice and visuals, reducing ambiguity without adding process overhead. 
+
 ## Adjacent Capabilities
 
 The following capabilities will be valuable for you and your team to explore, as they are either:
