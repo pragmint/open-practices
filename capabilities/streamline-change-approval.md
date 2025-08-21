@@ -39,7 +39,7 @@ The following is a curated list of supporting practices to consider when looking
 
 Pair programming sessions facilitate collaboration, real-time code review, and knowledge sharing among developers. By working in pairs, developers can also catch issues early and ensure code is comprehensible, consistent, and in adherence with coding standards. This practice accelerates the onboarding process for new team members while helping experienced developers refine their skills. 
 
-### [Conduct Code Reviews](/practices/conduct-code-reviews.md)
+### [Host Codebase Stewardship Mob](/practices/conduct-code-reviews.md)
 
 Conducting code reviews typically slows down the change approval process. But if code reviews don't block the ability to integrate changes and the focus remains on getting feedback early in the development process, then this practice can actually *accelerate* the change approval process.
 
