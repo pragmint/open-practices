@@ -53,17 +53,13 @@ Start with defining a clear Minimum Viable Product (MVP). This is the simplest v
 
 Hold sessions that give teams an opportunity to practice decomposing features and break down user stories into small, independently valuable increments. This will likely push teams out of their comfort zone. But it's *good* to push teams to slice too much -- it's useful to know what "too much" looks like. Without opening their minds to new ways of slicing work, teams can easily revert to the original scope.
 
-### Instrument Your System With Telemetry
+### Instrument Systems With Telemetry Data
 
 To understand which batch to target next, it's useful to measure the value your system is creating. Instrument key parts of your application with telemetry data to gain real-time insights into usage patterns, performance bottlenecks, and opportunities to prioritize impactful changes.
 
 ### Use Feature Toggles to Integrate More Frequently
 
-When teams can toggle features on or off, they can separate deployment from release and safely integrate changes while development is ongoing. This functionality also encourages the habit of splicing in small changes. Feature toggles are designed to be short-lived; avoid cluttering the codebase with long-term toggles by planning their removal once the feature has proven its value.
-
-### Branch by Abstraction to Integrate More Frequently
-
-Branch by Abstraction, a technique popularized by Martin Fowler, delivers a similar outcome as feature toggles. Teams typically prefer Branch by Abstraction when undertaking complex refactoring of legacy systems, extensive architectural changes, or replacing critical infrastructure where incremental transition is necessary. Feature toggles are meant to be short-lived, whereas Branch by Abstraction provides a path to permanently evolving the codebase without lingering conditional logic.
+When teams can toggle features on or off, they can separate deployment from release and safely integrate changes while development is ongoing. This functionality also encourages the habit of splicing in small changes. Feature toggles are designed to be short-lived; avoid cluttering the codebase with long-term toggles by planning their removal once the feature has proven its value. Branch by Abstraction, a technique popularized by Martin Fowler, delivers a similar outcome as feature toggles. Teams typically prefer Branch by Abstraction when undertaking complex refactoring of legacy systems, extensive architectural changes, or replacing critical infrastructure where incremental transition is necessary. Feature toggles are meant to be short-lived, whereas Branch by Abstraction provides a path to permanently evolving the codebase without lingering conditional logic.
 
 ## Adjacent Capabilities
 
@@ -72,6 +68,10 @@ The following capabilities will be valuable for you and your team to explore, as
 - Related (they cover similar territory to Working in Small Batches)
 - Upstream (they are a pre-requisite for Working in Small Batches)
 - Downstream (Working in Small Batches is a pre-requisite for them)
+
+### [Work in Process Limits](/capabilities/work-in-process-limits.md) - Related
+
+Work in Process (WIP) Limits help teams manage their workload by setting constraints on concurrent work. This encourages batch completion before taking on new tasks, which aligns with the principle of small-batch delivery to maintain flow and efficiency.
 
 ### [Streamline Change Approval](/capabilities/streamline-change-approval.md) - Upstream
 
@@ -88,10 +88,6 @@ Version control gives teams the foundational tooling necessary to safely manage 
 ### [Monitoring and Observability](/capabilities/monitoring-and-observability.md) - Upstream
 
 Strong monitoring and observability allow teams to quickly validate whether a small increment is working correctly in an integrated environment. If the capability of Monitoring and Observability is not in a mature place, then verification must be done manually for each batch.
-
-### [Work in Process Limits](/capabilities/work-in-process-limits.md) - Related
-
-Work in Process (WIP) Limits help teams manage their workload by setting constraints on concurrent work. This encourages batch completion before taking on new tasks, which aligns with the principle of small-batch delivery to maintain flow and efficiency.
 
 ### [Continuous Integration](/capabilities/continuous-integration.md) - Downstream
 
