@@ -13,15 +13,6 @@ Managing dozens of micro-repos can feel like death by a thousand Git pulls. This
 
 - You are a Developer and you need to make coordinated changes across services without repo-hopping so you can move faster with less friction.
 
-## Metrics & Signals
-
-You know this practice is making a positive impact if...
-
-- ...lead time for changes that span multiple repositories decreases. Tools like [DX](https://getdx.com/platform/data-lake/), [Jellyfish](https://jellyfish.co/platform/engineering-metrics/), or others can measure these sort of lead time changes. Custom solutions can also be built using data from project planning tools like [JIRA](https://community.atlassian.com/forums/App-Central-articles/Cycle-Time-and-Lead-Time-in-Jira-Productivity-Measurement-with/ba-p/1905845), [Monday](https://monday.com/blog/project-management/what-is-lead-time/), or others.
-- ...developer sentiment around ease of integrating changes when working across services has improved. This can be measured using a simple tool like [Google Forms](https://workspace.google.com/products/forms/) or [Typeform](https://www.typeform.com/), or it can be integrated into more robust tools like [DX](https://getdx.com/) or [Jellyfish](https://jellyfish.co/).
-
-You'll want to ensure you have both a baseline measurement and an updated measurement after a month or so of experimenting with this practice.
-
 ## How to Gain Traction
 
 ### Start with a Pilot Repo
@@ -35,6 +26,16 @@ Give teams an easy way to migrate their repositories into the new workspace whil
 ### Continue Improving DevEx
 
 Schedule time with the team members who work in the new repository to understand their pain points. Brainstorm potential solutions as a group. Keep an eye toward improving the items listed in the Goals, Metrics & Signals section of this page to ensure efforts are making a difference.
+
+## Metrics & Signals
+
+### Fast & Measurable
+
+Within weeks, the lead time for changes spanning multiple repositories should decrease. By consolidating services into a monorepo, cross-cutting changes can be made without repo-hopping or chaining pull requests across repos, reducing coordination overhead and speeding up delivery. Tools like [DX](https://getdx.com/platform/data-lake/), [Jellyfish](https://jellyfish.co/platform/engineering-metrics/), or others can measure these sort of lead time changes. Custom solutions can also be built using data from project planning tools like [JIRA](https://community.atlassian.com/forums/App-Central-articles/Cycle-Time-and-Lead-Time-in-Jira-Productivity-Measurement-with/ba-p/1905845), [Monday](https://monday.com/blog/project-management/what-is-lead-time/), or others.
+
+### Slow & Intangible
+
+Over time, the system's service boundaries should feel cleaner because refactoring those boundaries becomes easier. Poor service boundaries can be removed with less friction when everything lives in one repo. On the flipside, teams can more quickly extract new services with the shared tooling, configuration, and build setup.
 
 ## Lessons From The Field
 
