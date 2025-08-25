@@ -66,7 +66,7 @@ You'll want to ensure you have a baseline measurement and, after 4-5 weeks of ex
 
 ### [Code Maintainability](/capabilities/code-maintainability.md)
 
-Automated code analysis enforces consistent coding standards and identifies maintainability issues early, keeping the codebase clean and flexible.
+Automated code analysis enforces consistent coding standards and identifies maintainability issues early, keeping the codebase clean, reliable, and easy to work with.
 
 ### [Pervasive Security](/capabilities/pervasive-security.md)
 
