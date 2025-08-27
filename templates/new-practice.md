@@ -6,7 +6,7 @@
 Quick 2-4 sentence summary. What’s the practice? Why should teams care? Keep it casual and motivating.
 ```
 
-## Who It’s For & Why
+## When to Experiment
 
 ```text
 “I am a [persona] and I need to [learn how to / ensure that] so I can [end goal].”
@@ -22,24 +22,26 @@ Each step gets:
   3 sentences on how to do it, how to get buy-in, and what tools/resources help. Any external resources (videos, guides, book lists, templates, etc.) that help a team adopt this practice should be linked here within the relevant action step.
 ```
 
-## Metrics & Signals
-
-```text
-When writing Metrics & Signals, list target metrics, qualitative markers, or lightweight feedback mechanisms. 
-
-Organize them into Fast & Measurable, Fast & Intangible, Slow & Measurable, or Slow & Intangible, but only include categories with strong, defensible signals. Exclude weak or hard-to-attribute signals.
-
-For measurable items, specify how to track them (e.g., DX, Jira, CI dashboards). For intangible items, note how to capture feedback (e.g., surveys, retro notes, developer chatter). 
-
-Keep metrics scoped and outcome-focused (e.g., “reduced lead time for cross-repo changes” instead of just “reduced lead time”). 
-```
-
 ## Lessons From The Field
 
 ```text
 This section captures real-world patterns (things that consistently help or hinder this practice) along with short, relevant stories from the field. It’s not for personal rants or generic opinions. Each entry must be based on either:
 1. a repeated observation across teams, or
 2. a specific example (what worked, what didn’t, and why).
+```
+
+## Deciding to Polish or Pitch
+
+After experimenting with this practice for `insert appropriate quantity of time in bold`, bring the team together and ensure the following metrics and/or signals have changed in a positive direction:
+
+```text
+When writing Metrics & Signals, list target metrics, qualitative markers, or lightweight feedback mechanisms.
+
+Organize them into Fast & Measurable, Fast & Intangible, Slow & Measurable, or Slow & Intangible, but only include categories with strong, defensible signals. Exclude weak or hard-to-attribute signals.
+
+For measurable items, specify how to track them (e.g., DX, Jira, CI dashboards). For intangible items, note how to capture feedback (e.g., surveys, retro notes, developer chatter).
+
+Keep metrics scoped and outcome-focused (e.g., “reduced lead time for cross-repo changes” instead of just “reduced lead time”).
 ```
 
 ## Supported Capabilities
