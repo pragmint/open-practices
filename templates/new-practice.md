@@ -35,7 +35,7 @@ This section captures real-world patterns (things that consistently help or hind
 After experimenting with this practice for `insert appropriate quantity of time in bold`, bring the team together and ensure the following metrics and/or signals have changed in a positive direction:
 
 ```text
-When writing Metrics & Signals, list target metrics, qualitative markers, or lightweight feedback mechanisms.
+When writing Metrics & Signals, list target metrics, qualitative markers, or lightweight feedback mechanisms. Review this article for inspiration: https://dora.dev/research/2025/measurement-frameworks/
 
 Organize them into Fast & Measurable, Fast & Intangible, Slow & Measurable, or Slow & Intangible, but only include categories with strong, defensible signals. Exclude weak or hard-to-attribute signals.
 
