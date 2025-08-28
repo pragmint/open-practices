@@ -65,7 +65,7 @@ Implementing automatic database migrations ensures database schema changes are c
 
 This practice separates application code from operational configurations, which enhances security and deployment processes. It minimizes risks associated with data exposure, focusing version control efforts on code changes.
 
-### [Clean Git History](/practices/clean-git-history.md)
+### [Enforce a Clean Git History](/practices/enforce-a-clean-git-history.md)
 
 Maintaining a clean Git history ensures a clear and comprehensible project history. By making the revision history easier to follow, this practice facilitates better understanding, collaboration, troubleshooting, and rollbacks.
 

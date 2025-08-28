@@ -1,4 +1,4 @@
-# Clean Git History
+# Enforce a Clean Git History
 
 The Clean Git History practice favors small, focused commits to aid navigation, search, and efficient code reviews. Each commit should be releasable, maintaining the codebase in a deployable state to minimize instability. On shared branches, commits are treated as immutable to avoid nasty conflicts. Adding context information, such as ticket or story references, to commits helps developers understand the requirements and business reasons behind changes.
 

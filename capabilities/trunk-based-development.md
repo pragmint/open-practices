@@ -8,7 +8,7 @@ This section outlines common pitfalls, challenges, or limitations teams commonly
 
 ### Automated Testing Must Be Fast and Reliable
 
-Trunk-based development relies on fast, automated tests to keep the main branch stable. Slow test suites create bottlenecks, delaying feedback and hurting productivity. Preferably, unit tests should run with a pre-commit hook to catch issues early, and all tests must run in the CI/CD pipeline to ensure stable integration. 
+Trunk-based development relies on fast, automated tests to keep the main branch stable. Slow test suites create bottlenecks, delaying feedback and hurting productivity. Preferably, unit tests should run with a pre-commit hook to catch issues early, and all tests must run in the CI/CD pipeline to ensure stable integration.
 
 ### Lengthy Approval Processes Can Counteract the Benefits
 
@@ -42,7 +42,7 @@ The following is a curated list of supporting practices to consider when looking
 
 Pair programming can help teams maintain a high level of code quality and knowledge sharing, which is essential for trunk-based development. By working together, developers can catch issues early and ensure that code is written in a way that is easy to understand and maintain. Additionally, pair programming can substitute for the code review process, avoiding a bottleneck in the chain of approval and making development more agile.
 
-### [Enforce a Clean Git History](/practices/clean-git-history.md)
+### [Enforce a Clean Git History](/practices/enforce-a-clean-git-history.md)
 
 The Clean Git History practice supports trunk-based development by encouraging small, focused commits that keep the main branch stable. Maintaining a clean, navigable commit history allows teams to minimize conflicts and simplify integration, which is essential for frequent merges. Ensuring each commit is deployable enables faster delivery cycles and aligns with the trunk-based philosophy of keeping the codebase in a consistently shippable state.
 
