@@ -8,21 +8,22 @@ This section outlines common pitfalls, challenges, or limitations teams commonly
 
 ### Large Changes
 
-Developers often delay merging changes into the main branch, resulting in longer-lived branches that are harder to integrate. This leads to complex merges, more merge conflicts, and longer feedback loops, undermining the effectiveness of CI.
+It can be tempting to delay integrating changes. Developers might want to wait for QA, bundle related work together, or be unsure how to split things up. The trouble is that long-lived branches get harder to merge and slow down feedback, which works against Continuous Integration. For CI to be effective, it's important to keep changes small and merge them often. That way integration stays smooth and feedback comes quickly.
 
 ### Slow or Unreliable Checks
 
-If automated tests and other checks take too long to run, developers may skip running them or fail to integrate changes frequently, which increases the risk of issues going undetected. Ideally, all CI checks should run in under 90 seconds to ensure quick feedback and maintain developer engagement with the CI process. See the supporting practice below "Parallelize Long-Running Tests" for more on this. 
+If automated tests and other checks take too long to run, developers may skip running them or fail to integrate changes frequently, which increases the risk of issues going undetected. Ideally, all CI checks should run in under 90 seconds to ensure quick feedback and maintain developer engagement with the CI process. See the supporting practice below "Parallelize Long-Running Tests" for more on this.
 
 ### Infrastructure and Environment Issues
 
-CI systems can become unreliable due to infrastructure problems, such as resource constraints, network issues, or inconsistencies between local development and CI environments. When builds fail due to infrastructure or environment issues rather than code issues, developers lose trust in the CI process and may start ignoring build failures.
+The problem isn’t always in the code. Resource limits, network hiccups, race conditions, or differences between local machines and CI can all cause builds to fail. When that happens, developers often lose trust and simply restart the build instead of investigating. The goal is to make CI reliable enough that failures always matter. Track recurring environment problems and fix them at the source, so trust in the system grows instead of erodes.
 
 ### Integration Blockers and Bottlenecks
 
 Integration blockers and bottlenecks, such as mandatory code reviews or approval processes, can prevent developers from integrating frequently. When code sits in review queues for extended periods, merge conflicts become more likely. Additionally, if the review process is too rigid or slow, developers may batch larger changes to minimize the overhead, which contradicts the core principle of this capability: frequent, small integrations.
 
 ## Assessment
+
 To assess how mature your team or organization is in this capability, complete this short exercise.
 
 Consider the descriptions below and score your team on this capability. Generally, score a 1 if integration is infrequent and painful, a 2 if it is routine and coordinated but you feel there is a LOT of room for improvement, a 3 if it is regular and smooth and you feel there is some room for improvement, and a 4 if it is continuous and seamless.
@@ -60,7 +61,7 @@ If the test suite takes too long to run, divide it into smaller, parallelized te
 
 ### Treat Broken Builds Like Outages
 
-Establish a rule that when the CI build breaks, it takes precedence over other work. This practice ensures a consistently stable main branch, builds trust in the CI process, and prevents technical debt from accumulating.
+Establish a rule that when the CI build breaks, fixing the build takes precedence over other work. This practice ensures a consistently stable main branch, builds trust in the CI process, and prevents technical debt from accumulating.
 
 ### Perform Non-Integration-Blocking Code Review
 
@@ -68,7 +69,7 @@ Implement code review processes that provide feedback and learning opportunities
 
 ### [Create and Manage Ephemeral Environments](/practices/create-and-manage-ephemeral-environments.md)
 
-Ephemeral environments are isolated, production-like spaces that can be spun up on demand. Each environment starts with a clean state. Teams can generate, load, and reset data without affecting others. This reduces test flakiness, ensures consistent results, and supports more accurate debugging. When integrated into CI/CD pipelines, ephemeral environments give teams fast, reliable feedback across app, data, and infrastructure changes.
+Ephemeral environments are isolated, production-like spaces that can be spun up on demand. Each environment starts with a clean state. Developers can generate, load, and reset data without affecting other developers. This reduces test flakiness, ensures consistent results, and supports more accurate debugging. When integrated into CI/CD pipelines, ephemeral environments give teams fast, reliable feedback across app, data, and infrastructure changes.
 
 ## Adjacent Capabilities
 
