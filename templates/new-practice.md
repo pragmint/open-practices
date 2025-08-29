@@ -17,7 +17,7 @@ Quick 2-4 sentence summary. What’s the practice? Why should teams care? Keep i
 
 ```text
 List 3–5 steps to take a team from zero to adopted.
-Each step gets:
+For each step, include:
   ### [Action Step]
   3 sentences on how to do it, how to get buy-in, and what tools/resources help. Any external resources (videos, guides, book lists, templates, etc.) that help a team adopt this practice should be linked here within the relevant action step.
 ```
@@ -32,12 +32,12 @@ This section captures real-world patterns (things that consistently help or hind
 
 ## Deciding to Polish or Pitch
 
-After experimenting with this practice for `insert appropriate quantity of time in bold`, bring the team together and ensure the following metrics and/or signals have changed in a positive direction:
+After experimenting with this practice for [**insert appropriate quantity of time in bold**], bring the team together to determine whether the following metrics and/or signals have changed in a positive direction:
 
 ```text
-When writing Metrics & Signals, list target metrics, qualitative markers, or lightweight feedback mechanisms. Review this article for inspiration: https://dora.dev/research/2025/measurement-frameworks/
+List target metrics, qualitative markers, or lightweight feedback mechanisms. Review this article for inspiration: https://dora.dev/research/2025/measurement-frameworks/
 
-Organize them into Fast & Measurable, Fast & Intangible, Slow & Measurable, or Slow & Intangible, but only include categories with strong, defensible signals. Exclude weak or hard-to-attribute signals.
+Organize metrics and signals into Fast & Measurable, Fast & Intangible, Slow & Measurable, or Slow & Intangible, but only include categories with strong, defensible signals. Exclude weak or hard-to-attribute signals.
 
 For measurable items, specify how to track them (e.g., DX, Jira, CI dashboards). For intangible items, note how to capture feedback (e.g., surveys, retro notes, developer chatter).
 
