@@ -59,7 +59,7 @@ Make the impact visible within days of a deploy to build momentum.
 
 ## Lessons From The Field
 
-- _Champion Power Matters_ – At Lifestance, OTel only took root because Andre had the authority to insist on adoption. Without a sponsor who can hold the line, expect stall-outs.  
+- _Champion Power Matters_ – At one company, OTel only took root because a high level engineering executive had the authority to insist on adoption. Without a sponsor who can hold the line, expect stall-outs.  
 - _Schemas Prevent Chaos_ – Defining and versioning attribute schemas up front (e.g., TypeScript interfaces) ensures data is comparable across services. Teams that skip this get unmanageable dashboards.  
 - _Correlating External Tools is an Opportunity_ – Instead of resisting siloed tools, smart teams embed their IDs into traces, creating a de-facto unified model. This turns “annoying fragmentation” into a source of leverage.  
 - _Telemetry Surfaces Politics_ – OTel exposes bottlenecks and ownership gaps. In bureaucratic cultures, this requires social skill: frame insights as opportunities, not punishments.  
