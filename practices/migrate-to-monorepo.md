@@ -37,7 +37,7 @@ Schedule time with the team members who work in the new repository to understand
 
 ## Deciding to Polish or Pitch
 
-After experimenting with this practice for **one month**, bring the team together and ensure the following metrics and/or signals have changed in a positive direction:
+After experimenting with this practice for **one month**, bring the team together to determine whether the following metrics and/or signals have changed in a positive direction:
 
 ### Fast & Measurable
 
