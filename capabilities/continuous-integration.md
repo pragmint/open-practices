@@ -8,7 +8,7 @@ This section outlines common pitfalls, challenges, or limitations teams commonly
 
 ### Large Changes
 
-It can be tempting to delay integrating changes. Developers might want to wait for QA, bundle related work together, or be unsure how to split things up. The trouble is that long-lived branches get harder to merge and slow down feedback, which works against Continuous Integration. For CI to be effective, it's important to keep changes small and merge them often. That way integration stays smooth and feedback comes quickly.
+It can be tempting to delay integrating changes. Developers might want to wait for QA or bundle related work together, or they may be unsure how to split things up. The trouble is that long-lived branches get harder to merge and slow down feedback, which works against Continuous Integration. For CI to be effective, it's important to keep changes small and merge them often. That way, integration stays smooth and feedback comes quickly.
 
 ### Slow or Unreliable Checks
 
@@ -16,7 +16,7 @@ If automated tests and other checks take too long to run, developers may skip ru
 
 ### Infrastructure and Environment Issues
 
-The problem isn’t always in the code. Resource limits, network hiccups, race conditions, or differences between local machines and CI can all cause builds to fail. When that happens, developers often lose trust and simply restart the build instead of investigating. The goal is to make CI reliable enough that failures always matter. Track recurring environment problems and fix them at the source, so trust in the system grows instead of erodes.
+The problem isn’t always in the code. Resource limits, network hiccups, race conditions, or differences between local machines and CI systems can all cause builds to fail. When that happens, developers often lose trust and simply restart the build instead of investigating the root of the issue. The goal is to make CI reliable enough that failures always matter. Track recurring environment problems and fix them at the source, so trust in the system grows instead of erodes.
 
 ### Integration Blockers and Bottlenecks
 
