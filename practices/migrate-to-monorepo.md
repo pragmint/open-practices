@@ -9,7 +9,7 @@ Managing dozens of micro-repos can feel like death by a thousand Git pulls. This
 - [Pants](https://www.pantsbuild.org/stable/docs/using-pants/environments#in-workspace-execution-experimental_workspace_environment)
 - etc (this isn't by any means a definitive list)
 
-## Who It’s For & Why
+## When to Experiment
 
 - You are a Developer and you need to make coordinated changes across services without repo-hopping so you can move faster with less friction.
 
@@ -27,16 +27,6 @@ Give teams an easy way to migrate their repositories into the new workspace whil
 
 Schedule time with the team members who work in the new repository to understand their pain points. Brainstorm potential solutions as a group. Keep an eye toward improving the items listed in the Goals, Metrics & Signals section of this page to ensure efforts are making a difference.
 
-## Metrics & Signals
-
-### Fast & Measurable
-
-Within weeks, the lead time for changes spanning multiple repositories should decrease. By consolidating services into a monorepo, cross-cutting changes can be made without repo-hopping or chaining pull requests across repos, reducing coordination overhead and speeding up delivery. Tools like [DX](https://getdx.com/platform/data-lake/), [Jellyfish](https://jellyfish.co/platform/engineering-metrics/), or others can measure these sort of lead time changes. Custom solutions can also be built using data from project planning tools like [JIRA](https://community.atlassian.com/forums/App-Central-articles/Cycle-Time-and-Lead-Time-in-Jira-Productivity-Measurement-with/ba-p/1905845), [Monday](https://monday.com/blog/project-management/what-is-lead-time/), or others.
-
-### Slow & Intangible
-
-Over time, the system's service boundaries should feel cleaner because refactoring those boundaries becomes easier. Poor service boundaries can be removed with less friction when everything lives in one repo. On the flipside, teams can more quickly extract new services with the shared tooling, configuration, and build setup.
-
 ## Lessons From The Field
 
 - *It's Important to Preserve Revision History* - The easiest way to migrate over to a workspace tool is to copy/paste the source code into the subdirectories of a new repository. This blows the history away, and all of the rich version history will get lost in the process. If you're using Git, you can merge an external codebase using the `--allow-unrelated-histories` flag. It's probably best to stay away from using submodules as that can create a very clunky developer experience.
@@ -44,6 +34,18 @@ Over time, the system's service boundaries should feel cleaner because refactori
 - *Makes Tight Coupling Easier* - When you make it easier to write code that changes multiple parts of the broader system, you make it easier to introduce code that doesn't separate concerns and increases module coupling. This can be mitigated with constant retrospectives focused on how these boundaries are formed. The good news about monorepos is when you identify a poorly constructed boundary, it's easier to fix when it's all in the same repo.
 - *Have a plan for coordinating deploys* - When multiple modules need to be released together for a feature, it can be easier to coordinate activation through feature flags rather than trying to achieve atomic cross-package deployments.
 - *Only build and test what has actually changed between commits* - Good build tools use dependency graphs to determine which packages need rebuilding. Without this, CI/CD times become prohibitive as the repo grows.
+
+## Deciding to Polish or Pitch
+
+After experimenting with this practice for **one month**, bring the team together to determine whether the following metrics and/or signals have changed in a positive direction:
+
+### Fast & Measurable
+
+**Lead Time** for changes spanning multiple repositories should decrease. By consolidating services into a monorepo, cross-cutting changes can be made without repo-hopping or chaining pull requests across repos, reducing coordination overhead and speeding up delivery. Tools like [DX](https://getdx.com/platform/data-lake/), [Jellyfish](https://jellyfish.co/platform/engineering-metrics/), or others can measure these sort of lead time changes. Custom solutions can also be built using data from project planning tools like [JIRA](https://community.atlassian.com/forums/App-Central-articles/Cycle-Time-and-Lead-Time-in-Jira-Productivity-Measurement-with/ba-p/1905845), [Monday](https://monday.com/blog/project-management/what-is-lead-time/), or others.
+
+### Slow & Intangible
+
+**Cleaner Service Boundaries** should evolve over time, because refactoring those boundaries becomes easier. Poor service boundaries can be removed with less friction when everything lives in one repo. On the flipside, teams can more quickly extract new services with the shared tooling, configuration, and build setup.
 
 ## Supporting Capabilities
 
