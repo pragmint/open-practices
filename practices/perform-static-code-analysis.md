@@ -1,115 +1,84 @@
-# Perform Static Code Analysis
+# Perform Automated Code Analysis
 
-Performing static code analysis involves using automated tools to review and scan the codebase for potential issues, ensuring adherence to quality standards and best practices.
-These tools help detect issues early in development, integrating with version control systems, IDEs, and CI/CD pipelines to enhance productivity.
-Static code analysis is valuable for spotting code smells, basic security vulnerabilities, performance bottlenecks, and analyzing dependencies for better modularity.
+Catching every bug or style inconsistency by hand is tough and takes a lot of time. Automated code analysis brings speed and consistency to teams by delegating that task to tools. These tools (both traditional static analyzers and modern AI-powered assistants) can highlight security vulnerabilities, style discrepancies, dependency risks, and even suggest or apply fixes in real time.
 
-## Nuance
+Some popular tools for automated code analysis include:
 
-### Common Misconceptions about Static Code Analysis
+- Static Analysis & Linting: [ESLint](https://eslint.org/docs/latest/use/getting-started), [SonarQube](https://github.com/SonarSource/sonarqube), and [Semgrep](https://github.com/semgrep/semgrep) can be used to enforce code quality
+- Code Formatting: [Prettier](https://prettier.io/docs/integrating-with-linters) (TS/JS) and [rustfmt](https://github.com/rust-lang/rustfmt) (Rust) automatically enforce consistent code style
+- Code Query Language: [GritQL](https://github.com/honeycombio/gritql), [CodeQL](https://codeql.github.com/), and [comby](https://github.com/comby-tools/comby) can search, lint, and modify code
+- General Purpose AI Agents: [Claude Code](https://www.anthropic.com/claude), [Cursor](https://cursor.com/), and [Gemini-CLI](https://github.com/google-gemini/gemini-cli) are all general purpose AI-powered agents that can be used for code generation, review, style enforcement, and bug detection
+- AI Powered Code Review: [Ellipsis](https://www.ellipsis.dev/), [GitHub Copilot](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/request-a-code-review/use-code-review), [CodeRabbit](https://www.coderabbit.ai), and [Cursor Bugbot](https://cursor.com/bugbot) provide AI-assisted reviews and inline feedback
+- Self-hosted LLMs: Tools like [Ollama](https://github.com/ollama/) or [LM Studio](https://github.com/lmstudio-ai) allow you to run open-source AI models locally and can be used to power some open source agentic tools
 
-A common misconception is that static code analysis can catch all possible issues in a codebase.
-While these tools are powerful for identifying code smells, basic security vulnerabilities, and performance bottlenecks, they are not foolproof.
-They may miss more nuanced or context-specific problems, and sometimes flag good code as problematic.
-Developers should not solely rely on these tools but use them as part of a broader quality assurance strategy.
+## When to Experiment
 
-### Importance of Developer Judgment
+- **Developers** need fast feedback on bugs, design issues, and inconsistencies so they can work more efficiently and avoid waiting for review cycles.
+- **QA engineers** need to identify high-risk areas earlier so they can effectively focus their limited testing time.
+- **Tech leads or managers** need to enforce consistent code quality across the team so they can deliver successful products without increasing review overhead.
 
-While static code analysis tools are helpful, they should not replace developer judgment.
-These tools can highlight potential issues, but it is up to the developers to make the final call on whether a flagged issue is truly problematic.
-Blindly following the tool's recommendations can lead to unnecessary code changes and reduce overall productivity.
-The ability to override automated checks ensures that the development process remains flexible and pragmatic.
+## How to Gain Traction
 
-### Impact on Code Reviews
+### Start with Education & Demos
 
-Relying too heavily on static code analysis might lead to a reduction in code reviews.
-Automated tools should complement, not replace, human reviews, which are essential for catching context-specific issues and providing valuable feedback on code design and architecture.
-Ensuring that manual code reviews remain a part of the development process is vital for maintaining high code quality.
+Begin with a 30-minute live session to align the team on what automated code analysis is, why it matters, and how it fits into their daily work. Share resources like [AI vs Rule-based Static Code Analysis by Kendrick Curtis](/resources/tech/ai-vs-rule-based-static-code-analysis.md) in advance, so team members can come prepared with questions. Close the session with a short demo in your actual codebase using one or multiple of the tools listed above to make the value real and immediate.
 
-## How to Improve
+### Run a Pilot on a Single Repo
 
-### [Do A Spike](/practices/do-a-spike.md)
+Choose one active repository and integrate one or two automated analysis tools (both a static analyzer and, optionally, an AI assistant). Measure how quickly developers address flagged issues and collect feedback.
 
-#### Tool Selection and Initial Setup
+### Optimize Rules and Initiate Feedback Loops
 
-Identify and set up a static code analysis tool that fits your team's needs.
-Research various static code analysis tools, such as SonarQube or CodeClimate, and compare their features.
-Select one or two tools that seem promising and run them on a small project or segment of your codebase.
-Integrate the chosen tool with your version control system and IDE.
-Review the initial set of issues identified to understand the tool's strengths and weaknesses, and determine which tool aligns best with your workflow.
+Start with default rules, then refine based on false positive rates and team feedback. Set up CI/CD hooks or pre-commit checks to keep quality gates lightweight but effective.
 
-### [Lead Workshops](/practices/lead-workshops.md)
+### Expand Across Teams
 
-#### Dependency and Modularity Analysis
+Assuming the pilot went well, gather the team to share results and best practices. Provide setup guides and starter configs so the practice may gain wider adoption across teams. Consider hosting internal workshops to help developers get the most from the tools.
 
-Use static code analysis tools to evaluate and improve module dependencies.
-Run a dependency analysis on your current codebase and document areas with high coupling and poor cohesion.
-Based on the analysis, refactor parts of the codebase to improve modularity.
-Run the dependency analysis again to measure improvements.
+## Lessons From The Field
 
-### [Start A Book Club](/practices/start-a-book-club.md)
+- _Review Fatigue Kills Trust_ – When teams adopt static code analysis tools without tuning them, developers quickly become numb to the noise. Repeatedly flagging false positives or nitpicky issues creates [review fatigue](/resources/tech/where-ai-meets-code.md), a term coined by Michael Feathers to describe the erosion of attention and care during reviews due to cognitive overload. We’ve seen teams where high-friction rules led to engineers auto-dismissing feedback, eventually ignoring tools entirely.
+**Lesson:** Curate rulesets with developer input and trim overly noisy alerts. Prioritize signal strength over volume to preserve trust and ensure these tools remain useful over time.
 
-#### [Automate Your Coding Standard](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_04)
+- _AI Tools Can Provide Richer Feedback_ – AI-assisted tools like Claude Code can help developers catch bugs earlier, write cleaner code, and accelerate onboarding (especially for newer team members). However, these tools can occasionally propose flawed or overly confident fixes. Teams that encourage developers to use AI for pre-review, followed by intentional peer validation, tend to see the greatest gains. Treat AI and automation suggestions like junior developer input -- often helpful, but not always right. Peer review remains essential for catching edge cases, maintaining architectural integrity, and avoiding over-reliance on “green checks.”
+**Lesson:** Automation should complement, not replace, human review.
 
-This resource provides insights into the importance of automating coding standards to maintain code quality and consistency.
-It highlights how automated tools can help enforce coding conventions, making the codebase more manageable and the development process more efficient.
+- _Early Integration Reduces Friction_ – Teams that surface static code analysis results directly in the developer’s IDE tend to resolve issues faster and with less frustration. When feedback is delayed to CI or post-push review, issues are often skipped or rushed because the developer has already context-switched. By contrast, showing issues inline -- right when code is being written -- leads to higher-quality fixes and builds better habits over time.
+**Lesson:** The sooner the feedback appears, the more likely it is to be acted on. Integrate tools into editors like VS Code or JetBrains, not just your CI, to reduce disruption and encourage learning.
 
-#### [Design structure matrix](https://en.wikipedia.org/wiki/Design_structure_matrix)
+- _Use the Right Tools for the Job_ – Not all static code analysis tools are equally effective across languages or tech stacks. Teams often adopt a single tool out of convenience, only to find it lacks precision in certain environments; this leads to false positives or missed issues. A better approach is to assess tools based on the codebase, language, and team needs, combining general-purpose and language-specific tools where appropriate.
+**Lesson:** Choose tools tailored to your stack. A lightweight multi-tool setup, tuned per language, often outperforms an all-in-one solution.
 
-The Design Structure Matrix (DSM) is a visual tool used in systems engineering and project management to represent the interactions and dependencies within complex systems or processes in a compact, square matrix format.
-Originating in the 1960s, DSMs gained popularity in the 1990s across various industries and government agencies.
-They can model both static systems, where elements coexist simultaneously, and time-based systems, which reflect processes over time.
-DSMs are advantageous for highlighting patterns, managing changes, and optimizing system structures.
-They utilize algorithms for reordering elements to minimize feedback loops and can be extended to multiple domain matrices to visualize interactions across different domains, enhancing information flow and office work optimization.
+## Deciding to Polish or Pitch
 
-#### [Two Wrongs Can Make a Right (and Are Difficult to Fix)](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_86)
+After experimenting with this practice for **4–5 weeks**, bring the team together and ensure the following metrics and/or signals have changed in a positive direction:
 
-The article "Two Wrongs Can Make a Right (and Are Difficult to Fix)" by Allan Kelly highlights the complex nature of software bugs, particularly when two defects interact to create a single visible fault. This interplay can lead developers to repeatedly attempt fixes that fail because they only address part of the problem. Such scenarios demonstrate the importance of comprehensive error detection and resolution strategies. This concept supports the Perform Static Code Analysis Practice by underscoring the limitations of relying solely on automated tools to catch all issues. While static code analysis can identify many potential problems, it may miss nuanced or context-specific defects, especially those involving multiple interacting errors.
+### Fast & Measurable
 
-#### [The power of feedback loops](https://lucamezzalira.medium.com/the-power-of-feedback-loops-f8e27e8ac25f)
+**Fewer Review Findings**. Manual code reviews should flag fewer preventable issues because automated checks caught them earlier. Track this by tagging review comments or analyzing review insights in AI-powered code review tools.
 
-Luca Mezzalira's article 'The Power of Feedback Loops' underscores how iterative feedback enhances processes, resonating with the practice of Perform Static Code Analysis.
-Like feedback loops in development cycles, static code analysis tools automate early detection of issues such as code smells and security vulnerabilities, aligning with Mezzalira's advocacy for leveraging feedback to maintain high standards while emphasizing the need for developer judgment and human oversight in software quality assurance.
+**Pre-PR Issue Resolution**. Engineers should increasingly resolve issues before creating pull requests. IDE-integrated tools provide autofix or alert-resolution data you can measure monthly.
 
-### [Host A Viewing Party](/practices/host-a-viewing-party.md)
+### Fast & Intangible
 
-#### [System architecture as network data](https://vimeo.com/241241654)
+**Developer Sentiment**. Friction during code reviews should decline. Capture this via lightweight surveys ([Typeform](https://www.typeform.com/) or [Google Forms](https://workspace.google.com/products/forms/)), or retro feedback looking for reduced nitpicky debates and faster review cycles.
 
-The speaker emphasizes the importance of loose coupling and high cohesion in software architecture to reduce dependencies between modules, thereby minimizing meetings and coordination overhead.
-They demonstrate how to use tools like Line Topology, Cytoscape, and Jupyter Notebooks to analyze and visualize code dependencies, enabling automated detection of modularity and cohesion in the system.
-By using network science and computational techniques, the speaker argues for the value of objective metrics in assessing and improving code modularity, drawing parallels to social networks and using examples like Game of Thrones character interactions to illustrate their points.
+### Slow & Measurable
 
-### [Host A Roundtable Discussion](/practices/host-a-roundtable-discussion.md)
+**Production Bug Reduction**. Over time, there should be fewer production incidents tied to preventable errors (null checks, insecure patterns, etc.). Track this by tagging incident postmortems, categorizing bugs in [Jira](https://support.atlassian.com/jira-cloud-administration/docs/what-are-issue-types/), [Linear](https://linear.app/docs/labels), or observability platforms like [Sentry](https://docs.sentry.io/product/issues/).
 
-#### Understanding and Usage
-
-* How well do we understand the capabilities and limitations of our static code analysis tools?
-* Are we using static code analysis tools to their full potential within our development process?
-
-#### Integration and Workflow
-
-* How are our static code analysis tools integrated with our version control systems, IDEs, and CI/CD pipelines?
-* Are there any bottlenecks or disruptions caused by static code analysis tools in our current workflow?
-
-#### Developer Judgment
-
-* Do our developers feel empowered to override automated checks when necessary?
-* How often do we find that flagged issues are false positives, and how do we handle them?
-
-#### Issue Detection and Resolution
-
-* Are we addressing the issues identified by static code analysis tools promptly and effectively?
-* How frequently do we encounter issues that static code analysis tools miss, and how can we improve our detection methods?
-
-#### Dependency Analysis
-
-* How effectively are we using static code analysis tools to assess and improve module cohesion and dependency management?
-* Are there areas in our codebase with poor modularity that these tools have helped us identify and improve?
+**Consistency & Maintainability**. Static analysis and linting scores should show steady improvement. Use [SonarQube dashboards](https://docs.sonarsource.com/sonarqube-server/10.6/user-guide/code-metrics/introduction/) or [Semgrep reports](https://semgrep.dev/docs/semgrep-ci/overview/) to track rule compliance trends and codebase quality.
 
 ## Supporting Capabilities
 
 ### [Code Maintainability](/capabilities/code-maintainability.md)
 
-The Perform Static Code Analysis practice robustly supports the Code Maintainability Dora Capability by providing automated tools that enhance code quality, consistency, and readability.
-These tools meticulously scan the codebase to identify potential issues such as code smells, security vulnerabilities, and performance bottlenecks early in the development process.
-By integrating static code analysis into version control systems, IDEs, and CI/CD pipelines, teams can receive immediate feedback on code changes, ensuring adherence to coding standards and best practices. This proactive approach reduces the cognitive load on developers, allowing them to focus on more complex tasks while maintaining a clean, modular, and easily comprehensible codebase.
+Automated code analysis enforces consistent coding standards and identifies maintainability issues early, keeping the codebase clean, reliable, and easy to work with.
+
+### [Pervasive Security](/capabilities/pervasive-security.md)
+
+Static and AI-powered code analysis can surface vulnerabilities before code is merged, helping meet security and compliance requirements.
+
+### [Job Satisfaction](/capabilities/job-satisfaction.md)
+
+Real-time feedback in editors and pull requests reduces context switching and increases developer confidence, which leads to greater job satisfaction and less costly employee turnover.
