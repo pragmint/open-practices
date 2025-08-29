@@ -15,11 +15,17 @@ If you’ve ever cursed at lint warnings or doubted whether AI tools are ready f
 ## Pause and Ponder
 
 01:13 – Beer vs AI analogy - What “bad decisions” do we risk if we lean too hard on AI tools?
+
 04:16 – Wrong line numbers - Is noisy or misleading feedback worse than no feedback at all?
+
 06:13 – Different run, different results - Could we trust this in a compliance/security pipeline?
+
 08:18 – Prompt engineering headaches - Do we really want to replace maintaining rulesets with maintaining prompts?
+
 13:40 – AI for explanations/fixes - Would we trust AI’s explanation of a bug more than its ability to find the bug?
+
 15:01 – Cost and speed - Regex vs AI: if regex is faster, cheaper, and reliable, what’s the real use case for AI here?
+
 20:00 – GitHub auto-fix suggestions - How comfortable would we be letting AI propose (or even auto-commit) fixes?
 
 ## Takeaway
