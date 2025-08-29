@@ -32,7 +32,7 @@ Begin with OTel’s auto-instrumentation libraries to generate traces quickly. E
 Don’t fight the fact that teams have “their favorite tool.” Instead, enrich OTel spans with IDs and references from those tools. This builds connective tissue and lets people see how siloed data relates inside a unified telemetry stream.
 
 ### Show Quick Wins
-Surface dashboards that answer questions execs and devs already care about:  
+Surface dashboards that answer the questions execs and devs already care about:  
 - “Where are users dropping off?”  
 - “What query is slowing down checkout?”  
 - “Is this issue ours or the third party’s?”  
