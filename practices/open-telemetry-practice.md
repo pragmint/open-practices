@@ -51,6 +51,9 @@ Demonstrating visible impact in days builds credibility and momentum.
 - _Telemetry Surfaces Politics_ – OTel exposes bottlenecks and ownership gaps. In bureaucratic
 cultures, this requires social skill: frame insights as opportunities, not punishments.
 - _Developer Buy-in Comes From On-Call Relief_ – The fastest way to win hearts is to show OTel reduces noisy, pointless alerts and makes bugs easier to find. See [OTel Q&A Featuring Jennifer Moore](https://github.com/open-telemetry/sig-end-user/blob/main/video-transcripts/transcripts/2023-12-04T23:34:44Z-otel-q-a-feat-jennifer-moore.md)
+- _SAP’s Massive-Scale Modernization_ – SAP revamped its observability architecture across a fleet of 11,000+ OpenSearch instances by adopting OpenTelemetry and rebuilding ingestion pipelines with Data Prepper. This enabled unified logs, metrics, and traces, provided low-risk migration to OpenSearch 2.x, and dramatically sped up incident response. [SAP Case Study](https://opensearch.org/blog/case-study-sap-unifies-observability-at-scale-with-opensearch-and-opentelemetry/)
+- _Pax8 Unleashes Curious, Cost‑Effective Instrumentation_ – By moving to Honeycomb’s Observability 2.0 platform, Pax8 empowered engineers, product managers, and ops with structured telemetry and dropped their observability costs by 30%. Their user base grew from 50 to 210 users, democratizing access without breaking the budget. [Pax8 Case Study](https://www.honeycomb.io/resources/case-studies/pax8-modern-observability-2-0-solution)
+
 
 ## Deciding to Polish or Pitch
 
