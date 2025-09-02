@@ -26,7 +26,7 @@ Some popular OpenTelemetry-compatible platforms include:
 ## How to Gain Traction
 
 ### Start with Education & a Champion
-Begin by aligning teams on what OTel is and why it matters. Share Charity Majors’ framing of [“Observability 2.0”](https://www.honeycomb.io/blog/one-key-difference-observability1dot0-2dot0) to shift mindsets from three pillars to structured events. Secure an executive or senior engineer to sponsor the adoption — without a champion, efforts often stall.  
+Begin by aligning teams on what OTel is and why it matters. Share Charity Majors’ framing of  [“Observability 2.0”](/resources/tech/otel/observability-2-0-honeycomb.md) to shift mindsets from three pillars to structured events. Secure an executive or senior engineer to sponsor the adoption — without a champion, efforts often stall.  
 
 ### Establish a Shared Repository
 Set up a dedicated observability repo managed like an open-source project. Include schema definitions, testing rules, a README with setup instructions, and usage guidelines. Lock down standards (e.g., TypeScript interfaces for attributes) so all services produce consistent data.
@@ -45,14 +45,14 @@ Surface dashboards that answer the questions execs and devs already care about:
 Demonstrating visible impact in days builds credibility and momentum.
 
 ## Lessons From The Field
-- _Champion Power Matters_ – OTel takes root best when there is a champion to lead the charge. Without a sponsor who can hold the line, expect stall-outs. See [OTel in Practice: Alibaba's OpenTelemetry Journey](https://www.youtube.com/watch?v=fgbB0HhVBq8)
-- _Schemas Prevent Chaos_ – Defining and versioning attribute schemas up front (e.g., TypeScript interfaces) ensures data is comparable across services. Teams that skip this get unmanageable dashboards. See [OpenTelemetry Q&A Featuring Hazel Weakly](https://github.com/open-telemetry/sig-end-user/blob/main/video-transcripts/transcripts/2023-09-13T19:26:10Z-opentelemetry-q-a-feat-hazel-weakly.md)
-- _Correlating External Tools is an Opportunity_ – Instead of resisting siloed tools, smart teams embed their IDs into traces, creating a de-facto unified model. This turns “annoying fragmentation” into a source of leverage. See [The Evolution of Observability Practices](https://github.com/open-telemetry/sig-end-user/blob/main/video-transcripts/transcripts/2023-10-11T20:52:28Z-the-evolution-of-observability-practices.md)
+- _Champion Power Matters_ – OTel takes root best when there is a champion to lead the charge. Without a sponsor who can hold the line, expect stall-outs. See [OTel in Practice: Alibaba’s OpenTelemetry Journey](/resources/tech/otel/alibaba-opentelemetry-journey.md).
+- _Schemas Prevent Chaos_ – Defining and versioning attribute schemas up front (e.g., TypeScript interfaces) ensures data is comparable across services. Teams that skip this get unmanageable dashboards. See [OpenTelemetry Q&A Featuring Hazel Weakly](/resources/tech/otel/opentelemetry-qa-hazel-weakly.md)
+- _Correlating External Tools is an Opportunity_ – Instead of resisting siloed tools, smart teams embed their IDs into traces, creating a de-facto unified model. This turns “annoying fragmentation” into a source of leverage. See [The Evolution of Observability Practices](/resources/tech/otel/evolution-of-observability-practices.md)  
 - _Telemetry Surfaces Politics_ – OTel exposes bottlenecks and ownership gaps. In bureaucratic
 cultures, this requires social skill: frame insights as opportunities, not punishments.
-- _Developer Buy-in Comes From On-Call Relief_ – The fastest way to win hearts is to show OTel reduces noisy, pointless alerts and makes bugs easier to find. See [OTel Q&A Featuring Jennifer Moore](https://github.com/open-telemetry/sig-end-user/blob/main/video-transcripts/transcripts/2023-12-04T23:34:44Z-otel-q-a-feat-jennifer-moore.md)
-- _SAP’s Massive-Scale Modernization_ – SAP revamped its observability architecture across a fleet of 11,000+ OpenSearch instances by adopting OpenTelemetry and rebuilding ingestion pipelines with Data Prepper. This enabled unified logs, metrics, and traces, provided low-risk migration to OpenSearch 2.x, and dramatically sped up incident response. [SAP Case Study](https://opensearch.org/blog/case-study-sap-unifies-observability-at-scale-with-opensearch-and-opentelemetry/)
-- _Pax8 Unleashes Curious, Cost‑Effective Instrumentation_ – By moving to Honeycomb’s Observability 2.0 platform, Pax8 empowered engineers, product managers, and ops with structured telemetry and dropped their observability costs by 30%. Their user base grew from 50 to 210 users, democratizing access without breaking the budget. [Pax8 Case Study](https://www.honeycomb.io/resources/case-studies/pax8-modern-observability-2-0-solution)
+- _Developer Buy-in Comes From On-Call Relief_ – The fastest way to win hearts is to show OTel reduces noisy, pointless alerts and makes bugs easier to find. See [OpenTelemetry Q&A Featuring Jennifer Moore](/resources/tech/otel/opentelemetry-qa-jennifer-moore.md)
+- _SAP’s Massive-Scale Modernization_ – SAP revamped its observability architecture across a fleet of 11,000+ OpenSearch instances by adopting OpenTelemetry and rebuilding ingestion pipelines with Data Prepper. This enabled unified logs, metrics, and traces, provided low-risk migration to OpenSearch 2.x, and dramatically sped up incident response. [SAP Case Study: Massive-Scale Observability Modernization](/resources/tech/otel/sap-opentelemetry-case-study.md)
+- _Pax8 Unleashes Curious, Cost‑Effective Instrumentation_ – By moving to Honeycomb’s Observability 2.0 platform, Pax8 empowered engineers, product managers, and ops with structured telemetry and dropped their observability costs by 30%. Their user base grew from 50 to 210 users, democratizing access without breaking the budget. [Pax8 Case Study: Democratizing Observability 2.0](/resources/tech/otel/pax8-observability-2-0-case-study.md)
 
 
 ## Deciding to Polish or Pitch
