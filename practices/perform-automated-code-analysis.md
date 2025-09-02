@@ -69,6 +69,34 @@ After experimenting with this practice for **4–5 weeks**, bring the team toget
 
 **Consistency & Maintainability**. Static analysis and linting scores should show steady improvement. Use [SonarQube dashboards](https://docs.sonarsource.com/sonarqube-server/10.6/user-guide/code-metrics/introduction/) or [Semgrep reports](https://semgrep.dev/docs/semgrep-ci/overview/) to track rule compliance trends and codebase quality.
 
+## How to Improve
+
+### [Start A Book Club](/practices/start-a-book-club.md)
+
+#### [Test Coverage](https://martinfowler.com/bliki/TestCoverage.html)
+
+In his blog post on test coverage, Martin Fowler explores the concept of test coverage as a tool for identifying untested code rather than as a definitive measure of test quality.
+He argues that while high test coverage percentages can highlight which parts of the code are exercised by tests, they do not necessarily indicate the effectiveness of those tests.
+Fowler emphasizes that test coverage should be used alongside other techniques and metrics to assess the robustness of tests, and that focusing solely on coverage numbers can lead to superficial or inadequate testing.
+He advocates for a balanced approach that combines test coverage with thoughtful test design and evaluation to achieve meaningful software quality.
+
+### [Host A Roundtable Discussion](/practices/host-a-roundtable-discussion.md)
+
+#### Tailoring and Adjusting Test Coverage
+
+* Are our current coverage thresholds realistic and tailored to the specific needs of different modules within our application?
+* How often do we review and adjust our coverage metrics to align with evolving project requirements?
+
+#### Effectiveness of Test Coverage
+
+* Do our tests catch bugs and edge cases, or are they merely boosting our coverage numbers?
+* Are we adequately addressing non-functional testing, such as performance, security, and usability, in our automated test coverage?
+
+#### Challenges and Lessons in Test Coverage Implementation
+
+* Are there any cultural or organizational barriers that prevent us from fully implementing this practice?
+* What lessons can we learn from past experiences to enhance our future approach to automated test coverage?
+
 ## Supporting Capabilities
 
 ### [Code Maintainability](/capabilities/code-maintainability.md)
