@@ -13,9 +13,9 @@ Some popular tools for automated code analysis include:
 
 ## When to Experiment
 
-- **Developers** need fast feedback on bugs, design issues, and inconsistencies so they can work more efficiently and avoid waiting for review cycles.
-- **QA engineers** need to identify high-risk areas earlier so they can effectively focus their limited testing time.
-- **Tech leads or managers** need to enforce consistent code quality across the team so they can deliver successful products without increasing review overhead.
+- "I am a developer and I need fast feedback on bugs, design issues, and inconsistencies so I can work more efficiently and avoid waiting for review cycles."
+- "I am a QA engineer and I need to identify high-risk areas earlier so I can effectively focus my limited testing time."
+- "I am a tech lead or manager and I need to enforce consistent code quality across the team so we can deliver successful products without increasing review overhead." 
 
 ## How to Gain Traction
 
@@ -37,21 +37,17 @@ Assuming the pilot went well, gather the team to share results and best practice
 
 ## Lessons From The Field
 
-- _Review Fatigue Kills Trust_ – When teams adopt static code analysis tools without tuning them, developers quickly become numb to the noise. Repeatedly flagging false positives or nitpicky issues creates [review fatigue](/resources/tech/where-ai-meets-code.md), a term coined by Michael Feathers to describe the erosion of attention and care during reviews due to cognitive overload. We’ve seen teams where high-friction rules led to engineers auto-dismissing feedback, eventually ignoring tools entirely.
-**Lesson:** Curate rulesets with developer input and trim overly noisy alerts. Prioritize signal strength over volume to preserve trust and ensure these tools remain useful over time.
+- _Review Fatigue Kills Trust_ – When teams adopt static code analysis tools without tuning them, developers quickly become numb to the noise. Repeatedly flagging false positives or nitpicky issues creates [review fatigue](/resources/tech/where-ai-meets-code.md), a term coined by Michael Feathers to describe the erosion of attention and care during reviews due to cognitive overload. We’ve seen teams where high-friction rules led to engineers auto-dismissing feedback, eventually ignoring tools entirely. Curate rulesets with developer input and trim overly noisy alerts. Prioritize signal strength over volume to preserve trust and ensure these tools remain useful over time.
 
-- _AI Tools Can Provide Richer Feedback_ – AI-assisted tools like Claude Code can help developers catch bugs earlier, write cleaner code, and accelerate onboarding (especially for newer team members). However, these tools can occasionally propose flawed or overly confident fixes. Teams that encourage developers to use AI for pre-review, followed by intentional peer validation, tend to see the greatest gains. Treat AI and automation suggestions like junior developer input -- often helpful, but not always right. Peer review remains essential for catching edge cases, maintaining architectural integrity, and avoiding over-reliance on “green checks.”
-**Lesson:** Automation should complement, not replace, human review.
+- _Combine AI Tools With Peer Review_ – Automation should complement, not replace, human review. AI-assisted tools like Claude Code can help developers catch bugs earlier, write cleaner code, and accelerate onboarding (especially for newer team members). However, these tools can occasionally propose flawed or overly confident fixes. Teams that encourage developers to use AI for pre-review, followed by intentional peer validation, tend to see the greatest gains. Treat AI and automation suggestions like junior developer input -- often helpful, but not always right. Peer review remains essential for catching edge cases, maintaining architectural integrity, and avoiding over-reliance on “green checks.”
 
-- _Early Integration Reduces Friction_ – Teams that surface static code analysis results directly in the developer’s IDE tend to resolve issues faster and with less frustration. When feedback is delayed to CI or post-push review, issues are often skipped or rushed because the developer has already context-switched. By contrast, showing issues inline -- right when code is being written -- leads to higher-quality fixes and builds better habits over time.
-**Lesson:** The sooner the feedback appears, the more likely it is to be acted on. Integrate tools into editors like VS Code or JetBrains, not just your CI, to reduce disruption and encourage learning.
+- _Early Integration Reduces Friction_ – Teams that surface static code analysis results directly in the developer’s IDE tend to resolve issues faster and with less frustration. When feedback is delayed to CI or post-push review, issues are often skipped or rushed because the developer has already context-switched. By contrast, showing issues inline -- right when code is being written -- leads to higher-quality fixes and builds better habits over time. The sooner the feedback appears, the more likely it is to be acted on. Integrate tools into editors like VS Code or JetBrains, not just your CI, to reduce disruption and encourage learning.
 
-- _Use the Right Tools for the Job_ – Not all static code analysis tools are equally effective across languages or tech stacks. Teams often adopt a single tool out of convenience, only to find it lacks precision in certain environments; this leads to false positives or missed issues. A better approach is to assess tools based on the codebase, language, and team needs, combining general-purpose and language-specific tools where appropriate.
-**Lesson:** Choose tools tailored to your stack. A lightweight multi-tool setup, tuned per language, often outperforms an all-in-one solution.
+- _Use the Right Tools for the Job_ – Not all static code analysis tools are equally effective across languages or tech stacks. Teams often adopt a single tool out of convenience, only to find it lacks precision in certain environments; this leads to false positives or missed issues. A better approach is to assess tools based on the codebase, language, and team needs, combining general-purpose and language-specific tools where appropriate. A lightweight multi-tool setup, tuned per language, often outperforms an all-in-one solution.
 
 ## Deciding to Polish or Pitch
 
-After experimenting with this practice for **4–5 weeks**, bring the team together and ensure the following metrics and/or signals have changed in a positive direction:
+After experimenting with this practice for **4–5 weeks**, bring the team together to determine whether the following metrics and/or signals have changed in a positive direction:
 
 ### Fast & Measurable
 
@@ -61,7 +57,7 @@ After experimenting with this practice for **4–5 weeks**, bring the team toget
 
 ### Fast & Intangible
 
-**Developer Sentiment**. Friction during code reviews should decline. Capture this via lightweight surveys ([Typeform](https://www.typeform.com/) or [Google Forms](https://workspace.google.com/products/forms/)), or retro feedback looking for reduced nitpicky debates and faster review cycles.
+**Developer Sentiment**. Friction during code reviews should decline. Capture this via lightweight surveys ([Typeform](https://www.typeform.com/) or [Google Forms](https://workspace.google.com/products/forms/)), or retro feedback that points to reduced nitpicky debates and faster review cycles.
 
 ### Slow & Measurable
 
@@ -71,14 +67,11 @@ After experimenting with this practice for **4–5 weeks**, bring the team toget
 
 ## How to Improve
 
-### [Start A Book Club](/practices/start-a-book-club.md)
-
-#### [Test Coverage](https://martinfowler.com/bliki/TestCoverage.html)
+### Read as a Team: [Test Coverage](https://martinfowler.com/bliki/TestCoverage.html)
 
 In his blog post on test coverage, Martin Fowler explores the concept of test coverage as a tool for identifying untested code rather than as a definitive measure of test quality.
-He argues that while high test coverage percentages can highlight which parts of the code are exercised by tests, they do not necessarily indicate the effectiveness of those tests.
-Fowler emphasizes that test coverage should be used alongside other techniques and metrics to assess the robustness of tests, and that focusing solely on coverage numbers can lead to superficial or inadequate testing.
-He advocates for a balanced approach that combines test coverage with thoughtful test design and evaluation to achieve meaningful software quality.
+He argues that while high test coverage percentages can highlight which parts of the code are exercised by tests, they do not necessarily indicate the *effectiveness* of those tests.
+Fowler emphasizes that test coverage should be used alongside other techniques and metrics to assess the robustness of tests, and that focusing solely on coverage numbers can lead to superficial or inadequate testing. To achieve high-quality software, he advocates for a balanced approach that combines test coverage with thoughtful test design and evaluation.
 
 ### [Host A Roundtable Discussion](/practices/host-a-roundtable-discussion.md)
 
