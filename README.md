@@ -14,7 +14,7 @@ Material in this repository supports Pragmint's cyclical **S.T.E.P.** framework:
 
 * **Experiment:** Play around with supported [practices](/practices) to enhance targeted Capabilities. Select one or two high-impact experiments, commit to them, and give the team time to integrate them into their regular workflow.
 
-* **Polish or Pitch:** Gather feedback and reflect on how experimenting with one or more practices affected the team's or system's performance. Review Metrics & Signals, included in each practice ([example](/practices/migrate-to-monorepo.md#metrics--signals)), to determine whether an experiment is making a positive impact. Polish and adopt practices that are working or showing promise, pitch those that are not, then take the next S.T.E.P.
+* **Polish or Pitch:** Gather feedback and reflect on how experimenting with one or more practices affected the team's or system's performance. Review Metrics & Signals, included in each practice ([example](/practices/migrate-to-monorepo.md#metrics--signals)), to determine whether an experiment is making a positive impact. Polish and adopt practices that are working or showing promise, pitch those that are not, then take the next S.T.E.P. As you polish successful practices, build in mechanisms to ensure continued adoption, such as CI checks that enforce test coverage thresholds or PR checklists that verify adherence to established patterns.
 
 ## DORA Capabilities
 
