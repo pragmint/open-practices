@@ -9,7 +9,7 @@ Some popular tools for automated code analysis include:
 - Code Query Language: [GritQL](https://github.com/honeycombio/gritql), [CodeQL](https://codeql.github.com/), and [comby](https://github.com/comby-tools/comby) can search, lint, and modify code
 - General Purpose AI Agents: [Claude Code](https://www.anthropic.com/claude), [Cursor](https://cursor.com/), and [Gemini-CLI](https://github.com/google-gemini/gemini-cli) are all general purpose AI-powered agents that can be used for code generation, review, style enforcement, and bug detection
 - AI Powered Code Review: [Ellipsis](https://www.ellipsis.dev/), [GitHub Copilot](https://docs.github.com/en/copilot/how-tos/use-copilot-agents/request-a-code-review/use-code-review), [CodeRabbit](https://www.coderabbit.ai), and [Cursor Bugbot](https://cursor.com/bugbot) provide AI-assisted reviews and inline feedback
-- Self-hosted LLMs: Tools like [Ollama](https://github.com/ollama/) or [LM Studio](https://github.com/lmstudio-ai) allow you to run open-source AI models locally and can be used to power some open source agentic tools
+- Self-hosted LLMs: Tools like [Ollama](https://github.com/ollama/) or [LM Studio](https://github.com/lmstudio-ai) allow you to run open-source AI models locally which in turn can be used to power some open source agentic tools
 
 ## When to Experiment
 
@@ -65,31 +65,6 @@ After experimenting with this practice for **4–5 weeks**, bring the team toget
 
 **Consistency & Maintainability**. Static analysis and linting scores should show steady improvement. Use [SonarQube dashboards](https://docs.sonarsource.com/sonarqube-server/10.6/user-guide/code-metrics/introduction/) or [Semgrep reports](https://semgrep.dev/docs/semgrep-ci/overview/) to track rule compliance trends and codebase quality.
 
-## How to Improve
-
-### Read as a Team: [Test Coverage](https://martinfowler.com/bliki/TestCoverage.html)
-
-In his blog post on test coverage, Martin Fowler explores the concept of test coverage as a tool for identifying untested code rather than as a definitive measure of test quality.
-He argues that while high test coverage percentages can highlight which parts of the code are exercised by tests, they do not necessarily indicate the *effectiveness* of those tests.
-Fowler emphasizes that test coverage should be used alongside other techniques and metrics to assess the robustness of tests, and that focusing solely on coverage numbers can lead to superficial or inadequate testing. To achieve high-quality software, he advocates for a balanced approach that combines test coverage with thoughtful test design and evaluation.
-
-### [Host A Roundtable Discussion](/practices/host-a-roundtable-discussion.md)
-
-#### Tailoring and Adjusting Test Coverage
-
-* Are our current coverage thresholds realistic and tailored to the specific needs of different modules within our application?
-* How often do we review and adjust our coverage metrics to align with evolving project requirements?
-
-#### Effectiveness of Test Coverage
-
-* Do our tests catch bugs and edge cases, or are they merely boosting our coverage numbers?
-* Are we adequately addressing non-functional testing, such as performance, security, and usability, in our automated test coverage?
-
-#### Challenges and Lessons in Test Coverage Implementation
-
-* Are there any cultural or organizational barriers that prevent us from fully implementing this practice?
-* What lessons can we learn from past experiences to enhance our future approach to automated test coverage?
-
 ## Supporting Capabilities
 
 ### [Code Maintainability](/capabilities/code-maintainability.md)
@@ -102,4 +77,4 @@ Static and AI-powered code analysis can surface vulnerabilities before code is m
 
 ### [Job Satisfaction](/capabilities/job-satisfaction.md)
 
-Real-time feedback in editors and pull requests reduces context switching and increases developer confidence, which leads to greater job satisfaction and less costly employee turnover.
+When developers get timely, contextual feedback inside their normal workflow, they stay in flow and feel more effective. DORA's findings link that sense of control and autonomy with higher job satisfaction.
