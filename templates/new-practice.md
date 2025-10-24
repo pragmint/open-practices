@@ -9,7 +9,7 @@ Quick 2-4 sentence summary. What’s the practice? Why should teams care? Keep i
 ## When to Experiment
 
 ```text
-“I am a [persona] and I need to [learn how to / ensure that] so I can [end goal].”
+You are a [persona] and need to [learn how to / ensure that] so you can [end goal].”
 (List for each relevant persona: Non-technical exec, Technical exec, Developer, QA, PM, Product Manager, etc.)
 ```
 
