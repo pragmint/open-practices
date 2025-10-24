@@ -13,9 +13,9 @@ Some popular tools for automated code analysis include:
 
 ## When to Experiment
 
-- "I am a developer and I need fast feedback on bugs, design issues, and inconsistencies so I can work more efficiently and avoid waiting for review cycles."
-- "I am a QA engineer and I need to identify high-risk areas earlier so I can effectively focus my limited testing time."
-- "I am a tech lead or manager and I need to enforce consistent code quality across the team so we can deliver successful products without increasing review overhead." 
+- You are a developer who needs fast feedback on bugs, design issues, and inconsistencies so you can work more efficiently and avoid waiting for review cycles.
+- You are a QA engineer and need to identify high-risk areas earlier so you can effectively focus your limited testing time.
+- You are a tech lead or manager need to enforce consistent code quality across the team so we can deliver successful products without increasing review overhead.
 
 ## How to Gain Traction
 
