@@ -14,9 +14,9 @@ This is the canonical articulation of what “Observability 2.0” means. Many t
 
 ## Pause and Ponder
 
-- Are we treating observability as pre-built dashboards, or as a flexible tool for answering new questions?  
-- How could wide structured events help us see connections we’re missing today?  
-- Where in our org would shifting from “1.0” to “2.0” make the biggest cultural impact?  
+- Are we treating observability as pre-built dashboards, or as a flexible tool for answering new questions?
+- How could wide structured events help us see connections we’re missing today?
+- Where in our org would shifting from “1.0” to “2.0” make the biggest cultural impact?
 
 ## Takeaway
 
