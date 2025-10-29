@@ -1,55 +1,53 @@
-# Adopt OpenTelemetry for Unified Observability
+# Adopt the OpenTelemetry Standard
 
-> **Practice framing:**  
-> This practice captures a socio-technical shift underway in modern software teams.  
-> Observability is moving from the “three pillars” (logs, metrics, traces stored separately)  
-> to a unified model where all signals are captured as wide, structured events.  
-> OpenTelemetry (OTel) is the open-source standard enabling this shift — reducing vendor lock-in,  
-> correlating signals across the stack, and letting developers see their impact in real time.
+Most systems perform thousands of actions every minute: serving pages, calling APIs, and writing to databases. Without records of what happens during those actions, it’s hard to see where time is spent or why errors occur. Telemetry data fills that gap by capturing the details behind system behavior.
 
+Without a shared standard, each service describes its behavior differently. One may log in JSON, another might use a custom tagging system, and a third could send metrics in a format only one tool understands. Doing so would create fragmented, hard-to-compare data. OpenTelemetry (OTel) fixes that with a common standard and open-source tools for most major languages. Teams can instrument their systems consistently and send data to a central monitoring system (like [Honeycomb](https://www.honeycomb.io/), [Grafana](https://grafana.com/), [DataDog](https://www.datadoghq.com/), [Jaeger](https://www.jaegertracing.io/), [Fluent Bit](https://fluentbit.io/), [Uptrace](https://uptrace.dev/), etc). Since most popular monitoring systems support hte OTel format, teams can switch platforms without major disruptions.
 
-For modern software teams, observability has never been more important — or more complex. [OpenTelemetry](https://opentelemetry.io/) (OTel) is the open-source standard for collecting telemetry data across services. Instead of juggling separate tools for logs, metrics, and traces, OTel helps teams consolidate context into a single structured format. This gives developers and executives the same “source of truth” about how systems behave, which enables faster debugging, richer product insights, and a direct link between engineering work and business outcomes - all without vendor lock-in.
-
-Some popular OpenTelemetry-compatible platforms include:  
-- [Honeycomb](https://www.honeycomb.io/) – built around wide, structured events and exploratory debugging  
-- [Grafana Tempo](https://grafana.com/oss/tempo/) – integrates with the Grafana stack for trace visualization  
-- [Datadog](https://www.datadoghq.com/), [New Relic](https://newrelic.com/), and [Dynatrace](https://www.dynatrace.com/) – commercial observability vendors with native OTel support  
-- [Uptrace](https://uptrace.dev/) – an OTel-native open-source observability backend  
+When the OpenTelemetry standard is adopted, teams can see how requests move through the system. Scattered logs and isolated metrics become a single, connected view of system behavior. It shows where time is spent, where failures occur, and how components interact. With that visibility debugging is faster, performance work is more deliberate, and improvement efforts are based on evidence rather than hunches.
 
 ## When to Experiment
 
-- "I am a developer and I need to ensure consistent telemetry so that I can more easily debug and see the real-world impact of my code."
-- "I am an Ops / SRE and I need to [learn to / ensure that] so that I can reduce alert fatigue, catch issues before customers do, and correlate signals across environments."  
-- "I am a technical leader and I need to ensure we have an observability tool that scales without vendor lock-in and remains flexibile over time."  
-- "I am a non-technical executive and I need to ensure the connection between system health and business metrics is reliable so that we have an accurate snapshot of bookings, throughput, and customer retention."
+- You are a developer who needs to keep systems operational and performant.
+- You are a QA who needs to ensure changes don't introduce systemic failures.
+- You are a product leader who needs to track how various changes (or experiments) are affecting the user experience.
+- You are an engineering leader who wants to improve the reliability of the overall system.
 
 ## How to Gain Traction
 
-### Start with Education & a Champion
-Begin by aligning teams on what OTel is and why it matters. Share Charity Majors’ blog post framing [“Observability 2.0”](/resources/tech/otel/observability-2-0-honeycomb.md) to begin to shift mindsets from three pillars to structured events. Secure an executive or senior engineer to sponsor the adoption — without a champion, efforts often stall.  See [OTel in Practice: Alibaba’s OpenTelemetry Journey](/resources/tech/otel/alibaba-opentelemetry-journey.md).
+1. Secure a Champion From Leadership
 
-### Establish a Shared Repository
-Set up a dedicated observability repo managed like an open-source project. Include schema definitions, testing rules, a README with setup instructions, and usage guidelines. Lock down standards (e.g., TypeScript interfaces for attributes) so all services produce consistent data.  Teams that skip this get unmanageable dashboards. See [OpenTelemetry Q&A Featuring Hazel Weakly](/resources/tech/otel/opentelemetry-qa-hazel-weakly.md).
+Every successful OpenTelemetry rollout begins with executive sponsorship. Adopting the OpenTelemetry Standard often requires significant time and budget, competes with other organizational priorities, and may face cultural resistance. It's helpful to have a leader who can connect the work to measurable business goals and clear obstacles when resistance appears. Use [Alibaba’s OpenTelemetry journey](/resources/tech/otel/alibaba-opentelemetry-journey.md) as a reference point; it helps leaders understand both the early friction and the long-term payoff of adopting a shared telemetry standard.
 
-### Pilot with Auto-Instrumentation
-Begin with OTel’s auto-instrumentation libraries to generate traces quickly. Expect noise: Tune by suppressing low-value metrics and layering abstractions. Wrap complex packages in simple helpers so other developers can adopt without digging into raw node modules.
+2. Form a Small Cross-Functional Team
 
-### Correlate Across Tools
-Don’t fight the fact that teams have “their favorite tool.” Instead, enrich OTel spans with IDs and references from those tools. This builds connective tissue and lets people see how siloed data relates inside a unified telemetry stream. See [The Evolution of Observability Practices](/resources/tech/otel/evolution-of-observability-practices.md).
+Once leadership is aligned, assemble a small pilot team capable of working across boundaries (backend, frontend, data pipelines, infrastructure, etc). Before starting any technical work, make sure this group shares a common understanding of why observability matters and what "good telemetry" looks like. Use [Charity Majors' Observability 2.0](/resources/tech/otel/observability-2-0-honeycomb.md) and [Asking Better Questions with OpenTelemetry](/resources/tech/otel/asking-better-questions-with-opentelemetry.md) to align on what data should be emitted, how it will be structured, and how teams will use it to ask better questions, not just build prettier dashboards.
 
-### Show Quick Wins
-The fastest way to win hearts is to show OTel reduces noisy, pointless alerts and makes bugs easier to find. Surface dashboards that answer the questions executives and developers care about:  
-- “Where are users dropping off?”  
-- “What query is slowing down checkout?”  
-- “Is this issue ours or the third party’s?”  
-Demonstrating visible impact in days builds credibility and momentum. See [OpenTelemetry Q&A Featuring Jennifer Moore](/resources/tech/otel/opentelemetry-qa-jennifer-moore.md).
+3. Establish a Foundational Repository
+
+Create a single observability foundation repository that makes OpenTelemetry adoption simple and consistent. Include shared libraries that wrap the OTel SDK, a common telemetry schema for naming and structure, and helper functions that auto-populate useful context like request IDs and build versions.
+
+4. Pilot a Single Path
+
+Start with one business-critical request flow and instrument it end-to-end. Choose something visible, like checkout or signup, where results are easy to show. Begin with auto-instrumentation to get traces quickly, then add manual spans where context adds value. Run locally first with a default OTel Collector and simple viewer like Grafana; once stable, deploy to pre-prod and then production.
+
+At this stage, success is measured by credibility: OTel should help answer questions that matter to both engineers and business stakeholders — where users drop off, what slows down checkout, and how changes affect conversion.
+
+5. Standardize and Expand
+
+Once the pilot produces consistent, valuable traces, shift focus from proving value to scaling it. Capture what worked (helper functions, schema conventions, and collector configurations) in the foundation repo and make onboarding self-service. Add concise documentation and validation checks so teams can integrate with minimal friction. Assign clear ownership and version the schema like an API to prevent drift. Expand gradually, measuring progress by consistency rather than speed. Each new integration should strengthen the shared signal, not add noise.
 
 ## Lessons From The Field
-- _Telemetry Surfaces Politics_ – OTel exposes bottlenecks and ownership gaps. In bureaucratic
-cultures, this requires social skill: frame insights as opportunities, not punishments.
-- _SAP’s Massive-Scale Modernization_ – SAP revamped its observability architecture across a fleet of 11,000+ OpenSearch instances by adopting OpenTelemetry and rebuilding ingestion pipelines with Data Prepper. This enabled unified logs, metrics, and traces, provided low-risk migration to OpenSearch 2.x, and dramatically sped up incident response. See [SAP Case Study: Massive-Scale Observability Modernization](/resources/tech/otel/sap-opentelemetry-case-study.md).
-- _Pax8 Unleashes Curious, Cost‑Effective Instrumentation_ – By moving to Honeycomb’s Observability 2.0 platform, Pax8 empowered engineers, product managers, and ops with structured telemetry and dropped their observability costs by 30%. Their user base grew from 50 to 210 users, democratizing access without breaking the budget. See [Pax8 Case Study: Democratizing Observability 2.0](/resources/tech/otel/pax8-observability-2-0-case-study.md). 
 
+**Quick Wins Build Momentum** Visibility improvements mean little if no one notices. Publicize early examples of time saved and bugs caught to fuel buy-in.
+
+**Telemetry Surfaces Politics** OTel reveals ownership gaps and bottlenecks. In bureaucratic cultures, this requires tact. Frame findings as shared opportunities, not personal failings.
+
+**Standardization Is Crucial** Without schema discipline, dashboards turn chaotic within weeks. Treat naming and attribute drift as real tech debt.
+
+**Bridge, Don’t Replace** People already have preferred tools. Add trace IDs and references to link systems rather than trying to rip existing ones out early. For example, product teams may have specialized product analytics tooling. OpenTelemetry should compliment that instead of replacing it.
+
+**Expect Uneven Maturity** Logging support and SDK quality vary by language. Set expectations and plan incremental rollout accordingly.
 
 ## Deciding to Polish or Pitch
 
@@ -57,18 +55,18 @@ After experimenting with this practice for **4–5 weeks**, bring the team toget
 
 ### Fast & Measurable
 - **Reduced Debug Time** Incidents should resolve faster once OTel is in place. Track cycle time or ticket-to-resolution time via [Jira](https://atlassian.com/software/jira)/incident postmortems.
-- **Shorter Deployment Feedback Loops.** Expect 10– to 15-minute telemetry updates instead of waiting hours or days.  
+- **Shorter Deployment Feedback Loops.** Expect 10– to 15-minute telemetry updates instead of waiting hours or days.
 
 ### Fast & Intangible
-- **Developer Sentiment** Look for fewer “wake-up-for-nothing” complaints in retros or Slack chatter.  
-- **Dashboard Adoption** Track how many non-admins confidently create their own dashboards.  
+- **Developer Sentiment** Look for fewer "wake-up-for-nothing" complaints in retros or Slack chatter.
+- **Dashboard Adoption** Track how many non-admins confidently create their own dashboards.
 
 ### Slow & Measurable
-- **Reduced Vendor Dependence.** Track spend on observability tools or number of dashboards maintained.  
-- **Product KPIs** Monitor conversion rates, drop-offs, or booking throughput tied to system optimizations.  
+- **Reduced Vendor Dependence.** Track spend on observability tools or number of dashboards maintained.
+- **Product KPIs** Monitor conversion rates, drop-offs, or booking throughput tied to system optimizations.
 
 ### Slow & Intangible
-- **Cross-Team Trust.** Do PMs and executives begin referencing telemetry data in decision-making instead of anecdotes?  
+- **Cross-Team Trust.** Do PMs and executives begin referencing telemetry data in decision-making instead of anecdotes?
 
 ## Supporting Capabilities
 ### [Proactive Failure Notification](/capabilities/proactive-failure-notification.md)
@@ -88,4 +86,3 @@ Consistent observability abstractions act as shared infrastructure patterns, hel
 
 ### [Job Satisfaction](/capabilities/job-satisfaction.md)
 Reducing false alarms and giving developers visibility into their real impact improves morale and reduces burnout.
-

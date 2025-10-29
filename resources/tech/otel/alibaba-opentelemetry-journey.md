@@ -2,7 +2,7 @@
 
 Resource type: Video
 
-Video: https://www.youtube.com/watch?v=fgbB0HhVBq8  
+Video: https://www.youtube.com/watch?v=fgbB0HhVBq8
 
 ## What it’s about
 
@@ -14,11 +14,11 @@ It’s a rare enterprise case study told from the inside — with practical deta
 
 ## Pause and Ponder
 
-- Who in our org has the authority and conviction to enforce OTel adoption?  
-- Which legacy systems or processes would create the same friction Alibaba faced?  
-- How can we ensure telemetry remains comparable across hundreds of services?  
-- What objections might surface from entrenched teams or leaders, and how could we frame the benefits?  
-- What governance model would help us scale adoption without chaos?   
+- Who in our org has the authority and conviction to enforce OTel adoption?
+- Which legacy systems or processes would create the same friction Alibaba faced?
+- How can we ensure telemetry remains comparable across hundreds of services?
+- What objections might surface from entrenched teams or leaders, and how could we frame the benefits?
+- What governance model would help us scale adoption without chaos?
 
 ## Takeaway
 
