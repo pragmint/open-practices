@@ -36,6 +36,7 @@ Start with one business-critical request flow and instrument it end-to-end. Pick
 Begin with two simple telemetry configurations:
 
 - **Instrumenting like you log.** Make adding spans as easy as calling console.log(). Developers should be able to drop in trace points without complicated dependency wiring, test mocks, or ceremony. During local development, spans should default to printing to stdout and running silently during tests.
+- **Run a real pipeline locally** In parallel, stand up a lightweight local collector + viewer (e.g., docker compose up for OTel Collector + Grafana / Jaeger) and send the same spans there. This validates structure, naming, and context while building confidence that the data tells a coherent story before touching production.
 
 Once signals are clear locally, deploy the collector and instrumentation to pre-prod and then production.
 
@@ -72,7 +73,7 @@ After experimenting with this practice for **4–5 weeks**, bring the team toget
 
 ### Slow & Measurable
 
-- **Product KPIs.** Monitor conversion rates, drop-offs, or booking throughput tied to system optimizations. 
+- **Product KPIs.** Monitor conversion rates, drop-offs, or booking throughput tied to system optimizations.
 
 ### Slow & Intangible
 
