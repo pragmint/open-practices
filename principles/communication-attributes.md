@@ -4,6 +4,11 @@ There are many concepts that I have found are easier to explain if there is a
 vocabulary around attributes of communication. This is an attempt at laying out
 some of that vocabulary to support more complicated explanations.
 
+## Definition
+
+Communication with respect to these attributes will be defined as information
+that is in one person's mind being transferred to another person's mind.
+
 ## Resolution
 
 Not all modes of communication provide the same amount of information. Some
@@ -35,9 +40,9 @@ audio and video as equally high resolution communication as being in person.
 
 ## Latency
 
-Latency is the amount of time between messages while communicating. Not always
-but in general lower latency is better. Some examples of latency from low to
-high might be:
+Latency is the amount of time between when the message is sent and when the
+message is received. In general lower latency is better. Some examples of
+latency from low to high might be:
 
 1. Physical Letter
 1. Email
@@ -46,20 +51,40 @@ high might be:
 
 It's important to note the examples above are not a hard and fast rule. The
 classic image of teenagers texting while in the room with a bunch of other
-people exemplifies a time when text messaging can be lower latency
-than verbal conversation.
-
-Latency, at times, is more about engagement in the conversation and mental work
-in progress than it is about the time spent between messages.
-
-## Volume
-
-<!-- TODO -->
+people is an example of when text messaging can be lower latency than verbal
+conversation. In practice, latency is more about engagement in the conversation
+and mental work in progress than it is about the time between send and receive.
 
 ## Frequency
 
-<!-- TODO -->
+It may feel like Frequency and latency are the same but there is a slight
+difference. Frequency is how often a message is sent and Latency is how long
+the message take to get to the receiver.
+
+If I sent 1 letter a day to my friend and each letter took a week to get there,
+that would be high frequency and low latency.
+
+## Volume
+
+Volume is the amount of information being transferred between two people.
+Please note that volume has a dependent relationship with other attributes.
+
+A large volume of information necessitates longer latency. This is easy to see
+by a quick example.
+
+If I hand you three large text books in a row, the frequency of messages is
+fast but the latency might be different for each book or even each chapter. I
+might read the first two chapters tonight but it could take me a month to get
+to the last chapter of the last book.
+
+This means volume has a dependent relationship with latency. This can be
+negated with context dependent communication. See the section on context
+dependent communication for more details.
 
 ## Ephemeral vs Persistent
+
+<!-- TODO -->
+
+## Context Dependent Communication
 
 <!-- TODO -->
