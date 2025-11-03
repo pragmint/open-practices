@@ -108,5 +108,18 @@ Persistent communication is made up of messages that stick around. If I send
 you a text message or an email I can later come back and view, audit or
 reference the exact message I sent you.
 
-## Context Dependent Communication
+## Context Dependent Messages & Shared Context
+
+Context dependent messages are messages that don't send all of the information
+required to communicate the desired principle but are still effective because
+of shared context between the sender and reciever.
+
+Imageine a scenario between Bob and Alice where Bob simply yells out Alice's
+name across the office and Alice's response is "I'm on it!". From our outside
+perspective there was nothing significantly communicated but alice obviouly
+understood what Bob was trying to say based on some context they both share.
+
+Take note that all communication is context dependent in some respect. The only
+reason you are reading this right now is because of the shared context of the
+english language that share.
 
