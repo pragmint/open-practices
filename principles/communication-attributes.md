@@ -4,10 +4,18 @@ There are many concepts that I have found are easier to explain if there is a
 vocabulary around attributes of communication. This is an attempt at laying out
 some of that vocabulary to support more complicated explanations.
 
-## Definition
+## Definition of Communication
 
 Communication with respect to these attributes will be defined as information
 that is in one person's mind being transferred to another person's mind.
+
+## Messages
+
+For the purpose of these definitions, a message is any attempt of one person to
+send information to another. The message could be an email, a text message, a
+pull request or it can simply be the spoken word. There is nearly no end to the
+variety of messages that can be sent and each has varying attributes about it
+that makes it more or less effective depending on the situation. 
 
 ## Resolution
 
@@ -73,18 +81,32 @@ A large volume of information necessitates longer latency. This is easy to see
 by a quick example.
 
 If I hand you three large text books in a row, the frequency of messages is
-fast but the latency might be different for each book or even each chapter. I
-might read the first two chapters tonight but it could take me a month to get
-to the last chapter of the last book.
+fast and the volume is high but the latency might be different for each book or
+even each chapter. I might read the first two chapters tonight but it could
+take me a month to get to the last chapter of the last book.
 
 This means volume has a dependent relationship with latency. This can be
 negated with context dependent communication. See the section on context
 dependent communication for more details.
 
-## Ephemeral vs Persistent
+## Ephemeral and Persistent
 
-<!-- TODO -->
+Please note that ephemeral and persistent messages are fluid in many ways. I
+can delete voicemail, I can send a self destroying message like on Snapchat and
+many other scenarios that make these definitions imprecise but still useful.
+
+### Ephemeral Messages
+
+Ephemeral communication is made up of messages that disappear or never have a
+physical manifestation at all. If I tell you something with my voice, it's
+ephemeral because I won't be able to reference what I said later unless what
+was said was remembered.
+
+### Persistent Messages
+
+Persistent communication is made up of messages that stick around. If I send
+you a text message or an email I can later come back and view, audit or
+reference the exact message I sent you.
 
 ## Context Dependent Communication
 
-<!-- TODO -->
