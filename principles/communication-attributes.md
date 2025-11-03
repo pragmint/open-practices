@@ -35,12 +35,31 @@ audio and video as equally high resolution communication as being in person.
 
 ## Latency
 
-<!-- TODO -->
+Latency is the amount of time between messages while communicating. Not always
+but in general lower latency is better. Some examples of latency from low to
+high might be:
+
+1. Physical Letter
+1. Email
+1. Text message
+1. Verbal conversation
+
+It's important to note the examples above are not a hard and fast rule. The
+classic image of teenagers texting while in the room with a bunch of other
+people exemplifies a time when text messaging can be lower latency
+than verbal conversation.
+
+Latency, at times, is more about engagement in the conversation and mental work
+in progress than it is about the time spent between messages.
 
 ## Volume
 
 <!-- TODO -->
 
 ## Frequency
+
+<!-- TODO -->
+
+## Ephemeral vs Persistent
 
 <!-- TODO -->
