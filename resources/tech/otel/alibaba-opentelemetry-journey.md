@@ -2,7 +2,7 @@
 
 Resource type: Video
 
-Video: https://www.youtube.com/watch?v=fgbB0HhVBq8
+https://www.youtube.com/watch?v=fgbB0HhVBq8
 
 ## What it’s about
 
