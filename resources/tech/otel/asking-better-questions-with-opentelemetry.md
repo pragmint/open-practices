@@ -1,6 +1,6 @@
 # Asking Better Questions with OpenTelemetry (Feat. Hazel Weakly)
 
-Resource type: Video + Transcript
+Resource type: Video & Transcript
 
 Video: https://www.youtube.com/watch?v=wMJEgrUnX7M
 Transcript: https://github.com/open-telemetry/sig-end-user/blob/main/video-transcripts/transcripts/2023-09-13T19:26:10Z-opentelemetry-q-a-feat-hazel-weakly.md
