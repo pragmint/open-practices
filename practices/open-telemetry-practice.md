@@ -23,11 +23,11 @@ Every successful OpenTelemetry rollout begins with executive sponsorship. Adopti
 
 ### Form a Small Cross-Functional Team
 
-Once leadership is aligned, assemble a small pilot team capable of working across boundaries (backend, frontend, data pipelines, infrastructure, etc). Before starting any technical work, make sure this group shares a common understanding of why observability matters and what "good telemetry" looks like. Use [Charity Majors' Observability 2.0](/resources/tech/otel/observability-2-0-honeycomb.md) and [Asking Better Questions with OpenTelemetry](/resources/tech/otel/asking-better-questions-with-opentelemetry.md) to align on what data should be emitted, how it will be structured, and how teams will use it to ask better questions (not just build prettier dashboards).
+Once leadership is aligned, assemble a small pilot team capable of working across boundaries (backend, frontend, data pipelines, infrastructure, etc). Before starting any technical work, make sure this group shares a common understanding of why observability matters and what "good telemetry" looks like. Use [Charity Majors' Observability 2.0](/resources/tech/otel/observability-2-0-honeycomb.md) and [Asking Better Questions with OpenTelemetry](/resources/tech/otel/asking-better-questions-with-opentelemetry.md) to align on what data should be emitted, how it will be structured, and how teams will use it to ask better questions (not just build prettier dashboards). Also consider organizing workshops, spikes, hackathons, etc that will get your team's hands dirty with the [documentation](https://opentelemetry.io/docs/what-is-opentelemetry/) and tooling.
 
 ### Establish a Foundational Repository
 
-Create a single observability foundation repository that makes OpenTelemetry adoption simple and consistent. Include shared libraries that wrap the OTel SDK, a common telemetry schema for naming and structure, and helper functions that auto-populate useful context like request IDs and build versions.
+Create a single observability foundation repository that makes OpenTelemetry adoption simple and consistent. Include shared libraries that wrap the OTel SDK, a common telemetry schema for naming and structure, and helper functions that auto-populate useful context like request IDs and build versions. Consider leveraging OTel's official [semantic conventions](https://opentelemetry.io/docs/concepts/semantic-conventions/) and [attribute registry](https://opentelemetry.io/docs/specs/semconv/registry/attributes/).
 
 ### Pilot a Single Path
 
