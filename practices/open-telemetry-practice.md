@@ -81,13 +81,13 @@ After experimenting with this practice for **4–5 weeks**, bring the team toget
 
 ## Supporting Capabilities
 
-### [Proactive Failure Notification](/capabilities/proactive-failure-notification.md)
-
-OTel enables proactive observability across systems. Fast feedback loops mean catching issues before they reach the user.
-
 ### [Monitoring & Observability](/capabilities/monitoring-and-observability.md)
 
 OTel is the open-source standard for collecting, unifying, and standardizing telemetry data across services. Its model optimizes observability in the modern tech landscape.
+
+### [Proactive Failure Notification](/capabilities/proactive-failure-notification.md)
+
+OTel enables proactive observability across systems. Fast feedback loops mean catching issues before they reach the user.
 
 ### [Continuous Delivery](/capabilities/continuous-delivery.md)
 
