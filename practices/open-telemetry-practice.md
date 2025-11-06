@@ -56,7 +56,7 @@ Once the pilot produces consistent, valuable traces, shift focus from proving va
 
 *Bridge, Don’t Replace* - People already have preferred tools. Add trace IDs and references to link systems rather than trying to rip existing ones out early. For example, product teams may have specialized product-analytics tooling. OTel should complement that instead of replacing it.
 
-*Expect Uneven Maturity* - Logging support and SDK quality vary by language. Set expectations and plan incremental rollout accordingly.
+*Expect The Unexpected* - Auto-instrumentation often surfaces insights teams wouldn't think to look for. It can reveal details that manual instrumentation might miss, like unused routes being hit by scanners, inefficient library calls, or unexpected dependency behavior. These discoveries can inform everything from performance tuning to security awareness, turning "extra" visibility into real operational intelligence.
 
 ## Deciding to Polish or Pitch
 
