@@ -20,4 +20,4 @@ This is the canonical articulation of what “Observability 2.0” means. Many t
 
 ## Takeaway
 
-Observability 2.0 isn’t just more data — it’s a mindset shift. Wide structured events let engineers ask questions they didn’t anticipate, turning telemetry from a static dashboard into a dynamic conversation.
+Observability 2.0 isn’t about collecting more data; it’s about widening and unifying your view. Capture broad, richly attributed events, even when they seem redundant. If costs are a concern, sample widely instead of stripping context, or use open-source visualizers to explore freely. Bring logs, metrics, and traces together into a single feed so you can zoom in for detail, step back for the full picture, and connect signals that might otherwise stay hidden. In this model, telemetry becomes a living, navigable picture of your system rather than a static dashboard.
