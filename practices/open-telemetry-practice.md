@@ -44,7 +44,7 @@ Success at this stage isn’t volume, it's usefulness. The pilot should answer q
 
 ### Standardize and Expand
 
-Once the pilot produces consistent, valuable traces, shift focus from proving value to scaling it. Capture what worked (helper functions, schema conventions, and collector configurations) in the foundation repository and make onboarding self-service. Add concise documentation and validation checks so teams can integrate with minimal friction. Create a clear governance for the repository to guide future changes and version the schema like an API to prevent drift. Expand gradually, measuring progress by consistency rather than speed. Each new integration should strengthen the shared signal, not add noise.
+Once the pilot produces consistent, valuable traces, shift focus from proving value to scaling it. Capture what worked (helper functions, schema conventions, and collector configurations) in the foundation repository and make onboarding self-service. Add concise documentation and validation checks so teams can integrate with minimal friction. Create a clear governance for the repository to guide future changes and version the schema like an API to prevent drift. Expand gradually, measuring progress by consistency rather than speed. Each new integration should strengthen the shared signal, not add noise. You'll know you're on the right track when engineers and leadership alike start referencing the telemetry data to discuss issues or raise their own concerns un-prompted.
 
 ## Lessons From The Field
 
