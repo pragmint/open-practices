@@ -48,15 +48,17 @@ Once the pilot produces consistent, valuable traces, shift focus from proving va
 
 ## Lessons From The Field
 
-*Quick Wins Build Momentum* - Observability improvements mean little if no one notices. Publicize early examples of time saved and bugs caught to fuel buy-in.
+*Quick Wins Build Momentum* Observability improvements mean little if no one notices. Publicize early examples of time saved and bugs caught to fuel buy-in.
 
-*Telemetry Surfaces Politics* - OTel reveals ownership gaps and bottlenecks. In bureaucratic cultures, this requires tact. Frame findings as **shared opportunities**, not personal failings.
+*Telemetry Surfaces Politics* OTel reveals ownership gaps and bottlenecks. In bureaucratic cultures, this requires tact. Frame findings as **shared opportunities**, not personal failings.
 
-*Some Assembly Required* - OTel isn’t plug-and-play. It’s a toolkit of SDKs, exporters, and collectors you assemble to fit your system. Success depends on treating it like infrastructure work: apply clean code, schema discipline, and solid CI practices. Built with care, OTel becomes the connective tissue that unifies data and insight across teams.
+*Some Assembly Required* OTel isn’t plug-and-play. It’s a toolkit of SDKs, exporters, and collectors you assemble to fit your system. Success depends on treating it like infrastructure work: apply clean code, schema discipline, and solid CI practices. Built with care, OTel becomes the connective tissue that unifies data and insight across teams.
 
-*Bridge, Don’t Replace* - People already have preferred tools. Add trace IDs and references to link systems rather than trying to rip existing ones out early. For example, product teams may have specialized product-analytics tooling. OTel should complement that instead of replacing it.
+*Bridge, Don’t Replace* People already have preferred tools. Add trace IDs and references to link systems rather than trying to rip existing ones out early. For example, product teams may have specialized product-analytics tooling. OTel should complement that instead of replacing it.
 
-*Expect The Unexpected* - Auto-instrumentation often surfaces insights teams wouldn't think to look for. It can reveal details that manual instrumentation might miss, like unused routes being hit by scanners, inefficient library calls, or unexpected dependency behavior. These discoveries can inform everything from performance tuning to security awareness, turning "extra" visibility into real operational intelligence.
+*Expect the Unexpected* Auto-instrumentation often surfaces insights teams wouldn't think to look for. It can reveal details that manual instrumentation might miss, like unused routes being hit by scanners, inefficient library calls, or unexpected dependency behavior. These discoveries can inform everything from performance tuning to security awareness, turning "extra" visibility into real operational intelligence.
+
+*Be Mindful of Costs* Early OTel rollouts often produce far more data than needed, especially when systems double-log through multiple agents or send every log line to a collector. This creates both noise and unexpected costs. The solution is to sample aggressively once instrumentation is proven and to use open-source visualizers such as [Grafana](https://grafana.com/) in development. You can also add a verbose configuration flag for local debugging that remains off in deployed environments, preserving deep visibility without inflating bills. Finally, favor traces and spans over raw logs since they provide richer context, lower storage costs, and make the data easier to interpret.
 
 ## Deciding to Polish or Pitch
 
