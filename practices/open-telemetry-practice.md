@@ -35,7 +35,7 @@ Start with one business-critical request flow and instrument it end-to-end. Pick
 
 Begin with two simple telemetry configurations:
 
-1. **Instrumenting like you log.** Make adding spans as easy as calling console.log(). Developers should be able to drop in trace points without complicated dependency wiring, test mocks, or ceremony. During local development, spans should default to printing to stdout and running silently during tests.
+1. **Instrument to standard out.** Start with [auto-instrumentation libraries](https://opentelemetry.io/docs/languages/) available for your language or framework. These often require no code changes and can emit useful spans immediately. Then layer in a simple manual API that feels like console.log(). Developers should be able to add spans or structured logs with a single call, no complicated wiring or mocks required. During local dev, spans should print to stdout. During test runs, they should be silently ignored.
 2. **Run a real pipeline locally** In parallel, stand up a lightweight local collector + viewer (e.g., docker compose up for OTel Collector + Grafana / Jaeger) and send the same spans there. This validates structure, naming, and context while building confidence that the data tells a coherent story before touching production.
 
 Once signals are clear locally, deploy the collector and instrumentation to pre-prod and then production.
