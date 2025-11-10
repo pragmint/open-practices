@@ -1,4 +1,8 @@
-
+# Dependencies
+# - pandoc
+# - gsed
+# - rg
+# - prettier
 def main [
     --verbose(-v)
     --count(-c): int 
