@@ -1,8 +1,6 @@
 # Adopt the OpenTelemetry Standard
 
-Most systems perform thousands of actions every minute: serving pages, calling APIs, and writing to databases. Without records of what happens during those actions, it’s hard to see where time is spent or why errors occur. Telemetry data fills that gap by capturing the details behind system behavior.
-
-Without a shared standard for records, each service describes its behavior differently. One may log in JSON, another might use a custom tagging system, and a third could send metrics in a format only one tool understands. This creates fragmented, hard-to-compare data. OpenTelemetry (OTel) fixes that with its collection of APIs, SDKs, and open-source tools that allow developers to work with telemetry data in a standardized way. Teams can instrument their systems consistently and send metrics, logs, and traces to a central monitoring system (like [Honeycomb](https://www.honeycomb.io/), [Grafana](https://grafana.com/), [DataDog](https://www.datadoghq.com/), [Jaeger](https://www.jaegertracing.io/), [Fluent Bit](https://fluentbit.io/), or [Uptrace](https://uptrace.dev/). Since most popular monitoring systems support the OTel format, teams can switch platforms without major disruptions.
+Most systems perform thousands of actions every minute: serving pages, calling APIs, and writing to databases. Without records of what happens during those actions, it’s hard to see where time is spent or why errors occur. Telemetry data fills that gap by capturing the details behind system behavior. But there's a catch: These details, while useful, may not be standardized. Without a shared standard for records, each service describes its behavior differently. One may log in JSON, another might use a custom tagging system, and a third could send metrics in a format only one tool understands. This creates fragmented, hard-to-compare data. OpenTelemetry (OTel) fixes that with its collection of APIs, SDKs, and open-source tools that allow developers to work with telemetry data in a standardized way. Teams can instrument their systems consistently and send metrics, logs, and traces to a central monitoring system like [Honeycomb](https://www.honeycomb.io/), [Grafana](https://grafana.com/), [DataDog](https://www.datadoghq.com/), [Jaeger](https://www.jaegertracing.io/), [Fluent Bit](https://fluentbit.io/), or [Uptrace](https://uptrace.dev/). Since most popular monitoring systems support the OTel format, teams can switch platforms without major disruptions.
 
 When the OTel standard is adopted, teams can see how requests move through the system. Scattered logs and isolated metrics are collected to form a single, connected view of system behavior. It shows where time is spent, where failures occur, and how components interact. With that visibility, debugging is faster, performance work is more deliberate, and improvements become evidence-based rather than guided by hunches.
 
@@ -23,7 +21,7 @@ Every successful OpenTelemetry rollout begins with executive sponsorship. Adopti
 
 ### Form a Small Cross-Functional Team
 
-Once leadership is aligned, assemble a small pilot team capable of working across boundaries (backend, frontend, data pipelines, infrastructure, etc). Before starting any technical work, make sure this group shares a common understanding of why observability matters and what "good telemetry" looks like. Use [Charity Majors' Observability 2.0](/resources/tech/otel/observability-2-0-honeycomb.md) and [Asking Better Questions with OpenTelemetry](/resources/tech/otel/asking-better-questions-with-opentelemetry.md) to align on what data should be emitted, how it will be structured, and how teams will use it to ask better questions (not just build prettier dashboards). Also consider organizing workshops, spikes, hackathons, etc that will get your team's hands dirty with the [documentation](https://opentelemetry.io/docs/what-is-opentelemetry/) and tooling.
+Once leadership is aligned, assemble a small pilot team capable of working across boundaries (backend, frontend, data pipelines, infrastructure, etc). Before starting any technical work, make sure this group shares a common understanding of why observability matters and what "good telemetry" looks like. Use [Charity Majors's Observability 2.0](/resources/tech/otel/observability-2-0-honeycomb.md) and [Asking Better Questions with OpenTelemetry](/resources/tech/otel/asking-better-questions-with-opentelemetry.md) to align on what data should be emitted, how it will be structured, and how teams will use it to ask better questions (not just build prettier dashboards). Also consider organizing workshops, spikes, and hackathons that will get your team's hands dirty with the [documentation](https://opentelemetry.io/docs/what-is-opentelemetry/) and tooling.
 
 ### Establish a Foundational Repository
 
@@ -35,8 +33,8 @@ Start with one business-critical request flow and instrument it end-to-end. Pick
 
 Begin with two simple telemetry configurations:
 
-1. **Instrument to standard out.** Start with [auto-instrumentation libraries](https://opentelemetry.io/docs/languages/) available for your language or framework. These often require no code changes and can emit useful spans immediately. Then layer in a simple manual API that feels like console.log(). Developers should be able to add spans or structured logs with a single call, no complicated wiring or mocks required. During local dev, spans should print to stdout. During test runs, they should be silently ignored.
-2. **Run a real pipeline locally** In parallel, stand up a lightweight local collector + viewer (e.g., docker compose up for OTel Collector + Grafana / Jaeger) and send the same spans there. This validates structure, naming, and context while building confidence that the data tells a coherent story before touching production.
+1. **Instrument to standard out.** Start with [auto-instrumentation libraries](https://opentelemetry.io/docs/languages/) available for your language or framework. These often require no code changes and can emit useful spans immediately. Then, layer in a simple manual API that feels like console.log(). Developers should be able to add spans or structured logs with a single call; no complicated wiring or mocks required. During local dev, spans should print to stdout. During test runs, they should be silently ignored.
+2. **Run a real pipeline locally.** In parallel, stand up a lightweight local collector + viewer (e.g., docker compose up for OTel Collector + Grafana / Jaeger) and send the same spans there. This validates structure, naming, and context while building confidence that the data tells a coherent story before touching production.
 
 Once signals are clear locally, deploy the collector and instrumentation to pre-prod and then production.
 
@@ -48,17 +46,17 @@ Once the pilot produces consistent, valuable traces, shift focus from proving va
 
 ## Lessons From The Field
 
-*Quick Wins Build Momentum* Observability improvements mean little if no one notices. Publicize early examples of time saved and bugs caught to fuel buy-in.
+*Quick Wins Build Momentum.* Observability improvements mean little if no one notices. Publicize early examples of time saved and bugs caught to fuel buy-in.
 
-*Telemetry Surfaces Politics* OTel reveals ownership gaps and bottlenecks. In bureaucratic cultures, this requires tact. Frame findings as **shared opportunities**, not personal failings.
+*Telemetry Surfaces Politics.* OTel reveals ownership gaps and bottlenecks. In bureaucratic cultures, this requires tact. Frame findings as **shared opportunities**, not personal failings.
 
 *Some Assembly Required* OTel isn’t plug-and-play. It’s a toolkit of SDKs, exporters, and collectors you assemble to fit your system. Success depends on treating it like infrastructure work: apply clean code, schema discipline, and solid CI practices. Built with care, OTel becomes the connective tissue that unifies data and insight across teams.
 
-*Bridge, Don’t Replace* People already have preferred tools. Add trace IDs and references to link systems rather than trying to rip existing ones out early. For example, product teams may have specialized product-analytics tooling. OTel should complement that instead of replacing it.
+*Bridge, Don’t Replace.* People already have preferred tools. Add trace IDs and references to link systems rather than trying to rip existing ones out early. For example, product teams may have specialized product-analytics tooling. OTel should complement that instead of replacing it.
 
-*Expect the Unexpected* Auto-instrumentation often surfaces insights teams wouldn't think to look for. It can reveal details that manual instrumentation might miss, like unused routes being hit by scanners, inefficient library calls, or unexpected dependency behavior. These discoveries can inform everything from performance tuning to security awareness, turning "extra" visibility into real operational intelligence.
+*Expect the Unexpected.* Auto-instrumentation often surfaces insights teams wouldn't think to look for. It can reveal details that manual instrumentation might miss like unused routes being hit by scanners, inefficient library calls, or unexpected dependency behavior. These discoveries can inform everything from performance tuning to security awareness, turning "extra" visibility into real operational intelligence.
 
-*Be Mindful of Costs* Early OTel rollouts often produce far more data than needed, especially when systems double-log through multiple agents or send every log line to a collector. This creates both noise and unexpected costs. The solution is to sample aggressively once instrumentation is proven and to use open-source visualizers such as [Grafana](https://grafana.com/) in development. You can also add a verbose configuration flag for local debugging that remains off in deployed environments, preserving deep visibility without inflating bills. Finally, favor traces and spans over raw logs since they provide richer context, lower storage costs, and make the data easier to interpret.
+*Be Mindful of Costs.* Early OTel rollouts often produce far more data than needed, especially when systems double-log through multiple agents or send every log line to a collector. This creates both noise and unexpected costs. The solution is to sample aggressively once instrumentation is proven and to use open-source visualizers such as [Grafana](https://grafana.com/) in development. You can also add a verbose configuration flag for local debugging that remains off in deployed environments, preserving deep visibility without inflating bills. Finally, favor traces and spans over raw logs since they provide richer context, lower storage costs, and make the data easier to interpret.
 
 ## Deciding to Polish or Pitch
 
@@ -66,12 +64,12 @@ After experimenting with this practice for **4–5 weeks**, bring the team toget
 
 ### Fast & Measurable
 
-- **Mean Time To Recover.** Developers should find and confirm root causes faster using telemetry data rather than disparate data points and anecdotes. This can be tracked via incident timelines in postmortems or Jira/incident tooling.
+- **Faster Mean Time To Recover.** Developers should find and confirm root causes faster using telemetry data rather than disparate data points and anecdotes. This can be tracked via incident timelines in postmortems or Jira/incident tooling.
 - **Faster Deployment Feedback Loops.** Engineers should see how changes affect the system within minutes, not hours. This can be measured via deployment pipelines (CI/CD timestamps) and time-to-first-meaningful-telemetry-signals after deploy.
 
 ### Fast & Intangible
 
-- **More Productive Debugging Behaviors.** Teams default to tracing and telemetry for understanding issues, instead of log-hunting or adding prints. Capture this via retrospective notes, engineering Slack chatter, or direct developer feedback.
+- **More Productive Debugging Behaviors.** Teams should default to tracing and telemetry for understanding issues, instead of log-hunting or adding prints. Capture this via retrospective notes, engineering Slack chatter, or direct developer feedback.
 
 ### Slow & Measurable
 
