@@ -73,11 +73,11 @@ After experimenting with this practice for **4–5 weeks**, bring the team toget
 
 ### Slow & Measurable
 
-- **Product KPIs.** Monitor conversion rates, drop-offs, or booking throughput tied to system optimizations.
+- **Improved Product KPIs.** Monitor conversion rates, drop-offs, or booking throughput tied to system optimizations. When problems are surfaced, they're more likely to be solved.
 
 ### Slow & Intangible
 
-- **Cross-Team Collaboration.** Engineers, PMs, and leaders should reference telemetry data when discussing reliability or performance decisions, replacing anecdote-driven debates. Gauge this via meeting observations, PM feedback, and roadmap discussions.
+- **Improved Cross-Team Collaboration.** Engineers, PMs, and leaders should reference telemetry data when discussing reliability or performance decisions, replacing anecdote-driven debates. Gauge this via meeting observations, PM feedback, and roadmap discussions.
 
 ## Supporting Capabilities
 
