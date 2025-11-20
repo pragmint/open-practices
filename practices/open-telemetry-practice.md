@@ -48,6 +48,8 @@ Once the pilot produces consistent, valuable traces, shift focus from proving va
 
 *Quick Wins Build Momentum.* Observability improvements mean little if no one notices. Publicize early examples of time saved and bugs caught to fuel buy-in.
 
+*When is Open Telemetry Too Much or Premature?* If your Mean Time To Recovery and your Change Failure Rate are both really small, advanced telemetry is probably not your highest priority. If you already have a simple logging solution or even an advanced logging solution that enables your team to quickly have enough insight to solve and prevent problems effectively, there are most likely other areas that are higher priority to focus on. This doesn't mean that advanced telemetry won't be valuable in the future, but it should not be your current focus.
+
 *Telemetry Surfaces Politics.* OTel reveals ownership gaps and bottlenecks. In bureaucratic cultures, this requires tact. Frame findings as **shared opportunities**, not personal failings.
 
 *Some Assembly Required* OTel isn’t plug-and-play. It’s a toolkit of SDKs, exporters, and collectors you assemble to fit your system. Success depends on treating it like infrastructure work: apply clean code, schema discipline, and solid CI practices. Built with care, OTel becomes the connective tissue that unifies data and insight across teams.
