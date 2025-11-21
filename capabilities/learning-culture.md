@@ -60,13 +60,17 @@ Talking directly with users is an invaluable practice for gaining insights and u
 
 Dogfooding your systems involves having your teams use the same products or systems that your users do, allowing them to experience the same pain points firsthand. This practice helps build empathy with users, identify issues early, and drive improvements based on direct "user" experience. By regularly using your own systems as customers would, your team can gain valuable insights and ensure that the product meets the highest standards of usability and performance.
 
+### [Introduce a Screen Recording Tool](/practices/introduce-a-screen-recording-tool.md)
+
+A screen-recording tool supports a learning culture by making it easy to create and share videos that carry far more context and nuance than text alone. When recording becomes effortless, teammates naturally default to richer explanations that help others understand intent, reasoning, and edge cases. As this practice becomes a norm, the flow of high-quality information increases, giving the team more opportunities to learn from each other.
+
 ### [Use SPIN To Unearth Problems and Solutions](/practices/use-spin-to-unearth-problems-and-solutions.md)
 
 SPIN is a question-asking framework that was originally developed for sales professionals. It focuses on understanding a person's needs through four types of questions: Situation, Problem, Implication, and Need-Payoff. Software professionals can use SPIN to uncover problems, clarify needs, and arrive at creative solutions, thus bolstering a learning culture.
 
 ### Introduce a Screen-Recording Tool
 
-By enabling richer, more intuitive communication, screen recording helps teams document intent more clearly, reduce back-and-forth, and improve the efficiency of handoffs without requiring ticket authors to spend a lot of time writing. A lightweight screen-recording tool like [Loom](https://www.loom.com) allows ticket authors to quickly demonstrate the issue or desired behavior using voice and visuals, reducing ambiguity without adding process overhead. 
+By enabling richer, more intuitive communication, screen recording helps teams document intent more clearly, reduce back-and-forth, and improve the efficiency of handoffs without requiring ticket authors to spend a lot of time writing. A lightweight screen-recording tool like [Loom](https://www.loom.com) allows ticket authors to quickly demonstrate the issue or desired behavior using voice and visuals, reducing ambiguity without adding process overhead.
 
 ## Adjacent Capabilities
 

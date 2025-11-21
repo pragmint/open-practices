@@ -37,6 +37,10 @@ Generally, an overall score equal to or less than 3 means you'll likely gain a l
 
 The following is a curated list of supporting practices to consider when looking to improve your team's Documentation Quality capability. While not every practice will be beneficial in every situation, this list is meant to provide teams with fresh, pragmatic, and actionable ideas to support this capability.
 
+### [Introduce a Screen Recording Tool](/practices/introduce-a-screen-recording-tool.md)
+
+A screen-recording tool supports documentation quality by capturing details that text often misses, such as workflows, edge cases, and intent behind decisions. Because creating a video is fast and easy, teams can add clear, high-value context to tickets without slowing down their work. As these recordings become a routine part of documentation, the overall accuracy and clarity of requirements improve, reducing misunderstandings and rework.
+
 ### [Use Documentation Auto-Generation Tooling](/practices/use-documentation-auto-generation-tooling.md)
 
 Automate the creation of documentation using tools that generate comprehensive and up-to-date documentation directly from the source code or configuration files. This practice ensures that documentation stays in sync with the codebase, reducing the manual effort required to maintain it, and minimizing the risk of outdated or incomplete information. Tools like [Swagger](https://github.com/swagger-api) create executable documentation, while tools like [RepoAgent](https://github.com/OpenBMB/RepoAgent) use LLMs to automatically keep the documentation in sync as the codebase changes.
@@ -55,7 +59,7 @@ Runbooks provide step-by-step guidance that helps teams resolve issues quickly a
 
 ### Introduce a Screen-Recording Tool
 
-By enabling richer, more intuitive communication, screen recording helps teams document intent more clearly, reduce back-and-forth, and improve the efficiency of handoffs without requiring ticket authors to spend a lot of time writing. A lightweight screen-recording tool like [Loom](https://www.loom.com) allows ticket authors to quickly demonstrate the issue or desired behavior using voice and visuals, reducing ambiguity without adding process overhead. 
+By enabling richer, more intuitive communication, screen recording helps teams document intent more clearly, reduce back-and-forth, and improve the efficiency of handoffs without requiring ticket authors to spend a lot of time writing. A lightweight screen-recording tool like [Loom](https://www.loom.com) allows ticket authors to quickly demonstrate the issue or desired behavior using voice and visuals, reducing ambiguity without adding process overhead.
 
 ## Adjacent Capabilities
 
