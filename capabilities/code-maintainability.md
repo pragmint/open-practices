@@ -88,11 +88,11 @@ Reducing coupling between abstractions creates a modular and flexible codebase.
 Independent, well-defined components minimize unintended side effects, making the code easier to understand, modify, and test.
 This modularity ensures that changes in one part of the system do not disrupt others, preserving stability and reducing cognitive load on developers. Clear abstractions and minimal dependencies support better documentation and collaboration, facilitating efficient onboarding and continuous improvement.
 
-### [Perform Static Code Analysis](/practices/perform-static-code-analysis.md)
+### [Perform Automated Code Analysis](/practices/perform-automated-code-analysis.md)
 
-Performing static code analysis involves using automated tools to enhance code quality, consistency, and readability.
+Automating code analysis involves using tools to enhance code quality, consistency, and readability.
 These tools meticulously scan the codebase to identify potential issues such as code smells, security vulnerabilities, and performance bottlenecks early in the development process.
-By integrating static code analysis into version control systems, IDEs, and CI/CD pipelines, teams can receive immediate feedback on code changes, ensuring adherence to coding standards and best practices. This proactive approach reduces the cognitive load on developers, allowing them to focus on more complex tasks while maintaining a clean, modular, and easily comprehensible codebase.
+By integrating automated code analysis into version control systems, IDEs, and CI/CD pipelines, teams can receive immediate feedback on code changes, ensuring adherence to coding standards and best practices. This proactive approach reduces the cognitive load on developers, allowing them to focus on more complex tasks while maintaining a clean, modular, and easily comprehensible codebase.
 
 ### [Migrate to a Monorepo](/practices/migrate-to-monorepo.md)
 
