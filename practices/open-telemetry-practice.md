@@ -1,6 +1,6 @@
 # Adopt the OpenTelemetry Standard
 
-Most systems perform thousands of actions every minute: serving pages, calling APIs, and writing to databases. Without records of what happens during those actions, it’s hard to see where time is spent or why errors occur. Telemetry data fills that gap by capturing the details behind system behavior. But there's a catch: These details, while useful, may not be standardized. Without a shared standard for records, each service describes its behavior differently. One may log in JSON, another might use a custom tagging system, and a third could send metrics in a format only one tool understands. This creates fragmented, hard-to-compare data. OpenTelemetry (OTel) fixes that with its collection of APIs, SDKs, and open-source tools that allow developers to work with telemetry data in a standardized way. Teams can instrument their systems consistently and send metrics, logs, and traces to a central monitoring system like [Honeycomb](https://www.honeycomb.io/), [Grafana](https://grafana.com/), [DataDog](https://www.datadoghq.com/), [Jaeger](https://www.jaegertracing.io/), [Fluent Bit](https://fluentbit.io/), or [Uptrace](https://uptrace.dev/). Since most popular monitoring systems support the OTel format, teams can switch platforms without major disruptions.
+Most systems perform thousands of actions every minute: serving pages, calling APIs, and writing to databases. Without records of what happens during those actions, it's hard to see where time is spent or why errors occur. Telemetry data fills that gap by capturing the details behind system behavior. But there's a catch: These details, while useful, may not be standardized. Without a shared standard for records, each service describes its behavior differently. One may log in JSON, another might use a custom tagging system, and a third could send metrics in a format only one tool understands. This creates fragmented, hard-to-compare data. OpenTelemetry (OTel) fixes that with its collection of APIs, SDKs, and open-source tools that allow developers to work with telemetry data in a standardized way. Teams can instrument their systems consistently and send metrics, logs, and traces to a central monitoring system like [Honeycomb](https://www.honeycomb.io/), [Grafana](https://grafana.com/), [DataDog](https://www.datadoghq.com/), [Jaeger](https://www.jaegertracing.io/), [Fluent Bit](https://fluentbit.io/), or [Uptrace](https://uptrace.dev/). Since most popular monitoring systems support the OTel format, teams can switch platforms without major disruptions.
 
 When the OTel standard is adopted, teams can see how requests move through the system. Scattered logs and isolated metrics are collected to form a single, connected view of system behavior. It shows where time is spent, where failures occur, and how components interact. With that visibility, debugging is faster, performance work is more deliberate, and improvements become evidence-based rather than guided by hunches.
 
@@ -11,13 +11,13 @@ Beyond better debugging, OTel positions the organization for long-term data leve
 - You're a developer who needs to keep systems operational and performant.
 - You're a QA who needs to ensure changes don't introduce systemic failures.
 - You're a product leader who needs to track how various changes (or experiments) are affecting the user experience.
-- You’re an engineering leader focused on improving system reliability and creating fast feedback loops to understand system health and the impact of every change.
+- You're an engineering leader focused on improving system reliability and creating fast feedback loops to understand system health and the impact of every change.
 
 ## How to Gain Traction
 
 ### Secure a Champion From Leadership
 
-Every successful OpenTelemetry rollout begins with executive sponsorship. Adopting the OTel standard often requires significant time and budget, and it means competing with other organizational priorities. So, a shift toward OTel may face cultural resistance. It's helpful to have a leader who can connect the work to measurable business goals and clear obstacles when resistance appears. Use [Alibaba’s OpenTelemetry journey](/resources/tech/otel/alibaba-opentelemetry-journey.md) as a reference point; it helps leaders understand both the early friction and the long-term payoff of adopting a shared telemetry standard.
+Every successful OpenTelemetry rollout begins with executive sponsorship. Adopting the OTel standard often requires significant time and budget, and it means competing with other organizational priorities. So, a shift toward OTel may face cultural resistance. It's helpful to have a leader who can connect the work to measurable business goals and clear obstacles when resistance appears. Use [Alibaba's OpenTelemetry journey](/resources/tech/otel/alibaba-opentelemetry-journey.md) as a reference point; it helps leaders understand both the early friction and the long-term payoff of adopting a shared telemetry standard.
 
 ### Form a Small Cross-Functional Team
 
@@ -38,7 +38,7 @@ Begin with two simple telemetry configurations:
 
 Once signals are clear locally, deploy the collector and instrumentation to pre-prod and then production.
 
-Success at this stage isn’t volume, it's usefulness. The pilot should answer questions engineers and leaders care about, such as where users drop off, what slows down a key flow, and how recent changes affect conversion or error spikes.
+Success at this stage isn't volume, it's usefulness. The pilot should answer questions engineers and leaders care about, such as where users drop off, what slows down a key flow, and how recent changes affect conversion or error spikes.
 
 ### Standardize and Expand
 
@@ -52,9 +52,9 @@ Once the pilot produces consistent, valuable traces, shift focus from proving va
 
 *Telemetry Surfaces Politics.* OTel reveals ownership gaps and bottlenecks. In bureaucratic cultures, this requires tact. Frame findings as **shared opportunities**, not personal failings.
 
-*Some Assembly Required* OTel isn’t plug-and-play. It’s a toolkit of SDKs, exporters, and collectors you assemble to fit your system. Success depends on treating it like infrastructure work: apply clean code, schema discipline, and solid CI practices. Built with care, OTel becomes the connective tissue that unifies data and insight across teams.
+*Some Assembly Required.* OTel isn't plug-and-play. It's a toolkit of SDKs, exporters, and collectors you assemble to fit your system. Success depends on treating it like infrastructure work: apply clean code, schema discipline, and solid CI practices. Built with care, OTel becomes the connective tissue that unifies data and insight across teams.
 
-*Bridge, Don’t Replace.* People already have preferred tools. Add trace IDs and references to link systems rather than trying to rip existing ones out early. For example, product teams may have specialized product-analytics tooling. OTel should complement that instead of replacing it.
+*Bridge, Don't Replace.* People already have preferred tools. Add trace IDs and references to link systems rather than trying to rip existing ones out early. For example, product teams may have specialized product-analytics tooling. OTel should complement that instead of replacing it.
 
 *Expect the Unexpected.* Auto-instrumentation often surfaces insights teams wouldn't think to look for. It can reveal details that manual instrumentation might miss like unused routes being hit by scanners, inefficient library calls, or unexpected dependency behavior. These discoveries can inform everything from performance tuning to security awareness, turning "extra" visibility into real operational intelligence.
 
