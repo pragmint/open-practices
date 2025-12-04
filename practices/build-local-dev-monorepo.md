@@ -1,4 +1,4 @@
-# Migrate to a Monorepo
+# Build a Monorepo for local development
 
 Developing with dozens of local micro-repos that need to work together and may also have database access or cloud permissions needs can feel like you've only got the choice of flying blind or waiting to get off the ground. This practice helps teams consolidate scattered projects into a single monorepo so they can see the system at work locally and start coding anywhere (even on a plane) without a need for access approvals or an unused cloud environment. Many popular build tools support this functionality:
 
