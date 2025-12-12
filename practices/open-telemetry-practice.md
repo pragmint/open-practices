@@ -48,7 +48,7 @@ Once the pilot produces consistent, valuable traces, shift focus from proving va
 
 *Quick Wins Build Momentum.* Observability improvements mean little if no one notices. Publicize early examples of time saved and bugs caught to fuel buy-in.
 
-*When is Open Telemetry Too Much or Premature?* If your Mean Time To Recovery and your Change Failure Rate are both really small, advanced telemetry is probably not your highest priority. If you already have a simple logging solution or even an advanced logging solution that enables your team to quickly have enough insight to solve and prevent problems effectively, there are most likely other areas that are higher priority to focus on. This doesn't mean that advanced telemetry won't be valuable in the future, but it should not be your current focus.
+*When is Open Telemetry Too Much?* When the organization values speed to insight over long-term flexibility. Direct vendor SDKs can deliver faster time-to-value with fewer moving parts, strong defaults, and less platform work. The trade-off is tighter technical and semantic coupling between application code and the observability vendor, increasing the long-term cost of change. OpenTelemetry becomes especially worthwhile when teams want an architectural boundary in which the collector centrally manages sampling, data transformation, cost controls, and routing to different backends without having to redeploy application servers.
 
 *Telemetry Surfaces Politics.* OTel reveals ownership gaps and bottlenecks. In bureaucratic cultures, this requires tact. Frame findings as **shared opportunities**, not personal failings.
 

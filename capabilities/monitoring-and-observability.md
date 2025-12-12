@@ -47,9 +47,9 @@ Generally, an overall score equal to or less than 3 means you'll likely gain a l
 
 The following is a curated list of supporting practices to consider when looking to improve your team's Monitoring and Observability capability. While not every practice will be beneficial in every situation, this list is meant to provide teams with fresh, pragmatic, and actionable ideas to support this capability.
 
-### Instrument Systems With Telemetry Data
+### [Adopt the OpenTelemetry Standard](/practices/open-telemetry-practice.md)
 
-By instrumenting key parts of your application with telemetry data, teams gain real-time insights into usage patterns, performance bottlenecks, and opportunities to prioritize impactful changes.
+By instrumenting key parts of your application with telemetry data, teams gain real-time insights into usage patterns, performance bottlenecks, and opportunities to prioritize impactful changes. By following the OpenTelemetry standard and suite of open-source tools to instrument your application will provide consistent, vendor-neutral telemetry that preserves long-term flexibility in tooling and cost management.
 
 ### Implement Symptom-Based Alerts
 
