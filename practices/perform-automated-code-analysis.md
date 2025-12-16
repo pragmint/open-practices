@@ -5,6 +5,7 @@ Catching every bug or style inconsistency by hand is tough and takes a lot of ti
 Some popular tools for automated code analysis include:
 
 - Static Analysis & Linting: [ESLint](https://eslint.org/docs/latest/use/getting-started), [SonarQube](https://github.com/SonarSource/sonarqube), and [Semgrep](https://github.com/semgrep/semgrep) can be used to enforce code quality
+  - for TypeScript, try the [typescript-eslint](https://typescript-eslint.io) plugin
 - Code Formatting: [Prettier](https://prettier.io/docs/integrating-with-linters) (TS/JS) and [rustfmt](https://github.com/rust-lang/rustfmt) (Rust) automatically enforce consistent code style
 - Code Query Language: [GritQL](https://github.com/honeycombio/gritql), [CodeQL](https://codeql.github.com/), and [comby](https://github.com/comby-tools/comby) can search, lint, and modify code
 - General Purpose AI Agents: [Claude Code](https://www.anthropic.com/claude), [Cursor](https://cursor.com/), and [Gemini-CLI](https://github.com/google-gemini/gemini-cli) are all general purpose AI-powered agents that can be used for code generation, review, style enforcement, and bug detection
@@ -18,6 +19,12 @@ Some popular tools for automated code analysis include:
 - You are a tech lead or manager need to enforce consistent code quality across the team so we can deliver successful products without increasing review overhead.
 
 ## How to Gain Traction
+
+### Incremental Adoption
+
+Introducing linting/formatting tools to an existing codebase can result in large, sweeping changes, which can be hard to review, causing conflicts and delays. It is helpful to start with a more permissive configuration, gradually adding coverage and introducing more strict configurations. For example, ESLint has a [Typed-Linting](https://typescript-eslint.io/troubleshooting/typed-linting/) plugin that can be gradually applied.
+
+Additionally, and especially with legacy systems, it can be helpful to gradually apply the linting rules to the codebase itself. Start with your core business logic and you can gradually expand the coverage over time.
 
 ### Start with Education & Demos
 
@@ -44,6 +51,8 @@ Assuming the pilot went well, gather the team to share results and best practice
 - _Early Integration Reduces Friction_ – Teams that surface static code analysis results directly in the developer’s IDE tend to resolve issues faster and with less frustration. When feedback is delayed to CI or post-push review, issues are often skipped or rushed because the developer has already context-switched. By contrast, showing issues inline -- right when code is being written -- leads to higher-quality fixes and builds better habits over time. The sooner the feedback appears, the more likely it is to be acted on. Integrate tools into editors like VS Code or JetBrains, not just your CI, to reduce disruption and encourage learning.
 
 - _Use the Right Tools for the Job_ – Not all static code analysis tools are equally effective across languages or tech stacks. Teams often adopt a single tool out of convenience, only to find it lacks precision in certain environments; this leads to false positives or missed issues. A better approach is to assess tools based on the codebase, language, and team needs, combining general-purpose and language-specific tools where appropriate. A lightweight multi-tool setup, tuned per language, often outperforms an all-in-one solution.
+
+- _Avoid tyrannical metrics_ - Tools that calculate a numerical quality or complexity score are useful as a general compass, but reach a point of diminishing returns quickly and can even be detrimental to overall codebase cohesion if you start chasing perfect numbers.
 
 ## Deciding to Polish or Pitch
 
