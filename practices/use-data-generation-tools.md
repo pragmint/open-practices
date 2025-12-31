@@ -36,33 +36,21 @@ When dealing with data that can cross test boundaries like data inside your data
 
 After experimenting with this practice for 2-3 weeks, bring the team together to determine whether the following metrics and/or signals have changed in a positive direction:
 
-### Feedback Cycles
+## Fast & Intangible
 
-Are your tests providing faster feedback?
-
-### Maintainability
-
-Are your tests easier to write and work with?
-
-### Improved Test Reliability
-
-Are your tests less flaky and more reliable?
+Your tests should be more *maintainable* after implementing this practice. Specifically, this means you should find yourself less likely to be fiddling with tests for lengthy periods to setup large sets of data. If you have not improved the time or energy to setup data, consider removing the tool and using factories for in memory data structures and raw sql scripts for sql data.
 
 ## Supported Capabilities
 
-### Test Data Management
+### [Test Data Management](/capabilities/test-data-management.md)
 
-[Test Data Management](/capabilities/test-data-management.md)
+The reason we should use Data Generation Tools is pimerily for Test Data Management but Test Data Management can be done without Tools and that should be considered depending on the use case.
 
-### Database Change Management
+### [Database Change Management](/capabilities/database-change-management.md)
 
-[Database Change Management](/capabilities/database-change-management.md)
+Based on your strategy for Database Change Management or a lack there of in the past, tooling might be an essential part of how you continue or start doing Database Change Management.
 
-### Continuous Delivery
+### [Continuous Delivery](/capabilities/continuous-delivery.md) & [Continuous Integration](/capabilities/continuous-integration.md)
 
-[Continuous Delivery](/capabilities/continuous-delivery.md)
-
-### Continuous Integration
-
-[Continuous Integration](/capabilities/continuous-integration.md)
+Any tests that endup in your pipelines will need Test Data Management which might be done by tools depending on your needs.
 
