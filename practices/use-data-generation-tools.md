@@ -1,57 +1,36 @@
 # Use Data Generation Tools
 
-Data generation tools are namely about properly managing testing data. No
-matter what type of test you are running there is an appropriate way to handle
-your data so your tests are fast and reliable. 
+Data generation tools reduce the complexity of generating complex data types or data rows. 
 
-For unit tests and other isolated tests data management might be as simple
-defining variables or objects. This should almost always be your first choice.
-When a need arises a simple [factory
-method](https://refactoring.guru/design-patterns/factory-method) or factory
-library like [Fishery](https://github.com/thoughtbot/fishery) will improve the
-maintainability and readability. If your solution doesn't feel like it's making
-things simpler, redirect to one that does.
+*Isolated Tests:* When a need arises use a simple [factory method](https://refactoring.guru/design-patterns/factory-method) or factory library like [Fishery](https://github.com/thoughtbot/fishery) to improve the maintainability and readability.
 
-For integrated tests like E2E tests or integration tests, data generation might
-be as simple as sql scripts to initialize and tear down test data before and
-after your tests. Once data has grown in complexity or if you are dealing with
-a complex legacy solution, introducing specialized tools like RedGate, dbForge,
-SSDT or one of the many other SQL tool sets that fits your companies needs will
-greatly improve. 
+*Integrated Tests:* Integrated Tests will usually need more data management. There are many good tools for this. For example:
 
-The core idea here whether in an isolated environment or in an integrated
-environment is to ensure you keep your tests clear and to follow the "Arrange,
-Act, Assert" pattern and that each test cleans up after its self so they are
-reliable and easy to understand. Introduce tools as needs arise waiting to feel
-the need for that tool before pulling the trigger and increasing the complexity
-dependency structure.
+- RedGate 
+- dbForge 
+- SSDT 
 
 ## When to Experiment
 
-You are a Developer and need to ensure that test data is easily managed so that
-you can maintain a high quality developer experience and retain the users
-positive experience.
+You are a Developer and need to ensure that test data is easily managed so that you can maintain a high quality developer experience and retain the users positive experience.
 
 ## How to Gain Traction
 
-First, bring up the need you have for data generation tools with your team so
-you can gain consensus and ensure you are thinking of everyone's needs. 
+First, bring up the need you have for data generation tools with your team so you can gain consensus and ensure you are thinking of everyone's needs. 
 
-Suggest a few tools and discuss different options with your team while being
-understanding of the needs of your DevOps and DBA teams.
+Suggest a few tools and discuss different options with your team while being understanding of the needs of your DevOps and DBA teams.
 
 Implement the agreed upon solution. 
 
 ## Lessons From The Field
 
+### Doint use them until you feel a need
+
+While data generation tools can be helpful in reducing complexity, if you don't see that complexity yet, consider defering the decision to add new tools until that complexity arises.
+
 ### Be careful about tests that depend on each other
 
-When dealing with data that can cross test boundaries like data inside your
-database or global variables (`window` & `document` in a web context) make sure
-that each test you write does not end up dependent on the setup or result of
-another test. You can easily check this by running each of your tests in
-isolation. If a test only passes when other tests are also run, some
-modification needs to be made to decouple the tests from each other.
+When dealing with data that can cross test boundaries like data inside your database or global variables (`window` & `document` in a web context) make sure that each test you write does not end up dependent on the setup or result of another test. You can easily check this by running each of your tests in isolation. If a test only passes when other tests are also run, some modification needs to be made to decouple the tests from each other.
 
 ## Deciding to Polish or Pitch
 
