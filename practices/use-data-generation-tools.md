@@ -6,9 +6,11 @@ Data generation tools reduce the complexity of generating complex data types or 
 
 *Integrated Tests:* Integrated Tests will usually need more data management. There are many good tools for this. For example:
 
-- RedGate 
-- dbForge 
-- SSDT 
+- [RedGate](https://www.red-gate.com/)
+- [dbForge](https://www.devart.com/)
+- [SSDT](https://learn.microsoft.com/en-us/sql/ssdt/sql-server-data-tools?view=sql-server-ver17)
+
+These are just examples, it is recommended to research many different tool options before committing to them.
 
 ## When to Experiment
 
@@ -24,9 +26,9 @@ Implement the agreed upon solution.
 
 ## Lessons From The Field
 
-### Doint use them until you feel a need
+### Don't use them until you feel a need
 
-While data generation tools can be helpful in reducing complexity, if you don't see that complexity yet, consider defering the decision to add new tools until that complexity arises.
+While data generation tools can be helpful in reducing complexity, if you don't see that complexity yet, consider deferring the decision to add new tools until that complexity arises.
 
 ### Be careful about tests that depend on each other
 
@@ -44,7 +46,7 @@ Your tests should be more *maintainable* after implementing this practice. Speci
 
 ### [Test Data Management](/capabilities/test-data-management.md)
 
-The reason we should use Data Generation Tools is pimerily for Test Data Management but Test Data Management can be done without Tools and that should be considered depending on the use case.
+The reason we should use Data Generation Tools is primarily for Test Data Management but Test Data Management can be done without Tools and that should be considered depending on the use case.
 
 ### [Database Change Management](/capabilities/database-change-management.md)
 
@@ -52,5 +54,5 @@ Based on your strategy for Database Change Management or a lack there of in the 
 
 ### [Continuous Delivery](/capabilities/continuous-delivery.md) & [Continuous Integration](/capabilities/continuous-integration.md)
 
-Any tests that endup in your pipelines will need Test Data Management which might be done by tools depending on your needs.
+Any tests that end up in your pipelines will need Test Data Management which might be done by tools depending on your needs.
 
