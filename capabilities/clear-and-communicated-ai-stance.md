@@ -66,12 +66,9 @@ The following capabilities will be valuable for you and your team to explore, as
 
 ### [Pervasive Security](/capabilities/pervasive-security.md) - Upstream
 
-A strong security culture is a prerequisite for a good AI stance. If you don't
-already understand your data classification, it will be difficult to write a
-clear policy on how AI should interact with it.
+A strong security culture is a prerequisite for a good AI stance. If you don't already understand your data classification, it will be difficult to write a clear policy on how AI should interact with it.
 
 ### [Empowering Teams](/capabilities/empowering-teams.md) - Downstream
 
 Providing a clear AI stance empowers teams to innovate. When developers know exactly where the guardrails are, they feel safer experimenting with new ways to improve their workflow.
-
 
