@@ -1,20 +1,20 @@
 # [Clear and Communicated AI Stance](https://dora.dev/capabilities/clear-and-communicated-ai-stance/)
 
-A **Clear and Communicated AI Stance** means that an organization has established and shared a formal position on the use of Artificial Intelligence. This isn't just a legal "thou shalt not" document; it is a framework that provides developers and teams with guidance on how, where, and why AI tools—such as Large Language Models (LLMs) and coding assistants—should be used. The goal is to provide a "safe paved road" for innovation while managing risks related to security, legal compliance, and ethics.
+A **clear and communicated AI stance** means that an organization has established and shared a formal position on the use of AI. This isn't just a legal "thou shalt not" document; it is a framework that provides developers and teams with guidance on how, where, and why AI tools—-such as Large Language Models (LLMs) and coding assistants—-should be used. The goal is to provide a "safe paved road" for innovation while managing risks related to security, legal compliance, and ethics.
 
 ## Nuances
 
 This section outlines common pitfalls, challenges, or limitations teams commonly encounter when applying this capability. The goal is to arm you with the context needed to make informed decisions about implementing an AI stance.
 
-### The "Policy in a Vacuum" Problem 
+### The "Policy-in-a-Vacuum" Problem 
 
-A policy is only effective if people know it exists. Often, organizations create an AI policy that lives in a legal or HR portal that developers never visit. Without active communication, teams default to "Shadow AI," using tools without oversight because they don't know the rules or find the official process too slow.
+A policy is only effective if people know it exists. Often, organizations create an AI policy that lives in a legal or HR portal that developers never visit. Without active communication, teams default to "shadow AI," using tools without oversight because they don't know the rules or feel the official process is too slow.
 
 ### Balancing Restriction with Enablement
 
-An AI stance that is purely restrictive (e.g., "AI is banned") often results in a loss of competitive advantage and can drive usage underground. Conversely, an "anything goes" approach introduces massive legal and security risks. The most effective stances are nuanced—defining which tools are safe for public data versus which can be used with proprietary code.
+An AI stance that is purely restrictive (e.g., "AI is banned") often results in a loss of competitive advantage and can drive usage underground. Conversely, an "anything goes" approach introduces massive legal and security risks. The most effective stances are nuanced—-defining which tools are safe for public data versus which can be used with proprietary code.
 
-### The Speed of Change 
+### Recognizing the Speed of Change 
 
 The AI landscape evolves faster than traditional corporate policy cycles. A stance written six months ago may not cover new capabilities like autonomous AI agents or local model execution. To remain relevant, an AI stance must be a "living document" that is reviewed and updated at a higher frequency than other organizational policies.
 
@@ -26,7 +26,7 @@ Terms like "use AI responsibly" are too vague to be actionable for a developer. 
 
 To assess how mature your team or organization is in this capability, complete this short exercise.
 
-Consider the descriptions below and score your team on this capability. Generally, score a **1** if the stance is non-existent or hidden, a **2** if it is reactive and vague, a **3** if it is clear and well-communicated, and a **4** if it is integrated and iteratively updated.
+Consider the descriptions below and score your team on this capability. Generally, score a **1** if the AI stance is non-existent or hidden, a **2** if it is reactive and vague, a **3** if it is clear and well-communicated, and a **4** if it is integrated and iteratively updated.
 
 1. **Absent or Hidden:** No formal stance exists, or it is buried in legal documentation that is not shared with technical teams. Developers are unsure what is allowed, leading to either total avoidance or "underground" usage.
 2. **Reactive & Vague:** A stance exists but is mostly reactive (e.g., "don't put passwords in ChatGPT"). Guidelines are unclear, and there is no centralized place to find updates or ask questions about new tools.
@@ -44,9 +44,9 @@ Maintain a central, internal list of AI tools and models that have been vetted f
 ### Establish "Security Tiers" for AI Interaction 
 
 Clearly define what level of data can be sent to external AI providers. For example:
-- **Tier 1 (Public):** Can be used with any tool.
-- **Tier 2 (Proprietary Code):** Requires enterprise-grade tools with data-exclusion opt-outs.
-- **Tier 3 (Sensitive/PII):** Strictly prohibited from external LLMs.
+- **Tier 1 (Public):** Can be used with any tool
+- **Tier 2 (Proprietary Code):** Requires enterprise-grade tools with data-exclusion opt-outs
+- **Tier 3 (Sensitive/PII):** Strictly prohibited from external LLMs
 
 ### Provide "Prompt Engineering" Guidance
 
@@ -54,7 +54,7 @@ Instead of just giving permission to use AI, provide guidance on how to use it e
 
 ### Automate Policy Enforcement 
 
-Where possible, use tooling—like secret scanners or egress filters—to ensure that sensitive data isn't being sent to unapproved AI endpoints. This moves the AI stance from a "policy you have to remember" to a system that supports you.
+Where possible, use tooling—-like secret scanners or egress filters—-to ensure that sensitive data isn't being sent to unapproved AI endpoints. This moves the AI stance from a "policy you have to remember" to a system that supports you.
 
 ## Adjacent Capabilities
 
