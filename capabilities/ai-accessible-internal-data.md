@@ -1,6 +1,6 @@
 # [AI-accessible Internal Data](https://dora.dev/capabilities/ai-accessible-internal-data/)
 
-AI-accessible internal data refers to the practice of making an organization's proprietary information—such as documentation, codebases, wikis, and process manuals—structured and available for consumption by Artificial Intelligence (AI) models. By utilizing technologies like Retrieval-Augmented Generation (RAG) and vector databases, organizations enable team members to query internal knowledge using natural language. The primary benefit is reducing "discovery time," allowing engineers and stakeholders to find accurate information quickly without sifting through fragmented silos.
+AI-accessible Internal Data, as a capability, means making an organization's proprietary information—-such as documentation, codebases, wikis, and process manuals—-structured and available for consumption by AI models. By using technologies like Retrieval-Augmented Generation (RAG) and vector databases, organizations enable team members to query internal knowledge using natural language. The primary benefit is reducing "discovery time," allowing engineers and stakeholders to find accurate information quickly without sifting through fragmented silos.
 
 ## Nuances
 
@@ -8,7 +8,7 @@ This section outlines common pitfalls, challenges, or limitations teams commonly
 
 ### The "Garbage In, Garbage Out" Problem
 
-AI is only as good as the data it can access. If your internal documentation is outdated, contradictory, or poorly written, the AI will provide confident but incorrect answers. Simply connecting an LLM to a messy SharePoint or a neglected Wiki will often result in "hallucinations" where the AI invents internal policies. High-quality AI accessibility requires a foundational commitment to data hygiene and documentation maintenance.
+AI is only as good as the data it can access. If your internal documentation is outdated, contradictory, or poorly written, the AI will provide confident but incorrect answers. Simply connecting an LLM to a messy SharePoint or a neglected wiki will often result in "hallucinations" where the AI invents internal policies. High-quality AI accessibility requires a foundational commitment to data hygiene and documentation maintenance.
 
 ### Privacy and Security Scoping
 
@@ -26,10 +26,10 @@ While AI makes information easier to find, there is a risk that teams stop talki
 
 To assess how mature your team or organization is in this capability, complete this short exercise.
 
-Consider the descriptions below and score your team on this capability. Generally, score a 1 if your data is locked in silos and unsearchable, a 2 if you have basic search but no AI integration, a 3 if you have an AI tool that works but has limitations, and a 4 if AI is the primary, reliable interface for organizational knowledge.
+Consider the descriptions below and score your team on this capability. Generally, score a 1 if your internal data is locked in silos and unsearchable, a 2 if you have basic search but no AI integration, a 3 if you have an AI tool that works but has limitations, and a 4 if AI is the primary, reliable interface for organizational knowledge.
 
-1. **Fragmented & Manual:** Data is scattered across various tools (Slack, Jira, Google Docs, Email). Finding information requires manual searching or asking individuals. There is no AI interface for internal data.
-2. **Centralized but Static:** Most data is in a central wiki or repo with a basic keyword search. Some experiments with AI exist, but they are prone to hallucinations and lack access to real-time updates.
+1. **Fragmented & Manual:** Data is scattered across various tools (e.g., Slack, Jira, Google Docs, email). Finding information requires manual searching or asking individuals. There is no AI interface for internal data.
+2. **Centralized but Static:** Most data is in a central wiki or repo and is accessible with a basic keyword search. Some experiments with AI exist, but they are prone to hallucinations and lack access to real-time updates.
 3. **Integrated & Useful:** An AI-powered search or chatbot exists that can access most technical documentation and code. It provides citations for its answers. Accuracy is high, though it occasionally misses very recent changes or restricted data.
 4. **Ubiquitous & Trusted:** AI has secure, real-time access to all relevant internal data sources. It respects granular permissions and is the first place employees go for answers. Feedback loops are in place to correct the AI and update the underlying documentation simultaneously.
 
@@ -40,31 +40,32 @@ The following is a curated list of supporting practices to consider when looking
 ### Implement Retrieval-Augmented Generation (RAG)
 Instead of training a model on your data, use RAG to retrieve relevant documents from a database and pass them to the AI as context for each specific query. This reduces hallucinations and allows the AI to cite its sources, enabling users to verify the information.
 
-### Automate Data Indexing Pipelines
+### Automate Data-indexing Pipelines
 Create automated workflows that trigger every time a document is updated or a pull request is merged. This ensures that the vector database used by the AI stays synchronized with the actual state of your projects, providing "fresh" answers.
 
 ### Establish Data Governance and Cleaning
 Treat internal documentation as code. Implement "Docs-as-Code" practices where documentation is reviewed and pruned regularly. Removing obsolete information is just as important as adding new information to prevent the AI from retrieving "zombie" instructions.
 
-### Use Identity-Aware Vector Search
+### Use Identity-aware Vector Search
 Ensure your AI backend integrates with your Single Sign-On (SSO) provider. When a user asks a question, the system should only retrieve data fragments that the user's specific credentials allow them to see, maintaining the "principle of least privilege."
 
 ### Human-in-the-Loop Feedback
-Provide a "thumbs up/down" mechanism for AI-generated answers. Use this feedback to identify "knowledge gaps"—areas where the AI consistently fails because the underlying internal data is either missing or confusing.
+Provide a "thumbs up/down" mechanism for AI-generated answers. Use this feedback to identify "knowledge gaps"—-areas where the AI consistently fails because the underlying internal data is either missing or confusing.
 
 ## Adjacent Capabilities
 
 The following capabilities will be valuable for you and your team to explore, as they are either:
 
-- Related (they cover similar territory to Continuous Integration)
-- Upstream (they are a pre-requisite for Continuous Integration)
-- Downstream (Continuous Integration is a pre-requisite for them)
+- Related (they cover similar territory to AI-accessible Internal Data)
+- Upstream (they are a pre-requisite for AI-accessible Internal Data)
+- Downstream (AI-accessible Internal Data is a pre-requisite for them)
+
+### [Clear and Communicated AI Stance](/capabilities/clear-and-communicated-ai-stance.md) - Related
+As internal AI-accessible data gets rolled out at your company, it will pair perfectly with having a balanced and effectively communicated stance on AI.
 
 ### [Documentation Quality](/capabilities/documentation-quality.md) - Upstream
-High-quality, modular, and clear documentation is a prerequisite. If humans can't understand the source text, an AI's summary of that text will be equally confusing.
+High-quality, modular, updated, and clear documentation is a pre-requisite for AI-accessible Internal Data. If humans can't understand the source text, an AI's summary of that text will be equally confusing.
 
 ### [Pervasive Security](/capabilities/pervasive-security.md) - Upstream
 Robust security protocols must be in place before making data AI-accessible to prevent internal data leaks or unauthorized privilege escalation via the AI interface.
 
-### [Clear and Communicated AI Stance](/capabilities/clear-and-communicated-ai-stance.md) - Related
-As internal AI accessible data gets rolled out at your company, it will pair perfectly with having a balanced and effectively communicated stance on AI.
