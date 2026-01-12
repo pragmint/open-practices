@@ -28,10 +28,16 @@ To assess how mature your team or organization is in this capability, complete t
 
 Consider the descriptions below and score your team on this capability. Generally, score a **1** if the AI stance is non-existent or hidden, a **2** if it is reactive and vague, a **3** if it is clear and well-communicated, and a **4** if it is integrated and iteratively updated.
 
+Don't worry if the description doesn't exactly match your situation. These descriptions are meant to be examples of situations that would qualify for the associated score.
+
 1. **Absent or Hidden:** No formal stance exists, or it is buried in legal documentation that is not shared with technical teams. Developers are unsure what is allowed, leading to either total avoidance or "underground" usage.
 2. **Reactive & Vague:** A stance exists but is mostly reactive (e.g., "don't put passwords in ChatGPT"). Guidelines are unclear, and there is no centralized place to find updates or ask questions about new tools.
 3. **Clear & Communicated:** There is a well-documented AI policy that is easily accessible. Most team members understand the boundaries of AI use, and there is a clear process for requesting or vetting new AI tools.
 4. **Integrated & Iterative:** The AI stance is part of the daily engineering culture. It is regularly updated based on team feedback and technological shifts. There is high confidence in using AI because the legal and security guardrails are clear and supportive.
+
+The number you selected represents your overall score for this capability. If you feel like the general Clear and Communicated AI Stance of your team fits somewhere in between two scores, it's okay to use a decimal. For example, if you think employees are somewhere between managing their loads and finding a good balance, you would score a 2.5.
+
+Generally, an overall score equal to or less than 3 means you'll likely gain a lot of value from experimenting with some of the supporting practices listed here. An overall score higher than 3 generally means you and your team are largely proficient, or well on your way to becoming proficient, in the area of Clear and Communicated AI Stance; you would likely benefit from evaluating your scores in other capabilities.
 
 ## Supporting Practices
 
@@ -44,6 +50,7 @@ Maintain a central, internal list of AI tools and models that have been vetted f
 ### Establish "Security Tiers" for AI Interaction 
 
 Clearly define what level of data can be sent to external AI providers. For example:
+
 - **Tier 1 (Public):** Can be used with any tool
 - **Tier 2 (Proprietary Code):** Requires enterprise-grade tools with data-exclusion opt-outs
 - **Tier 3 (Sensitive/PII):** Strictly prohibited from external LLMs
