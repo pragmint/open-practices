@@ -33,6 +33,10 @@ Consider the descriptions below and score your team on this capability. Generall
 3. **Integrated & Useful:** An AI-powered search or chatbot exists that can access most technical documentation and code. It provides citations for its answers. Accuracy is high, though it occasionally misses very recent changes or restricted data.
 4. **Ubiquitous & Trusted:** AI has secure, real-time access to all relevant internal data sources. It respects granular permissions and is the first place employees go for answers. Feedback loops are in place to correct the AI and update the underlying documentation simultaneously.
 
+The number you selected represents your overall score for this capability. If you feel like the general AI-accessible Internal Data of your team fits somewhere in between two scores, it's okay to use a decimal. For example, if you think employees are somewhere between managing their loads and finding a good balance, you would score a 2.5.
+
+Generally, an overall score equal to or less than 3 means you'll likely gain a lot of value from experimenting with some of the supporting practices listed here. An overall score higher than 3 generally means you and your team are largely proficient, or well on your way to becoming proficient, in the area of AI-accessible Internal Data; you would likely benefit from evaluating your scores in other capabilities.
+
 ## Supporting Practices
 
 The following is a curated list of supporting practices to consider when looking to improve your team's AI-accessible Internal Data capability.
