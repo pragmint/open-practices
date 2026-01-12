@@ -53,9 +53,6 @@ Treat internal documentation as code. Implement "Docs-as-Code" practices where d
 ### Use Identity-aware Vector Search
 Ensure your AI backend integrates with your Single Sign-On (SSO) provider. When a user asks a question, the system should only retrieve data fragments that the user's specific credentials allow them to see, maintaining the "principle of least privilege."
 
-### Human-in-the-Loop Feedback
-Provide a "thumbs up/down" mechanism for AI-generated answers. Use this feedback to identify "knowledge gaps"—-areas where the AI consistently fails because the underlying internal data is either missing or confusing.
-
 ## Adjacent Capabilities
 
 The following capabilities will be valuable for you and your team to explore, as they are either:
