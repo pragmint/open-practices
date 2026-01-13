@@ -41,19 +41,17 @@ Generally, an overall score equal to or less than 3 means you'll likely gain a l
 
 The following is a curated list of supporting practices to consider when looking to improve your team's AI-accessible Internal Data capability.
 
-### Implement Retrieval-Augmented Generation (RAG)
+### Implement Retrieval-augmented Generation (RAG)
 Instead of training a model on your data, use RAG to retrieve relevant documents from a database and pass them to the AI as context for each specific query. This reduces hallucinations and allows the AI to cite its sources, enabling users to verify the information.
 
 ### Automate Data-indexing Pipelines
 Create automated workflows that trigger every time a document is updated or a pull request is merged. This ensures that the vector database used by the AI stays synchronized with the actual state of your projects, providing "fresh" answers.
 
-
 ### Establish Data Governance and Cleaning
 Treat internal documentation as code. Implement "Docs-as-Code" practices where documentation is reviewed and pruned regularly. Removing obsolete information is just as important as adding new information to prevent the AI from retrieving "zombie" instructions.
 
 ### Schedule Regular Documentation Audits
-
-Regular audits can help keep documentation owners accountable for the maintenance of their documentation which helps keep AI from returning bad or misleading data. 
+Regular audits can help keep documentation owners accountable for the maintenance of their documents, which helps keep AI from returning incorrect, outdated, or misleading data. 
 
 ### Use Identity-aware Vector Search
 Ensure your AI backend integrates with your Single Sign-On (SSO) provider. When a user asks a question, the system should only retrieve data fragments that the user's specific credentials allow them to see, maintaining the "principle of least privilege."
