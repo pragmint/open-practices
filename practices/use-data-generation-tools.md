@@ -1,19 +1,21 @@
 # Use Data-generation Tools
 
-[When you/your team/developers do XYZ (run different types of tests?), they need to generate complex data types or data rows, to provide the system with a wide range of scenarios. But generating this complex data is...error-prone/time-consuming/burdensome/etc.]
+Data-generation tools shine brightest when used with end-to-end or integration tests. They _can_ be used with more isolated tests or unit tests but this is often a symptom of a larger issues and should be used with discretion.
 
-Data-generation tools reduce the complexity of generating complex data types or data rows. [These tools are helpful when running isolated or integrated tests.]
+Data-generation tools simplify the process of generating complex data types or adding complex data to databases. These jobs can be done with SQL scripts or API Requests but as a system grows developers will feel the need to reach for more powerful strategies to manage that data which is where Data-generation tools come into play.
 
-*Isolated Tests:* When a need arises use a simple [factory method](https://refactoring.guru/design-patterns/factory-method) or factory library like [Fishery](https://github.com/thoughtbot/fishery) to improve the maintainability and readability.
+*Isolated Tests:* As setup complexity of your unit and isolated tests grows you will want to reach for simple solutions like [factory method](https://refactoring.guru/design-patterns/factory-method) before introducing third party tools. If efforts to reduce code duplication with factory methods and simple design patterns continues to fail, libraries like [Fishery](https://github.com/thoughtbot/fishery) may improve maintainability and readability.
 
-*Integrated Tests:* Integrated tests will usually need more data management. There are many good tools for test data management, including but not limited to:
+*Integrated Tests:* Integration and end-to-end tests are difficult to setup because of their multi-process nature. You can still achieve a satisfactory solution without needing third party data-generation tools but for large projects you will quite often find your self needing data-generation tools like the following:
+
 - [RedGate](https://www.red-gate.com/)
 - [dbForge](https://www.devart.com/)
 - [SSDT](https://learn.microsoft.com/en-us/sql/ssdt/sql-server-data-tools?view=sql-server-ver17)
 
 ## When to Experiment
 
-- You are a developer and need to ensure that test data is easily managed so that you can maintain a high-quality developer and user experience.
+- You are a developer that needs to setup, tear down or reset large amounts of data before and after integration or end-to-end tests.
+- You are a developer writing unit or isolated tests that have significant duplication of data setup that cannot be solved with simple design pattern changes and refactors.
 
 ## How to Gain Traction
 
