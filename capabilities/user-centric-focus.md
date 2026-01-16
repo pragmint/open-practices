@@ -11,29 +11,37 @@ When shifting the focus to the user, one of the most common pitfalls is getting 
 ### Organizational Silos and "Solutionism"
 Organizational structures often create a "gatekeeper" model, where product managers or researchers sit between developers and end users. This disconnect robs engineers of the context needed to build intuitive solutions and effectively verify AI-generated outputs. This often leads to "resumé-driven development" or "solutionism," where teams adopt complex AI models or new technologies for their own sake rather than to solve a specific, validated user problem.
 
-##Assessment
+## Assessment
+
 To assess how mature your team or organization is in this capability, complete this short exercise.
 
-Consider the descriptions below and score your team or organization on the User-centric Focus capability. Generally, score a 1 if xxxx, a 2 if xxxx, a 3 if xxx, and a 4 if xxx.
+Consider the descriptions below and score your team or organization on this capability. Generally, score a 1 if data is untrusted and largely inaccessible, a 2 if data is documented but outdated, a 3 if data is trusted and discoverable, and a 4 if data is self-service and treated as a first-class citizen.
 
 Don't worry if the description doesn't exactly match your situation. These descriptions are meant to be examples of situations that would qualify for the associated score.
 
-...
+1. **The Feature Factory**: Teams focus on output volume and use AI to ship more features without validating user impact or feedback.
+2. **Reactive & Proxy-Led**: Teams rely on siloed feedback and manual hand-offs, using AI to accelerate ticket completion rather than user outcomes.
+3. **Integrated & Spec-Driven**: Teams use spec-driven development and direct user observation to ensure AI outputs are grounded in verified requirements.
+4. **User-Invested & Self-Correcting**: Teams treat AI as a discovery partner, using real-time user metrics and rapid prototyping to pivot toward maximum value.
 
-The number you selected represents your overall score for this capability. If you feel like your team or organization fits somewhere in between two scores, it's okay to use a decimal. For example, if you think database changes in your team or organization are somewhere between partially automated and mostly automated, then you would score a 2.5.
+The number you selected represents your overall score for this capability. If you feel like your organization fits somewhere in between two scores, it's okay to use a decimal.
 
-Generally, an overall score equal to or less than 3 means you'll likely gain a lot of value from experimenting with some of the supporting practices listed here. An overall score higher than 3 generally means you and your team are largely proficient, or well on your way to becoming proficient, in the area of User-centric Focus; you would likely benefit from evaluating your scores in other capabilities.
+Generally, an overall score equal to or less than 3 means you'll likely gain a lot of value from experimenting with some of the supporting practices listed here. An overall score higher than 3 generally means your team or organization is largely proficient, or well on its way to becoming proficient, in the area of data health; you would likely benefit from evaluating your scores in other capabilities.
 
 ## Supporting Practices
+
 The following is a curated list of supporting practices to consider when looking to improve your team's User-centric Focus capability. While not every practice will be beneficial in every situation, this list is meant to provide teams with fresh, pragmatic, and actionable ideas to support this capability.
 
-### Integrate Low-latency Feedback Loops
-Teams should establish direct channels for user feedback-—such as in-app surveys or observation sessions—-that are accessible to developers immediately. For teams using AI, these feedback loops are critical for refining workflows and validating that the AI’s output aligns with reality. When feedback is integrated directly into the development cycle, the backlog can be continuously reprioritized, based on what users actually need.
+### Talk Directly With Users
+
+Teams should establish direct channels for user feedback that are accessible to developers immediately. For teams using AI, these feedback loops are critical for refining workflows and validating that the AI’s output aligns with reality. When feedback is integrated directly into the development cycle, the backlog can be continuously reprioritized, based on what users actually need.
 
 ### Implement Spec-driven Development (SDD)
+
 To keep AI efforts aligned with user needs, teams can use Spec-driven Development. In this approach, developers refine user requirements and constraints into detailed documentation (specs) before any code is written. These specs serve as the source of truth for AI agents. By constraining AI output to validated user requirements, teams ensure that generated code solves user problems rather than just following generic coding patterns.
 
 ## Adjacent Capabilities
+
 The following capabilities will be valuable for you and your team to explore, as they are either:
 
 - Related (they cover similar territory to User-centric focus)
@@ -41,13 +49,18 @@ The following capabilities will be valuable for you and your team to explore, as
 - Downstream (User-centric focus is a pre-requisite for them)
 
 ### [Customer Feedback](/capabilities/customer-feedback.md) - Related
+
 Customer feedback provides the raw data and insights necessary to build a user-centric focus. While user-centricity is the mindset and prioritization strategy, the Customer Feedback capability focuses on the technical and procedural methods used to gather that information.
 
 ### [Documentation Quality](/capabilities/documentation-quality.md) - Upstream
+
 High-quality documentation is a pre-requisite for practices like Spec-driven Development. For AI to effectively assist in a user-centric way, the underlying requirements, user stories, and technical specs must be clear, accurate, and well-maintained.
 
 ### [Team Experimentation](/capabilities/team-experimentation.md) - Downstream
+
 Once a team has a strong user-centric focus, they can more effectively engage in experimentation. A deep understanding of the user allows teams to create meaningful hypotheses, using A/B testing and other experimental methods to see which solutions actually drive the desired user outcomes.
 
 ### [Job Satisfaction](/capabilities/job-satisfaction.md) - Downstream
+
 DORA research indicates that a user-centric focus is a strong predictor of job satisfaction. Developers who see the direct impact of their work on real users and feel they are solving meaningful problems are typically more engaged, and overall team morale tends to be higher.
+
