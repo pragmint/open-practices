@@ -15,7 +15,7 @@ Organizational structures often create a "gatekeeper" model, where product manag
 
 To assess how mature your team or organization is in this capability, complete this short exercise.
 
-Consider the descriptions below and score your team or organization on this capability. Generally, score a 1 if data is untrusted and largely inaccessible, a 2 if data is documented but outdated, a 3 if data is trusted and discoverable, and a 4 if data is self-service and treated as a first-class citizen.
+Consider the descriptions below and score your team on this capability: score a 1 if you are a Feature Factory focused on shipping volume without validation; a 2 if Reactive & Proxy-Led, using AI to close tickets rather than drive outcomes; a 3 if Integrated & Spec-Driven, grounding AI in verified requirements and user observation; and a 4 if User-Invested & Self-Correcting, using AI as a discovery partner to pivot toward maximum value.
 
 Don't worry if the description doesn't exactly match your situation. These descriptions are meant to be examples of situations that would qualify for the associated score.
 
