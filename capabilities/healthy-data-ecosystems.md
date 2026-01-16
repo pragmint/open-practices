@@ -35,17 +35,17 @@ Generally, an overall score equal to or less than 3 means you'll likely gain a l
 
 The following is a curated list of supporting practices to consider when looking to improve your team's Healthy Data Ecosystems capability. While not every practice will be beneficial in every situation, this list is meant to provide teams with fresh, pragmatic, and actionable ideas to support this capability.
 
-### Use Data and Documentation Linting
+### Establish Data Governance and Cleaning
 
-Have automated processes in place to ensure documentation meets quality standards and is regularly updated.
+Treat internal documentation as code. Implement "Docs-as-Code" practices where documentation is reviewed and pruned regularly. Removing obsolete information is just as important as adding new information to prevent the AI from retrieving "zombie" instructions.
 
-### Define Data Contracts
+### Schedule Regular Documentation Audits
 
-Have a contract that defines a unified structure for data/documentation providers and consumers. This simplifies the process when external tools have access to your internal data and documentation.
+Without dedicated time and resources documentation can often rot or fall out of relevance. Set aside a time for your team to review your documentation. Make sure you come away with specific action items for individuals and plans for accountability.
 
 ### Establish Clear Data Ownership
 
-Every set of data and documentation should have a clear owner, who is responsible for its quality and maintainence. This moves the team away from a "tragedy of the commons," where everyone uses the data but no one feels empowered to keep it updated or fix it when it breaks.
+Every set of data and documentation should have a clear owner, who is responsible for its quality and maintenance. This moves the team away from a "tragedy of the commons," where everyone uses the data but no one feels empowered to keep it updated or fix it when it breaks.
 
 ## Adjacent Capabilities
 
@@ -67,3 +67,6 @@ To get an accurate view of how work flows through your organization, you need da
 
 Data that is clean and organized is easier for AI to access. And when internal data is AI-accessible, teams typically experience greater productivity. Serving unhealthy data to an AI will likely cause more harm than good.
 
+### [Documentation Quality](/capabilities/documentation-quality.md) - Related
+
+While Healthy Data Ecosystems is more about analytics and documentation quality specifically focuses on documentation, both are essential to keep clean and organized so that our AI systems can provide clear and positive insights.
