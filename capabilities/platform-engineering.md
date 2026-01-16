@@ -33,10 +33,6 @@ Generally, an overall score equal to or less than 3 means you'll likely gain a l
 
 The following is a curated list of supporting practices to consider when looking to improve your team's Platform Engineering capability. While not every practice will be beneficial in every situation, this list is meant to provide teams with fresh, pragmatic, and actionable ideas to support this capability.
 
-### Adopt a Product Management Mindset
-
-During the building process, platform teams should treat the platform as a product and developers as customers. This involves two things: 1) assigning a dedicated product manager to map critical user journeys (like spinning up a new service or debugging production), and 2) creating a roadmap aimed at alleviating developer friction. Success with the platform is measured by developer satisfaction (DevEx) and the ease with which users can self-serve.
-
 ### Proactively "Shift Down" Cognitive Load
 
 The platform should abstract away the complexities of Kubernetes, cloud networking, and security policies. By "shifting down" these requirements into the platform's automated pathways, developers are freed from needing to be infrastructure experts. This independence is a significant driver of productivity, allowing developers to focus almost exclusively on delivering user value.
