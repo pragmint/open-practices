@@ -8,8 +8,8 @@ export class Registry<T> {
     run(input: T) {
         this.rules.forEach(rule => rule.run(input))
     }
-    getProblems() {
-        return this.rules.map(rule => rule.getProblems())
+    isssuesWereFound() {
+        return this.rules.map(r => r.hasProblems()).reduce((a, c) => c === true ? true : false)
     }
     print(){
         this.rules.forEach(rule => rule.print())

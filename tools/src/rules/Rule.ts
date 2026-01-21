@@ -9,11 +9,14 @@ export abstract class Rule<In, Ids extends string> {
         this.config = config
     }
     abstract run(subject: In): void;
-    protected report(id: Ids, message: string, fileLocation: FileLocation) {
-        this.problems.push(new Problem<Ids>(id, this.config[id], fileLocation, message))
+    protected report(filename: string, id: Ids, message: string, fileLocation: FileLocation) {
+        this.problems.push(new Problem<Ids>(id, this.config[id], filename, fileLocation, message))
     } 
     getProblems(): Problem<Ids>[] {
         return this.problems
+    }
+    hasProblems() {
+        return this.problems.length !== 0
     }
     print() {
         this.problems.forEach(p => p.print())

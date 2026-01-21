@@ -1,15 +1,12 @@
-# tools
+# Open Practice Repository Tooling
 
-To install dependencies:
+Roadmap of features that we will want to implement starting with very simple linting.
 
-```bash
-bun install
-```
+## Linting
 
-To run:
+Features:
+- [x] lint all capabilities
 
-```bash
-bun run index.ts
-```
+Rules:
+- [x] New Line after all headings
 
-This project was created using `bun init` in bun v1.3.4. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
