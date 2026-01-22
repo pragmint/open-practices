@@ -1,0 +1,24 @@
+{
+  "name": "linter",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "rehype-stringify": "^10.0.1",
+    "remark-lint": "^10.0.1",
+    "remark-lint-final-newline": "^3.0.1",
+    "remark-lint-no-heading-punctuation": "^4.0.1",
+    "remark-parse": "^11.0.0",
+    "remark-rehype": "^11.1.2",
+    "remark-stringify": "^11.0.0",
+    "to-vfile": "^8.0.0",
+    "unified": "^11.0.5",
+    "vfile-reporter": "^8.1.1"
+  }
+}
