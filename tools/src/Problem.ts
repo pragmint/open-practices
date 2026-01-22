@@ -31,6 +31,8 @@ export class Problem<Ids> {
         this.fileLocation = fileLocation
     }
 
+    getFileLocation = () => this.fileLocation
+
     print() {
         if (this.level === 'silent') return;
 
