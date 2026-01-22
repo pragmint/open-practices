@@ -1,4 +1,4 @@
-import { Rule } from "../Rule";
+import { Rule } from "../../src/Rule";
 
 export class NewLineAfterHeadings extends Rule<LintableFile, 'new-line-after-headings'> {
     override run({ filename, content }: LintableFile) {
