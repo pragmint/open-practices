@@ -1,9 +1,11 @@
 import { NewLineAfterHeadings } from "./rules/raw/NewLineAfterHeadings";
 import { Runner } from './src/Runner';
 import { OpenPracticesRepository } from './src/Repository';
+import { NoTrailingWhitespace } from "./rules/raw/NoTrailingWhitespace";
 
 const runner = new Runner<LintableFile>(await OpenPracticesRepository.getCapabilities(), [
-    new NewLineAfterHeadings()
+    new NewLineAfterHeadings(),
+    new NoTrailingWhitespace()
 ])
 
 runner.run()
