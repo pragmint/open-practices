@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'bun:test'
-import { NewLineAfterHeadings } from './NewlineAfterHeadings'
+import { NewLineAfterHeadings } from './NewLineAfterHeadings'
 
 const mkRule = () => new NewLineAfterHeadings({'my-rule': 'silent'})
 

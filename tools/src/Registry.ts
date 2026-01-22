@@ -1,4 +1,4 @@
-import type { Rule } from "./rules/Rule";
+import type { Rule } from "./Rule";
 
 export class Registry<T> {
     private rules: Rule<T, any>[] = []
