@@ -20,6 +20,8 @@ This is not correct.
         const rule = mkRule()
         const content = `# Some Heading
 This is not correct.
+- cool
+  - beans
 `
         rule.run({ filename: "mock-file.md", content })
         const problems = rule.getProblems()
