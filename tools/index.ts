@@ -1,13 +1,13 @@
 import { NewLineAfterHeadings } from "./rules/raw/NewLineAfterHeadings";
 import { Runner } from './src/Runner';
-import { OpenPracticesRepository } from './src/Repository';
+import { Repo } from './src/Repo';
 import { NoTrailingWhitespace } from "./rules/raw/NoTrailingWhitespace";
 import { join } from 'node:path'
 import { read } from 'to-vfile'
 import { RemarkRules } from "./rules/remark/RemarkRules";
 import type { VFile } from "vfile";
 
-const lintableFileRunner = new Runner<LintableFile>(await OpenPracticesRepository.getCapabilities(), [
+const lintableFileRunner = new Runner<VFile>(await Repo.capabilities().vfiles(), [
     new NewLineAfterHeadings(),
     new NoTrailingWhitespace(),
 ])
