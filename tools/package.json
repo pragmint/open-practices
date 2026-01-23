@@ -8,5 +8,18 @@
   },
   "peerDependencies": {
     "typescript": "^5"
+  },
+  "dependencies": {
+    "remark-lint": "^10.0.1",
+    "remark-lint-checkbox-content-indent": "^5.0.1",
+    "remark-lint-final-newline": "^3.0.1",
+    "remark-lint-no-html": "^4.0.1",
+    "remark-parse": "^11.0.0",
+    "remark-stringify": "^11.0.0",
+    "to-vfile": "^8.0.0",
+    "unified": "^11.0.5",
+    "vfile": "^6.0.3",
+    "vfile-reporter": "^8.1.1",
+    "vfile-reporter-json": "^4.0.0"
   }
 }

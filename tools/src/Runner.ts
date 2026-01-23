@@ -13,7 +13,7 @@ export class Runner<T> {
         }
     }
 
-    run() {
+    async run() {
         for (const item of this.content) {
             this.registry.run(item)
         }
