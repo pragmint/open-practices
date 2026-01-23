@@ -25,4 +25,7 @@ export abstract class Rule<In, Ids extends string> {
     print() {
         this.problems.forEach(p => p.print())
     }
+    printQuickFix() {
+        this.problems.forEach(p => p.printQuickfix())
+    }
 }

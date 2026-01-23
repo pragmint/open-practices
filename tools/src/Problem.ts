@@ -48,4 +48,10 @@ export class Problem<Ids> {
             `  ${gray}in${reset} ${purple}"${this.filename}"${reset}\n  ${gray}at${reset} ${cyan}${this.fileLocation.row}${reset}:${cyan}${this.fileLocation.col}${reset}\n`
         );
     }
+    printQuickfix() {
+        if (this.level === 'silent') return;
+
+        const output = `${this.filename}:${this.fileLocation.row}:${this.fileLocation.col}: [${this.id}] ${this.level.toUpperCase()}: ${this.message}`;
+        console.log(output);
+    }
 }
