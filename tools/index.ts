@@ -2,29 +2,19 @@ import { NewLineAfterHeadings } from "./rules/raw/NewLineAfterHeadings";
 import { Runner } from './src/Runner';
 import { Repo } from './src/Repo';
 import { NoTrailingWhitespace } from "./rules/raw/NoTrailingWhitespace";
-import { join } from 'node:path'
-import { read } from 'to-vfile'
 import { RemarkRules } from "./rules/remark/RemarkRules";
 import type { VFile } from "vfile";
 
-const lintableFileRunner = new Runner<VFile>(await Repo.capabilities().vfiles(), [
+const runner = new Runner<VFile>(await Repo.capabilities().vfiles(), [
     new NewLineAfterHeadings(),
     new NoTrailingWhitespace(),
+    new RemarkRules(),
 ])
 
-const filepath = join(import.meta.dir, '..', 'capabilities', 'test-automation.md')
-const file = await read(filepath)
+await runner.run()
 
-const remarkRunner = new Runner<VFile>([file], [
-    new RemarkRules()
-])
-
-await remarkRunner.run()
-await lintableFileRunner.run()
-
-if (lintableFileRunner.issuesWereFound() || remarkRunner.issuesWereFound()) {
-    lintableFileRunner.print()
-    remarkRunner.print()
+if (runner.issuesWereFound()) {
+    runner.print()
     process.exit(1)
 } else {
     console.log("No issues found")
