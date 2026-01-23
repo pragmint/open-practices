@@ -1,16 +1,21 @@
 import { describe, it, expect } from 'bun:test'
 import { NoTrailingWhitespace } from './NoTrailingWhitespace'
+import type { VFile } from 'vfile'
 
 const mkRule = () => new NoTrailingWhitespace({'no-trailing-white-space': 'silent'})
+
+const mkInput = (content: string) => {
+    return { path: "mock-thing.md", value: Buffer.from(content) } as unknown as VFile
+}
 
 describe(NoTrailingWhitespace.name, () => {
     it('should fail when lines have trailing whitespace', () => {
         const rule = mkRule()
-        const content = `
+        const content = mkInput(`
 # Some Heading    
 This is not correct.
-`
-        rule.run({ filename: "mock-file.md", content })
+`)
+        rule.run(content)
         const problems = rule.getProblems()
         expect(problems).not.toBeEmpty()
         expect(problems[0]?.getFileLocation().row).toEqual(2)
@@ -18,12 +23,12 @@ This is not correct.
     })
     it('should not fail when no lines have trailing white space', () => {
         const rule = mkRule()
-        const content = `# Some Heading
+        const content = mkInput(`# Some Heading
 This is not correct.
 - cool
   - beans
-`
-        rule.run({ filename: "mock-file.md", content })
+`)
+        rule.run(content)
         const problems = rule.getProblems()
         expect(problems).toBeEmpty()
     })
