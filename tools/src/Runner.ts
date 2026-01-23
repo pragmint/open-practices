@@ -21,6 +21,9 @@ export class Runner<T> {
     print() {
         this.registry.print()
     }
+    printQuickFix() {
+        this.registry.printQuickFix()
+    }
     issuesWereFound() {
         return this.registry.isssuesWereFound()
     }

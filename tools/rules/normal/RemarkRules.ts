@@ -4,8 +4,6 @@ import remarkParse from 'remark-parse'
 import { unified, type PluggableList } from 'unified'
 import remarkLint from 'remark-lint'
 import remarkStringify from 'remark-stringify'
-import remarkLintNoHtml from "remark-lint-no-html";
-import remarkLintFinalNewline from "remark-lint-final-newline";
 
 export class RemarkRules extends Rule<VFile, string> {
     private list: PluggableList

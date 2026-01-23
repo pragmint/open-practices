@@ -16,6 +16,9 @@ export class Registry<T> {
     print(){
         this.rules.forEach(rule => rule.print())
     }
+    printQuickFix(){
+        this.rules.forEach(rule => rule.printQuickFix())
+    }
 }
 
 
