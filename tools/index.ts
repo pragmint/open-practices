@@ -8,12 +8,17 @@ import remarkLintNoHtml from "remark-lint-no-html";
 import type { VFile } from "vfile";
 
 import { parseArgs } from "util";
+import remarkLintNoTabs from "remark-lint-no-tabs";
+import remarkLintUnorderedListMarkerStyle from "remark-lint-unordered-list-marker-style";
+import remarkLintListItemContentIndent from "remark-lint-list-item-content-indent";
+import remarkLintListItemIndent from "remark-lint-list-item-indent";
 
 const { values } = parseArgs({
   args: Bun.argv,
   options: {
     quickFix: {
       type: "boolean",
+      short: "q",
     },
   },
   allowPositionals: true,
@@ -27,7 +32,11 @@ const runner = new Runner<VFile>(await Repo.capabilities().vfiles(), [
     new NoTrailingWhitespace(),
     new RemarkRules([
         remarkLintFinalNewline,
-        [remarkLintNoHtml, { allowComments: false }]
+        remarkLintNoTabs,
+        remarkLintListItemContentIndent,
+        [remarkLintListItemIndent, "one"],
+        [remarkLintUnorderedListMarkerStyle, '-'],
+        [remarkLintNoHtml, { allowComments: false }],
     ]),
 ])
 
