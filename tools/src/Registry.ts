@@ -11,7 +11,7 @@ export class Registry<T> {
         this.rules.forEach(rule => rule.run(input))
     }
     isssuesWereFound() {
-        return this.rules.map(r => r.hasProblems()).reduce((_, c) => c === true ? true : false)
+        return this.rules.map(r => r.hasProblems()).includes(true)
     }
     print(){
         this.rules.forEach(rule => rule.print())
