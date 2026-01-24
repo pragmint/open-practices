@@ -1,30 +1,26 @@
-import { Registry } from "./Registry";
 import type { Rule } from "./Rule";
 
 export class Runner<T> {
     private content: T[]
-    private registry: Registry<T>
+    private rules: Rule<T, string>[]
 
     constructor(content: T[], rules: Rule<T, any>[]) {
         this.content = content 
-        this.registry = new Registry()
-        for (const rule of rules) {
-            this.registry.register(rule)
-        }
+        this.rules = rules
     }
 
     async run() {
         for (const item of this.content) {
-            this.registry.run(item)
+            this.rules.forEach(rule => rule.run(item))
         }
     }
     print() {
-        this.registry.print()
+        this.rules.forEach(rule => rule.print())
     }
     printQuickFix() {
-        this.registry.printQuickFix()
+        this.rules.forEach(rule => rule.printQuickFix())
     }
     issuesWereFound() {
-        return this.registry.isssuesWereFound()
+        return this.rules.map(rule => rule.hasProblems()).includes(true)
     }
 }

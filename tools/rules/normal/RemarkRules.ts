@@ -11,6 +11,7 @@ export class RemarkRules extends Rule<VFile, string> {
         super()
         this.list = list
     }
+
     override async run(file: VFile) {
         await unified()
             .use(remarkParse)
@@ -20,13 +21,7 @@ export class RemarkRules extends Rule<VFile, string> {
             .process(file)
 
         file.messages.forEach(m => {
-            if (m.file === undefined) return
-            this.report(
-                m.file, 
-                m.ruleId || 'unknown-rule', 
-                m.message, 
-                { col: m.column || -1, row: m.line || -1 }
-            )
+            this.reportVfileMessage(m)
         })
     }
 }

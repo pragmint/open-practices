@@ -18,8 +18,8 @@ This is not correct.
         rule.run(content)
         const problems = rule.getProblems()
         expect(problems).not.toBeEmpty()
-        expect(problems[0]?.getFileLocation().row).toEqual(2)
-        expect(problems[0]?.getFileLocation().col).toEqual(15)
+        expect(problems[0]?.getFileLocation().line).toEqual(2)
+        expect(problems[0]?.getFileLocation().column).toEqual(15)
     })
     it('should not fail when no lines have trailing white space', () => {
         const rule = mkRule()

@@ -9,8 +9,8 @@ export class NewLineAfterHeadings extends Rule<VFile, 'new-line-after-headings'>
         for (let i = 0; i < lines.length; i++) {
             if (lines[i]?.charAt(0) === '#' && i+1 < lines.length && lines[i + 1] !== '') {
                 this.report(filename, 'new-line-after-headings', 'You must have a new line after headings.', {
-                    row: i + 2, 
-                    col: 1,
+                    line: i + 2, 
+                    column: 1,
                 })
             }
         }

@@ -6,7 +6,6 @@ import { RemarkRules } from "./rules/normal/RemarkRules";
 import remarkLintFinalNewline from "remark-lint-final-newline";
 import remarkLintNoHtml from "remark-lint-no-html";
 import type { VFile } from "vfile";
-
 import { parseArgs } from "util";
 import remarkLintNoTabs from "remark-lint-no-tabs";
 import remarkLintUnorderedListMarkerStyle from "remark-lint-unordered-list-marker-style";
@@ -25,12 +24,10 @@ const { values } = parseArgs({
   strict: true,
 });
 
-console.log();
-
-const runner = new Runner<VFile>(await Repo.capabilities().vfiles(), [
+const runner = new Runner<VFile>(await Repo.all(), [
     new NewLineAfterHeadings(),
     new NoTrailingWhitespace(),
-    new RemarkRules([
+    new RemarkRules([ // See additional rules here: https://github.com/remarkjs/remark-lint/tree/main?tab=readme-ov-file#rules
         remarkLintFinalNewline,
         remarkLintNoTabs,
         remarkLintListItemContentIndent,
@@ -48,8 +45,8 @@ if (runner.issuesWereFound()) {
     } else {
         runner.print()
     }
-    process.exit(1)
+    process.exit(1) // tell the pipeline to fail
 } else {
     console.log("No issues found")
-    process.exit(0)
+    process.exit(0) // tell the pipeline to pass
 }
