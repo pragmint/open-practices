@@ -23,6 +23,7 @@
     "to-vfile": "^8.0.0",
     "unified": "^11.0.5",
     "vfile": "^6.0.3",
+    "vfile-message": "^4.0.3",
     "vfile-reporter": "^8.1.1",
     "vfile-reporter-json": "^4.0.0"
   }

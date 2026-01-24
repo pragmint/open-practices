@@ -9,8 +9,8 @@ export class NoTrailingWhitespace extends Rule<VFile, 'no-trailing-white-space'>
         for (const [index, line] of lines.entries()) {
             if (line !== line.trimEnd()) {
                 this.report(filename, 'no-trailing-white-space', 'Trailing whitespace is not allowed', {
-                    row: index + 1, 
-                    col: line.trimEnd().length + 1,
+                    line: index + 1, 
+                    column: line.trimEnd().length + 1,
                 })
             }
         }

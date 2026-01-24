@@ -1,16 +1,12 @@
-export type FileLocation = {
-    col: number
-    row: number
-}
+import type { VFileMessage } from "vfile-message"
+import type { Point } from 'unist/index.d.ts'
 
 export type Level = 'silent' | 'warning' | 'error'
 
-export class Problem<Ids> {
-    private id: Ids
-    private filename: string
-    private message: string
+export class Problem {
+    private message: VFileMessage
     private level: Level
-    private fileLocation: FileLocation
+    private point: Point
 
     private readonly colors = {
         reset: "\x1b[0m",
@@ -23,15 +19,13 @@ export class Problem<Ids> {
         gray: "\x1b[90m",
     };
 
-    constructor(id: Ids, level: Level, filename: string, fileLocation: FileLocation, message: string) {
-        this.id = id
-        this.filename = filename
+    constructor(message: VFileMessage, level: Level) {
         this.message = message
         this.level = level
-        this.fileLocation = fileLocation
+        this.point = message.place as unknown as Point
     }
 
-    getFileLocation = () => this.fileLocation
+    getFileLocation = () => this.message.place
 
     print() {
         if (this.level === 'silent') return;
@@ -40,18 +34,14 @@ export class Problem<Ids> {
 
         const color = this.level === 'error' ? red : yellow;
         const label = this.level.toUpperCase();
-
-        console.log(
-            `${bold}${color}${label}${reset} ${bold}${this.id}${reset}: ${this.message}`
-        );
-        console.log(
-            `  ${gray}in${reset} ${purple}"${this.filename}"${reset}\n  ${gray}at${reset} ${cyan}${this.fileLocation.row}${reset}:${cyan}${this.fileLocation.col}${reset}\n`
-        );
+        
+        console.log( `${bold}${color}${label}${reset} ${bold}${this.message.ruleId}${reset}: ${this.message.message}`);
+        console.log( `  ${gray}in${reset} ${purple}"${this.message.file}"${reset}\n  ${gray}at${reset} ${cyan}${this.point.line}${reset}:${cyan}${this.point.column}${reset}\n`);
     }
     printQuickfix() {
         if (this.level === 'silent') return;
-
-        const output = `${this.filename}:${this.fileLocation.row}:${this.fileLocation.col}: [${this.id}] ${this.level.toUpperCase()}: ${this.message}`;
+        const output = `${this.message.file}:${this.point.line || -1}:${this.point.column}: ${this.message.ruleId} -- ${this.level.toUpperCase()}: ${this.message}`;
         console.log(output);
     }
 }
+

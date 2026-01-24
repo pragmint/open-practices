@@ -1,42 +1,26 @@
 import { readdirSync } from 'node:fs'
-import { join } from 'node:path'
+import { join, resolve } from 'node:path'
 import { read } from 'to-vfile';
 
 const ROOT = join(Bun.main, '..','..')
 
-async function getAllFrom(folder: string): Promise<LintableFile[]> {
-    return await Promise.all(readdirSync(folder)
-        .map(async (file)  => ({ 
-            filename: join(folder, file),
-            content: await Bun.file(join(folder, file)).text() 
-        })))
-}
+const getAllFiles = (dir: string): string[] => 
+     readdirSync(dir, { withFileTypes: true }).flatMap((file) => {
+         if (file.isDirectory()) return getAllFiles(resolve(dir, file.name))
+         return resolve(dir, file.name)
+     })
 
-class SourceFolder {
-    private root: string;
-    constructor(root: string) {
-        this.root = root
-    }
-    fileNames() {
-        return readdirSync(this.root)
-    }
-    filePaths() {
-        const root = this.root
-        return this.fileNames().map((name) => join(root, name))
-    }
-    async vfiles() {
-        return await Promise.all(this.filePaths().map(async path => {
-            return await read(path)
-        }))
-    }
-}
+const capabilities = () => getAllFiles(join(ROOT, 'capabilities'))
+const practices = () => getAllFiles(join(ROOT, 'practices'))
+const resources = () => getAllFiles(join(ROOT, 'resources'))
+
+const getVfiles = async (paths: string[]) => 
+    await Promise.all(paths.map(async path => await read(path)))
 
 export class Repo {
-    static async getCapabilities() {
-        return getAllFrom(join(ROOT, 'capabilities'))    
-    }
-    static capabilities(): SourceFolder {
-        return new SourceFolder(join(ROOT, 'capabilities'))
-    }
+    static capabilities = async () => await getVfiles(capabilities())
+    static practices = async () => await getVfiles(practices())
+    static resources = async () => await getVfiles(resources())
+    static all = async () => await getVfiles([ ...capabilities(), ...practices(), ...resources()])
 }
 
