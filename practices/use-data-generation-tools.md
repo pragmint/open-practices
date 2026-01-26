@@ -4,7 +4,7 @@ Generating complex data types or adding complex data to databases can typically 
 
 Data-generation tools shine brightest when used with end-to-end or integration tests. They _can_ be used with more isolated tests or unit tests but this is often a symptom of a larger issue and should be used with discretion.
 
-*Integrated Tests:* Integration and end-to-end tests are difficult to set up because of their multi-process nature. You can achieve a satisfactory solution without using third-party data-generation tools, but for large projects developers will quite often need data-generation tools like the following:
+*Integrated Tests:* Integration and end-to-end tests are difficult to set up because of their multi-process nature. In these evironments, your code isn't running in issolation. It needs to communicate across the network or between different processes on the same server. You can achieve a satisfactory solution without using third-party data-generation tools, but for projects serving tens of thousands or millions of users, developers will quite often need data-generation tools like the following:
 - [RedGate](https://www.red-gate.com/)
 - [dbForge](https://www.devart.com/)
 - [SSDT](https://learn.microsoft.com/en-us/sql/ssdt/sql-server-data-tools?view=sql-server-ver17)
@@ -19,17 +19,26 @@ Data-generation tools shine brightest when used with end-to-end or integration t
 ## How to Gain Traction
 
 ### Start With Collaboration
-First, bring the team together and explain your rationale for needing to use data-generation tools. Listen to the feedback and ask the team to express their needs. Consider many perspectives before making any decisions. 
 
-Suggest a few tools and discuss different options with your team while being understanding of the needs of your DevOps and DBA teams.
+Start by bring the team together and explaining your rationale for needing to use data-generation tools. Make sure your problem is clearly articulated and simple to understand. Sometimes your problem will be solvable in a simpler manner without over investing in an external framework. Listen to feedback and be open to others solutions and perspectives.
 
-Implement the agreed upon solution. 
+### Pilot
+
+Once you've agreed on a few potential solutions, set a time-box and run a pilot with the options. During the pilot try to strike the balance of investing as little as possible to see if a tool is a viable solution and giving the product a genuine chance to show productivity gains. Keep your team and other stakeholders in the loop as you iterate and take intentional notes about its pros and cons of each tool.
+
+### Present and Options Paper
+
+Once your pilot is over, create a document with each choice listed out. Add a small description and the pros and cons you found as your investigated different options. Find a time to re-convene and present your findings seeking to keep personal bias at bay.
+
+### Iterate and Improve
+
+Once that choice has been made, always be prepared to be flexible and iterate on the solution.
 
 ## Lessons From The Field
 
-- _Don't Use Data-generation Tools Until (and Unless) There is a Need_ - While data-generation tools can be helpful in reducing complexity in test data management, if you don't *see* that complexity yet, consider waiting to adopt new tools until that complexity arises. There are use cases where test data management can be done without tools.
+- _Don't Use Data-generation Tools Until (and Unless) There is a Need_ - While data-generation tools can be helpful in reducing complexity in test data management, if you don't *see* that complexity yet, consider waiting to adopt new tools until that complexity arises. There are use cases where test data management can be done without extraneous tools.
 
-- _Be Careful About Tests That Depend on Each Other_ - When dealing with data that can cross test boundaries, like data inside your database or global variables (`window` & `document` in a web context), make sure that each test you write is independent of the setup or result of another test. You can easily check this by running each of your tests in isolation. If a test only passes when other tests are also run, then some modification needs to be made to decouple the tests from each other.
+- _Be Careful About Tests That Depend on Each Other_ - Most test that will require data generation tools end up being across significant application boundaries. When dealing with setup for such tests, like data inside your database or global variables (`window` & `document` in a web context), make sure that each test you write is independent of the setup or result of another test. This will likely require some thought when setting up your data generation tools. You can easily check this by running each of your tests in isolation. If a test only passes when other tests are also run, then some modification needs to be made to decouple the tests from each other.
 
 ## Deciding to Polish or Pitch
 
