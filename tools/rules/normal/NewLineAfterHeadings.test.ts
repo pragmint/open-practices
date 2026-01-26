@@ -22,7 +22,7 @@ This is not correct.
         const rule = mkRule()
         rule.run(mkInput(`# Some Heading
 
-This is not correct.
+This is correct.
 `))
         expect(rule.getProblems()).toBeEmpty()
     })
