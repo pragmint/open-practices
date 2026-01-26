@@ -2,7 +2,7 @@
 
 There are two ways you can contribute a new rule.
 
-First, add new rules from remark in the `RemarkRules` constructore. See a list of those here: // See additional rules here: https://github.com/remarkjs/remark-lint/tree/main?tab=readme-ov-file#rules
+First, add new rules from remark in the `RemarkRules` constructore. See a list of those [here](https://github.com/remarkjs/remark-lint/tree/main?tab=readme-ov-file#rules).
 
 Second is to duplicate an existing rule in the `tools/rules/normal` folder and replace your logic with your own.
 
