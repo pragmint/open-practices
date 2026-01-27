@@ -1,54 +1,73 @@
-> Review an existing practice like [Migrate to Monorepo](/practices/migrate-to-monorepo.md) to see a good example of a practice following this template.
+# Use Data-generation Tools
 
-# `[Action-Oriented Title]`
-
-```text
-Quick 2-4 sentence summary. What’s the practice? Why should teams care? Keep it casual and motivating.
-```
+Introduction. 2-4 paragraphs.
 
 ## When to Experiment
 
-```text
-You are a [persona] and need to [learn how to / ensure that] so you can [end goal].”
-(List for each relevant persona: Non-technical exec, Technical exec, Developer, QA, PM, Product Manager, etc.)
-```
+2-6 bullet points. (use markdown dash syntax for unordered lists)
+- Reason 1
+- Reason 2
+- etc...
 
 ## How to Gain Traction
 
-```text
-List 3–5 steps to take a team from zero to adopted.
-For each step, include:
-  ### [Action Step]
-  3 sentences on how to do it, how to get buy-in, and what tools/resources help. Any external resources (videos, guides, book lists, templates, etc.) that help a team adopt this practice should be linked here within the relevant action step.
-```
+<!-- This section can have 2-4 sub-headings -->
+
+Small introduction. 1 paragraph.
+
+### First Step Title
+
+1 paragraph.
+
+### Second Step Title
+
+1 paragraph.
 
 ## Lessons From The Field
 
-```text
-This section captures real-world patterns (things that consistently help or hinder this practice) along with short, relevant stories from the field. It’s not for personal rants or generic opinions. Each entry must be based on either:
-1. a repeated observation across teams, or
-2. a specific example (what worked, what didn’t, and why).
-```
+2-6 bullet points. (use markdown dash syntax for unordered lists)
+- Anicdote 1
+- Anicdote 2
+- etc...
 
 ## Deciding to Polish or Pitch
 
-After experimenting with this practice for [**insert appropriate quantity of time in bold**], bring the team together to determine whether the following metrics and/or signals have changed in a positive direction:
+<!-- 
+This section is about deciding whether the practice you have implemented as a company should be integrated into your workflow or whether it should be removed. It is built of a list of effects that should be seen after you have experimented with the practice.
 
-```text
-List target metrics, qualitative markers, or lightweight feedback mechanisms. Review this article for inspiration: https://dora.dev/research/2025/measurement-frameworks/
+This section's sub-headings are categorical in stead of titles. Each sub heading has two parts, each with two options. The first part describes how long it will take for this benefit to start being seen (Fast vs Slow). Fast is counted in weeks and slow is counted in months. The second part describes whether the benefit is qualitative or quantitative, denoted as (Intangible vs Tangible).
 
-Organize metrics and signals into Fast & Measurable, Fast & Intangible, Slow & Measurable, or Slow & Intangible, but only include categories with strong, defensible signals. Exclude weak or hard-to-attribute signals.
+The following is an exmaple. 
 
-For measurable items, specify how to track them (e.g., DX, Jira, CI dashboards). For intangible items, note how to capture feedback (e.g., surveys, retro notes, developer chatter).
+Section titles can be duplicated.
 
-Keep metrics scoped and outcome-focused (e.g., “reduced lead time for cross-repo changes” instead of just “reduced lead time”).
-```
+-->
+
+<!-- Leave the following text exactly as is. -->
+After experimenting with this practice for 2-3 weeks, bring the team together to determine whether the following metrics and/or signals have changed in a positive direction:
+
+### Fast & Intangible
+
+**Title of benefit**. 2-4 sentences about the benefit.
+
+### Slow & Tangible
+
+**Title of benefit**. 2-4 sentences about the benefit.
 
 ## Supported Capabilities
 
-```text
-List 1–4 existing DORA Capabilities this practice supports.
-For each:
-  ### Capability Name (link)
-  1–2 sentences on how this practice helps improve it.
-```
+<!-- 
+
+This section will have 2-6 capabilities.
+
+The following must be form this list: ai-accessible-internal-data.md, clear-and-communicated-ai-stance.md, code-maintainability.md, continuous-delivery.md, continuous-integration.md, customer-feedback.md, database-change-management.md, deployment-automation.md, documentation-quality.md, empowering-teams-to-choose-tools.md, flexible-infrastructure.md, generative-organizational-culture.md, healthy-data-ecosystems.md, job-satisfaction.md, learning-culture.md, loosely-coupled-teams.md, monitoring-and-observability.md, monitoring-systems-to-inform-business-decisions.md, pervasive-security.md, platform-engineering.md, proactive-failure-notification.md, streamline-change-approval.md, team-experimentation.md, test-automation.md, test-data-management.md, transformational-leadership.md, trunk-based-development.md, user-centric-focus.md, version-control.md, visibility-of-work-in-the-value-stream.md, visual-management.md, well-being.md, work-in-process-limits.md, working-in-small-batches.md 
+
+-->
+
+### [Example Capability](/capabilities/example-capability.md)
+
+2-4 sentences about how this capability relates to the practice.
+
+### [Example Capability](/capabilities/example-capability.md)
+
+2-4 sentences about how this capability relates to the practice.
