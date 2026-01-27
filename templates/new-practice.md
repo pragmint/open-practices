@@ -4,6 +4,7 @@ Introduction. 2-4 paragraphs.
 
 ## When to Experiment
 
+<!-- These bullet points are in the form of personas. Example: You are a Developer and you need to make coordinated changes across services without repo-hopping so you can move faster with less friction. --> 
 2-6 bullet points. (use markdown dash syntax for unordered lists)
 - Reason 1
 - Reason 2
