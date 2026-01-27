@@ -25,7 +25,7 @@ In the parent directory, create a repo that uses a build tool that supports work
 
 ### Add an Integration Testing Layer
 
-Use this monorepo to test the seams of interaction between the services, ensuring that contracts and connections still function. This can be a harness to gain more confidence that each service previously built in isolation will still work well with the rest of the system. Snapshot testing via a framework like jest, while not ideal in the long term, can get the job done initially. Do not add unit tests here; instead, develop a script that can run through the tests on each service the monorepo houses.
+Use this monorepo to test the seams of interaction between the services, ensuring that contracts and connections still function. This can be a harness to gain more confidence that each service previously built in isolation will still work well with the rest of the system. Snapshot testing via a framework like [jest](https://jestjs.io/), while not ideal in the long term, can get the job done initially. Do not add unit tests here; instead, develop a script that can run through the tests on each service the monorepo houses.
 
 ### Make a Local Docker Container With a Dummy Database
 
@@ -61,7 +61,7 @@ After experimenting with this practice for **one month**, bring the team togethe
 
 ### Slow & Intangible
 
-**Cleaner Service Boundaries.** Refactoring service boundaries should become easier. When everything lives in one repo, poor service boundaries can be removed with less friction. Teams can also quickly extract new services with the shared tooling, configuration, and build setup.
+**Cleaner Service Boundaries.** Refactoring service boundaries should become easier. When everything lives in one repo, poor service boundaries can be more clearly defined with less friction. Teams can also quickly extract new services with the shared tooling, configuration, and build setup.
 
 **Better Cross-team Collaboration.** The monorepo can be spun up fairly simply for team collaboration and to demonstrate system behavior. In terms of database changes, comparing what's set up locally to the new schema change can be a point of conversation between teams that manage the data and teams than manage the code. The same thing applies to cloud environment connections between services and third-party API vendor interactions. When change involves less uncertainty, the confidence to experiment increases.
 
