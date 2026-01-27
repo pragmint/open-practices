@@ -58,7 +58,7 @@ To implement an effective Test Data Management strategy, teams should leverage t
 
 Depending on your strategy, data-generation tooling might be an essential part of how you continue or start doing Database Change Management.
 
-### [Continuous Delivery](/capabilities/continuous-delivery.md) & [Continuous Integration](/capabilities/continuous-integration.md)
+### [Continuous Delivery](/capabilities/continuous-delivery.md) 
 
 Any tests that end up in your CI/CD pipelines will need test data to be managed. This might be done by data-generation tools, depending on your needs.
 
