@@ -8,7 +8,7 @@ Each of these practices maps to one or more [DORA capabilities](#dora-capabiliti
 
 Material in this repository supports Pragmint's cyclical **S.T.E.P.** framework:
 
-* **Survey:** Use our [open-source assessment](/capabilities-maturity-assessment.md) to measure your team's maturity against the 29 DORA Capabilities.
+* **Survey:** Use our [open-source assessment](/capabilities-maturity-assessment.md) to measure your team's maturity against the DORA Capabilities.
 
 * **Target:** Identify Capabilities where there are significant gaps in adoption, and prioritize improving on those that will deliver the highest impact.
 
@@ -18,43 +18,40 @@ Material in this repository supports Pragmint's cyclical **S.T.E.P.** framework:
 
 ## DORA Capabilities
 
-### Capabilities that enable a Climate for Learning
-
+* [AI-accessible Internal Data](/capabilities/ai-accessible-internal-data.md)
+* [Clear and Communicated AI Stance](/capabilities/clear-and-communicated-ai-stance.md)
 * [Code Maintainability](/capabilities/code-maintainability.md)
-* [Documentation Quality](/capabilities/documentation-quality.md)
-* [Empowering Teams To Choose Tools](/capabilities/empowering-teams-to-choose-tools.md)
-* [Generative Organizational Culture](/capabilities/generative-organizational-culture.md)
-* [Job Satisfaction](/capabilities/job-satisfaction.md)
-* [Learning Culture](/capabilities/learning-culture.md)
-* [Team Experimentation](/capabilities/team-experimentation.md)
-* [Transformational Leadership](/capabilities/transformational-leadership.md)
-* [Well-Being](/capabilities/well-being.md)
-
-### Capabilities that enable Fast Flow
-
 * [Continuous Delivery](/capabilities/continuous-delivery.md)
-* [Database Change Management](/capabilities/database-change-management.md)
-* [Deployment Automation](/capabilities/deployment-automation.md)
-* [Flexible Infrastructure](/capabilities/flexible-infrastructure.md)
-* [Loosely Coupled Teams](/capabilities/loosely-coupled-teams.md)
-* [Streamline Change Approval](/capabilities/streamline-change-approval.md)
-* [Trunk-Based Development](/capabilities/trunk-based-development.md)
-* [Version Control](/capabilities/version-control.md)
-* [Visual Management](/capabilities/visual-management.md)
-* [Work in Process Limits](/capabilities/work-in-process-limits.md)
-* [Working in Small Batches](/capabilities/working-in-small-batches.md)
-
-### Capabilities that enable Fast Feedback
-
 * [Continuous Integration](/capabilities/continuous-integration.md)
 * [Customer Feedback](/capabilities/customer-feedback.md)
+* [Database Change Management](/capabilities/database-change-management.md)
+* [Deployment Automation](/capabilities/deployment-automation.md)
+* [Documentation Quality](/capabilities/documentation-quality.md)
+* [Empowering Teams To Choose Tools](/capabilities/empowering-teams-to-choose-tools.md)
+* [Flexible Infrastructure](/capabilities/flexible-infrastructure.md)
+* [Generative Organizational Culture](/capabilities/generative-organizational-culture.md)
+* [Healthy Data Ecosystems](/capabilities/healthy-data-ecosystems.md)
+* [Job Satisfaction](/capabilities/job-satisfaction.md)
+* [Learning Culture](/capabilities/learning-culture.md)
+* [Loosely Coupled Teams](/capabilities/loosely-coupled-teams.md)
 * [Monitoring and Observability](/capabilities/monitoring-and-observability.md)
 * [Monitoring Systems to Inform Business Decisions](/capabilities/monitoring-systems-to-inform-business-decisions.md)
 * [Pervasive Security](/capabilities/pervasive-security.md)
+* [Platform Engineering](/capabilities/platform-engineering.md)
 * [Proactive Failure Notification](/capabilities/proactive-failure-notification.md)
+* [Streamlining Change Approval](/capabilities/streamline-change-approval.md)
+* [Team Experimentation](/capabilities/team-experimentation.md)
 * [Test Automation](/capabilities/test-automation.md)
 * [Test Data Management](/capabilities/test-data-management.md)
+* [Transformational Leadership](/capabilities/transformational-leadership.md)
+* [Trunk-Based Development](/capabilities/trunk-based-development.md)
+* [User-Centric Focus](/capabilities/user-centric-focus.md)
+* [Version Control](/capabilities/version-control.md)
 * [Visibility of Work in the Value Stream](/capabilities/visibility-of-work-in-the-value-stream.md)
+* [Visual Management](/capabilities/visual-management.md)
+* [Well-Being](/capabilities/well-being.md)
+* [Work in Process Limits](/capabilities/work-in-process-limits.md)
+* [Working in Small Batches](/capabilities/working-in-small-batches.md)
 
 ## Contributing
 
