@@ -6,10 +6,10 @@ This practice allows teams to quickly find what they need without interrupting o
 
 ## When to Experiment
 
-- You are a **New Developer** and you need to learn how to find accurate, updated documentation so you can onboard quickly without constantly interrupting mentors.
-- You are a **QA Engineer** and you need to ensure you have quick access to system knowledge to avoid wasting time sifting through multiple systems during testing.
-- You are a **Product Owner** or **Developer** and you need access to complete and up-to-date requirements to produce quality tickets and avoid downstream rejections.
-- You are a **Senior Engineer** and you need to ensure that specialized knowledge is accessible to the wider team so you can reduce interruptions and boost team autonomy.
+- You are a **new developer** and you need to learn how to find accurate, updated documentation so you can onboard quickly without constantly interrupting mentors.
+- You are a **QA engineer** and you need to ensure you have quick access to system knowledge to avoid wasting time sifting through multiple systems during testing.
+- You are a **product owner** or **Developer** and you need access to complete and up-to-date requirements to produce quality tickets and avoid downstream rejections.
+- You are a **senior engineer** and you need to ensure that specialized knowledge is accessible to the wider team so you can reduce interruptions and boost team autonomy.
 
 ## How to Gain Traction
 
@@ -29,22 +29,22 @@ To drive adoption, the team must shift from an "Ask First" to a "Search First" c
 
 ## Lessons From The Field
 
-- **Reliance on Language Models for Security:** Teams often realize their permission settings are lax only after a search engine surfaces sensitive HR or roadmap documents to the whole engineering org. Make sure security permissions are handled with the appropriate data layer security and not through system prompts or other language model means.
-- **Trust decay from stale data:** If the top three search results are deprecated documents from three years ago, users will quickly abandon the tool. You must archive old data or boost the ranking of fresh content.
+- _Reliance on Language Models for Security_ - Teams often realize their permission settings are lax only after a search engine surfaces sensitive HR or roadmap documents to the whole engineering org. Make sure security permissions are handled with the appropriate data layer security and not through system prompts or other language model means.
+- _Trust decay from stale data_ - If the top three search results are deprecated documents from three years ago, users will quickly abandon the tool. You must archive old data or boost the ranking of fresh content.
 
 ## Deciding to Polish or Pitch
 
-After experimenting with this practice for 4-6 weeks, bring the team together to determine whether the following metrics and/or signals have changed in a positive direction:
+After experimenting with this practice for **4-6 weeks,** bring the team together to determine whether the following metrics and/or signals have changed in a positive direction:
 
 ### Fast & Intangible
 
-**Reduced Context-Gathering Delays** Feedback from developers should indicate less frustration and time spent "hunting" for requirements or historical context before starting a ticket.
+**Reduced Context-gathering Delays.** Feedback from developers should indicate less frustration and time spent "hunting" for requirements or historical context before starting a ticket.
 
 ## Supported Capabilities
 
 ### [AI-accessible Internal Data](/capabilities/ai-accessable-internal-data.md)
 
-This practice is one option for implementing AI-accessible Internal Data. There may be other options depending on your organizations complexity and needs but using an enterprise search solution is a fantastic option for smaller to mid size companies that don't have the resources or need the customization of an in house system.
+This practice is one option for implementing AI-accessible Internal Data. There may be other options, depending on your organization's complexity and needs, but using an enterprise search solution is a fantastic option for smaller to mid-size companies that don't have the resources or need the customization of an in-house system.
 
 ### [Learning Culture](/capabilities/learning-culture.md)
 
@@ -52,4 +52,4 @@ By centralizing institutional knowledge and making it accessible, enterprise sea
 
 ### [Documentation Quality](/capabilities/documentation-quality.md)
 
-Excellent documentation is accurate, clear, complete, and accessible. This tool ensures that high-quality documentation is actually found and used, enabling teams to make informed decisions.
+Excellent documentation is accurate, clear, complete, and accessible. This practice ensures that high-quality documentation is actually found and used, enabling teams to make informed decisions.
