@@ -29,7 +29,7 @@ To drive adoption, the team must shift from an "Ask First" to a "Search First" c
 
 ## Lessons From The Field
 
-- **The "Security through Obscurity" Trap:** Teams often realize their permission settings are lax only after a search engine surfaces sensitive HR or roadmap documents to the whole engineering org. Audit permissions _before_ indexing.
+- **Reliance on Language Models for Security:** Teams often realize their permission settings are lax only after a search engine surfaces sensitive HR or roadmap documents to the whole engineering org. Make sure security permissions are handled with the appropriate data layer security and not through system prompts or other language model means.
 - **Trust decay from stale data:** If the top three search results are deprecated documents from three years ago, users will quickly abandon the tool. You must archive old data or boost the ranking of fresh content.
 
 ## Deciding to Polish or Pitch
