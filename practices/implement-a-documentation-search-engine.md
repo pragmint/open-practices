@@ -42,6 +42,10 @@ After experimenting with this practice for 4-6 weeks, bring the team together to
 
 ## Supported Capabilities
 
+### [AI-accessible Internal Data](/capabilities/ai-accessable-internal-data.md)
+
+This practice is one option for implementing AI-accessible Internal Data. There may be other options depending on your organizations complexity and needs but using an enterprise search solution is a fantastic option for smaller to mid size companies that don't have the resources or need the customization of an in house system.
+
 ### [Learning Culture](/capabilities/learning-culture.md)
 
 By centralizing institutional knowledge and making it accessible, enterprise search boosts team autonomy, reduces wasted time, and supports a healthier learning culture.
