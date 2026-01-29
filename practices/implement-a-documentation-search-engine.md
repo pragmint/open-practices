@@ -7,7 +7,7 @@ This practice allows teams to quickly find what they need without interrupting o
 ## When to Experiment
 
 - You are a new developer and you need to learn how to find accurate, updated documentation so you can onboard quickly without constantly interrupting mentors.
-- You are a *A engineer and you need to ensure you have quick access to system knowledge to avoid wasting time sifting through multiple systems during testing.
+- You are a an engineer and you need to ensure you have quick access to system knowledge to avoid wasting time sifting through multiple systems during testing.
 - You are a product owner or developer and you need access to complete and up-to-date requirements to produce quality tickets and avoid downstream rejections.
 - You are a senior engineer and you need to ensure that specialized knowledge is accessible to the wider team so you can reduce interruptions and boost team autonomy.
 
@@ -44,7 +44,7 @@ After experimenting with this practice for **4-6 weeks,** bring the team togethe
 
 ### [AI-accessible Internal Data](/capabilities/ai-accessable-internal-data.md)
 
-This practice is one option for implementing AI-accessible Internal Data. There may be other options, depending on your organization's complexity and needs, but using an enterprise search solution is a fantastic option for smaller to mid-size companies that don't have the resources or need the customization of an in-house system.
+This practice is one option for implementing AI-accessible Internal Data. The other option is building the system your self with in-house developers. However, you will likely only see the benefits of this if you are a large enough company with complex enough needs to justify putting a team of developers toward it. The vast majority of companies should opt for an off the shelf solution.
 
 ### [Learning Culture](/capabilities/learning-culture.md)
 
