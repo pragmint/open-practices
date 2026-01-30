@@ -1,10 +1,6 @@
 # Create a Team Charter
 
-Efficiency begins with an organizational structure designed to highlight
-problems that need to be solved, not hide them. Too often, "task flow
-obscurity" prevents leaders from identifying where the system is failing. When
-tasks bounce between teams for gate keeping or minor approvals, the process
-becomes a black box, resulting in a culture of "waiting on Team X."
+Efficiency begins with an organizational structure designed to highlightproblems that need to be solved, not hide them. Too often, "task flowobscurity" prevents leaders from identifying where the system is failing. Whentasks bounce between teams for gate keeping or minor approvals, the processbecomes a black box, resulting in a culture of "waiting on Team X."
 
 The solution starts with Team Charters. By codifying roles, escalation paths, and boundaries, these documents allow teams to decouple from one another. Without these guardrails, ownership becomes diluted and "passing the buck" becomes the default. True team autonomy is only possible when boundaries are explicit; a strong charter ensures teams own their work from inception to deployment, replacing fine-grained coordination with clear, independent authority. 
 
