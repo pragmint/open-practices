@@ -59,6 +59,10 @@ Visual management isn’t a set-it-and-forget-it practice. Just like code or arc
 
 It’s easy to default to tracking what’s easy to count: tickets closed, lines of code, story points. But these are outputs, not outcomes. To drive meaningful improvement, displays should connect work to its impact: customer behavior, system reliability, revenue generated, or time to resolve issues. When teams see the impact of their work, they can make smarter trade-offs and course-correct faster.
 
+### [Visualize All Work on a Storyboard](/practices/visualize-all-work-on-a-storyboard.md)
+
+A storyboard serves as a real-time visual display of all work across the team, including hidden work like production support, meetings, and unplanned requests. By making the full workload visible at a glance, teams can spot bottlenecks, track flow, and have grounded conversations about priorities. The board becomes the shared artifact that drives standups, planning, and retrospectives.
+
 ### Set Work-in-Process Limits
 
 While setting work-in-progress (WIP) limits is a DORA capability, it is also a technique that is actionable. So, we're including it here as a supporting practice. Visually tracking and enforcing WIP limits prevents bottlenecks and helps to maintain a steady flow. By limiting the number of tasks that are actively worked on, teams can achieve greater focus, reduce context switching, and enjoy enhanced flow efficiency. This leads to faster and smarter software delivery.
