@@ -59,6 +59,10 @@ Establish structured programs to recognize employees for their contributions and
 
 Allocating time for fun and relationship-building fosters trust, collaboration, and a sense of belonging among team members. When employees can share positive experiences, it strengthens psychological safety, boosts creativity, and encourages cross-team connections. These elements not only make the workplace more enjoyable but also encourage retention and productivity by signaling that the organization values its employees' well-being. An organization that balances productivity with meaningful relationships creates an environment where employees thrive.
 
+### [Visualize All Work on a Storyboard](/practices/visualize-all-work-on-a-storyboard.md)
+
+When unplanned work, meetings, and production support stay invisible, teams experience hidden overload that leads to burnout. A storyboard makes all work visible, enabling honest conversations about capacity and sustainable pace. By surfacing what's actually consuming time, teams can push back on unrealistic expectations and protect their collective well-being.
+
 ### Automate Deployment Scripts
 
 Develop scripts that automate the entire deployment process, including environment preparation, package deployment, configuration, and post-deployment testing. By scripting these steps, you eliminate manual interventions, reduce the risk of human error, and lessen deployment pain. A repeatable and reliable deployment process can then be triggered with minimal effort. This enhances not only deployment speed and consistency but also employee well-being.

@@ -83,6 +83,10 @@ Aim to create teams that are composed of members from different functional areas
 
 Adopt tools and platforms that facilitate transparent and easy communication across the organization, such as chat systems, collaborative documentation, and shared dashboards. Encourage the sharing of information, questions, and updates openly and regularly rather than through isolated channels and in narrow timeframes. By improving information flow, teams are better informed and can respond more effectively to changes and challenges.
 
+### [Visualize All Work on a Storyboard](/practices/visualize-all-work-on-a-storyboard.md) - Related
+
+Building a storyboard through a cross-functional VSM workshop creates space for team members to hear each other's challenges and see how their work connects. When developers learn what blocks QA, or product discovers how much time goes to incident response, empathy and trust grow. This shared understanding shifts the culture from finger-pointing to collaborative problem-solving.
+
 ## Adjacent Capabilities
 
 The following capabilities will be valuable for you and your team to explore, as they are either:
