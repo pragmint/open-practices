@@ -1,6 +1,10 @@
 # Create a Team Charter
 
-Efficiency begins with an organizational structure designed to solve problems, not hide them. Too often, "task flow obscurity" prevents leaders from identifying where the system is failing. When tasks bounce between teams for gate keeping or minor approvals, the process becomes a black box, resulting in a culture of "waiting on Team X."
+Efficiency begins with an organizational structure designed to highlight
+problems that need to be solved, not hide them. Too often, "task flow
+obscurity" prevents leaders from identifying where the system is failing. When
+tasks bounce between teams for gate keeping or minor approvals, the process
+becomes a black box, resulting in a culture of "waiting on Team X."
 
 The solution starts with Team Charters. By codifying roles, escalation paths, and boundaries, these documents allow teams to decouple from one another. Without these guardrails, ownership becomes diluted and "passing the buck" becomes the default. True team autonomy is only possible when boundaries are explicit; a strong charter ensures teams own their work from inception to deployment, replacing fine-grained coordination with clear, independent authority. 
 
@@ -8,7 +12,7 @@ Keep in mind, we are isolating authority and responsibility not individuals. Cro
 
 ## When to Experiment
 
-- You are a Team Lead or Manager noticing that when things go wrong, the responsibility is spread across multiple teams, making it impossible to "debug" the organization.
+- You are a Team Lead or Manager noticing that when things go wrong, the responsibility is spread across multiple teams, making it difficult to find the source of issues.
 - You are a Developer who ends up "code complete" but is constantly waiting on a separate DevOps or QA team to release your work, creating friction and delay.
 - You are a Product Owner realizing that the team passes responsibility for failures to external dependencies rather than owning the outcome.
 - You are forming a new cross-functional team and want to establish the "rules of engagement" and decision-making authority immediately to prevent future bureaucracy.
@@ -18,21 +22,20 @@ Keep in mind, we are isolating authority and responsibility not individuals. Cro
 
 ### Define "Where The Buck Stops"
 
-The most critical aspect of using a charter to achieve loose coupling is defining ownership. Gather the team and ask a hard question: "Do we have the authority to fix our own problems?" If a team passes the buck—saying, "I couldn't deploy because I'm waiting on Team B"—you have identified a coupling point.
+The most critical aspect of using a charter to achieve loose coupling is defining ownership. Gather the team and ask a hard question: "Do we have the authority to fix our own problems?" If a team find themselves using phrases like "I couldn't deploy because I'm waiting on Team B", you have identified a coupling point.
 
-Use the charter to explicitly list the boundaries of the team's service or product. State clearly that the team accepts full responsibility for the quality, availability, and deployment of their service. If the team currently relies on an external "DevOps" team to deploy, the charter should outline the goal of absorbing that capability so the buck stops with the team. By shrinking the circle of responsibility to the 5-8 people in the room, you make the system debuggable; if there is an error, the solution lies within the team, not in a ticket queue.
+Use the charter to explicitly list the boundaries of the team's service or product. State clearly that the team accepts full responsibility for the quality, availability, and deployment of their service. If the team currently relies on an external "DevOps" team to deploy, the charter should outline the goal of absorbing that capability so the buck stops with the team. By shrinking the circle of responsibility to the 3-8 people in the room, you make your team debuggable. If there is an inefficiency, the solution lies within the team, not in a ticket queue.
 
 ### Draft the Social and Technical Contract
 
-Once ownership is defined, outline how the team will execute that responsibility. This section of the charter covers the "how": communication norms, meeting cadences, conflict resolution and technical interfaces.
+Once ownership is defined, outline how the team will execute that responsibility. This section of the charter covers the "how" (ex: communication, norms, meeting cadences, conflict resolution, technical interfaces).
 
 Document the team's "API" to the rest of the organization. How should other teams request work or data from you? To prevent interruptions and tightness, define standard communication channels (e.g., specific Slack channels, issue trackers, or code contracts). Establishing these ground rules reduces the need for fine-grained, constant communication with outsiders, allowing the team to focus on their independent work streams. Treat this document as a living artifact. It can be updated as the team evolves.
 
 ## Lessons From The Field
 
 - **The DevOps Bottleneck:** In many organizations, developers claim they are blocked because "only the DevOps team has authority to deploy." While this may be the current rule, it creates a lack of responsibility. When authority and responsibility are given to the team, it enables faster development and faster recovery.
-- **Debugging the Team:** It is significantly easier to identify the root cause of a failure when the responsibility is contained within a team rather than spread across a department. 
-- **Automating the Contract:** One team that had both support responsibilities and stream aligned responsibilities used slack workflows and restricted slack channels to effectively balance their support role without getting overwhelmed by support tickets and being unable to fulfill their stream aligned tasks.
+- **Automating the Contract:** One team, that had both support responsibilities and stream aligned responsibilities, used slack workflows and restricted slack channels to effectively balance their support role without getting overwhelmed by support tickets and being unable to fulfill their stream aligned tasks.
 
 ## Deciding to Polish or Pitch
 
