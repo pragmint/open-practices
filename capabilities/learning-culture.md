@@ -48,7 +48,7 @@ The following is a curated list of supporting practices to consider when looking
 
 Pair programming sessions facilitate collaboration, real-time code review, and knowledge sharing among developers. By working in pairs, developers can catch issues early, ensure code is comprehensible, and spread knowledge across the team. This collaborative practice also accelerates the onboarding process for new team members while helping experienced developers refine their skills. Additionally, pair programming promotes adherence to coding standards, enhancing code consistency and readability.
 
-### [Do a Spike, or Timeboxed Experiment](/practices/do-a-spike.md)
+### Do a Spike, or Timeboxed Experiment
 
 Also referred to as building a proof-of-concept (POC), this practice involves setting aside a short period of time for your team to get hands-on experience building a solution as a way to reduce uncertainty. Spikes tend to last a couple of hours or days (at the most). They're a great way to try out a new practice, process, or tool. Given a spike's short duration, it's helpful to have an experienced member of the team lead these efforts to avoid teams from getting stuck for prolonged periods of time.
 
@@ -56,7 +56,7 @@ Also referred to as building a proof-of-concept (POC), this practice involves se
 
 Talking directly with users is an invaluable practice for gaining insights and understanding their needs and challenges. Field customer support calls. Host developer office hours. Run focus groups. Whatever method you use, engaging with users helps to gather real-world feedback, identify pain points, and uncover opportunities for improvement. By maintaining direct communication with users, you can ensure that your product or service aligns closely with expectations and foster a stronger connection between your team and your user base.
 
-### [Dogfood Your Systems](/practices/dogfood-your-systems.md)
+### Dogfood Your Systems
 
 Dogfooding your systems involves having your teams use the same products or systems that your users do, allowing them to experience the same pain points firsthand. This practice helps build empathy with users, identify issues early, and drive improvements based on direct "user" experience. By regularly using your own systems as customers would, your team can gain valuable insights and ensure that the product meets the highest standards of usability and performance.
 
@@ -66,7 +66,7 @@ SPIN is a question-asking framework that was originally developed for sales prof
 
 ### Introduce a Screen-Recording Tool
 
-By enabling richer, more intuitive communication, screen recording helps teams document intent more clearly, reduce back-and-forth, and improve the efficiency of handoffs without requiring ticket authors to spend a lot of time writing. A lightweight screen-recording tool like [Loom](https://www.loom.com) allows ticket authors to quickly demonstrate the issue or desired behavior using voice and visuals, reducing ambiguity without adding process overhead. 
+By enabling richer, more intuitive communication, screen recording helps teams document intent more clearly, reduce back-and-forth, and improve the efficiency of handoffs without requiring ticket authors to spend a lot of time writing. A lightweight screen-recording tool like [Loom](https://www.loom.com) allows ticket authors to quickly demonstrate the issue or desired behavior using voice and visuals, reducing ambiguity without adding process overhead.
 
 ## Adjacent Capabilities
 

@@ -22,16 +22,16 @@ Every situation is unique, so there's no one size fits all guidance for this sit
 
 ## How to Improve
 
-### [Do A Spike](/practices/do-a-spike.md)
+### Do A Spike
 
 Choose am important dependency and refactor your code to introduce abstractions such as interfaces or abstract classes to encapsulate interactions with that dependency.
 Rewrite the implementations to depend on these abstractions rather than the concrete third-party tools.
 
-### [Lead Workshops](/practices/lead-workshops.md)
+### Lead Workshops
 
 Start by identifying the dependencies your project currently has on third-party software, frameworks, or libraries. Make a list of these dependencies and assess how tightly coupled they are to your codebase.
 
-### [Start A Book Club](/practices/start-a-book-club.md)
+### Start A Book Club
 
 - [Clean Architecture Article](https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html)
 
@@ -48,13 +48,13 @@ This article discusses the Dependency Inversion Principle (DIP) in software desi
 The article explores the pitfalls and benefits of using mock objects in test-driven development (TDD), emphasizing the principle of "Don't Mock What You Don't Own."
 The author discusses how improper use of mocks can lead to unreliable tests and proposes alternatives, such as wrapping third-party libraries in domain-specific objects.
 
-### [Host A Viewing Party](/practices/host-a-viewing-party.md)
+### Host a Viewing Party
 
 - [Boundaries](https://www.destroyallsoftware.com/talks/boundaries)
 
 This presentation delves into the concept of using simple values rather than complex objects as the boundaries between components and subsystems in software development. It covers various topics such as functional programming, the relationship between mutability and object-oriented programming (OO), isolated unit testing with and without test doubles, and concurrency. Understanding and implementing these concepts can be immensely beneficial in managing dependencies with third parties.
 
-### [Host A Roundtable Discussion](/practices/host-a-roundtable-discussion.md)
+### Host A Roundtable Discussion
 
 * What are the key third-party dependencies we rely on in our projects?
 * Have we identified any single points of failure or critical dependencies on specific third-party tools?

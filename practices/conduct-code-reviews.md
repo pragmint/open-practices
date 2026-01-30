@@ -46,7 +46,7 @@ Furthermore, LLMs backed tools are able to provide automated feedback on code ch
 
 ## How to Improve
 
-### [Lead Workshops](/practices/lead-workshops.md)
+### Lead Workshops
 
 #### Guideline Creation Workshop
 
@@ -60,7 +60,7 @@ Create practical exercises and scenarios that encourage participants to offer he
 Highlight the importance of sharing observations, staying curious, and avoiding making judgments without understanding the author's intentions and thought process.
 Empower participants to receive feedback openly, emphasizing the importance of not taking criticism personally and avoid assuming negative intentions from the reviewer.
 
-### [Start A Book Club](/practices/start-a-book-club.md)
+### Start A Book Club
 
 #### [The power of feedback loops](https://lucamezzalira.medium.com/the-power-of-feedback-loops-f8e27e8ac25f)
 
@@ -91,7 +91,7 @@ The Conduct Code Reviews practice significantly strengthens the Code Maintainabi
 
 The Conduct Code Reviews practice supports the Test Automation DORA capability by ensuring code changes adhere to quality standards, catching potential issues early, and enforcing consistent coding practices. This promotes a robust suite of automated tests, prevents regression errors, and maintains smooth continuous integration processes. By fostering collaboration and identifying gaps in test coverage, code reviews enhance software reliability and stability, directly contributing to effective test automation.
 
-### [Host A Roundtable Discussion](/practices/host-a-roundtable-discussion.md)
+### Host A Roundtable Discussion
 
 * Do our reviewers have a clear understanding of the broader context surrounding code changes, including user requirements and project goals?
 * Are there opportunities for reviewers to engage in pair programming or collaborative discussions with developers to gain deeper insights into the code being reviewed?

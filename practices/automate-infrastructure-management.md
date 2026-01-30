@@ -36,7 +36,7 @@ While IaC inherently documents infrastructure setups, additional documentation o
 
 ## How to Improve
 
-### [Do A Spike](/practices/do-a-spike.md)
+### Do A Spike
 
 #### IaC Tool Comparison
 
@@ -47,13 +47,13 @@ Compare at least two IaC tools (e.g., Terraform vs. Ansible) by setting up a sim
 Integrate your IaC setup with a CI/CD pipeline (using Jenkins, GitLab CI, or GitHub Actions) to automate the deployment of infrastructure changes.
 Learn how automation in deployment processes reduces manual errors and speeds up delivery times.
 
-### [Lead Workshops](/practices/lead-workshops.md)
+### Lead Workshops
 
 #### Immutable Infrastructure Deployment
 
 Deploy a set of infrastructure components, then simulate a "disaster" by destroying them. Re-deploy using only your IaC scripts. Gain confidence in the immutability and recoverability of your infrastructure through IaC practices.
 
-### [Host A Roundtable Discussion](/practices/host-a-roundtable-discussion.md)
+### Host A Roundtable Discussion
 
 ####  State of you Automation
 
@@ -77,7 +77,7 @@ Deploy a set of infrastructure components, then simulate a "disaster" by destroy
 * Think about the level of collaboration between your development, operations, and security teams in managing and evolving your IaC strategy.
 * Is there a culture of shared responsibility and knowledge sharing, or are silos hindering your progress?
 
-### [Start A Book Club](/practices/start-a-book-club.md)
+### Start A Book Club
 
 #### [Codify your infrastructure so it can also be version controlled](https://dzone.com/articles/secure-terraform-delivery-pipeline-best-practices)
 

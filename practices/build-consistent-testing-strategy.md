@@ -36,7 +36,7 @@ With the rise of automation, there is a misconception that manual testing is no 
 
 ## How to Improve
 
-### [Host A Roundtable Discussion](/practices/host-a-roundtable-discussion.md)
+### Host A Roundtable Discussion
 
 #### Evaluate Current Testing Strategy
 
@@ -48,7 +48,7 @@ After implementing changes, reassess after a few sprints to measure improvements
 
 <!-- workshop  -->
 
-### [Lead a Workshop](/practices/lead-a-workshop.md)
+### Lead a Workshop
 
 #### Develop a Testing Strategy Document
 
@@ -81,7 +81,7 @@ Organize workshops or knowledge-sharing sessions where team members can learn ab
 Encourage the team to share their experiences and tips.
 Track how this knowledge transfer impacts the quality and consistency of your testing efforts.
 
-### [Host A Roundtable Discussion](/practices/host-a-roundtable-discussion.md)
+### Host A Roundtable Discussion
 
 #### Tailoring Your Testing Strategy
 

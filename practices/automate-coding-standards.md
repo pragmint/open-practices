@@ -29,7 +29,7 @@ The specific approach to incorporate automatic coding standards as part of the d
 
 ## How to Improve
 
-### [Start A Book Club](/practices/start-a-book-club.md)
+### Start A Book Club
 
 - [Automate Your Coding Standard](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_04)
 
@@ -43,11 +43,11 @@ It recommends a gradual approach, utilizing auto-fix capabilities wherever possi
 Also proposes secondary lint configuration for new rules, applied only to modified files via a pre-commit hook.
 This method, inspired by the Boy Scout Rule of leaving code better than one found it.
 
-### [Do A Spike](/practices/do-a-spike.md)
+### Do A Spike
 
 Implement what you learned in the article [Automate Your Coding Standard](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_04) with a project or module of your codebase.
 
-### [Host A Roundtable Discussion](/practices/host-a-roundtable-discussion.md)
+### Host A Roundtable Discussion
 
 * Are our automated coding standards tools customized to reflect our specific coding practices and project needs, or are we using a one-size-fits-all approach?
 * Do team members understand the reasons behind certain coding rules?

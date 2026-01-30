@@ -44,7 +44,7 @@ Recognizing and addressing documentation decay is a continuous effort.
 Avoiding knowledge silos where only certain team members know how to update documentation is crucial for consistency.
 Ensuring that knowledge and responsibility are shared across the team prevents bottlenecks.
 
-### [Lead Workshops](/practices/lead-workshops.md)
+### Lead Workshops
 
 #### Documentation Audience Analysis
 
@@ -54,7 +54,7 @@ Conduct an analysis of your documentation's audience. Identify the different gro
 
 Host a workshop with members from different teams (development, QA, support, etc.) to collaboratively review and update sections of the documentation. This will help identify inconsistencies and gaps from diverse perspectives and foster a shared responsibility for documentation.
 
-### [Dogfood Your Systems](/practices/dogfood-your-systems.md)
+### Dogfood Your Systems
 
 #### Documentation Usability Testing
 
@@ -66,12 +66,12 @@ Organize a usability testing session for your documentation with participants fr
 
 Organize regular knowledge-sharing sessions where team members can present on areas of the codebase or technical artifacts they are experts in. Use these sessions to fill gaps in the documentation and ensure knowledge is not siloed.
 
-### [Start A Book Club](/practices/start-a-book-club.md)
+### Start A Book Club
 
 ### [Two wrongs can make a right (and are difficult to fix)](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_86)
 Underscores the complexity of software development where two mistakes might cancel each other out, making them harder to identify and fix. It highlights the importance of thorough testing and documentation to prevent and resolve such issues effectively.
 
-### [Host A Roundtable Discussion](/practices/host-a-roundtable-discussion.md)
+### Host A Roundtable Discussion
 
 #### Alignment with Development Processes
 

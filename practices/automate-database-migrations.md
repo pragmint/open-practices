@@ -27,7 +27,7 @@ When considering migrations for NoSQL databases, it's essential to embrace schem
 
 ## How to Improve
 
-### [Lead Workshops](/practices/lead-workshops.md)
+### Lead Workshops
 
 #### Create a Simple Migration Script
 
@@ -41,7 +41,7 @@ Understand the rollback process by writing a script that undoes a migration. Usi
 
 Gain experience with complex migrations involving data transformations. Write a migration script that alters an existing table by adding a new column. Populate the new column with data transformed from existing columns (e.g., concatenating two columns into a new one). Apply the migration and verify the data transformation was successful.
 
-### [Start A Book Club](/practices/start-a-book-club.md)
+### Start A Book Club
 
 ### [Evolutionary Database Design](https://martinfowler.com/articles/evodb.html)
 
@@ -51,7 +51,7 @@ This foundational article by Martin Fowler discusses the principles and practice
 
 This issue is an extensive guide on the process of migration. You can use it as a blueprint when preparing and executing migrations.
 
-### [Host A Roundtable Discussion](/practices/host-a-roundtable-discussion.md)
+### Host A Roundtable Discussion
 
 ## Introspective Questions
 

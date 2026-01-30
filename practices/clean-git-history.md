@@ -36,14 +36,14 @@ While finding the right commit size should always be a judgement call, it may ma
 
 ## How to Improve
 
-### [Lead A Demonstration](/practices/lead-a-demonstration.md)
+### Lead A Demonstration
 
 #### Git Bisect Debugging
 
 Introduce the git bisect tool and demonstrate its usage in identifying problematic commits.
 Set up a mock scenario where a bug is introduced in the codebase, and have team members use git bisect to pinpoint the exact commit causing the issue.
 
-### [Lead Workshops](/practices/lead-workshops.md)
+### Lead Workshops
 
 #### Commit Frequency Audit
 
@@ -52,7 +52,7 @@ Identify instances of both too frequent and too sparse commits.
 Based on this analysis, develop guidelines for when to commit changes, aiming for logical breakpoints or completion of significant functionality.
 Discuss as a team and adjust practices accordingly.
 
-### [Start A Book Club](/practices/start-a-book-club.md)
+### Start A Book Club
 
 ### [Keep a Clean Git History](https://simplabs.com/blog/2021/05/26/keeping-a-clean-git-history/)
 Offers guidance on maintaining a clean Git commit history, emphasizing practices like squashing similar commits, crafting clear commit messages, and organizing changes logically to make the project's history navigable and understandable, crucial for effective code reviews and project oversight.
@@ -63,7 +63,7 @@ Advocates for the disciplined management of Git history through methods like fea
 ### [Two Wrongs Can Make a Right (And Are Difficult to Fix)](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_86)
 Details strategies for properly amending Git history issues, such as errant commits or merge mistakes, without exacerbating problems. Includes practical advice and Git command examples for correcting history efficiently and effectively, focusing on common Git missteps and the complexities of rectifying them.
 
-### [Host A Roundtable Discussion](/practices/host-a-roundtable-discussion.md)
+### Host A Roundtable Discussion
 
 #### Commit Message Clarity and Relevance
 

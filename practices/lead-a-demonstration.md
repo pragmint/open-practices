@@ -38,19 +38,19 @@ Gather feedback and refine future demos for better effectiveness and stakeholder
 
 ## Related Practices
 
-### [Host A Roundtable Discussion](/practices/host-a-roundtable-discussion.md)
+### Host A Roundtable Discussion
 
 If your Q&A session runs long, you may want to schedule a roundtable discussion on the topcis your demonstration covered. That way attendees get more chances to play around with the ideas in their heads.
 
-### [Lead Workshops](/practices/lead-workshops.md)
+### Lead Workshops
 
 It may be a good idea to cover your topic with a workshop following a presentation / demonstration. Doing so will increase the chances that your ideas will be applied by the people you're trying to impart knowledge onto.
 
-### [Host A Viewing Party](/practices/host-a-viewing-party.md)
+### Host a Viewing Party
 
 If you or someone else has already recorded a demonstration that adequately covers the topics you wish to share, you can run a watch party instead of giving the presentation.
 
-### [Start A Community Of Practice](/practices/start-a-community-of-practice.md)
+### Start A Community Of Practice
 
 Finding or starting relevant Communities of Practice can be a great place to lead a demonstration. The audience has already self selected themselves to join with the hopes of learning.
 

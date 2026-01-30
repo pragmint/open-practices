@@ -56,9 +56,9 @@ The fast feedback loop allows for quick identification and resolution of any iss
 
 ## How to Improve
 
-### [Lead A Demonstration](/practices/lead-a-demonstration.md)
+### Lead A Demonstration
 
-### [Lead Workshops](/practices/lead-workshops.md)
+### Lead Workshops
 
 #### Incremental and Frequent Refactoring
 
@@ -87,7 +87,7 @@ Version control tracks code changes over time, facilitating collaboration and re
 Refactoring improves code structure without altering behavior.
 Together, they enable teams to systematically enhance code quality, with version control tracking and integrating improvements with confidence.
 
-### [Host A Roundtable Discussion](/practices/host-a-roundtable-discussion.md)
+### Host A Roundtable Discussion
 
 #### Understanding Refactoring
 

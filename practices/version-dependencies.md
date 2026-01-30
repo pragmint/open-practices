@@ -18,7 +18,7 @@ They monitor dependencies for new versions, and can automatically create pull re
 
 ## How to Improve
 
-### [Lead Workshops](/practices/lead-workshops.md)
+### Lead Workshops
 
 #### Audit Your Current Dependency Management
 
@@ -32,7 +32,7 @@ To review and potentially revise your current policies on updating dependencies.
 
 To simulate a "dependency hell" scenario to understand its impact and identify strategies for mitigation. Practical experience in managing complex dependency chains, leading to improved strategies for avoiding or dealing with dependency hell in real projects.
 
-### [Do A Spike](/practices/do-a-spike.md)
+### Do A Spike
 
 #### Implement Semantic Versioning on a Small Scale
 
@@ -42,13 +42,13 @@ To experiment with semantic versioning by applying it to a small, manageable por
 
 Lock mayor dependencies in your project and configure Dependabot or a similar tool, to generate PRs when new version of dependencies are published. Understand how automatic dependency update tools impact your work flow and the overall stability of the project.
 
-### [Start A Book Club](/practices/start-a-book-club.md)
+### Start A Book Club
 
 #### [Dependencies Belong in Version Control](https://www.forrestthewoods.com/blog/dependencies-belong-in-version-control/)
 
 This article explores the importance of including dependencies within version control systems to ensure consistency, reliability, and traceability in software development projects. It discusses the benefits and methodologies of version controlling dependencies, offering insights into best practices for managing software dependencies effectively.
 
-### [Host A Roundtable Discussion](/practices/host-a-roundtable-discussion.md)
+### Host A Roundtable Discussion
 
 #### How Effective Is Your Dependency Management?
 
