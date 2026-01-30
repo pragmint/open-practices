@@ -45,7 +45,7 @@ Generally, an overall score equal to or less than 3 means you'll likely gain a l
 
 The following is a curated list of supporting practices to consider when looking to improve your team's Work-in-Process Limits capability. While not every practice will be beneficial in every situation, this list is meant to provide teams with fresh, pragmatic, and actionable ideas to support this capability.
 
-### Visualize All Work on a Storyboard
+### [Visualize All Work on a Storyboard](/practices/visualize-all-work-on-a-storyboard.md)
 
 Using a storyboard to represent all ongoing tasks helps make work visible, including hidden or auxiliary tasks like meetings or production support. This visualization allows the team to see the full workload and better manage WIP, ensuring that prioritization is based on complete information. The benefit is clearer communication and better identification of bottlenecks across the process.
 
