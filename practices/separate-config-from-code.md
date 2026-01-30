@@ -18,7 +18,7 @@ Allow local overrides of configuration values and provide developers with a blue
 
 ## How to Improve
 
-### [Lead Workshops](/practices/lead-workshops.md)
+### Lead Workshops
 
 #### Review and Identify Configuration in Version Control
 
@@ -28,7 +28,7 @@ Audit your current repositories to identify instances of configuration or sensit
 
 Simulate a process for managing changes to configuration data that involves multiple environments. Include steps for reviewing, approving, and applying configuration changes. Assess the impact on deployment times, security, and team collaboration.
 
-### [Do A Spike](/practices/do-a-spike.md)
+### Do A Spike
 
 #### Implement Environment-Specific Configuration Files
 
@@ -38,7 +38,7 @@ Create separate configuration files for different environments (development, sta
 
 Explore and integrate a secure configuration management solution, such as HashiCorp Vault or AWS Secrets Manager. Evaluate the effectiveness of this solution in improving security and flexibility compared to storing sensitive data in version control.
 
-### [Start A Book Club](/practices/start-a-book-club.md)
+### Start A Book Club
 
 #### [The Twelve-Factor App - Config](https://12factor.net/config)
 This section of the Twelve-Factor App methodology emphasizes the importance of separating configuration from code. It advocates for storing config in the environment to improve security and adaptability across various deployment environments, offering foundational insights for efficient configuration management.
@@ -46,7 +46,7 @@ This section of the Twelve-Factor App methodology emphasizes the importance of s
 #### [97 Things Every Programmer Should Know - Store Configurations in the Environment](https://github.com/97-things/97-things-every-programmer-should-know/tree/master/en/thing_61)
 A concise guide that underscores the significance of externalizing configuration, highlighting how this practice enhances application security, simplifies deployment, and supports scalability. It provides actionable advice for developers to implement this best practice effectively.
 
-### [Host A Roundtable Discussion](/practices/host-a-roundtable-discussion.md)
+### Host A Roundtable Discussion
 
 #### Protecting Sensitive Configuration
 

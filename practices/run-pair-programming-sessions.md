@@ -33,9 +33,9 @@ Teams must use suitable collaboration tools (for example, Visual Studio Live Sha
 
 ## Gaining Traction
 
-The following actions will help your team implement this practice. 
+The following actions will help your team implement this practice.
 
-### [Host a Viewing Party](/practices/host-a-viewing-party.md)
+### Host a Viewing Party
 
 #### [Async Code Reviews Are Chocking Your Company’s Throughput](https://www.youtube.com/watch?v=ZlLZEQQBcFg)
 
@@ -45,7 +45,7 @@ Engineer Dragan Stepanovic discusses his analysis of thousands of PRs across var
 
 Engineer Elizabeth Engelman talks about how mismatches in personality, learning style, and experience levels can create challenges while pair programming.
 
-### [Start a Book Club](/practices/start-a-book-club.md)
+### Start A Book Club
 
 #### [The power of feedback loops](https://lucamezzalira.medium.com/the-power-of-feedback-loops-f8e27e8ac25f)
 
@@ -63,7 +63,7 @@ Ultimately, Joshua's article champions simplicity in coding solutions.
 
 This article, co-authored by faculty from North Carolina State University and the University of Utah, focuses on the benefits of pair programming. Based on anecdotal evidence and structured experiments, the authors argue that pair programming leads to higher-quality code, faster development, and increased programmer satisfaction. The article presents data from professional programmers and students, showing that pair programming is more efficient despite initial skepticism. It also highlights pair programming's role in the Extreme Programming (XP) methodology, emphasizing its effectiveness across all levels of programming skill.
 
-### [Facilitate a Roundtable Discussion](/practices/host-a-roundtable-discussion.md)
+### Facilitate a Roundtable Discussion
 
 Below are suggestions for topics and prompts you could explore with your team during a roundtable discussion.
 
@@ -85,13 +85,13 @@ Below are suggestions for topics and prompts you could explore with your team du
 * What tools and protocols do we have in place to address challenges associated with remote pair programming, such as communication barriers and time zone differences?
 * How do we ensure that team members are equipped with the necessary skills and resources to effectively engage in pair programming?
 
-### [Lead Workshops](/practices/lead-workshops.md)
+### Lead Workshops
 
 #### Trial Period
 
 To experiment with pair programming and evaluate its effects, start by pairing team members for a designated trial period, such as one or two weeks. Aim to pair individuals with mixed experience levels, if possible. Assign tasks to the pairs and rotate pairs frequently to encourage diverse collaboration. During each trial period, have one person in the driver role, actively writing code, while the other acts as the navigator, providing real-time feedback and suggestions. Encourage pairs to switch roles regularly. Monitor the outcomes by gathering feedback on code quality, productivity, and team satisfaction. Additionally, observe any improvements in knowledge sharing, problem-solving efficiency, and team cohesion.
 
-### [Run a Retrospective](/practices/host-a-retrospective.md)
+### Run a Retrospective
 
 #### Feedback Sessions
 

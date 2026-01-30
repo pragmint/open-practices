@@ -44,15 +44,15 @@ Focus on the current requirements and only introduce abstractions when there's a
 
 ## Gaining Traction
 
-The following actions will help your team implement this practice. 
+The following actions will help your team implement this practice.
 
-### [Host a Viewing Party](/practices/host-a-viewing-party.md)
+### Host a Viewing Party
 
 #### [Boundaries by Gary Bernhardt](https://www.destroyallsoftware.com/talks/boundaries)
 
 This talk explores the intricate dynamics between code boundaries and system architecture, illustrating how to create clean and maintainable code through effective separation of concerns. In particular, Gary introduces a way to use values as the boundaries between abstractions.
 
-### [Start a Book Club](/practices/start-a-book-club.md)
+### Start A Book Club
 
 #### [Clean Architecture by Robert C. Martin](https://www.goodreads.com/book/show/18043011-clean-architecture)
 
@@ -66,7 +66,7 @@ This book discusses how to find seams, add automated test coverage, and refactor
 
 This is similar to Feathers's book above, but it covers the content from a first-principles standpoint.
 
-### [Facilitate a Roundtable Discussion](/practices/host-a-roundtable-discussion.md)
+### Facilitate a Roundtable Discussion
 
 Below are suggestions for topics and prompts you could explore with your team during a roundtable discussion.
 
@@ -93,7 +93,7 @@ Below are suggestions for topics and prompts you could explore with your team du
 * What small, incremental changes can we make to start reducing coupling in these areas?
 * How do we ensure system stability while refactoring to reduce coupling?
 
-### [Do a Spike, or Timeboxed Experiment](/practices/do-a-spike.md)
+### Do a Spike, or Timeboxed Experiment
 
 * **Refactor**: Set some time aside to refactor a key component or set of components to reduce coupling. Present your findings to the team to see if committing those changes or making additional changes have a good potential return on investment.
 * **Audit Your Dependencies**: Use a [dependency analysis tool](https://markgacoka.medium.com/how-to-visualize-your-codebase-7c4c4d948141) to visualize the relationships between modules and components, and to identify highly coupled areas. Discuss why these dependencies exist.

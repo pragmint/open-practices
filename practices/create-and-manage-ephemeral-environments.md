@@ -28,13 +28,13 @@ In such cases, adopting a hybrid approach—integrating both ephemeral and persi
 
 ## How to Improve
 
-### [Start A Book Club](/practices/start-a-book-club.md)
+### Start A Book Club
 
 #### [What is an ephemeral environment?](https://webapp.io/blog/what-is-an-ephemeral-environment/)
 
 This article goes through the basics of ephemeral environments. It's a great resource for those new to the concept.
 
-### [Host A Roundtable Discussion](/practices/host-a-roundtable-discussion.md)
+### Host A Roundtable Discussion
 
 * In what ways do you anticipate ephemeral environments will simplify troubleshooting and debugging for your team?
 * Are most bugs easily reproducible?

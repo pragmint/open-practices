@@ -29,7 +29,7 @@ The above example shows how following SPIN can set the stage for the need before
 
 ## How to Improve
 
-### [Start A Book Club](/practices/start-a-book-club.md)
+### Start A Book Club
 
 - [SPIN Selling](https://www.amazon.com/SPIN-Selling-Neil-Rackham/dp/0070511136)
 

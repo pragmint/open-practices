@@ -29,11 +29,11 @@ None of those types of tests fit neatly into a traditional "coverage" check.
 ### Continuous Improvement
 
 Automating test coverage checks should not be a one-time setup but an ongoing process of refinement and improvement.
-Teams should regularly review and adjust coverage thresholds based on evolving project requirements, feedback from testing outcomes, and changes in software functionality.### [Host A Roundtable Discussion](/practices/host-a-roundtable-discussion.md)
+Teams should regularly review and adjust coverage thresholds based on evolving project requirements, feedback from testing outcomes, and changes in software functionality.### Host A Roundtable Discussion
 
 ## How to Improve
 
-### [Start A Book Club](/practices/start-a-book-club.md)
+### Start A Book Club
 
 #### [Test Coverage](https://martinfowler.com/bliki/TestCoverage.html)
 
@@ -42,7 +42,7 @@ He argues that while high test coverage percentages can highlight which parts of
 Fowler emphasizes that test coverage should be used alongside other techniques and metrics to assess the robustness of tests, and that focusing solely on coverage numbers can lead to superficial or inadequate testing.
 He advocates for a balanced approach that combines test coverage with thoughtful test design and evaluation to achieve meaningful software quality.
 
-### [Host A Roundtable Discussion](/practices/host-a-roundtable-discussion.md)
+### Host A Roundtable Discussion
 
 #### Tailoring and Adjusting Test Coverage
 
