@@ -74,7 +74,7 @@ After experimenting with this practice for **4-6 weeks**, bring the team togethe
 
 **Better Prioritization Decisions.** Conversations about what to work on next should become grounded in data rather than opinion. Stakeholders should understand trade-offs more clearly. The team should feel less reactive and more intentional about where effort goes.
 
-## Supporting Capabilities
+## Supported Capabilities
 
 ### [Work in Process Limits](/capabilities/work-in-process-limits.md)
 
