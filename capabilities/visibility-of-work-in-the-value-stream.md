@@ -62,10 +62,6 @@ Generally, an overall score equal to or less than 3 means you'll likely gain a l
 
 The following is a curated list of supporting practices to consider when looking to improve your team's Visibility of Work in the Value Stream capability. While not every practice will be beneficial in every situation, this list is meant to provide teams with fresh, pragmatic, and actionable ideas to support this capability.
 
-### Implement VSM Workshops
-
-Conduct regular VSM workshops involving representatives from each stage of the value stream. Map out both the current VSM and the ideal future-state VSM. Break down the value stream into clear process blocks and identify key metrics like lead time, process time, and percent complete and accurate (%C/A). DORA provided a great breakdown [here](https://dora.dev/guides/value-stream-management/).
-
 ### [Visualize All Work on a Storyboard](/practices/visualize-all-work-on-a-storyboard.md)
 
 A storyboard operationalizes your value stream map by tracking all work, planned and unplanned, as it flows from idea through delivery. Start with a VSM workshop to build shared understanding of how work moves through the system, then use the storyboard to make the day to day flow of work visible. This combination surfaces the data needed to identify and address bottlenecks.
