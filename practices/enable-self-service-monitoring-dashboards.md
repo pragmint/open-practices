@@ -1,4 +1,4 @@
-# Implement Symptom-Based Alerts
+# Enable Self-Service Monitoring Dashboards
 
 Symptom-based alerting focuses on notifying teams when a user-facing problem occurs—such as increased error rates or high latency—rather than alerting on every underlying cause or component failure. By prioritizing symptoms over causes, teams can significantly reduce alert fatigue and focus their attention on the issues that directly impact customer experience. This approach acknowledges that complex systems often have "noise" or transient failures that do not require immediate human intervention if the system remains functional.
 
