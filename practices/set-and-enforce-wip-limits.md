@@ -1,6 +1,6 @@
 # Set and Enforce Work-in-Process Limits
 
-Teams often have too much work in progress at once. This leads to long-lived branches, delayed code reviews, bottlenecks in QA, and constant context switching. When individuals juggle multiple tasks, cognitive load increases, and the time required to complete any single task expands significantly due to the cost of refocusing.
+When teams take on a large amount of work in progress at the same time, it can create longer-lived branches, delayed reviews, and bottlenecks in QA. Individuals who are balancing multiple tasks may experience higher cognitive load, which tends to stretch out completion time as attention is repeatedly shifted.
 
 Setting and enforcing work-in-process (WIP) limits helps teams stay focused, finish work already in motion, and reduce the overhead caused by task-switching. By artificially constraining the number of active items in a specific stage of the workflow, the team creates a "pull system" where new work is only started when there is capacity to handle it.
 
@@ -19,7 +19,7 @@ Implementing WIP limits changes the fundamental mechanics of how a team works. I
 
 ### Set Limits that Feel Ambitious
 
-When teams start by setting limits that feel ambitious, it forces them to make deliberate choices about what work matters most. The exact number depends on your team's context, but the goal is to find the sweet spot where teams feel focused but not hamstrung. A common starting calculation is to set the total WIP limit to `(Team Size * 2) - 1`. For a team of 4, try a limit of 7 active items across the board. If the limit is rarely hit, it is too high; if it is hit constantly without resolution, it is too low.
+When teams start by setting limits that feel ambitious, it forces them to make deliberate choices about what work matters most. The exact number depends on your team's context, but the goal is to find the sweet spot where teams feel focused but not hamstrung. A common starting point is to set your WIP limit to the size of the team + one. For a team of four, try a limit of five active items across the board. If the limit is rarely hit, it is too high; if it is hit constantly without resolution, it is too low.
 
 ### Finish Work Before Starting New Work
 
@@ -27,13 +27,12 @@ Adopt the mantra: "Stop starting, start finishing." When team members are blocke
 
 ### Visualize All Work
 
-Use a storyboard or dashboard tool to visualize all ongoing tasks, including hidden or auxiliary tasks like meetings, unplanned maintenance, or production support. When the board shows that a limit has been reached, treat it as a hard stop—no new work enters the system until something completes. This creates the pressure needed to finish what's started and forces the prioritization conversations that lead to better decisions.
+Use a storyboard or value stream map to visualize all ongoing tasks, including hidden or auxiliary tasks like meetings, unplanned maintenance, or production support. When the board shows that a limit has been reached, treat it as a hard stop—no new work enters the system until something completes. This creates the pressure needed to finish what's started and forces the prioritization conversations that lead to better decisions.
 
 ## Lessons From The Field
 
 - Teams often try to "game" the system by creating a "Blocked" or "Waiting" column with infinite capacity. This defeats the purpose; blocked work is still work in process and consumes mental energy. Keep blocked items in their active column to visualize the pain of the dependency.
 - Management may initially fear "idleness" if a developer cannot pull a new ticket because the limit is hit. It is crucial to explain that "slack" in the system is necessary for flow and that an idle developer should swarm to help a bottlenecked peer rather than starting new features.
-- A common pattern is realizing that the bottleneck isn't development, but Code Review or QA. WIP limits effectively highlight these stages, forcing the whole team to take responsibility for quality rather than throwing code over the wall.
 - WIP limits usually fail if they are not visualized. If the limit exists only in a policy document but not on the Jira board or physical wall, it will be ignored within a week.
 
 ## Deciding to Polish or Pitch
@@ -54,7 +53,7 @@ After experimenting with this practice for 2-3 weeks, bring the team together to
 
 ### Slow & Intangible
 
-**Improved Morale and Lower Stress**. Team members report feeling less overwhelmed and more satisfied by the frequency of actually completing tasks, rather than having many tasks permanently "in flight."
+**Improved Morale and Lower Stress**. Team members report feeling less overwhelmed and more satisfied by the frequency of actually completing tasks, rather than having many tasks permanently "in flight." Team members should also feel more supported by their peers, as they come in to swarm on blocked work more often.
 
 ## Supported Capabilities
 
