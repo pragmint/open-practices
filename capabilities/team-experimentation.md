@@ -73,6 +73,10 @@ Talking directly with users is an invaluable practice for gaining insights and u
 
 Dogfooding your systems involves having your teams use the same products or systems that your users do, allowing them to experience the same pain points firsthand. This practice helps build empathy with users, identify issues early, and drive improvements based on direct "user" experience. By regularly using your own systems as customers would, your team can gain valuable insights and ensure that the product meets the highest standards of usability and performance.
 
+### [Treat Broken Builds Like Outages](/practices/treat-broken-builds-like-outages.md)
+
+Treating broken builds like outages creates the stable foundation experimentation depends on. A consistently green build gives teams a safe baseline, making it clear whether failures come from a new experiment or from existing instability, and providing the confidence to try new ideas without compounding risk.
+
 ## Adjacent Capabilities
 
 The following capabilities will be valuable for you and your team to explore, as they are either:

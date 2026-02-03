@@ -85,6 +85,10 @@ It emphasizes balanced test coverage, integrates tests into CI pipelines for fas
 
 Automating test coverage checks ensures continuous and immediate feedback on code changes within the CI pipeline. This practice identifies untested code early, helping prevent bugs and regressions, and aligns with a consistent testing strategy. By maintaining realistic coverage thresholds for different modules, automating test coverage checks optimizes testing efforts, enhances collaboration between testers and developers, and ultimately improves software quality and stability throughout the delivery lifecycle.
 
+### [Treat Broken Builds Like Outages](/practices/treat-broken-builds-like-outages.md)
+
+Treating broken builds like outages means stopping work immediately to restore the build to a healthy state, rather than allowing failures to linger or be worked around. This discipline preserves trust in the delivery pipeline, shortens feedback loops, and ensures the system is always in a deployable state.
+
 ## Adjacent Capabilities
 
 Many of the other DORA Capabilities are pre-requisites for Continuous Delivery to be effective. If a team was to attempt Continuous Delivery without having those pre-requisites in a mature place, the risk of introducing costly errors into the system would inflate beyond the level that's acceptable for mature organizations. Those pre-requisite Capabilities include:

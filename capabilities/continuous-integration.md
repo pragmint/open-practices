@@ -59,7 +59,7 @@ Integrate Common Vulnerabilities and Exposures (CVE) and Common Weakness Enumera
 
 If the test suite takes too long to run, divide it into smaller, parallelized tests that can be executed simultaneously. This reduces the time required for CI builds, improving feedback speed and encouraging frequent integrations.
 
-### Treat Broken Builds Like Outages
+### [Treat Broken Builds Like Outages](/practices/treat-broken-builds-like-outages.md)
 
 Establish a rule that when the CI build breaks, fixing the build takes precedence over other work. This practice ensures a consistently stable main branch, builds trust in the CI process, and prevents technical debt from accumulating.
 
