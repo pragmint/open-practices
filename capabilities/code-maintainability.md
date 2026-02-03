@@ -94,6 +94,10 @@ Automating code analysis involves using tools to enhance code quality, consisten
 These tools meticulously scan the codebase to identify potential issues such as code smells, security vulnerabilities, and performance bottlenecks early in the development process.
 By integrating automated code analysis into version control systems, IDEs, and CI/CD pipelines, teams can receive immediate feedback on code changes, ensuring adherence to coding standards and best practices. This proactive approach reduces the cognitive load on developers, allowing them to focus on more complex tasks while maintaining a clean, modular, and easily comprehensible codebase.
 
+### [Run CVE and CWE Checks During the Build Process](/practices/run-cve-and-cwe-checks-durring-the-build-process.md)
+
+Running CVE and CWE checks during the build process helps teams detect known vulnerabilities and common weakness patterns before they are merged or deployed. By surfacing security and design issues early, teams reduce the need for risky, last-minute fixes and prevent the accumulation of hard-to-understand defensive code that degrades long-term maintainability.
+
 ### [Migrate to a Monorepo](/practices/migrate-to-monorepo.md)
 
 Migrating to a monorepo helps improve code maintainability by consolidating disparate services, libraries, and tooling into a single, cohesive codebase. This reduces inconsistencies in patterns and configuration, promotes the reuse of internal libraries, and enables atomic changes across related modules. Teams benefit from shared linting, testing, and build pipelines, which reduces duplication and drift. While monorepos introduce challenges of their own, when paired with strong modular boundaries and tooling like workspaces or task runners, they enable faster refactoring, clearer ownership, and more predictable scaling of development practices.

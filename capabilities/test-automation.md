@@ -61,6 +61,10 @@ Automating test coverage checks ensures continuous and immediate feedback on cod
 This practice identifies untested code early, helping prevent bugs and regressions, and aligns with a consistent testing strategy.
 By maintaining realistic coverage thresholds for different modules, automating test coverage checks optimizes testing efforts, enhances collaboration between testers and developers, and ultimately improves software quality and stability throughout the delivery lifecycle.
 
+### [Run CVE and CWE Checks During the Build Process](/practices/run-cve-and-cwe-checks-durring-the-build-process.md)
+
+Running CVE and CWE checks during the build process extends test automation beyond functional correctness to include security as a first-class, non-functional requirement. By treating vulnerability scans as automated tests that can fail the build, teams get fast, consistent feedback on risky dependencies and insecure patterns, ensuring security standards are enforced early and reliably rather than deferred to manual reviews or late-stage audits.
+
 ### [Host a Codebase Stewardship Mob](/practices/conduct-code-reviews.md)
 
 Code reviews allow team members to ensure that proposed code is functional and easy to maintain over time. This practice also promotes test automation, prevents regression errors, and maintains smooth CI processes. By providing feedback on readability, test coverage, and coding standards adherence, conducting code reviews improves the quality of the codebase and the stability of the software.
