@@ -71,6 +71,10 @@ Develop scripts that automate the entire deployment process, including environme
 
 To avoid having to manually verify systems are working in production after a deployment, incorporate tooling that flags anomalies in your system's various environments. Examples of such flags include: reporting spikes in compute or network resources, reporting new error-level log events, A/B testing two versions of a system with the same traffic, running automated user acceptance tests, and so on. Lower deployment pain equals higher well-being.
 
+### [Set and Enforce Work-in-Process Limits](/practices/set-and-enforce-wip-limits.md)
+
+Setting and enforcing WIP limits helps prevent chronic overload by ensuring teams don’t take on more work than they can reasonably handle at a sustainable pace. By limiting simultaneous demands, teams reduce context switching, lower stress, and create the slack needed to absorb unplanned work without burning people out.
+
 ## Adjacent Capabilities
 
 The following capabilities will be valuable for you and your team to explore, as they are either:

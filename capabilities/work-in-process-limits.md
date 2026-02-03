@@ -49,7 +49,7 @@ The following is a curated list of supporting practices to consider when looking
 
 Using a storyboard to represent all ongoing tasks helps make work visible, including hidden or auxiliary tasks like meetings or production support. This visualization allows the team to see the full workload and better manage WIP, ensuring that prioritization is based on complete information. The benefit is clearer communication and better identification of bottlenecks across the process.
 
-### Set and Enforce WIP Limits
+### [Set and Enforce WIP Limits](/practices/set-and-enforce-wip-limits.md)
 
 Start by setting limits that feel ambitious. This forces teams to make deliberate choices about what work matters most. The exact number depends on your team's context, but the goal is to find the sweet spot where teams feel focused but not hamstrung. Display your WIP limits prominently on your board or dashboard. When the limit is reached, treat it as a hard stop. No new work enters the system until something completes. This discipline creates the pressure needed to finish what's started and forces the prioritization conversations that lead to better decisions.
 

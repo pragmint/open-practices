@@ -89,6 +89,10 @@ Automating test coverage checks ensures continuous and immediate feedback on cod
 
 Treating broken builds like outages means stopping work immediately to restore the build to a healthy state, rather than allowing failures to linger or be worked around. This discipline preserves trust in the delivery pipeline, shortens feedback loops, and ensures the system is always in a deployable state.
 
+### [Set and Enforce Work-in-Process Limits](/practices/set-and-enforce-wip-limits.md)
+
+Setting and enforcing Work-in-Process (WIP) limits reduces the number of concurrent changes moving through the system, making deployments easier to reason about and safer to execute. By limiting unfinished work, teams shorten feedback loops, surface bottlenecks earlier, and reduce the risk that partially completed changes accumulate and destabilize continuous delivery.
+
 ## Adjacent Capabilities
 
 Many of the other DORA Capabilities are pre-requisites for Continuous Delivery to be effective. If a team was to attempt Continuous Delivery without having those pre-requisites in a mature place, the risk of introducing costly errors into the system would inflate beyond the level that's acceptable for mature organizations. Those pre-requisite Capabilities include:
