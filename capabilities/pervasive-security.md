@@ -39,7 +39,7 @@ Generally, an overall score equal to or less than 3 means you'll likely gain a l
 
 The following is a curated list of supporting practices to consider when looking to improve your team's Pervasive Security capability. While not every practice will be beneficial in every situation, this list is meant to provide teams with fresh, pragmatic, and actionable ideas to support this capability.
 
-### [Run CVE and CWE Checks During the Build Process](/practices/run-cve-and-cwe-checks-durring-the-build-process.md)
+### [Run CVE and CWE Checks During the Build Process](/practices/run-cve-and-cwe-checks-during-the-build-process.md)
 
 Add automated security checks to the continuous integration/continuous deployment (CI/CD) pipelines. This ensures that security is continuously assessed alongside functional and performance tests, catching issues early and at scale. Automated security testing reduces manual effort, helps detect vulnerabilities quickly, and keeps the codebase safer.
 

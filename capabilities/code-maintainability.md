@@ -94,7 +94,7 @@ Automating code analysis involves using tools to enhance code quality, consisten
 These tools meticulously scan the codebase to identify potential issues such as code smells, security vulnerabilities, and performance bottlenecks early in the development process.
 By integrating automated code analysis into version control systems, IDEs, and CI/CD pipelines, teams can receive immediate feedback on code changes, ensuring adherence to coding standards and best practices. This proactive approach reduces the cognitive load on developers, allowing them to focus on more complex tasks while maintaining a clean, modular, and easily comprehensible codebase.
 
-### [Run CVE and CWE Checks During the Build Process](/practices/run-cve-and-cwe-checks-durring-the-build-process.md)
+### [Run CVE and CWE Checks During the Build Process](/practices/run-cve-and-cwe-checks-during-the-build-process.md)
 
 Running CVE and CWE checks during the build process helps teams detect known vulnerabilities and common weakness patterns before they are merged or deployed. By surfacing security and design issues early, teams reduce the need for risky, last-minute fixes and prevent the accumulation of hard-to-understand defensive code that degrades long-term maintainability.
 
