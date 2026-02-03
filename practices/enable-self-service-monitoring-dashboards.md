@@ -1,6 +1,6 @@
 # Enable Self-Service Monitoring Dashboards
 
-In modern software environments, the speed of delivery often outpaces the ability of a centralized operations team to maintain relevant monitoring. When developers have to file tickets to see their own metrics, troubleshooting slows down and system visibility becomes a bottleneck. By enabling self-service monitoring dashboards, organizations empower individual teams to create, customize, and iterate on their own telemetry visualizations without gatekeepers.
+In modern software environments, the speed of delivery often outpaces the ability of a centralized operations team to maintain relevant monitoring. When developers have significant barriers see their own metrics, troubleshooting slows down and system visibility becomes a bottleneck. By enabling self-service monitoring dashboards, organizations empower individual teams to create, customize, and iterate on their own telemetry visualizations without gatekeepers.
 
 This practice involves providing a standardized platform—such as Grafana, Datadog, or New Relic—where teams are granted the autonomy to define their own Service Level Indicators (SLIs) and visualize them in real-time. This ensures that the people closest to the code are also the ones defining what "healthy" looks like for their specific services. When a deployment occurs or an incident arises, the team has immediate access to the high-fidelity data they need to make informed decisions.
 
