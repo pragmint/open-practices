@@ -57,7 +57,7 @@ The following is a curated list of supporting practices to consider when looking
 
 By instrumenting key parts of your application with telemetry data, teams gain real-time insights into usage patterns and performance bottlenecks. This gives them opportunities to prioritize changes that will have the greatest impact on the system.
 
-### Implement Symptom-Based Alerts
+### [Implement Symptom-Based Alerts](/practices/implement-symptom-based-alerts.md)
 
 Prioritize alerting on issues that either impact users directly or are strong indicators of future user impact. Avoid alerting on low-risk, self-healing, or purely internal anomalies unless they threaten to escalate. This helps reduce noise and ensures that teams focus their attention on incidents that matter most. By aligning alerts with user impact, teams can respond more effectively and improve mean time to restore (MTTR).
 

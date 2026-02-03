@@ -63,7 +63,7 @@ It’s easy to default to tracking what’s easy to count: tickets closed, lines
 
 A storyboard serves as a real-time visual display of all work across the team, including hidden work like production support, meetings, and unplanned requests. By making the full workload visible at a glance, teams can spot bottlenecks, track flow, and have grounded conversations about priorities. The board becomes the shared artifact that drives standups, planning, and retrospectives.
 
-### Set Work-in-Process Limits
+### [Set and Enforce Work-in-Process Limits](/practices/set-and-enforce-wip-limits.md)
 
 While setting work-in-progress (WIP) limits is a DORA capability, it is also a technique that is actionable. So, we're including it here as a supporting practice. Visually tracking and enforcing WIP limits prevents bottlenecks and helps to maintain a steady flow. By limiting the number of tasks that are actively worked on, teams can achieve greater focus, reduce context switching, and enjoy enhanced flow efficiency. This leads to faster and smarter software delivery.
 

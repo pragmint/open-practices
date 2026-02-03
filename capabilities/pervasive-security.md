@@ -6,7 +6,7 @@ Pervasive Security emphasizes integrating security practices into the daily work
 
 This section outlines common pitfalls, challenges, or limitations teams commonly encounter when applying this capability. The goal here is not to discourage you. Rather, the goal is to arm you with the appropriate context so that you can make an informed decision about when and how to implement the capability with your teams.
 
-### Pressure to Deliver Features  
+### Pressure to Deliver Features
 
 Developers are often measured and rewarded for feature delivery speed, with incentives to deliver often conflicting with security considerations. When security reviews or additional testing slow down delivery, developers face pressure to meet deadlines and avoid looking like they're underperforming. This can lead to resistance against security processes, rushed implementations that bypass security checks, or treating security requirements as optional overhead rather than essential quality gates. The tension between quick delivery and thorough security can create a culture where security becomes a burden rather than a shared responsibility.
 
@@ -39,7 +39,7 @@ Generally, an overall score equal to or less than 3 means you'll likely gain a l
 
 The following is a curated list of supporting practices to consider when looking to improve your team's Pervasive Security capability. While not every practice will be beneficial in every situation, this list is meant to provide teams with fresh, pragmatic, and actionable ideas to support this capability.
 
-### Automate Security Testing in CI/CD Pipelines
+### [Run CVE and CWE Checks During the Build Process](/practices/run-cve-and-cwe-checks-during-the-build-process.md)
 
 Add automated security checks to the continuous integration/continuous deployment (CI/CD) pipelines. This ensures that security is continuously assessed alongside functional and performance tests, catching issues early and at scale. Automated security testing reduces manual effort, helps detect vulnerabilities quickly, and keeps the codebase safer.
 
@@ -53,7 +53,7 @@ Practice systematic threat modeling during design phases to identify and mitigat
 
 ### Establish Security Metrics
 
-Define and track security metrics, including vulnerability density, time to remediation, and security test coverage. Use data to establish baselines, set targets, and monitor trends over time. These metrics provide visibility into the effectiveness of your security practices, help prioritize security investments, and enable teams to demonstrate security progress to stakeholders while identifying areas that need attention. 
+Define and track security metrics, including vulnerability density, time to remediation, and security test coverage. Use data to establish baselines, set targets, and monitor trends over time. These metrics provide visibility into the effectiveness of your security practices, help prioritize security investments, and enable teams to demonstrate security progress to stakeholders while identifying areas that need attention.
 
 ## Adjacent Capabilities
 

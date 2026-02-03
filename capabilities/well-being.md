@@ -63,13 +63,21 @@ Allocating time for fun and relationship-building fosters trust, collaboration, 
 
 When unplanned work, meetings, and production support stay invisible, teams experience hidden overload that leads to burnout. A storyboard makes all work visible, enabling honest conversations about capacity and sustainable pace. By surfacing what's actually consuming time, teams can push back on unrealistic expectations and protect their collective well-being.
 
-### Automate Deployment Scripts
+### [Automate Deployment Scripts](/practices/automate-deployment-scripts.md)
 
 Develop scripts that automate the entire deployment process, including environment preparation, package deployment, configuration, and post-deployment testing. By scripting these steps, you eliminate manual interventions, reduce the risk of human error, and lessen deployment pain. A repeatable and reliable deployment process can then be triggered with minimal effort. This enhances not only deployment speed and consistency but also employee well-being.
 
 ### Incorporate Anomaly-Detection Tooling
 
 To avoid having to manually verify systems are working in production after a deployment, incorporate tooling that flags anomalies in your system's various environments. Examples of such flags include: reporting spikes in compute or network resources, reporting new error-level log events, A/B testing two versions of a system with the same traffic, running automated user acceptance tests, and so on. Lower deployment pain equals higher well-being.
+
+### [Enable Self-Service Monitoring Dashboards](/practices/enable-self-service-monitoring-dashboards.md)
+
+Self-service monitoring dashboards reduce stress during incidents by giving engineers fast, direct access to the information they need to understand what’s happening in production. When teams don’t have to rely on others to surface metrics or explain system behavior, incident response becomes more controlled and predictable, lowering cognitive load and on-call fatigue.
+
+### [Set and Enforce Work-in-Process Limits](/practices/set-and-enforce-wip-limits.md)
+
+Setting and enforcing WIP limits helps prevent chronic overload by ensuring teams don’t take on more work than they can reasonably handle at a sustainable pace. By limiting simultaneous demands, teams reduce context switching, lower stress, and create the slack needed to absorb unplanned work without burning people out.
 
 ## Adjacent Capabilities
 

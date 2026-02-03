@@ -72,7 +72,7 @@ The following is a curated list of supporting practices to consider when looking
 
 Maintaining a clean Git history ensures a clear and comprehensible project history. Each commit should be concise and deployable. By making the revision history simple to understand and easy to traverse, the system becomes easier to deploy and less expensive to maintain. This practice facilitates better understanding, collaboration, troubleshooting, and rollbacks.
 
-### Automate Deployment Scripts
+### [Automate Deployment Scripts](/practices/automate-deployment-scripts.md)
 
 Develop scripts that automate the entire deployment process, including environment preparation, package deployment, configuration, and post-deployment testing. By scripting these steps, you eliminate manual interventions, reduce the risk of human error, and lessen deployment pain. A repeatable and reliable deployment process can then be triggered with minimal effort. This enhances not only deployment speed and consistency but also employee well-being.
 
@@ -84,6 +84,14 @@ It emphasizes balanced test coverage, integrates tests into CI pipelines for fas
 ### [Automate Test Coverage Checks](/practices/automate-test-coverage-checks.md)
 
 Automating test coverage checks ensures continuous and immediate feedback on code changes within the CI pipeline. This practice identifies untested code early, helping prevent bugs and regressions, and aligns with a consistent testing strategy. By maintaining realistic coverage thresholds for different modules, automating test coverage checks optimizes testing efforts, enhances collaboration between testers and developers, and ultimately improves software quality and stability throughout the delivery lifecycle.
+
+### [Treat Broken Builds Like Outages](/practices/treat-broken-builds-like-outages.md)
+
+Treating broken builds like outages means stopping work immediately to restore the build to a healthy state, rather than allowing failures to linger or be worked around. This discipline preserves trust in the delivery pipeline, shortens feedback loops, and ensures the system is always in a deployable state.
+
+### [Set and Enforce Work-in-Process Limits](/practices/set-and-enforce-wip-limits.md)
+
+Setting and enforcing Work-in-Process (WIP) limits reduces the number of concurrent changes moving through the system, making deployments easier to reason about and safer to execute. By limiting unfinished work, teams shorten feedback loops, surface bottlenecks earlier, and reduce the risk that partially completed changes accumulate and destabilize continuous delivery.
 
 ## Adjacent Capabilities
 

@@ -45,7 +45,7 @@ Generally, an overall score equal to or less than 3 means you'll likely gain a l
 
 The following is a curated list of supporting practices to consider when looking to improve your team's Deployment Automation capability. While not every practice will be beneficial in every situation, this list is meant to provide teams with fresh, pragmatic, and actionable ideas to support this capability.
 
-### Automate Deployment Scripts
+### [Automate Deployment Scripts](/practices/automate-deployment-scripts.md)
 
 Develop scripts that automate the entire deployment process, including environment preparation, package deployment, configuration, and post-deployment testing. By scripting these steps, you eliminate manual interventions and reduce the risk of human error. This leads to a repeatable and reliable deployment process that can be triggered with minimal effort, enhancing deployment speed and consistency.
 

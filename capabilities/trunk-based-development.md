@@ -8,7 +8,7 @@ This section outlines common pitfalls, challenges, or limitations teams commonly
 
 ### Automated Testing Must Be Fast and Reliable
 
-Trunk-based development relies on fast, automated tests to keep the main branch stable. Slow test suites create bottlenecks, delaying feedback and hurting productivity. Preferably, unit tests should run with a pre-commit hook to catch issues early, and all tests must run in the CI/CD pipeline to ensure stable integration. 
+Trunk-based development relies on fast, automated tests to keep the main branch stable. Slow test suites create bottlenecks, delaying feedback and hurting productivity. Preferably, unit tests should run with a pre-commit hook to catch issues early, and all tests must run in the CI/CD pipeline to ensure stable integration.
 
 ### Lengthy Approval Processes Can Counteract the Benefits
 
@@ -61,6 +61,10 @@ When teams can toggle features on or off, they can separate deployment from rele
 ### Branch by Abstraction to Integrate More Frequently
 
 Branch by Abstraction, a technique popularized by Martin Fowler, delivers a similar outcome as feature toggles. Teams typically prefer Branch by Abstraction when undertaking complex refactoring of legacy systems, extensive architectural changes, or replacing critical infrastructure where incremental transition is necessary. Feature toggles are meant to be short-lived, whereas Branch by Abstraction provides a path to permanently evolving the codebase without lingering conditional logic.
+
+### [Treat Broken Builds Like Outages](/practices/treat-broken-builds-like-outages.md)
+
+Treating broken builds like outages reinforces the expectation that trunk is always in a deployable state. By swarming immediately to fix broken builds, teams protect fast feedback loops and prevent small integration issues from compounding into systemic delays.
 
 ## Adjacent Capabilities
 
