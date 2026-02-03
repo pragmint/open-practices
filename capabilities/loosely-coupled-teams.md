@@ -55,9 +55,9 @@ Minimize direct dependencies on third-party services by using patterns such as a
 
 Reducing coupling between abstractions creates a modular and flexible codebase. Independent, well-defined components minimize unintended side effects, making the code easier to understand, modify, and test. This modularity ensures that changes in one part of the system do not disrupt others, preserving stability and reducing cognitive load on developers. Clear abstractions and minimal dependencies also strengthen documentation and collaboration, facilitating efficient onboarding and continuous improvement.
 
-### Document Your Team's Governance
+### [Create a Team Charter](/practices/create-a-team-charter.md)
 
-Document clear guidelines that define roles, responsibilities, decision-making processes, and escalation paths. By writing out your team's governance, you ensure that everyone understands how decisions are made, how responsibilities are allocated, and how potential conflicts are resolved. This clarity helps teams operate autonomously while ensuring alignment, even when teams are loosely coupled.
+Document clear guidelines that define roles, responsibilities, decision-making processes, and escalation paths. By writing out your team's charter, you ensure that everyone understands how decisions are made, how responsibilities are allocated, and how potential conflicts are resolved. This clarity helps teams operate autonomously while ensuring alignment, even when teams are loosely coupled.
 
 ## Adjacent Capabilities
 

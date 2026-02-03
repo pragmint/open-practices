@@ -53,6 +53,10 @@ Conduct regular audits of the organization's toolset to evaluate its effectivene
 
 Regularly allocate time for teams to experiment with new tools, such as through hackathons or innovation days. Encourage team members to test new technologies and assess their suitability for the organization's needs. This practice fosters a culture of experimentation and growth, which can lead to significant performance improvements and greater team engagement.
 
+### [Create a Team Charter](/practices/create-a-team-charter.md)
+
+Document clear guidelines that define roles, responsibilities, decision-making processes, and escalation paths. By writing out team charters, teams make autonomy explicit and bounded by clearly stating where they can decide independently, how decisions should be made, and when alignment or escalation is required. This reduces ambiguity and enables confident, accountable tool choices.
+
 ## Adjacent Capabilities
 
 The following capabilities will be valuable for you and your team to explore, as they are either:

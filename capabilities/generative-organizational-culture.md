@@ -61,7 +61,7 @@ After any incident or failure, organize a postmortem meeting where the focus is 
 
 ### Host Skip-Level 1:1s
 
-Skip-level 1:1s create a direct channel for information flow, regardless of one's status in the organization. They provide a safe space for employees to share concerns, ideas, and feedback with their manager's manager or another high-level leader. They also demonstrate to employees that their voices are valued, giving them a sense of empowerment and autonomy. The goal is to foster open communication and build trust across the organization. By listening to employees' concerns, leaders can identify and address potential issues before they escalate, reducing turnover and improving job satisfaction. Leaders can also offer guidance, mentorship, and opportunities for growth, aligning employees' goals with organizational objectives. 
+Skip-level 1:1s create a direct channel for information flow, regardless of one's status in the organization. They provide a safe space for employees to share concerns, ideas, and feedback with their manager's manager or another high-level leader. They also demonstrate to employees that their voices are valued, giving them a sense of empowerment and autonomy. The goal is to foster open communication and build trust across the organization. By listening to employees' concerns, leaders can identify and address potential issues before they escalate, reducing turnover and improving job satisfaction. Leaders can also offer guidance, mentorship, and opportunities for growth, aligning employees' goals with organizational objectives.
 
 ### Train Your Team To Have Crucial Conversations
 
@@ -86,6 +86,10 @@ Adopt tools and platforms that facilitate transparent and easy communication acr
 ### [Visualize All Work on a Storyboard](/practices/visualize-all-work-on-a-storyboard.md)
 
 Building a storyboard through a cross-functional VSM workshop creates space for team members to hear each other's challenges and see how their work connects. When developers learn what blocks QA, or product discovers how much time goes to incident response, empathy and trust grow. This shared understanding shifts the culture from finger-pointing to collaborative problem-solving.
+
+### [Create a Team Charter](/practices/create-a-team-charter.md)
+
+Document clear guidelines that define roles, responsibilities, decision-making processes, and escalation paths. By writing out team charters, coordination ambiguity gets reduced. Ambiguity is one of the biggest hidden killers of cooperation. When people know who owns what and how to engage each other, they're more likely to collaborate earlier and more often instead of escalating late or working around one another.
 
 ## Adjacent Capabilities
 

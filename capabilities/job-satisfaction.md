@@ -63,6 +63,10 @@ Allocating time for fun and relationship-building fosters trust, collaboration, 
 
 A crucial conversation is a high-stakes discussion where differing opinions and strong emotions must be handled carefully to achieve constructive outcomes. These conversations foster open communication, trust, and psychological safety, ensuring that concerns and conflicts are addressed directly. By promoting shared accountability and learning from mistakes, crucial conversations enhance collaboration and drive continuous improvement across teams.
 
+### [Create a Team Charter](/practices/create-a-team-charter.md)
+
+A team charter improves job satisfaction by making purpose, expectations, and decision authority explicit, which helps people understand how their work matters and where their judgment is trusted. That clarity reduces friction and defensiveness, protects time for improvement and learning, and makes feedback and trade-offs feel less personal. When people feel supported, empowered, and aligned around shared goals, they are more engaged and consistently able to do their best work.
+
 ## Adjacent Capabilities
 
 The following capabilities will be valuable for you and your team to explore, as they are either:
