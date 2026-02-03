@@ -55,7 +55,7 @@ By instrumenting key parts of your application with telemetry data, teams gain r
 
 Design alerts that focus on *observable symptoms* impacting users, rather than on specific causes. This helps reduce unnecessary noise and ensures that the most critical, user-facing issues receive prompt attention. By focusing on symptoms, teams can better prioritize responses and improve the mean time to restore (MTTR).
 
-### Enable Self-Service Monitoring Dashboards
+### [Enable Self-Service Monitoring Dashboards](/practices/enable-self-service-monitoring-dashboards.md)
 
 Allow teams to create, customize, and update their own monitoring dashboards based on evolving needs. Providing self-service tools encourages teams to quickly adapt to system changes and ensures that developers have the information they need to troubleshoot issues rapidly. This leads to faster identification and resolution of problems.
 

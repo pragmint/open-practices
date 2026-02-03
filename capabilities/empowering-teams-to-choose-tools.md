@@ -53,6 +53,10 @@ Conduct regular audits of the organization's toolset to evaluate its effectivene
 
 Regularly allocate time for teams to experiment with new tools, such as through hackathons or innovation days. Encourage team members to test new technologies and assess their suitability for the organization's needs. This practice fosters a culture of experimentation and growth, which can lead to significant performance improvements and greater team engagement.
 
+### [Enable Self-Service Monitoring Dashboards](/practices/enable-self-service-monitoring-dashboards.md)
+
+Self-service monitoring dashboards give teams direct control over how system health is observed and understood, without depending on a centralized team to create or modify views. By letting teams choose how to visualize and interrogate their telemetry within supported platforms, monitoring tools become an extension of the team's workflow rather than a fixed, externally imposed solution.
+
 ### [Create a Team Charter](/practices/create-a-team-charter.md)
 
 Document clear guidelines that define roles, responsibilities, decision-making processes, and escalation paths. By writing out team charters, teams make autonomy explicit and bounded by clearly stating where they can decide independently, how decisions should be made, and when alignment or escalation is required. This reduces ambiguity and enables confident, accountable tool choices.
