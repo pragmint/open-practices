@@ -27,8 +27,8 @@ Small introduction. 1 paragraph.
 ## Lessons From The Field
 
 2-6 bullet points. (use markdown dash syntax for unordered lists)
-- Anicdote 1
-- Anicdote 2
+- Anecdote 1
+- Anecdote 2
 - etc...
 
 ## Deciding to Polish or Pitch
@@ -36,9 +36,9 @@ Small introduction. 1 paragraph.
 <!-- 
 This section is about deciding whether the practice you have implemented as a company should be integrated into your workflow or whether it should be removed. It is built of a list of effects that should be seen after you have experimented with the practice.
 
-This section's sub-headings are categorical in stead of titles. Each sub heading has two parts, each with two options. The first part describes how long it will take for this benefit to start being seen (Fast vs Slow). Fast is counted in weeks and slow is counted in months. The second part describes whether the benefit is qualitative or quantitative, denoted as (Intangible vs Tangible).
+This section's sub-headings are categorical in stead of titles. Each sub heading has two parts, each with two options. The first part describes how long it will take for this benefit to start being seen (Fast vs Slow). Fast is counted in weeks and slow is counted in months. The second part describes whether the benefit is qualitative or quantitative, denoted as (Intangible vs Measurable).
 
-The following is an exmaple. 
+The following is an example. 
 
 Section titles can be duplicated.
 
