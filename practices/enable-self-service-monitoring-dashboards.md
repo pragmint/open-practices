@@ -1,8 +1,10 @@
 # Enable Self-Service Monitoring Dashboards
 
-Symptom-based alerting focuses on notifying teams when a user-facing problem occurs—such as increased error rates or high latency—rather than alerting on every underlying cause or component failure. By prioritizing symptoms over causes, teams can significantly reduce alert fatigue and focus their attention on the issues that directly impact customer experience. This approach acknowledges that complex systems often have "noise" or transient failures that do not require immediate human intervention if the system remains functional.
+In modern software environments, the speed of delivery often outpaces the ability of a centralized operations team to maintain relevant monitoring. When developers have to file tickets to see their own metrics, troubleshooting slows down and system visibility becomes a bottleneck. By enabling self-service monitoring dashboards, organizations empower individual teams to create, customize, and iterate on their own telemetry visualizations without gatekeepers.
 
-To implement this effectively, teams must transition to a self-service monitoring model. Developers should have the autonomy to define, create, and refine their own dashboards and alerting rules based on the evolving needs of their specific services. When teams own their telemetry, they are better equipped to distinguish between a "noisy neighbor" in the infrastructure and a genuine degradation in service quality, leading to faster troubleshooting and higher system reliability.
+This practice involves providing a standardized platform—such as Grafana, Datadog, or New Relic—where teams are granted the autonomy to define their own Service Level Indicators (SLIs) and visualize them in real-time. This ensures that the people closest to the code are also the ones defining what "healthy" looks like for their specific services. When a deployment occurs or an incident arises, the team has immediate access to the high-fidelity data they need to make informed decisions.
+
+Furthermore, self-service monitoring fosters a culture of accountability and continuous improvement. As teams evolve their services, their monitoring needs change; a self-service model allows dashboards to be "living documents" that adapt alongside the architecture. This rapid feedback loop shortens the Mean Time to Repair (MTTR) and helps teams catch regressions before they impact the end user, ultimately leading to more resilient systems.
 
 ## Supported Capabilities
 
