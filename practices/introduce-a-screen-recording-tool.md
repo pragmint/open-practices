@@ -37,7 +37,7 @@ Modify your issue tracker (e.g., Jira, GitHub Issues) templates to include an op
 
 After experimenting with this practice for 2-3 weeks, bring the team together to determine whether the following metrics and/or signals have changed in a positive direction:
 
-### Fast & Tangible
+### Fast & Measurable
 
 **Reduction in Clarification Meetings**. You should see a decrease in the number of "quick sync" calls required to understand a ticket or a bug report.
 
@@ -45,11 +45,11 @@ After experimenting with this practice for 2-3 weeks, bring the team together to
 
 **Developer Sentiment regarding Handoffs**. Team members should report feeling less frustrated by vague requirements and more confident when picking up tickets written by others.
 
-### Slow & Tangible
+### Slow & Measurable
 
 **Reduction in Cycle Time**. Over time, the clear context provided by video should result in tickets moving from "In Progress" to "Done" faster, with fewer loops back to "To Do" for clarification.
 
-### Slow & Tangible
+### Slow & Measurable
 
 **Fewer QA Rejections**. You should see a reduction in stories failing QA checks because the initial requirements and the resulting implementation are more tightly aligned through visual confirmation.
 
