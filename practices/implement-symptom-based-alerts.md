@@ -1,6 +1,6 @@
 # Implement Symptom-Based Alerts
 
-Traditional monitoring often focuses on specific causes, triggering alerts based on infrastructure metrics like high CPU usage or memory consumption. While these metrics are useful for debugging, they are often poor indicators of actual service health; a server running at high utilization might still be serving requests perfectly. Implementing symptom-based alerts shifts the focus to observable symptoms that directly impact the user, such as latency, error rates, and traffic volume.
+Traditional monitoring often focuses on specific causes, triggering alerts based on infrastructure metrics like high CPU usage or memory consumption. While these metrics are useful for debugging, they are often poor indicators of actual service health; a server running at high utilization might still be serving requests perfectly. Implementing symptom-based alerts shifts the focus to observable symptoms that directly impact (or lead to directly impacting) the user, such as latency, error rates, and traffic volume.
 
 By focusing on symptoms, teams ensure that alerts are tied to the user experience rather than internal anomalies. This distinction is critical for reducing alert fatigue. When engineers are paged only for issues that degrade the customer experience, trust in the monitoring system increases. This approach filters out low-risk, self-healing, or purely internal fluctuations that do not require immediate human intervention.
 
@@ -14,7 +14,7 @@ Symptom-based alerting is a specific implementation strategy that matures a team
 
 ### [Proactive Failure Notification](/capabilities/proactive-failure-notification.md)
 
-This practice ensures that notifications are actionable and timely by triggering only when the system behaves unexpectedly in a way that affects output. It prevents the team from becoming desensitized to alerts, ensuring that when a notification is sent, it acts as a genuine call to action for a service interruption.
+This practice ensures that notifications are actionable and timely by triggering only when the system behaves in a way that will affect or currently affects the user experience. It prevents the team from becoming desensitized to alerts, ensuring that when a notification is sent, it acts as a genuine call to action for a service interruption.
 
 ### [User-Centric Focus](/capabilities/user-centric-focus.md)
 
