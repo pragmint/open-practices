@@ -1,4 +1,4 @@
-# Store Configuration in its Own Repository
+# Version Control Your Configuration
 
 It’s often useful to separate application code, which defines behavior, from configuration, which adapts that behavior to a specific environment. By storing configuration files—such as environment variables, feature flags, and infrastructure definitions in a dedicated version control repository, teams create a "single source of truth" for the state of their systems. This practice, often referred to as the backbone of GitOps, allows operations and development teams to manage environment changes with the same rigor used for software development.
 
