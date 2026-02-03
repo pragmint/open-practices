@@ -19,10 +19,10 @@ Consider the descriptions below and score your team on this capability: score a 
 
 Don't worry if the description doesn't exactly match your situation. These descriptions are meant to be examples of situations that would qualify for the associated score.
 
-1. **The Feature Factory**: Teams focus on output volume and use AI to ship more features without validating user impact or feedback.
-2. **Reactive & Proxy-Led**: Teams rely on siloed feedback and manual hand-offs, using AI to accelerate ticket completion rather than user outcomes.
-3. **Integrated & Spec-Driven**: Teams use spec-driven development and direct user observation to ensure AI outputs are grounded in verified requirements.
-4. **User-Invested & Self-Correcting**: Teams treat AI as a discovery partner, using real-time user metrics and rapid prototyping to pivot toward maximum value.
+1. **The Feature Factory:** Teams focus on output volume and use AI to ship more features without validating user impact or feedback.
+2. **Reactive & Proxy-Led:** Teams rely on siloed feedback and manual hand-offs, using AI to accelerate ticket completion rather than user outcomes.
+3. **Integrated & Spec-Driven:** Teams use spec-driven development and direct user observation to ensure AI outputs are grounded in verified requirements.
+4. **User-Invested & Self-Correcting:** Teams treat AI as a discovery partner, using real-time user metrics and rapid prototyping to pivot toward maximum value.
 
 The number you selected represents your overall score for this capability. If you feel like your organization fits somewhere in between two scores, it's okay to use a decimal.
 
@@ -63,4 +63,3 @@ Once a team has a strong user-centric focus, they can more effectively engage in
 ### [Job Satisfaction](/capabilities/job-satisfaction.md) - Downstream
 
 DORA research indicates that a user-centric focus is a strong predictor of job satisfaction. Developers who see the direct impact of their work on real users and feel they are solving meaningful problems are typically more engaged, and overall team morale tends to be higher.
-

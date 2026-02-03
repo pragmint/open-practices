@@ -246,10 +246,10 @@ To improve in a capability, navigate to its page by either clicking on its title
 
 ### [User-Centric Focus](/capabilities/user-centric-focus.md)
 
-1. **The Feature Factory**: Teams focus on output volume and use AI to ship more features without validating user impact or feedback.
-2. **Reactive & Proxy-Led**: Teams rely on siloed feedback and manual hand-offs, using AI to accelerate ticket completion rather than user outcomes.
-3. **Integrated & Spec-Driven**: Teams use spec-driven development and direct user observation to ensure AI outputs are grounded in verified requirements.
-4. **User-Invested & Self-Correcting**: Teams treat AI as a discovery partner, using real-time user metrics and rapid prototyping to pivot toward maximum value.
+1. **The Feature Factory:** Teams focus on output volume and use AI to ship more features without validating user impact or feedback.
+2. **Reactive & Proxy-Led:** Teams rely on siloed feedback and manual hand-offs, using AI to accelerate ticket completion rather than user outcomes.
+3. **Integrated & Spec-Driven:** Teams use spec-driven development and direct user observation to ensure AI outputs are grounded in verified requirements.
+4. **User-Invested & Self-Correcting:** Teams treat AI as a discovery partner, using real-time user metrics and rapid prototyping to pivot toward maximum value.
 
 ### [Version Control](/capabilities/version-control.md)
 
