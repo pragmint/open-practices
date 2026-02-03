@@ -51,7 +51,7 @@ The following is a curated list of supporting practices to consider when looking
 
 By instrumenting key parts of your application with telemetry data, teams gain real-time insights into usage patterns, performance bottlenecks, and opportunities to prioritize impactful changes. By following the OpenTelemetry standard and suite of open-source tools to instrument your application will provide consistent, vendor-neutral telemetry that preserves long-term flexibility in tooling and cost management.
 
-### Implement Symptom-Based Alerts
+### [Implement Symptom-Based Alerts](/practices/implement-symptom-based-alerts.md)
 
 Design alerts that focus on *observable symptoms* impacting users, rather than on specific causes. This helps reduce unnecessary noise and ensures that the most critical, user-facing issues receive prompt attention. By focusing on symptoms, teams can better prioritize responses and improve the mean time to restore (MTTR).
 
