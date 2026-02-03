@@ -1,20 +1,16 @@
 # Enable Self-Service Monitoring Dashboards
 
-In modern software environments, the speed of delivery often outpaces the ability of a centralized operations team to maintain relevant monitoring. When developers have significant barriers see their own metrics, troubleshooting slows down and system visibility becomes a bottleneck. By enabling self-service monitoring dashboards, organizations empower individual teams to create, customize, and iterate on their own telemetry visualizations without gatekeepers.
+A self-service monitoring dashboard is one that teams can access, explore, and evolve independently, without relying on a centralized operations or analytics group. Developers should be able to view and adjust visualizations on demand, with data kept up to date through automated refreshes, and with interaction limited to safe, predefined controls such as filters and parameters. Exploration happens in the dashboard itself—there is no need to export, reshape, or request special access to the underlying data.
 
-This practice involves providing a standardized platform—such as Grafana, Datadog, or New Relic—where teams are granted the autonomy to define their own Service Level Indicators (SLIs) and visualize them in real-time. This ensures that the people closest to the code are also the ones defining what "healthy" looks like for their specific services. When a deployment occurs or an incident arises, the team has immediate access to the high-fidelity data they need to make informed decisions.
+In practice, this means providing a shared monitoring platform where teams have permission to create and modify their own dashboards without approval workflows or gatekeepers. Teams should not need to file tickets to add a graph, adjust a query, or refine a visualization. The expectation is that teams _own_ their dashboards in the same way they own their services: they define what matters, keep it relevant, and evolve it as the system changes.
 
-Furthermore, self-service monitoring fosters a culture of accountability and continuous improvement. As teams evolve their services, their monitoring needs change; a self-service model allows dashboards to be "living documents" that adapt alongside the architecture. This rapid feedback loop shortens the Mean Time to Repair (MTTR) and helps teams catch regressions before they impact the end user, ultimately leading to more resilient systems.
+By removing friction from access and iteration, self-service dashboards ensure that the people closest to the code also have the fastest path to understanding system behavior. When deployments occur or incidents arise, teams can immediately explore high-fidelity telemetry in ways that match their mental model of the system. Over time, these dashboards become living artifacts that reflect how the service actually operates, supporting faster diagnosis, better decision-making, and a healthier on-call experience.
 
 ## Supported Capabilities
 
 ### [Monitoring and Observability](/capabilities/monitoring-and-observability.md)
 
-Symptom-based alerts are the practical application of a robust observability strategy, ensuring that telemetry data is actionable rather than overwhelming. By focusing on high-level symptoms, teams can use their monitoring tools to gain a clearer picture of overall system health and user impact.
-
-### [Proactive Failure Notification](/capabilities/proactive-failure-notification.md)
-
-This practice ensures that notifications are meaningful and timely, allowing teams to respond to failures before they escalate into major outages. By filtering out non-critical infrastructure fluctuations, the signal-to-noise ratio improves, making proactive responses more sustainable for the engineering team.
+Self-service dashboards are a practical expression of effective observability. When teams can freely explore metrics, logs, and traces through shared visualizations, telemetry becomes something they actively use to understand system behavior rather than a passive stream of data owned by another group.
 
 ### [Empowering Teams to Choose Tools](/capabilities/empowering-teams-to-choose-tools.md)
 
@@ -22,4 +18,4 @@ Providing self-service tools for monitoring allows teams to customize their aler
 
 ### [Well-being](/capabilities/well-being.md)
 
-Reducing "alert storms" and false positives directly impacts the mental health and work-life balance of on-call engineers. Symptom-based alerting prevents burnout by ensuring that engineers are only paged for incidents that truly require human intervention to restore service to the customer.
+Easy access to trustworthy dashboards reduces the stress and uncertainty that often accompany incidents and on-call work. When engineers can quickly answer their own questions without waiting on others, cognitive load drops and problem-solving becomes calmer, faster, and more sustainable over time.
