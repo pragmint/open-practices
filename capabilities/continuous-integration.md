@@ -51,7 +51,7 @@ Automatically execute unit tests, integration tests, and other automated tests a
 
 Configure linting tools to run automatically before code is committed to version control. This catches code style violations, potential bugs, and basic security issues early in the development process. Preventing these issues from reaching the main branch reduces the burden on the CI pipeline.
 
-### Run CVE and CWE Checks During the Build Process
+### [Run CVE and CWE Checks During the Build Process](/practices/run-cve-and-cwe-checks-durring-the-build-process.md)
 
 Integrate Common Vulnerabilities and Exposures (CVE) and Common Weakness Enumeration (CWE) scanning into the CI build process. This helps identify known security vulnerabilities in dependencies and common coding weaknesses that could lead to security issues, ensuring security is built into the development process from the start.
 
