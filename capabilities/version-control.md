@@ -61,6 +61,10 @@ The following is a curated list of supporting practices to consider when looking
 
 Implementing automatic database migrations ensures database schema changes are consistently versioned and managed alongside application code. This practice fosters an environment where code and database changes are integrated, tested, and deployed in a unified manner. The result is more reliable development workflows and an added layer of automation and traceability to database evolution.
 
+### [Automate Deployment Scripts](/practices/automate-deployment-scripts.md)
+
+Automating deployment scripts ensures the steps required to release software are explicitly defined, repeatable, and versioned alongside the rest of the system. This practice reduces manual error, improves reproducibility across environments, and makes it easier to trace, audit, and roll back deployments when issues arise.
+
 ### [Separate Config from Code](/practices/separate-config-from-code.md)
 
 This practice separates application code from operational configurations, which enhances security and deployment processes. It minimizes risks associated with data exposure, focusing version control efforts on code changes.

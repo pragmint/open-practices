@@ -72,7 +72,7 @@ The following is a curated list of supporting practices to consider when looking
 
 Maintaining a clean Git history ensures a clear and comprehensible project history. Each commit should be concise and deployable. By making the revision history simple to understand and easy to traverse, the system becomes easier to deploy and less expensive to maintain. This practice facilitates better understanding, collaboration, troubleshooting, and rollbacks.
 
-### Automate Deployment Scripts
+### [Automate Deployment Scripts](/practices/automate-deployment-scripts.md)
 
 Develop scripts that automate the entire deployment process, including environment preparation, package deployment, configuration, and post-deployment testing. By scripting these steps, you eliminate manual interventions, reduce the risk of human error, and lessen deployment pain. A repeatable and reliable deployment process can then be triggered with minimal effort. This enhances not only deployment speed and consistency but also employee well-being.
 
