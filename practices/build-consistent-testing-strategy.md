@@ -30,7 +30,7 @@ Additionally, end-to-end tests are prone to flakiness due to their reliance on m
 When these tests fail intermittently, it can be challenging to pinpoint the exact cause, leading to wasted time investigating false negatives or non-reproducible issues.
 To mitigate these challenges, it's advisable to tests with more targeted unit and integration tests that provide faster feedback on specific code functionalities, reducing the overall dependency on end-to-end testing.
 
-### Manual Testing is Obsolete
+### Manual Testing is Not Obsolete
 
 With the rise of automation, there is a misconception that manual testing is no longer necessary. However, manual exploratory testing plays a critical role in identifying unexpected issues and usability problems that automated tests might miss. Manual testers bring human intuition and creativity to the testing process, uncovering edge cases and user experience issues that automated scripts cannot replicate.
 
