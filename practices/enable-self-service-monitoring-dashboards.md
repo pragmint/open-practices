@@ -1,10 +1,19 @@
 # Enable Self-Service Monitoring Dashboards
 
-A self-service monitoring dashboard is one that teams can access, explore, and evolve independently, without relying on a centralized operations or analytics group. Developers should be able to view and adjust visualizations on demand, with data kept up to date through automated refreshes, and with interaction limited to safe, predefined controls such as filters and parameters. Exploration happens in the dashboard itself—there is no need to export, reshape, or request special access to the underlying data.
+A self-service monitoring dashboard is one that teams can access, explore, and evolve independently, without relying on a centralized operations or analytics group. Developers should be able to view and adjust visualizations on demand, with data kept up to date through automated refreshes, and with interaction limited to safe, pre-defined controls such as filters and parameters. Exploration happens in the dashboard itself—-there is no need to export, reshape, or request special access to the underlying data.
 
-In practice, this means providing a shared monitoring platform where teams have permission to create and modify their own dashboards without approval workflows or gatekeepers. Teams should not need to file tickets to add a graph, adjust a query, or refine a visualization. The expectation is that teams _own_ their dashboards in the same way they own their services: they define what matters, keep it relevant, and evolve it as the system changes.
+In practice, this means providing a shared monitoring platform where teams have permission to create and modify their own dashboards without approval workflows or gatekeepers. Teams should not need to file tickets to add a graph, adjust a query, or refine a visualization. The expectation is that teams _own_ their dashboards in the same way they own their services: They define what matters, keep it relevant, and evolve it as the system changes.
 
 By removing friction from access and iteration, self-service dashboards ensure that the people closest to the code also have the fastest path to understanding system behavior. When deployments occur or incidents arise, teams can immediately explore high-fidelity telemetry in ways that match their mental model of the system. Over time, these dashboards become living artifacts that reflect how the service actually operates, supporting faster diagnosis, better decision-making, and a healthier on-call experience.
+
+## When to Experiment
+
+## How to Gain Traction
+
+## Lessons From The Field
+
+## Deciding to Pitch or Polish
+After experimenting with this practice for **[timeframe]**, bring the team together to determine whether the following metrics and/or signals have changed in a positive direction.
 
 ## Supported Capabilities
 
@@ -18,4 +27,4 @@ Providing self-service tools for monitoring allows teams to customize their aler
 
 ### [Well-being](/capabilities/well-being.md)
 
-Easy access to trustworthy dashboards reduces the stress and uncertainty that often accompany incidents and on-call work. When engineers can quickly answer their own questions without waiting on others, cognitive load drops and problem-solving becomes calmer, faster, and more sustainable over time.
+Easy access to trustworthy dashboards reduces the stress and uncertainty that often accompany incidents and on-call work. When engineers can quickly answer their own questions without waiting on others, cognitive load drops and problem solving becomes calmer, faster, and more sustainable over time.

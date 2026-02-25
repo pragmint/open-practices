@@ -96,7 +96,7 @@ By integrating automated code analysis into version control systems, IDEs, and C
 
 ### [Run CVE and CWE Checks During the Build Process](/practices/run-cve-and-cwe-checks-during-the-build-process.md)
 
-Running CVE and CWE checks during the build process helps teams detect known vulnerabilities and common weakness patterns before they are merged or deployed. By surfacing security and design issues early, teams reduce the need for risky, last-minute fixes and prevent the accumulation of hard-to-understand defensive code that degrades long-term maintainability.
+Running checks for Common Vulnerabilities and Exposures (CVE) and Common Weakness Enumeration (CWE) during the build process helps teams detect known vulnerabilities and common weakness patterns before they are merged or deployed. By surfacing security and design issues early, teams reduce the need for risky, last-minute fixes and prevent the accumulation of hard-to-understand defensive code that degrades long-term maintainability.
 
 ### [Migrate to a Monorepo](/practices/migrate-to-monorepo.md)
 

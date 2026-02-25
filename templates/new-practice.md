@@ -12,9 +12,7 @@ Introduction. 2-4 paragraphs.
 
 ## How to Gain Traction
 
-<!-- This section can have 2-4 sub-headings -->
-
-Small introduction. 1 paragraph.
+<!-- This section can have 2-4 steps as sub-headings -->
 
 ### First Step Title
 
@@ -26,7 +24,7 @@ Small introduction. 1 paragraph.
 
 ## Lessons From The Field
 
-2-6 bullet points. (use markdown dash syntax for unordered lists)
+2-6 bullet points with real-world tips, words of advice/caution "from the field" (i.e., what you've observed when the practice is put in place). (use markdown dash syntax for unordered lists)
 - Anecdote 1
 - Anecdote 2
 - etc...
@@ -36,22 +34,30 @@ Small introduction. 1 paragraph.
 <!-- 
 This section is about deciding whether the practice you have implemented as a company should be integrated into your workflow or whether it should be removed. It is built of a list of effects that should be seen after you have experimented with the practice.
 
-This section's sub-headings are categorical in stead of titles. Each sub heading has two parts, each with two options. The first part describes how long it will take for this benefit to start being seen (Fast vs Slow). Fast is counted in weeks and slow is counted in months. The second part describes whether the benefit is qualitative or quantitative, denoted as (Intangible vs Measurable).
+This section's sub-headings are categorical instead of titles. Each sub-heading has two parts, each with two options. The first part describes how long it will take for this benefit to start being seen -- Fast vs Slow (fast is counted in weeks and slow is counted in months). The second part describes whether the benefit is qualitative or quantitative -- Intangible vs Measurable.
 
-The following is an example. 
+This is an example: https://github.com/pragmint/open-practices/blob/main/practices/perform-automated-code-analysis.md. 
 
 Section titles can be duplicated.
 
 -->
 
-<!-- Leave the following text exactly as is. -->
-After experimenting with this practice for 2-3 weeks, bring the team together to determine whether the following metrics and/or signals have changed in a positive direction:
+<!-- Leave the following text exactly as is, except for the bracketed duration, which can vary. -->
+After experimenting with this practice for [2-3 weeks], bring the team together to determine whether the following metrics and/or signals have changed in a positive direction.
+
+### Fast & Measurable
+
+**Title of benefit**. 2-4 sentences about the benefit.
+
+### Slow & Measurable
+
+**Title of benefit**. 2-4 sentences about the benefit.
 
 ### Fast & Intangible
 
 **Title of benefit**. 2-4 sentences about the benefit.
 
-### Slow & Tangible
+### Slow & Intangible
 
 **Title of benefit**. 2-4 sentences about the benefit.
 
@@ -59,9 +65,9 @@ After experimenting with this practice for 2-3 weeks, bring the team together to
 
 <!-- 
 
-This section will have 2-6 capabilities.
+This section will list 2-6 capabilities that are supported by the practice.
 
-The following must be form this list: ai-accessible-internal-data.md, clear-and-communicated-ai-stance.md, code-maintainability.md, continuous-delivery.md, continuous-integration.md, customer-feedback.md, database-change-management.md, deployment-automation.md, documentation-quality.md, empowering-teams-to-choose-tools.md, flexible-infrastructure.md, generative-organizational-culture.md, healthy-data-ecosystems.md, job-satisfaction.md, learning-culture.md, loosely-coupled-teams.md, monitoring-and-observability.md, monitoring-systems-to-inform-business-decisions.md, pervasive-security.md, platform-engineering.md, proactive-failure-notification.md, streamline-change-approval.md, team-experimentation.md, test-automation.md, test-data-management.md, transformational-leadership.md, trunk-based-development.md, user-centric-focus.md, version-control.md, visibility-of-work-in-the-value-stream.md, visual-management.md, well-being.md, work-in-process-limits.md, working-in-small-batches.md 
+The following must be from this list: ai-accessible-internal-data.md, clear-and-communicated-ai-stance.md, code-maintainability.md, continuous-delivery.md, continuous-integration.md, customer-feedback.md, database-change-management.md, deployment-automation.md, documentation-quality.md, empowering-teams-to-choose-tools.md, flexible-infrastructure.md, generative-organizational-culture.md, healthy-data-ecosystems.md, job-satisfaction.md, learning-culture.md, loosely-coupled-teams.md, monitoring-and-observability.md, monitoring-systems-to-inform-business-decisions.md, pervasive-security.md, platform-engineering.md, proactive-failure-notification.md, streamline-change-approval.md, team-experimentation.md, test-automation.md, test-data-management.md, transformational-leadership.md, trunk-based-development.md, user-centric-focus.md, version-control.md, visibility-of-work-in-the-value-stream.md, visual-management.md, well-being.md, work-in-process-limits.md, working-in-small-batches.md 
 
 -->
 

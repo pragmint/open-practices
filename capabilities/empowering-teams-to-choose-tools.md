@@ -4,6 +4,8 @@ This capability is about empowering teams to select the tools and technologies t
 
 ## Nuances
 
+This section outlines common pitfalls, challenges, or limitations teams commonly encounter when applying this capability. The goal here is not to discourage you. Rather, the goal is to arm you with the appropriate context so that you can make an informed decision about when and how to implement the capability with your teams.
+
 ### Balance Choice with Complexity
 
 It’s crucial to balance tool choice with the potential costs of acquisition, support, and added complexity that come with adding new tools to a tech stack.
@@ -59,7 +61,7 @@ Self-service monitoring dashboards give teams direct control over how system hea
 
 ### [Create a Team Charter](/practices/create-a-team-charter.md)
 
-Document clear guidelines that define roles, responsibilities, decision-making processes, and escalation paths. By writing out team charters, teams make autonomy explicit and bounded by clearly stating where they can decide independently, how decisions should be made, and when alignment or escalation is required. This reduces ambiguity and enables confident, accountable tool choices.
+Document clear guidelines that define roles, responsibilities, decision-making processes, and escalation paths. Writing a team charter means clearly stating where teams can decide independently, how decisions should be made, and when alignment or escalation is required. By doing this, Autonomy becomes explicit and bounded by the charter. This reduces ambiguity and enables confident, accountable tool choices.
 
 ## Adjacent Capabilities
 
