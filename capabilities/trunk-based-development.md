@@ -46,9 +46,9 @@ Pair programming can help teams maintain a high level of code quality and knowle
 
 The Clean Git History practice supports trunk-based development by encouraging small, focused commits that keep the main branch stable. Maintaining a clean, navigable commit history allows teams to minimize conflicts and simplify integration, which is essential for frequent merges. Ensuring each commit is deployable enables faster delivery cycles and aligns with the trunk-based philosophy of keeping the codebase in a consistently shippable state.
 
-### [Automated Coding Standards](/practices/automate-coding-standards.md)
+### [Automate Coding Standards](/practices/automate-coding-standards.md)
 
-The practice of Automated Coding Standards ensures consistent code quality, enabling frequent merges without delays. By automating style checks and basic quality validations, teams can streamline code reviews and maintain a clean, deployable main branch. This supports the fast-paced workflow essential to trunk-based development.
+Automating coding standards ensures consistent code quality, enabling frequent merges without delays. By automating style checks and basic quality validations, teams can streamline code reviews and maintain a clean, deployable main branch. This supports the fast-paced workflow essential to trunk-based development.
 
 ### [Build a Consistent Testing Strategy](/practices/build-consistent-testing-strategy.md)
 

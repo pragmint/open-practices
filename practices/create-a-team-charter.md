@@ -1,15 +1,15 @@
 # Create a Team Charter
 
-A Team Charter is a living document that outlines a team's purpose, goals, and working agreements. While often viewed as a project management artifact, a Team Charter is actually a critical architectural tool for implementing **loosely coupled teams**. Just as software services require well-defined APIs to interact without tight coupling, teams require well-defined human interfaces to collaborate without excessive coordination overhead.
+A *team charter* is a living document that outlines a team's purpose, goals, and working agreements. While often viewed as a project management artifact, a team charter is actually a critical architectural tool for implementing loosely coupled teams. Just as software services require well-defined APIs to interact without tight coupling, teams require well-defined human interfaces to collaborate without excessive coordination overhead.
 
-The DORA research indicates that high-performing teams can make large-scale changes without depending on fine-grained communication with people outside the team. A Team Charter facilitates this by making implicit norms explicit. It defines the team's "bounded context"—what they own, how they make decisions, and how other teams should interact with them. By establishing these ground rules, the charter reduces ambiguity, minimizes the need for constant synchronization meetings, and empowers the team to work autonomously.
+The DORA research indicates that high-performing teams can make large-scale changes without depending on fine-grained communication with people outside the team. A team charter facilitates this by making implicit norms explicit. It defines the team's "bounded context"—-what they own, how they make decisions, and how other teams should interact with them. By establishing these ground rules, the charter reduces ambiguity, minimizes the need for constant synchronization meetings, and empowers the team to work autonomously.
 
 ## When to Experiment
 
 - You are a Team Lead and your team members are frequently confused about who owns specific tasks or decision-making rights, leading to delays and conflicts.
 - You are a Product Owner and you notice that your team spends excessive time in "alignment meetings" with other teams rather than building features.
 - You are a Developer and you feel that the team lacks a shared identity or clear mission, resulting in disjointed efforts and context switching.
-- You are an Engineering Manager scaling up a new cross-functional team and need to establish immediate trust and psychological safety to accelerate the "forming and storming" phases.
+- You are an Engineering Manager scaling up a new cross-functional team and need to establish trust and psychological safety to accelerate the "forming and storming" phases.
 
 ## How to Gain Traction
 
@@ -25,28 +25,24 @@ A charter tucked away in a file folder is useless. Treat your charter as a produ
 
 ## Lessons From The Field
 
-- **The Living Document:** The most successful teams treat their charter as mutable. If a working agreement isn't working, they change it during the retrospective. A static charter quickly becomes irrelevant.
-- **Onboarding Accelerator:** Teams with clear charters report significantly faster onboarding times for new hires. The "unwritten rules" are written down, reducing anxiety and cognitive load for new members.
-- **The "No" Framework:** High-performing teams use their charter to protect their time. If a request falls outside the agreed-upon mission or scope defined in the charter, it provides a neutral, objective basis for saying "no" or "not now," preserving the team's focus.
-- **Conflict Resolution:** Teams that pre-decide how they will handle disagreements (e.g., "we vote," or "product owner decides") navigate friction much faster than teams that have to figure out the resolution process while in the middle of an argument.
+- *The Living Document* -- The most successful teams treat their charter as mutable. If a working agreement isn't working, they change it during the retrospective. A static charter quickly becomes irrelevant.
+- *Onboarding Accelerator* -- Teams with clear charters report significantly faster onboarding times for new hires. The "unwritten rules" are written down, reducing anxiety and cognitive load for new members.
+- *The "No" Framework* -- High-performing teams use their charter to protect their time. If a request falls outside the agreed-upon mission or scope defined in the charter, it provides a neutral, objective basis for saying "no" or "not now," preserving the team's focus.
+- *Conflict Resolution* -- Teams that pre-decide how they will handle disagreements (e.g., "we vote," or "product owner decides") navigate friction much faster than teams that have to figure out the resolution process while in the middle of an argument.
 
 ## Deciding to Polish or Pitch
 
-After experimenting with this practice for 2-3 weeks, bring the team together to determine whether the following metrics and/or signals have changed in a positive direction:
+After experimenting with this practice for **2-3 weeks**, bring the team together to determine whether the following metrics and/or signals have changed in a positive direction.
 
 ### Fast & Intangible
 
 **Clarity of Purpose**. Team members report a greater sense of alignment and less confusion regarding who is responsible for specific types of work or decisions.
 
-### Fast & Intangible
-
 **Improved Psychological Safety**. By explicitly defining norms and conflict resolution strategies, team members feel safer proposing ideas or raising concerns without fear of violating unwritten social codes.
 
-### Slow & Tangible
+### Slow & Measurable
 
-**Reduced Coordination Overhead**. A measurable decrease in the number of ad-hoc synchronization meetings or interruptions required to get work done, as the charter acts as a "contract" that answers common questions.
-
-### Slow & Tangible
+**Reduced Coordination Overhead**. There is a measurable decrease in the number of ad-hoc synchronization meetings or interruptions required to get work done, as the charter acts as a "contract" that answers common questions.
 
 **Increased Velocity**. As the team solidifies its boundaries and reduces external dependencies (or manages them better through defined agreements), the time from "code commit" to "deployment" should decrease due to fewer approval bottlenecks.
 
@@ -54,7 +50,7 @@ After experimenting with this practice for 2-3 weeks, bring the team together to
 
 ### [Loosely Coupled Teams](/capabilities/loosely-coupled-teams.md)
 
-A charter defines the boundaries and communication contracts of a team. It enables loose coupling by replacing fine-grained, ad-hoc coordination with explicit, agreed-upon interfaces for interaction and decision-making.
+A charter defines the boundaries and communication contracts of a team. It enables loose coupling by replacing fine-grained, ad-hoc coordination with explicit, agreed-upon interfaces for interaction and decision making.
 
 ### [Generative Organizational Culture](/capabilities/generative-organizational-culture.md)
 

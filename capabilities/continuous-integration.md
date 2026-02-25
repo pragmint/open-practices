@@ -53,7 +53,7 @@ Configure linting tools to run automatically before code is committed to version
 
 ### [Run CVE and CWE Checks During the Build Process](/practices/run-cve-and-cwe-checks-during-the-build-process.md)
 
-Integrate Common Vulnerabilities and Exposures (CVE) and Common Weakness Enumeration (CWE) scanning into the CI build process. This helps identify known security vulnerabilities in dependencies and common coding weaknesses that could lead to security issues, ensuring security is built into the development process from the start.
+Integrate scanning for Common Vulnerabilities and Exposures (CVE) and Common Weakness Enumeration (CWE) into the CI build process. This helps identify known security vulnerabilities in dependencies as well as common coding weaknesses that could lead to security issues. This practice ensures that security is built into the development process from the start.
 
 ### Parallelize Long-Running Tests
 

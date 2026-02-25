@@ -65,7 +65,7 @@ A crucial conversation is a high-stakes discussion where differing opinions and 
 
 ### [Create a Team Charter](/practices/create-a-team-charter.md)
 
-A team charter improves job satisfaction by making purpose, expectations, and decision authority explicit, which helps people understand how their work matters and where their judgment is trusted. That clarity reduces friction and defensiveness, protects time for improvement and learning, and makes feedback and trade-offs feel less personal. When people feel supported, empowered, and aligned around shared goals, they are more engaged and consistently able to do their best work.
+A team charter improves job satisfaction by making purpose, expectations, and decision authority explicit. This helps people understand how their work matters and where their judgment is trusted. That clarity reduces friction and defensiveness, protects time for improvement and learning, and makes feedback and trade-offs feel less personal. When people feel supported, empowered, and aligned around shared goals, they are more engaged and consistently able to do their best work.
 
 ## Adjacent Capabilities
 
