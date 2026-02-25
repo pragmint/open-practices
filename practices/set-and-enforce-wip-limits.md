@@ -1,8 +1,8 @@
 # Set and Enforce Work-in-Process Limits
 
-When teams take on a large amount of work in progress at the same time, it can create longer-lived branches, delayed reviews, and bottlenecks in QA. Individuals who are balancing multiple tasks may experience higher cognitive load, which tends to stretch out completion time as attention is repeatedly shifted.
+When teams take on a large amount of work at the same time, it can create longer-lived branches, delayed reviews, and bottlenecks in QA. Individuals who are balancing multiple tasks may experience higher cognitive load, which tends to stretch out completion time as attention is repeatedly shifted.
 
-Setting and enforcing work-in-process (WIP) limits helps teams stay focused, finish work already in motion, and reduce the overhead caused by task-switching. By artificially constraining the number of active items in a specific stage of the workflow, the team creates a "pull system" where new work is only started when there is capacity to handle it.
+Setting and enforcing work-in-process (WIP) limits helps teams stay focused, finish work already in motion, and reduce the overhead caused by task switching. By artificially constraining the number of active items in a specific stage of the workflow, the team creates a "pull system" where new work is only started when there is capacity to handle it.
 
 Ultimately, this practice shifts the team’s mindset from resource efficiency (keeping everyone busy) to flow efficiency (getting value to the customer). It encourages swarming on blocked items and exposes bottlenecks in the process that were previously hidden by a mountain of open tickets.
 
@@ -15,11 +15,11 @@ Ultimately, this practice shifts the team’s mindset from resource efficiency (
 
 ## How to Gain Traction
 
-Implementing WIP limits changes the fundamental mechanics of how a team works. It is best to start simply, visualize the constraints, and agree as a team that the limit is a trigger for conversation, not just a rule to be broken.
+Implementing WIP limits changes the fundamental mechanics of how a team works. It's best to start simply, visualize the constraints, and agree as a team that the limit is a trigger for conversation, not just a rule to be broken.
 
 ### Set Limits that Feel Ambitious
 
-When teams start by setting limits that feel ambitious, it forces them to make deliberate choices about what work matters most. The exact number depends on your team's context, but the goal is to find the sweet spot where teams feel focused but not hamstrung. A common starting point is to set your WIP limit to the size of the team + one. For a team of four, try a limit of five active items across the board. If the limit is rarely hit, it is too high; if it is hit constantly without resolution, it is too low.
+When teams start by setting limits that feel ambitious, it forces them to make deliberate choices about what work matters most. The exact number depends on your team's context, but the goal is to find the sweet spot where teams feel focused but not hamstrung. A common starting point is to set your WIP limit to the size of the team + one. For a team of four, try a limit of five active items across the board. If the limit is rarely hit, then it's too high; if it's hit constantly without resolution, then it's too low.
 
 ### Finish Work Before Starting New Work
 
@@ -27,7 +27,7 @@ Adopt the mantra: "Stop starting, start finishing." When team members are blocke
 
 ### Visualize All Work
 
-Use a storyboard or value stream map to visualize all ongoing tasks, including hidden or auxiliary tasks like meetings, unplanned maintenance, or production support. When the board shows that a limit has been reached, treat it as a hard stop—no new work enters the system until something completes. This creates the pressure needed to finish what's started and forces the prioritization conversations that lead to better decisions.
+Use a storyboard or value stream map to visualize all ongoing tasks, including hidden or auxiliary tasks like meetings, unplanned maintenance, or production support. When the board shows that a limit has been reached, treat it as a hard stop-—no new work enters the system until something completes. This creates the pressure needed to finish what's started and forces the prioritization conversations that lead to better decisions.
 
 ## Lessons From The Field
 
@@ -37,23 +37,23 @@ Use a storyboard or value stream map to visualize all ongoing tasks, including h
 
 ## Deciding to Polish or Pitch
 
-After experimenting with this practice for 2-3 weeks, bring the team together to determine whether the following metrics and/or signals have changed in a positive direction:
+After experimenting with this practice for **2-3 weeks**, bring the team together to determine whether the following metrics and/or signals have changed in a positive direction.
 
 ### Fast & Intangible
 
 **Standup Quality**. Daily standups shift from status updates ("I did this, I will do that") to blocker-focused discussions ("We are at our limit in QA, who can help clear this?").
 
-### Fast & Tangible
+### Fast & Measurable
 
 **Reduction in Active Tickets**. The total count of tickets in "In Progress," "Review," and "Testing" states decreases, matching the agreed-upon limits.
-
-### Slow & Tangible
-
-**Decreased Cycle Time**. The time it takes for a single work item to move from "Started" to "Done" drops significantly as work stops languishing in queues.
 
 ### Slow & Intangible
 
 **Improved Morale and Lower Stress**. Team members report feeling less overwhelmed and more satisfied by the frequency of actually completing tasks, rather than having many tasks permanently "in flight." Team members should also feel more supported by their peers, as they come in to swarm on blocked work more often.
+
+### Slow & Measurable
+
+**Decreased Cycle Time**. The time it takes for a single work item to move from "Started" to "Done" drops significantly as work stops languishing in queues.
 
 ## Supported Capabilities
 

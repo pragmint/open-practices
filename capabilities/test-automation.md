@@ -63,7 +63,7 @@ By maintaining realistic coverage thresholds for different modules, automating t
 
 ### [Run CVE and CWE Checks During the Build Process](/practices/run-cve-and-cwe-checks-during-the-build-process.md)
 
-Running CVE and CWE checks during the build process extends test automation beyond functional correctness to include security as a first-class, non-functional requirement. By treating vulnerability scans as automated tests that can fail the build, teams get fast, consistent feedback on risky dependencies and insecure patterns, ensuring security standards are enforced early and reliably rather than deferred to manual reviews or late-stage audits.
+Running checks for Common Vulnerabilities and Exposures (CVE) and Common Weakness Enumeration (CWE) during the build process extends test automation beyond functional correctness to include security as a first-class, non-functional requirement. Treating vulnerability scans as automated tests that can fail the build gives teams fast, consistent feedback on risky dependencies and insecure patterns. This ensures security standards are enforced early and reliably rather than deferred to manual reviews or late-stage audits.
 
 ### [Host a Codebase Stewardship Mob](/practices/conduct-code-reviews.md)
 

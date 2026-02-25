@@ -1,6 +1,6 @@
 # [User-centric Focus](https://dora.dev/capabilities/user-centric-focus/)
 
-The value of software is ultimately defined by its usefulness to human beings, making a user-centric focus the essential "North Star" for development teams. In the era of AI-assisted coding, this focus on the user ensures that increased velocity leads to meaningful solutions rather than just faster mistakes. By prioritizing actual user outcomes over simple technical output, organizations achieve significantly higher performance and job satisfaction.
+The value of software is ultimately defined by its usefulness to human beings, making a user-centric focus the essential "North Star" for development teams. In the era of AI-assisted coding, this focus on the user ensures that increased velocity leads to meaningful solutions rather than just faster mistakes. Think of User-centric Focus as a strategic mindset, enabled by customer feedback. By understanding and prioritizing actual user outcomes over simple technical output, organizations achieve significantly higher performance and job satisfaction.
 
 ## Nuances
 This section outlines common pitfalls, challenges, or limitations teams commonly encounter when applying this capability. The goal here is not to discourage you. Rather, the goal is to arm you with the appropriate context so that you can make an informed decision about when and how to implement the capability with your teams.
@@ -15,14 +15,14 @@ Organizational structures often create a "gatekeeper" model, where product manag
 
 To assess how mature your team or organization is in this capability, complete this short exercise.
 
-Consider the descriptions below and score your team on this capability: score a 1 if you are a Feature Factory focused on shipping volume without validation; a 2 if Reactive & Proxy-Led, using AI to close tickets rather than drive outcomes; a 3 if Integrated & Spec-Driven, grounding AI in verified requirements and user observation; and a 4 if User-Invested & Self-Correcting, using AI as a discovery partner to pivot toward maximum value.
+Consider the descriptions below and score your team on this capability: score a 1 if you are a Feature Factory focused on shipping volume without validation; a 2 if Reactive & Proxy-led, using AI to close tickets rather than drive outcomes; a 3 if Integrated & Spec-driven, grounding AI in verified requirements and user observation; and a 4 if User-invested & Self-correcting, using AI as a discovery partner to pivot toward maximum value.
 
 Don't worry if the description doesn't exactly match your situation. These descriptions are meant to be examples of situations that would qualify for the associated score.
 
 1. **The Feature Factory:** Teams focus on output volume and use AI to ship more features without validating user impact or feedback.
-2. **Reactive & Proxy-Led:** Teams rely on siloed feedback and manual hand-offs, using AI to accelerate ticket completion rather than user outcomes.
-3. **Integrated & Spec-Driven:** Teams use spec-driven development and direct user observation to ensure AI outputs are grounded in verified requirements.
-4. **User-Invested & Self-Correcting:** Teams treat AI as a discovery partner, using real-time user metrics and rapid prototyping to pivot toward maximum value.
+2. **Reactive & Proxy-led:** Teams rely on siloed feedback and manual hand-offs, using AI to accelerate ticket completion rather than generate code that reflects validated user requirements.
+3. **Integrated & Spec-driven:** Teams use spec-driven development and direct user observation to ensure AI outputs are grounded in verified requirements.
+4. **User-invested & Self-correcting:** Teams treat AI as a discovery partner, using real-time user metrics and rapid prototyping to pivot toward maximum value.
 
 The number you selected represents your overall score for this capability. If you feel like your organization fits somewhere in between two scores, it's okay to use a decimal.
 
@@ -38,19 +38,19 @@ Teams should establish direct channels for user feedback that are accessible to 
 
 ### Implement Spec-driven Development (SDD)
 
-To keep AI efforts aligned with user needs, teams can use Spec-driven Development. In this approach, developers refine user requirements and constraints into detailed documentation (specs) before any code is written. These specs serve as the source of truth for AI agents. By constraining AI output to validated user requirements, teams ensure that generated code solves user problems rather than just following generic coding patterns.
+To keep AI efforts aligned with user needs, teams can use Spec-driven Development (SDD). In this approach, developers refine user requirements and constraints into detailed documentation (specs) before any code is written. These specs serve as the source of truth for AI agents. By constraining AI output to validated user requirements, teams ensure that generated code solves user problems rather than just following generic coding patterns.
 
 ## Adjacent Capabilities
 
 The following capabilities will be valuable for you and your team to explore, as they are either:
 
-- Related (they cover similar territory to User-centric focus)
-- Upstream (they are a pre-requisite for User-centric focus)
-- Downstream (User-centric focus is a pre-requisite for them)
+- Related (they cover similar territory to User-centric Focus)
+- Upstream (they are a pre-requisite for User-centric Focus)
+- Downstream (User-centric Focus is a pre-requisite for them)
 
-### [Customer Feedback](/capabilities/customer-feedback.md) - Related
+### [Customer Feedback](/capabilities/customer-feedback.md) - Upstream
 
-Customer feedback provides the raw data and insights necessary to build a user-centric focus. While user-centricity is the mindset and prioritization strategy, the Customer Feedback capability focuses on the technical and procedural methods used to gather that information.
+Customer feedback provides the raw data and insights necessary to *build* a user-centric focus. While user-centricity is the mindset and prioritization strategy, the Customer Feedback capability focuses on the technical and procedural methods used to gather that information (e.g., A/B testing, user interviews, tracking outcomes instead of outputs).
 
 ### [Documentation Quality](/capabilities/documentation-quality.md) - Upstream
 
