@@ -7,6 +7,9 @@ By scripting these steps, organizations significantly eliminate the risk of huma
 Furthermore, automating deployment scripts directly addresses "deployment pain," a key metric in DORA research. Manual deployments are often stressful, high-stakes events that require after-hours work and intense focus. By offloading this toil to reliable scripts, deployments become boring and routine. This shift not only enhances deployment speed and frequency but also fundamentally improves employee well-being by reducing burnout and freeing up cognitive load for value-add development work.
 
 ## When to Experiment
+* You're a deployment engineer who spends significant time manually deploying code.
+* You're a development team that must coordinate with multiple other individuals/teams to release code.
+* You're an engineering leader focused on improving environment and system reliability and increasing the frequency of deployments in order to deliver value to your customers more quickly.
 
 ## How to Gain Traction
 
