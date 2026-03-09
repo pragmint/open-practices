@@ -16,7 +16,7 @@ Furthermore, automating deployment scripts directly addresses "deployment pain,"
 ## Lessons From The Field
 
 ## Deciding to Pitch or Polish
-After experimenting with this practice for **[timeframe]**, bring the team together to determine whether the following metrics and/or signals have changed in a positive direction.
+After experimenting with this practice for **3-4 deployments or 3-4 weeks (whichever is shorter)**, bring the team together to determine whether the following metrics and/or signals have changed in a positive direction.
 
 ## Supported Capabilities
 
