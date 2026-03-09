@@ -15,6 +15,12 @@ By removing friction from access and iteration, self-service dashboards ensure t
 
 ## Deciding to Pitch or Polish
 After experimenting with this practice for **[timeframe]**, bring the team together to determine whether the following metrics and/or signals have changed in a positive direction.
+### Fast & Measurable
+**Faster Mean Time To Recover**.  Developers should find and confirm root cause faster when they have direct access to the data. This can be tracked via incident timelines in postmortems or Jira/incident tooling.
+
+### Fast & Intangible
+
+**Increased Team Confidence When Troubleshooting**. With control over the dashboard and direct access to the data, the team should feel more confident when troubleshooting because they have the tools they need to do their job.
 
 ## Supported Capabilities
 
