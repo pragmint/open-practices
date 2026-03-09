@@ -22,7 +22,7 @@ After experimenting with this practice for **3-4 deployments or 3-4 weeks (which
 
 ### [Deployment Automation](/capabilities/deployment-automation.md)
 
-This practice is the foundationa implementation of the Deployment Automation capability. By converting manual checklists into executable scripts, teams ensure that the process is repeatable, reliable, and independent of specific individuals' knowledge. This reduces the variability and errors associated with manual execution, ensuring consistent outcomes every time a release is triggered.
+This practice is the foundational implementation of the Deployment Automation capability. By converting manual checklists into executable scripts, teams ensure that the process is repeatable, reliable, and independent of specific individuals' knowledge. This reduces the variability and errors associated with manual execution, ensuring consistent outcomes every time a release is triggered.
 
 ### [Continuous Delivery](/capabilities/continuous-delivery.md)
 
