@@ -7,7 +7,8 @@ In practice, this means providing a shared monitoring platform where teams have 
 By removing friction from access and iteration, self-service dashboards ensure that the people closest to the code also have the fastest path to understanding system behavior. When deployments occur or incidents arise, teams can immediately explore high-fidelity telemetry in ways that match their mental model of the system. Over time, these dashboards become living artifacts that reflect how the service actually operates, supporting faster diagnosis, better decision-making, and a healthier on-call experience.
 
 ## When to Experiment
-
+* You're a developer or QA that needs easier access to up-to-date information from Production to troubleshoot issues.
+* You're an engineering leader with a focus on decreasing your team's mean time to recovery (MTTR).
 ## How to Gain Traction
 
 ## Lessons From The Field
