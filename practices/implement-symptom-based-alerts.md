@@ -15,7 +15,9 @@ Ultimately, this practice streamlines incident response and improves the Mean Ti
 ## How to Gain Traction
 
 ## Lessons From The Field
+*Prioritize High-Impact or Leading Symptoms.* When migrating to alerting on symptoms, one goal is to reduce the alerting noise. Focusing on alerting based on the earliest symptoms that indicate a significant impact to user experience reduces less critical alerts.
 
+*Choose Alert Recipients Carefully.* When alerts are based on the symptoms, they inherently have a context where they are relevant. Send alerts to the teams that are responsible and equipped to respond. Sending alerts to individuals that cannot respond increases alert fatigue.
 ## Deciding to Pitch or Polish
 After experimenting with this practice for **[timeframe]**, bring the team together to determine whether the following metrics and/or signals have changed in a positive direction.
 
