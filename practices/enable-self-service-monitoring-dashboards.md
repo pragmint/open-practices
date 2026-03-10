@@ -10,7 +10,16 @@ By removing friction from access and iteration, self-service dashboards ensure t
 * You're a developer or QA that needs easier access to up-to-date information from Production to troubleshoot issues.
 * You're an engineering leader with a focus on decreasing your team's mean time to recovery (MTTR).
 ## How to Gain Traction
+### Do A Spike
 
+#### Locate the Data Your Team Needs 
+Evaluate recent incidents your team has handled to determine what monitoring data was needed to resolve the incident.  Find where that data is located and document how your team gets access to the data with the current process.
+
+#### Identify Data Security Concerns
+Review the data for possible security concerns. If any sensitive data (e.g., PII, PCI, HIPPA, etc.) is in your list, consider how it could be replaced or obfuscated.  
+
+### Secure a Champion From Leadership
+When providing access to potentially sensitive data -- especially when removing existing access controls -- executive sponsorship is essential.  The champion should be able to help address data access requirements to ensure the company maintains compliance with any relevant regulations.
 ## Lessons From The Field
 
 ## Deciding to Pitch or Polish
