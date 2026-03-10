@@ -42,7 +42,8 @@ Self-service dashboards are a practical expression of effective observability. W
 ### [Empowering Teams to Choose Tools](/capabilities/empowering-teams-to-choose-tools.md)
 
 Providing self-service tools for monitoring allows teams to customize their alerting logic to fit their specific technical domain. When teams are empowered to manage their own dashboards, they can adapt more quickly to architectural changes and ensure their troubleshooting workflows remain efficient.
-
+### [User-centric Focus](/capabilities/user-centric-focus.md)
+Having easy access to monitoring data and they ability to create the data visualizations relevant to their work gives teams direct insight into the users' experience. This will allow them to develop empathy for the users and remind them to consider how each release will affect the users' experience of the application.
 ### [Well-being](/capabilities/well-being.md)
 
 Easy access to trustworthy dashboards reduces the stress and uncertainty that often accompany incidents and on-call work. When engineers can quickly answer their own questions without waiting on others, cognitive load drops and problem solving becomes calmer, faster, and more sustainable over time.
