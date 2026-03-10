@@ -7,6 +7,10 @@ By focusing on symptoms instead of metrics, teams ensure that alerts are tied to
 Ultimately, this practice streamlines incident response and improves the Mean Time to Restore (MTTR). When an alert fires, the team knows immediately that a critical, user-facing issue is occurring, eliminating the guesswork associated with noisy, cause-based data. This alignment prioritizes resources on incidents that matter most, protecting both the customer's satisfaction and the engineering team's cognitive load.
 
 ## When to Experiment
+* You're an SRE or devops engineer overwhelmed by alerts that don't require immediate fixes
+* You're an engineering leader with a team that cannot distinguish between urgent incident alerts and expected, information system alerts.
+* You have monitoring implemented, but you don't have any automated alerts.
+
 
 ## How to Gain Traction
 
