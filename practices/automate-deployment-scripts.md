@@ -37,7 +37,17 @@ Evaluate the existing deployment process for areas it could be simplified. For e
 *Use the Same Packages for Every Environment.*  This lets you know with certainty that the package you tested is the one that is being deployed.  This means that environment-specific configuration must be deployed separated from the package.
 ## Deciding to Pitch or Polish
 After experimenting with this practice for **3-4 deployments or 3-4 weeks (whichever is shorter)**, bring the team together to determine whether the following metrics and/or signals have changed in a positive direction.
+### Fast & Measurable
 
+**Fewer Manual Steps In Deployment**.  Count the number of manual steps in the deployment process. Each deployment step that is automated reduces the opportunities for human-error.
+
+### Slow & Measurable
+
+**Less Time Spent on Deployment Delays**.  There should be fewer deployment delays with increased automation, and it should be easier to identify the source of the delay.  When delays happen, work to understand where and why the deployment stalled.
+
+### Fast & Intangible
+
+**Increased Confidence in Deployments**. The individuals responsible for deploying code feel the deployment process is easier and less error-prone.
 ## Supported Capabilities
 
 ### [Deployment Automation](/capabilities/deployment-automation.md)
