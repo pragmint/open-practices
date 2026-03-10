@@ -12,6 +12,22 @@ Furthermore, automating deployment scripts directly addresses "deployment pain,"
 * You're an engineering leader focused on improving environment and system reliability and increasing the frequency of deployments in order to deliver value to your customers more quickly.
 
 ## How to Gain Traction
+### Do A Spike
+
+#### Tool Comparison
+Compare at least two deployment automation tools (e.g., Jenkins, GitLab CI, or GitHub Actions) by deploying a simple application with each.  Evaluate the strengths and weakness of each tool in terms of configuration, integration, and community support.  Be sure to verify support for any unique or complex deployment steps.
+
+#### Simplify the Deployment Process
+Evaluate the existing deployment process for areas it could be simplified. For each step in the deployment process, ask these questions:
+* *Is this step idempotent?*  - If the deployment script fails, it may need to run this step again. 
+* *How can manual intervention be removed?* - Not every step will be automated in the same way. Explore options to limit the human intervention needed to deploy.
+* *Can Inter-application Dependencies Be Reduced?* - Having the deployment script depend on other applications to be deployed in a certain order, introduces complexity and fragility into the process.
+
+### Host A Roundtable Discussion
+* Do all team members understand the reasons behind automating deployments?
+* Are our automated deployment tools customized to reflect our specific needs, or are we using a one-size-fits-all approach?
+* Are all team members in agreement on the deployment process?  Is the same deployment process used across all environments?
+
 
 ## Lessons From The Field
 
