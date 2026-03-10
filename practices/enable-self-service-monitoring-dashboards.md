@@ -21,7 +21,9 @@ Review the data for possible security concerns. If any sensitive data (e.g., PII
 ### Secure a Champion From Leadership
 When providing access to potentially sensitive data -- especially when removing existing access controls -- executive sponsorship is essential.  The champion should be able to help address data access requirements to ensure the company maintains compliance with any relevant regulations.
 ## Lessons From The Field
+*Expect Hesitation.* Modifying access controls (whether explicit or implicit) can be a major source of unease for anyone in charge of maintaining compliance requirements. Share your research from the spike about what data is actually needed for the team to work effectively.
 
+*Start Small.* Choose a single team to give the dashboard. Document how having access to the data has improved their ability to recover from incidents.
 ## Deciding to Pitch or Polish
 After experimenting with this practice for **[timeframe]**, bring the team together to determine whether the following metrics and/or signals have changed in a positive direction.
 ### Fast & Measurable
