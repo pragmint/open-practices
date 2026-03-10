@@ -43,7 +43,7 @@ Generally, an overall score equal to or less than 3 means you'll likely gain a l
 
 The following is a curated list of supporting practices to consider when looking to improve your team's Customer Feedback capability. While not every practice will be beneficial in every situation, this list is meant to provide teams with fresh, pragmatic, and actionable ideas to support this capability.
 
-### Conduct User Interviews
+### Talk Directly with Users 
 
 Regularly schedule interviews with users to gather qualitative insights on their experiences, challenges, and needs. These interviews can reveal deeper user motivations and issues that are not apparent from metrics alone. By directly engaging with users, teams can prioritize features that address real problems, leading to increased adoption and satisfaction.
 

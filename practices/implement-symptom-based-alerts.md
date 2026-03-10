@@ -7,31 +7,43 @@ By focusing on symptoms instead of metrics, teams ensure that alerts are tied to
 Ultimately, this practice streamlines incident response and improves the Mean Time to Restore (MTTR). When an alert fires, the team knows immediately that a critical, user-facing issue is occurring, eliminating the guesswork associated with noisy, cause-based data. This alignment prioritizes resources on incidents that matter most, protecting both the customer's satisfaction and the engineering team's cognitive load.
 
 ## When to Experiment
-* You're an SRE or devops engineer overwhelmed by alerts that don't require immediate fixes
-* You're an engineering leader with a team that cannot distinguish between urgent incident alerts and expected, information system alerts.
-* You have monitoring implemented, but you don't have any automated alerts.
 
+* You're an SRE or devops engineer who is overwhelmed by alerts that don't require immediate fixes.
+* You're an engineering leader and your team cannot distinguish between urgent incident alerts and expected, information system alerts.
+* You're a xxx and you have monitoring implemented, but you don't have any automated alerts.
 
 ## How to Gain Traction
 
-## Lessons From The Field
-*Prioritize High-Impact or Leading Symptoms.* When migrating to alerting on symptoms, one goal is to reduce the alerting noise. Focusing on alerting based on the earliest symptoms that indicate a significant impact to user experience reduces less critical alerts.
+### Host a Roundtable Discussion
+You can use the following conversation prompts:
 
-*Choose Alert Recipients Carefully.* When alerts are based on the symptoms, they inherently have a context where they are relevant. Send alerts to the teams that are responsible and equipped to respond. Sending alerts to individuals that cannot respond increases alert fatigue.
+- What existing alerts are consistently actionable and clearly communicate the symptom being observed?
+- Brainstorm symptoms that would clearly show a degraded user experience.
+- Rank those symptoms from highest impact on user experience to lowest impact.
+- Which symptoms are readily available with the current monitoring & observability data?
+- What needs to be added to the monitoring & observability tooling to notify team members of the other symptoms?
+
+## Lessons From The Field
+*Prioritize High-impact or Leading Symptoms.* When migrating to alerting on symptoms, one goal is to reduce the alerting noise. Focusing on alerting on the earliest symptoms that indicate a significant impact to user experience reduces less critical alerts.
+
+*Choose Alert Recipients Carefully.* When alerts are based on symptoms, they inherently have a context where they are relevant. Send alerts to the teams that are responsible and equipped to respond. Sending alerts to individuals that cannot respond increases alert fatigue.
+
 ## Deciding to Pitch or Polish
-After experimenting with this practice for **2 - 3 weeks**, bring the team together to determine whether the following metrics and/or signals have changed in a positive direction.
+After experimenting with this practice for **2-3 weeks**, bring the team together to determine whether the following metrics and/or signals have changed in a positive direction.
+
 ### Fast & Measurable
 
 **Higher Rate of Actionable Alerts**. The percentage of alerts that lead to action that improves the users' experience should go up because there are fewer alerts purely on metrics.
 
 ### Slow & Measurable
 
-**Decreased Mean Time To Repair**. As teams realize each alert is more valuable, they will become more responsive to the alerts.  This should lead to a decrease in the mean time to repair. 
+**Decreased Mean Time To Repair**. As teams realize each alert is more valuable, they will become more responsive to the alerts. This should lead to a decrease in the mean time to repair. 
 
 
 ### Slow & Intangible
 
 **Reduced Alert Fatigue**. Teams report that alert fatigue has reduced and they notice alerts are more valuable and actionable.
+
 ## Supported Capabilities
 
 ### [Monitoring and Observability](/capabilities/monitoring-and-observability.md)

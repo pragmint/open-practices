@@ -12,42 +12,49 @@ Furthermore, automating deployment scripts directly addresses "deployment pain,"
 * You're an engineering leader focused on improving environment and system reliability and increasing the frequency of deployments in order to deliver value to your customers more quickly.
 
 ## How to Gain Traction
-### Do A Spike
+
+### Do a Spike
 
 #### Tool Comparison
-Compare at least two deployment automation tools (e.g., Jenkins, GitLab CI, or GitHub Actions) by deploying a simple application with each.  Evaluate the strengths and weakness of each tool in terms of configuration, integration, and community support.  Be sure to verify support for any unique or complex deployment steps.
+Compare at least two deployment automation tools (e.g., Jenkins, GitLab CI, or GitHub Actions) by deploying a simple application with each.  Evaluate the strengths and weaknesses of each tool in terms of configuration, integration, and community support. Be sure to verify support for any unique or complex deployment steps.
 
 #### Simplify the Deployment Process
 Evaluate the existing deployment process for areas it could be simplified. For each step in the deployment process, ask these questions:
-* *Is this step idempotent?*  - If the deployment script fails, it may need to run this step again. 
-* *How can manual intervention be removed?* - Not every step will be automated in the same way. Explore options to limit the human intervention needed to deploy.
-* *Can Inter-application Dependencies Be Reduced?* - Having the deployment script depend on other applications to be deployed in a certain order, introduces complexity and fragility into the process.
+* *Is this step idempotent?* If the deployment script fails, it may need to run this step again. 
+* *How can manual intervention be removed?* Not every step will be automated in the same way. Explore options to limit the human intervention needed to deploy.
+* *Can Inter-application Dependencies Be Reduced?* Having the deployment script depend on other applications to be deployed in a certain order introduces complexity and fragility into the process.
 
-### Host A Roundtable Discussion
+### Host a Roundtable Discussion
+You can use the following conversation prompts:
+
 * Do all team members understand the reasons behind automating deployments?
 * Are our automated deployment tools customized to reflect our specific needs, or are we using a one-size-fits-all approach?
-* Are all team members in agreement on the deployment process?  Is the same deployment process used across all environments?
+* Are all team members in agreement on the deployment process? Is the same deployment process used across all environments?
 
 
 ## Lessons From The Field
-*Automate the Low Hanging Fruit First.* You don't have to automate 100% of all deployments in one go. Find the deployment steps that will be simple to automate and will free up your time to automate the more complex steps.
+*Automate the Low-hanging Fruit First.* You don't have to automate 100% of all deployments in one go. Find the deployment steps that will be simple to automate; doing this will free up your time to automate the more complex steps.
 
-*Quickly Promote Working Scripts to Prod.*  Having different deployment process across environments for the same application increases complexity and confusion. This can lead to more manual errors than before automating deployment steps.   
+*Quickly Promote Working Scripts to Prod.* Having different deployment processes across environments for the same application increases complexity and confusion. This can lead to more errors than before automating deployment steps.   
 
-*Use the Same Packages for Every Environment.*  This lets you know with certainty that the package you tested is the one that is being deployed.  This means that environment-specific configuration must be deployed separated from the package.
+*Use the Same Packages for Every Environment.* This lets you know with certainty that the package you tested is the one that is being deployed.  This means that environment-specific configuration must be deployed separate from the package.
+
 ## Deciding to Pitch or Polish
 After experimenting with this practice for **3-4 deployments or 3-4 weeks (whichever is shorter)**, bring the team together to determine whether the following metrics and/or signals have changed in a positive direction.
+
 ### Fast & Measurable
 
-**Fewer Manual Steps In Deployment**.  Count the number of manual steps in the deployment process. Each deployment step that is automated reduces the opportunities for human-error.
+**Fewer Manual Steps In Deployment**. Count the number of manual steps in the deployment process. Each deployment step that is automated reduces the opportunities for human error.
 
 ### Slow & Measurable
 
-**Less Time Spent on Deployment Delays**.  There should be fewer deployment delays with increased automation, and it should be easier to identify the source of the delay.  When delays happen, work to understand where and why the deployment stalled.
+**Less Time Spent on Deployment Delays**. There should be fewer deployment delays with increased automation, and it should be easier to identify the source of the delay. When delays happen, work to understand where and why the deployment stalled.
 
 ### Fast & Intangible
 
 **Increased Confidence in Deployments**. The individuals responsible for deploying code feel the deployment process is easier and less error-prone.
+
+
 ## Supported Capabilities
 
 ### [Deployment Automation](/capabilities/deployment-automation.md)
