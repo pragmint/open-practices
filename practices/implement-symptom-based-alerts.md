@@ -20,7 +20,18 @@ Ultimately, this practice streamlines incident response and improves the Mean Ti
 *Choose Alert Recipients Carefully.* When alerts are based on the symptoms, they inherently have a context where they are relevant. Send alerts to the teams that are responsible and equipped to respond. Sending alerts to individuals that cannot respond increases alert fatigue.
 ## Deciding to Pitch or Polish
 After experimenting with this practice for **2 - 3 weeks**, bring the team together to determine whether the following metrics and/or signals have changed in a positive direction.
+### Fast & Measurable
 
+**Higher Rate of Actionable Alerts**. The percentage of alerts that lead to action that improves the users' experience should go up because there are fewer alerts purely on metrics.
+
+### Slow & Measurable
+
+**Decreased Mean Time To Repair**. As teams realize each alert is more valuable, they will become more responsive to the alerts.  This should lead to a decrease in the mean time to repair. 
+
+
+### Slow & Intangible
+
+**Reduced Alert Fatigue**. Teams report that alert fatigue has reduced and they notice alerts are more valuable and actionable.
 ## Supported Capabilities
 
 ### [Monitoring and Observability](/capabilities/monitoring-and-observability.md)
