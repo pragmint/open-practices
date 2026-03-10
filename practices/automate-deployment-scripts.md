@@ -30,7 +30,11 @@ Evaluate the existing deployment process for areas it could be simplified. For e
 
 
 ## Lessons From The Field
+*Automate the Low Hanging Fruit First.* You don't have to automate 100% of all deployments in one go. Find the deployment steps that will be simple to automate and will free up your time to automate the more complex steps.
 
+*Quickly Promote Working Scripts to Prod.*  Having different deployment process across environments for the same application increases complexity and confusion. This can lead to more manual errors than before automating deployment steps.   
+
+*Use the Same Packages for Every Environment.*  This lets you know with certainty that the package you tested is the one that is being deployed.  This means that environment-specific configuration must be deployed separated from the package.
 ## Deciding to Pitch or Polish
 After experimenting with this practice for **3-4 deployments or 3-4 weeks (whichever is shorter)**, bring the team together to determine whether the following metrics and/or signals have changed in a positive direction.
 
