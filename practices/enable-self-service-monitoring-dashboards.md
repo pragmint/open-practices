@@ -25,7 +25,7 @@ When providing access to potentially sensitive data -- especially when removing 
 
 *Start Small.* Choose a single team to give the dashboard. Document how having access to the data has improved their ability to recover from incidents.
 ## Deciding to Pitch or Polish
-After experimenting with this practice for **[timeframe]**, bring the team together to determine whether the following metrics and/or signals have changed in a positive direction.
+After experimenting with this practice for **2 - 3 weeks**, bring the team together to determine whether the following metrics and/or signals have changed in a positive direction.
 ### Fast & Measurable
 **Faster Mean Time To Recover**.  Developers should find and confirm root cause faster when they have direct access to the data. This can be tracked via incident timelines in postmortems or Jira/incident tooling.
 
