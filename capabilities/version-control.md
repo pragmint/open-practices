@@ -77,9 +77,9 @@ Maintaining a clean Git history ensures a clear and comprehensible project histo
 
 As systems and processes evolve, it's important to spend some time auditing your existing documentation to ensure it's accurate. Scheduling regular documentation audits ensures that documentation remains up-to-date and consistent with the codebase it describes. This practice better aligns documentation and software development, enhancing the overall quality and reliability of both the codebase and the supporting documents.
 
-### [Version Dependencies](/practices/version-dependencies.md)
+### [Managing Version Dependencies](/practices/version-dependencies.md)
 
-Version dependencies ensure dependencies are managed with the same diligence as source code. This practice enhances reproducibility, traceability, and consistency in software builds.
+Versioning application dependencies ensures that all dependencies are managed with the same diligence as source code. This practice enhances reproducibility, traceability, and consistency in software builds.
 
 ### [Implement Infrastructure as Code](/practices/automate-infrastructure-management.md)
 

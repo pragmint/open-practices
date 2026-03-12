@@ -1,8 +1,8 @@
 # [Customer Feedback](https://dora.dev/capabilities/customer-feedback/)
 
-The Customer Feedback capability entails listening to what users say about your software and using that information to make it better. It helps you know if you're building the right features, if people are actually using them, and if they're getting value from your product. When teams pay attention to customer feedback, they build better software and achieve better business results.
+The Customer Feedback capability entails regularly gathering and analyzing user input on your product in order to make it better. It helps you know if you're building the right features, if people are actually using them, and if they're getting value from your product. Key metrics like these help validate whether a product is successful, are they're derived from customer feedback. 
 
-Customer feedback comes in many forms. You might get direct feedback through surveys, interviews, or support tickets. You might see usage data showing how people actually use your features. You might hear anecdotes from sales teams or customer success managers. Not all feedback is equally valuable. However, data coming directly from end users tends to be more reliable than second-hand information from internal teams or stakeholders.
+Customer feedback comes in many forms. You might get direct feedback through surveys, interviews, support tickets, or A/B testing. You might see usage data showing how people actually use your features. You might hear anecdotes from sales teams or customer success managers. Not all feedback is equally valuable. However, data coming directly from end users tends to be more reliable than second-hand information from internal teams or stakeholders.
 
 The key to implementing this capability is *making customer feedback a regular part of how your team works*. This means incorporating user insights into planning meetings, using customer stories to prioritize features, and measuring whether recent changes actually solve the problems users face. When feedback is woven into the development process, the team will build features that users want and that deliver real value.
 
@@ -30,7 +30,7 @@ Consider the descriptions below and score yourself on the Customer Feedback capa
 
 Don't worry if the description doesn't exactly match your situation. These descriptions are meant to be examples of situations that would qualify for the associated score.
 
-1. **Absent:** User feedback from releases aren’t collected.
+1. **Absent:** User feedback from releases isn’t collected.
 2. **Reactive:** User feedback is gathered but usually only after significant issues arise, and it’s acted upon sporadically.
 3. **Informative:** User feedback is regularly gathered and may influence feature prioritization, but meaningful shifts in priority don’t happen often.
 4. **Impactful:** User feedback is regularly gathered, based on recent changes, and acted upon in a timely manner to enhance the product and influence decisions.
@@ -43,7 +43,7 @@ Generally, an overall score equal to or less than 3 means you'll likely gain a l
 
 The following is a curated list of supporting practices to consider when looking to improve your team's Customer Feedback capability. While not every practice will be beneficial in every situation, this list is meant to provide teams with fresh, pragmatic, and actionable ideas to support this capability.
 
-### Conduct User Interviews
+### Talk Directly with Users 
 
 Regularly schedule interviews with users to gather qualitative insights on their experiences, challenges, and needs. These interviews can reveal deeper user motivations and issues that are not apparent from metrics alone. By directly engaging with users, teams can prioritize features that address real problems, leading to increased adoption and satisfaction.
 
@@ -78,3 +78,7 @@ Visibility of Work in the Value Stream provides the foundational transparency ne
 ### [Working in Small Batches](/capabilities/working-in-small-batches.md) - Downstream
 
 Working in Small Batches depends on having established feedback mechanisms in place -- the rapid iteration cycle requires continuous input from users to guide the direction of incremental improvements. Customer feedback becomes most valuable when teams can quickly act on it through small-batch delivery. By deploying changes incrementally, teams can quickly validate features and adjust based on user reactions, improving both user satisfaction and development efficiency.
+
+### [User-centric Focus](capabilities/user-centric-focus.md) - Downstream
+
+Teams that adopt a user-centric focus use raw data and key metrics (derived from customer feedback) to ensure products and features reflect validated user requirements and meaningful solutions to real problems. While User-centric Focus is a strategic mindset, Customer Feedback is what enables it.
