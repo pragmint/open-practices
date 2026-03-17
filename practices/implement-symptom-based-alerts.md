@@ -10,7 +10,7 @@ Ultimately, this practice streamlines incident response and improves the Mean Ti
 
 * You're an SRE or devops engineer who is overwhelmed by alerts that don't require immediate fixes.
 * You're an engineering leader and your team cannot distinguish between urgent incident alerts and expected, information system alerts.
-* You're a xxx and you have monitoring implemented, but you don't have any automated alerts.
+* You're an engineering leader and you have monitoring implemented, but you don't have any automated alerts.
 
 ## How to Gain Traction
 
