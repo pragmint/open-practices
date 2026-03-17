@@ -20,7 +20,7 @@ You can use the following conversation prompts:
 - What existing alerts are consistently actionable and clearly communicate the symptom being observed?
 - Brainstorm symptoms that would clearly show a degraded user experience.
 - Rank those symptoms from highest impact on user experience to lowest impact.
-- Which symptoms are readily available with the current monitoring & observability data?
+- Which symptoms are readily observable with the current monitoring & observability data?
 - What needs to be added to the monitoring & observability tooling to notify team members of the other symptoms?
 
 ## Lessons From The Field
