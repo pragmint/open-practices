@@ -15,20 +15,23 @@ Ultimately, this practice streamlines incident response and improves the Mean Ti
 ## How to Gain Traction
 
 ### Host a Roundtable Discussion
+
 You can use the following conversation prompts:
 
-- What existing alerts are consistently actionable and clearly communicate the symptom being observed?
-- Brainstorm symptoms that would clearly show a degraded user experience.
-- Rank those symptoms from highest impact on user experience to lowest impact.
-- Which symptoms are readily observable with the current monitoring & observability data?
-- What needs to be added to the monitoring & observability tooling to notify team members of the other symptoms?
+* What existing alerts are consistently actionable and clearly communicate the symptom being observed?
+* Brainstorm symptoms that would clearly show a degraded user experience.
+* Rank those symptoms from highest impact on user experience to lowest impact.
+* Which symptoms are readily observable with the current monitoring & observability data?
+* What needs to be added to the monitoring & observability tooling to notify team members of the other symptoms?
 
 ## Lessons From The Field
+
 *Prioritize High-impact or Leading Symptoms.* When migrating to alerting on symptoms, one goal is to reduce the alerting noise. Focusing on alerting on the earliest symptoms that indicate a significant impact to user experience reduces less critical alerts.
 
 *Choose Alert Recipients Carefully.* When alerts are based on symptoms, they inherently have a context where they are relevant. Send alerts to the teams that are responsible and equipped to respond. Sending alerts to individuals that cannot respond increases alert fatigue.
 
 ## Deciding to Pitch or Polish
+
 After experimenting with this practice for **2-3 weeks**, bring the team together to determine whether the following metrics and/or signals have changed in a positive direction.
 
 ### Fast & Measurable
@@ -37,8 +40,7 @@ After experimenting with this practice for **2-3 weeks**, bring the team togethe
 
 ### Slow & Measurable
 
-**Decreased Mean Time To Repair**. As teams realize each alert is more valuable, they will become more responsive to the alerts. This should lead to a decrease in the mean time to repair. 
-
+**Decreased Mean Time To Repair**. As teams realize each alert is more valuable, they will become more responsive to the alerts. This should lead to a decrease in the mean time to repair.
 
 ### Slow & Intangible
 

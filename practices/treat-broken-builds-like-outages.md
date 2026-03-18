@@ -8,7 +8,11 @@ Ultimately, this practice prioritizes long-term velocity over short-term output.
 
 ## When to Experiment
 
+<!-- TODO -->
+
 ## How to Gain Traction
+
+<!-- TODO -->
 
 ## Lessons From The Field
 

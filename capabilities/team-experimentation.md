@@ -75,7 +75,7 @@ Dogfooding your systems involves having your teams use the same products or syst
 
 ### [Treat Broken Builds Like Outages](/practices/treat-broken-builds-like-outages.md)
 
-Treating broken builds like outages creates the stable foundation that experimentation depends on. A consistently green build gives teams a safe baseline--they can easily see whether failures come from a new experiment or from existing instability, and they can gain the confidence to try new ideas without compounding risk.
+Treating broken builds like outages creates the stable foundation that experimentation depends on. A consistently green build gives teams a safe baseline where they can clearly distinguish whether failures come from a new experiment or from existing instability. It also builds the confidence to try new ideas without compounding risk.
 
 ## Adjacent Capabilities
 
