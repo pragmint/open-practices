@@ -23,9 +23,9 @@ Consider the descriptions below and score your team or organization on this capa
 Don't worry if the description doesn't exactly match your situation. These descriptions are meant to be examples of situations that would qualify for the associated score.
 
 1. **Fragmented & Untrusted:** Data is trapped in silos. Access requires manual approvals and long waits. No one is sure if the data is accurate and "data cleaning" is a massive, manual chore for every project.
-2. **Coordinated but Manual:** Data is documented, but often outdated. You have some central repositories (like a data warehouse), but integrating new data types is slow. Testing often uses stale or "hand-rolled" data that doesn't reflect reality.
+2. **Coordinated but Manual:** Data is documented but often outdated. You have some central repositories (like a data warehouse), but integrating new data types is slow. Testing often uses stale or "hand-rolled" data that doesn't reflect reality.
 3. **Accessible & Reliable:** Most data is discoverable via a catalog or API. Automated pipelines handle basic cleaning and transformation. There is high confidence in data quality and privacy masking is largely automated.
-4. **Fluid & Self-Service:** Data is treated as a product. Teams can self-serve the data they need through well-defined interfaces. Data source tracking is fully transparent, and data quality issues are caught by automated "data tests" before they affect downstream systems.
+4. **Fluid & Self-service:** Data is treated as a product. Teams can self-serve the data they need through well-defined interfaces. Data source tracking is fully transparent, and data quality issues are caught by automated "data tests" before they affect downstream systems.
 
 The number you selected represents your overall score for this capability. If you feel like your organization fits somewhere in between two scores, it's okay to use a decimal.
 

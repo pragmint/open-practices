@@ -34,10 +34,10 @@ Consider the descriptions below and score yourself on the Job Satisfaction capab
 
 Don't worry if the description doesn't exactly match your situation. These descriptions are meant to be examples of situations that would qualify for the associated score.
 
-1. Unfulfilling Work: Employees often feel undervalued, overworked, and disconnected from the organization's purpose.
-2. Limited Engagement: Employees are somewhat satisfied but lack autonomy, opportunities for growth, and a sense of accomplishment.
-3. Satisfactory Engagement: Employees are generally content, with some opportunities for growth and a sense of fulfillment. They may lack excitement or challenge, though.
-4. Exceptional Engagement: Employees are highly motivated, empowered, and passionate about their work. They demonstrate a strong sense of purpose and fulfillment.
+1. **Unfulfilling Work:** Employees often feel undervalued, overworked, and disconnected from the organization's purpose.
+2. **Limited Engagement:** Employees are somewhat satisfied but lack autonomy, opportunities for growth, and a sense of accomplishment.
+3. **Satisfactory Engagement:** Employees are generally content, with some opportunities for growth and a sense of fulfillment. They may lack excitement or challenge, though.
+4. **Exceptional Engagement:** Employees are highly motivated, empowered, and passionate about their work. They demonstrate a strong sense of purpose and fulfillment.
 
 The number you selected represents your overall score for this capability. If you feel like your team or organization fits somewhere in between two scores, it's okay to use a decimal. For example, if you think employee engagement is somewhere between limited and satisfactory, you would score a 2.5.
 

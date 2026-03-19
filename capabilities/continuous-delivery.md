@@ -34,31 +34,31 @@ Don't worry if the description doesn't exactly match your situation. These descr
 
 ### Value Delivery Frequency
 
-1. Infrequent Updates: User-facing updates are delivered less than once per quarter, with long periods of time between releases. Deployments that are void of business value or are sitting behind feature flags are not considered user-facing.
-2. Occasional Updates: User-facing updates are delivered quarterly or monthly.
-3. Regular Updates: User-facing updates are delivered bi-weekly or weekly.
-4. Continuous Updates: User-facing updates are delivered multiple times per week (sometimes even multiple times a day), with a fully automated process and minimal manual intervention.
+1. **Infrequent Updates:** User-facing updates are delivered less than once a quarter, with long periods of time between releases. Deployments that are void of business value or are sitting behind feature flags are not considered user-facing.
+2. **Occasional Updates:** Teams deliver user-facing updates quarterly or monthly.
+3. **Regular Updates:** User-facing updates are delivered bi-weekly or weekly.
+4. **Continuous Updates:** User-facing updates are delivered multiple times a week (sometimes even multiple times a day), with a fully automated process and minimal manual intervention.
 
 ### Lead Time for Changes
 
-1. Months: Changes typically take multiple months to go from code commit to production.
-2. Weeks: Changes typically take multiple weeks to go from code commit to production.
-3. Days: Changes typically take multiple days to go from code commit to production.
-4. Hours: Changes typically take hours or one day to go from code commit to production.
+1. **Months:** Changes typically take multiple months to go from code commit to production.
+2. **Weeks:** Changes typically take multiple weeks to go from code commit to production.
+3. **Days:** Changes typically take multiple days to go from code commit to production.
+4. **Hours:** Changes typically take hours or a day to go from code commit to production.
 
 ### Change Failure Rate
 
-1. High Failure Rate: More than 15% of changes to production results in a degraded service and requires immediate remediation.
-2. Moderate Failure Rate: Between 3-15% of changes to production results in a degraded service and requires immediate remediation.
-3. Low Failure Rate: Less than 3% of changes to production results in a degraded service and requires immediate remediation.
-4. Very Low Failure Rate: Less than 1% of changes to production results in a degraded service and requires immediate remediation.
+1. **High Failure Rate:** More than 15% of changes to production results in a degraded service and requires immediate remediation.
+2. **Moderate Failure Rate:** Between 3-15% of changes to production results in a degraded service and requires immediate remediation.
+3. **Low Failure Rate:** Less than 3% of changes to production results in a degraded service and requires immediate remediation.
+4. **Very Low Failure Rate:** Less than 1% of changes to production results in a degraded service and requires immediate remediation.
 
 ### Time to Restore Service
 
-1. Days: It typically takes multiple days to restore service after a change failure.
-2. Hours: It typically takes multiple hours to restore service after a change failure.
-3. Under An Hour: It typically takes somewhere between 10 and 60 minutes to restore service after a change failure.
-4. A Couple Of Minutes: It typically takes under 10 minutes to restore service after a change failure.
+1. **Days:** It typically takes multiple days to restore service after a change failure.
+2. **Hours:** It typically takes multiple hours to restore service after a change failure.
+3. **Under An Hour:** It typically takes somewhere between 10 and 60 minutes to restore service after a change failure.
+4. **A Couple of Minutes:** It typically takes under 10 minutes to restore service after a change failure.
 
 Now, average your scores for all four areas of focus. You'll then have your overall score for this capability. So, if your score for Value Delivery Frequency was 2, your score for Lead Time Changes was 3, your score for Change Failure Rate was 1, and your score for Time to Restore Service was 1, then your overall score for Continuous Delivery would be 1.75.
 

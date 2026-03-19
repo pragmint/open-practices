@@ -30,10 +30,10 @@ Consider the descriptions below and score your team on this capability. Generall
 
 Don't worry if the description doesn't exactly match your situation. These descriptions are meant to be examples of situations that would qualify for the associated score.
 
-1. Insufficient Tools: The current tools are inadequate for getting the job done, and there is no clear way to evaluate or adopt new ones.
-2. Adequate but Limited: The current tools are sufficient but limited, and new tools are occasionally adopted through an informal process.
-3. Capable and Evolving: The current tools are capable of meeting needs, and a standardized process is in place for evaluating and adopting new tools should the need arise.
-4. Best-in-Class Tools: The best tools available are used to get the job done, and new tools are proactively researched and teams are empowered to recommend their adoption via a standardized process.
+1. **Insufficient Tools:** The current tools are inadequate for getting the job done, and there is no clear way to evaluate or adopt new ones.
+2. **Adequate but Limited:** The current tools are sufficient but limited, and new tools are occasionally adopted through an informal process.
+3. **Capable & Evolving:** The current tools are capable of meeting needs, and a standardized process is in place for evaluating and adopting new tools should the need arise.
+4. **Best-in-Class Tools:** The best tools available are used to get the job done, and new tools are proactively researched and teams are empowered to recommend their adoption via a standardized process.
 
 The number you selected represents your overall score for this capability. If you feel like your team or organization fits somewhere in between two scores, it's okay to use a decimal. For example, if you think your team's toolset represents something between adequate and capable, then you would score a 2.5.
 

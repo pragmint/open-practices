@@ -30,10 +30,10 @@ Consider the descriptions below and score your team on this capability. Generall
 
 Don't worry if the description doesn't exactly match your situation. These descriptions are meant to be examples of situations that would qualify for the associated score.
 
-1. **Infrequent & Painful:** Integration is done rarely, with large batches of changes, requiring multiple levels of approval. Merge conflicts occur often and feedback is uncertain.
-2. **Routine & Coordinated:** Integration happens routinely (e.g., weekly), with moderate-sized changes, requiring some approval and coordination. There are occasional merge conflicts but there is a good understanding of the feedback.
-3. **Frequent & Smooth:** Integration happens frequently (e.g., daily), with small, incremental changes, requiring minimal approval. Painful merge conflicts are rare and there is a high degree of confidence in the feedback.
-4. **Continuous & Seamless:** Integration happens continuously, with tiny, incremental changes, rarely requiring approval. There are virtually no painful merge conflicts and there is complete confidence in the feedback, which is immediate.
+1. **Infrequent & Painful:** Integration is done rarely, with large batches of changes, requiring multiple levels of approval, and often resulting in merge conflicts and uncertain outcomes.
+2. **Routine & Coordinated:** Integration happens regularly (e.g., weekly), with moderate-sized changes, requiring some approval and coordination, and occasional merge conflicts, but with a good understanding of the outcome.
+3. **Regular & Smooth:** Integration happens frequently (e.g., daily), with small, incremental changes, requiring minimal approval, and rare painful merge conflicts, with a high degree of confidence in the outcome.
+4. **Continuous & Seamless:** Integration happens continuously, with tiny, incremental changes, rarely requiring approval, and virtually no painful merge conflicts, with complete confidence in the outcome and immediate feedback.
 
 The number you selected represents your overall score for this capability. If you feel like your team or organization fits somewhere in between two scores, it's okay to use a decimal. For example, if you think integration is somewhere between routine/coordinated and frequent/smooth, then you would score a 2.5.
 
