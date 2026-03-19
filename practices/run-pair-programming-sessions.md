@@ -37,7 +37,7 @@ The following actions will help your team implement this practice.
 
 ### Host a Viewing Party
 
-#### [Async Code Reviews Are Chocking Your Company’s Throughput](https://www.youtube.com/watch?v=ZlLZEQQBcFg)
+#### [Async Code Reviews Are Chocking Your Company's Throughput](https://www.youtube.com/watch?v=ZlLZEQQBcFg)
 
 Engineer Dragan Stepanovic discusses his analysis of thousands of PRs across various repositories, revealing that teams using small PRs with asynchronous code reviews often experience lower throughput compared to those using larger PRs. Dragan introduces a solution to this dilemma: co-creation patterns such as pair and mob programming, where multiple individuals collaborate simultaneously on a task.
 

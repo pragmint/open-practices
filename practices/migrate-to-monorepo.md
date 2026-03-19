@@ -21,7 +21,7 @@ Choose 2–3 services that already depend on each other and migrate them into a 
 
 ### Create a Migration Path
 
-Give teams an easy way to migrate their repositories into the new workspace while preserving history and conforming to the CI / local dev tooling. Let teams volunteer to migrate into the monorepo after seeing early success. Provide a checklist, templates, and pairing support to make migration easier. Keep a visible tracker of what’s moved and what’s next.
+Give teams an easy way to migrate their repositories into the new workspace while preserving history and conforming to the CI / local dev tooling. Let teams volunteer to migrate into the monorepo after seeing early success. Provide a checklist, templates, and pairing support to make migration easier. Keep a visible tracker of what's moved and what's next.
 
 ### Continue Improving DevEx
 

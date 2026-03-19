@@ -38,7 +38,7 @@ Recognizing and accepting necessary coupling helps avoid futile efforts to decou
 
 ### Design for Needed, Not Speculative, Features
 
-Reducing coupling prepares the codebase for future changes, but it’s important to avoid premature optimization.
+Reducing coupling prepares the codebase for future changes, but it's important to avoid premature optimization.
 The YAGNI (You Aren't Gonna Need It) principle warns against adding complexity for features that might never be needed.
 Focus on the current requirements and only introduce abstractions when there's a clear, present need. This will help you avoid speculative design.
 

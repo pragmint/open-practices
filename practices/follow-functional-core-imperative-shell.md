@@ -1,6 +1,6 @@
 # Follow Functional Core, Imperative Shell
 
-When state and behavior are tightly coupled in a codebase, changes become difficult, testing becomes impractical, and new developer onboarding becomes tricky. The Functional Core, Imperative Shell pattern introduces a clear separation between state and behavior: Pure, side-effect-free logic is isolated in abstractions called “functional cores,” while I/O and system interactions are handled in abstractions called “imperative shells.” This structure improves modularity, simplifies testing, and makes it safer and easier to evolve complex parts of the system over time.
+When state and behavior are tightly coupled in a codebase, changes become difficult, testing becomes impractical, and new developer onboarding becomes tricky. The Functional Core, Imperative Shell pattern introduces a clear separation between state and behavior: Pure, side-effect-free logic is isolated in abstractions called "functional cores," while I/O and system interactions are handled in abstractions called "imperative shells." This structure improves modularity, simplifies testing, and makes it safer and easier to evolve complex parts of the system over time.
 
 Lots of other patterns build on this same idea. Hexagonal, Onion, and Clean Architectures all formalize it at the system level by placing a pure, dependency-free domain at the center and pushing frameworks, databases, and APIs to the outer shell. In each case, the essence is the same: Keep decision-making pure and deterministic, and confine the messy realities of the outside world to the edges where they can be swapped, mocked, or evolved independently.
 
@@ -50,9 +50,9 @@ Transitioning to the Functional Core, Imperative Shell pattern may present a ste
 
 ## Lessons From the Field
 
-- *Framework Gravity* – Framework conventions naturally pull logic toward controllers, services, and models, blurring the line between pure and side-effecting code. Teams often think they’ve built a functional core when it still depends on framework helpers. Breaking free usually starts by isolating one rule or workflow outside the framework to prove the value of true independence.
+- *Framework Gravity* – Framework conventions naturally pull logic toward controllers, services, and models, blurring the line between pure and side-effecting code. Teams often think they've built a functional core when it still depends on framework helpers. Breaking free usually starts by isolating one rule or workflow outside the framework to prove the value of true independence.
 
-- *Fear of Architectural Overreach* – Teams that have been burned by past "architecture experiments" often equate the Functional Core, Imperative Shell pattern with another dogmatism crusade. When the pattern is explained in abstract terms, skepticism has room to breathe; when it’s shown through concrete before-and-after examples of simpler testing or safer changes, the conversation shifts from ideology to practicality.
+- *Fear of Architectural Overreach* – Teams that have been burned by past "architecture experiments" often equate the Functional Core, Imperative Shell pattern with another dogmatism crusade. When the pattern is explained in abstract terms, skepticism has room to breathe; when it's shown through concrete before-and-after examples of simpler testing or safer changes, the conversation shifts from ideology to practicality.
 
 ## Deciding to Pitch or Polish
 

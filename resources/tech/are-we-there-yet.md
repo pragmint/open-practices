@@ -37,7 +37,7 @@ In "Are We There Yet?", Rich Hickey pushes us to rethink how we treat time, stat
    - For each, propose how you might convert it to a value-based approach or isolate the mutation boundary.
 
 4. **Language / Framework Mapping**
-   - Take a language or framework you use and map constructs (objects, mutable data structures, reactive streams, versioning tools) to Hickey’s ideas.
+   - Take a language or framework you use and map constructs (objects, mutable data structures, reactive streams, versioning tools) to Hickey's ideas.
    - Where are the gaps? Where does it already align?
 
 ## Reflection Prompts

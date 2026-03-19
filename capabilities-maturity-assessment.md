@@ -42,7 +42,7 @@ To improve in a capability, navigate to its page by either clicking on its title
 1. **Brittle Codebase:** Changing any code is time-consuming, complex, and prone to error.
 2. **Fairly Complex Codebase:** Most changes require significant refactoring, and it's difficult to predict the impact of changes on the overall system.
 3. **Partially Modular Codebase:** Most parts of the system are modular and easy to update, but some are complex and difficult to work with.
-4. **Well-organized Codebase:** When changes are made to the existing codebase, they don’t tend to require much rework.
+4. **Well-organized Codebase:** When changes are made to the existing codebase, they don't tend to require much rework.
 
 ### [Continuous Delivery](/capabilities/continuous-delivery.md)
 
@@ -83,9 +83,9 @@ To improve in a capability, navigate to its page by either clicking on its title
 
 ### [Customer Feedback](/capabilities/customer-feedback.md)
 
-1. **Meaningless:** User feedback from releases aren’t collected.
-2. **Reactive:** User feedback is gathered, but usually only after significant issues arise, and it’s acted upon sporadically.
-3. **Informative:** User feedback is regularly gathered and may influence our prioritization, but meaningful shifts in priority don’t happen frequently.
+1. **Meaningless:** User feedback from releases aren't collected.
+2. **Reactive:** User feedback is gathered, but usually only after significant issues arise, and it's acted upon sporadically.
+3. **Informative:** User feedback is regularly gathered and may influence our prioritization, but meaningful shifts in priority don't happen frequently.
 4. **Impactful:** User feedback is gathered, based upon recent changes, and acted upon often.
 
 ### [Database Change Management](/capabilities/database-change-management.md)
@@ -93,7 +93,7 @@ To improve in a capability, navigate to its page by either clicking on its title
 1. **Manual and Error-Prone:** Database changes are made manually, with a high risk of errors. Deployments are slow, sometimes taking hours to complete, and sometimes requiring downtime.
 2. **Partially Automated:** Some database changes are automated, but many changes require manual intervention and/or testing to complete.
 3. **Mostly Automated:** Most database changes are made using a fully automated process, with some manual review and/or testing. Changes are generally deployed quickly, taking minutes. Reliability is fairly good, with few failed changes.
-4. **Fully Automated and Zero-Downtime:** All database changes are made using a fully automated process, with no manual intervention or approval required. Changes are deployed rapidly, taking seconds or minutes, and the process is highly reliable, with zero downtime to dependent applications. When failures are introduced, they’re automatically and safely reverted.
+4. **Fully Automated and Zero-Downtime:** All database changes are made using a fully automated process, with no manual intervention or approval required. Changes are deployed rapidly, taking seconds or minutes, and the process is highly reliable, with zero downtime to dependent applications. When failures are introduced, they're automatically and safely reverted.
 
 ### [Deployment Automation](/capabilities/deployment-automation.md)
 
@@ -184,7 +184,7 @@ To improve in a capability, navigate to its page by either clicking on its title
 1. **Ticket-Ops & Fragmented Tooling:** The platform is a collection of infrastructure tickets and manual gates rather than a product. Individual AI coding gains are lost to downstream disorder, as security reviews, testing, and deployments remain manual bottlenecks that increase cognitive load.
 2. **Standardized but Rigid:** Initial "golden paths" exist, but they function as a "golden cage" with little flexibility for diverse team needs. While some automation is present, developer feedback is often unclear, and the lack of self-service means AI-generated code frequently stalls at the integration phase.
 3. **Product-Centric & Self-Service:** A dedicated platform team treats developers as customers, providing self-service interfaces that "shift down" complexity. Automated pipelines ensure AI-amplified throughput is consistently tested and secured, allowing teams to focus on user value rather than infrastructure hurdles.
-4. **Fluid, Extensible & AI-Ready:** The platform is an extensible ecosystem where "golden paths" are the easiest choice but allow for contribution and flexibility. Real-time feedback and automated guardrails make experimentation cheap and recovery fast, fully realizing AI’s potential to accelerate the entire delivery lifecycle without sacrificing stability.
+4. **Fluid, Extensible & AI-Ready:** The platform is an extensible ecosystem where "golden paths" are the easiest choice but allow for contribution and flexibility. Real-time feedback and automated guardrails make experimentation cheap and recovery fast, fully realizing AI's potential to accelerate the entire delivery lifecycle without sacrificing stability.
 
 ### [Proactive Failure Notification](/capabilities/proactive-failure-notification.md)
 
@@ -225,7 +225,7 @@ To improve in a capability, navigate to its page by either clicking on its title
 
 #### Automated Test Data Management
 
-1. **Mocked Data:** Automated tests rely on stubs and mocks for data setup; they don’t support complex integration-style testing.
+1. **Mocked Data:** Automated tests rely on stubs and mocks for data setup; they don't support complex integration-style testing.
 2. **Fragmented Static Data:** Automated integration-style tests are supported, but they rely on static test data that is often scattered across multiple sources. As a result, automated tests are difficult to maintain and update, and prone to failures when data is altered.
 3. **Scripted Data Seeding:** Automated tests use manual data seeding scripts to set up and tear down their data; they may not cover all production scenarios.
 4. **All Categories of Automated Tests Are Supported:** In addition to supporting scripted data seeding, ephemeral environments are easily created and torn down. They can be seeded with realistic synthetic data or production data that has sensitive information scrubbed from it. This enables advanced testing categories like performance, load, and anomaly detection.

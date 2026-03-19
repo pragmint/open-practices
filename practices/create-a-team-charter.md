@@ -1,6 +1,6 @@
 # Create a Team Charter
 
-A Team Charter is a living document that outlines a team’s purpose, goals, and working agreements. While often viewed as a project management artifact, a Team Charter is actually a critical architectural tool for implementing **loosely coupled teams**. Just as software services require well-defined APIs to interact without tight coupling, teams require well-defined human interfaces to collaborate without excessive coordination overhead.
+A Team Charter is a living document that outlines a team's purpose, goals, and working agreements. While often viewed as a project management artifact, a Team Charter is actually a critical architectural tool for implementing **loosely coupled teams**. Just as software services require well-defined APIs to interact without tight coupling, teams require well-defined human interfaces to collaborate without excessive coordination overhead.
 
 The DORA research indicates that high-performing teams can make large-scale changes without depending on fine-grained communication with people outside the team. A Team Charter facilitates this by making implicit norms explicit. It defines the team's "bounded context"—what they own, how they make decisions, and how other teams should interact with them. By establishing these ground rules, the charter reduces ambiguity, minimizes the need for constant synchronization meetings, and empowers the team to work autonomously.
 

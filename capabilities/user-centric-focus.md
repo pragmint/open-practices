@@ -34,7 +34,7 @@ The following is a curated list of supporting practices to consider when looking
 
 ### Talk Directly With Users
 
-Teams should establish direct channels for user feedback that are accessible to developers immediately. For teams using AI, these feedback loops are critical for refining workflows and validating that the AI’s output aligns with reality. When feedback is integrated directly into the development cycle, the backlog can be continuously reprioritized, based on what users actually need.
+Teams should establish direct channels for user feedback that are accessible to developers immediately. For teams using AI, these feedback loops are critical for refining workflows and validating that the AI's output aligns with reality. When feedback is integrated directly into the development cycle, the backlog can be continuously reprioritized, based on what users actually need.
 
 ### Implement Spec-driven Development (SDD)
 

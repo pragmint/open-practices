@@ -32,7 +32,7 @@ An often overlooked aspect of building great software is building trust with you
 
 Treat software demos like theatrical performances, focusing on presentation and engagement.
 Preparation is crucial; rehearse, test equipment, and create a welcoming environment.
-Tailor the demo to the stakeholders’ preferences and comfort.
+Tailor the demo to the stakeholders' preferences and comfort.
 Be intentional with every aspect, including appearance, setting, and first impressions.
 Gather feedback and refine future demos for better effectiveness and stakeholder satisfaction.
 

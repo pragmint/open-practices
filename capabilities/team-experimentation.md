@@ -2,7 +2,7 @@
 
 The Team Experimentation capability is about giving software teams problems to solve, instead of pre-determined requirements to execute, and encouraging small, measurable experiments to see what works best. By focusing on the desired outcome or problem to solve, teams can design a variety of experiments — like testing a new process, tool, or feature — and measure whether their actions lead to success.
 
-This approach helps teams learn quickly, adapt, and avoid wasting time on heavy upfront planning. It’s all about creating a cycle of trying, learning, and improving that is aligned with clear business goals or challenges.
+This approach helps teams learn quickly, adapt, and avoid wasting time on heavy upfront planning. It's all about creating a cycle of trying, learning, and improving that is aligned with clear business goals or challenges.
 
 ## Nuances
 
@@ -10,7 +10,7 @@ This section outlines common pitfalls, challenges, or limitations teams commonly
 
 ### Balance Trust With Experimentation
 
-When teams feel safe to experiment — knowing failures won’t derail progress — they’re more likely to find faster, better ways to work. Employees typically won’t take risks and experiment with new approaches unless they see peers fail safely, or even be praised for it. Drawing safe-to-fail boundaries, like having a "failure budget," is key to encouraging experimentation while maintaining trust; without these boundaries, team members may hesitate to take risks or make decisions for fear of ruffling feathers. Teams need the assurance that the status quo can be disrupted with new ideas. By balancing safety with clear expectations, you can create an environment where experimentation and trust can thrive together.
+When teams feel safe to experiment — knowing failures won't derail progress — they're more likely to find faster, better ways to work. Employees typically won't take risks and experiment with new approaches unless they see peers fail safely, or even be praised for it. Drawing safe-to-fail boundaries, like having a "failure budget," is key to encouraging experimentation while maintaining trust; without these boundaries, team members may hesitate to take risks or make decisions for fear of ruffling feathers. Teams need the assurance that the status quo can be disrupted with new ideas. By balancing safety with clear expectations, you can create an environment where experimentation and trust can thrive together.
 
 ### Teams Need the Right Context to Evaluate Experiments
 
@@ -55,7 +55,7 @@ Double-loop learning goes beyond tracking outcomes; it connects your work to the
 
 When you practice double-loop learning, you map the relationships between projects, input metrics, and business KPIs. This lets you:
 * Reflect on experiments and question previous thinking at a deeper level
-* See how current efforts are (or aren’t) moving the right metrics
+* See how current efforts are (or aren't) moving the right metrics
 * Adjust course when assumptions prove false
 * Align teams by making strategy visible and testable
 

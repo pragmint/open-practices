@@ -20,13 +20,13 @@ If alert thresholds are set incorrectly, they can either trigger too many alerts
 
 ### Incorrect Notification Routing
 
-Alerts need to go to the right people. If alerts are sent to the wrong team, or to no one at all, fixing the problem can take much longer. This often happens when alert rules don’t match how teams are set up or haven’t been updated after teams change. On the other hand, if alerts are sent to a single place where a lot of people see them, this can create a dangerous "not my problem" attitude.
+Alerts need to go to the right people. If alerts are sent to the wrong team, or to no one at all, fixing the problem can take much longer. This often happens when alert rules don't match how teams are set up or haven't been updated after teams change. On the other hand, if alerts are sent to a single place where a lot of people see them, this can create a dangerous "not my problem" attitude.
 
-To ensure notifications are sent to the correct teams and individuals, make sure alert routing is kept up-to-date with who’s actually responsible for what. It also helps to double-check that teams know which alerts they’ll get and how they’re expected to respond.
+To ensure notifications are sent to the correct teams and individuals, make sure alert routing is kept up-to-date with who's actually responsible for what. It also helps to double-check that teams know which alerts they'll get and how they're expected to respond.
 
 ### Potential Cascading Effects of Automation
 
-Automation based on alerts can be a powerful way to reduce operational toil: auto-scaling, auto-healing, even auto-remediation of known failure modes. But automation adds its own complexity. If it’s based on noisy or poorly understood signals, it can trigger inappropriately and make a bad situation worse. Cascading failures often start with a well-meaning automation responding to incomplete or misleading data. Before wiring automation to observability signals, make sure those signals are stable, well-tested, and truly reflective of system state.
+Automation based on alerts can be a powerful way to reduce operational toil: auto-scaling, auto-healing, even auto-remediation of known failure modes. But automation adds its own complexity. If it's based on noisy or poorly understood signals, it can trigger inappropriately and make a bad situation worse. Cascading failures often start with a well-meaning automation responding to incomplete or misleading data. Before wiring automation to observability signals, make sure those signals are stable, well-tested, and truly reflective of system state.
 
 ### Lack of Incident Post-Mortems
 
@@ -67,7 +67,7 @@ Automate failure detection and rollback to reduce recovery time and minimize use
 
 ### Shadow Production with Traffic Replay
 
-Replay real, scrubbed production traffic in staging or testing environments to uncover and understand issues *before* they impact users. This practice mimics realistic load and usage patterns, helping surface problems that synthetic tests might miss. Monitoring and observability tooling can then be used to analyze anomalies, confirm fixes, or validate changes under near-production conditions. This is especially valuable for testing config changes, infrastructure updates, or edge cases that don’t appear in standard test suites.
+Replay real, scrubbed production traffic in staging or testing environments to uncover and understand issues *before* they impact users. This practice mimics realistic load and usage patterns, helping surface problems that synthetic tests might miss. Monitoring and observability tooling can then be used to analyze anomalies, confirm fixes, or validate changes under near-production conditions. This is especially valuable for testing config changes, infrastructure updates, or edge cases that don't appear in standard test suites.
 
 ### Conduct Regular Alert Audits
 

@@ -16,7 +16,7 @@ If automated tests and other checks take too long to run, developers may skip ru
 
 ### Infrastructure and Environment Issues
 
-The problem isn’t always in the code. Resource limits, network hiccups, race conditions, or differences between local machines and CI systems can all cause builds to fail. When that happens, developers often lose trust and simply restart the build instead of investigating the root of the issue. The goal is to make CI reliable enough that failures always matter. Track recurring environment problems and fix them at the source, so trust in the system grows instead of erodes.
+The problem isn't always in the code. Resource limits, network hiccups, race conditions, or differences between local machines and CI systems can all cause builds to fail. When that happens, developers often lose trust and simply restart the build instead of investigating the root of the issue. The goal is to make CI reliable enough that failures always matter. Track recurring environment problems and fix them at the source, so trust in the system grows instead of erodes.
 
 ### Integration Blockers and Bottlenecks
 

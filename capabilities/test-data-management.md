@@ -29,7 +29,7 @@ Test data becomes stale for many reasons: leftover data from test runs, time-sen
 
 ### Test Data Not Isolated
 
-Sharing test data across tests or environments often leads to inconsistent results, especially during parallel runs. For example, if multiple tests rely on the same user account, simultaneous access can introduce conflicts that real users wouldn’t encounter. Debugging becomes harder and test flakiness increases when test data isn't properly isolated. To ensure your test data is most reliable, each test should generate and manage its own isolated data as part of its setup.
+Sharing test data across tests or environments often leads to inconsistent results, especially during parallel runs. For example, if multiple tests rely on the same user account, simultaneous access can introduce conflicts that real users wouldn't encounter. Debugging becomes harder and test flakiness increases when test data isn't properly isolated. To ensure your test data is most reliable, each test should generate and manage its own isolated data as part of its setup.
 
 ## Assessment
 
@@ -48,7 +48,7 @@ Don't worry if the description doesn't exactly match your situation. These descr
 
 ### Automated Test Data Management
 
-1. **Mocked Data:** Automated tests rely on stubs and mocks for data setup; they don’t support complex integration-style testing.
+1. **Mocked Data:** Automated tests rely on stubs and mocks for data setup; they don't support complex integration-style testing.
 2. **Fragmented Static Data:** Automated integration-style tests are supported, but they rely on static test data that is often scattered across multiple sources. As a result, automated tests are difficult to maintain and update, and prone to failures when data is altered.
 3. **Scripted Data Seeding:** Automated tests use manual data seeding scripts to set up and tear down their data; they may not cover all production scenarios.
 4. **All Categories of Automated Tests Are Supported:** In addition to supporting scripted data seeding, ephemeral environments are easily created and torn down. They can be seeded with realistic synthetic data or production data that has sensitive information scrubbed from it. This enables advanced testing categories like performance, load, and anomaly detection.
@@ -91,4 +91,4 @@ Test automation works best when it has the right data. If test data is missing, 
 
 ### [Continuous Integration](/capabilities/continuous-integration.md) - Downstream
 
-Like test automation, continuous integration works best when tests have access to the right data. Since code changes are merged often, tests need to run constantly. And they can’t do that if the test data is missing or unreliable. When test data is properly managed, every test run starts with the data it needs. This helps teams catch bugs early, avoid integration issues, and move faster with confidence.
+Like test automation, continuous integration works best when tests have access to the right data. Since code changes are merged often, tests need to run constantly. And they can't do that if the test data is missing or unreliable. When test data is properly managed, every test run starts with the data it needs. This helps teams catch bugs early, avoid integration issues, and move faster with confidence.

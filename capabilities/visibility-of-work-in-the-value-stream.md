@@ -9,7 +9,7 @@ High-performing software teams not only have clearly defined VSMs, they also tra
 - **Lead Time**: Total time from accepting work to handing it off (including waiting).
 - **Process Time**: Total time to complete a task without interruptions.
 - **% Complete**: Share of work received that is fully finished as expected.
-- **% Accurate**: Share of work received that is error-free and doesn’t need rework.
+- **% Accurate**: Share of work received that is error-free and doesn't need rework.
 
 With this information, you can pinpoint areas with poor-quality outputs (low % Complete and low % Accurate) requiring downstream fixes and steps where lead times are significantly longer than process times. Addressing these issues involves collaborating with stakeholders to create a future-state VSM that outlines the ideal workflow. This sets the foundation for a clear, incremental plan to refine and improve the process over time.
 

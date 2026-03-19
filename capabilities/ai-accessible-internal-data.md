@@ -16,7 +16,7 @@ Not all internal data should be accessible to everyone. Financial records, HR fi
 
 ### Context Window and Freshness
 
-Internal data changes rapidly. If your AI system relies on model fine-tuning or infrequent data indexing, it will quickly become obsolete. Teams often struggle with "stale context," where the AI suggests a deprecated API because the latest documentation hasn't been re-indexed yet. Building a pipeline that updates the AI’s knowledge base in near real-time is a significant engineering hurdle.
+Internal data changes rapidly. If your AI system relies on model fine-tuning or infrequent data indexing, it will quickly become obsolete. Teams often struggle with "stale context," where the AI suggests a deprecated API because the latest documentation hasn't been re-indexed yet. Building a pipeline that updates the AI's knowledge base in near real-time is a significant engineering hurdle.
 
 ### Over-reliance and Loss of Tribal Knowledge
 

@@ -6,7 +6,7 @@ This capability is about empowering teams to select the tools and technologies t
 
 ### Balance Choice with Complexity
 
-It’s crucial to balance tool choice with the potential costs of acquisition, support, and added complexity that come with adding new tools to a tech stack.
+It's crucial to balance tool choice with the potential costs of acquisition, support, and added complexity that come with adding new tools to a tech stack.
 
 While a baseline set of tools should be established across an organization, teams should feel free to choose a new tool or technology if they feel strongly that it is best suited for their use case. Making this choice means they must also _support_ the new tool(s), which can be a tall order.
 
@@ -47,7 +47,7 @@ Spotify coined the term [Golden Path](https://engineering.atspotify.com/2020/08/
 
 ### [Schedule Regular Tooling Audits](/practices/schedule-regular-tooling-audits.md)
 
-Conduct regular audits of the organization's toolset to evaluate its effectiveness and relevance. During these audits, discuss and document the benefits and drawbacks of current tools, and explore new technologies. Make sure to invite commentary from all levels of the organization. This practice helps keep the tools aligned with the organization’s evolving goals and fosters a culture of continuous improvement and adaptation.
+Conduct regular audits of the organization's toolset to evaluate its effectiveness and relevance. During these audits, discuss and document the benefits and drawbacks of current tools, and explore new technologies. Make sure to invite commentary from all levels of the organization. This practice helps keep the tools aligned with the organization's evolving goals and fosters a culture of continuous improvement and adaptation.
 
 ### [Organize a Hackathon](/practices/schedule-time-for-experimentation.md)
 

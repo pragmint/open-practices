@@ -11,13 +11,13 @@ Changes should be made through a series of small transformations, applied from t
 
 A common misconception is that refactoring involves adding new features, functionality, or improving the user experience (UX).
 In reality, refactoring is solely about improving the structure of existing code without altering its external behavior.
-Its focus is on enhancing the code’s readability, maintainability, and performance, not changing it's output.
+Its focus is on enhancing the code's readability, maintainability, and performance, not changing it's output.
 
 ### Automated Testing is Crucial
 
 Refactoring should be supported by a robust suite of automated tests.
 These tests ensure that the changes made during refactoring do not introduce new bugs.
-Without adequate testing, it becomes difficult to guarantee that the code’s behavior remains consistent after modifications.
+Without adequate testing, it becomes difficult to guarantee that the code's behavior remains consistent after modifications.
 
 ### The Risks of Too Much in One Go
 

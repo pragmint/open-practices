@@ -73,11 +73,11 @@ To avoid having to manually verify systems are working in production after a dep
 
 ### [Enable Self-Service Monitoring Dashboards](/practices/enable-self-service-monitoring-dashboards.md)
 
-Self-service monitoring dashboards reduce stress during incidents by giving engineers fast, direct access to the information they need to understand what’s happening in production. When teams don’t have to rely on others to surface metrics or explain system behavior, incident response becomes more controlled and predictable, lowering cognitive load and on-call fatigue.
+Self-service monitoring dashboards reduce stress during incidents by giving engineers fast, direct access to the information they need to understand what's happening in production. When teams don't have to rely on others to surface metrics or explain system behavior, incident response becomes more controlled and predictable, lowering cognitive load and on-call fatigue.
 
 ### [Set and Enforce Work-in-Process Limits](/practices/set-and-enforce-wip-limits.md)
 
-Setting and enforcing WIP limits helps prevent chronic overload by ensuring teams don’t take on more work than they can reasonably handle at a sustainable pace. By limiting simultaneous demands, teams reduce context switching, lower stress, and create the slack needed to absorb unplanned work without burning people out.
+Setting and enforcing WIP limits helps prevent chronic overload by ensuring teams don't take on more work than they can reasonably handle at a sustainable pace. By limiting simultaneous demands, teams reduce context switching, lower stress, and create the slack needed to absorb unplanned work without burning people out.
 
 ## Adjacent Capabilities
 

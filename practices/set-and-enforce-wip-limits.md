@@ -4,7 +4,7 @@ When teams take on a large amount of work in progress at the same time, it can c
 
 Setting and enforcing work-in-process (WIP) limits helps teams stay focused, finish work already in motion, and reduce the overhead caused by task-switching. By artificially constraining the number of active items in a specific stage of the workflow, the team creates a "pull system" where new work is only started when there is capacity to handle it.
 
-Ultimately, this practice shifts the team’s mindset from resource efficiency (keeping everyone busy) to flow efficiency (getting value to the customer). It encourages swarming on blocked items and exposes bottlenecks in the process that were previously hidden by a mountain of open tickets.
+Ultimately, this practice shifts the team's mindset from resource efficiency (keeping everyone busy) to flow efficiency (getting value to the customer). It encourages swarming on blocked items and exposes bottlenecks in the process that were previously hidden by a mountain of open tickets.
 
 ## When to Experiment
 

@@ -1,16 +1,16 @@
-# OTel in Practice: Alibaba’s OpenTelemetry Journey
+# OTel in Practice: Alibaba's OpenTelemetry Journey
 
 Resource type: Video
 
 https://www.youtube.com/watch?v=fgbB0HhVBq8
 
-## What it’s about
+## What it's about
 
 This talk from Alibaba engineers describes their journey implementing OpenTelemetry at scale. It covers the challenges of migrating from proprietary monitoring stacks, building internal champions, and standardizing telemetry across diverse services.
 
-## Why it’s worth watching
+## Why it's worth watching
 
-It’s a rare enterprise case study told from the inside — with practical detail on both technical hurdles and organizational dynamics. Alibaba shows that OTel adoption requires not just instrumentation, but strong leadership and persistence to overcome skepticism.
+It's a rare enterprise case study told from the inside — with practical detail on both technical hurdles and organizational dynamics. Alibaba shows that OTel adoption requires not just instrumentation, but strong leadership and persistence to overcome skepticism.
 
 ## Pause and Ponder
 
@@ -22,4 +22,4 @@ It’s a rare enterprise case study told from the inside — with practical deta
 
 ## Takeaway
 
-OTel adoption succeeds when backed by champions with enough authority to enforce change. Alibaba’s journey underscores the socio-technical nature of observability: success depends as much on politics as on code.
+OTel adoption succeeds when backed by champions with enough authority to enforce change. Alibaba's journey underscores the socio-technical nature of observability: success depends as much on politics as on code.

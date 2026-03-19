@@ -1,10 +1,10 @@
 # [Monitoring Systems to Inform Business Decisions](https://dora.dev/capabilities/monitoring-systems/)
 
-Monitoring isn’t just about uptime -- it’s about insight. The real power of monitoring lies in connecting system signals to business outcomes.
+Monitoring isn't just about uptime -- it's about insight. The real power of monitoring lies in connecting system signals to business outcomes.
 
-Every system emits data: response times, errors, user behavior. But these aren’t just technical metrics; they're proxies for customer experience, revenue, cost, and product impact.
+Every system emits data: response times, errors, user behavior. But these aren't just technical metrics; they're proxies for customer experience, revenue, cost, and product impact.
 
-When you use metrics to inform business decisions, the question shifts from simply *What’s happening?* to *What does it mean?* Why aren't users adopting our latest feature? Where are we leaking revenue? Which investments are actually moving the needle? These questions can be answered when the data is available, accessible, and analyzed properly.
+When you use metrics to inform business decisions, the question shifts from simply *What's happening?* to *What does it mean?* Why aren't users adopting our latest feature? Where are we leaking revenue? Which investments are actually moving the needle? These questions can be answered when the data is available, accessible, and analyzed properly.
 
 When teams frame monitoring around business questions, data becomes a tool for learning, not just for observing daily operations. This shift encourages hypotheses, fuels iteration, and ties technical work to customer value.
 
@@ -22,7 +22,7 @@ Monitoring data is only useful if someone acts on it. When no one is clearly res
 
 ### Tracking Everything and Understanding Nothing
 
-Monitoring everything can create noise and overwhelm teams with data, making it difficult to pinpoint critical insights. The goal isn’t more data, it’s to access and analyze the right data to make better decisions. When you contextualize data with historical comparisons or business relevance, you can more fully understand and use it to make informed decisions.
+Monitoring everything can create noise and overwhelm teams with data, making it difficult to pinpoint critical insights. The goal isn't more data, it's to access and analyze the right data to make better decisions. When you contextualize data with historical comparisons or business relevance, you can more fully understand and use it to make informed decisions.
 
 ## Assessment
 
@@ -51,7 +51,7 @@ Double-loop learning goes beyond tracking outcomes; it connects your work to the
 
 When you practice double-loop learning, you map the relationships between projects, input metrics, and business KPIs. This lets you:
 * Reflect on experiments and question previous thinking at a deeper level
-* See how current efforts are (or aren’t) moving the right metrics
+* See how current efforts are (or aren't) moving the right metrics
 * Adjust course when assumptions prove false
 * Align teams by making strategy visible and testable
 
@@ -75,8 +75,8 @@ Monitoring systems provide the data necessary for teams to experiment with confi
 
 ### [Monitoring and Observability](/capabilities/monitoring-and-observability.md) - Upstream
 
-Monitoring and Observability provide the data and platforms that inform sound business decision making. Without reliable signals from production systems, it’s difficult to measure user behavior, system impact, or the success of new features.
+Monitoring and Observability provide the data and platforms that inform sound business decision making. Without reliable signals from production systems, it's difficult to measure user behavior, system impact, or the success of new features.
 
 ### [Visual Management](/capabilities/visual-management.md) - Upstream
 
-Visual Management makes monitoring data easy to see and understand. It helps teams and stakeholders quickly spot what’s working, what’s broken, and what needs attention. Without clear visuals, important trends or problems can get missed. When monitoring data is shown in simple, useful ways -- like dashboards or kanban boards -- it has a greater impact on business decisions.
+Visual Management makes monitoring data easy to see and understand. It helps teams and stakeholders quickly spot what's working, what's broken, and what needs attention. Without clear visuals, important trends or problems can get missed. When monitoring data is shown in simple, useful ways -- like dashboards or kanban boards -- it has a greater impact on business decisions.

@@ -22,7 +22,7 @@ Without strong collaboration between development and operations teams, deploymen
 
 ### Custom Versus Off-The-Shelf
 
-Custom solutions for deployment automation can be costly to build and maintain, while potentially lacking key features. On the other hand, vendor tools may introduce lock-in or reinforce suboptimal practices, and interoperability between tools isn’t guaranteed. Carefully assess trade-offs between custom and off-the-shelf automation solutions to balance flexibility, functionality, and long-term viability.
+Custom solutions for deployment automation can be costly to build and maintain, while potentially lacking key features. On the other hand, vendor tools may introduce lock-in or reinforce suboptimal practices, and interoperability between tools isn't guaranteed. Carefully assess trade-offs between custom and off-the-shelf automation solutions to balance flexibility, functionality, and long-term viability.
 
 ## Assessment
 

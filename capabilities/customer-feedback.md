@@ -12,7 +12,7 @@ This section outlines common pitfalls, challenges, or limitations teams commonly
 
 ### Gathering Feedback Too Late
 
-When feedback is collected too late in the development lifecycle, it limits the team's ability to make timely adjustments. Late feedback often results in wasted resources and missed opportunities to address user needs effectively. It’s crucial to integrate feedback mechanisms *early and continuously*, throughout the development cycle.
+When feedback is collected too late in the development lifecycle, it limits the team's ability to make timely adjustments. Late feedback often results in wasted resources and missed opportunities to address user needs effectively. It's crucial to integrate feedback mechanisms *early and continuously*, throughout the development cycle.
 
 ### Misinterpreting Customer Needs
 
@@ -30,9 +30,9 @@ Consider the descriptions below and score yourself on the Customer Feedback capa
 
 Don't worry if the description doesn't exactly match your situation. These descriptions are meant to be examples of situations that would qualify for the associated score.
 
-1. **Absent:** User feedback from releases aren’t collected.
-2. **Reactive:** User feedback is gathered but usually only after significant issues arise, and it’s acted upon sporadically.
-3. **Informative:** User feedback is regularly gathered and may influence feature prioritization, but meaningful shifts in priority don’t happen often.
+1. **Absent:** User feedback from releases aren't collected.
+2. **Reactive:** User feedback is gathered but usually only after significant issues arise, and it's acted upon sporadically.
+3. **Informative:** User feedback is regularly gathered and may influence feature prioritization, but meaningful shifts in priority don't happen often.
 4. **Impactful:** User feedback is regularly gathered, based on recent changes, and acted upon in a timely manner to enhance the product and influence decisions.
 
 The number you selected represents your overall score for this capability. If you feel like your team or organization fits somewhere in between two scores, it's okay to use a decimal. For example, if you think user feedback is both reactive and informative, you would score a 2.5.
@@ -53,7 +53,7 @@ Introduce A/B testing to evaluate different versions of a feature or product cha
 
 ### Shift Teams to Track Outcomes Instead of Outputs
 
-It’s easy to default to tracking what’s easy to count: tickets closed, lines of code, story points. But these are *outputs*, not *outcomes*. To drive meaningful improvement, displays should connect work to desired outcomes around customer behavior, system reliability, revenue generated, or time to resolve issues. When teams see the impact of their work, they can make smarter trade-offs and course-correct faster.
+It's easy to default to tracking what's easy to count: tickets closed, lines of code, story points. But these are *outputs*, not *outcomes*. To drive meaningful improvement, displays should connect work to desired outcomes around customer behavior, system reliability, revenue generated, or time to resolve issues. When teams see the impact of their work, they can make smarter trade-offs and course-correct faster.
 
 ## Adjacent Capabilities
 

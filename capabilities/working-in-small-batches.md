@@ -18,7 +18,7 @@ Breaking work into small, independently deliverable batches requires thoughtful 
 
 ### Misinterpretation of "Small Batches"
 
-Teams sometimes mistake “small batches” for “small tasks” without considering the value each batch delivers. If small batches lack user value, or fail to provide meaningful feedback, then they don't support the goal of rapid iteration.
+Teams sometimes mistake "small batches" for "small tasks" without considering the value each batch delivers. If small batches lack user value, or fail to provide meaningful feedback, then they don't support the goal of rapid iteration.
 
 ### Neglecting Long-Term Objectives
 

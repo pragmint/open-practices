@@ -2,7 +2,7 @@
 
 *Monitoring* your system means tracking predefined metrics and alerting you when known issues occur, like high latency or error rates. It tells you that something is wrong in your system, but not why.
 
-*Observability* lets you explore system behavior in real time to understand unknown or unexpected failures. It gives you flexibility and context to debug complex issues you didn’t anticipate in advance.
+*Observability* lets you explore system behavior in real time to understand unknown or unexpected failures. It gives you flexibility and context to debug complex issues you didn't anticipate in advance.
 
 Given these two concepts are so closely related, it's common for teams to set up systems that use monitoring and observability together.
 
@@ -20,11 +20,11 @@ Having monitoring and observability tools in place is just the beginning. What m
 
 ### Everyone Should Be Empowered To Use This Tooling
 
-Avoid creating a single point of failure by relying on *one* observability expert or specialized team to interpret what's going on in production. Some organizations have Site Reliability Engineers (SREs) with deep operational experience to help improve system reliability. However, SREs shouldn't be gatekeepers. All developers should be empowered, and expected, to use monitoring and observability tools. After all, developers bring the most context about their code and its intent, which is often exactly what’s needed when tracking down an issue.
+Avoid creating a single point of failure by relying on *one* observability expert or specialized team to interpret what's going on in production. Some organizations have Site Reliability Engineers (SREs) with deep operational experience to help improve system reliability. However, SREs shouldn't be gatekeepers. All developers should be empowered, and expected, to use monitoring and observability tools. After all, developers bring the most context about their code and its intent, which is often exactly what's needed when tracking down an issue.
 
 ### Be Careful What You Automate
 
-Automation based on logs, alerts, and metrics can be a powerful way to reduce operational toil: auto-scaling, auto-healing, even auto-remediation of known failure modes. But automation adds its own complexity. If it’s based on noisy or poorly understood signals, it can trigger inappropriately and make a bad situation worse. Cascading failures often start with well-meaning automation responding to incomplete or misleading data. Before wiring automation to monitoring observability signals, make sure those signals are stable, well-tested, and truly reflective of system state.
+Automation based on logs, alerts, and metrics can be a powerful way to reduce operational toil: auto-scaling, auto-healing, even auto-remediation of known failure modes. But automation adds its own complexity. If it's based on noisy or poorly understood signals, it can trigger inappropriately and make a bad situation worse. Cascading failures often start with well-meaning automation responding to incomplete or misleading data. Before wiring automation to monitoring observability signals, make sure those signals are stable, well-tested, and truly reflective of system state.
 
 ## Assessment
 
@@ -69,7 +69,7 @@ Automate failure detection and rollback to reduce recovery time and minimize use
 
 ### Shadow Production with Traffic Replay
 
-Replay real, scrubbed production traffic in staging or testing environments to uncover and understand issues *before* they impact users. This approach mimics realistic load and usage patterns, helping surface problems that synthetic tests might miss. Monitoring and observability tooling can then be used to analyze anomalies, confirm fixes, or validate changes under near-production conditions. This practice is especially valuable for testing config changes, infrastructure updates, or edge cases that don’t appear in standard test suites.
+Replay real, scrubbed production traffic in staging or testing environments to uncover and understand issues *before* they impact users. This approach mimics realistic load and usage patterns, helping surface problems that synthetic tests might miss. Monitoring and observability tooling can then be used to analyze anomalies, confirm fixes, or validate changes under near-production conditions. This practice is especially valuable for testing config changes, infrastructure updates, or edge cases that don't appear in standard test suites.
 
 ### Monitor and Optimize Resource Usage
 
@@ -105,4 +105,4 @@ Metrics like user engagement, feature adoption, or system latency can be transfo
 
 ### [Monitoring Systems to Inform Business Decisions](/capabilities/monitoring-systems-to-inform-business-decisions.md) - Downstream
 
-Monitoring and Observability provide the data and platforms that inform sound business decision making. Without reliable signals from production systems, it’s difficult to measure user behavior, system impact, or the success of new features.
+Monitoring and Observability provide the data and platforms that inform sound business decision making. Without reliable signals from production systems, it's difficult to measure user behavior, system impact, or the success of new features.

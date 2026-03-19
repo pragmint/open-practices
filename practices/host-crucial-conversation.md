@@ -19,7 +19,7 @@ It's important to enter a crucial conversation with a genuine curiosity about th
 
 ### Stay Focused
 
-During a crucial conversation, it can be challenging to maintain a single point of focus, especially if the discussion becomes uncomfortable. In these moments, individuals may bring up unrelated issues to divert attention from the primary topic, which can derail the conversation and lead to confusion. As a host, _bookmarking_ is a crucial strategy to employ here — this involves consciously noting unrelated issues for later discussion, so they don’t distract from the conversation at hand.
+During a crucial conversation, it can be challenging to maintain a single point of focus, especially if the discussion becomes uncomfortable. In these moments, individuals may bring up unrelated issues to divert attention from the primary topic, which can derail the conversation and lead to confusion. As a host, _bookmarking_ is a crucial strategy to employ here — this involves consciously noting unrelated issues for later discussion, so they don't distract from the conversation at hand.
 
 ### Full Consensus May Not Be Feasible
 

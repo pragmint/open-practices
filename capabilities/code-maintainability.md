@@ -49,7 +49,7 @@ Next, consider the descriptions in the two areas of focus below: New Code and Pr
 1. **Brittle Codebase:** Changing any code is time-consuming, complex, and prone to error.
 2. **Fairly Complex Codebase:** Most changes require significant refactoring, and it's difficult to predict the impact of changes on the overall system.
 3. **Partially Modular Codebase:** Most parts of the system are modular and easy to update, but some are complex and difficult to work with.
-4. **Well-organized Codebase:** When changes are made to the existing codebase, they don’t tend to require much rework.
+4. **Well-organized Codebase:** When changes are made to the existing codebase, they don't tend to require much rework.
 
 Now, average your scores for New Code and average your scores for Previously Written Code. Then, average those two numbers and you'll have your overall score for this capability. So, if your average score for New Code was 3 and your average score for Previously Written Code was 2, then your overall score for Code Maintainability would be 2.5.
 

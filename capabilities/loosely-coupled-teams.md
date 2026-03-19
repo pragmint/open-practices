@@ -89,7 +89,7 @@ Clear visibility of work in the value stream is an essential precursor to establ
 
 ### [Generative Organizational Culture](/capabilities/generative-organizational-culture.md) - Upstream
 
-A generative organizational culture fosters an environment where experimentation, innovation, and continuous learning are the norms. When teams are encouraged to question assumptions and generate new ideas, they’re more prone to adopt loosely coupled practices and evolve independently.
+A generative organizational culture fosters an environment where experimentation, innovation, and continuous learning are the norms. When teams are encouraged to question assumptions and generate new ideas, they're more prone to adopt loosely coupled practices and evolve independently.
 
 ### [Transformational Leadership](/capabilities/transformational-leadership.md) - Upstream
 
