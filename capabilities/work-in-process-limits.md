@@ -32,10 +32,10 @@ Consider the descriptions below and score yourself on the Work-in-Process Limits
 
 Don't worry if the description doesn't exactly match your situation. These descriptions are meant to be examples of situations that would qualify for the associated score.
 
-1. **No Limits:** No WIP limits are set, and teams work on multiple tasks simultaneously, leading to inefficiencies and burnout.
-2. **Loose Limits:** WIP limits are set, but they are not enforced, and teams often exceed them, resulting in delays and inefficiencies.
-3. **Managed Limits:** WIP limits are set and enforced, and teams prioritize work based on capacity, but there is still room for improvement in reducing lead times and increasing flow.
-4. **Optimized Flow:** WIP limits are optimized and continuously refined to minimize lead times, reduce variability, and achieve single-piece flow, with a focus on continuous improvement and removing obstacles.
+1. **No Limits:** No WIP limits are set; teams work on multiple tasks simultaneously, leading to inefficiencies and burnout.
+2. **Loose Limits:** WIP limits are set, but they are not enforced; teams often exceed them, resulting in delays and inefficiencies.
+3. **Managed Limits:** WIP limits are set and enforced; teams prioritize work based on capacity, but there is still room for improvement in reducing lead times and increasing flow.
+4. **Optimized Flow:** WIP limits are optimized and continuously refined to minimize lead times, reduce variability, and achieve single-piece flow; the focus is on continuous improvement and removing obstacles.
 
 The number you selected represents your overall score for this capability. If you feel like your team or organization fits somewhere in between two scores, it's okay to use a decimal. For example, if you think WIP limits within your team are somewhere between loose and managed, then you would score a 2.5.
 

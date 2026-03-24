@@ -30,10 +30,10 @@ Consider the descriptions below and score your team on the Well-Being capability
 
 Don't worry if the description doesn't exactly match your situation. These descriptions are meant to be examples of situations that would qualify for the associated score.
 
-1. **Overwhelmed & Undervalued:** Employees are consistently overwhelmed by work demands, have little control over their work, and feel undervalued and unrewarded, with a breakdown in community and a lack of fairness in decision-making processes.
+1. **Overwhelmed & Undervalued:** Employees are consistently overwhelmed by work demands, have little control over their work, and feel undervalued and unrewarded; there is a breakdown in community and a lack of fairness in decision-making processes.
 2. **Managing the Load:** Teams are coping with work demands, but some employees are still struggling with a lack of control and autonomy, and rewards and recognition are inconsistent. While there are some efforts to build a sense of community, fairness and values alignment are still a work in progress.
-3. **Finding Balance:** Employees are generally happy and engaged, with a good work-life balance, and teams are making progress in addressing work overload, increasing control and autonomy, and providing sufficient rewards and recognition, but there is still room for improvement in building a sense of community and fairness.
-4. **Thriving Culture:** Employees are highly engaged, motivated, and happy, with a strong sense of well-being, and teams are consistently delivering high-quality work in a supportive and fair work environment, with a clear alignment between organizational and individual values, and opportunities for growth and development.
+3. **Finding Balance:** Employees are generally happy and engaged, with a good work-life balance. Teams are making progress in addressing work overload, increasing control and autonomy, and providing sufficient rewards and recognition, but there is still room for improvement in building a sense of community and fairness.
+4. **Thriving Culture:** Employees are highly engaged, motivated, and happy, with a strong sense of well-being. Teams are consistently delivering high-quality work in a supportive and fair work environment; there is clear alignment between organizational and individual values, and opportunities for growth and development.
 
 The number you selected represents your overall score for this capability. If you feel like the general well-being of your team fits somewhere in between two scores, it's okay to use a decimal. For example, if you think employees are somewhere between managing their loads and finding a good balance, you would score a 2.5.
 

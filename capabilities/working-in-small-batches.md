@@ -32,10 +32,10 @@ Consider the descriptions below and score yourself on the Working in Small Batch
 
 Don't worry if the description doesn't exactly match your situation. These descriptions are meant to be examples of situations that would qualify for the associated score.
 
-1. **Large Batches:** Work is done in large batches that take a long time (months) to complete, resulting in reduced visibility into progress, increased integration effort, delayed value, and high variability.
-2. **Moderate Batches:** Batches are moderately sized, taking several weeks to complete, which can lead to some delays in integration and value delivery, and moderate variability, making it difficult to track progress.
-3. **Small Batches:** Work is broken down into small batches that can be completed and integrated quickly (days), allowing for clear visibility into progress, relatively low integration effort, and faster value delivery, with some variability.
-4. **Minimal Viable Batches:** Work is decomposed into extremely small, minimal viable batches that can be completed and integrated rapidly (hours), providing clear and continuous visibility into progress, minimal integration effort, and fast value delivery, with low variability.
+1. **Large Batches:** Work is done in large batches that take a long time (months) to complete; this leads to reduced visibility into progress, increased integration effort, delayed value, and high variability.
+2. **Moderate Batches:** Batches are moderately sized, taking several weeks to complete; this can lead to some delays in integration and value delivery, and moderate variability, making it difficult to track progress.
+3. **Small Batches:** Work is broken down into small batches that can be completed and integrated quickly (days); this allows clear visibility into progress, relatively low integration effort, and faster value delivery, with some variability.
+4. **Minimal Viable Batches:** Work is decomposed into extremely small, minimal viable batches that can be completed and integrated rapidly (hours); this allows clear and continuous visibility into progress, minimal integration effort, and fast value delivery, with low variability.
 
 The number you selected represents your overall score for this capability. If you feel like your team or organization fits somewhere in between two scores, it's okay to use a decimal. For example, if you think your team works somewhere between moderate and small batches, then you would score a 2.5.
 

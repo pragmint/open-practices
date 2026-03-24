@@ -2,7 +2,7 @@
 
 Automating deployment scripts involves developing code that handles the entire lifecycle of a deployment. This includes environment preparation, package deployment, configuration management, and post-deployment verification. Rather than relying on manual runbooks or human intervention during a release, these scripts ensure that every step required to move software from a repository to a running state is executed programmatically. This practice shifts deployment from a fragile, manual activity to a repeatable engineering process.
 
-By scripting these steps, organizations significantly eliminate the risk of human error, which is a leading cause of deployment failures. The process becomes consistent across all environments when a deployment is automated, from local development to staging and production. This consistency reduces "configuration drift" and ensures that if it works in a lower environment, it is highly likely to work in production, thereby increasing the team's confidence in their releases.
+By scripting these steps, organizations significantly reduce the risk of human error, which is a leading cause of deployment failures. The process becomes consistent across all environments, from local development to staging and production. This consistency reduces "configuration drift" and ensures that if it works in a lower environment, it is highly likely to work in production, thereby increasing the team's confidence in their releases.
 
 Furthermore, automating deployment scripts directly addresses "deployment pain," a key metric in DORA research. Manual deployments are often stressful, high-stakes events that require after-hours work and intense focus. By offloading this toil to reliable scripts, deployments become boring and routine. This shift not only enhances deployment speed and frequency but also fundamentally improves employee well-being by reducing burnout and freeing up cognitive load for value-add development work.
 
@@ -18,7 +18,7 @@ Furthermore, automating deployment scripts directly addresses "deployment pain,"
 
 #### Tool Comparison
 
-Compare at least two deployment automation tools (e.g., Jenkins, GitLab CI, or GitHub Actions) by deploying a simple application with each.  Evaluate the strengths and weaknesses of each tool in terms of configuration, integration, and community support. Be sure to verify support for any unique or complex deployment steps.
+Compare at least two deployment automation tools (e.g., Jenkins, GitLab CI, or GitHub Actions) by deploying a simple application with each. Evaluate the strengths and weaknesses of each tool in terms of configuration, integration, and community support. Be sure to verify support for any unique or complex deployment steps.
 
 #### Simplify the Deployment Process
 
@@ -26,7 +26,7 @@ Evaluate the existing deployment process for areas it could be simplified. For e
 
 * *Is this step idempotent?* If the deployment script fails, it may need to run this step again.
 * *How can manual intervention be removed?* Not every step will be automated in the same way. Explore options to limit the human intervention needed to deploy.
-* *Can Inter-application Dependencies Be Reduced?* Having the deployment script depend on other applications to be deployed in a certain order introduces complexity and fragility into the process.
+* *Can inter-application dependencies be reduced?* Having the deployment script depend on other applications to be deployed in a certain order introduces complexity and fragility into the process.
 
 ### Host a Roundtable Discussion
 
@@ -40,7 +40,7 @@ You can use the following conversation prompts:
 
 *Automate the Low-hanging Fruit First.* You don't have to automate 100% of all deployments in one go. Find the deployment steps that will be simple to automate; doing this will free up your time to automate the more complex steps.
 
-*Quickly Promote Working Scripts to Prod.* Having different deployment processes across environments for the same application increases complexity and confusion. This can lead to more errors than before automating deployment steps.
+*Quickly Promote Working Scripts to Prod.* Having different deployment processes across environments for the same application increases complexity and confusion; this can lead to more errors than before automating deployment steps.
 
 *Use the Same Packages for Every Environment.* This lets you know with certainty that the package you tested is the one that is being deployed.  This means that environment-specific configuration must be deployed separate from the package.
 
@@ -74,6 +74,6 @@ Automated deployment scripts are the engine that powers Continuous Delivery. To 
 
 Deployment scripts should be treated exactly like application code: stored, versioned, and managed within a version control system. This practice ensures that changes to the deployment logic are tracked, reviewed, and audit-compliant. It allows the team to roll back not just the application binary, but also the logic used to deploy it, ensuring total system recoverability.
 
-### [Well-Being](/capabilities/well-being.md)
+### [Well-being](/capabilities/well-being.md)
 
 Reducing deployment pain is a critical factor in improving team culture and preventing burnout. By automating the stressful and repetitive aspects of releasing software, this practice minimizes the anxiety associated with "breaking production." It fosters a healthier work environment where deployments are non-events, allowing engineers to maintain a better work-life balance.

@@ -8,14 +8,14 @@ Ultimately, this practice prioritizes long-term velocity over short-term output.
 
 ## When to Experiment
 
-- You are a developer who needs a clean and up-to-date branch to merge changes into.
-- You are an engineering manager who needs to reduce debugging time and integration friction, so you can maintain steady delivery flow.
+- You're a developer who needs a clean and up-to-date branch to merge changes into.
+- You're an engineering manager who needs to reduce debugging time and integration friction so you can maintain steady delivery flow.
 
 ## How to Gain Traction
 
 ### Establish a Clear "Stop-the-Line" Policy
 
-Define an explicit team agreement: when the build breaks, restoring it is the top priority. No new feature work proceeds until the build is green again. Be precise about what qualifies as a broken build (e.g., failing required checks on main) and what “fixed” means. Ambiguity will weaken the practice.
+Define an explicit team agreement: When the build breaks, restoring it is the top priority. No new feature work proceeds until the build is green again. Be precise about what qualifies as a broken build (e.g., failing required checks on main) and what “fixed” means. Ambiguity will weaken the practice.
 
 ### Define Ownership and Response Expectations
 
@@ -23,7 +23,7 @@ Make responsibility unambiguous. The person who introduced the change fixes it, 
 
 ### Reinforce Through Retrospectives
 
-When builds stay broken longer than expected, treat it as a process failure.
+When a build stays broken longer than expected, treat it as a process failure.
 
 Review:
 - Why wasn't it fixed immediately?
@@ -34,10 +34,10 @@ Continuously tighten the loop so the behavior becomes automatic.
 
 ## Lessons From The Field
 
-- _Flaky tests undermine the practice_ – If builds fail for non-deterministic reasons, teams quickly lose trust and stop treating failures as urgent. Stabilizing the test suite is a prerequisite for success.
-- _Lack of ownership leads to stalled builds_ – When it’s unclear who should fix a failure, builds can remain broken for extended periods. High-performing teams establish clear ownership and escalation paths.
-- _Speed of feedback matters_ – If builds take too long to run, developers are less likely to respond quickly to failures. Faster pipelines lead to faster recovery and stronger adherence to the practice.
-- _Cultural alignment is critical_ – Treating builds like outages requires shared agreement that system health is more important than individual progress. Without this alignment, the practice becomes inconsistent.
+- *Flaky Tests Undermine the Practice.* – If builds fail for non-deterministic reasons, teams quickly lose trust and stop treating failures as urgent. Stabilizing the test suite is a prerequisite for success.
+- *Lack of Ownership Leads to Stalled Builds.* – When it’s unclear who should fix a failure, builds can remain broken for extended periods. High-performing teams establish clear ownership and escalation paths.
+- *Speed of Feedback Matters.* – If builds take too long to run, developers are less likely to respond quickly to failures. Faster pipelines lead to faster recovery and stronger adherence to the practice.
+- *Cultural Alignment is Critical.* – Treating builds like outages requires shared agreement that system health is more important than individual progress. Without this alignment, the practice becomes inconsistent.
 
 ## Deciding to Pitch or Polish
 
@@ -45,13 +45,15 @@ After experimenting with this practice for **4–5 weeks**, bring the team toget
 
 ### Fast & Measurable
 
-**Time to restore build (MTTR for CI failures)**. A decrease in the time it takes to return the build to a green state indicates that the team is responding quickly and effectively. This can be tracked through CI timestamps and incident logs.
+**Mean time to restore build (MTTR for CI failures)**. A decrease in the time it takes to return the build to a green state indicates that the team is responding quickly and effectively. This can be tracked through CI timestamps and incident logs.
+
 **Frequency of broken builds**. A reduction in how often the build breaks suggests improved discipline and better integration practices. This can be measured through CI history or pipeline analytics.
 
 ### Fast & Intangible
 
 **Trust in the CI system**. Developers feel confident that a green build means the system is stable and that failures are meaningful. This can be assessed through retrospectives or team feedback.
-**Improved deployment readiness**. The main branch remains consistently deployable, enabling more frequent and reliable releases.
+
+**Deployment readiness**. The main branch remains consistently deployable, enabling more frequent and reliable releases.
 
 ## Supported Capabilities
 
@@ -69,4 +71,4 @@ In Trunk-based Development, developers merge code into the main branch frequentl
 
 ### [Team Experimentation](/capabilities/team-experimentation.md)
 
-Teams can only experiment safely when they have a stable foundation to fall back on. If the build is constantly broken, it becomes impossible to determine if a failure is due to a new experiment or pre-existing issues. A "green" build provides the safety net required for teams to innovate and test new ideas without fear of destabilizing the system.
+Teams can only experiment safely when they have a stable foundation to fall back on. If the build is constantly broken, it becomes impossible to determine if a failure is due to a new experiment or pre-existing issues. A green build provides the safety net required for teams to innovate and test new ideas without fear of destabilizing the system.

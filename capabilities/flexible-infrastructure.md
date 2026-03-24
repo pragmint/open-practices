@@ -39,7 +39,7 @@ Consider the descriptions below and score yourself on the Flexible Infrastructur
 Don't worry if the description doesn't exactly match your situation. These descriptions are meant to be examples of situations that would qualify for the associated score.
 
 1. **Rigid & Manual:** Infrastructure changes are slow and labor-intensive, requiring manual intervention and taking weeks or months to complete.
-2. **Limited Automation:** Some routine infrastructure tasks are automated, but provisioning, scaling, and resource allocation still require manual effort and human interaction, and there is limited visibility into resource utilization and costs.
+2. **Limited Automation:** Some routine infrastructure tasks are automated, but provisioning, scaling, and resource allocation still require manual effort and human interaction. There is limited visibility into resource utilization and costs.
 3. **Advanced Automation:** Infrastructure changes are largely automated, with self-service capabilities and rapid scalability, but different teams and functions may still work in silos, with some manual handoffs and coordination required.
 4. **On-Demand & Elastic:** Infrastructure is fully automated, with seamless collaboration and alignment between teams and functions, enabling rapid scaling and flexibility, and providing a unified, on-demand experience for users.
 

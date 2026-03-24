@@ -30,10 +30,10 @@ Consider the descriptions below and score yourself on the Customer Feedback capa
 
 Don't worry if the description doesn't exactly match your situation. These descriptions are meant to be examples of situations that would qualify for the associated score.
 
-1. **Meaningless:** User feedback from releases aren't collected.
-2. **Reactive:** User feedback is gathered, but usually only after significant issues arise, and it's acted upon sporadically.
-3. **Informative:** User feedback is regularly gathered and may influence our prioritization, but meaningful shifts in priority don't happen frequently.
-4. **Impactful:** User feedback is gathered, based upon recent changes, and acted upon often.
+1. **Meaningless:** User feedback from releases isn't collected.
+2. **Reactive:** User feedback is gathered but usually only after significant issues arise; it's acted upon sporadically.
+3. **Informative:** User feedback is regularly gathered and may influence our priorities; meaningful shifts in priority don't happen frequently.
+4. **Impactful:** User feedback is gathered based on recent changes; it's acted upon often.
 
 The number you selected represents your overall score for this capability. If you feel like your team or organization fits somewhere in between two scores, it's okay to use a decimal. For example, if you think user feedback is both reactive and informative, you would score a 2.5.
 

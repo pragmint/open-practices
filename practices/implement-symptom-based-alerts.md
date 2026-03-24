@@ -1,10 +1,10 @@
 # Implement Symptom-based Alerts
 
-Traditional monitoring often focuses on specific causes, triggering alerts based on infrastructure metrics like high CPU usage or memory consumption. While these metrics are useful for debugging, they're often poor indicators of actual service health; a server running at high utilization might still be serving requests perfectly. Implementing symptom-based alerts shifts the focus to observable symptoms that directly impact (or lead to directly impacting) the user, such as latency, error rates, and traffic volume.
+Traditional monitoring often focuses on specific infrastructure metrics, triggering alerts based on things like high CPU usage or memory consumption. While these metrics are useful for debugging, they're often poor indicators of actual service health; a server running at high utilization might still be serving requests perfectly. Implementing *symptom-based alerts* shifts the focus to observable symptoms that directly impact (or lead to directly impacting) the user, such as latency, error rates, and traffic volume.
 
 By focusing on symptoms instead of metrics, teams ensure that alerts are tied to the user experience rather than internal anomalies. This distinction is critical for reducing alert fatigue. When engineers are paged only for issues that degrade the customer experience, trust in the monitoring system increases. This approach filters out low-risk, self-healing, or purely internal fluctuations that do not require immediate human intervention.
 
-Ultimately, this practice streamlines incident response and improves the Mean Time to Restore (MTTR). When an alert fires, the team knows immediately that a critical, user-facing issue is occurring, eliminating the guesswork associated with noisy, cause-based data. This alignment prioritizes resources on incidents that matter most, protecting both the customer's satisfaction and the engineering team's cognitive load.
+Ultimately, this practice streamlines incident response and improves the mean time to restore (MTTR). When an alert fires, the team knows immediately that a critical, user-facing issue is occurring, eliminating the guesswork associated with noisy, cause-based data. This alignment prioritizes resources on incidents that matter most, protecting both the customer's satisfaction and the engineering team's cognitive load.
 
 ## When to Experiment
 
@@ -28,7 +28,7 @@ You can use the following conversation prompts:
 
 *Prioritize High-impact or Leading Symptoms.* When migrating to alerting on symptoms, one goal is to reduce the alerting noise. Focusing on alerting on the earliest symptoms that indicate a significant impact to user experience reduces less critical alerts.
 
-*Choose Alert Recipients Carefully.* When alerts are based on symptoms, they inherently have a context where they are relevant. Send alerts to the teams that are responsible and equipped to respond. Sending alerts to individuals that cannot respond increases alert fatigue.
+*Choose Alert Recipients Carefully.* When alerts are based on symptoms, they inherently have a context where they are relevant. Send alerts only to the teams that are responsible and equipped to respond. Sending alerts to individuals that cannot respond increases alert fatigue.
 
 ## Deciding to Pitch or Polish
 
@@ -60,6 +60,6 @@ This practice ensures that notifications are actionable and timely by triggering
 
 By aligning alerting thresholds with user pain points, such as slow page loads or failed transactions, teams prioritize the customer experience over internal system elegance. This ensures that operational efforts are always expended on maintaining value for the end user.
 
-### [Well-Being](/capabilities/well-being.md)
+### [Well-being](/capabilities/well-being.md)
 
 A major contributor to burnout is "alert fatigue," caused by constant, non-actionable interruptions during on-call shifts. By filtering out noise and alerting only on genuine symptoms, this practice protects the work-life balance and mental focus of the engineering team.

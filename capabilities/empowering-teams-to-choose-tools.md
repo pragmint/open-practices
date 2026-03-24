@@ -61,7 +61,7 @@ Self-service monitoring dashboards give teams direct control over how system hea
 
 ### [Create a Team Charter](/practices/create-a-team-charter.md)
 
-Document clear guidelines that define roles, responsibilities, decision-making processes, and escalation paths. Writing a team charter means clearly stating where teams can decide independently, how decisions should be made, and when alignment or escalation is required. By doing this, Autonomy becomes explicit and bounded by the charter. This reduces ambiguity and enables confident, accountable tool choices.
+Document clear guidelines that define roles, responsibilities, decision-making processes, and escalation paths. Writing a team charter means clearly stating where teams can make decisions independently, how decisions should be made, and when alignment or escalation is required. By doing this, autonomy becomes explicit and bounded by the charter. This reduces ambiguity and enables confident, accountable tool choices.
 
 ## Adjacent Capabilities
 

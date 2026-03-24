@@ -1,6 +1,6 @@
 # Enable Self-Service Monitoring Dashboards
 
-A self-service monitoring dashboard is one that teams can access, explore, and evolve independently, without relying on a centralized operations or analytics group. Developers should be able to view and adjust visualizations on demand, with data kept up to date through automated refreshes, and with interaction limited to safe, pre-defined controls such as filters and parameters. Exploration happens in the dashboard itself—-there is no need to export, reshape, or request special access to the underlying data.
+A self-service monitoring dashboard is one that teams can access, explore, and evolve independently, without relying on a centralized operations or analytics group. Developers should be able to view and adjust visualizations on demand -- data is kept up to date through automated refreshes, and interactions are limited to safe, pre-defined controls such as filters and parameters. Exploration happens in the dashboard itself; there is no need to export, reshape, or request special access to the underlying data.
 
 In practice, this means providing a shared monitoring platform where teams have permission to create and modify their own dashboards without approval workflows or gatekeepers. Teams should not need to file tickets to add a graph, adjust a query, or refine a visualization. The expectation is that teams _own_ their dashboards in the same way they own their services: They define what matters, keep it relevant, and evolve it as the system changes.
 
@@ -25,7 +25,7 @@ Review the data for possible security concerns. If any sensitive data (e.g., PII
 
 ### Secure a Champion From Leadership
 
-When providing access to potentially sensitive data -- especially when removing existing access controls -- executive sponsorship is essential.  The champion should be able to help address data access requirements to ensure the company maintains compliance with any relevant regulations.
+When providing access to potentially sensitive data -- especially when removing existing access controls -- executive sponsorship is essential. The champion should be able to help address data access requirements to ensure the company maintains compliance with any relevant regulations.
 
 ## Lessons From The Field
 
