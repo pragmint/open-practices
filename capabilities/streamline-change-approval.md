@@ -23,9 +23,9 @@ Consider the descriptions below and score yourself on the Streamline Change Appr
 
 Don't worry if the description doesn't exactly match your situation. These descriptions are meant to be examples of situations that would qualify for the associated score.
 
-1. **Manual and Gatekeeping:** Changes require manual approval from a centralized Change Advisory Board (CAB) or external reviewers, creating a bottleneck and slowing down the delivery process.
-2. **Peer-Reviewed and Coordinated:** Changes are manually verified, reviewed, and subsequently approved by peers. Changes require high levels of coordination when they affect multiple teams. It usually takes close to a week or more to get approval.
-3. **Semi-automated and Efficient:** Changes are reviewed and approved through a mix of automated and manual processes, with peer review still in place. Coordination is more efficient and approval times are faster. When change approval is required, feedback is typically provided within a day or two.
+1. **Manual & Gatekeeping:** Changes require manual approval from a centralized Change Advisory Board (CAB) or external reviewers, creating a bottleneck and slowing down the delivery process.
+2. **Peer-reviewed & Coordinated:** Changes are manually verified, reviewed, and subsequently approved by peers. Changes require high levels of coordination when they affect multiple teams. It usually takes close to a week or more to get approval.
+3. **Semi-automated & Efficient:** Changes are reviewed and approved through a mix of automated and manual processes, with peer review still in place. Coordination is more efficient and approval times are faster. When change approval is required, feedback is typically provided within a day or two.
 4. **Streamlined:** The high level of automation in change approvals significantly reduces, and in some cases eliminates, the burden of peer review. A Change Advisory Board (CAB) may still exist, but their role is to simply advise and facilitate important discussions. When change approval is required, feedback is typically provided in under 24 hours.
 
 The number you selected represents your overall score for this capability. If you feel like your team or organization fits somewhere in between two scores, it's okay to use a decimal. For example, if you think change approvals are somewhere between peer-reviewed and semi-automated, then you would score a 2.5.

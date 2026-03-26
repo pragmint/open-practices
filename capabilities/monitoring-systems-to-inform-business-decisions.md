@@ -32,9 +32,9 @@ Consider the descriptions below and score yourself on this capability. Generally
 
 Don't worry if the description doesn't exactly match your situation. These descriptions are meant to be examples of situations that would qualify for the associated score.
 
-1. **Ad-hoc Monitoring:** Monitoring is done on an as-needed basis, with little formal process or visibility into system performance. Data is not used to inform business decisions.
-2. **Basic Monitoring:** Some monitoring data is collected and reported, but it is not regularly used to inform business decisions.
-3. **Mature Monitoring:** Monitoring data is regularly collected and used to inform business decisions, but there is room for improvement in terms of data quality and scope.
+1. **Ad Hoc Monitoring:** Monitoring is done on an as-needed basis, with little formal process or visibility into system performance. Data is not used to inform business decisions.
+2. **Basic Reporting:** Some monitoring data is collected and reported, but it is not regularly used to inform business decisions.
+3. **Data-driven Decision Making:** Monitoring data is regularly collected and used to inform business decisions, but there is room for improvement in terms of data quality and scope.
 4. **Strategic Monitoring:** Monitoring is a key part of the organization's strategy, with high-quality data collected and used to drive business decisions and optimize system performance.
 
 The number you selected represents your overall score for this capability. If you feel like your team or organization fits somewhere in between two scores, it's okay to use a decimal. For example, if you think your team or organization has somewhere between basic and mature monitoring, then you would score a 2.5.

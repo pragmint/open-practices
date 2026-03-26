@@ -28,10 +28,10 @@ Consider the descriptions below and score yourself on the Database Change Manage
 
 Don't worry if the description doesn't exactly match your situation. These descriptions are meant to be examples of situations that would qualify for the associated score.
 
-1. Manual and Error-Prone: Database changes are made manually, with a high risk of errors. Deployments are slow, sometimes taking hours to complete, and sometimes requiring downtime.
-2. Partially Automated: Some database changes are automated, but many changes require manual intervention and/or testing to complete.
-3. Mostly Automated: Most database changes are made using a fully automated process, with some manual review and/or testing. Changes are generally deployed quickly, taking minutes. Reliability is fairly good, with few failed changes.
-4. Fully Automated and Zero-Downtime: All database changes are made using a fully automated process, with no manual intervention or approval required. Changes are deployed rapidly, taking seconds or minutes, and the process is highly reliable with zero downtime to dependent applications. When failures are introduced, they're automatically and safely reverted.
+1. **Manual & Error-prone:** Database changes are made manually, with a high risk of errors. Deployments are slow, sometimes taking hours to complete, and sometimes requiring downtime.
+2. **Partially Automated:** Some database changes are automated, but many changes require manual intervention and/or testing to complete.
+3. **Mostly Automated:** Most database changes are made using a fully automated process, with some manual review and/or testing. Changes are generally deployed quickly, taking minutes. Reliability is fairly good, with few failed changes.
+4. **Fully Automated & Zero-downtime:** All database changes are made using a fully automated process, with no manual intervention or approval required. Changes are deployed rapidly, taking seconds or minutes, and the process is highly reliable, with zero downtime to dependent applications. When failures are introduced, they're automatically and safely reverted.
 
 The number you selected represents your overall score for this capability. If you feel like your team or organization fits somewhere in between two scores, it's okay to use a decimal. For example, if you think database changes in your team or organization are somewhere between partially automated and mostly automated, then you would score a 2.5.
 

@@ -34,10 +34,10 @@ Consider the descriptions below and score yourself on the Monitoring and Observa
 
 Don't worry if the description doesn't exactly match your situation. These descriptions are meant to be examples of situations that would qualify for the associated score.
 
-1. **Limited:** There is little to no monitoring or visibility into system performance, making it difficult to identify issues.
-2. **Basic:** Some monitoring tools are in place, providing basic metrics and alerts, but with limited visibility into system behavior. These tools are usually only referenced when there is a problem with the system.
-3. **Comprehensive:** A comprehensive monitoring system is in place, providing standardized metrics and visibility into system performance. Teams can identify trends and simple issues quickly.
-4. **Integrated:** Monitoring data is integrated with logs, traces, and other data sources. Teams can understand and debug complex issues, and gain deep insights into system behavior.
+1. **Limited Visibility:** There is little to no monitoring or visibility into system performance, making it difficult to identify issues.
+2. **Basic Monitoring:** Some monitoring tools are in place, providing basic metrics and alerts, but with limited visibility into system behavior. These tools are usually only referenced when there is a problem with the system.
+3. **Comprehensive Monitoring:** A comprehensive monitoring system is in place, providing standardized metrics and visibility into system performance, enabling teams to identify trends and simple issues quickly.
+4. **Integrated Observability:** Monitoring data is integrated with logs, traces, and other data sources, enabling teams to debug and understand complex issues, and gain deep insights into system behavior.
 
 The number you selected represents your overall score for this capability. If you feel like your team or organization fits somewhere in between two scores, it's okay to use a decimal. For example, if you think monitoring and observability is somewhere between basic and comprehensive, then you would score a 2.5.
 

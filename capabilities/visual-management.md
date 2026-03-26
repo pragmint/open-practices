@@ -34,10 +34,10 @@ Consider the descriptions below and score yourself on the Visual Management capa
 
 Don't worry if the description doesn't exactly match your situation. These descriptions are meant to be examples of situations that would qualify for the associated score.
 
-1. **No Visibility:** No visual management displays or dashboards are used. Teams lack visibility into their processes and progress.
-2. **Basic Dashboards:** Simple dashboards or visual displays are used, but they are not regularly updated. Teams do not actively use them to inform their work.
-3. **Informative Displays:** Visual management displays are used to track key metrics and progress. Teams regularly review and update them to inform their work and identify areas for improvement.
-4. **Real-time Feedback:** Advanced visual management displays provide real-time feedback and insights. Teams can quickly identify and address issues, and make data-driven decisions to adjust their priorities and drive continuous improvement.
+1. **No Visibility:** No visual management displays or dashboards are used, and teams lack visibility into their processes and progress.
+2. **Basic Dashboards:** Simple dashboards or visual displays are used, but they are not regularly updated, and teams do not actively use them to inform their work.
+3. **Informative Displays:** Visual management displays are used to track key metrics and progress, and teams regularly review and update them to inform their work and identify areas for improvement.
+4. **Real-time Feedback:** Advanced visual management displays provide real-time feedback and insights, enabling teams to quickly identify and address issues, and make data-driven decisions to adjust their priorities and drive continuous improvement.
 
 The number you selected represents your overall score for this capability. If you feel like your team or organization fits somewhere in between two scores, it's okay to use a decimal. For example, if you think visual management is somewhere between basic and informative, then you would score a 2.5.
 

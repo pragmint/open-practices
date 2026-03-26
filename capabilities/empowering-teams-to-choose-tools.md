@@ -4,6 +4,8 @@ This capability is about empowering teams to select the tools and technologies t
 
 ## Nuances
 
+This section outlines common pitfalls, challenges, or limitations teams commonly encounter when applying this capability. The goal here is not to discourage you. Rather, the goal is to arm you with the appropriate context so that you can make an informed decision about when and how to implement the capability with your teams.
+
 ### Balance Choice with Complexity
 
 It's crucial to balance tool choice with the potential costs of acquisition, support, and added complexity that come with adding new tools to a tech stack.
@@ -28,10 +30,10 @@ Consider the descriptions below and score your team on this capability. Generall
 
 Don't worry if the description doesn't exactly match your situation. These descriptions are meant to be examples of situations that would qualify for the associated score.
 
-1. Insufficient Tools: The current tools are inadequate for getting the job done, and there is no clear way to evaluate or adopt new ones.
-2. Adequate but Limited: The current tools are sufficient but limited, and new tools are occasionally adopted through an informal process.
-3. Capable and Evolving: The current tools are capable of meeting needs, and a standardized process is in place for evaluating and adopting new tools should the need arise.
-4. Best-in-Class Tools: The best tools available are used to get the job done, and new tools are proactively researched and teams are empowered to recommend their adoption via a standardized process.
+1. **Insufficient Tools:** The current tools are inadequate for getting the job done, and there is no clear way to evaluate or adopt new ones.
+2. **Adequate but Limited:** The current tools are sufficient but limited, and new tools are occasionally adopted through an informal process.
+3. **Capable & Evolving:** The current tools are capable of meeting needs, and a standardized process is in place for evaluating and adopting new tools should the need arise.
+4. **Best-in-Class Tools:** The best tools available are used to get the job done, and new tools are proactively researched and teams are empowered to recommend their adoption via a standardized process.
 
 The number you selected represents your overall score for this capability. If you feel like your team or organization fits somewhere in between two scores, it's okay to use a decimal. For example, if you think your team's toolset represents something between adequate and capable, then you would score a 2.5.
 
@@ -59,7 +61,7 @@ Self-service monitoring dashboards give teams direct control over how system hea
 
 ### [Create a Team Charter](/practices/create-a-team-charter.md)
 
-Document clear guidelines that define roles, responsibilities, decision-making processes, and escalation paths. By writing out team charters, teams make autonomy explicit and bounded by clearly stating where they can decide independently, how decisions should be made, and when alignment or escalation is required. This reduces ambiguity and enables confident, accountable tool choices.
+Document clear guidelines that define roles, responsibilities, decision-making processes, and escalation paths. Writing a team charter means clearly stating where teams can make decisions independently, how decisions should be made, and when alignment or escalation is required. By doing this, autonomy becomes explicit and bounded by the charter. This reduces ambiguity and enables confident, accountable tool choices.
 
 ## Adjacent Capabilities
 

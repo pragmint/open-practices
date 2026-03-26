@@ -24,7 +24,7 @@ To improve in a capability, navigate to its page by either clicking on its title
 ### [Clear and Communicated AI Stance](/capabilities/clear-and-communicated-ai-stance.md)
 
 1. **Absent or Hidden:** No formal stance exists, or it is buried in legal documentation that is not shared with technical teams. Developers are unsure what is allowed, leading to either total avoidance or "underground" usage.
-2. **Reactive & Vague:** A stance exists but is mostly reactive (e.g., "don't put passwords in ChatGPT"). Guidelines are unclear, and there is no centralized place to find updates or ask questions about new tools.
+2. **Reactive & Vague:** A stance exists but is mostly reactive (e.g., "Don't put passwords in ChatGPT."). Guidelines are unclear, and there is no centralized place to find updates or ask questions about new tools.
 3. **Clear & Communicated:** There is a well-documented AI policy that is easily accessible. Most team members understand the boundaries of AI use, and there is a clear process for requesting or vetting new AI tools.
 4. **Integrated & Iterative:** The AI stance is part of the daily engineering culture. It is regularly updated based on team feedback and technological shifts. There is high confidence in using AI because the legal and security guardrails are clear and supportive.
 
@@ -72,7 +72,7 @@ To improve in a capability, navigate to its page by either clicking on its title
 1. **Days:** It typically takes multiple days to restore service after a change failure.
 2. **Hours:** It typically takes multiple hours to restore service after a change failure.
 3. **Under An Hour:** It typically takes somewhere between 10 and 60 minutes to restore service after a change failure.
-4. **A Couple Of Minutes:** It typically takes under 10 minutes to restore service after a change failure.
+4. **A Couple of Minutes:** It typically takes under 10 minutes to restore service after a change failure.
 
 ### [Continuous Integration](/capabilities/continuous-integration.md)
 
@@ -90,10 +90,10 @@ To improve in a capability, navigate to its page by either clicking on its title
 
 ### [Database Change Management](/capabilities/database-change-management.md)
 
-1. **Manual and Error-Prone:** Database changes are made manually, with a high risk of errors. Deployments are slow, sometimes taking hours to complete, and sometimes requiring downtime.
+1. **Manual & Error-prone:** Database changes are made manually, with a high risk of errors. Deployments are slow, sometimes taking hours to complete, and sometimes requiring downtime.
 2. **Partially Automated:** Some database changes are automated, but many changes require manual intervention and/or testing to complete.
 3. **Mostly Automated:** Most database changes are made using a fully automated process, with some manual review and/or testing. Changes are generally deployed quickly, taking minutes. Reliability is fairly good, with few failed changes.
-4. **Fully Automated and Zero-Downtime:** All database changes are made using a fully automated process, with no manual intervention or approval required. Changes are deployed rapidly, taking seconds or minutes, and the process is highly reliable, with zero downtime to dependent applications. When failures are introduced, they're automatically and safely reverted.
+4. **Fully Automated & Zero-downtime:** All database changes are made using a fully automated process, with no manual intervention or approval required. Changes are deployed rapidly, taking seconds or minutes, and the process is highly reliable, with zero downtime to dependent applications. When failures are introduced, they're automatically and safely reverted.
 
 ### [Deployment Automation](/capabilities/deployment-automation.md)
 
@@ -113,19 +113,19 @@ To improve in a capability, navigate to its page by either clicking on its title
 
 1. **Insufficient Tools:** The current tools are inadequate for getting the job done, and there is no clear way to evaluate or adopt new ones.
 2. **Adequate but Limited:** The current tools are sufficient but limited, and new tools are occasionally adopted through an informal process.
-3. **Capable and Evolving:** The current tools are capable of meeting needs, and a standardized process is in place for evaluating and adopting new tools should the need arise.
+3. **Capable & Evolving:** The current tools are capable of meeting needs, and a standardized process is in place for evaluating and adopting new tools should the need arise.
 4. **Best-in-Class Tools:** The best tools available are used to get the job done, and new tools are proactively researched and teams are empowered to recommend their adoption via a standardized process.
 
 ### [Flexible Infrastructure](/capabilities/flexible-infrastructure.md)
 
-1. **Rigid and Manual:** Infrastructure changes are slow and labor-intensive, requiring manual intervention and taking weeks or months to complete.
+1. **Rigid & Manual:** Infrastructure changes are slow and labor-intensive, requiring manual intervention and taking weeks or months to complete.
 2. **Limited Automation:** Some routine infrastructure tasks are automated, but provisioning, scaling, and resource allocation still require manual effort and human interaction, and there is limited visibility into resource utilization and costs.
 3. **Advanced Automation:** Infrastructure changes are largely automated, with self-service capabilities and rapid scalability, but different teams and functions may still work in silos, with some manual handoffs and coordination required.
-4. **On-Demand and Elastic:** Infrastructure is fully automated, with seamless collaboration and alignment between teams and functions, enabling rapid scaling and flexibility, and providing a unified, on-demand experience for users.
+4. **On-Demand & Elastic:** Infrastructure is fully automated, with seamless collaboration and alignment between teams and functions, enabling rapid scaling and flexibility, and providing a unified, on-demand experience for users.
 
 ### [Generative Organizational Culture](/capabilities/generative-organizational-culture.md)
 
-1. **Top-Down:** Teams operate under a highly directive approach, with leadership providing explicit instructions and priorities. Autonomy for decision-making is limited. In the event of failure, the focus is on individual accountability and administering corrective action.
+1. **Top-down:** Teams operate under a highly directive approach, with leadership providing explicit instructions and priorities. Autonomy for decision-making is limited. In the event of failure, the focus is on individual accountability and administering corrective action.
 2. **Bureaucratic:** Teams follow established procedures and protocols, with clear roles and responsibilities. Sometimes the specific instructions are vague or incomplete with no clear product leader. Teams have some flexibility to adapt to changing circumstances. However, leadership approval is still required for most meaningful decisions.
 3. **Collaborative:** Teams seek input and expertise from other teams to inform their decisions, but maintain clear ownership and responsibility for their work. Each team has some autonomy to make decisions within established boundaries. However, strategic direction is set by leadership, and teams are expected to align their work with these top-down priorities.
 4. **Generative:** Teams seek input and expertise from other teams to inform their decisions, but maintain clear ownership and responsibility for their work. Each team has some autonomy to make decisions within established boundaries. Strategic direction is set by leadership, but factors in ground-level feedback from the teams.
@@ -133,9 +133,9 @@ To improve in a capability, navigate to its page by either clicking on its title
 ### [Healthy Data Ecosystems](/capabilities/healthy-data-ecosystems.md)
 
 1. **Fragmented & Untrusted:** Data is trapped in silos. Access requires manual approvals and long waits. No one is sure if the data is accurate and "data cleaning" is a massive, manual chore for every project.
-2. **Coordinated but Manual:** Data is documented, but often outdated. You have some central repositories (like a data warehouse), but integrating new data types is slow. Testing often uses stale or "hand-rolled" data that doesn't reflect reality.
+2. **Coordinated but Manual:** Data is documented but often outdated. You have some central repositories (like a data warehouse), but integrating new data types is slow. Testing often uses stale or "hand-rolled" data that doesn't reflect reality.
 3. **Accessible & Reliable:** Most data is discoverable via a catalog or API. Automated pipelines handle basic cleaning and transformation. There is high confidence in data quality and privacy masking is largely automated.
-4. **Fluid & Self-Service:** Data is treated as a product. Teams can self-serve the data they need through well-defined interfaces. Data source tracking is fully transparent, and data quality issues are caught by automated "data tests" before they affect downstream systems.
+4. **Fluid & Self-service:** Data is treated as a product. Teams can self-serve the data they need through well-defined interfaces. Data source tracking is fully transparent, and data quality issues are caught by automated "data tests" before they affect downstream systems.
 
 ### [Job Satisfaction](/capabilities/job-satisfaction.md)
 
@@ -167,9 +167,9 @@ To improve in a capability, navigate to its page by either clicking on its title
 
 ### [Monitoring Systems to Inform Business Decisions](/capabilities/monitoring-systems-to-inform-business-decisions.md)
 
-1. **Ad-Hoc Monitoring:** Monitoring is done on an as-needed basis, with little formal process or visibility into system performance. Data is not used to inform business decisions.
+1. **Ad Hoc Monitoring:** Monitoring is done on an as-needed basis, with little formal process or visibility into system performance. Data is not used to inform business decisions.
 2. **Basic Reporting:** Some monitoring data is collected and reported, but it is not regularly used to inform business decisions.
-3. **Data-Driven Decision Making:** Monitoring data is regularly collected and used to inform business decisions, but there is room for improvement in terms of data quality and scope.
+3. **Data-driven Decision Making:** Monitoring data is regularly collected and used to inform business decisions, but there is room for improvement in terms of data quality and scope.
 4. **Strategic Monitoring:** Monitoring is a key part of the organization's strategy, with high-quality data collected and used to drive business decisions and optimize system performance.
 
 ### [Pervasive Security](/capabilities/pervasive-security.md)
@@ -181,31 +181,31 @@ To improve in a capability, navigate to its page by either clicking on its title
 
 ### [Platform Engineering](/capabilities/platform-engineering.md)
 
-1. **Ticket-Ops & Fragmented Tooling:** The platform is a collection of infrastructure tickets and manual gates rather than a product. Individual AI coding gains are lost to downstream disorder, as security reviews, testing, and deployments remain manual bottlenecks that increase cognitive load.
-2. **Standardized but Rigid:** Initial "golden paths" exist, but they function as a "golden cage" with little flexibility for diverse team needs. While some automation is present, developer feedback is often unclear, and the lack of self-service means AI-generated code frequently stalls at the integration phase.
-3. **Product-Centric & Self-Service:** A dedicated platform team treats developers as customers, providing self-service interfaces that "shift down" complexity. Automated pipelines ensure AI-amplified throughput is consistently tested and secured, allowing teams to focus on user value rather than infrastructure hurdles.
-4. **Fluid, Extensible & AI-Ready:** The platform is an extensible ecosystem where "golden paths" are the easiest choice but allow for contribution and flexibility. Real-time feedback and automated guardrails make experimentation cheap and recovery fast, fully realizing AI's potential to accelerate the entire delivery lifecycle without sacrificing stability.
+1. **Ticket-ops & Fragmented Tooling:** The platform is a collection of infrastructure tickets and manual gates rather than a well-functioning ecosystem. Individual AI coding gains are lost to downstream disorder, as security reviews, testing, and deployments remain manual bottlenecks that increase cognitive load.
+2. **Standardized but Rigid:** Initial "golden paths" exist, but they function as a "golden cage" with little flexibility for diverse team needs. While some automation is present, developer feedback is often unclear and the lack of self-service means AI-generated code frequently stalls at the integration phase.
+3. **Product-centric & Self-service:** A dedicated platform team treats developers as customers, providing self-service interfaces that "shift down" complexity. Automated pipelines ensure AI-amplified throughput is consistently tested and secured, allowing teams to focus on user value rather than infrastructure hurdles.
+4. **Fluid, Extensible & AI-ready:** The platform is an extensible ecosystem where "golden paths" are the easiest choice but allow for contribution and flexibility. Real-time feedback and automated guardrails make experimentation cheap and recovery fast. The platform leverages AI's potential to accelerate the entire delivery lifecycle without sacrificing stability.
 
 ### [Proactive Failure Notification](/capabilities/proactive-failure-notification.md)
 
 1. **No Notifications:** There is no automated system of notifying teams that a failure has occurred in deployed environments. Failures are typically caught via manual QA or reported by users.
 2. **Rudimentary Notifications:** Some alerting rules are in place, but thresholds are not well-defined. Notifications are often irrelevant or too frequent.
 3. **Threshold-based Notifications:** Alerting rules are well-defined, with failure thresholds tuned to accurately spot issues. Notifications are relevant and timely.
-4. **Proactive Notification:** Rate of change metrics are tracked to proactively spot potential issues. There are automated responses to many notifications, and teams continuously review and refine alerting rules to anticipate and prevent failures.
+4. **Proactive Notifications:** Rate of change metrics are tracked to proactively spot potential issues. There are automated responses to many notifications, and teams continuously review and refine alerting rules to anticipate and prevent failures.
 
 ### [Streamlining Change Approval](/capabilities/streamline-change-approval.md)
 
-1. **Manual and Gatekeeping:** Changes require manual approval from a centralized Change Advisory Board (CAB) or external reviewers, creating a bottleneck and slowing down the delivery process.
-2. **Peer-Reviewed and Coordinated:** Changes are manually verified, reviewed, and subsequently approved by peers. Changes require high levels of coordination when they affect multiple teams. It usually takes close to a week or more to get approval.
-3. **Semi-automated and Efficient:** Changes are reviewed and approved through a mix of automated and manual processes, with peer review still in place. Coordination is more efficient and approval times are faster. When change approval is required, feedback is typically provided within a day or two.
+1. **Manual & Gatekeeping:** Changes require manual approval from a centralized Change Advisory Board (CAB) or external reviewers, creating a bottleneck and slowing down the delivery process.
+2. **Peer-reviewed & Coordinated:** Changes are manually verified, reviewed, and subsequently approved by peers. Changes require high levels of coordination when they affect multiple teams. It usually takes close to a week or more to get approval.
+3. **Semi-automated & Efficient:** Changes are reviewed and approved through a mix of automated and manual processes, with peer review still in place. Coordination is more efficient and approval times are faster. When change approval is required, feedback is typically provided within a day or two.
 4. **Streamlined:** The high level of automation in change approvals significantly reduces, and in some cases eliminates, the burden of peer review. A Change Advisory Board (CAB) may still exist, but their role is to simply advise and facilitate important discussions. When change approval is required, feedback is typically provided in under 24 hours.
 
 ### [Team Experimentation](/capabilities/team-experimentation.md)
 
-1. **Minimal or No Experimentation:** Teams follow a strict, rigid plan with little room for deviation or experimentation and must seek approval for even minor changes. They have limited visibility into the organization's overall goals and context, and they must pull information from leadership on an ad-hoc basis.
-2. **Highly Controlled Experimentation:** Teams are allowed to explore new ideas but within tightly defined parameters and with close oversight from leadership. Deadline pressure regularly takes priority over idea exploration. Teams must request access to relevant context and information, which is provided on an ad-hoc basis.
+1. **Minimal or No Experimentation:** Teams follow a strict, rigid plan with little room for deviation or experimentation and must seek approval for even minor changes. They have limited visibility into the organization's overall goals and context, and they must pull information from leadership on an ad hoc basis.
+2. **Highly Controlled Experimentation:** Teams are allowed to explore new ideas but within tightly defined parameters and with close oversight from leadership. Deadline pressure regularly takes priority over idea exploration. Teams must request access to relevant context and information, which is provided on an ad hoc basis.
 3. **Emerging but Limited Experimentation:** Teams have some flexibility to try new approaches but must seek permission from leadership or follow established protocols for most changes. They have access to some organizational context, including goals and objectives, but may not have direct access to customer feedback or the financial performance of the company.
-4. **Self-Directed Innovation:** Teams have autonomy to pursue new ideas and make decisions. Their experiments are informed by direct access to customer feedback and relevant context that is proactively shared by leadership, including the organization's vision, goals, strategic priorities, and financial state.
+4. **Self-directed Innovation:** Teams have autonomy to pursue new ideas and make decisions. Their experiments are informed by direct access to customer feedback and relevant context that is proactively shared by leadership, including the organization's vision, goals, strategic priorities, and financial state.
 
 ### [Test Automation](/capabilities/test-automation.md)
 
@@ -247,14 +247,14 @@ To improve in a capability, navigate to its page by either clicking on its title
 ### [User-Centric Focus](/capabilities/user-centric-focus.md)
 
 1. **The Feature Factory:** Teams focus on output volume and use AI to ship more features without validating user impact or feedback.
-2. **Reactive & Proxy-Led:** Teams rely on siloed feedback and manual hand-offs, using AI to accelerate ticket completion rather than user outcomes.
-3. **Integrated & Spec-Driven:** Teams use spec-driven development and direct user observation to ensure AI outputs are grounded in verified requirements.
-4. **User-Invested & Self-Correcting:** Teams treat AI as a discovery partner, using real-time user metrics and rapid prototyping to pivot toward maximum value.
+2. **Reactive & Proxy-led:** Teams rely on siloed feedback and manual hand-offs, using AI to accelerate ticket completion rather than generate code that reflects validated user requirements.
+3. **Integrated & Spec-driven:** Teams use spec-driven development and direct user observation to ensure AI outputs are grounded in verified requirements.
+4. **User-invested & Self-correcting:** Teams treat AI as a discovery partner, using real-time user metrics and rapid prototyping to pivot toward maximum value.
 
 ### [Version Control](/capabilities/version-control.md)
 
 1. **Limited or No Adoption:** Version control is not used, or its use is limited to select teams, with no organization-wide adoption or standardization.
-2. **Basic Code and Data Storage:** Version control is used primarily for code and data backups, with limited or no version control for infrastructure and other assets.
+2. **Basic Code & Data Storage:** Version control is used primarily for code and data backups, with limited or no version control for infrastructure and other assets.
 3. **Standard Version Control:** Version control is used consistently across teams for code, configuration, data, infrastructure, and documentation. Disaster recovery is fully supported.
 4. **Advanced Version Control:** Version control is optimized for small, comprehensible changes, with a focus on making it easy to traverse and understand the history of changes across code, configurations, documentation, data, and infrastructure.
 
@@ -270,11 +270,11 @@ To improve in a capability, navigate to its page by either clicking on its title
 1. **No Visibility:** No visual management displays or dashboards are used, and teams lack visibility into their processes and progress.
 2. **Basic Dashboards:** Simple dashboards or visual displays are used, but they are not regularly updated, and teams do not actively use them to inform their work.
 3. **Informative Displays:** Visual management displays are used to track key metrics and progress, and teams regularly review and update them to inform their work and identify areas for improvement.
-4. **Real-Time Feedback:** Advanced visual management displays provide real-time feedback and insights, enabling teams to quickly identify and address issues, and make data-driven decisions to adjust their priorities and drive continuous improvement.
+4. **Real-time Feedback:** Advanced visual management displays provide real-time feedback and insights, enabling teams to quickly identify and address issues, and make data-driven decisions to adjust their priorities and drive continuous improvement.
 
 ### [Well-Being](/capabilities/well-being.md)
 
-1. **Overwhelmed and Undervalued:** Employees are consistently overwhelmed by work demands, have little control over their work, and feel undervalued and unrewarded, with a breakdown in community and a lack of fairness in decision-making processes.
+1. **Overwhelmed & Undervalued:** Employees are consistently overwhelmed by work demands, have little control over their work, and feel undervalued and unrewarded, with a breakdown in community and a lack of fairness in decision-making processes.
 2. **Managing the Load:** Teams are coping with work demands, but some employees are still struggling with a lack of control and autonomy, and rewards and recognition are inconsistent. While there are some efforts to build a sense of community, fairness and values alignment are still a work in progress.
 3. **Finding Balance:** Employees are generally happy and engaged, with a good work-life balance, and teams are making progress in addressing work overload, increasing control and autonomy, and providing sufficient rewards and recognition, but there is still room for improvement in building a sense of community and fairness.
 4. **Thriving Culture:** Employees are highly engaged, motivated, and happy, with a strong sense of well-being, and teams are consistently delivering high-quality work in a supportive and fair work environment, with a clear alignment between organizational and individual values, and opportunities for growth and development.

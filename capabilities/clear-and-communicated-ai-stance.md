@@ -31,7 +31,7 @@ Consider the descriptions below and score your team on this capability. Generall
 Don't worry if the description doesn't exactly match your situation. These descriptions are meant to be examples of situations that would qualify for the associated score.
 
 1. **Absent or Hidden:** No formal stance exists, or it is buried in legal documentation that is not shared with technical teams. Developers are unsure what is allowed, leading to either total avoidance or "underground" usage.
-2. **Reactive & Vague:** A stance exists but is mostly reactive (e.g., "don't put passwords in ChatGPT"). Guidelines are unclear, and there is no centralized place to find updates or ask questions about new tools.
+2. **Reactive & Vague:** A stance exists but is mostly reactive (e.g., "Don't put passwords in ChatGPT."). Guidelines are unclear, and there is no centralized place to find updates or ask questions about new tools.
 3. **Clear & Communicated:** There is a well-documented AI policy that is easily accessible. Most team members understand the boundaries of AI use, and there is a clear process for requesting or vetting new AI tools.
 4. **Integrated & Iterative:** The AI stance is part of the daily engineering culture. It is regularly updated based on team feedback and technological shifts. There is high confidence in using AI because the legal and security guardrails are clear and supportive.
 

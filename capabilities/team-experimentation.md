@@ -36,10 +36,10 @@ Consider the descriptions below and score yourself on the Team Experimentation c
 
 Don't worry if the description doesn't exactly match your situation. These descriptions are meant to be examples of situations that would qualify for the associated score.
 
-1. **Minimal or No Experimentation:** Teams follow a strict, rigid plan with little room for deviation or experimentation and must seek approval for even minor changes. They have limited visibility into the organization's overall goals and context, and they must pull information from leadership on an ad-hoc basis.
-2. **Highly Controlled Experimentation:** Teams are allowed to explore new ideas but within tightly defined parameters and with close oversight from leadership. Deadline pressure regularly takes priority over idea exploration. Teams must request access to relevant context and information, which is provided on an ad-hoc basis.
+1. **Minimal or No Experimentation:** Teams follow a strict, rigid plan with little room for deviation or experimentation and must seek approval for even minor changes. They have limited visibility into the organization's overall goals and context, and they must pull information from leadership on an ad hoc basis.
+2. **Highly Controlled Experimentation:** Teams are allowed to explore new ideas but within tightly defined parameters and with close oversight from leadership. Deadline pressure regularly takes priority over idea exploration. Teams must request access to relevant context and information, which is provided on an ad hoc basis.
 3. **Emerging but Limited Experimentation:** Teams have some flexibility to try new approaches but must seek permission from leadership or follow established protocols for most changes. They have access to some organizational context, including goals and objectives, but may not have direct access to customer feedback or the financial performance of the company.
-4. **Self-Directed Innovation:** Teams have autonomy to pursue new ideas and make decisions. Their experiments are informed by direct access to customer feedback and relevant context that is proactively shared by leadership, including the organization's vision, goals, strategic priorities, and financial state.
+4. **Self-directed Innovation:** Teams have autonomy to pursue new ideas and make decisions. Their experiments are informed by direct access to customer feedback and relevant context that is proactively shared by leadership, including the organization's vision, goals, strategic priorities, and financial state.
 
 The number you selected represents your overall score for this capability. If you feel like your team or organization fits somewhere in between two scores, it's okay to use a decimal. For example, if you think team experimentation is somewhere between highly controlled and emerging, you would score a 2.5.
 
@@ -75,7 +75,7 @@ Dogfooding your systems involves having your teams use the same products or syst
 
 ### [Treat Broken Builds Like Outages](/practices/treat-broken-builds-like-outages.md)
 
-Treating broken builds like outages creates the stable foundation experimentation depends on. A consistently green build gives teams a safe baseline, making it clear whether failures come from a new experiment or from existing instability, and providing the confidence to try new ideas without compounding risk.
+Treating broken builds like outages creates the stable foundation that experimentation depends on. A consistently green build gives teams a safe baseline where they can clearly distinguish whether failures come from a new experiment or from existing instability. It also builds the confidence to try new ideas without compounding risk.
 
 ## Adjacent Capabilities
 

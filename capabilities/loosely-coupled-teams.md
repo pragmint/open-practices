@@ -57,7 +57,7 @@ Reducing coupling between abstractions creates a modular and flexible codebase. 
 
 ### [Create a Team Charter](/practices/create-a-team-charter.md)
 
-Document clear guidelines that define roles, responsibilities, decision-making processes, and escalation paths. By writing out your team's charter, you ensure that everyone understands how decisions are made, how responsibilities are allocated, and how potential conflicts are resolved. This clarity helps teams operate autonomously while ensuring alignment, even when teams are loosely coupled.
+Document clear guidelines that define roles, responsibilities, decision-making processes, and escalation paths. Writing a team charter ensures that everyone understands how decisions are made, how responsibilities are allocated, and how potential conflicts are resolved. This clarity helps teams operate autonomously while ensuring alignment, even when teams are loosely coupled.
 
 ## Adjacent Capabilities
 

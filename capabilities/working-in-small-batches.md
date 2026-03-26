@@ -32,10 +32,10 @@ Consider the descriptions below and score yourself on the Working in Small Batch
 
 Don't worry if the description doesn't exactly match your situation. These descriptions are meant to be examples of situations that would qualify for the associated score.
 
-1. **Large Batches:** Work is done in large batches that take a long time (months) to complete, resulting in reduced visibility into progress, increased integration effort, delayed value, and high variability.
-2. **Moderate Batches:** Batches are moderately sized, taking several weeks to complete. There may be some delays in integration and value delivery, and moderate variability, making it difficult to track progress.
-3. **Small Batches:** Work is broken down into small batches that can be completed and integrated quickly (days). There is clear visibility into progress, relatively low integration effort, and faster value delivery with some variability.
-4. **Minimal Viable Batches:** Work is decomposed into extremely small, minimal viable batches that can be completed and integrated rapidly (hours). There is clear and continuous visibility into progress, minimal integration effort, and fast value delivery with low variability.
+1. **Large Batches:** Work is done in large batches that take a long time (months) to complete; this leads to reduced visibility into progress, increased integration effort, delayed value, and high variability.
+2. **Moderate Batches:** Batches are moderately sized, taking several weeks to complete; this can lead to some delays in integration and value delivery, and moderate variability, making it difficult to track progress.
+3. **Small Batches:** Work is broken down into small batches that can be completed and integrated quickly (days); this allows clear visibility into progress, relatively low integration effort, and faster value delivery, with some variability.
+4. **Minimal Viable Batches:** Work is decomposed into extremely small, minimal viable batches that can be completed and integrated rapidly (hours); this allows clear and continuous visibility into progress, minimal integration effort, and fast value delivery, with low variability.
 
 The number you selected represents your overall score for this capability. If you feel like your team or organization fits somewhere in between two scores, it's okay to use a decimal. For example, if you think your team works somewhere between moderate and small batches, then you would score a 2.5.
 
@@ -53,7 +53,7 @@ Start with defining a clear Minimum Viable Product (MVP). This is the simplest v
 
 Hold sessions that give teams an opportunity to practice decomposing features and break down user stories into small, independently valuable increments. This will likely push teams out of their comfort zone. But it's *good* to push teams to slice too much -- it's useful to know what "too much" looks like. Without opening their minds to new ways of slicing work, teams can easily revert to the original scope.
 
-### Instrument Systems With Telemetry Data
+### [Adopt the OpenTelemetry Standard](practices/adopt-the-opentelemetry-standard.md)
 
 To understand which batch to target next, it's useful to measure the value your system is creating. Instrument key parts of your application with telemetry data to gain real-time insights into usage patterns, performance bottlenecks, and opportunities to prioritize impactful changes.
 

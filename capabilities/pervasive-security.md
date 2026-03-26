@@ -26,10 +26,10 @@ Consider the descriptions below and score yourself on the Pervasive Security cap
 
 Don't worry if the description doesn't exactly match your situation. These descriptions are meant to be examples of situations that would qualify for the associated score.
 
-1. **Reactive:** Security is addressed only after issues arise, and there is little consideration of security concerns during development.
-2. **Basic:** Some security best practices are followed, but security is not a primary consideration during development and security reviews are infrequent.
-3. **Integrated:** Security is a key consideration during development, with internal security training and some use of automated security tooling.
-4. **Pervasive:** Security is deeply ingrained in the development culture. Continuous security testing, automated security tooling, and routine security reviews are integrated throughout the software development lifecycle.
+1. **Reactive Security:** Security is addressed only after issues arise, and there is little consideration of security concerns during development.
+2. **Basic Security:** Some security best practices are followed, but security is not a primary consideration during development, and security reviews are infrequent.
+3. **Integrated Security:** Security is a key consideration during development, with internal security training and some use of automated security tooling.
+4. **Pervasive Security:** Security is deeply ingrained in the development culture, with continuous security testing, automated security tooling, and routine security reviews throughout the software development lifecycle.
 
 The number you selected represents your overall score for this capability. If you feel like your team or organization fits somewhere in between two scores, it's okay to use a decimal. For example, if you think your team or organization has somewhere between basic and integrated security, you would score a 2.5.
 

@@ -42,10 +42,10 @@ Consider the descriptions below and score yourself on the Generative Organizatio
 
 Don't worry if the description doesn't exactly match your situation. These descriptions are meant to be examples of situations that would qualify for the associated score.
 
-1. Top-Down: Teams operate under a highly directive approach, with leadership providing explicit instructions and priorities. Autonomy for decision-making is limited. In the event of failure, the focus is on individual accountability and administering corrective action.
-2. Bureaucratic: Teams follow established procedures and protocols, with clear roles and responsibilities. Sometimes the specific instructions are vague or incomplete with no clear product leader. Teams have some flexibility to adapt to changing circumstances. However, leadership approval is still required for most meaningful decisions.
-3. Collaborative: Teams seek input and expertise from other teams to inform their decisions, but maintain clear ownership and responsibility for their work. Each team has some autonomy to make decisions within established boundaries. However, strategic direction is set by leadership, and teams are expected to align their work with these top-down priorities.
-4. Generative: Teams seek input and expertise from other teams to inform their decisions, but maintain clear ownership and responsibility for their work. Each team has some autonomy to make decisions within established boundaries. Strategic direction is set by leadership, but factors in ground-level feedback from the teams.
+1. **Top-down:** Teams operate under a highly directive approach, with leadership providing explicit instructions and priorities. Autonomy for decision-making is limited. In the event of failure, the focus is on individual accountability and administering corrective action.
+2. **Bureaucratic:** Teams follow established procedures and protocols, with clear roles and responsibilities. Sometimes the specific instructions are vague or incomplete with no clear product leader. Teams have some flexibility to adapt to changing circumstances. However, leadership approval is still required for most meaningful decisions.
+3. **Collaborative:** Teams seek input and expertise from other teams to inform their decisions, but maintain clear ownership and responsibility for their work. Each team has some autonomy to make decisions within established boundaries. However, strategic direction is set by leadership, and teams are expected to align their work with these top-down priorities.
+4. **Generative:** Teams seek input and expertise from other teams to inform their decisions, but maintain clear ownership and responsibility for their work. Each team has some autonomy to make decisions within established boundaries. Strategic direction is set by leadership, but factors in ground-level feedback from the teams.
 
 The number you selected represents your overall score for this capability. If you feel like your organization fits somewhere in between two scores, it's okay to use a decimal. For example, if you think your organization's culture is somewhere between bureaucratic and collaborative, you would score a 2.5.
 
@@ -61,7 +61,7 @@ After any incident or failure, organize a postmortem meeting where the focus is 
 
 ### Host Skip-Level 1:1s
 
-Skip-level 1:1s create a direct channel for information flow, regardless of one's status in the organization. They provide a safe space for employees to share concerns, ideas, and feedback with their manager's manager or another high-level leader. They also demonstrate to employees that their voices are valued, giving them a sense of empowerment and autonomy. The goal is to foster open communication and build trust across the organization. By listening to employees' concerns, leaders can identify and address potential issues before they escalate, reducing turnover and improving job satisfaction. Leaders can also offer guidance, mentorship, and opportunities for growth, aligning employees' goals with organizational objectives.
+Skip-level 1:1s create a direct channel for information flow, regardless of one's status in the organization. They provide a safe space for employees to share concerns, ideas, and feedback with their manager's manager or another high-level leader. They also demonstrate to employees that their voices are valued by a range of individuals, giving them a sense of empowerment and autonomy. The goal is to foster open communication and build trust across the organization. By listening to employees' concerns, leaders can identify and address potential issues before they escalate, reducing turnover and improving job satisfaction. Leaders can also offer guidance, mentorship, and opportunities for growth, aligning employees' goals with organizational objectives.
 
 ### Train Your Team To Have Crucial Conversations
 
@@ -89,7 +89,7 @@ Building a storyboard through a cross-functional VSM workshop creates space for 
 
 ### [Create a Team Charter](/practices/create-a-team-charter.md)
 
-Document clear guidelines that define roles, responsibilities, decision-making processes, and escalation paths. By writing out team charters, coordination ambiguity gets reduced. Ambiguity is one of the biggest hidden killers of cooperation. When people know who owns what and how to engage each other, they're more likely to collaborate earlier and more often instead of escalating late or working around one another.
+Document clear guidelines that define roles, responsibilities, decision-making processes, and escalation paths. Writing team charters reduces coordination ambiguity, which is one of the biggest hidden killers of cooperation. When people know who owns what and how to engage each other, they're more likely to collaborate earlier and often instead of escalating late or working around one another.
 
 ## Adjacent Capabilities
 

@@ -43,7 +43,7 @@ Don't worry if the description doesn't exactly match your situation. These descr
 1. **No Notifications:** There is no automated system of notifying teams that a failure has occurred in deployed environments. Failures are typically caught via manual QA or reported by users.
 2. **Rudimentary Notifications:** Some alerting rules are in place, but thresholds are not well-defined. Notifications are often irrelevant or too frequent.
 3. **Threshold-based Notifications:** Alerting rules are well-defined, with failure thresholds tuned to accurately spot issues. Notifications are relevant and timely.
-4. **Proactive Notification:** Rate of change metrics are tracked to proactively spot potential issues. There are automated responses to many notifications, and teams continuously review and refine alerting rules to anticipate and prevent failures.
+4. **Proactive Notifications:** Rate of change metrics are tracked to proactively spot potential issues. There are automated responses to many notifications, and teams continuously review and refine alerting rules to anticipate and prevent failures.
 
 The number you selected represents your overall score for this capability. If you feel like your team or organization fits somewhere in between two scores, it's okay to use a decimal. For example, if you think your team or organization has somewhere between basic and mature notifications, then you would score a 2.5.
 
@@ -53,7 +53,7 @@ Generally, an overall score equal to or less than 3 means you'll likely gain a l
 
 The following is a curated list of supporting practices to consider when looking to improve your team's Proactive Failure Notification capability. While not every practice will be beneficial in every situation, this list is meant to provide teams with fresh, pragmatic, and actionable ideas to support this capability.
 
-### Instrument Systems With Telemetry Data
+### [Adopt the OpenTelemetry Standard](practices/adopt-the-opentelemetry-standard.md)
 
 By instrumenting key parts of your application with telemetry data, teams gain real-time insights into usage patterns and performance bottlenecks. This gives them opportunities to prioritize changes that will have the greatest impact on the system.
 
