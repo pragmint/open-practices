@@ -53,7 +53,7 @@ Generally, an overall score equal to or less than 3 means you'll likely gain a l
 
 The following is a curated list of supporting practices to consider when looking to improve your team's Proactive Failure Notification capability. While not every practice will be beneficial in every situation, this list is meant to provide teams with fresh, pragmatic, and actionable ideas to support this capability.
 
-### Instrument Systems With Telemetry Data
+### [Adopt the OpenTelemetry Standard](practices/adopt-the-opentelemetry-standard.md)
 
 By instrumenting key parts of your application with telemetry data, teams gain real-time insights into usage patterns and performance bottlenecks. This gives them opportunities to prioritize changes that will have the greatest impact on the system.
 

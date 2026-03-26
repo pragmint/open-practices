@@ -53,7 +53,7 @@ Start with defining a clear Minimum Viable Product (MVP). This is the simplest v
 
 Hold sessions that give teams an opportunity to practice decomposing features and break down user stories into small, independently valuable increments. This will likely push teams out of their comfort zone. But it's *good* to push teams to slice too much -- it's useful to know what "too much" looks like. Without opening their minds to new ways of slicing work, teams can easily revert to the original scope.
 
-### Instrument Systems With Telemetry Data
+### [Adopt the OpenTelemetry Standard](practices/adopt-the-opentelemetry-standard.md)
 
 To understand which batch to target next, it's useful to measure the value your system is creating. Instrument key parts of your application with telemetry data to gain real-time insights into usage patterns, performance bottlenecks, and opportunities to prioritize impactful changes.
 
