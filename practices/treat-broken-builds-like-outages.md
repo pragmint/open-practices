@@ -15,7 +15,7 @@ Ultimately, this practice prioritizes long-term velocity over short-term output.
 
 ### Establish a Clear "Stop-the-Line" Policy
 
-Define an explicit team agreement: When the build breaks, restoring it is the top priority. No new feature work proceeds until the build is green again. Be precise about what qualifies as a broken build (e.g., failing required checks on main) and what “fixed” means. Ambiguity will weaken the practice.
+Define an explicit team agreement: When the build breaks, restoring it is the top priority. No new feature work proceeds until the build is green again. Be precise about what qualifies as a broken build (e.g., failing required checks on main) and what "fixed" means. Ambiguity will weaken the practice.
 
 ### Define Ownership and Response Expectations
 
@@ -35,7 +35,7 @@ Continuously tighten the loop so the behavior becomes automatic.
 ## Lessons From The Field
 
 - *Flaky Tests Undermine the Practice.* – If builds fail for non-deterministic reasons, teams quickly lose trust and stop treating failures as urgent. Stabilizing the test suite is a prerequisite for success.
-- *Lack of Ownership Leads to Stalled Builds.* – When it’s unclear who should fix a failure, builds can remain broken for extended periods. High-performing teams establish clear ownership and escalation paths.
+- *Lack of Ownership Leads to Stalled Builds.* – When it's unclear who should fix a failure, builds can remain broken for extended periods. High-performing teams establish clear ownership and escalation paths.
 - *Speed of Feedback Matters.* – If builds take too long to run, developers are less likely to respond quickly to failures. Faster pipelines lead to faster recovery and stronger adherence to the practice.
 - *Cultural Alignment is Critical.* – Treating builds like outages requires shared agreement that system health is more important than individual progress. Without this alignment, the practice becomes inconsistent.
 
