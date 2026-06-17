@@ -32,6 +32,10 @@ Generally, an overall score equal to or less than 3 means you'll likely gain a l
 
 The following is a curated list of supporting practices to consider when looking to improve your team's User-centric Focus capability. While not every practice will be beneficial in every situation, this list is meant to provide teams with fresh, pragmatic, and actionable ideas to support this capability.
 
+###  [Target an MVP](/practices/target-an-mvp.md)
+
+Start with defining a clear Minimum Viable Product (MVP). This is the simplest version of a product or feature that delivers value to users and allows the team to gather actionable feedback quickly — typically within weeks rather than months. Focus on identifying core user needs, then use the feedback to add small layers of improvements on top of the MVP.
+
 ### Talk Directly With Users
 
 Teams should establish direct channels for user feedback that are accessible to developers immediately. For teams using AI, these feedback loops are critical for refining workflows and validating that the AI's output aligns with reality. When feedback is integrated directly into the development cycle, the backlog can be continuously reprioritized, based on what users actually need.
