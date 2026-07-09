@@ -53,7 +53,7 @@ Develop scripts that automate the entire deployment process, including environme
 
 Use Infrastructure as Code (IaC) tools to define and manage your infrastructure through code rather than manual processes. Tools like [Terraform](https://github.com/hashicorp/terraform) or [Pulumi](https://github.com/pulumi/) allow you to version control your infrastructure configurations and provision environments automatically. Embracing IaC ensures environments are consistent and can be re-created reliably, which enhances deployment automation and reduces configuration drift.
 
-### Store Configuration in Its Own Repository
+### Version Control Your Configuration
 
 Keep all deployment scripts and configuration files in version control systems like Git. This practice allows teams to collaborate more efficiently, audit changes, and roll back to previous configurations if needed. Storing configurations in version control increases transparency and control over the deployment process, making it more manageable and secure.
 

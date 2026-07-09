@@ -1,19 +1,23 @@
-# Separate Config from Code
+# Decouple Configuration from Code
 
 Separating configuration from code is crucial for maintaining secure and flexible systems. Extracting configurable values makes systems adaptable, enabling easy adjustments without modifying the codebase. Sensitive information like passwords or API keys should be isolated to limit access to highly trusted team members.
 
 ## Nuance
 
 ### Configuration Storage
+
 Store sensitive configurations in secure, encrypted repositories or vaults, enforce strict access controls and conduct regular security audits. When considering storing options, favor ones that support versioning configuration changes so you retain the ability to restore to previous "known to work" configuration values.
 
 ### Deployment Complexity
+
 Adopting external configuration management introduces complexity in selecting and implementing the right tools and processes. Teams must navigate through options, considering factors such as integration, security, and scalability, to find a balance between the benefits of externalized configurations and the added complexity of managing them effectively.
 
 ### Environment Parity
+
 Use the same environment variables, configuration files, and services to ensure uniformity from development through production, thereby reducing deployment errors and operational discrepancies. Obviously the configured values will differ from environment to environment. The key consideration here is to maintain an identical "configuration schema" so to speak.
 
 ### Allow Local Overrides
+
 Allow local overrides of configuration values and provide developers with a blueprint to create their own local configuration files. For instance, an .env.example file might include placeholders for environment variables that need to be set but without providing any real keys or passwords. This keeps sensitive data out of application version control, without constraining developer productivity.
 
 ## How to Improve
@@ -71,13 +75,17 @@ How do we strike a balance between the flexibility of externalized configuration
 ## Supporting Capabilities
 
 ## [Version Control](/capabilities/version-control.md)
+
 By advocating for the exclusion of configuration and sensitive data from version control, this practice improves the Version Control Capability, by defining the exceptions where storing information in application code source control is not desirable.
 
 ## [Continuous Integration](https://dora.dev/devops-capabilities/technical/continuous-integration)
+
 Separate Config from Code facilitates more efficient and secure continuous integration (CI) processes. It allows for seamless integration of code changes by ensuring that environment-specific configurations do not interfere with the build process, thereby enhancing the reliability and speed of CI cycles.
 
 ## [Deployment Automation](https://dora.dev/devops-capabilities/technical/deployment-automation)
+
 This practice necessitates sophisticated deployment automation that can manage and inject external configurations at deployment time. By separating configuration from the codebase, deployment automation becomes a critical capability for applying different configurations across environments automatically, thus supporting scalable and repeatable deployments.
 
 ## [Monitoring and Observability](https://dora.dev/devops-capabilities/technical/monitoring-and-observability)
+
 While not directly related to monitoring and observability, this practice indirectly supports these capabilities by promoting cleaner and more manageable codebases. By keeping configuration data separate, it simplifies the application's operational landscape, making it easier to monitor and observe its behavior across different environments.
