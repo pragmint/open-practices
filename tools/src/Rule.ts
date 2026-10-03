@@ -16,20 +16,20 @@ export abstract class Rule<In, Ids extends string> {
         }
     }
 
-    abstract run(subject: In): void;
-    
-    protected reportVfileMessage(m: VFileMessage) {
+    abstract run(subject: In): void | Promise<void>;
+
+    protected reportVfileMessage(m: VFileMessage, defaultLevel: Level = 'error') {
         let ruleId = m.ruleId
         if (this.config === null || ruleId === undefined || this.config[ruleId] === undefined)
-            this.problems.push(new Problem(m, 'error'))
+            this.problems.push(new Problem(m, defaultLevel))
         else
             this.problems.push(new Problem(m, this.config[ruleId]))
     }
 
-    protected report(file: string, ruleId: Ids, message: string, place: Point) {
+    protected report(file: string, ruleId: Ids, message: string, place: Point, level: Level = 'error') {
         const m = new VFileMessage(message, { place, ruleId })
         m.file = file
-        this.reportVfileMessage(m)
+        this.reportVfileMessage(m, level)
     }
 
     getProblems(): Problem[] {
@@ -38,6 +38,10 @@ export abstract class Rule<In, Ids extends string> {
 
     hasProblems() {
         return this.problems.length !== 0
+    }
+
+    hasErrors() {
+        return this.problems.some(p => p.getLevel() === 'error')
     }
 
     print() {

@@ -2,7 +2,7 @@ import { readdirSync } from 'node:fs'
 import { join, resolve } from 'node:path'
 import { read } from 'to-vfile';
 
-const ROOT = join(Bun.main, '..','..')
+export const ROOT = resolve(join(import.meta.dir, '..', '..'))
 
 const getAllFiles = (dir: string): string[] => 
      readdirSync(dir, { withFileTypes: true }).flatMap((file) => {
@@ -22,5 +22,5 @@ export class Repo {
     static practices = async () => await getVfiles(practices())
     static resources = async () => await getVfiles(resources())
     static all = async () => await getVfiles([ ...capabilities(), ...practices(), ...resources()])
+    static files = async (paths: string[]) => await getVfiles(paths.map(p => resolve(p)))
 }
-

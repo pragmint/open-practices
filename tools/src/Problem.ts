@@ -27,6 +27,21 @@ export class Problem {
 
     getFileLocation = () => this.message.place
 
+    getLevel = () => this.level
+
+    getRuleId = () => this.message.ruleId
+
+    toJSON() {
+        return {
+            file: this.message.file,
+            line: this.point.line,
+            column: this.point.column,
+            ruleId: this.message.ruleId,
+            level: this.level,
+            message: this.message.message,
+        }
+    }
+
     print() {
         if (this.level === 'silent') return;
 

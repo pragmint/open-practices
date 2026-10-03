@@ -31,4 +31,9 @@ This is correct.
         rule.run(mkInput(`# Some Heading`))
         expect(rule.getProblems()).toBeEmpty()
     })
+    it('should ignore lines starting with # inside code fences', () => {
+        const rule = mkRule()
+        rule.run(mkInput("```bash\n# a comment\necho hi\n```\n"))
+        expect(rule.getProblems()).toBeEmpty()
+    })
 })
