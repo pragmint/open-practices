@@ -1,8 +1,8 @@
 # Treat Broken Builds Like Outages
 
-Treating broken builds like outages is a cultural and technical discipline where a failure in the Continuous Integration (CI) pipeline is regarded as a high-severity incident. In this model, when the build fails, the team stops all new feature development and focuses immediately on restoring the build to a green state. This mindset shifts the build failure from being a background annoyance to a "stop-the-line" event, similar to the "Andon Cord" concept in lean manufacturing, ensuring that defects are not passed downstream or compounded by subsequent merges.
+Treating broken builds like outages is a cultural and technical discipline where the team regards a failure in the continuous integration (CI) pipeline as a high-severity incident. In this model, when the build fails, the team stops all new feature development and focuses immediately on restoring the build to a green state. This mindset shifts the build failure from being a background annoyance to a "stop-the-line" event, similar to the "Andon Cord" concept in lean manufacturing. It ensures that defects are not passed downstream or compounded by subsequent merges.
 
-The goal of this practice is to maintain trust in the deployment pipeline. When a build stays broken for an extended period, developers may begin to ignore test results, assuming that failures are "normal" or unrelated to their own changes. This erosion of trust leads to the accumulation of technical debt and makes isolating the root cause of errors significantly more difficult. By treating the build as the heartbeat of the delivery system, teams ensure that the feedback loop remains tight and accurate.
+The goal of this practice is to maintain trust in the deployment pipeline. When a build stays broken for an extended period, developers may begin to ignore test results, assuming that failures are "normal" or unrelated to their own changes. This erosion of trust leads to the accumulation of technical debt and makes isolating the root cause of errors significantly more difficult. By treating the build as the heartbeat of the delivery system, teams keep the feedback loop tight and accurate.
 
 Ultimately, this practice prioritizes long-term velocity over short-term output. While stopping work to fix a build may seem like an interruption, it actually prevents the much larger slowdowns caused by debugging complex, multi-layered failures later in the process. It ensures that the main branch remains in a consistently deployable state, allowing the team to release software on demand without fear of hidden regressions.
 
@@ -15,7 +15,7 @@ Ultimately, this practice prioritizes long-term velocity over short-term output.
 
 ### Establish a Clear "Stop-the-Line" Policy
 
-Define an explicit team agreement: When the build breaks, restoring it is the top priority. No new feature work proceeds until the build is green again. Be precise about what qualifies as a broken build (e.g., failing required checks on main) and what "fixed" means. Ambiguity will weaken the practice.
+Define an explicit team agreement: When the build breaks, restoring it is the top priority. No new feature work proceeds until the build is green again. Be precise about what qualifies as a broken build (e.g., failing required checks on the main branch) and what "fixed" means. Ambiguity will weaken the practice.
 
 ### Define Ownership and Response Expectations
 
@@ -34,14 +34,14 @@ Continuously tighten the loop so the behavior becomes automatic.
 
 ## Lessons From The Field
 
-- *Flaky Tests Undermine the Practice.* – If builds fail for non-deterministic reasons, teams quickly lose trust and stop treating failures as urgent. Stabilizing the test suite is a prerequisite for success.
-- *Lack of Ownership Leads to Stalled Builds.* – When it's unclear who should fix a failure, builds can remain broken for extended periods. High-performing teams establish clear ownership and escalation paths.
-- *Speed of Feedback Matters.* – If builds take too long to run, developers are less likely to respond quickly to failures. Faster pipelines lead to faster recovery and stronger adherence to the practice.
-- *Cultural Alignment is Critical.* – Treating builds like outages requires shared agreement that system health is more important than individual progress. Without this alignment, the practice becomes inconsistent.
+- *Flaky Tests Undermine the Practice.* If builds fail for non-deterministic reasons, teams quickly lose trust and stop treating failures as urgent. Stabilizing the test suite is a prerequisite for success.
+- *Lack of Ownership Leads to Stalled Builds.* When it's unclear who should fix a failure, builds can remain broken for extended periods. High-performing teams establish clear ownership and escalation paths.
+- *Speed of Feedback Matters.* If builds take too long to run, developers are less likely to respond quickly to failures. Faster pipelines lead to faster recovery and stronger adherence to the practice.
+- *Cultural Alignment Is Critical.* Treating builds like outages requires shared agreement that system health is more important than individual progress. Without this alignment, the practice becomes inconsistent.
 
-## Deciding to Pitch or Polish
+## Deciding to Polish or Pitch
 
-After experimenting with this practice for **4–5 weeks**, bring the team together to determine whether the following metrics and/or signals have changed in a positive direction:
+After experimenting with this practice for **4-5 weeks**, bring the team together to determine whether the following metrics and/or signals have changed in a positive direction:
 
 ### Fast & Measurable
 
@@ -55,7 +55,7 @@ After experimenting with this practice for **4–5 weeks**, bring the team toget
 
 **Deployment readiness**. The main branch remains consistently deployable, enabling more frequent and reliable releases.
 
-## Supported Capabilities
+## Supporting Capabilities
 
 ### [Continuous Integration](/capabilities/continuous-integration.md)
 
