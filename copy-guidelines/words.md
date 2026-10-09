@@ -2,7 +2,7 @@
 
 This is the house word list for the Open Practices repository. It records spelling, capitalization, and hyphenation decisions so every page reads the same way. When this list and the [style guide](styleguide.md) disagree, this list wins for the specific term.
 
-For anything not listed here, follow *Merriam-Webster's Collegiate Dictionary*.
+For anything not listed here, follow first *The Chicago Manual of Style, 18th edition*, then follow *Merriam-Webster's Collegiate Dictionary*.
 
 ## How This List Is Used
 
@@ -155,5 +155,5 @@ To add an entry:
 | Use | Don't use | Notes |
 |---|---|---|
 | `well-being` | `wellbeing`, `well being` | Capitalize "Well" only in the capability title ("Well-being"); the "b" stays lowercase |
-| `work in process`, `WIP` | `work in progress` | When referring to WIP limits, follow the DORA capability name (Work-in-Process Limits) |
+| `work in process`, `WIP` | `work in progress` | When referring to WIP limits, follow the DORA capability name ("Work in process limits"); do not hyphenate |
 | `workstation` | `work station` | |

@@ -10,7 +10,7 @@ When two sources disagree, the first one in this list wins:
 
 1. [words.md](words.md), for the specific terms it lists
 2. This style guide
-3. *The Chicago Manual of Style*
+3. *The Chicago Manual of Style, 18th edition*
 4. *Merriam-Webster's Collegiate Dictionary*
 
 ### House Conventions at a Glance
@@ -38,32 +38,32 @@ Open Practices pages are written by practitioners for practitioners. They should
 - **Make claims you can support.** If a statement comes from research, link to the research. If it comes from experience, say so ("in our experience"). Don't present opinion as settled fact.
 - **Acknowledge trade-offs.** Every practice has costs and situations where it doesn't fit. Saying so builds trust.
 - **Skip throat-clearing.** Don't open with "In today's fast-paced world" or "It's no secret that." Start with the point.
-- **Avoid hype.** Cut "revolutionary," "game-changing," "seamless," "robust," "best-in-class," and "leverage" (use "use").
+- **Avoid hype.** Cut "revolutionary," "game-changing," "seamless," "robust," "best-in-class," and "leverage" or "utilize" (use "use").
 - **Keep sentences short.** Aim for an average under 25 words. If a sentence needs two commas and a parenthetical to survive, split it.
 - **Use contractions.** "Don't," "it's," and "you'll" keep the tone conversational. Don't contract nouns with verbs ("the team'll").
 
 ## Page Types
 
-The repository has three kinds of pages. Each has a template or an established pattern; follow it rather than inventing new structure.
+The repository has three kinds of pages: practices, resources, and capabilities. Each has a template or an established pattern; follow it rather than inventing new structure.
 
 ### Practices
 
 Practices follow [templates/new-practice.md](/templates/new-practice.md). The linter checks the structure **(linted)**.
 
-- **Title.** An imperative verb phrase in title case that names what the team does: "Run Pair Programming Sessions," "Treat Broken Builds Like Outages." Not a noun phrase ("Pair Programming") and not a gerund ("Running Pair Programming Sessions").
-- **Introduction.** Two to four paragraphs. The first paragraph says what the practice is. The rest say why it matters and what it changes. No heading above the introduction other than the title.
-- **When to Experiment.** Two to six bullets, each a persona in this form: "You're a [role] who needs to [goal] so you can [outcome]." Lowercase the role ("You're a developer"), unless it's a proper noun. Use "You're a" or "You're an" consistently within a page.
-- **How to Gain Traction.** Two to four steps as H3 headings, in the order a team would do them. Each step heading is an imperative phrase ("Run a Pilot on a Single Repo"). Each step has one paragraph.
-- **Lessons From The Field.** Two to six bullets. Each opens with a short italic lead-in in title case that ends with a period, followed by the explanation: `- *Review Fatigue Kills Trust.* When teams adopt...`. Lessons should come from real observation. If you don't have a real example, leave the bullet out.
-- **Deciding to Polish or Pitch.** Opens with the template sentence exactly as written, changing only the duration, which is bold: "After experimenting with this practice for **2-3 weeks**, bring the team together..." The sentence ends with a colon **(linted)**. Sub-headings are limited to the four quadrants: Fast & Measurable, Slow & Measurable, Fast & Intangible, and Slow & Intangible **(linted)**. Each benefit opens with a bold title that ends with a period: `**Fewer broken builds**. The number of...`. A "measurable" signal must name something a team can actually count.
-- **Supporting Capabilities.** Two to six capabilities. Each H3 is a link to the capability page **(linted)**, followed by two to four sentences about how this practice supports that capability.
+- **Title.** An H1 imperative verb phrase in title case that names what the team does: "Run Pair Programming Sessions," "Treat Broken Builds Like Outages." Not a noun phrase ("Pair Programming") and not a gerund ("Running Pair Programming Sessions").
+- **Introduction.** Two to four paragraphs. The first paragraph says what the practice is. The rest say why it matters and what problems it solves. No heading above the introduction other than the title.
+- **When to Experiment.** H2 header. Two to six bullets, each a persona in this form: "You're a [role] who needs to [goal] so you can [outcome]." Lowercase the role ("You're a developer"), unless it's a proper noun. Use "You're a" or "You're an" consistently within a page.
+- **How to Gain Traction.** H2 header. Two to four actionable steps as H3 headings, in the order a team would do them. Each step heading is an imperative phrase ("Run a Pilot on a Single Repo"). Each step has one paragraph.
+- **Lessons From The Field.** H2 header. Two to six bullets. Each opens with a short italic lead-in in title case that ends with a period, followed by the explanation: `- *Review Fatigue Kills Trust.* When teams adopt...`. Lessons should come from real observation. If you don't have a real example, leave the bullet out.
+- **Deciding to Polish or Pitch.** H2 header. Opens with the template sentence exactly as written, changing only the duration, which is bold: "After experimenting with this practice for **2-3 weeks**, bring the team together..." The sentence ends with a colon **(linted)**. Sub-headings are limited to the four quadrants: Fast & Measurable, Slow & Measurable, Fast & Intangible, and Slow & Intangible **(linted)**. Each benefit opens with a bold title that ends with a period: `**Fewer broken builds**. The number of...`. A "measurable" signal must name something a team can actually count and/or a tool used to take the measurement.
+- **Supporting Capabilities.** H2 header. Two to six capabilities. Each H3 is a link to the capability page **(linted)**, followed by two to four sentences about how this practice supports that capability.
 
 ### Resources
 
 Resources follow [templates/new-resource.md](/templates/new-resource.md).
 
 - **Header.** An H1 with the resource's title (add "by [Author]" for talks and books when it helps), then a `Resource type:` line, then a link to the resource **(linted)**. Use one of the resource types the linter accepts, in title case: Article, Blog Post, Book, Code Kata, Code Snippet, Course, Documentation, Podcast, Roundtable Discussion, Video, Video & Transcript, or Workshop.
-- **Summary.** A paragraph saying what the resource covers and why a team would spend time on it.
+- **Summary.** H2 header. A paragraph saying what the resource covers and why a team would spend time on it.
 - **Annotations.** Pick the sections that fit the resource type. Common sections are Opening Questions, Core Themes & Concepts to Explore, Team Exercises, Reflection Prompts, Facilitator Tip, and How This Resource Brings Value. Books may add chapters to focus on and an estimated reading time. Videos may add timestamps.
 - **Accuracy.** Anything that describes the resource's content (a theme, a quote, a timestamp, a chapter) must come from the resource itself or from someone who has read or watched it. Never guess a timestamp or a chapter number.
 
@@ -73,7 +73,7 @@ Capability pages summarize [DORA research](https://dora.dev/). Keep the capabili
 
 ## Headings
 
-- **Title case for H1, H2, and H3 (linted).** Capitalize every word of four or more letters, and every noun, pronoun, verb, adjective, and adverb ("Is," "Be," "It"). Lowercase articles (a, an, the), coordinating conjunctions (and, but, or, nor, for, so, yet), and prepositions of three letters or fewer (as, at, by, in, of, off, on, per, to, up, via, vs.), unless they're the first or last word. So: "Talk Directly With Users," "Lessons From The Field," "Run a Pilot on a Single Repo." Capitalize the first part of a hyphenated compound. Capitalize the later parts too ("Long-Term Velocity") unless words.md says otherwise ("Trunk-based Development"). The linter checks only the first part.
+- **Title case for H1, H2, and H3 (linted).** Capitalize every word of four or more letters, and every noun, pronoun, verb, adjective, and adverb ("Is," "Be," "It"). Lowercase articles (a, an, the), coordinating conjunctions (and, but, or, nor, for, so, yet), and prepositions of three letters or fewer (as, at, by, in, of, off, on, per, to, up, via, vs.), unless they're the first or last word. So: "Talk Directly With Users," "Lessons From The Field," "Run a Pilot on a Single Repo." Capitalize the first part of a hyphenated compound. Lowercase second part of compound ("Trunk-based Development"). The linter checks only the first part.
 - **H4 and lower** use the same title case for consistency, but the linter doesn't check them.
 - **Template headings are fixed.** Don't reword "When to Experiment," "Lessons From The Field," or the other template headings.
 - **No formatting in headings.** No bold, italics, or inline code. Links are allowed only where a template calls for them (capability and practice links).
@@ -86,7 +86,7 @@ Capability pages summarize [DORA research](https://dora.dev/). Keep the capabili
 ### Commas
 
 - **Use the serial comma:** "tests, builds, and deployments."
-- Put a comma after an introductory clause longer than a few words.
+- Commas (and periods) go inside quotation marks. 
 - Don't join two complete sentences with only a comma. Use a period, a semicolon, or a conjunction.
 
 ### Dashes
@@ -149,7 +149,7 @@ Capability pages summarize [DORA research](https://dora.dev/). Keep the capabili
 
 ## Abbreviations and Acronyms
 
-- **Spell out on first use,** followed by the abbreviation in parentheses: "work in process (WIP)." Use the abbreviation after that.
+- **Spell out on first use,** followed by the abbreviation in parentheses: "work in process (WIP)." Use the abbreviation after that. 
 - **No need to spell out** widely known abbreviations: AI, API, CI, CD, CLI, CPU, HTML, HTTP, IDE, JSON, PR (after its first use on a page), SQL, UI, URL, UX.
 - **Don't spell out acronyms in headings** unless the abbreviation is obscure. Spell it out in the first sentence after the heading instead.
 - **No periods** in acronyms (AI, not `A.I.`).
@@ -173,7 +173,7 @@ Pages may be drafted with AI help, including the `/draft-practice` and `/annotat
 - **Anecdotes must be real.** Every story, client example, and "we've seen" claim must come from the author or a named source. A model must never invent one to fill a gap. If no real example exists, cut the bullet or section.
 - **Claims must be sourced.** Statistics, research findings, and quotes need a link to where they came from.
 - **Resource details must be verified.** Descriptions of a book, talk, or article must come from the resource itself or from someone who has read or watched it. See [Resources](#resources).
-- **The author owns the result.** A person reviews every page before it's merged and is accountable for what it says.
+- **The author owns the result.** The author reviews every page before it's merged and is accountable for what it says.
 
 ## Formatting
 
@@ -181,7 +181,7 @@ Pages may be drafted with AI help, including the `/draft-practice` and `/annotat
 
 - **No raw HTML,** including HTML comments, in published pages **(linted).** Template comments must be deleted before a page is merged.
 - **No tabs,** no trailing whitespace, and a single newline at the end of the file **(linted).**
-- **One H1 per page,** as the first line.
+- **One H1 per page,** as the first line/title.
 - **Tables** are fine for comparisons but are hard to read on phones. Keep them narrow.
 
 ### Emphasis and Code
