@@ -18,3 +18,13 @@ We are looking for contributions in the following areas:
 6. Typos or grammatical fixes.
 
 If you chose to contribute a new practice or resource, please try to follow our pre-established structure. We've created templates with guided instructions so you can more easily make a contribution. You can check them out in the [templates directory](/templates/).
+
+## Drafting With Claude Code
+
+If you use [Claude Code](https://claude.com/claude-code), this repository includes skills that walk you through a contribution from idea to pull request:
+
+- `/draft-practice` turns your idea for a new practice into a finished page. It interviews you, researches overlap with existing practices, drafts the page from the template, copy-edits it, and links it from the capabilities it supports.
+- `/annotate-resource` turns a book, talk, or article into an annotated resource page and links it from the practices it supports. It only describes what it (or you) can actually verify about the resource.
+- `/copy-edit <page>` applies our [style guide](/copy-guidelines/styleguide.md) and [word list](/copy-guidelines/words.md) to any page.
+
+Each skill pauses for your review after every step and saves its progress in a gitignored `.tmp/` folder, so you can stop and pick up in a later session. Whatever tools you use, every page is held to the same [style guide](/copy-guidelines/styleguide.md), and the linter in [tools/](/tools/README.md) checks much of it automatically.
