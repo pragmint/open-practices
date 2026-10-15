@@ -43,7 +43,7 @@ Section titles can be duplicated.
 -->
 
 <!-- Leave the following text exactly as is, except for the bracketed duration, which can vary. -->
-After experimenting with this practice for [2-3 weeks], bring the team together to determine whether the following metrics and/or signals have changed in a positive direction.
+After experimenting with this practice for **[2-3 weeks]**, bring the team together to determine whether the following metrics and/or signals have changed in a positive direction:
 
 ### Fast & Measurable
 
@@ -61,7 +61,7 @@ After experimenting with this practice for [2-3 weeks], bring the team together 
 
 **Title of benefit**. 2-4 sentences about the benefit.
 
-## Supported Capabilities
+## Supporting Capabilities
 
 <!-- 
 
