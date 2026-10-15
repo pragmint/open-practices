@@ -41,11 +41,11 @@ After experimenting with this practice for **one month**, bring the team togethe
 
 ### Fast & Measurable
 
-**Lead time for changes spanning multiple repositories should decrease.** By consolidating services into a monorepo, teams can make cross-cutting changes without repo-hopping or chaining pull requests across repos, reducing coordination overhead and speeding up delivery. Tools like [DX](https://getdx.com/platform/data-lake/), [Jellyfish](https://jellyfish.co/platform/engineering-metrics/), or others can measure these kinds of lead time changes. Teams can also build custom solutions using data from project planning tools like [Jira](https://community.atlassian.com/forums/App-Central-articles/Cycle-Time-and-Lead-Time-in-Jira-Productivity-Measurement-with/ba-p/1905845), [monday.com](https://monday.com/blog/project-management/what-is-lead-time/), or others.
+**Faster Cross-Repo Changes.** By consolidating services into a monorepo, teams can make cross-cutting changes without repo-hopping or chaining pull requests across repos, reducing coordination overhead and speeding up delivery. Tools like [DX](https://getdx.com/platform/data-lake/), [Jellyfish](https://jellyfish.co/platform/engineering-metrics/), or others can measure these kinds of lead time changes. Teams can also build custom solutions using data from project planning tools like [Jira](https://community.atlassian.com/forums/App-Central-articles/Cycle-Time-and-Lead-Time-in-Jira-Productivity-Measurement-with/ba-p/1905845), [monday.com](https://monday.com/blog/project-management/what-is-lead-time/), or others.
 
 ### Slow & Intangible
 
-**Cleaner service boundaries should evolve over time because refactoring those boundaries becomes easier.** Teams can remove poor service boundaries with less friction when everything lives in one repo. On the flip side, teams can more quickly extract new services with the shared tooling, configuration, and build setup.
+**Cleaner Service Boundaries.** Refactoring coundaries becomes easier. Teams can remove poor service boundaries with less friction when everything lives in one repo. On the flip side, teams can more quickly extract new services with the shared tooling, configuration, and build setup.
 
 ## Supporting Capabilities
 

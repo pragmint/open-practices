@@ -38,11 +38,11 @@ After experimenting with this practice for **2-3 weeks**, bring the team togethe
 
 ### Fast & Measurable
 
-**Faster mean time to recovery**. Developers should find and confirm root cause faster when they have direct access to the data. This can be tracked via incident timelines in postmortems, Jira, or similar incident tooling.
+**Faster Mean Time to Recovery**. Developers should find and confirm root cause faster when they have direct access to the data. This can be tracked via incident timelines in postmortems, Jira, or similar incident tooling.
 
 ### Fast & Intangible
 
-**Increased team confidence when troubleshooting**. With control over the dashboard and direct access to the data, the team should feel more confident when troubleshooting because they have the tools they need to do their job.
+**Increased Team Confidence When Troubleshooting**. With control over the dashboard and direct access to the data, the team should feel more confident when troubleshooting because they have the tools they need to do their job.
 
 ## Supporting Capabilities
 

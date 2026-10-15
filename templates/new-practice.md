@@ -4,7 +4,7 @@ Introduction. 2-4 paragraphs.
 
 ## When to Experiment
 
-<!-- These bullet points are in the form of personas. Example: You are a Developer and you need to make coordinated changes across services without repo-hopping so you can move faster with less friction. --> 
+<!-- These bullet points are in the form of personas. Example: You are a Developer and you need to make coordinated changes across services without repo-hopping so you can move faster with less friction. -->
 2-6 bullet points. (use markdown dash syntax for unordered lists)
 - Reason 1
 - Reason 2
@@ -31,12 +31,12 @@ Introduction. 2-4 paragraphs.
 
 ## Deciding to Polish or Pitch
 
-<!-- 
+<!--
 This section is about deciding whether the practice you have implemented as a company should be integrated into your workflow or whether it should be removed. It is built of a list of effects that should be seen after you have experimented with the practice.
 
 This section's sub-headings are categorical instead of titles. Each sub-heading has two parts, each with two options. The first part describes how long it will take for this benefit to start being seen -- Fast vs Slow (fast is counted in weeks and slow is counted in months). The second part describes whether the benefit is qualitative or quantitative -- Intangible vs Measurable.
 
-This is an example: https://github.com/pragmint/open-practices/blob/main/practices/perform-automated-code-analysis.md. 
+This is an example: https://github.com/pragmint/open-practices/blob/main/practices/perform-automated-code-analysis.md.
 
 Section titles can be duplicated.
 
@@ -47,27 +47,27 @@ After experimenting with this practice for **[2-3 weeks]**, bring the team toget
 
 ### Fast & Measurable
 
-**Title of benefit**. 2-4 sentences about the benefit.
+**Title of Benefit.** 2-4 sentences about the benefit.
 
 ### Slow & Measurable
 
-**Title of benefit**. 2-4 sentences about the benefit.
+**Title of Benefit.** 2-4 sentences about the benefit.
 
 ### Fast & Intangible
 
-**Title of benefit**. 2-4 sentences about the benefit.
+**Title of Benefit.** 2-4 sentences about the benefit.
 
 ### Slow & Intangible
 
-**Title of benefit**. 2-4 sentences about the benefit.
+**Title of Benefit.** 2-4 sentences about the benefit.
 
 ## Supporting Capabilities
 
-<!-- 
+<!--
 
 This section will list 2-6 capabilities that are supported by the practice.
 
-The following must be from this list: ai-accessible-internal-data.md, clear-and-communicated-ai-stance.md, code-maintainability.md, continuous-delivery.md, continuous-integration.md, customer-feedback.md, database-change-management.md, deployment-automation.md, documentation-quality.md, empowering-teams-to-choose-tools.md, flexible-infrastructure.md, generative-organizational-culture.md, healthy-data-ecosystems.md, job-satisfaction.md, learning-culture.md, loosely-coupled-teams.md, monitoring-and-observability.md, monitoring-systems-to-inform-business-decisions.md, pervasive-security.md, platform-engineering.md, proactive-failure-notification.md, streamline-change-approval.md, team-experimentation.md, test-automation.md, test-data-management.md, transformational-leadership.md, trunk-based-development.md, user-centric-focus.md, version-control.md, visibility-of-work-in-the-value-stream.md, visual-management.md, well-being.md, work-in-process-limits.md, working-in-small-batches.md 
+The following must be from this list: ai-accessible-internal-data.md, clear-and-communicated-ai-stance.md, code-maintainability.md, continuous-delivery.md, continuous-integration.md, customer-feedback.md, database-change-management.md, deployment-automation.md, documentation-quality.md, empowering-teams-to-choose-tools.md, flexible-infrastructure.md, generative-organizational-culture.md, healthy-data-ecosystems.md, job-satisfaction.md, learning-culture.md, loosely-coupled-teams.md, monitoring-and-observability.md, monitoring-systems-to-inform-business-decisions.md, pervasive-security.md, platform-engineering.md, proactive-failure-notification.md, streamline-change-approval.md, team-experimentation.md, test-automation.md, test-data-management.md, transformational-leadership.md, trunk-based-development.md, user-centric-focus.md, version-control.md, visibility-of-work-in-the-value-stream.md, visual-management.md, well-being.md, work-in-process-limits.md, working-in-small-batches.md
 
 -->
 
