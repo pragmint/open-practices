@@ -65,7 +65,7 @@ Implementing automatic database migrations ensures database schema changes are c
 
 Automating deployment scripts ensures the steps required to release software are explicitly defined, repeatable, and versioned alongside the rest of the system. This practice reduces manual error, improves reproducibility across environments, and makes it easier to trace, audit, and roll back deployments when issues arise.
 
-### [Separate Config from Code](/practices/separate-config-from-code.md)
+### [Decouple Configuration from Code](/practices/decouple-configuration-from-code.md)
 
 This practice separates application code from operational configurations, which enhances security and deployment processes. It minimizes risks associated with data exposure, focusing version control efforts on code changes.
 
