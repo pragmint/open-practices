@@ -43,6 +43,10 @@ Generally, an overall score equal to or less than 3 means you'll likely gain a l
 
 The following is a curated list of supporting practices to consider when looking to improve your team's Customer Feedback capability. While not every practice will be beneficial in every situation, this list is meant to provide teams with fresh, pragmatic, and actionable ideas to support this capability.
 
+###  [Target an MVP](/practices/target-an-mvp.md)
+
+Start with defining a clear Minimum Viable Product (MVP). This is the simplest version of a product or feature that delivers value to users and allows the team to gather actionable feedback quickly — typically within weeks rather than months. Focus on identifying core user needs, then use the feedback to add small layers of improvements on top of the MVP.
+
 ### Talk Directly with Users
 
 Regularly schedule interviews with users to gather qualitative insights on their experiences, challenges, and needs. These interviews can reveal deeper user motivations and issues that are not apparent from metrics alone. By directly engaging with users, teams can prioritize features that address real problems, leading to increased adoption and satisfaction.
